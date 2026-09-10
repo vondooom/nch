@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dog of the Week — NorCalHunt</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script src="/support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>body{margin:0;background:#F5F1E8}a{color:#2F4A2C;text-decoration:none}a:hover{color:#C75B12}</style>
+<script src="/image-slot.js"></script>
+</helmet>
+<div style="font-family:Barlow,sans-serif;color:#211D14">
+<div style="background:#1C2B1A;color:#D9D2BA;font:500 12px/1.4 Barlow,sans-serif;letter-spacing:.14em;text-transform:uppercase;text-align:center;padding:8px 16px">Weekly intel for the Northern California hunter &nbsp;·&nbsp; 100% free &nbsp;·&nbsp; Every Tuesday</div>
+<header style="background:#F5F1E8;border-bottom:2px solid #211D14;position:sticky;top:0;z-index:50">
+  <div style="max-width:1180px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;gap:24px;flex-wrap:wrap">
+    <a href="index.html" style="font:700 30px/1 'Barlow Condensed',sans-serif;color:#1C2B1A;letter-spacing:.02em">NORCAL<span style="color:#C75B12">HUNT</span></a>
+    <nav style="display:flex;gap:18px;flex-wrap:wrap;align-items:center;margin-left:auto;font:600 15px/1 'Barlow Condensed',sans-serif;letter-spacing:.09em;text-transform:uppercase">
+      <a href="conditions.html">Conditions</a>
+      <a href="regulations.html">Regs</a>
+      <a href="newsletters.html">Newsletters</a>
+      <a href="field-stories.html">Stories</a>
+      <a href="gear.html">Gear</a>
+      <a href="local-boys.html">Local Boys</a>
+      <a href="dog-of-the-week.html" style="color:#C75B12;border-bottom:2px solid #C75B12;padding-bottom:3px">Dogs</a>
+      <a href="marketplace.html">Marketplace</a>
+      <a href="about.html">About</a>
+      <a href="subscribe.html" style="background:#C75B12;color:#FFF6E8;padding:9px 18px">Subscribe</a>
+    </nav>
+  </div>
+</header>
+<section style="max-width:1180px;margin:0 auto;padding:48px 24px 80px">
+  <div style="font:600 14px/1 'Barlow Condensed',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#C75B12;margin-bottom:10px">Dog of the Week</div>
+  <h1 style="font:700 clamp(36px,5vw,56px)/1 'Barlow Condensed',sans-serif;text-transform:uppercase;margin:0 0 14px">The best hunting partners have four legs</h1>
+  <p style="font:400 17px/1.6 'Source Serif 4',serif;color:#5C543F;max-width:640px;margin:0 0 30px;text-wrap:pretty">Every issue features one NorCal hunting dog and the story behind it. Here's the running gallery — send us yours and we'll put it in front of the whole pack.</p>
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px">
+    <sc-for list="{{ dogs }}" as="d" hint-placeholder-count="6">
+      <div style="background:#FBF8F0;border:1px solid #D8CDB4;display:flex;flex-direction:column">
+        <div style="height:230px">
+          <image-slot id="{{ d.slot }}" shape="rect" src="{{ d.src }}" credit="{{ d.credit }}" credit-href="{{ d.chref }}" placeholder="{{ d.ph }}"></image-slot>
+        </div>
+        <div style="padding:20px 22px;display:flex;flex-direction:column;gap:8px;flex:1">
+          <div style="display:flex;justify-content:space-between;gap:10px;align-items:baseline">
+            <div style="font:700 24px/1 'Barlow Condensed',sans-serif;text-transform:uppercase;color:#1C2B1A">{{ d.name }}</div>
+            <div style="font:500 12px/1.3 Barlow,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#8A8163;text-align:right">{{ d.week }}</div>
+          </div>
+          <div style="font:600 14px/1.3 'Barlow Condensed',sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#2F4A2C">{{ d.breed }}</div>
+          <div style="font:400 15px/1.55 'Source Serif 4',serif;color:#5C543F">{{ d.story }}</div>
+        </div>
+      </div>
+    </sc-for>
+  </div>
+  <div style="border:2px solid #211D14;background:#FBF8F0;margin-top:36px;padding:26px 28px;display:flex;gap:18px;flex-wrap:wrap;align-items:center;justify-content:space-between">
+    <div>
+      <div style="font:700 22px/1.1 'Barlow Condensed',sans-serif;text-transform:uppercase;margin-bottom:6px">Nominate a dog</div>
+      <div style="font:400 15px/1.55 'Source Serif 4',serif;color:#5C543F;max-width:520px">A photo, the dog's name and breed, and the story — a retrieve, a point, a lesson. Reply to any issue and we'll take it from there.</div>
+    </div>
+    <a href="subscribe.html" style="background:#C75B12;color:#FFF6E8;font:600 16px/1 'Barlow Condensed',sans-serif;letter-spacing:.1em;text-transform:uppercase;padding:14px 26px;white-space:nowrap">Subscribe to nominate</a>
+  </div>
+</section>
+<footer style="background:#1C2B1A;color:#B9B199">
+  <div style="border-top:1px solid #33422F;text-align:center;font:500 13px/1 Barlow,sans-serif;color:#7E7660;padding:18px 24px">© 2026 NorCalHunt · Independently owned and operated</div>
+</footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  renderVals() {
+    const u = (id) => "https://images.unsplash.com/" + id + "?fm=jpg&q=60&w=1200&auto=format&fit=crop";
+    return { dogs: [
+      { slot: "dog-scout", ph: "Drop a photo of the young pointer", src: u("photo-1581562444313-98be7b621dc2"), credit: "Photo by Cole Wyland on Unsplash", chref: "https://unsplash.com/@cole_wyland_24", name: "Scout", breed: "English Pointer · 10 months", week: "Issue #13 · Aug 30", story: "Already holding steady on planted birds at ten months. Her owner says she pointed a butterfly at eight weeks and never looked back." },
+      { slot: "dog-belle", ph: "Drop a photo of the veteran GSP", src: u("photo-1514134952839-71312e5b823f"), credit: "Photo by Andrew Whitham on Unsplash", chref: "https://unsplash.com/@andyw101", name: "Belle", breed: "German Shorthair · 14 years", week: "Issue #12 · Aug 23", story: "Fourteen seasons in and still holding point. Slower to the field these days — but nothing gets past her nose in the first hour." },
+      { slot: "dog-tule", ph: "Drop a photo of the Chessie", src: u("photo-1670505343033-ae36ef2854f9"), credit: "Photo by Marie-Pier Fillion on Unsplash", chref: "https://unsplash.com/@mariepier592", name: "Tule", breed: "Chesapeake Bay Retriever · 5", week: "Issue #11 · Aug 16", story: "Named for the marsh she works. Broke ice on a January goose hunt and delivered to hand like it was a September dove." },
+      { slot: "dog-team", ph: "Drop a photo of the two-dog team", src: u("photo-1638720340715-d8097a58cdf1"), credit: "Photo by Chandler Cruttenden on Unsplash", chref: "https://unsplash.com/@chanphoto", name: "Ridge & Rio", breed: "Lab & GSP · The two-dog team", week: "Issue #9 · Aug 2", story: "One flushes, one fetches. This spotlight pair works dove fields in tandem — their owner claims they've never lost a bird between them." },
+      { slot: "dog-gunner", ph: "Drop a photo of Gunner the black Lab", src: u("photo-1642017273035-f6d949467443"), credit: "Photo by Cole Miller on Unsplash", chref: "https://unsplash.com/@comill124", name: "Gunner", breed: "Labrador Retriever · 3 years", week: "Issue #8 · Jul 26", story: "A black Lab with a motor that doesn't quit. Two hundred retrieves last season and a habit of watching the sky before you do." },
+      { slot: "dog-shadow", ph: "Drop a photo of Shadow the spaniel", src: u("photo-1670505496137-0cde81df1d6e"), credit: "Photo by Marie-Pier Fillion on Unsplash", chref: "https://unsplash.com/@mariepier592", name: "Shadow", breed: "Springer Spaniel · 6 years", week: "Issue #5 · Jul 5", story: "A close-working flusher who owns the blackberry edges other dogs skip. Limits of valley quail follow her around." },
+    ]};
+  }
+}
+</script>
+</body>
+</html>

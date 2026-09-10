@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NorCalHunt — One inbox. Every NorCal hunt, handled.</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="description" content="Weekly intel for the Northern California hunter. Weather, season dates, regulations, shoot times, and field-tested gear — one Tuesday briefing.">
+<script src="/support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>body{margin:0;background:#F5F1E8}a{color:#2F4A2C;text-decoration:none}a:hover{color:#C75B12}</style>
+<script src="/image-slot.js"></script>
+</helmet>
+<div style="font-family:Barlow,sans-serif;color:#211D14">
+<div style="background:#1C2B1A;color:#D9D2BA;font:500 12px/1.4 Barlow,sans-serif;letter-spacing:.14em;text-transform:uppercase;text-align:center;padding:8px 16px">Weekly intel for the Northern California hunter &nbsp;·&nbsp; 100% free &nbsp;·&nbsp; Every Tuesday</div>
+<header style="background:#F5F1E8;border-bottom:2px solid #211D14;position:sticky;top:0;z-index:50">
+  <div style="max-width:1180px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;gap:24px;flex-wrap:wrap">
+    <a href="index.html" style="font:700 30px/1 'Barlow Condensed',sans-serif;color:#1C2B1A;letter-spacing:.02em">NORCAL<span style="color:#C75B12">HUNT</span></a>
+    <nav style="display:flex;gap:18px;flex-wrap:wrap;align-items:center;margin-left:auto;font:600 15px/1 'Barlow Condensed',sans-serif;letter-spacing:.09em;text-transform:uppercase">
+      <a href="conditions.html">Conditions</a>
+      <a href="regulations.html">Regs</a>
+      <a href="newsletters.html">Newsletters</a>
+      <a href="field-stories.html">Stories</a>
+      <a href="gear.html">Gear</a>
+      <a href="local-boys.html">Local Boys</a>
+      <a href="dog-of-the-week.html">Dogs</a>
+      <a href="marketplace.html">Marketplace</a>
+      <a href="about.html">About</a>
+      <a href="subscribe.html" style="background:#C75B12;color:#FFF6E8;padding:9px 18px">Subscribe</a>
+    </nav>
+  </div>
+</header>
+<section style="position:relative;height:clamp(440px,58vh,580px)">
+  <image-slot id="home-hero" shape="rect" src="https://media.beehiiv.com/cdn-cgi/image/format=auto,fit=scale-down,onerror=redirect/uploads/asset/file/abca24bb-e76d-4cb1-9f07-c15f4b2ae888/liana-mikah-1SANF0Cw9yE-unsplash.jpg?t=1780089435" credit="Photo by Liana Mikah on Unsplash" credit-href="https://unsplash.com/@lianamikah" placeholder="Drop a NorCal field photo — marsh at first light, ridge glassing, dog on point"></image-slot>
+  <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,28,18,.25) 0%,rgba(20,28,18,.72) 78%,rgba(20,28,18,.78) 100%);pointer-events:none"></div>
+  <div style="position:absolute;inset:0;display:flex;align-items:flex-end;pointer-events:none">
+    <div style="max-width:1180px;margin:0 auto;padding:0 24px 56px;width:100%">
+      <div style="font:600 14px/1 'Barlow Condensed',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#E8A05C;margin-bottom:14px">Built by hunters · Improved by hunters</div>
+      <h1 style="font:700 clamp(44px,6.5vw,76px)/0.98 'Barlow Condensed',sans-serif;letter-spacing:.01em;text-transform:uppercase;color:#F7F2E4;margin:0 0 14px;max-width:720px;text-wrap:pretty">One inbox. Every NorCal hunt, handled.</h1>
+      <p style="font:400 clamp(16px,1.6vw,19px)/1.5 'Source Serif 4',serif;color:#E4DCC6;max-width:560px;margin:0 0 24px">Weather, season dates, regulations, shoot times, and field-tested gear — one weekly briefing instead of five scattered websites.</p>
+      <div style="display:flex;gap:14px;flex-wrap:wrap;pointer-events:auto">
+        <a href="subscribe.html" style="background:#C75B12;color:#FFF6E8;font:600 17px/1 'Barlow Condensed',sans-serif;letter-spacing:.1em;text-transform:uppercase;padding:15px 28px">Subscribe free</a>
+        <a href="newsletters.html" style="border:1px solid #B7AE93;color:#F0EAD8;font:600 17px/1 'Barlow Condensed',sans-serif;letter-spacing:.1em;text-transform:uppercase;padding:15px 28px">Read the newsletter</a>
+      </div>
+    </div>
+  </div>
+</section>
+<sc-if value="{{ showConditionsStrip }}" hint-placeholder-val="{{ true }}">
+<section style="background:#24361F;border-top:3px solid #C75B12">
+  <div style="max-width:1180px;margin:0 auto;padding:20px 24px;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px;align-items:center">
+    <sc-for list="{{ quickStats }}" as="q" hint-placeholder-count="4">
+      <div style="border-left:1px solid #3C5232;padding-left:16px">
+        <div style="font:600 12px/1 'Barlow Condensed',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#9FB18B;margin-bottom:6px">{{ q.label }}</div>
+        <div style="font:700 20px/1.1 'Barlow Condensed',sans-serif;color:#F2EDDD">{{ q.value }}</div>
+      </div>
+    </sc-for>
+    <a href="conditions.html" style="justify-self:end;color:#E8A05C;font:600 15px/1 'Barlow Condensed',sans-serif;letter-spacing:.1em;text-transform:uppercase;white-space:nowrap">Full dashboard →</a>
+  </div>
+</section>
+</sc-if>
+<section style="max-width:1180px;margin:0 auto;padding:72px 24px 0">
+  <div style="font:600 14px/1 'Barlow Condensed',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#C75B12;margin-bottom:10px">Every week, you get</div>
+  <h2 style="font:700 clamp(30px,3.6vw,42px)/1.05 'Barlow Condensed',sans-serif;text-transform:uppercase;margin:0 0 12px">What's inside every issue</h2>
+  <p style="font:400 17px/1.6 'Source Serif 4',serif;color:#5C543F;max-width:640px;margin:0 0 36px;text-wrap:pretty">We gather the crucial information a NorCal hunter needs — your one-stop shop before every trip.</p>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2px;background:#211D14;border:2px solid #211D14">
+    <sc-for list="{{ pillars }}" as="p" hint-placeholder-count="6">
+      <a href="{{ p.href }}" style="background:#FBF8F0;padding:26px 24px;display:block" style-hover="background:#F2ECDB">
+        <div style="font:700 21px/1.15 'Barlow Condensed',sans-serif;text-transform:uppercase;letter-spacing:.03em;color:#1C2B1A;margin-bottom:8px">{{ p.title }}</div>
+        <div style="font:400 15px/1.55 'Source Serif 4',serif;color:#5C543F;margin-bottom:14px">{{ p.desc }}</div>
+        <div style="font:600 13px/1 'Barlow Condensed',sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#C75B12">{{ p.cta }} →</div>
+      </a>
+    </sc-for>
+  </div>
+</section>
+<section style="max-width:1180px;margin:0 auto;padding:72px 24px 0">
+  <div style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:28px">
+    <h2 style="font:700 clamp(28px,3.2vw,38px)/1.05 'Barlow Condensed',sans-serif;text-transform:uppercase;margin:0">Latest briefings</h2>
+    <a href="newsletters.html" style="font:600 15px/1 'Barlow Condensed',sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#C75B12">Full archive →</a>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px">
+    <sc-for list="{{ latestIssues }}" as="it" hint-placeholder-count="3">
+      <a href="{{ it.href }}" style="background:#FBF8F0;border:1px solid #D8CDB4;border-top:3px solid #2F4A2C;padding:24px;display:block">
+        <div style="font:500 13px/1 Barlow,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#8A8163;margin-bottom:12px">{{ it.date }} · {{ it.read }}</div>
+        <div style="font:600 20px/1.25 'Barlow Condensed',sans-serif;color:#1C2B1A;margin-bottom:10px;text-wrap:pretty">{{ it.title }}</div>
+        <div style="font:400 15px/1.55 'Source Serif 4',serif;color:#5C543F">{{ it.blurb }}</div>
+      </a>
+    </sc-for>
+  </div>
+</section>
+<section style="max-width:1180px;margin:0 auto;padding:72px 24px 0">
+  <div style="background:#1C2B1A;color:#D9D2BA;display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:0;overflow:hidden">
+    <div style="padding:48px 40px">
+      <div style="font:600 13px/1 'Barlow Condensed',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#E8A05C;margin-bottom:12px">Who's behind this</div>
+      <h2 style="font:700 clamp(26px,3vw,36px)/1.1 'Barlow Condensed',sans-serif;text-transform:uppercase;color:#F7F2E4;margin:0 0 16px">Two local boys. 50+ years in the field.</h2>
+      <p style="font:400 16px/1.65 'Source Serif 4',serif;margin:0 0 12px;text-wrap:pretty">We grew up chasing blacktail in the timber and waterfowl in the marsh. We're not guides or influencers — we built the resource we always wished existed.</p>
+      <p style="font:400 16px/1.65 'Source Serif 4',serif;margin:0 0 24px">Independently owned. No corporate backing. Cross-checked by people who hunt the same ground you do.</p>
+      <a href="about.html" style="color:#E8A05C;font:600 15px/1 'Barlow Condensed',sans-serif;letter-spacing:.1em;text-transform:uppercase">Our story →</a>
+    </div>
+    <div style="position:relative;min-height:300px">
+      <image-slot id="home-founders" shape="rect" src="https://images.unsplash.com/photo-1556478094-bf761a15ef40?fm=jpg&q=60&w=1600&auto=format&fit=crop" credit="Photo by mohammed OUZZAOUI on Unsplash" credit-href="https://unsplash.com/@ouzzamed" placeholder="Drop a photo of the two of you in the field"></image-slot>
+    </div>
+  </div>
+</section>
+<section style="max-width:1180px;margin:0 auto;padding:72px 24px 88px">
+  <div style="border:2px solid #211D14;background:#FBF8F0;padding:clamp(32px,5vw,56px);text-align:center">
+    <h2 style="font:700 clamp(30px,4vw,46px)/1.05 'Barlow Condensed',sans-serif;text-transform:uppercase;margin:0 0 10px">Join the Tuesday briefing</h2>
+    <p style="font:400 17px/1.6 'Source Serif 4',serif;color:#5C543F;max-width:520px;margin:0 auto 26px">A five-minute read before every weekend in the field. 100% free, unsubscribe anytime.</p>
+    <a href="subscribe.html" style="display:inline-block;background:#C75B12;color:#FFF6E8;font:600 18px/1 'Barlow Condensed',sans-serif;letter-spacing:.1em;text-transform:uppercase;padding:16px 34px">Subscribe free</a>
+    <sc-if value="{{ showPremiumTeaser }}" hint-placeholder-val="{{ true }}">
+      <div style="font:500 14px/1.5 Barlow,sans-serif;color:#8A8163;margin-top:18px">Coming soon: <span style="color:#2F4A2C;font-weight:600">NorCalHunt+</span> — draw odds, zone maps, and the full archive for members.</div>
+    </sc-if>
+  </div>
+</section>
+<footer style="background:#1C2B1A;color:#B9B199">
+  <div style="max-width:1180px;margin:0 auto;padding:52px 24px 40px;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:40px">
+    <div>
+      <div style="font:700 26px/1 'Barlow Condensed',sans-serif;color:#F7F2E4;letter-spacing:.02em;margin-bottom:12px">NORCAL<span style="color:#C75B12">HUNT</span></div>
+      <div style="font:400 15px/1.6 'Source Serif 4',serif">One inbox. Every NorCal hunt, handled.</div>
+    </div>
+    <div>
+      <div style="font:600 13px/1 'Barlow Condensed',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#8FA07C;margin-bottom:14px">Explore</div>
+      <div style="display:grid;gap:9px;font:500 15px/1 Barlow,sans-serif">
+        <a href="conditions.html" style="color:#D9D2BA">Conditions</a>
+        <a href="regulations.html" style="color:#D9D2BA">Regulations</a>
+        <a href="field-stories.html" style="color:#D9D2BA">Field Stories</a>
+        <a href="newsletters.html" style="color:#D9D2BA">Newsletters</a>
+        <a href="gear.html" style="color:#D9D2BA">Gear</a>
+        <a href="local-boys.html" style="color:#D9D2BA">Local Boys</a>
+        <a href="dog-of-the-week.html" style="color:#D9D2BA">Dog of the Week</a>
+        <a href="marketplace.html" style="color:#D9D2BA">Marketplace</a>
+        <a href="about.html" style="color:#D9D2BA">About</a>
+      </div>
+    </div>
+    <div>
+      <div style="font:600 13px/1 'Barlow Condensed',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#8FA07C;margin-bottom:14px">The network</div>
+      <div style="font:400 15px/1.6 'Source Serif 4',serif;margin-bottom:10px">NorCalHunt is edition one of <span style="color:#F7F2E4">Local Boys Hunt</span> — local hunters delivering local intel, region by region.</div>
+      <div style="font:500 13px/1.6 Barlow,sans-serif;color:#7E7660">SoCal · Oregon · Nevada · more to come</div>
+    </div>
+    <div>
+      <div style="font:600 13px/1 'Barlow Condensed',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#8FA07C;margin-bottom:14px">The briefing</div>
+      <div style="font:400 15px/1.6 'Source Serif 4',serif;margin-bottom:16px">Every Tuesday. 100% free. Unsubscribe anytime.</div>
+      <a href="subscribe.html" style="display:inline-block;background:#C75B12;color:#FFF6E8;font:600 15px/1 'Barlow Condensed',sans-serif;letter-spacing:.1em;text-transform:uppercase;padding:11px 20px">Subscribe</a>
+    </div>
+  </div>
+  <div style="border-top:1px solid #33422F;text-align:center;font:500 13px/1 Barlow,sans-serif;color:#7E7660;padding:18px 24px">© 2026 NorCalHunt · Independently owned and operated · Hunt legal, hunt safe — always verify with CDFW</div>
+</footer>
+<template id="__bundler_thumbnail"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><rect width="200" height="200" fill="#1C2B1A"></rect><text x="100" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="34" fill="#F7F2E4">NORCAL</text><text x="100" y="128" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="34" fill="#C75B12">HUNT</text></svg></template>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;showConditionsStrip&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Homepage&quot;},&quot;showPremiumTeaser&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Homepage&quot;}}">
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      showConditionsStrip: this.props.showConditionsStrip ?? true,
+      showPremiumTeaser: this.props.showPremiumTeaser ?? true,
+      quickStats: [
+        { label: "Shoot light today", value: "6:03 AM – 7:30 PM" },
+        { label: "Gray Lodge wind", value: "NNW 12 mph" },
+        { label: "Dove — early split", value: "Day 3 of 15 · closes Sep 15" },
+        { label: "Moon", value: "Waning gibbous · 62%" },
+      ],
+      pillars: [
+        { title: "Weather Conditions", desc: "Hunt-day forecast, wind read, shoot light, and moon — organized by zone and refuge.", cta: "View conditions", href: "conditions.html" },
+        { title: "Season Dates & Regulations", desc: "Current CA seasons, zone dates, tag deadlines, and rule changes that matter.", cta: "View the board", href: "regulations.html" },
+        { title: "Local Boys — Services", desc: "Trusted local guides, processors, and outfitters who hunt the same ground.", cta: "View directory", href: "local-boys.html" },
+        { title: "Gear Recommendations", desc: "Honest, field-tested gear and value picks. No junk, no hype.", cta: "View gear", href: "gear.html" },
+        { title: "Field Stories", desc: "Reader hunts, campfire tales, and lessons learned the hard way.", cta: "Read stories", href: "field-stories.html" },
+        { title: "Dog of the Week", desc: "A featured NorCal hunting dog and the story behind it, every week.", cta: "Meet the dogs", href: "dog-of-the-week.html" },
+      ],
+      latestIssues: [
+        { href: "issue-13.html", date: "Aug 30, 2026", read: "7 min read", title: "Dove opens Tuesday: poppers, a vest, and the paperwork you can't skip", blurb: "Plus a plate of dove poppers in the Showcase, the value vest we trust, and a young pointer already holding steady." },
+        { href: "https://norcalhunt.com/p/the-long-way-out-packing-a-buck-from-the-backcountry", date: "Aug 23, 2026", read: "8 min read", title: "The long way out: packing a buck from the backcountry", blurb: "The value frame pack we trust, the gutless method step by step, and a 14-year-old still holding point." },
+        { href: "https://norcalhunt.com/p/a-first-buck-two-brothers-and-one-last-hunt", date: "Aug 16, 2026", read: "8 min read", title: "A first buck, two brothers, and one last hunt", blurb: "Plus the venison cut most hunters give to the grinder, the rest we swear by, and dove opener two weeks out." },
+      ],
+    };
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Field Stories — NorCalHunt</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script src="/support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>body{margin:0;background:#F5F1E8}a{color:#2F4A2C;text-decoration:none}a:hover{color:#C75B12}input::placeholder,textarea::placeholder{color:#9C9377}</style>
+<script src="/image-slot.js"></script>
+</helmet>
+<div style="font-family:Barlow,sans-serif;color:#211D14">
+<div style="background:#1C2B1A;color:#D9D2BA;font:500 12px/1.4 Barlow,sans-serif;letter-spacing:.14em;text-transform:uppercase;text-align:center;padding:8px 16px">Weekly intel for the Northern California hunter &nbsp;·&nbsp; 100% free &nbsp;·&nbsp; Every Tuesday</div>
+<header style="background:#F5F1E8;border-bottom:2px solid #211D14;position:sticky;top:0;z-index:50">
+  <div style="max-width:1180px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;gap:24px;flex-wrap:wrap">
+    <a href="index.html" style="font:700 30px/1 'Barlow Condensed',sans-serif;color:#1C2B1A;letter-spacing:.02em">NORCAL<span style="color:#C75B12">HUNT</span></a>
+    <nav style="display:flex;gap:18px;flex-wrap:wrap;align-items:center;margin-left:auto;font:600 15px/1 'Barlow Condensed',sans-serif;letter-spacing:.09em;text-transform:uppercase">
+      <a href="conditions.html">Conditions</a>
+      <a href="regulations.html">Regs</a>
+      <a href="newsletters.html">Newsletters</a>
+      <a href="field-stories.html" style="color:#C75B12;border-bottom:2px solid #C75B12;padding-bottom:3px">Stories</a>
+      <a href="gear.html">Gear</a>
+      <a href="local-boys.html">Local Boys</a>
+      <a href="dog-of-the-week.html">Dogs</a>
+      <a href="marketplace.html">Marketplace</a>
+      <a href="about.html">About</a>
+      <a href="subscribe.html" style="background:#C75B12;color:#FFF6E8;padding:9px 18px">Subscribe</a>
+    </nav>
+  </div>
+</header>
+<section style="position:relative;height:clamp(300px,42vh,440px)">
+  <image-slot id="stories-hero" shape="rect" src="https://images.unsplash.com/photo-1642017263197-f55a861ab4dd?fm=jpg&q=60&w=1600&auto=format&fit=crop" credit="Photo by Cole Miller on Unsplash" credit-href="https://unsplash.com/@comill124" placeholder="Drop a deer-camp or duck-blind photo"></image-slot>
+  <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,28,18,.2),rgba(20,28,18,.8));pointer-events:none"></div>
+  <div style="position:absolute;inset:0;display:flex;align-items:flex-end;pointer-events:none">
+    <div style="max-width:1180px;margin:0 auto;padding:0 24px 44px;width:100%">
+      <div style="font:600 14px/1 'Barlow Condensed',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#E8A05C;margin-bottom:12px">Field Stories</div>
+      <h1 style="font:700 clamp(40px,6vw,68px)/1 'Barlow Condensed',sans-serif;text-transform:uppercase;color:#F7F2E4;margin:0 0 10px">Real hunts. Real memories.</h1>
+      <p style="font:400 18px/1.5 'Source Serif 4',serif;color:#E4DCC6;max-width:560px;margin:0">Handpicked tales from NorCal hunters — deer camps, duck blinds, turkey ridges, and everything in between.</p>
+    </div>
+  </div>
+</section>
+<div style="max-width:1180px;margin:0 auto;padding:44px 24px 80px;display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:48px;align-items:start">
+  <div style="display:grid;gap:14px;min-width:0">
+    <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px">
+      <sc-for list="{{ filters }}" as="f" hint-placeholder-count="4">
+        <button onClick="{{ f.pick }}" style="{{ f.style }}">{{ f.name }}</button>
+      </sc-for>
+    </div>
+    <sc-for list="{{ stories }}" as="s" hint-placeholder-count="7">
+      <article id="{{ s.id }}" style="background:#FBF8F0;border:1px solid #D8CDB4;border-top:3px solid #2F4A2C">
+        <div onClick="{{ s.toggle }}" style="padding:24px 28px;cursor:pointer;display:flex;justify-content:space-between;gap:20px;align-items:flex-start">
+          <div style="min-width:0">
+            <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:10px">
+              <span style="font:700 12px/1 'Barlow Condensed',sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#FFF6E8;background:#2F4A2C;padding:4px 9px">{{ s.kind }}</span>
+              <span style="font:500 13px/1 Barlow,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#8A8163">{{ s.where }} · {{ s.read }}</span>
+            </div>
+            <h2 style="font:700 clamp(24px,3vw,32px)/1.1 'Barlow Condensed',sans-serif;text-transform:uppercase;margin:0 0 6px;text-wrap:pretty">{{ s.title }}</h2>
+            <div style="font:600 15px/1.3 'Source Serif 4',serif;font-style:italic;color:#C75B12">By {{ s.by }}</div>
+            <sc-if value="{{ s.closed }}" hint-placeholder-val="{{ true }}">
+              <p style="font:400 16px/1.6 'Source Serif 4',serif;color:#5C543F;margin:12px 0 0;text-wrap:pretty">{{ s.lede }}</p>
+            </sc-if>
+          </div>
+          <span style="font:600 14px/1 'Barlow Condensed',sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#C75B12;white-space:nowrap;padding-top:6px">{{ s.cta }}</span>
+        </div>
+        <sc-if value="{{ s.open }}" hint-placeholder-val="{{ false }}">
+          <div style="padding:0 28px 30px;border-top:1px solid #E7DFC9">
+            <div style="max-width:680px;font:400 17px/1.75 'Source Serif 4',serif;color:#3B3526;padding-top:22px;display:grid;gap:16px">
+              <sc-for list="{{ s.paras }}" as="p" hint-placeholder-count="3">
+                <p style="margin:0;text-wrap:pretty">{{ p }}</p>
+              </sc-for>
+            </div>
+            <div style="font:700 14px/1 'Barlow Condensed',sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#1C2B1A;margin-top:26px;border-top:2px solid #211D14;display:inline-block;padding-top:10px">— {{ s.sig }}</div>
+          </div>
+        </sc-if>
+      </article>
+    </sc-for>
+  </div>
+  <aside style="display:grid;gap:22px;position:sticky;top:96px">
+    <div style="border:2px solid #211D14;background:#FBF8F0;padding:24px">
+      <div style="font:700 22px/1.1 'Barlow Condensed',sans-serif;text-transform:uppercase;margin-bottom:6px">Share your story</div>
+      <p style="font:400 14px/1.55 'Source Serif 4',serif;color:#5C543F;margin:0 0 16px">Got a hunt worth telling? Your best (and worst) days out there could run here and in a Tuesday briefing.</p>
+      <sc-if value="{{ sent }}" hint-placeholder-val="{{ false }}">
+        <div style="background:#2F4A2C;color:#F2EDDD;padding:16px;font:600 16px/1.4 'Barlow Condensed',sans-serif">Got it — we'll read every word and reply within the week. Email photos with the subject "Field Story Submission."</div>
+      </sc-if>
+      <sc-if value="{{ notSent }}" hint-placeholder-val="{{ true }}">
+        <div style="display:grid;gap:10px">
+          <input value="{{ form.name }}" onChange="{{ setName }}" placeholder="Your name" style="border:1px solid #C9BD9E;background:#FFFDF7;padding:11px 12px;font:500 15px/1 Barlow,sans-serif;color:#211D14;outline:none" />
+          <input value="{{ form.email }}" onChange="{{ setEmail }}" type="email" placeholder="Email address" style="border:1px solid #C9BD9E;background:#FFFDF7;padding:11px 12px;font:500 15px/1 Barlow,sans-serif;color:#211D14;outline:none" />
+          <input value="{{ form.kind }}" onChange="{{ setKind }}" placeholder="Type of hunt — deer, duck, upland, turkey…" style="border:1px solid #C9BD9E;background:#FFFDF7;padding:11px 12px;font:500 15px/1 Barlow,sans-serif;color:#211D14;outline:none" />
+          <textarea value="{{ form.story }}" onChange="{{ setStory }}" rows="6" placeholder="Tell us everything — the location, the conditions, the moment it all came together (or fell apart)." style="border:1px solid #C9BD9E;background:#FFFDF7;padding:11px 12px;font:400 15px/1.5 'Source Serif 4',serif;color:#211D14;outline:none;resize:vertical"></textarea>
+          <button onClick="{{ submit }}" style="background:#C75B12;border:0;color:#FFF6E8;font:600 16px/1 'Barlow Condensed',sans-serif;letter-spacing:.1em;text-transform:uppercase;padding:14px;cursor:pointer">Submit my story</button>
+          <sc-if value="{{ formError }}" hint-placeholder-val="{{ false }}"><div style="font:500 13px/1.4 Barlow,sans-serif;color:#8C2F14">Name, a valid email, and your story are required.</div></sc-if>
+        </div>
+      </sc-if>
+    </div>
+    <div style="background:#1C2B1A;color:#D9D2BA;padding:22px">
+      <div style="font:600 13px/1 'Barlow Condensed',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#8FA07C;margin-bottom:10px">Stories in your inbox</div>
+      <div style="font:400 15px/1.55 'Source Serif 4',serif;margin-bottom:14px">A new field story closes every Tuesday briefing.</div>
+      <a href="subscribe.html" style="display:inline-block;background:#C75B12;color:#FFF6E8;font:600 14px/1 'Barlow Condensed',sans-serif;letter-spacing:.1em;text-transform:uppercase;padding:11px 18px">Subscribe free</a>
+    </div>
+  </aside>
+</div>
+<footer style="background:#1C2B1A;color:#B9B199">
+  <div style="border-top:1px solid #33422F;text-align:center;font:500 13px/1 Barlow,sans-serif;color:#7E7660;padding:18px 24px">© 2026 NorCalHunt · Independently owned and operated · Stories are the property of their authors</div>
+</footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { open: "buck-two-brothers", filter: "All", form: { name: "", email: "", kind: "", story: "" }, sent: false, formError: false };
+  stories = [
+    { id: "buck-two-brothers", kind: "Deer", where: "G1 zone · Tehama Co.", read: "5 min", title: "A Buck, Two Brothers, and One Last Hunt", by: "Alex A.", sig: "Alex A.",
+      lede: "Some hunts grow more valuable with age. At the time, we thought we were simply trying to get my son his first buck. Looking back now, I realize we were watching something far more important unfold.",
+      paras: [
+        "Some hunts grow more valuable with age. At the time, we thought we were simply trying to get my son his first buck. Looking back now, I realize we were watching something far more important unfold, though none of us knew it then.",
+        "It was late deer season in the G1 zone, when Northern California mornings carry a bite but the afternoons can still warm enough to make you shed a jacket. My son was hunting with two men who had spent more years in deer country than he had spent on earth: his grandpa (Pops) and his great-uncle Floyd. The two old brothers knew the country, knew deer, and most importantly, knew how to help a young hunter without taking the hunt away from him.",
+        "Uncle Floyd's pickup carried the three of them into the hills that morning. My son had his .30-30, a perfect rifle for a young hunter in close country. Pops carried his .270. Back at camp, I had bacon sizzling and pancakes cooking when the hunt suddenly became more serious. They had found a buck.",
+        "It was a big forked horn, the kind of buck any young hunter would remember. When the opportunity came, my son raised the .30-30 and fired. The shot caught the buck low, nicking a front leg. Any hunter who's been there knows what comes next. The excitement disappears. Now there's only responsibility. Once you've wounded an animal, nothing matters except finishing the job cleanly.",
+        "Pops handed my son the .270. \"Take your time.\" My son settled in again. The second shot struck the buck through the neck, ending the hunt quickly. No meat was wasted. His first buck was down.",
+        "I wish I could have seen the three of them standing there together, the grandson with his first deer and those two old brothers beside him. They had probably seen plenty of bucks hit the ground over the years, but there's something different about helping a young hunter get his first. They loaded the forked horn into Floyd's pickup and headed back toward camp.",
+        "I was still working over breakfast when the truck rolled in. My son was excited, and Pops and Floyd looked plenty satisfied with themselves. Then came the next part of a young hunter's education: field dressing and taking care of the animal. Apparently, the two old-timers decided they'd already done enough teaching for one morning. They turned that lesson over to me. While I showed my son what needed to be done, Pops and Uncle Floyd settled in and ate the bacon and pancakes I'd been cooking. Funny how that worked out.",
+        "At the time, it was simply a great morning at deer camp. A young hunter had killed his first buck. Two old hunters had helped him do it. There was venison to take home, breakfast on the table, and another story for camp. But time has a way of changing the meaning of a hunt.",
+        "Pops and Uncle Floyd are both gone now. That morning was the last time those two brothers hunted together with us. My son was fortunate enough to take his first buck with both of them beside him. That's something no antler measurement can capture.",
+        "Years later, the forked horn isn't what I remember most. I remember Uncle Floyd's pickup. Pops' .270. Bacon frying in camp. Two old brothers passing along what they knew to the next generation. That's why we hunt. A deer may bring us into the woods, but the people beside us are what make the hunt worth remembering. And sometimes, if we're lucky, a morning we thought was just another day at deer camp becomes a memory we'll carry for the rest of our lives.",
+      ] },
+    { id: "more-than-a-limit", kind: "Waterfowl", where: "Sacramento Valley rice", read: "4 min", title: "More Than a Limit", by: "Chad M.", sig: "Chad M., Escalon CA",
+      lede: "Winter mornings in California's Sacramento Valley have a way of making a hunter appreciate silence. Seven of us, six old college buddies and me, gathered around the trailers before daylight.",
+      paras: [
+        "Winter mornings in California's Sacramento Valley have a way of making a hunter appreciate silence. A north wind swept across harvested rice fields, carrying the scent of wet soil, rice stubble, and distant marsh water. Low gray clouds hung overhead, flattening the light into a steel-colored sky that looked made for geese.",
+        "The seven of us, six old college buddies and me, gathered around the trailers before daylight, nursing cups of coffee and catching up. It had been years since we'd all hunted together. Careers, families, and busy schedules had scattered us in different directions, making weekends like this hard to come by. \"You boys still remember how to put out decoys?\" someone joked. \"Or are we going to be here until lunch?\" The laughs came as easily as they had in college.",
+        "We tucked our layout blinds into the rice stubble and built a mixed spread of specklebelly, snow goose, and Canada goose decoys. We left open landing pockets into the north wind, knowing geese prefer to finish with the breeze in their faces. It took time to get everything right, but experience has taught us that details matter.",
+        "The first flock announced itself with distant calls before appearing beneath the overcast. A group of specklebellies circled once, then committed. \"Take 'em!\" Seven shotguns echoed across the valley. Feathers drifted in the wind as birds folded into the field. We gathered them quickly and settled back into the blinds.",
+        "The second wave arrived less than twenty minutes later. Mostly snow geese with a few dark birds mixed in, they circled several times before finally dropping into the decoys. Once again, good calling, patience, and a realistic spread did the job. By then, the morning had turned into one of those hunts you'll remember for years.",
+        "The third wave was unforgettable. Long strings of geese appeared from every direction, their calls filling the gray sky. Some birds circled high while others locked their wings and finished perfectly over the spread. When the shooting stopped, every one of us had filled our limit of both dark and light geese.",
+        "Someone looked around the field and laughed. \"It took longer to set out the decoys than it did to shoot our limits.\" He wasn't wrong. It also took much longer to pick them all up. By the time the last decoy was loaded, we still had a mountain of birds to clean. Most of the afternoon disappeared around the cleaning table, sharpening knives, plucking feathers, and reliving every volley while turning birds into meals for our families.",
+        "Driving home that evening, I realized the limits weren't what I'd remember most. Those geese will eventually be eaten, and the decoys will be packed away until next winter. What will stay with me is sharing a cold Sacramento Valley morning with the same friends who once shared college classrooms and late-night dreams. The birds made the day successful. Seeing old friends again made it unforgettable.",
+      ] },
+    { id: "lessons-in-the-clouds", kind: "Deer", where: "G1 zone · Tehama Co.", read: "5 min", title: "Lessons in the Clouds", by: "Paige A.", sig: "Paige A.",
+      lede: "The week my dad pulled me out of school to hunt the late-season G1 deer hunt in Tehama County, I thought missing class was a big deal. He didn't.",
+      paras: [
+        "The week my dad pulled me out of school to hunt the late-season G1 deer hunt in Tehama County, I thought missing class was a big deal. He didn't. \"You'll catch up on school,\" he said, loading the truck before dawn. \"There are things you can only learn out here.\" I didn't believe him yet. By the end of the week I did.",
+        "The weather had set in the way it does late in the season up here — low clouds draped over the ridges, a fine mist dripping off the pines, visibility changing by the minute. One second we could see a hundred yards through the timber, the next the fog closed in around us. Our rain gear hissed with every step and the whole place smelled like wet bark and pine sap. It was the kind of morning that keeps most people home. It was also perfect deer weather. Blacktails disappear when conditions are easy, but give them fog and drizzle and they move longer into the morning and travel more openly. Dad knew that. He'd hunted these mountains for years.",
+        "I was carrying Pop's lever-action .308 — walnut stock worn smooth, dinged up from years of honest use. Dad had handed it to me before the hunt. \"Pop would've wanted you carrying this.\" It felt like it carried more than cartridges.",
+        "We still-hunted along a timbered ridge, stopping to glass the openings, the mist swallowing our footsteps. \"Don't rush,\" Dad whispered. That was about half his hunting instruction over the years, and honestly half his instruction on everything else. We found fresh sign everywhere — tracks pressed into the soft ground, rubs along a draw — and the hours went by. Deer move when they want to. Your job is just to be there when they do.",
+        "Around midmorning the timber opened up above a foggy basin and Dad stopped cold. I almost walked into him. He pointed, and at first I saw nothing — then the shape came together. A buck, feeding through the drifting cloud, no idea we were there. \"Three-point,\" he whispered. My heart was going so hard I could barely hear him.",
+        "The buck stepped into the open and stood broadside, the mist drifting past him. I eased the rifle up. It felt heavier than it had all morning. I settled the sights, and Dad said, calm as ever, \"Take your time.\" Not hurry. Not shoot. Take your time. I squeezed the trigger. The shot rolled out into the mountains, and the buck lunged into the fog and was gone.",
+        "For a moment neither of us moved. Then Dad looked over and smiled. \"You got him.\" I wasn't sure. \"You think so?\" \"I know so.\" He'd watched the buck's reaction — that's a lesson too, you watch the animal after the shot as close as before it. We still waited a while before going after him. You don't rush that either.",
+        "We found him a short way off, lying in the wet pine needles under the clouds — a solid three-point blacktail. I stood there a few seconds, and not because of the antlers. I looked at the buck, then at Pop's old rifle, and three generations seemed to meet in that one spot. Dad put a hand on my shoulder. \"Good shot.\"",
+        "We spent the rest of the day taking care of the deer and packing out through the mountains, and that work felt every bit as important as the hunt. Dad showed me how to move on steep wet ground, how to respect the animal, how to leave the woods better than we found them.",
+        "I couldn't tell you a single assignment I missed that week. What I remember is standing in the clouds with my dad in the pines of Tehama County, carrying Pop's .308, learning patience from a man who was never in a hurry. Every time I see low clouds hanging in the timber, I'm right back there.",
+      ] },
+    { id: "deer-sledding", kind: "Deer camp", where: "Above Susanville · Lassen Co.", read: "5 min", title: "Deer Sledding with Pops", by: "Alex A.", sig: "Alex A.",
+      lede: "Some of my favorite hunting memories have nothing to do with filling a tag. They happened after dark, when the rifles were cased and the coffee pot hissed over the fire.",
+      paras: [
+        "Some of my favorite hunting memories have nothing to do with filling a tag. They happened after dark, when the rifles were cased, the coffee pot hissed over the fire, and the October chill settled into the pines above Susanville. Our little deer camp came alive at night. My mom would finish cleaning up dinner, my sister would curl into her sleeping bag, and Dad would lean back against a log, the orange glow of the campfire dancing across his face.",
+        "I was six or seven years old, and I had only one request before crawling into my sleeping bag. \"Dad... tell me a story.\" Night after night, he never disappointed.",
+        "Some stories were true—or at least I believed they were. They were about bucks that vanished into the timber like ghosts, long hikes through volcanic ridges, and frosty mornings when every breath hung in the air. He described the smell of wet pine needles after a storm, the crunch of frozen ground beneath worn leather boots, and the way a deer's ears seemed to catch every careless step a hunter made. I hung on every word. One story, though, became my favorite.",
+        "Dad said he'd shot a nice buck high on a snowy ridge years before. By the time he dressed the deer, daylight was fading fast. The pickup sat far below, and the temperature was dropping with the sun. \"I knew I wasn't going to make it if I dragged him,\" he'd say with a grin. So he had an idea. He climbed onto the deer's back, grabbed both antlers like handlebars, pushed off, and rode that buck down the snow-covered mountainside like a kid on a toboggan.",
+        "According to Dad, snow flew everywhere. He zigzagged around pine trees, bounced over drifts, and slid all the way to the truck just as darkness settled over the mountain. I could picture every second of it. The image of my father laughing as he rode a deer through the snow seemed perfectly reasonable to a little boy who believed his dad could do just about anything. Every evening I'd ask for that story again. \"Tell me about riding the deer.\" He always did.",
+        "Years passed. I grew into the hunter Dad hoped I'd become. My .270 Winchester bolt action eventually replaced the little sticks I'd once pretended were rifles, and I learned that successful deer hunting had much less to do with luck than patience. We studied fresh tracks before the morning sun softened them. We glassed shaded slopes where deer lingered after feeding. We moved slowly enough that the forest accepted us instead of announcing our arrival. The lessons were real, even if some stories weren't.",
+        "Then, when I was about twenty-five or twenty-six, we were sitting around that same deer camp after another October hunt. The same mountains surrounded us. The same smell of wood smoke drifted through camp. The same stars slowly appeared above the dark ridges. Dad chuckled to himself. \"You know that story about riding the deer down the hill?\" \"Yeah,\" I said. \"I made that one up.\"",
+        "I laughed. \"No, you didn't.\" \"I sure did,\" he said. \"I'd run out of stories, and you kept asking every night.\" For a moment I just stared at him. All those years, I'd believed every word. Then we both started laughing so hard we could barely catch our breath.",
+        "Looking back, I realize the story never needed to be true. It accomplished exactly what it was meant to do. It made a little boy dream about deer camp. It made cold October nights feel magical. It turned campfires into theaters where imagination and the outdoors shared the same stage.",
+        "Hunters are natural storytellers. Around enough campfires, you'll hear tales that grow just a little with every telling. Distances stretch. Bucks gain a few inches of antler. Weather gets a little rougher. Sometimes, if you're lucky, a deer even becomes a sled. The older I get, the more I appreciate that those stories are part of our hunting heritage. They aren't always meant to record history with perfect accuracy. They're meant to keep families together a little longer around a fading fire, to make children smile, and to pass along a love for wild places.",
+        "I never did see anyone ride a deer down a snowy mountain. But every October, when the campfire crackles and someone says, \"Tell us a story,\" I think of my dad. He may not have ridden that buck. But he carried my imagination farther than any sled ever could.",
+      ] },
+    { id: "bacon-widgeon", kind: "Waterfowl", where: "North of Little Dry Creek · Butte Co.", read: "3 min", title: "Bacon, Widgeon, and Winter Memories", by: "Alex A.", sig: "Alex A.",
+      lede: "A hard north wind swept across the rice fields north of Little Dry Creek. By first light, Jules, Matt, and I were tucked into the blind — and then Jules fired up the camp stove.",
+      paras: [
+        "A hard north wind swept across the rice fields north of Little Dry Creek, carrying the smell of wet stubble and cold water. By first light, Julian (aka Jules), Matt, and I were tucked into the blind, watching the eastern sky brighten over a winter landscape that looked made for ducks.",
+        "The birds cooperated from the start. Small groups of teal zipped through the decoys, followed by pintails and widgeon riding the wind. The cold weather had ducks moving, and before long we had a respectable pile of birds behind the blind.",
+        "Around midmorning, Jules decided it was time for breakfast. He fired up a camp stove and soon the smell of bacon and eggs drifted through the blind. \"Nothing better than hot food on a cold morning,\" he said, working a spatula over the skillet. Just then Matt looked up and whispered, \"Widgeon.\"",
+        "A flock of about thirty birds was approaching from the north, wings flashing in the sunlight. They were headed straight for the decoys. Julian glanced up. His shotgun was leaning against the blind wall. In his hand was a spatula. For a moment he stood there, caught between cooking breakfast and shooting ducks. \"You've got to be kidding me,\" he laughed.",
+        "The flock dropped lower. Matt and I were already reaching for our guns while Julian carefully set down the skillet and grabbed his shotgun. By the time the birds committed, all three of us were ready. The shooting was fast and clean, and when it was over we were laughing almost as hard as we were celebrating the birds we'd added to the strap. The bacon survived. So did the eggs.",
+        "By the end of the hunt, we had nearly three limits of ducks, a couple of specklebelly geese, and full bellies to match our full game straps.",
+        "Looking back, the birds were only part of what made the day special. What stands out most is the friendship, the laughter, and the sight of Jules standing in a duck blind with a spatula in his hand while a flock of widgeon dropped into the decoys. The ducks filled the straps, but moments like that are what keep us coming back. Years from now, I may not remember every bird we shot, but I'll remember that winter morning north of Little Dry Creek, sharing good food, good hunting, and good company.",
+      ] },
+    { id: "old-pole-rainbow", kind: "Fishing", where: "Lassen Co.", read: "3 min", title: "The Old Pole and a Lassen County Rainbow", by: "NorCalHunt Subscriber", sig: "NorCalHunt Subscriber",
+      lede: "One overcast summer morning, I loaded up my gear and headed to a favorite stretch of water in Lassen County with my dog, Chewy — carrying my dad's old fishing pole.",
+      paras: [
+        "One overcast summer morning in 2025, I loaded up my gear and headed to a favorite stretch of water in Lassen County with my dog, Chewy. The sky was covered in gray clouds, and a cool breeze carried the scent of pine trees and damp earth across the shoreline. It felt like one of those days when anything could happen.",
+        "I carried my dad's old fishing pole, a rod that had seen plenty of use over the years. Tied to the end of the line was a Rooster Tail spinner that had already traveled with me on a fishing trip to Alaska. Neither was new, but both held memories that made them special.",
+        "Chewy stayed close as I walked the bank, occasionally stopping to investigate a scent or watch birds along the water's edge. The lake was quiet, disturbed only by the occasional rise of a trout feeding near the surface. My first few casts produced nothing, but I stayed patient. Overcast conditions often keep trout active, and I felt confident that the fish were nearby. I cast toward a deeper section of water and began a steady retrieve. Halfway back, the strike came.",
+        "At first, I thought I had snagged the bottom. Then the line started moving. The fish surged away, and the old rod bent deeply. It was immediately clear that this trout was much bigger than I had expected. The rainbow made several strong runs, forcing me to carefully manage the fight. Each time I gained line, the fish seemed to find another burst of energy. My heart was pounding as I watched it finally break the surface for the first time. \"That's a good one,\" I said aloud. Chewy stood nearby, watching the action as if she knew something important was happening.",
+        "After a few more tense moments, I guided the fish into the shallows. It was a beautiful rainbow trout, larger than any I had expected to catch that day. Its colors stood out against the gray water and cloudy sky, making the moment even more memorable. As I admired the fish, I couldn't help but think about the gear that helped bring it to hand. Using my dad's old fishing pole and the same Rooster Tail that had traveled with me to Alaska made the catch feel connected to past adventures and family memories.",
+        "The rest of the day was peaceful, and while I caught a few more trout, none matched the excitement of that first fish. Walking back to the truck with Chewy at my side, I felt grateful for a great day on the water. The biggest lesson from that trip wasn't about fishing technique or equipment. It was a reminder that some of the best outdoor memories come from simple moments—a loyal dog beside you, trusted gear in your hands, and a fish that turns an ordinary day into one you'll never forget.",
+      ] },
+    { id: "first-pintail", kind: "Waterfowl", where: "Butte Creek · west of Richvale", read: "2 min", title: "My First Pintail", by: "NorCalHunt Subscriber", sig: "NorCalHunt Subscriber",
+      lede: "I was 14 years old, hunting with my uncle near Butte Creek west of Richvale. It was a cold winter morning with steady rain and a light wind blowing across the flooded rice fields.",
+      paras: [
+        "Some hunting memories never fade, and my first pintail is one of them.",
+        "I was 14 years old, hunting with my uncle near Butte Creek west of Richvale, California. It was a cold winter morning with steady rain and a light wind blowing across the flooded rice fields. The sky was gray, the air smelled of wet earth and rice stubble, and ducks could be heard moving through the darkness before daylight.",
+        "We settled into the blind with our decoys and waited. My uncle quietly pointed out birds and shared advice, reminding me to be patient and watch how the ducks worked the wind. I carried a 20-gauge shotgun and was eager for an opportunity.",
+        "As the morning went on, a small flock of pintails appeared through the mist. They circled the decoys several times before finally committing. My heart pounded as my uncle whispered, \"Take the drake.\" I stood, swung on the bird, and fired. The pintail folded cleanly and splashed into the flooded field. \"Did I get him?\" I asked. My uncle smiled. \"You sure did.\"",
+        "Walking out to retrieve that beautiful bird was one of the most exciting moments of my young life. The long tail feathers and elegant markings made it unlike any duck I had taken before.",
+        "Today, years later, I still remember that rainy morning. The pintail was special, but what means even more now is the time spent with my uncle. He taught me patience, confidence, and respect for the outdoors. My first pintail wasn't just a successful hunt — it was a memory shared with someone who helped shape me as a hunter, and that's what makes it unforgettable.",
+      ] },
+  ];
+  renderVals() {
+    const { open, filter, form, sent, formError } = this.state;
+    const kinds = ["All", "Deer", "Waterfowl", "Deer camp", "Fishing"];
+    const base = "font:600 14px/1 'Barlow Condensed',sans-serif;letter-spacing:.1em;text-transform:uppercase;padding:9px 16px;cursor:pointer;";
+    const setF = (k) => (e) => this.setState({ form: { ...this.state.form, [k]: e.target.value }, formError: false });
+    return {
+      filters: kinds.map((name) => ({ name, pick: () => this.setState({ filter: name }), style: base + (name === filter ? "background:#1C2B1A;color:#F2EDDD;border:1px solid #1C2B1A" : "background:#FBF8F0;color:#3B3526;border:1px solid #C9BD9E") })),
+      stories: this.stories.filter((s) => filter === "All" || s.kind === filter).map((s) => ({
+        ...s, open: open === s.id, closed: open !== s.id, cta: open === s.id ? "Close ↑" : "Read →",
+        toggle: () => this.setState({ open: open === s.id ? null : s.id }),
+      })),
+      form, sent, notSent: !sent, formError,
+      setName: setF("name"), setEmail: setF("email"), setKind: setF("kind"), setStory: setF("story"),
+      submit: () => {
+        const ok = form.name.trim() && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email) && form.story.trim().length > 20;
+        this.setState(ok ? { sent: true } : { formError: true });
+      },
+    };
+  }
+}
+</script>
+</body>
+</html>

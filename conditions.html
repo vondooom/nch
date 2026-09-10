@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Conditions — NorCalHunt</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script src="/support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>body{margin:0;background:#F5F1E8}a{color:#2F4A2C;text-decoration:none}a:hover{color:#C75B12}</style>
+</helmet>
+<div style="font-family:Barlow,sans-serif;color:#211D14">
+<div style="background:#1C2B1A;color:#D9D2BA;font:500 12px/1.4 Barlow,sans-serif;letter-spacing:.14em;text-transform:uppercase;text-align:center;padding:8px 16px">Weekly intel for the Northern California hunter &nbsp;·&nbsp; 100% free &nbsp;·&nbsp; Every Tuesday</div>
+<header style="background:#F5F1E8;border-bottom:2px solid #211D14;position:sticky;top:0;z-index:50">
+  <div style="max-width:1180px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;gap:24px;flex-wrap:wrap">
+    <a href="index.html" style="font:700 30px/1 'Barlow Condensed',sans-serif;color:#1C2B1A;letter-spacing:.02em">NORCAL<span style="color:#C75B12">HUNT</span></a>
+    <nav style="display:flex;gap:18px;flex-wrap:wrap;align-items:center;margin-left:auto;font:600 15px/1 'Barlow Condensed',sans-serif;letter-spacing:.09em;text-transform:uppercase">
+      <a href="conditions.html" style="color:#C75B12;border-bottom:2px solid #C75B12;padding-bottom:3px">Conditions</a>
+      <a href="regulations.html">Regs</a>
+      <a href="newsletters.html">Newsletters</a>
+      <a href="field-stories.html">Stories</a>
+      <a href="gear.html">Gear</a>
+      <a href="local-boys.html">Local Boys</a>
+      <a href="dog-of-the-week.html">Dogs</a>
+      <a href="marketplace.html">Marketplace</a>
+      <a href="about.html">About</a>
+      <a href="subscribe.html" style="background:#C75B12;color:#FFF6E8;padding:9px 18px">Subscribe</a>
+    </nav>
+  </div>
+</header>
+<section style="background:#1C2B1A;color:#D9D2BA">
+  <div style="max-width:1180px;margin:0 auto;padding:40px 24px 32px">
+    <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:26px">
+      <div>
+        <div style="font:600 14px/1 'Barlow Condensed',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#E8A05C;margin-bottom:10px">Conditions dashboard · Thursday, September 3, 2026</div>
+        <h1 style="font:700 clamp(36px,5vw,56px)/1 'Barlow Condensed',sans-serif;text-transform:uppercase;margin:0;color:#F7F2E4">Hunt-day conditions</h1>
+      </div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap">
+        <sc-for list="{{ regionTabs }}" as="r" hint-placeholder-count="4">
+          <button onClick="{{ r.pick }}" style="{{ r.style }}">{{ r.name }}</button>
+        </sc-for>
+      </div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:#24361F;border:1px solid #33422F">
+      <sc-for list="{{ glance }}" as="g" hint-placeholder-count="6">
+        <div style="background:#24361F;padding:16px 18px">
+          <div style="font:600 11px/1 'Barlow Condensed',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#9FB18B;margin-bottom:8px">{{ g.label }}</div>
+          <div style="font:700 24px/1.05 'Barlow Condensed',sans-serif;color:#F2EDDD">{{ g.value }}</div>
+          <div style="font:500 13px/1.4 Barlow,sans-serif;color:#B9B199;margin-top:4px">{{ g.sub }}</div>
+        </div>
+      </sc-for>
+    </div>
+    <div style="font:500 13px/1.5 Barlow,sans-serif;color:#7E7660;margin-top:12px">Times computed for {{ region.anchor }}. Sample data shown — live NWS, USNO, and CAL FIRE feeds wire in at launch. Legal shoot time is a rule, not a forecast — <a href="regulations.html" style="color:#E8A05C">confirm species hours</a>.</div>
+  </div>
+</section>
+<sc-if value="{{ showAlerts }}" hint-placeholder-val="{{ true }}">
+<section style="max-width:1180px;margin:0 auto;padding:28px 24px 0;display:grid;gap:10px">
+  <sc-for list="{{ alerts }}" as="a" hint-placeholder-count="2">
+    <div style="background:{{ a.bg }};color:{{ a.fg }};display:flex;gap:14px;align-items:baseline;flex-wrap:wrap;padding:14px 20px">
+      <span style="font:700 13px/1 'Barlow Condensed',sans-serif;letter-spacing:.16em;text-transform:uppercase;background:{{ a.fg }};color:{{ a.bg }};padding:5px 10px;white-space:nowrap">{{ a.tag }}</span>
+      <span style="font:500 15px/1.5 Barlow,sans-serif;flex:1;min-width:260px">{{ a.text }}</span>
+    </div>
+  </sc-for>
+</section>
+</sc-if>
+<section style="max-width:1180px;margin:0 auto;padding:40px 24px 0">
+  <div style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap;border-bottom:2px solid #211D14;padding-bottom:10px;margin-bottom:18px">
+    <h2 style="font:700 26px/1 'Barlow Condensed',sans-serif;text-transform:uppercase;margin:0">Open right now & opening soon</h2>
+    <a href="regulations.html" style="font:600 14px/1 'Barlow Condensed',sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#C75B12">Full season board →</a>
+  </div>
+  <div style="display:flex;gap:10px;overflow-x:auto;padding-bottom:6px">
+    <sc-for list="{{ seasons }}" as="s" hint-placeholder-count="8">
+      <div style="flex:0 0 200px;background:#FBF8F0;border:1px solid #D8CDB4;padding:14px 16px;display:grid;gap:6px">
+        <span style="font:700 11px/1 'Barlow Condensed',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:{{ s.fg }};background:{{ s.bg }};padding:4px 8px;justify-self:start">{{ s.state }}</span>
+        <div style="font:700 18px/1.1 'Barlow Condensed',sans-serif;text-transform:uppercase">{{ s.name }}</div>
+        <div style="font:700 26px/1 'Barlow Condensed',sans-serif;color:#C75B12">{{ s.big }}</div>
+        <div style="font:500 13px/1.4 Barlow,sans-serif;color:#5C543F">{{ s.note }}</div>
+      </div>
+    </sc-for>
+  </div>
+</section>
+<section style="max-width:1180px;margin:0 auto;padding:44px 24px 0">
+  <div style="display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;border-bottom:2px solid #211D14;padding-bottom:10px;margin-bottom:18px">
+    <h2 style="font:700 26px/1 'Barlow Condensed',sans-serif;text-transform:uppercase;margin:0">{{ region.name }} — forecast by refuge & zone</h2>
+    <span style="font:600 13px/1 'Barlow Condensed',sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#FFF6E8;background:#2F4A2C;padding:5px 10px">{{ region.tag }}</span>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px">
+    <sc-for list="{{ region.locs }}" as="l" hint-placeholder-count="3">
+      <div style="background:#FBF8F0;border:1px solid #D8CDB4;padding:20px">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:4px">
+          <div style="font:700 19px/1.15 'Barlow Condensed',sans-serif;text-transform:uppercase;color:#1C2B1A">{{ l.name }}</div>
+          <sc-if value="{{ l.windy }}" hint-placeholder-val="{{ false }}"><span style="font:700 11px/1 'Barlow Condensed',sans-serif;letter-spacing:.14em;background:#C75B12;color:#FFF6E8;padding:4px 8px">WINDY</span></sc-if>
+        </div>
+        <div style="font:500 13px/1.4 Barlow,sans-serif;color:#8A8163;margin-bottom:14px">{{ l.sub }}</div>
+        <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:14px">
+          <span style="font:700 40px/1 'Barlow Condensed',sans-serif;color:#1C2B1A">{{ l.temp }}°</span>
+          <span style="font:500 15px/1.3 Barlow,sans-serif;color:#5C543F">{{ l.cond }} · low {{ l.low }}°</span>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px 14px;font:500 14px/1.4 Barlow,sans-serif;color:#3B3526;border-top:1px solid #E7DFC9;padding-top:12px">
+          <div><span style="display:inline-block;color:#C75B12;font-weight:700;transform:rotate({{ l.windDeg }}deg)">↑</span> {{ l.wind }}</div>
+          <div>Precip {{ l.precip }}%</div>
+          <div>Humidity {{ l.rh }}%</div>
+          <div>Baro {{ l.baro }}</div>
+          <div>☀ {{ l.sun }}</div>
+          <div style="color:#2F4A2C;font-weight:600">Shoot {{ l.shoot }}</div>
+        </div>
+        <div style="display:flex;gap:6px;margin-top:12px;border-top:1px solid #E7DFC9;padding-top:12px">
+          <sc-for list="{{ l.week }}" as="d" hint-placeholder-count="5">
+            <div style="flex:1;text-align:center;background:#F5F1E8;padding:8px 2px">
+              <div style="font:600 10px/1 'Barlow Condensed',sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#8A8163">{{ d.d }}</div>
+              <div style="font:700 15px/1.2 'Barlow Condensed',sans-serif;color:#1C2B1A;margin-top:4px">{{ d.hi }}°</div>
+              <div style="font:500 11px/1.2 Barlow,sans-serif;color:#8A8163">{{ d.lo }}°</div>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+    </sc-for>
+  </div>
+</section>
+<section style="max-width:1180px;margin:0 auto;padding:44px 24px 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:24px">
+  <div>
+    <h2 style="font:700 26px/1 'Barlow Condensed',sans-serif;text-transform:uppercase;border-bottom:2px solid #211D14;padding-bottom:10px;margin:0 0 14px">Shoot light — next 7 days</h2>
+    <div style="background:#FBF8F0;border:1px solid #D8CDB4">
+      <div style="display:grid;grid-template-columns:1.1fr 1fr 1fr 1.4fr 1fr;gap:0 10px;padding:10px 16px;background:#1C2B1A;color:#D9D2BA;font:600 11px/1 'Barlow Condensed',sans-serif;letter-spacing:.14em;text-transform:uppercase">
+        <div>Day</div><div>Sunrise</div><div>Sunset</div><div>Waterfowl / dove</div><div>Big game</div>
+      </div>
+      <sc-for list="{{ shootWeek }}" as="s" hint-placeholder-count="7">
+        <div style="display:grid;grid-template-columns:1.1fr 1fr 1fr 1.4fr 1fr;gap:0 10px;padding:11px 16px;border-top:1px solid #E7DFC9;font:500 14px/1.3 Barlow,sans-serif;color:#3B3526;align-items:baseline">
+          <div style="font:700 15px/1.2 'Barlow Condensed',sans-serif;text-transform:uppercase;color:#1C2B1A">{{ s.day }}</div>
+          <div>{{ s.rise }}</div><div>{{ s.set }}</div>
+          <div style="color:#2F4A2C;font-weight:600">{{ s.wf }}</div>
+          <div>{{ s.bg }}</div>
+        </div>
+      </sc-for>
+    </div>
+    <div style="font:500 12px/1.5 Barlow,sans-serif;color:#8A8163;margin-top:8px">Waterfowl & dove: ½ hr before sunrise to sunset. Deer, bear, upland: ½ hr before sunrise to ½ hr after sunset. Anchored at {{ region.anchor }}; times shift ±4 min across the region.</div>
+  </div>
+  <div>
+    <h2 style="font:700 26px/1 'Barlow Condensed',sans-serif;text-transform:uppercase;border-bottom:2px solid #211D14;padding-bottom:10px;margin:0 0 14px">Moon & solunar</h2>
+    <div style="background:#FBF8F0;border:1px solid #D8CDB4;padding:20px;display:grid;gap:16px">
+      <div style="display:flex;gap:18px;align-items:center">
+        <div style="width:72px;height:72px;border-radius:50%;background:linear-gradient(90deg,#1C2B1A 0 38%,#E8DFC4 38%);border:2px solid #211D14;flex:none"></div>
+        <div>
+          <div style="font:700 26px/1 'Barlow Condensed',sans-serif;text-transform:uppercase">Waning gibbous</div>
+          <div style="font:500 14px/1.5 Barlow,sans-serif;color:#5C543F">62% illuminated · Rise 10:12 PM · Set 12:41 PM<br>Last quarter Sep 4 · New moon Sep 10 (dark dove mornings)</div>
+        </div>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+        <sc-for list="{{ solunar }}" as="s" hint-placeholder-count="4">
+          <div style="background:#F5F1E8;padding:12px 14px">
+            <div style="font:600 11px/1 'Barlow Condensed',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#8A8163">{{ s.label }}</div>
+            <div style="font:700 18px/1.2 'Barlow Condensed',sans-serif;color:#1C2B1A;margin-top:4px">{{ s.time }}</div>
+          </div>
+        </sc-for>
+      </div>
+      <div style="font:400 14px/1.55 'Source Serif 4',serif;color:#5C543F;border-top:1px solid #E7DFC9;padding-top:12px">Activity rating today: <strong style="color:#C75B12">Good</strong>. Minor period overlaps first shoot light — be set up before 6:00. Big-game movement tends to stretch later into the morning as the moon wanes toward the 10th.</div>
+    </div>
+  </div>
+</section>
+<section style="max-width:1180px;margin:0 auto;padding:44px 24px 0">
+  <h2 style="font:700 26px/1 'Barlow Condensed',sans-serif;text-transform:uppercase;border-bottom:2px solid #211D14;padding-bottom:10px;margin:0 0 18px">Waterfowl watch — refuge status</h2>
+  <div style="background:#FBF8F0;border:1px solid #D8CDB4;overflow-x:auto">
+    <div style="display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr 2fr;gap:0 14px;padding:10px 18px;background:#1C2B1A;color:#D9D2BA;font:600 11px/1 'Barlow Condensed',sans-serif;letter-spacing:.14em;text-transform:uppercase;min-width:760px">
+      <div>Area</div><div>Water</div><div>Ducks est.</div><div>Geese est.</div><div>Status</div>
+    </div>
+    <sc-for list="{{ refuges }}" as="r" hint-placeholder-count="6">
+      <div style="display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr 2fr;gap:0 14px;padding:12px 18px;border-top:1px solid #E7DFC9;font:500 14px/1.4 Barlow,sans-serif;color:#3B3526;min-width:760px;align-items:baseline">
+        <div><div style="font:700 16px/1.2 'Barlow Condensed',sans-serif;text-transform:uppercase;color:#1C2B1A">{{ r.name }}</div><div style="font:500 12px/1.3 Barlow,sans-serif;color:#8A8163">{{ r.type }}</div></div>
+        <div>{{ r.water }}</div><div>{{ r.ducks }}</div><div>{{ r.geese }}</div>
+        <div style="color:#5C543F">{{ r.status }}</div>
+      </div>
+    </sc-for>
+  </div>
+  <div style="font:500 12px/1.5 Barlow,sans-serif;color:#8A8163;margin-top:8px">Pre-season snapshot (sample). During the season this updates weekly from CDFW/USFWS refuge reports: hunter counts, average bag, water conditions, and reservation/sweat-line results.</div>
+</section>
+<section style="max-width:1180px;margin:0 auto;padding:44px 24px 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:24px">
+  <div>
+    <h2 style="font:700 26px/1 'Barlow Condensed',sans-serif;text-transform:uppercase;border-bottom:2px solid #211D14;padding-bottom:10px;margin:0 0 14px">Fire & smoke</h2>
+    <div style="display:grid;gap:10px">
+      <sc-for list="{{ fires }}" as="f" hint-placeholder-count="3">
+        <div style="background:#FBF8F0;border:1px solid #D8CDB4;border-left:4px solid {{ f.color }};padding:14px 18px;display:grid;grid-template-columns:1fr auto;gap:4px 16px;align-items:baseline">
+          <div style="font:700 17px/1.2 'Barlow Condensed',sans-serif;text-transform:uppercase;color:#1C2B1A">{{ f.name }}</div>
+          <div style="font:700 15px/1 'Barlow Condensed',sans-serif;color:{{ f.color }}">{{ f.pct }}</div>
+          <div style="font:500 13px/1.45 Barlow,sans-serif;color:#5C543F;grid-column:1/-1">{{ f.where }} · {{ f.acres }} · {{ f.note }}</div>
+        </div>
+      </sc-for>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:12px">
+      <sc-for list="{{ aqi }}" as="a" hint-placeholder-count="4">
+        <div style="background:#FBF8F0;border:1px solid #D8CDB4;padding:10px 12px;text-align:center">
+          <div style="font:600 10px/1 'Barlow Condensed',sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#8A8163">{{ a.place }}</div>
+          <div style="font:700 22px/1.1 'Barlow Condensed',sans-serif;color:{{ a.color }};margin-top:4px">{{ a.val }}</div>
+          <div style="font:500 11px/1.2 Barlow,sans-serif;color:#5C543F">AQI · {{ a.label }}</div>
+        </div>
+      </sc-for>
+    </div>
+    <div style="font:500 12px/1.5 Barlow,sans-serif;color:#8A8163;margin-top:8px">National Preparedness Level 5. Check <a href="https://www.fire.ca.gov/incidents" target="_blank" rel="noopener">fire.ca.gov</a> and your forest district for closures and burn bans before any open flame.</div>
+  </div>
+  <div>
+    <h2 style="font:700 26px/1 'Barlow Condensed',sans-serif;text-transform:uppercase;border-bottom:2px solid #211D14;padding-bottom:10px;margin:0 0 14px">Field notes this week</h2>
+    <div style="display:grid;gap:10px">
+      <sc-for list="{{ notes }}" as="n" hint-placeholder-count="4">
+        <div style="background:#FBF8F0;border:1px solid #D8CDB4;padding:14px 18px">
+          <div style="font:600 11px/1 'Barlow Condensed',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#C75B12;margin-bottom:6px">{{ n.tag }}</div>
+          <div style="font:400 15px/1.55 'Source Serif 4',serif;color:#3B3526">{{ n.text }}</div>
+        </div>
+      </sc-for>
+    </div>
+  </div>
+</section>
+<section style="max-width:1180px;margin:0 auto;padding:44px 24px 64px">
+  <div style="border:2px solid #211D14;background:#FBF8F0;padding:22px 26px;display:grid;gap:12px">
+    <div style="font:700 16px/1 'Barlow Condensed',sans-serif;letter-spacing:.12em;text-transform:uppercase">Sources & disclaimer</div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap">
+      <sc-for list="{{ sources }}" as="s" hint-placeholder-count="6">
+        <a href="{{ s.href }}" target="_blank" rel="noopener" style="font:600 13px/1 'Barlow Condensed',sans-serif;letter-spacing:.1em;text-transform:uppercase;border:1px solid #C9BD9E;color:#3B3526;padding:8px 12px">{{ s.name }} ↗</a>
+      </sc-for>
+    </div>
+    <div style="font:400 14px/1.6 'Source Serif 4',serif;color:#5C543F">Forecasts are from the National Weather Service; sun and moon data from the U.S. Naval Observatory; fire data from CAL FIRE and InciWeb; air quality from AirNow. Solunar ratings are an estimate, not a promise. Shooting hours shown are the general California rules — species and zone rules differ, and this page is not a substitute for the CDFW regulation booklet. NorCalHunt is independent and not affiliated with any state or federal agency.</div>
+  </div>
+</section>
+<footer style="background:#1C2B1A;color:#B9B199">
+  <div style="max-width:1180px;margin:0 auto;padding:36px 24px;display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;align-items:center">
+    <div style="font:700 24px/1 'Barlow Condensed',sans-serif;color:#F7F2E4">NORCAL<span style="color:#C75B12">HUNT</span></div>
+    <div style="font:400 15px/1.5 'Source Serif 4',serif">Get conditions in your inbox every Tuesday.</div>
+    <a href="subscribe.html" style="background:#C75B12;color:#FFF6E8;font:600 15px/1 'Barlow Condensed',sans-serif;letter-spacing:.1em;text-transform:uppercase;padding:11px 20px">Subscribe free</a>
+  </div>
+  <div style="border-top:1px solid #33422F;text-align:center;font:500 13px/1 Barlow,sans-serif;color:#7E7660;padding:16px 24px">© 2026 NorCalHunt · Independently owned and operated</div>
+</footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;showAlerts&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Dashboard&quot;}}">
+class Component extends DCLogic {
+  state = { region: 0 };
+  renderVals() {
+    const wk = (hi, lo) => ["Fri", "Sat", "Sun", "Mon", "Tue"].map((d, i) => ({ d, hi: hi + [0, 2, 3, 1, -2][i], lo: lo + [0, 1, 1, 0, -2][i] }));
+    const L = (name, sub, temp, low, cond, windDir, windDeg, windMph, precip, rh, baro, sun, shoot) => ({
+      name, sub, temp, low, cond, windDeg, wind: windDir + " " + windMph + " mph", windy: windMph >= 15, precip, rh, baro, sun, shoot, week: wk(temp, low),
+    });
+    const regions = [
+      { name: "Sacramento Valley", tag: "Waterfowl · Refuges · D-zone", anchor: "Gray Lodge WA (Gridley)", locs: [
+        L("Gray Lodge WA", "Butte Co. · near Gridley", 88, 58, "Clear", "NNW", 337, 12, 0, 28, "29.94 ↓", "6:33a / 7:30p", "6:03a – 7:30p"),
+        L("Sacramento NWR", "Glenn Co. · Willows", 90, 57, "Clear", "N", 0, 16, 0, "24", "29.93 ↓", "6:34a / 7:31p", "6:04a – 7:31p"),
+        L("Colusa NWR", "Colusa Co.", 89, 56, "Clear", "NNW", 340, 14, 0, 26, "29.94 ↓", "6:33a / 7:30p", "6:03a – 7:30p"),
+        L("Delevan NWR", "Colusa Co.", 89, 57, "Clear", "N", 355, 15, 0, 25, "29.94 →", "6:33a / 7:30p", "6:03a – 7:30p"),
+        L("Sutter NWR", "Sutter Co.", 90, 59, "Hazy sun", "NW", 315, 9, 0, 31, "29.95 →", "6:32a / 7:29p", "6:02a – 7:29p"),
+        L("Yuba City rice", "Sutter Co. · dove fields", 91, 60, "Clear", "NW", 320, 8, 0, 30, "29.95 →", "6:32a / 7:29p", "6:02a – 7:29p"),
+      ]},
+      { name: "Shasta Cascade", tag: "C-zone · Bear · Big game", anchor: "Redding", locs: [
+        L("Redding", "Shasta Co.", 96, 64, "Clear", "N", 5, 18, 0, 17, "29.90 ↓", "6:31a / 7:31p", "6:01a – 8:01p"),
+        L("Burney", "Shasta Co. · Hwy 299", 84, 46, "Clear", "NNE", 20, 13, 0, 22, "29.92 →", "6:29a / 7:29p", "5:59a – 7:59p"),
+        L("Fall River Mills", "Shasta Co.", 83, 44, "Clear", "NE", 40, 10, 0, 24, "29.93 →", "6:28a / 7:28p", "5:58a – 7:58p"),
+        L("McCloud", "Siskiyou Co. · Mt. Shasta", 80, 43, "Clear", "N", 355, 11, 0, 25, "29.92 →", "6:31a / 7:31p", "6:01a – 8:01p"),
+        L("Susanville", "Lassen Co. · X-zone", 86, 47, "Clear", "SW", 230, 12, 5, 19, "29.89 ↓", "6:24a / 7:23p", "5:54a – 7:53p"),
+      ]},
+      { name: "Sierra Foothills", tag: "D-zone · Deer & upland", anchor: "Oroville", locs: [
+        L("Oroville foothills", "Butte Co.", 92, 61, "Clear", "NW", 325, 7, 0, 27, "29.95 →", "6:31a / 7:28p", "6:01a – 7:58p"),
+        L("Grass Valley", "Nevada Co.", 86, 55, "Clear", "W", 270, 6, 0, 30, "29.96 →", "6:31a / 7:28p", "6:01a – 7:58p"),
+        L("Placerville", "El Dorado Co.", 88, 57, "Hazy sun", "SW", 225, 8, 0, 29, "29.96 →", "6:30a / 7:27p", "6:00a – 7:57p"),
+        L("Quincy", "Plumas Co. · Q1 quail", 82, 45, "Clear", "SW", 235, 9, 5, 26, "29.93 →", "6:27a / 7:25p", "5:57a – 7:55p"),
+      ]},
+      { name: "North Coast", tag: "A/B-zone · Blacktail · Q2", anchor: "Ukiah", locs: [
+        L("Eureka", "Humboldt Co.", 63, 52, "Marine layer", "NW", 310, 11, 20, 88, "30.02 ↑", "6:43a / 7:41p", "6:13a – 8:11p"),
+        L("Ukiah", "Mendocino Co.", 92, 55, "Clear", "NNW", 330, 9, 0, 33, "29.98 →", "6:39a / 7:35p", "6:09a – 8:05p"),
+        L("Covelo", "Round Valley · Mendocino NF", 89, 50, "Clear", "N", 350, 12, 0, 30, "29.96 →", "6:38a / 7:34p", "6:08a – 8:04p"),
+        L("Clearlake", "Lake Co. · Q2 quail", 93, 58, "Clear", "NW", 320, 8, 0, 31, "29.97 →", "6:38a / 7:33p", "6:08a – 8:03p"),
+      ]},
+    ];
+    const region = regions[this.state.region];
+    const tabBase = "font:600 14px/1 'Barlow Condensed',sans-serif;letter-spacing:.1em;text-transform:uppercase;padding:9px 16px;cursor:pointer;";
+    const toMin = (s) => { const [h, m] = s.replace(/[ap]/, "").split(":").map(Number); return (h % 12) * 60 + m + (s.includes("p") ? 720 : 0); };
+    const fmt = (min) => { const h = Math.floor(min / 60), m = min % 60; return ((h + 11) % 12 + 1) + ":" + String(m).padStart(2, "0") + (h >= 12 ? " PM" : " AM"); };
+    const [riseS, setS] = region.locs[0].sun.split(" / ");
+    const rise = toMin(riseS), set = toMin(setS);
+    const a = { sun: riseS.replace("a", "") + " / " + setS.replace("p", ""), shootWf: fmt(rise - 30) + " – " + fmt(set), shootBg: fmt(rise - 30) + " – " + fmt(set + 30), dayLen: Math.floor((set - rise) / 60) + "h " + ((set - rise) % 60) + "m" };
+    const OPEN = { state: "Open", fg: "#FFF6E8", bg: "#2F4A2C" }, SOON = { state: "Opens", fg: "#1C2B1A", bg: "#E8A05C" }, CLOSING = { state: "Closing", fg: "#FFF6E8", bg: "#C75B12" };
+    return {
+      showAlerts: this.props.showAlerts ?? true,
+      region,
+      regionTabs: regions.map((r, i) => ({ name: r.name, pick: () => this.setState({ region: i }), style: tabBase + (i === this.state.region ? "background:#E8A05C;color:#1C2B1A;border:1px solid #E8A05C" : "background:transparent;color:#D9D2BA;border:1px solid #4A5D42") })),
+      glance: [
+        { label: "Shoot light · waterfowl", value: a.shootWf, sub: "½ hr before sunrise → sunset" },
+        { label: "Shoot light · big game", value: a.shootBg, sub: "→ ½ hr after sunset" },
+        { label: "Sunrise / sunset", value: a.sun, sub: "Day length " + a.dayLen + " · −2m/day" },
+        { label: "Moon", value: "Waning gibbous 62%", sub: "Rise 10:12 PM · Set 12:41 PM" },
+        { label: "Wind now", value: region.locs[0].wind, sub: region.locs[0].name + " · gusts to " + (parseInt(region.locs[0].wind.match(/\d+/)[0]) + 9) },
+        { label: "Fire danger", value: "Very high", sub: "PL5 · Red Flag Shasta/Tehama thru Fri" },
+      ],
+      alerts: [
+        { tag: "NWS Red Flag", bg: "#8C2F14", fg: "#FFEDD9", text: "Red Flag Warning — Shasta & Tehama Co. through Friday 8 PM. Gusty north winds 20–30 mph, RH to 10%. No open flame; check forest restrictions before camp stoves." },
+        { tag: "Heat advisory", bg: "#E8A05C", fg: "#1C2B1A", text: "Sacramento Valley highs 95–102° Fri–Sun. Get doves on ice in the field, hydrate dogs every 30 minutes, and quit the field by 10 AM on the opener weekend." },
+      ],
+      seasons: [
+        { ...OPEN, name: "Dove — early split", big: "Day 3 of 15", note: "Closes Sep 15 · 15/day · HIP + Upland" },
+        { ...OPEN, name: "A-zone rifle", big: "17 days left", note: "Closes Sep 20 · one buck per tag" },
+        { ...CLOSING, name: "B-zone archery", big: "3 days", note: "B1/B2/B3/B5/B6 close Sep 6" },
+        { ...CLOSING, name: "Archery bear", big: "3 days", note: "Through Sep 6 · general open in A" },
+        { ...CLOSING, name: "Quail archery", big: "Ends tomorrow", note: "Statewide through Sep 4" },
+        { ...SOON, name: "Q1 mountain quail", big: "9 days", note: "Sep 12 · interior counties" },
+        { ...SOON, name: "B/C-zone rifle", big: "16 days", note: "Sep 19 · B1–B6, C1–C4" },
+        { ...SOON, name: "Band-tailed pigeon", big: "16 days", note: "Sep 19–27 · 2/day" },
+        { ...SOON, name: "D3–D5 rifle", big: "23 days", note: "Sep 26 – Nov 1" },
+        { ...SOON, name: "NE zone waterfowl", big: "30 days", note: "Oct 3 · early Canadas BOS Oct 3–5" },
+        { ...SOON, name: "Balance of State ducks", big: "51 days", note: "Oct 24 – Jan 31" },
+        { ...OPEN, name: "Wild pig", big: "Year-round", note: "OTC tag · no limit" },
+      ],
+      shootWeek: [
+        { day: "Thu 3", rise: "6:33", set: "7:30", wf: "6:03a – 7:30p", bg: "6:03a – 8:00p" },
+        { day: "Fri 4", rise: "6:34", set: "7:29", wf: "6:04a – 7:29p", bg: "6:04a – 7:59p" },
+        { day: "Sat 5", rise: "6:35", set: "7:27", wf: "6:05a – 7:27p", bg: "6:05a – 7:57p" },
+        { day: "Sun 6", rise: "6:35", set: "7:26", wf: "6:05a – 7:26p", bg: "6:05a – 7:56p" },
+        { day: "Mon 7", rise: "6:36", set: "7:24", wf: "6:06a – 7:24p", bg: "6:06a – 7:54p" },
+        { day: "Tue 8", rise: "6:37", set: "7:23", wf: "6:07a – 7:23p", bg: "6:07a – 7:53p" },
+        { day: "Wed 9", rise: "6:38", set: "7:22", wf: "6:08a – 7:22p", bg: "6:08a – 7:52p" },
+      ],
+      solunar: [
+        { label: "Major · AM", time: "5:19 – 7:19 AM" }, { label: "Major · PM", time: "5:45 – 7:45 PM" },
+        { label: "Minor · AM", time: "11:41a – 12:41p" }, { label: "Minor · PM", time: "10:12 – 11:12 PM" },
+      ],
+      refuges: [
+        { name: "Gray Lodge WA", type: "State · Type A · Butte Co.", water: "Flooding up", ducks: "~4,000", geese: "Few", status: "Pre-season flood-up under way; first reservations drawn mid-Oct. Sweat line Sat/Wed/Sun." },
+        { name: "Sacramento NWR", type: "Federal · Glenn Co.", water: "30% flooded", ducks: "~6,500", geese: "~200 specks", status: "Early pintail and teal arriving; free-roam & assigned blinds open Oct 24." },
+        { name: "Delevan NWR", type: "Federal · Colusa Co.", water: "20% flooded", ducks: "~2,000", geese: "—", status: "Historically the top average bag in the complex; check-station lottery at 3:30 AM." },
+        { name: "Colusa NWR", type: "Federal · Colusa Co.", water: "Dry / flooding", ducks: "~1,200", geese: "—", status: "Flood-up begins next week. Good spaced-blind program for first-timers." },
+        { name: "Sutter NWR", type: "Federal · Sutter Co.", water: "Dry", ducks: "Few", geese: "—", status: "Bypass-dependent; opens with water. Watch for late openers in dry falls." },
+        { name: "Llano Seco / Upper Butte", type: "State & federal · Butte Co.", water: "Partial", ducks: "~3,000", geese: "~150", status: "Howard Slough and Little Dry Creek flood-up on schedule for Oct 24." },
+      ],
+      fires: [
+        { name: "Bug Fire", where: "Lassen / Sierra Co. line", acres: "93,700 ac", pct: "97% contained", color: "#2F4A2C", note: "Mop-up; area closures still in effect on the Plumas NF." },
+        { name: "MP18 Fire", where: "Near Hoopa · Humboldt Co.", acres: "7,600 ac", pct: "76% contained", color: "#C75B12", note: "Evacuations reduced to warnings; Hwy 96 open with delays." },
+        { name: "New starts · 24 hr", where: "NorCal", acres: "3 small", pct: "All <10 ac", color: "#8A8163", note: "Two lightning starts near Alturas held overnight." },
+      ],
+      aqi: [
+        { place: "Chico", val: 48, label: "Good", color: "#2F4A2C" }, { place: "Redding", val: 74, label: "Moderate", color: "#B8860B" },
+        { place: "Eureka", val: 22, label: "Good", color: "#2F4A2C" }, { place: "Susanville", val: 112, label: "USG", color: "#C75B12" },
+      ],
+      notes: [
+        { tag: "Dove · opener report", text: "Strong opening morning across the Sutter and Butte rice — most guns limited by 8:30. Birds shifted to harvested safflower and sunflower edges by day two; water holes are the afternoon play in the heat." },
+        { tag: "Deer · A-zone", text: "Bucks hard-horned and moving only at first light. Readers in the coast range report best success glassing north-facing shade from 6:00 to 7:15 and sitting water from 6:45 PM." },
+        { tag: "Waterfowl · outlook", text: "USFWS 2026 breeding survey: pintail up, mallards flat, specks strong. Early teal and pintail already on Sacramento NWR — a cool front the week of the 14th would push more." },
+        { tag: "Bear", text: "Archery bear closes Saturday. Acorn drop is early in the foothills this year — black oaks are the spot for the general opener alongside B/C deer." },
+      ],
+      sources: [
+        { name: "NWS Sacramento", href: "https://www.weather.gov/sto" }, { name: "NWS Eureka", href: "https://www.weather.gov/eka" },
+        { name: "USNO sun & moon", href: "https://aa.usno.navy.mil/data/RS_OneDay" }, { name: "CAL FIRE", href: "https://www.fire.ca.gov/incidents" },
+        { name: "AirNow", href: "https://www.airnow.gov" }, { name: "CDFW shoot times", href: "https://wildlife.ca.gov/Regulations/Nor-Cal-Shoot-Times" },
+        { name: "CDFW refuge reports", href: "https://wildlife.ca.gov/Hunting/Waterfowl" }, { name: "Sacramento NWR Complex", href: "https://www.fws.gov/refuge/sacramento" },
+      ],
+    };
+  }
+}
+</script>
+</body>
+</html>

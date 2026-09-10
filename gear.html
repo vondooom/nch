@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gear — NorCalHunt</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script src="/support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>body{margin:0;background:#F5F1E8}a{color:#2F4A2C;text-decoration:none}a:hover{color:#C75B12}</style>
+</helmet>
+<div style="font-family:Barlow,sans-serif;color:#211D14">
+<div style="background:#1C2B1A;color:#D9D2BA;font:500 12px/1.4 Barlow,sans-serif;letter-spacing:.14em;text-transform:uppercase;text-align:center;padding:8px 16px">Weekly intel for the Northern California hunter &nbsp;·&nbsp; 100% free &nbsp;·&nbsp; Every Tuesday</div>
+<header style="background:#F5F1E8;border-bottom:2px solid #211D14;position:sticky;top:0;z-index:50">
+  <div style="max-width:1180px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;gap:24px;flex-wrap:wrap">
+    <a href="index.html" style="font:700 30px/1 'Barlow Condensed',sans-serif;color:#1C2B1A;letter-spacing:.02em">NORCAL<span style="color:#C75B12">HUNT</span></a>
+    <nav style="display:flex;gap:18px;flex-wrap:wrap;align-items:center;margin-left:auto;font:600 15px/1 'Barlow Condensed',sans-serif;letter-spacing:.09em;text-transform:uppercase">
+      <a href="conditions.html">Conditions</a>
+      <a href="regulations.html">Regs</a>
+      <a href="newsletters.html">Newsletters</a>
+      <a href="field-stories.html">Stories</a>
+      <a href="gear.html" style="color:#C75B12;border-bottom:2px solid #C75B12;padding-bottom:3px">Gear</a>
+      <a href="local-boys.html">Local Boys</a>
+      <a href="dog-of-the-week.html">Dogs</a>
+      <a href="marketplace.html">Marketplace</a>
+      <a href="about.html">About</a>
+      <a href="subscribe.html" style="background:#C75B12;color:#FFF6E8;padding:9px 18px">Subscribe</a>
+    </nav>
+  </div>
+</header>
+<section style="max-width:1180px;margin:0 auto;padding:48px 24px 80px">
+  <div style="font:600 14px/1 'Barlow Condensed',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#C75B12;margin-bottom:10px">Gear Check</div>
+  <h1 style="font:700 clamp(36px,5vw,56px)/1 'Barlow Condensed',sans-serif;text-transform:uppercase;margin:0 0 14px">Field-tested gear we actually use</h1>
+  <p style="font:400 17px/1.6 'Source Serif 4',serif;color:#5C543F;max-width:660px;margin:0 0 10px;text-wrap:pretty">Every pick below has been carried, shot, packed, or worn by us or by readers we trust. We favor the value option that holds up over the flagship that doesn't earn its price.</p>
+  <p style="font:500 13px/1.5 Barlow,sans-serif;color:#8A8163;margin:0 0 30px">Some links in the newsletter are affiliate links — they cost you nothing and keep the briefing free. We never recommend gear we wouldn't buy ourselves.</p>
+  <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:26px">
+    <sc-for list="{{ cats }}" as="c" hint-placeholder-count="6">
+      <button onClick="{{ c.pick }}" style="{{ c.style }}">{{ c.name }}</button>
+    </sc-for>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px">
+    <sc-for list="{{ items }}" as="g" hint-placeholder-count="6">
+      <div style="background:#FBF8F0;border:1px solid #D8CDB4;padding:22px;display:flex;flex-direction:column;gap:10px">
+        <div style="display:flex;justify-content:space-between;gap:10px;align-items:baseline">
+          <span style="font:700 12px/1 'Barlow Condensed',sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#FFF6E8;background:#2F4A2C;padding:4px 9px">{{ g.cat }}</span>
+          <span style="font:700 12px/1 'Barlow Condensed',sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#C75B12">{{ g.badge }}</span>
+        </div>
+        <div style="font:700 21px/1.2 'Barlow Condensed',sans-serif;color:#1C2B1A">{{ g.name }}</div>
+        <div style="font:400 15px/1.55 'Source Serif 4',serif;color:#5C543F;flex:1">{{ g.why }}</div>
+        <div style="display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid #E7DFC9;padding-top:10px">
+          <span style="font:700 18px/1 'Barlow Condensed',sans-serif;color:#1C2B1A">{{ g.price }}</span>
+          <span style="font:500 13px/1.3 Barlow,sans-serif;color:#8A8163">{{ g.issue }}</span>
+        </div>
+      </div>
+    </sc-for>
+  </div>
+</section>
+<footer style="background:#1C2B1A;color:#B9B199">
+  <div style="max-width:1180px;margin:0 auto;padding:36px 24px;display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;align-items:center">
+    <div style="font:700 24px/1 'Barlow Condensed',sans-serif;color:#F7F2E4">NORCAL<span style="color:#C75B12">HUNT</span></div>
+    <div style="font:400 15px/1.5 'Source Serif 4',serif">A new Gear Check in every Tuesday briefing.</div>
+    <a href="subscribe.html" style="background:#C75B12;color:#FFF6E8;font:600 15px/1 'Barlow Condensed',sans-serif;letter-spacing:.1em;text-transform:uppercase;padding:11px 20px">Subscribe free</a>
+  </div>
+  <div style="border-top:1px solid #33422F;text-align:center;font:500 13px/1 Barlow,sans-serif;color:#7E7660;padding:16px 24px">© 2026 NorCalHunt · Independently owned and operated</div>
+</footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { cat: "All" };
+  renderVals() {
+    const all = [
+      { cat: "Optics", badge: "Value pick", name: "10x42 value binoculars", why: "The glass pick from Issue #8 — clear enough to grade a blacktail at 400 yards, cheap enough to live in the truck. The step-up flagship isn't worth 3x the price.", price: "~$260", issue: "Issue #8" },
+      { cat: "Big Game", badge: "Field-tested", name: "Value frame pack", why: "The pack from our backcountry pack-out issue. Hauled a boned-out buck 4 miles without a squeak. Load shelf, real hip belt, no gimmicks.", price: "~$220", issue: "Issue #12" },
+      { cat: "Upland", badge: "We trust it", name: "Dove & upland vest", why: "The value vest we trust: big shell pockets, a blood-proof game bag, mesh back for the September heat. Buy once for a decade of openers.", price: "~$70", issue: "Issue #13" },
+      { cat: "Waterfowl", badge: "Set out early", name: "Spinning-wing dove decoy", why: "The decoy to set out before September 1. Doves finish 20 yards closer — the difference between a limit and a box of excuses.", price: "~$45", issue: "Issue #10" },
+      { cat: "Big Game", badge: "Zero it now", name: "Non-lead hunting loads", why: "California requires non-lead for all take. Our tested copper loads grouped under an inch at 100 — get zeroed before your opener, not the night before.", price: "~$55/box", issue: "Issue #9" },
+      { cat: "Camp & Kitchen", badge: "Pays for itself", name: "Chamber vacuum sealer", why: "The freezer tool that pays for itself — from Issue #7. No more freezer-burned backstrap in February. Buy the chamber style, skip the suction bags.", price: "~$180", issue: "Issue #7" },
+      { cat: "Camp & Kitchen", badge: "Buy it once", name: "12-inch cast iron skillet", why: "The pan behind every From Field to Table recipe. Sears a backstrap properly over coals or a burner. Your grandkids will inherit it.", price: "~$40", issue: "Issue #4" },
+      { cat: "Dogs", badge: "Dog-approved", name: "Neoprene dog vest", why: "For Labs in cold water: 5mm neoprene, chest protection in the tules, and a handle for boat lifts. Gunner wears one — see Issue #8.", price: "~$65", issue: "Issue #8" },
+      { cat: "Big Game", badge: "July heat", name: "Game bags + 40qt cooler plan", why: "Don't cook your buck on the drive home. Breathable synthetic bags plus block ice in a hard cooler kept meat at 38° across the valley in July.", price: "~$35", issue: "Issue #7" },
+    ];
+    const cats = ["All", "Optics", "Big Game", "Upland", "Waterfowl", "Dogs", "Camp & Kitchen"];
+    const base = "font:600 14px/1 'Barlow Condensed',sans-serif;letter-spacing:.1em;text-transform:uppercase;padding:9px 16px;cursor:pointer;";
+    return {
+      cats: cats.map((name) => ({
+        name,
+        pick: () => this.setState({ cat: name }),
+        style: name === this.state.cat
+          ? base + "background:#1C2B1A;color:#F2EDDD;border:1px solid #1C2B1A"
+          : base + "background:#FBF8F0;color:#3B3526;border:1px solid #C9BD9E",
+      })),
+      items: this.state.cat === "All" ? all : all.filter((g) => g.cat === this.state.cat),
+    };
+  }
+}
+</script>
+</body>
+</html>

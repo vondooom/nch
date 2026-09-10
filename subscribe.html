@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Subscribe — NorCalHunt</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script src="/support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>body{margin:0;background:#F5F1E8}a{color:#2F4A2C;text-decoration:none}a:hover{color:#C75B12}input::placeholder{color:#9C9377}</style>
+</helmet>
+<div style="font-family:Barlow,sans-serif;color:#211D14">
+<div style="background:#1C2B1A;color:#D9D2BA;font:500 12px/1.4 Barlow,sans-serif;letter-spacing:.14em;text-transform:uppercase;text-align:center;padding:8px 16px">Weekly intel for the Northern California hunter &nbsp;·&nbsp; 100% free &nbsp;·&nbsp; Every Tuesday</div>
+<header style="background:#F5F1E8;border-bottom:2px solid #211D14;position:sticky;top:0;z-index:50">
+  <div style="max-width:1180px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;gap:24px;flex-wrap:wrap">
+    <a href="index.html" style="font:700 30px/1 'Barlow Condensed',sans-serif;color:#1C2B1A;letter-spacing:.02em">NORCAL<span style="color:#C75B12">HUNT</span></a>
+    <nav style="display:flex;gap:18px;flex-wrap:wrap;align-items:center;margin-left:auto;font:600 15px/1 'Barlow Condensed',sans-serif;letter-spacing:.09em;text-transform:uppercase">
+      <a href="conditions.html">Conditions</a>
+      <a href="regulations.html">Regs</a>
+      <a href="newsletters.html">Newsletters</a>
+      <a href="field-stories.html">Stories</a>
+      <a href="gear.html">Gear</a>
+      <a href="local-boys.html">Local Boys</a>
+      <a href="dog-of-the-week.html">Dogs</a>
+      <a href="marketplace.html">Marketplace</a>
+      <a href="about.html">About</a>
+      <a href="subscribe.html" style="background:#C75B12;color:#FFF6E8;padding:9px 18px">Subscribe</a>
+    </nav>
+  </div>
+</header>
+<section style="max-width:720px;margin:0 auto;padding:64px 24px 24px;text-align:center">
+  <div style="font:600 14px/1 'Barlow Condensed',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#C75B12;margin-bottom:12px">Free · Every Tuesday · Unsubscribe anytime</div>
+  <h1 style="font:700 clamp(38px,6vw,60px)/1 'Barlow Condensed',sans-serif;text-transform:uppercase;margin:0 0 16px;text-wrap:pretty">Spend less time searching. More time hunting.</h1>
+  <p style="font:400 18px/1.6 'Source Serif 4',serif;color:#5C543F;margin:0 auto 32px;max-width:520px;text-wrap:pretty">Join the NorCal hunters who get the Tuesday briefing — a five-minute read with everything you check before a trip, in one place.</p>
+  <sc-if value="{{ subscribed }}" hint-placeholder-val="{{ false }}">
+    <div style="background:#2F4A2C;color:#F2EDDD;padding:24px;font:600 20px/1.4 'Barlow Condensed',sans-serif;letter-spacing:.04em">You're in. Check your inbox — first briefing lands Tuesday morning. See you in the field.</div>
+  </sc-if>
+  <sc-if value="{{ notSubscribed }}" hint-placeholder-val="{{ true }}">
+    <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center">
+      <input value="{{ email }}" onChange="{{ onEmail }}" type="email" placeholder="you@example.com" style="flex:1;min-width:260px;max-width:380px;border:2px solid #211D14;background:#FFFDF7;padding:15px 16px;font:500 16px/1 Barlow,sans-serif;color:#211D14;outline:none" />
+      <button onClick="{{ onSubscribe }}" style="background:#C75B12;border:2px solid #C75B12;color:#FFF6E8;font:600 17px/1 'Barlow Condensed',sans-serif;letter-spacing:.1em;text-transform:uppercase;padding:15px 28px;cursor:pointer">Subscribe free</button>
+    </div>
+    <sc-if value="{{ error }}" hint-placeholder-val="{{ false }}"><div style="font:500 14px/1.4 Barlow,sans-serif;color:#8C2F14;margin-top:10px">Enter a valid email address.</div></sc-if>
+  </sc-if>
+  <div style="font:500 13px/1.5 Barlow,sans-serif;color:#8A8163;margin-top:14px">No spam, no selling your address. One email a week, that's it.</div>
+</section>
+<section style="max-width:900px;margin:0 auto;padding:40px 24px 0">
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:2px;background:#211D14;border:2px solid #211D14">
+    <sc-for list="{{ perks }}" as="p" hint-placeholder-count="6">
+      <div style="background:#FBF8F0;padding:20px 22px">
+        <div style="font:700 17px/1.2 'Barlow Condensed',sans-serif;text-transform:uppercase;color:#1C2B1A;margin-bottom:6px">{{ p.t }}</div>
+        <div style="font:400 14px/1.55 'Source Serif 4',serif;color:#5C543F">{{ p.d }}</div>
+      </div>
+    </sc-for>
+  </div>
+</section>
+<section style="max-width:900px;margin:0 auto;padding:56px 24px 80px">
+  <div style="background:#1C2B1A;color:#D9D2BA;padding:clamp(28px,4vw,44px);display:flex;gap:28px;flex-wrap:wrap;align-items:center;justify-content:space-between">
+    <div style="flex:1;min-width:280px">
+      <div style="display:flex;gap:10px;align-items:center;margin-bottom:10px">
+        <span style="font:700 22px/1 'Barlow Condensed',sans-serif;color:#F7F2E4;letter-spacing:.03em;text-transform:uppercase">NorCalHunt<span style="color:#E8A05C">+</span></span>
+        <span style="font:700 11px/1 'Barlow Condensed',sans-serif;letter-spacing:.16em;text-transform:uppercase;background:#E8A05C;color:#1C2B1A;padding:4px 8px">Coming soon</span>
+      </div>
+      <div style="font:400 16px/1.6 'Source Serif 4',serif;text-wrap:pretty">A members' tier for the most serious hunters in the pack: draw-odds breakdowns, zone maps, the full searchable archive, and member perks. Subscribers get first crack.</div>
+    </div>
+    <div style="font:600 14px/1.6 'Barlow Condensed',sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#9FB18B">Draw odds · Zone maps · Full archive · Member perks</div>
+  </div>
+</section>
+<footer style="background:#1C2B1A;color:#B9B199">
+  <div style="border-top:1px solid #33422F;text-align:center;font:500 13px/1 Barlow,sans-serif;color:#7E7660;padding:18px 24px">© 2026 NorCalHunt · Independently owned and operated</div>
+</footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { email: "", subscribed: false, error: false };
+  renderVals() {
+    return {
+      email: this.state.email,
+      subscribed: this.state.subscribed,
+      notSubscribed: !this.state.subscribed,
+      error: this.state.error,
+      onEmail: (e) => this.setState({ email: e.target.value, error: false }),
+      onSubscribe: () => {
+        const ok = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(this.state.email);
+        this.setState(ok ? { subscribed: true, error: false } : { error: true });
+      },
+      perks: [
+        { t: "The Board", d: "Season dates, draw deadlines, and tag payments — surfaced before they lapse." },
+        { t: "Conditions", d: "Hunt-day weather, wind, shoot light, and moon for your zone." },
+        { t: "Gear Check", d: "Field-tested picks and value alternatives. No junk, no hype." },
+        { t: "From Field to Table", d: "Wild-game recipes worth the freezer space." },
+        { t: "Field Stories", d: "Reader hunts and lessons learned the hard way." },
+        { t: "Dog of the Week", d: "A featured NorCal hunting dog, every single issue." },
+      ],
+    };
+  }
+}
+</script>
+</body>
+</html>

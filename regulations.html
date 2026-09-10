@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Regulations — NorCalHunt</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script src="/support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>body{margin:0;background:#F5F1E8}a{color:#2F4A2C;text-decoration:none}a:hover{color:#C75B12}</style>
+</helmet>
+<div style="font-family:Barlow,sans-serif;color:#211D14">
+<div style="background:#1C2B1A;color:#D9D2BA;font:500 12px/1.4 Barlow,sans-serif;letter-spacing:.14em;text-transform:uppercase;text-align:center;padding:8px 16px">Weekly intel for the Northern California hunter &nbsp;·&nbsp; 100% free &nbsp;·&nbsp; Every Tuesday</div>
+<header style="background:#F5F1E8;border-bottom:2px solid #211D14;position:sticky;top:0;z-index:50">
+  <div style="max-width:1180px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;gap:24px;flex-wrap:wrap">
+    <a href="index.html" style="font:700 30px/1 'Barlow Condensed',sans-serif;color:#1C2B1A;letter-spacing:.02em">NORCAL<span style="color:#C75B12">HUNT</span></a>
+    <nav style="display:flex;gap:18px;flex-wrap:wrap;align-items:center;margin-left:auto;font:600 15px/1 'Barlow Condensed',sans-serif;letter-spacing:.09em;text-transform:uppercase">
+      <a href="conditions.html">Conditions</a>
+      <a href="regulations.html" style="color:#C75B12;border-bottom:2px solid #C75B12;padding-bottom:3px">Regs</a>
+      <a href="newsletters.html">Newsletters</a>
+      <a href="field-stories.html">Stories</a>
+      <a href="gear.html">Gear</a>
+      <a href="local-boys.html">Local Boys</a>
+      <a href="dog-of-the-week.html">Dogs</a>
+      <a href="marketplace.html">Marketplace</a>
+      <a href="about.html">About</a>
+      <a href="subscribe.html" style="background:#C75B12;color:#FFF6E8;padding:9px 18px">Subscribe</a>
+    </nav>
+  </div>
+</header>
+<section style="max-width:1180px;margin:0 auto;padding:48px 24px 0">
+  <div style="font:600 14px/1 'Barlow Condensed',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#C75B12;margin-bottom:10px">2026–27 seasons · The Board</div>
+  <h1 style="font:700 clamp(36px,5vw,56px)/1 'Barlow Condensed',sans-serif;text-transform:uppercase;margin:0 0 14px">Season dates, regulations & bag limits</h1>
+  <p style="font:400 17px/1.6 'Source Serif 4',serif;color:#5C543F;max-width:700px;margin:0 0 22px;text-wrap:pretty">Stay ahead of CDFW rule changes, draw deadlines, bag limits, and proposed updates — so you're always hunting legal in Northern California.</p>
+  <div style="background:#8C2F14;color:#FFEDD9;padding:16px 20px;display:flex;gap:14px;align-items:flex-start;flex-wrap:wrap;margin-bottom:36px">
+    <span style="font:700 13px/1 'Barlow Condensed',sans-serif;letter-spacing:.16em;text-transform:uppercase;background:#FFEDD9;color:#8C2F14;padding:5px 10px;white-space:nowrap">Verify before you hunt</span>
+    <span style="font:400 15px/1.55 'Source Serif 4',serif;flex:1;min-width:280px">This is a plain-language summary, not the legal regulation. Dates, zones, and limits change by emergency order and Commission action. Hunters are responsible for knowing the law — confirm every date in the official CDFW booklet at <a href="https://wildlife.ca.gov/Regulations" style="color:#FFEDD9;text-decoration:underline">wildlife.ca.gov/Regulations</a> before you go.</span>
+  </div>
+  <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:30px">
+    <sc-for list="{{ jump }}" as="j" hint-placeholder-count="6">
+      <a href="{{ j.href }}" style="font:600 14px/1 'Barlow Condensed',sans-serif;letter-spacing:.1em;text-transform:uppercase;border:1px solid #C9BD9E;background:#FBF8F0;color:#3B3526;padding:9px 16px">{{ j.name }}</a>
+    </sc-for>
+  </div>
+</section>
+<section id="status" style="max-width:1180px;margin:0 auto;padding:0 24px 0">
+  <h2 style="font:700 26px/1 'Barlow Condensed',sans-serif;text-transform:uppercase;border-bottom:2px solid #211D14;padding-bottom:10px;margin:0 0 18px">Right now — {{ today }}</h2>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin-bottom:44px">
+    <sc-for list="{{ status }}" as="s" hint-placeholder-count="6">
+      <div style="background:#FBF8F0;border:1px solid #D8CDB4;padding:16px 18px;display:grid;gap:6px">
+        <span style="font:700 11px/1 'Barlow Condensed',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:{{ s.color }};background:{{ s.bg }};padding:4px 8px;justify-self:start">{{ s.state }}</span>
+        <div style="font:700 19px/1.1 'Barlow Condensed',sans-serif;text-transform:uppercase">{{ s.name }}</div>
+        <div style="font:500 14px/1.4 Barlow,sans-serif;color:#5C543F">{{ s.note }}</div>
+      </div>
+    </sc-for>
+  </div>
+</section>
+<section id="seasons" style="max-width:1180px;margin:0 auto;padding:0 24px 0">
+  <h2 style="font:700 26px/1 'Barlow Condensed',sans-serif;text-transform:uppercase;border-bottom:2px solid #211D14;padding-bottom:10px;margin:0 0 18px">Current season dates</h2>
+  <div style="display:grid;gap:22px;margin-bottom:44px">
+    <sc-for list="{{ seasons }}" as="sp" hint-placeholder-count="6">
+      <div style="background:#FBF8F0;border:1px solid #D8CDB4">
+        <div style="display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;align-items:baseline;padding:18px 22px;border-bottom:1px solid #E7DFC9">
+          <h3 style="font:700 24px/1 'Barlow Condensed',sans-serif;text-transform:uppercase;margin:0">{{ sp.species }}</h3>
+          <div style="font:500 14px/1.4 Barlow,sans-serif;color:#8A8163">{{ sp.need }}</div>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:0 1px;background:#E7DFC9">
+          <sc-for list="{{ sp.rows }}" as="r" hint-placeholder-count="3">
+            <div style="background:#FBF8F0;padding:14px 22px;display:grid;gap:4px;border-bottom:1px solid #E7DFC9">
+              <div style="font:700 15px/1.2 'Barlow Condensed',sans-serif;text-transform:uppercase;letter-spacing:.04em;color:#1C2B1A">{{ r.z }}</div>
+              <div style="font:500 14px/1.5 Barlow,sans-serif;color:#3B3526">{{ r.d }}</div>
+            </div>
+          </sc-for>
+        </div>
+        <sc-if value="{{ sp.note }}" hint-placeholder-val="{{ false }}"><div style="font:400 14px/1.5 'Source Serif 4',serif;font-style:italic;color:#5C543F;padding:12px 22px">{{ sp.note }}</div></sc-if>
+      </div>
+    </sc-for>
+  </div>
+</section>
+<section id="limits" style="max-width:1180px;margin:0 auto;padding:0 24px 0">
+  <h2 style="font:700 26px/1 'Barlow Condensed',sans-serif;text-transform:uppercase;border-bottom:2px solid #211D14;padding-bottom:10px;margin:0 0 6px">Bag limits — game birds 2026–27</h2>
+  <p style="font:400 15px/1.55 'Source Serif 4',serif;color:#5C543F;margin:0 0 18px;max-width:720px"><strong>Daily bag</strong> is the most you may take in one day; <strong>possession</strong> is the most you may have on hand — in California, triple the daily bag unless noted.</p>
+  <div style="background:#FBF8F0;border:1px solid #D8CDB4;margin-bottom:44px;overflow-x:auto">
+    <div style="display:grid;grid-template-columns:1.3fr .7fr .7fr 1.6fr 2fr;gap:0 16px;padding:12px 22px;background:#1C2B1A;color:#D9D2BA;font:600 12px/1 'Barlow Condensed',sans-serif;letter-spacing:.16em;text-transform:uppercase;min-width:760px">
+      <div>Species</div><div>Daily</div><div>Possession</div><div>Season</div><div>Inside the limit</div>
+    </div>
+    <sc-for list="{{ limits }}" as="l" hint-placeholder-count="10">
+      <div style="display:grid;grid-template-columns:1.3fr .7fr .7fr 1.6fr 2fr;gap:0 16px;padding:13px 22px;border-top:1px solid #E7DFC9;font:500 14px/1.45 Barlow,sans-serif;color:#3B3526;min-width:760px;align-items:baseline">
+        <div style="font:700 16px/1.2 'Barlow Condensed',sans-serif;text-transform:uppercase;color:#1C2B1A">{{ l.s }}</div>
+        <div style="font:700 18px/1 'Barlow Condensed',sans-serif;color:#C75B12">{{ l.d }}</div>
+        <div>{{ l.p }}</div>
+        <div>{{ l.season }}</div>
+        <div style="color:#5C543F">{{ l.in }}</div>
+      </div>
+    </sc-for>
+  </div>
+</section>
+<section id="rules" style="max-width:1180px;margin:0 auto;padding:0 24px 0">
+  <h2 style="font:700 26px/1 'Barlow Condensed',sans-serif;text-transform:uppercase;border-bottom:2px solid #211D14;padding-bottom:10px;margin:0 0 18px">Key rules & reminders — stay legal</h2>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2px;background:#211D14;border:2px solid #211D14;margin-bottom:44px">
+    <sc-for list="{{ rules }}" as="r" hint-placeholder-count="8">
+      <div style="background:#FBF8F0;padding:22px 24px">
+        <div style="font:700 19px/1.15 'Barlow Condensed',sans-serif;text-transform:uppercase;color:#1C2B1A;margin-bottom:8px">{{ r.t }}</div>
+        <div style="font:400 15px/1.55 'Source Serif 4',serif;color:#5C543F">{{ r.d }}</div>
+      </div>
+    </sc-for>
+  </div>
+</section>
+<section id="changes" style="max-width:1180px;margin:0 auto;padding:0 24px 0">
+  <h2 style="font:700 26px/1 'Barlow Condensed',sans-serif;text-transform:uppercase;border-bottom:2px solid #211D14;padding-bottom:10px;margin:0 0 18px">What's changing</h2>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px;margin-bottom:44px">
+    <sc-for list="{{ changes }}" as="c" hint-placeholder-count="3">
+      <div style="background:#FBF8F0;border:1px solid #D8CDB4;border-left:4px solid #C75B12;padding:20px 22px">
+        <div style="font:700 12px/1 'Barlow Condensed',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#C75B12;margin-bottom:8px">{{ c.status }}</div>
+        <div style="font:700 20px/1.15 'Barlow Condensed',sans-serif;text-transform:uppercase;margin-bottom:8px">{{ c.t }}</div>
+        <div style="font:400 15px/1.55 'Source Serif 4',serif;color:#5C543F">{{ c.d }}</div>
+      </div>
+    </sc-for>
+  </div>
+</section>
+<section id="sources" style="max-width:1180px;margin:0 auto;padding:0 24px 0">
+  <h2 style="font:700 26px/1 'Barlow Condensed',sans-serif;text-transform:uppercase;border-bottom:2px solid #211D14;padding-bottom:10px;margin:0 0 6px">Official sources — bookmark these</h2>
+  <p style="font:400 15px/1.55 'Source Serif 4',serif;color:#5C543F;margin:0 0 18px;max-width:720px">The agencies that actually write the rules. When our summary and their booklet disagree, they're right.</p>
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px;margin-bottom:36px">
+    <sc-for list="{{ sources }}" as="s" hint-placeholder-count="10">
+      <a href="{{ s.href }}" target="_blank" rel="noopener" style="background:#FBF8F0;border:1px solid #D8CDB4;padding:16px 18px;display:grid;gap:5px" style-hover="border-color:#C75B12">
+        <div style="font:600 11px/1 'Barlow Condensed',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#8A8163">{{ s.agency }}</div>
+        <div style="font:700 17px/1.2 'Barlow Condensed',sans-serif;text-transform:uppercase;color:#1C2B1A">{{ s.name }}</div>
+        <div style="font:400 14px/1.45 'Source Serif 4',serif;color:#5C543F">{{ s.d }}</div>
+        <div style="font:600 13px/1 'Barlow Condensed',sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#C75B12;margin-top:4px">{{ s.host }} ↗</div>
+      </a>
+    </sc-for>
+  </div>
+  <div style="border:2px solid #211D14;background:#FBF8F0;padding:24px 28px;margin-bottom:64px;font:400 14px/1.65 'Source Serif 4',serif;color:#3B3526">
+    <div style="font:700 16px/1 'Barlow Condensed',sans-serif;letter-spacing:.12em;text-transform:uppercase;margin-bottom:10px">Disclaimer</div>
+    While we make every effort to keep season dates, deadlines, and bag limits accurate, wildlife regulations are subject to sudden shifts, emergency closures, and administrative changes by state and federal agencies. NorCalHunt is an independent resource and is not an official representative of the State of California, CDFW, the California Fish and Game Commission, or the U.S. Fish &amp; Wildlife Service. We assume no legal liability for inaccuracies, typographical errors, or omissions. Hunters are ultimately responsible for knowing the law. Source: California Department of Fish &amp; Wildlife 2026–27 Big Game, Waterfowl, and Upland Game regulations (wildlife.ca.gov). Compiled August 2026.
+  </div>
+</section>
+<footer style="background:#1C2B1A;color:#B9B199">
+  <div style="max-width:1180px;margin:0 auto;padding:36px 24px;display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;align-items:center">
+    <div style="font:700 24px/1 'Barlow Condensed',sans-serif;color:#F7F2E4">NORCAL<span style="color:#C75B12">HUNT</span></div>
+    <div style="font:400 15px/1.5 'Source Serif 4',serif">Never miss a regulation update — The Board runs in every Tuesday briefing.</div>
+    <a href="subscribe.html" style="background:#C75B12;color:#FFF6E8;font:600 15px/1 'Barlow Condensed',sans-serif;letter-spacing:.1em;text-transform:uppercase;padding:11px 20px">Subscribe free</a>
+  </div>
+  <div style="border-top:1px solid #33422F;text-align:center;font:500 13px/1 Barlow,sans-serif;color:#7E7660;padding:16px 24px">© 2026 NorCalHunt · Independently owned and operated</div>
+</footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  renderVals() {
+    const OPEN = { state: "Open now", color: "#FFF6E8", bg: "#2F4A2C" }, SOON = { state: "Opens soon", color: "#1C2B1A", bg: "#E8A05C" }, CLOSING = { state: "Closing", color: "#FFF6E8", bg: "#C75B12" }, CLOSED = { state: "Closed", color: "#F5F1E8", bg: "#7E7660" };
+    return {
+      today: "Thursday, September 3, 2026",
+      jump: [
+        { name: "Right now", href: "#status" }, { name: "Season dates", href: "#seasons" }, { name: "Bag limits", href: "#limits" },
+        { name: "Key rules", href: "#rules" }, { name: "What's changing", href: "#changes" }, { name: "Official sources", href: "#sources" },
+      ],
+      status: [
+        { ...OPEN, name: "Dove — early split", note: "Sep 1–15 · 15/day · HIP + Upland validation" },
+        { ...OPEN, name: "A-zone general deer", note: "Aug 8 – Sep 20 · week four" },
+        { ...CLOSING, name: "B-zone archery", note: "B1/B2/B3/B5/B6 close Sep 6 — last weekend" },
+        { ...CLOSING, name: "Archery bear", note: "Through Sep 6 · general bear open in A-zone" },
+        { ...OPEN, name: "Quail — archery only", note: "Statewide through Sep 4" },
+        { ...SOON, name: "Q1 mountain quail", note: "Sep 12 · interior & mountain counties" },
+        { ...SOON, name: "B/C-zone general deer", note: "Sep 19 · B1–B3, B5, B6, C1–C4" },
+        { ...SOON, name: "Band-tailed pigeon", note: "Sep 19–27 · North zone · 2/day" },
+        { ...SOON, name: "NE zone ducks & geese", note: "Oct 3 · early large Canadas BOS Oct 3–5" },
+        { ...SOON, name: "Balance of State ducks", note: "Oct 24 – Jan 31" },
+        { ...OPEN, name: "Wild pig", note: "Year-round · OTC tag · no limit" },
+        { ...CLOSED, name: "Sage-grouse", note: "No permits adopted for 2026–27" },
+      ],
+      seasons: [
+        { species: "Deer", need: "License + deer tag · report within 10 days", rows: [
+          { z: "Zone A (North & South)", d: "Archery Jul 11 – Aug 2 · General Aug 8 – Sep 20" },
+          { z: "Zones B1, B2, B3, B5, B6", d: "Archery Aug 15 – Sep 6 · General Sep 19 – Oct 25" },
+          { z: "Zone B4 (Mendocino coast)", d: "Archery Jul 25 – Aug 16 · General Aug 22 – Sep 27" },
+          { z: "Zone C1", d: "Archery Aug 15 – Aug 30 · General Sep 19 – Oct 25" },
+          { z: "Zones C2, C3", d: "Archery Aug 15 – Sep 5 · General Sep 19 – Oct 25" },
+          { z: "Zone C4", d: "Archery Aug 15 – Aug 30 · General Sep 19 – Oct 4" },
+          { z: "Zones D3, D4, D5", d: "Archery Aug 15 – Sep 6 · General Sep 26 – Nov 1" },
+          { z: "X zones (X1–X7b, draw)", d: "Archery Aug 15 – Sep 5 · General Oct 3 – Oct 18" },
+        ], note: "A & B = coastal and northwest; C = northeast Sierra and Cascade foothills; D = Sacramento Valley and northern Sierra foothills; X = premium northeast and high-Sierra draws." },
+        { species: "Ducks & geese", need: "License + CA Duck Validation + Federal Duck Stamp (16+) + HIP", rows: [
+          { z: "Balance of State — ducks", d: "Oct 24 – Jan 31 · Scaup Nov 7 – Jan 31" },
+          { z: "Balance of State — geese", d: "Early large Canadas Oct 3–5 · Regular Oct 24 – Jan 31" },
+          { z: "Balance of State — late geese", d: "Canadas Feb 20–21 · White-fronted & white Feb 20–24" },
+          { z: "Northeastern — ducks", d: "Oct 3 – Jan 13 · Scaup Oct 3 – Nov 29 & Dec 17 – Jan 13" },
+          { z: "Northeastern — geese", d: "Canadas Oct 3 – Jan 10 · White & white-fronted Oct 3 – Nov 29 & Jan 1 – 13" },
+          { z: "Northeastern — late geese", d: "White & white-fronted Feb 5 – Mar 10" },
+        ], note: "Balance of State covers the Sacramento Valley, Bay Area, and North Coast. Northeastern is Modoc, Lassen, and parts of Siskiyou and Shasta." },
+        { species: "Dove", need: "License + Upland Game Bird Validation + HIP", rows: [
+          { z: "Early split (mourning & white-winged)", d: "Sep 1 – Sep 15" },
+          { z: "Late split", d: "Nov 14 – Dec 28" },
+          { z: "Eurasian collared-dove", d: "Year-round · no limit" },
+        ] },
+        { species: "Quail", need: "License + Upland Game Bird Validation", rows: [
+          { z: "Statewide archery-only", d: "Aug 15 – Sep 4" },
+          { z: "Q1 — early mountain quail", d: "Sep 12 – Oct 16" },
+          { z: "Q1 — all species", d: "Oct 17 – Jan 31 (Shasta, Siskiyou, Lassen, Plumas…)" },
+          { z: "Q2 — North Coast", d: "Sep 26 – Jan 31 (Marin, Napa, Solano, Sonoma, Lake, Mendocino)" },
+          { z: "Q3 — rest of state", d: "Oct 17 – Jan 31" },
+        ] },
+        { species: "Turkey", need: "License + Upland Game Bird Validation", rows: [
+          { z: "Fall 2026 general", d: "Nov 14 – Dec 13 · 1/day, 2/season" },
+          { z: "Spring 2027 general", d: "Mar 27 – May 2" },
+          { z: "Spring 2027 archery extension", d: "May 3 – May 16" },
+          { z: "Spring 2027 junior weekend", d: "Mar 20–21 · junior extension May 3–16" },
+        ] },
+        { species: "Bear, pig & more", need: "Species tags as noted", rows: [
+          { z: "Bear — archery", d: "Through Sep 6 · general bear open with A-zone deer · non-lead, no bait, no dogs, premolar submission" },
+          { z: "Wild pig", d: "Year-round · OTC tag · no bag or possession limit · both sexes" },
+          { z: "Pheasant", d: "Nov 14 – Dec 27 · 2 males first two days, then 3" },
+          { z: "Chukar · snipe", d: "Oct 17 – Jan 31 · 6/day · 8/day (HIP)" },
+          { z: "Sooty / ruffed grouse", d: "Sep 12 – Oct 12 · 2/day" },
+          { z: "Band-tailed pigeon (North zone)", d: "Sep 19 – 27 · 2/day (HIP)" },
+        ] },
+      ],
+      limits: [
+        { s: "Dove", d: "15", p: "45", season: "Sep 1–15 & Nov 14–Dec 28", in: "No more than 10 white-winged. Spotted, ringed turtle & collared-dove: no limit." },
+        { s: "Duck", d: "7", p: "21", season: "NE Oct 3–Jan 13 · BOS Oct 24–Jan 31", in: "Up to 7 mallards (2 hens), 3 pintail, 2 canvasback, 2 redheads, 2 scaup. Coots/moorhens 25/day." },
+        { s: "Geese", d: "30", p: "90", season: "NE Oct 3–Jan 10 · BOS Oct 24–Jan 31", in: "Up to 20 white + 10 dark. Max 6 white-fronted (3 in Sac Valley SMA); 3 large Canada in NE." },
+        { s: "Pheasant", d: "2–3 ♂", p: "9", season: "Nov 14–Dec 27", in: "2 males first two days, then 3 males. Archery/falconry differ." },
+        { s: "Quail", d: "10", p: "30", season: "Sep 12–Jan 31 (by zone)", in: "Any combination of valley and mountain quail." },
+        { s: "Chukar", d: "6", p: "18", season: "Oct 17–Jan 31", in: "Statewide." },
+        { s: "Snipe", d: "8", p: "24", season: "Oct 17–Jan 31", in: "HIP validation required." },
+        { s: "Band-tailed pigeon", d: "2", p: "6", season: "Sep 19–27 (North zone)", in: "HIP validation required." },
+        { s: "Grouse", d: "2", p: "6", season: "Sep 12–Oct 12", in: "Sooty / ruffed — one species or mixed." },
+        { s: "Turkey (fall)", d: "1", p: "2/season", season: "Nov 14–Dec 13", in: "Either sex." },
+        { s: "Sage-grouse", d: "—", p: "—", season: "Closed", in: "No permits adopted for 2026–27." },
+      ],
+      rules: [
+        { t: "Non-lead ammo — every hunt", d: "Lead-free projectiles required for all wildlife taken by firearm statewide, public and private land, doves included. Solid copper or polymer-tipped copper only. Re-zero — copper flies differently. Wardens actively check." },
+        { t: "License & tags in possession", d: "Your 2026–27 license and validations must be on you in the field; the CDFW License App counts for the license. Physical big-game tags (deer, bear, pig) must be carried on your person to notch and attach immediately on harvest." },
+        { t: "Harvest reporting — 10 days", d: "Deer, elk, pronghorn, and bear must be reported within 10 days via the CDFW License Portal or CA Outdoors app. Failure to report can cost future tag privileges." },
+        { t: "Legal shooting hours", d: "Most upland and big game: 30 min before sunrise to 30 min after sunset. Waterfowl and dove: 30 min before sunrise to sunset. Check species-specific rules." },
+        { t: "Federal Duck Stamp", d: "All waterfowl hunters 16 and older must carry a valid Federal Migratory Bird Hunting and Conservation Stamp — post offices, CDFW offices, or store.usgs.gov." },
+        { t: "Migratory bird rules", d: "Doves and waterfowl are federally regulated: shotgun plugged to 3 shells total, free HIP validation on your license, and no shooting within 150 yards of an occupied dwelling." },
+        { t: "Know your boundaries", d: "Trespassing while hunting is a misdemeanor and can mean license revocation. Written landowner permission is required on private land. Verify boundaries with a mapping app before you step off the road." },
+        { t: "Fire restrictions", d: "Burn bans and forest closures change fast and vary by district. Check fire.ca.gov and your local forest office before camp stoves, open flame, or a long push into dry timber." },
+      ],
+      changes: [
+        { status: "Approved · 2026", t: "Three new Desert Bighorn zones", d: "The Commission finalized three brand-new Desert Bighorn Sheep hunt zones in San Bernardino County, expanding opportunity for the most coveted tag in the state." },
+        { status: "In effect since 2019", t: "Non-lead mandate statewide", d: "Fully enforced on all public and private lands. Lead-free projectiles required for all wildlife taken by firearm. CDFW wardens actively checking compliance." },
+        { status: "Deadline passed · Jul 15", t: "Premium tag payment", d: "Second-choice and leftover tags dropped Aug 2. If you drew and missed the July 15 deadline your tag was forfeited — the deadline that bites hunters every year." },
+      ],
+      sources: [
+        { agency: "State", name: "CDFW Hunting Regulations", d: "The legally binding booklets: Big Game Digest, Waterfowl, Upland Game.", href: "https://wildlife.ca.gov/Regulations", host: "wildlife.ca.gov" },
+        { agency: "State", name: "CDFW NorCal Shoot Times", d: "Official legal shooting hours table for Northern California.", href: "https://wildlife.ca.gov/Regulations/Nor-Cal-Shoot-Times", host: "wildlife.ca.gov" },
+        { agency: "State", name: "CDFW License Portal", d: "Buy licenses, validations, tags; report your harvest.", href: "https://wildlife.ca.gov/Licensing", host: "wildlife.ca.gov" },
+        { agency: "State", name: "Fish & Game Commission", d: "Proposed rule changes, meeting agendas, public comment.", href: "https://fgc.ca.gov", host: "fgc.ca.gov" },
+        { agency: "State", name: "CDFW Wildlife Areas", d: "Gray Lodge and other state areas: hunt days, reservations, sweat line.", href: "https://wildlife.ca.gov/Lands", host: "wildlife.ca.gov" },
+        { agency: "Federal", name: "Sacramento NWR Complex", d: "Sacramento, Delevan, Colusa, Sutter refuges — hunt program and conditions.", href: "https://www.fws.gov/refuge/sacramento", host: "fws.gov" },
+        { agency: "Federal", name: "Federal Duck Stamp", d: "Buy the Migratory Bird Hunting and Conservation Stamp online.", href: "https://store.usgs.gov/federal-duck-stamps", host: "store.usgs.gov" },
+        { agency: "Federal", name: "USFS — Region 5 (California)", d: "National forest closures, fire restrictions, MVUMs.", href: "https://www.fs.usda.gov/r5", host: "fs.usda.gov" },
+        { agency: "Federal", name: "BLM California", d: "Public land access, fire restrictions on BLM ground.", href: "https://www.blm.gov/california", host: "blm.gov" },
+        { agency: "State", name: "CAL FIRE Incidents", d: "Active fires, red-flag warnings, burn permits.", href: "https://www.fire.ca.gov/incidents", host: "fire.ca.gov" },
+        { agency: "Federal", name: "National Weather Service — Sacramento", d: "Forecasts, fire weather, red-flag warnings for the Valley and foothills.", href: "https://www.weather.gov/sto", host: "weather.gov" },
+        { agency: "State", name: "CDFW Hunter Education", d: "Required for first-time license buyers; find a class.", href: "https://wildlife.ca.gov/Hunter-Education", host: "wildlife.ca.gov" },
+      ],
+    };
+  }
+}
+</script>
+</body>
+</html>
