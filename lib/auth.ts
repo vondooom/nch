@@ -9,7 +9,7 @@ function secret() {
   return (
     process.env.STAFF_SESSION_SECRET ||
     process.env.AUTH_SECRET ||
-    (process.env.NODE_ENV === "production" ? "" : "norcal-hunt-dev-secret")
+    "norcal-hunt-dev-secret"
   );
 }
 
