@@ -3,12 +3,7 @@ import { PublicSubmitForm } from "@/components/site/public-submit-form";
 
 export const metadata = { title: "Submit a field story" };
 
-export default async function SubmitStoryPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ ok?: string }>;
-}) {
-  const { ok } = await searchParams;
+export default function SubmitStoryPage() {
   return (
     <>
       <SiteBanner />
@@ -24,19 +19,13 @@ export default async function SubmitStoryPage({
           A first buck, a limit in the rain, the dog that finally figured it out. Editors read the inbox; admins publish
           what runs.
         </p>
-        {ok ? (
-          <div className="bg-[#2F4A2C] p-6 font-heading text-[20px] font-semibold text-[#F2EDDD]">
-            Got it. If it runs, you&apos;ll see it in a Tuesday briefing.
-          </div>
-        ) : (
-          <PublicSubmitForm
-            kind="story"
-            namePlaceholder="Your name"
-            titlePlaceholder="Title or where it happened"
-            bodyPlaceholder="The story"
-            submitLabel="Send to the desk"
-          />
-        )}
+        <PublicSubmitForm
+          kind="story"
+          namePlaceholder="Your name"
+          titlePlaceholder="Title or where it happened"
+          bodyPlaceholder="The story"
+          submitLabel="Send to the desk"
+        />
       </section>
       <SiteFooter compact />
     </>

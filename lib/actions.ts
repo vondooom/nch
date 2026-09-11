@@ -57,7 +57,7 @@ export async function subscribeAction(formData: FormData) {
 export async function submitPublicAction(formData: FormData) {
   const kind = recordPublicSubmission(formData);
   revalidatePath("/admin/submissions");
-  redirect(kind === "dog" ? "/dog-of-the-week/nominate?ok=1" : "/field-stories/submit?ok=1");
+  redirect(kind === "dog" ? "/dog-of-the-week/nominated" : "/field-stories/submitted");
 }
 
 export async function saveIssueAction(formData: FormData) {
