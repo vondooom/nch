@@ -37,8 +37,12 @@ npm run preview
 
 ## Deploy
 
-This project is set up for Vercel (Vite, static output). Push or deploy from the project root:
+Live production project: [norcal-hunt.vercel.app](https://norcal-hunt.vercel.app)
+
+Local `npm run build` produces static files in `dist/`. To publish:
 
 ```bash
 npx vercel --prod
 ```
+
+The first Vercel project (`norcal-hunt` on the ai2040 team) was created with a file deploy. `vercel.json` currently rewrites `/support.js` and `/image-slot.js` to the immutable deployment that first uploaded those runtimes. If you connect a Git repo and let Vite build `public/` into `dist/`, remove those rewrites so the built copies are served instead.
