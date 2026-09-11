@@ -67,7 +67,10 @@
 <script type="text/x-dc" data-dc-script>
 class Component extends DCLogic {
   renderVals() {
-    const I = (num, date, read, title, blurb, slug) => ({ num, date, read, title, blurb, href: slug.endsWith(".dc.html") ? slug : "https://norcalhunt.com/p/" + slug });
+    const I = (num, date, read, title, blurb, slug) => ({
+      num, date, read, title, blurb,
+      href: /\.html?$/.test(slug) ? slug : "https://norcalhunt.com/p/" + slug,
+    });
     return { issues: [
       I(13, "Aug 30, 2026", "7 min read", "Dove opens Tuesday: poppers, a vest, and the paperwork you can't skip", "Plus a plate of dove poppers in the Showcase, the value vest we trust, a young pointer already holding steady, and a father-son hunt worth reading to the end.", "issue-13.html"),
       I(12, "Aug 23, 2026", "8 min read", "The long way out: packing a buck from the backcountry", "Plus the value frame pack we trust, the gutless method step by step, a 14-year-old still holding point, and dove opener nine days out.", "the-long-way-out-packing-a-buck-from-the-backcountry"),
