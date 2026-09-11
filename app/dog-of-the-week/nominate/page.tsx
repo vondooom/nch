@@ -1,5 +1,5 @@
 import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
-import { submitPublicAction } from "@/lib/actions";
+import { PublicSubmitForm } from "@/components/site/public-submit-form";
 
 export const metadata = { title: "Nominate a dog" };
 
@@ -25,16 +25,13 @@ export default async function NominatePage({
             Nomination received. Editors will take it from here.
           </div>
         ) : (
-          <form action={submitPublicAction} className="grid gap-4">
-            <input type="hidden" name="kind" value="dog" />
-            <input name="name" placeholder="Your name" required className="border-2 border-[#211D14] bg-[#FFFDF7] px-4 py-3" />
-            <input name="email" type="email" placeholder="Email" required className="border-2 border-[#211D14] bg-[#FFFDF7] px-4 py-3" />
-            <input name="title" placeholder="Dog name, breed, town" required className="border-2 border-[#211D14] bg-[#FFFDF7] px-4 py-3" />
-            <textarea name="body" required rows={6} placeholder="What they hunt and the story" className="border-2 border-[#211D14] bg-[#FFFDF7] px-4 py-3" />
-            <button className="bg-[#C75B12] px-7 py-3.5 font-heading text-[17px] font-semibold uppercase tracking-[0.1em] text-[#FFF6E8]">
-              Nominate
-            </button>
-          </form>
+          <PublicSubmitForm
+            kind="dog"
+            namePlaceholder="Your name"
+            titlePlaceholder="Dog name, breed, town"
+            bodyPlaceholder="What they hunt and the story"
+            submitLabel="Nominate"
+          />
         )}
       </section>
       <SiteFooter compact />

@@ -22,8 +22,7 @@ export function SiteBanner() {
   );
 }
 
-export async function SiteHeader({ current }: { current?: string }) {
-  const session = await getSession();
+export function SiteHeader({ current }: { current?: string }) {
   return (
     <header className="sticky top-0 z-50 border-b-2 border-[#211D14] bg-[#F5F1E8]">
       <div className="mx-auto flex max-w-[1180px] flex-wrap items-center gap-4 px-6 py-3.5">
@@ -47,18 +46,26 @@ export async function SiteHeader({ current }: { current?: string }) {
           <Link href="/subscribe" className="bg-[#C75B12] px-4 py-2 text-[#FFF6E8]">
             Subscribe
           </Link>
-          {session ? (
-            <Link href="/admin" className="text-[#2F4A2C] hover:text-[#C75B12]">
-              Desk
-            </Link>
-          ) : (
-            <Link href="/sign-in" className="text-[#8A8163] hover:text-[#C75B12]">
-              Staff
-            </Link>
-          )}
+          <StaffLink />
         </nav>
       </div>
     </header>
+  );
+}
+
+async function StaffLink() {
+  const session = await getSession();
+  if (session) {
+    return (
+      <Link href="/admin" className="text-[#2F4A2C] hover:text-[#C75B12]">
+        Desk
+      </Link>
+    );
+  }
+  return (
+    <Link href="/sign-in" className="text-[#8A8163] hover:text-[#C75B12]">
+      Staff
+    </Link>
   );
 }
 
