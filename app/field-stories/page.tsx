@@ -28,14 +28,22 @@ export default function StoriesPage() {
             <Link
               key={s.id}
               href={`/field-stories/${s.slug}`}
-              className="block border border-[#D8CDB4] bg-[#FBF8F0] p-6 md:p-8"
+              className="grid overflow-hidden border border-[#D8CDB4] bg-[#FBF8F0] md:grid-cols-[280px_1fr]"
             >
-              <div className="mb-2 text-[13px] font-medium uppercase tracking-[0.08em] text-[#8A8163]">
-                {s.species} · {s.date}
+              <div className="min-h-[180px] bg-[#1C2B1A]">
+                {s.image ? (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img src={s.image} alt="" className="h-full w-full object-cover" />
+                ) : null}
               </div>
-              <h2 className="mb-2 font-heading text-[28px] font-bold uppercase text-[#1C2B1A]">{s.title}</h2>
-              <p className="mb-4 font-serif italic text-[#C75B12]">{s.author}</p>
-              <p className="max-w-[68ch] font-serif text-[17px] leading-relaxed text-[#3B3526]">{s.excerpt}</p>
+              <div className="p-6 md:p-8">
+                <div className="mb-2 text-[13px] font-medium uppercase tracking-[0.08em] text-[#8A8163]">
+                  {s.species} · {s.date}
+                </div>
+                <h2 className="mb-2 font-heading text-[28px] font-bold uppercase text-[#1C2B1A]">{s.title}</h2>
+                <p className="mb-4 font-serif italic text-[#C75B12]">{s.author}</p>
+                <p className="max-w-[68ch] font-serif text-[17px] leading-relaxed text-[#3B3526]">{s.excerpt}</p>
+              </div>
             </Link>
           ))}
         </div>

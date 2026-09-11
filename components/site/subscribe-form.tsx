@@ -1,9 +1,11 @@
 export function SubscribeForm({
   source = "subscribe",
   align = "center",
+  tone = "light",
 }: {
   source?: string;
   align?: "center" | "start";
+  tone?: "light" | "dark";
 }) {
   return (
     <form
@@ -16,8 +18,13 @@ export function SubscribeForm({
         name="email"
         type="email"
         required
+        autoComplete="email"
         placeholder="you@example.com"
-        className="min-w-[260px] flex-1 border-2 border-[#211D14] bg-[#FFFDF7] px-4 py-3.5 text-[16px]"
+        className={
+          tone === "dark"
+            ? "min-w-[240px] flex-1 border-2 border-[#E4DCC6] bg-[#FFFDF7] px-4 py-3.5 text-[16px] text-[#211D14]"
+            : "min-w-[260px] flex-1 border-2 border-[#211D14] bg-[#FFFDF7] px-4 py-3.5 text-[16px]"
+        }
       />
       <button
         type="submit"

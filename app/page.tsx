@@ -41,11 +41,9 @@ export default function HomePage() {
               Weather, season dates, regulations, shoot times, and field-tested gear — one weekly briefing instead of five
               scattered websites.
             </p>
-            <div className="flex flex-wrap gap-3.5">
-              <Link href="/subscribe" className="bg-[#C75B12] px-7 py-3.5 font-heading text-[17px] font-semibold uppercase tracking-[0.1em] text-[#FFF6E8]">
-                Subscribe free
-              </Link>
-              <Link href="/newsletters" className="border border-[#B7AE93] px-7 py-3.5 font-heading text-[17px] font-semibold uppercase tracking-[0.1em] text-[#F0EAD8]">
+            <div className="flex flex-col gap-3.5">
+              <SubscribeForm source="homepage-hero" align="start" tone="dark" />
+              <Link href="/newsletters" className="w-fit border border-[#B7AE93] px-7 py-3.5 font-heading text-[17px] font-semibold uppercase tracking-[0.1em] text-[#F0EAD8]">
                 Read the newsletter
               </Link>
             </div>

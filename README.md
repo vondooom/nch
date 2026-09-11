@@ -22,22 +22,23 @@ Sign in at `/sign-in`. Production should set `STAFF_SESSION_SECRET` and stronger
 
 - `/` — Homepage, conditions strip, latest briefings, featured recipe
 - `/newsletters` and `/newsletters/[slug]` — Tuesday briefing archive
-- `/field-stories` and `/field-stories/[slug]` — Reader hunts
+- `/field-stories` and `/field-stories/[slug]` — Reader hunts (one URL per story)
 - `/field-stories/submit` — Public story inbox
-- `/dog-of-the-week` and `/nominate` — Featured dogs
-- `/recipes` — From Field to Table
-- `/gear` — Field-tested picks
+- `/dog-of-the-week` and `/dog-of-the-week/[slug]` — Featured dogs
+- `/recipes` and `/recipes/[slug]` — From Field to Table
+- `/gear` and `/gear/[slug]` — Field-tested picks with photos
 - `/conditions` — Hunt-day dashboard
 - `/regulations` — The Board (seasons and deadlines)
-- `/local-boys` — Trusted local services
+- `/local-boys` and `/local-boys/[slug]` — Trusted local services
 - `/marketplace` — Classifieds preview
-- `/about` / `/subscribe`
+- `/about` / `/subscribe` — Tuesday briefing signup (stored on the desk; Beehiiv later)
+- `/sitemap.xml` — Index of every published entry
 
 Drafts never appear on these routes.
 
 ## The desk (`/admin`)
 
-Collections: issues, stories, dogs, gear, recipes, the Board, Local Boys, marketplace, conditions, and the public inbox. Accepting an inbox item can start a draft. Only admins can push that draft live.
+Collections: issues, stories, dogs, gear, recipes, the Board, Local Boys, marketplace, conditions, the public inbox, and subscribers. Accepting an inbox item can start a draft. Only admins can push that draft live.
 
 Content is stored in `.data/store.json` locally and `/tmp/norcal-hunt-store.json` on Vercel until Neon is connected. Serverless writes will not persist across instances.
 
