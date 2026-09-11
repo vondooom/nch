@@ -26,11 +26,14 @@ export default async function AdminLocals({
           {existing ? "Edit listing" : "Add a listing"}
         </div>
         <input name="name" required defaultValue={existing?.name} placeholder="Name" className={fieldClass} />
+        <input name="slug" defaultValue={existing?.slug} placeholder="Slug" className={fieldClass} />
+        <input name="image" defaultValue={existing?.image} placeholder="Image URL" className={fieldClass} />
         <div className="grid gap-2 sm:grid-cols-2">
           <input name="group" defaultValue={existing?.group} placeholder="Group" className={fieldClass} />
           <input name="where" defaultValue={existing?.where} placeholder="Where" className={fieldClass} />
         </div>
-        <textarea name="desc" required rows={3} defaultValue={existing?.desc} placeholder="Why we send people here" className={fieldClass} />
+        <textarea name="desc" required rows={3} defaultValue={existing?.desc} placeholder="Short blurb" className={fieldClass} />
+        <textarea name="body" rows={5} defaultValue={existing?.body} placeholder="Full write-up" className={fieldClass} />
         <label className="flex items-center gap-2 text-[14px]">
           <input type="checkbox" name="featured" defaultChecked={existing?.featured} />
           Featured

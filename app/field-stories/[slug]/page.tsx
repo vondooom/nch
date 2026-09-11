@@ -1,15 +1,45 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+
+import { JsonLd } from "@/components/site/json-ld";
 import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
+import { absoluteUrl, pageMeta } from "@/lib/site";
 import { getStore, published } from "@/lib/store";
 
+function findStory(slug: string) {
+  return published(getStore().stories).find((item) => item.slug === slug || item.id === slug);
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const story = findStory((await params).slug);
+  if (!story) return { title: "Story" };
+  return pageMeta({
+    title: story.title,
+    description: story.excerpt,
+    path: `/field-stories/${story.slug}`,
+    image: story.image,
+  });
+}
+
 export default async function StoryPage({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params;
-  const story = published(getStore().stories).find((item) => item.slug === slug || item.id === slug);
+  const story = findStory((await params).slug);
   if (!story) notFound();
 
   return (
     <>
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "Article",
+          headline: story.title,
+          description: story.excerpt,
+          image: story.image,
+          author: { "@type": "Person", name: story.author },
+          datePublished: story.date,
+          url: absoluteUrl(`/field-stories/${story.slug}`),
+        }}
+      />
       <SiteBanner />
       <SiteHeader current="/field-stories" />
       <article className="mx-auto max-w-[780px] px-6 py-10 pb-20">

@@ -4,6 +4,16 @@ import { unstable_noStore as noStore } from "next/cache";
 import { seed } from "./seed";
 import type { StoreData } from "./types";
 
+function withSeed<T extends { id: string }>(rows: T[] | undefined, seeded: T[]): T[] {
+  if (!rows) return structuredClone(seeded);
+  const extras = new Map(seeded.map((row) => [row.id, row]));
+  const merged = rows.map((row) => ({ ...(extras.get(row.id) ?? {}), ...row }));
+  for (const row of seeded) {
+    if (!rows.some((item) => item.id === row.id)) merged.push(row);
+  }
+  return merged;
+}
+
 function dataPath() {
   if (process.env.DATA_FILE) return process.env.DATA_FILE;
   if (process.env.VERCEL) return "/tmp/norcal-hunt-store.json";
@@ -17,16 +27,17 @@ function readStore(): StoreData {
     return {
       ...seed,
       ...parsed,
-      issues: parsed.issues ?? seed.issues,
-      stories: parsed.stories ?? seed.stories,
-      dogs: parsed.dogs ?? seed.dogs,
-      gear: parsed.gear ?? seed.gear,
-      locals: parsed.locals ?? seed.locals,
-      market: parsed.market ?? seed.market,
-      recipes: parsed.recipes ?? seed.recipes,
-      board: parsed.board ?? seed.board,
-      conditions: parsed.conditions ?? seed.conditions,
+      issues: withSeed(parsed.issues, seed.issues),
+      stories: withSeed(parsed.stories, seed.stories),
+      dogs: withSeed(parsed.dogs, seed.dogs),
+      gear: withSeed(parsed.gear, seed.gear),
+      locals: withSeed(parsed.locals, seed.locals),
+      market: withSeed(parsed.market, seed.market),
+      recipes: withSeed(parsed.recipes, seed.recipes),
+      board: withSeed(parsed.board, seed.board),
+      conditions: withSeed(parsed.conditions, seed.conditions),
       submissions: parsed.submissions ?? seed.submissions,
+      subscribers: parsed.subscribers ?? seed.subscribers,
     };
   } catch {
     return structuredClone(seed);
@@ -80,6 +91,22 @@ export function recordPublicSubmission(formData: FormData) {
   return kind;
 }
 
+export function recordSubscriber(email: string, source = "subscribe") {
+  const clean = email.trim().toLowerCase();
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(clean)) return false;
+  updateStore((data) => {
+    data.subscribers ??= [];
+    if (data.subscribers.some((row) => row.email === clean)) return;
+    data.subscribers.unshift({
+      id: newId("subr"),
+      email: clean,
+      createdAt: stamp(),
+      source,
+    });
+  });
+  return true;
+}
+
 export function dashboardCounts() {
   const data = getStore();
   return {
@@ -91,5 +118,6 @@ export function dashboardCounts() {
     publishedIssues: data.issues.filter((i) => i.status === "published").length,
     openSubmissions: data.submissions.filter((s) => s.state === "new").length,
     recipes: data.recipes.filter((i) => i.status === "published").length,
+    subscribers: (data.subscribers ?? []).length,
   };
 }

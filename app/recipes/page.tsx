@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
 import { getStore, published } from "@/lib/store";
 
@@ -19,35 +20,18 @@ export default function RecipesPage() {
         <p className="mb-10 max-w-[640px] font-serif text-[17px] leading-relaxed text-[#5C543F]">
           The weekly recipe used to live only inside the briefing. It now has a home you can cook from all season.
         </p>
-        <div className="grid gap-8">
+        <div className="grid gap-6">
           {recipes.map((r) => (
-            <article key={r.id} id={r.slug} className="border-2 border-[#211D14] bg-[#FBF8F0]">
-              <div className="border-b border-[#D8CDB4] p-6 md:p-8">
+            <Link key={r.id} href={`/recipes/${r.slug}`} className="block border-2 border-[#211D14] bg-[#FBF8F0]">
+              {r.image ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img src={r.image} alt="" className="aspect-[21/9] w-full object-cover" />
+              ) : null}
+              <div className="p-6 md:p-8">
                 <h2 className="mb-2 font-heading text-[32px] font-bold uppercase text-[#1C2B1A]">{r.title}</h2>
                 <p className="font-serif text-[17px] leading-relaxed text-[#5C543F]">{r.lede}</p>
               </div>
-              <div className="grid gap-0.5 bg-[#211D14] md:grid-cols-2">
-                <div className="bg-[#FBF8F0] p-6">
-                  <div className="mb-3 font-heading text-[15px] font-bold uppercase tracking-[0.14em]">You will need</div>
-                  <ul className="grid list-disc gap-1 pl-5 font-serif text-[15px] leading-relaxed">
-                    {r.need.map((n) => (
-                      <li key={n}>{n}</li>
-                    ))}
-                  </ul>
-                </div>
-                <div className="bg-[#FBF8F0] p-6">
-                  <div className="mb-3 font-heading text-[15px] font-bold uppercase tracking-[0.14em]">The method</div>
-                  <ol className="grid list-decimal gap-2 pl-5 font-serif text-[15px] leading-relaxed">
-                    {r.method.map((m) => (
-                      <li key={m.h}>
-                        <strong>{m.h}</strong> {m.t}
-                      </li>
-                    ))}
-                  </ol>
-                </div>
-              </div>
-              {r.note ? <p className="p-6 font-serif text-[15px] leading-relaxed text-[#3B3526]">{r.note}</p> : null}
-            </article>
+            </Link>
           ))}
         </div>
       </section>

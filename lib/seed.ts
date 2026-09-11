@@ -135,6 +135,7 @@ If you have a story like this, send it. We publish the ones that sound like they
   dogs: [
     {
       id: "dog-scout",
+      slug: "scout",
       name: "Scout",
       breed: "English Pointer · 10 months",
       week: "Issue #13 · Aug 30",
@@ -148,6 +149,7 @@ If you have a story like this, send it. We publish the ones that sound like they
     },
     {
       id: "dog-belle",
+      slug: "belle",
       name: "Belle",
       breed: "German Shorthair · 14 years",
       week: "Issue #12 · Aug 23",
@@ -161,6 +163,7 @@ If you have a story like this, send it. We publish the ones that sound like they
     },
     {
       id: "dog-tule",
+      slug: "tule",
       name: "Tule",
       breed: "Chesapeake Bay Retriever · 5",
       week: "Issue #11 · Aug 16",
@@ -176,67 +179,109 @@ If you have a story like this, send it. We publish the ones that sound like they
   gear: [
     {
       id: "gear-bino",
+      slug: "10x42-value-binoculars",
       name: "10x42 value binoculars",
       category: "Optics",
       badge: "Value pick",
       why: "Clear enough to grade a blacktail at 400 yards, cheap enough to live in the truck. The step-up flagship isn't worth 3x the price.",
+      body: `We ran these through A-zone timber and a July glassing trip on the east side. Resolution at 400 yards is good enough to tell a legal fork from a spike. The focus wheel is a little stiff with gloves, and they will fog if you leave them on a hot dash then walk into a creek bottom — same as every mid-price roof prism.
+
+What they are not: a $1,200 open-bridge flagship. You do not need that to hunt NorCal public land. You need a pair you will actually leave in the truck all year.
+
+We keep a cheap harness on them and a lens cloth in the lid pocket. If you buy one optic this year, buy this class — then spend the rest on tags and gas.`,
       price: "~$260",
       issue: "Issue #8",
+      image: "https://images.unsplash.com/photo-1516731415730-0c607149933a?fm=jpg&q=60&w=1600&auto=format&fit=crop",
       status: "published",
       updatedAt: now,
     },
     {
       id: "gear-pack",
+      slug: "value-frame-pack",
       name: "Value frame pack",
       category: "Big Game",
       badge: "Field-tested",
       why: "Hauled a boned-out buck 4 miles without a squeak. Load shelf, real hip belt, no gimmicks.",
+      body: `The hunt ends when the animal is on ice, not when it hits the ground. This pack took a boned-out blacktail four miles of steep timber in August without a popped stitch or a squeaking stay.
+
+Look for a real load shelf, a hip belt that sits on bone, and a frame you can hang meat on. Skip the hydration-bladder fashion packs. If the hip belt is webbing, keep walking.
+
+We still bone on the mountain. The pack is why the walk out is miserable instead of impossible.`,
       price: "~$220",
       issue: "Issue #12",
+      image: "https://images.unsplash.com/photo-1551632811-561732d1e306?fm=jpg&q=60&w=1600&auto=format&fit=crop",
       status: "published",
       updatedAt: now,
     },
     {
       id: "gear-vest",
+      slug: "dove-upland-vest",
       name: "Dove & upland vest",
       category: "Upland",
       badge: "We trust it",
       why: "Big shell pockets, a blood-proof game bag, mesh back for the September heat. Buy once for a decade of openers.",
+      body: `Dove opener in the valley is a heat hunt. You want shells up front, birds in back, and air through the mesh. This vest does that without pretending to be a turkey vest or a turkey vest pretending to be a dove vest.
+
+The game bag wipes clean. The shell loops do not dump #7.5 in the truck. After a decade of openers the stitching is the first thing that goes — not the idea.
+
+Wear it over a t-shirt in September and a hoodie in January pheasant. One vest. Done.`,
       price: "~$70",
       issue: "Issue #13",
+      image: "https://images.unsplash.com/photo-1474418397713-7ede21d49118?fm=jpg&q=60&w=1600&auto=format&fit=crop",
       status: "published",
       updatedAt: now,
     },
     {
       id: "gear-decoy",
+      slug: "spinning-wing-dove-decoy",
       name: "Spinning-wing dove decoy",
       category: "Waterfowl",
       badge: "Set out early",
       why: "Doves finish 20 yards closer — the difference between a limit and a box of excuses.",
+      body: `Set it on a stake at the edge of the sunflowers before legal light. Spinning wings pull passing birds that would otherwise slide a hundred yards out.
+
+It is not magic. If you are late, if the wind is wrong, if you are sitting in the open, you will still watch them flare. Used with a few clip-ons and a good hide, it is the cheapest upgrade on the dove line.
+
+Carry spare batteries. The hunt is two hours. The decoy should last three.`,
       price: "~$45",
       issue: "Issue #10",
+      image: "https://images.unsplash.com/photo-1564760055775-d63b17a69dd2?fm=jpg&q=60&w=1600&auto=format&fit=crop",
       status: "published",
       updatedAt: now,
     },
     {
       id: "gear-loads",
+      slug: "non-lead-hunting-loads",
       name: "Non-lead hunting loads",
       category: "Big Game",
       badge: "Zero it now",
       why: "California requires non-lead for all take. Get zeroed before your opener, not the night before.",
+      body: `Non-lead is the law for all take in California. Copper does not shoot to the same point of impact as the lead you zeroed in 2019. Confirm it on paper before you walk in.
+
+We run a value copper load that groups inside an inch at 100 in the rifles we actually carry. It is not a match load. It is a hunting load that hits where the crosshairs sit after you do the work.
+
+Do not show up at the range the night before A-zone with a new box and a shrug.`,
       price: "~$55/box",
       issue: "Issue #9",
+      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?fm=jpg&q=60&w=1600&auto=format&fit=crop",
       status: "published",
       updatedAt: now,
     },
     {
       id: "gear-sealer",
+      slug: "chamber-vacuum-sealer",
       name: "Chamber vacuum sealer",
       category: "Camp & Kitchen",
       badge: "Pays for itself",
       why: "No more freezer-burned backstrap in February. Buy the chamber style, skip the suction bags.",
+      body: `A suction-bag sealer fights wet meat and gives up. A chamber sealer pulls air around the bag and seals it anyway. That is the difference between backstrap in February and a beige brick you throw away.
+
+We run one in the shop and one that rides to camp in a tote. Bags are cheap. The machine is the spend. If you kill one deer a year it still pays for itself the first season you do not waste a quarter.
+
+Cool the meat first. Seal once. Label the date and the cut.`,
       price: "~$180",
       issue: "Issue #7",
+      image: "https://images.unsplash.com/photo-1556910103-1c027450aa1d?fm=jpg&q=60&w=1600&auto=format&fit=crop",
       status: "published",
       updatedAt: now,
     },
@@ -244,50 +289,75 @@ If you have a story like this, send it. We publish the ones that sound like they
   locals: [
     {
       id: "local-rice",
+      slug: "rice-country-waterfowl",
       group: "Guides & Outfitters",
       name: "Rice Country Waterfowl Co.",
       where: "Butte & Colusa Co. · Waterfowl",
       desc: "Guided duck and goose hunts on private flooded rice. Pit blinds, decoys set before shoot light, dogs welcome.",
+      body: `Private flooded rice, pit blinds already set, and a crew that hunts the same water they put you on. Dogs are welcome if they are under control. This is the operation we send first-timers to when they want a real valley duck hunt without guessing which levee to park on.
+
+Book midweek storms if you can. Weekends fill. Bring non-lead shot and a license that is actually current.`,
+      image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?fm=jpg&q=60&w=1600&auto=format&fit=crop",
       featured: true,
       status: "published",
       updatedAt: now,
     },
     {
       id: "local-blacktail",
+      slug: "north-state-blacktail-guides",
       group: "Guides & Outfitters",
       name: "North State Blacktail Guides",
       where: "Shasta Cascade · C-Zone deer",
       desc: "DIY-style guided blacktail hunts on timber ridges. Scouting packages for public-land hunters.",
+      body: `They will not do the hunt for you. They will put you on the ridges they have glassed since July and tell you why the deer use that saddle. Scouting packages are the move if you already have a tag and a week off.
+
+Public land. Steep timber. Expect to walk. That is the point.`,
+      image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?fm=jpg&q=60&w=1600&auto=format&fit=crop",
       featured: false,
       status: "published",
       updatedAt: now,
     },
     {
       id: "local-cut",
+      slug: "valley-custom-cut-and-wrap",
       group: "Meat Processors",
       name: "Valley Custom Cut & Wrap",
       where: "Yuba City · Deer, pig & birds",
       desc: "Skinning through vacuum-sealed cuts in 7 days. Sausage, jerky, and snack sticks. Non-lead-aware trimming.",
+      body: `Drop it off clean and cool. They will skin, break it down, and have vacuum-sealed cuts back in a week. They know non-lead and they will not treat copper-shot meat like a mystery.
+
+Call before rifle opener. The rail fills. Ask for stew meat if you actually make stew.`,
+      image: "https://images.unsplash.com/photo-1556911220-bff31c812dfe?fm=jpg&q=60&w=1600&auto=format&fit=crop",
       featured: false,
       status: "published",
       updatedAt: now,
     },
     {
       id: "local-retrievers",
+      slug: "marsh-and-field-retrievers",
       group: "Dog Trainers",
       name: "Marsh & Field Retrievers",
       where: "Sacramento Valley · Retrievers",
       desc: "Started and finished duck dogs, force-fetch through blind retrieves. Summer technical-water program.",
+      body: `Started dogs that sit, finished dogs that handle a blind across a ditch. The summer water program is what we send people to when their Lab is honest on land and lost in the tules.
+
+This is not a weekend board-and-train for a party trick. They will tell you if the dog is not ready. That is why we list them.`,
+      image: "https://images.unsplash.com/photo-1552053831-71594a27632d?fm=jpg&q=60&w=1600&auto=format&fit=crop",
       featured: true,
       status: "published",
       updatedAt: now,
     },
     {
       id: "local-mount",
+      slug: "cascade-ridge-taxidermy",
       group: "Taxidermy",
       name: "Cascade Ridge Taxidermy",
       where: "Redding · Deer, pig & birds",
       desc: "Shoulder mounts and birds that look like they still have a heartbeat. Six-month turnaround if you book before rifle season.",
+      body: `Cape it right, get it on ice, and call them before the hide turns. Shoulder mounts and birds are the work they are proud of. Six months if you are in the book before rifle season — longer if you show up in November with a surprise.
+
+They will tell you if the cape is too far gone. Pay for honesty.`,
+      image: "https://images.unsplash.com/photo-1511497584788-876760111969?fm=jpg&q=60&w=1600&auto=format&fit=crop",
       featured: false,
       status: "published",
       updatedAt: now,
@@ -347,6 +417,7 @@ If you have a story like this, send it. We publish the ones that sound like they
         { h: "Don't overcook.", t: "Past pink it turns dry and livery — that's where doves get their reputation." },
       ],
       note: "Wear gloves when you clean birds and get them onto ice in the field. Same cool-fast rule as Issue #7.",
+      image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?fm=jpg&q=60&w=1600&auto=format&fit=crop",
       status: "published",
       updatedAt: now,
     },
@@ -362,6 +433,7 @@ If you have a story like this, send it. We publish the ones that sound like they
         { h: "Sear hard.", t: "90 seconds a side, butter baste the last 30." },
         { h: "Rest.", t: "Five minutes. Slice against the grain." },
       ],
+      image: "https://images.unsplash.com/photo-1432139555190-58524dae6a55?fm=jpg&q=60&w=1600&auto=format&fit=crop",
       status: "published",
       updatedAt: now,
     },
@@ -385,6 +457,7 @@ If you have a story like this, send it. We publish the ones that sound like they
         { h: "Rest.", t: "Ten minutes off heat. The broth thickens if you leave it alone." },
       ],
       note: "If the bird sat in a warm vest too long, skip the stew and start over next weekend. Cool-fast still wins.",
+      image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?fm=jpg&q=60&w=1600&auto=format&fit=crop",
       status: "published",
       updatedAt: now,
     },
@@ -477,4 +550,5 @@ If you have a story like this, send it. We publish the ones that sound like they
       state: "new",
     },
   ],
+  subscribers: [],
 };

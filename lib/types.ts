@@ -38,6 +38,7 @@ export type Story = {
 
 export type Dog = {
   id: string;
+  slug: string;
   name: string;
   breed: string;
   week: string;
@@ -50,22 +51,28 @@ export type Dog = {
 
 export type GearItem = {
   id: string;
+  slug: string;
   name: string;
   category: string;
   badge: string;
   why: string;
+  body: string;
   price: string;
   issue: string;
+  image?: string;
   status: PublishStatus;
   updatedAt: string;
 };
 
 export type LocalListing = {
   id: string;
+  slug: string;
   group: string;
   name: string;
   where: string;
   desc: string;
+  body: string;
+  image?: string;
   featured: boolean;
   status: PublishStatus;
   updatedAt: string;
@@ -90,8 +97,16 @@ export type Recipe = {
   need: string[];
   method: { h: string; t: string }[];
   note?: string;
+  image?: string;
   status: PublishStatus;
   updatedAt: string;
+};
+
+export type Subscriber = {
+  id: string;
+  email: string;
+  createdAt: string;
+  source: string;
 };
 
 export type BoardItem = {
@@ -132,4 +147,5 @@ export type StoreData = {
   board: BoardItem[];
   conditions: ConditionStat[];
   submissions: Submission[];
+  subscribers: Subscriber[];
 };

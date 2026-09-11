@@ -23,7 +23,7 @@ export default function DogsPage() {
         </p>
         <div className="mb-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {dogs.map((d) => (
-            <div key={d.id} className="flex flex-col border border-[#D8CDB4] bg-[#FBF8F0]">
+            <Link key={d.id} href={`/dog-of-the-week/${d.slug}`} className="flex flex-col border border-[#D8CDB4] bg-[#FBF8F0]">
               <div className="h-[230px] bg-[#1C2B1A]">
                 {d.image ? (
                   // eslint-disable-next-line @next/next/no-img-element
@@ -42,7 +42,7 @@ export default function DogsPage() {
                 </div>
                 <div className="font-serif text-[15px] leading-relaxed text-[#5C543F]">{d.story}</div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
         <div className="flex flex-wrap items-center justify-between gap-4 border-2 border-[#211D14] bg-[#FBF8F0] px-7 py-6">

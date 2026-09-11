@@ -1,11 +1,28 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
+import { pageMeta } from "@/lib/site";
 import { getStore, published } from "@/lib/store";
+
+function findIssue(slug: string) {
+  return published(getStore().issues).find((i) => i.slug === slug || i.id === slug);
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const issue = findIssue((await params).slug);
+  if (!issue) return { title: "Issue" };
+  return pageMeta({
+    title: `Issue #${issue.number}: ${issue.title}`,
+    description: issue.blurb,
+    path: `/newsletters/${issue.slug}`,
+    image: issue.image,
+  });
+}
 
 export default async function IssuePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const issue = published(getStore().issues).find((i) => i.slug === slug || i.id === slug);
+  const issue = findIssue(slug);
   if (!issue) notFound();
   return (
     <>

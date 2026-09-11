@@ -3,7 +3,8 @@
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { canDelete, canPublish, clearSession, createSession, requireSession, staffAccounts } from "./auth";
-import { getStore, newId, recordPublicSubmission, stamp, updateStore } from "./store";
+import { getStore, newId, recordPublicSubmission, recordSubscriber, stamp, updateStore } from "./store";
+import { slugify } from "./site";
 import type { PublishStatus, Role } from "./types";
 
 function revalidatePublic() {
@@ -18,6 +19,7 @@ function revalidatePublic() {
   revalidatePath("/regulations");
   revalidatePath("/conditions");
   revalidatePath("/admin");
+  revalidatePath("/sitemap.xml");
 }
 
 const COLLECTIONS = ["issues", "stories", "dogs", "gear", "locals", "market", "recipes", "board"] as const;
@@ -50,8 +52,8 @@ export async function logoutAction() {
 
 export async function subscribeAction(formData: FormData) {
   const email = String(formData.get("email") || "");
-  const ok = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-  redirect(ok ? "/subscribe?ok=1" : "/subscribe?error=1");
+  const ok = recordSubscriber(email, "subscribe");
+  redirect(ok ? "/subscribe/confirmed" : "/subscribe?error=1");
 }
 
 export async function submitPublicAction(formData: FormData) {
@@ -122,6 +124,7 @@ export async function saveDogAction(formData: FormData) {
   updateStore((data) => {
     const next = {
       id,
+      slug: String(formData.get("slug") || slugify(String(formData.get("name") || id))),
       name: String(formData.get("name") || "Unnamed"),
       breed: String(formData.get("breed") || ""),
       week: String(formData.get("week") || ""),
@@ -147,12 +150,15 @@ export async function saveGearAction(formData: FormData) {
   updateStore((data) => {
     const next = {
       id,
+      slug: String(formData.get("slug") || slugify(String(formData.get("name") || id))),
       name: String(formData.get("name") || "Untitled"),
       category: String(formData.get("category") || "Gear"),
       badge: String(formData.get("badge") || ""),
       why: String(formData.get("why") || ""),
+      body: String(formData.get("body") || formData.get("why") || ""),
       price: String(formData.get("price") || ""),
       issue: String(formData.get("issue") || ""),
+      image: String(formData.get("image") || "") || undefined,
       status,
       updatedAt: stamp(),
     };
@@ -187,6 +193,7 @@ export async function saveRecipeAction(formData: FormData) {
         })
         .filter((m) => m.h),
       note: String(formData.get("note") || "") || undefined,
+      image: String(formData.get("image") || "") || undefined,
       status,
       updatedAt: stamp(),
     };
@@ -230,10 +237,13 @@ export async function saveLocalAction(formData: FormData) {
   updateStore((data) => {
     const next = {
       id,
+      slug: String(formData.get("slug") || slugify(String(formData.get("name") || id))),
       group: String(formData.get("group") || "Guides & Outfitters"),
       name: String(formData.get("name") || "Untitled"),
       where: String(formData.get("where") || ""),
       desc: String(formData.get("desc") || ""),
+      body: String(formData.get("body") || formData.get("desc") || ""),
+      image: String(formData.get("image") || "") || undefined,
       featured: formData.get("featured") === "on",
       status,
       updatedAt: stamp(),
@@ -360,6 +370,7 @@ export async function promoteSubmissionAction(formData: FormData) {
       dest = "/admin/dogs";
       data.dogs.unshift({
         id: newId("dog"),
+        slug: slugify(row.title.split(",")[0]?.trim() || row.title),
         name: row.title.split(",")[0]?.trim() || row.title,
         breed: row.title.split(",").slice(1).join(",").trim(),
         week: "Inbox draft",

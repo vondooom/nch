@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
 import { getStore, published } from "@/lib/store";
 
@@ -29,18 +30,24 @@ export default function LocalBoysPage() {
               {listings
                 .filter((l) => l.group === group)
                 .map((b) => (
-                  <div key={b.id} className="border border-[#D8CDB4] bg-[#FBF8F0] p-5">
-                    <div className="mb-1.5 flex items-baseline justify-between gap-3">
-                      <div className="font-heading text-[20px] font-bold text-[#1C2B1A]">{b.name}</div>
-                      {b.featured ? (
-                        <span className="bg-[#C75B12] px-2 py-1 font-heading text-[11px] font-bold uppercase tracking-[0.14em] text-[#FFF6E8]">
-                          Featured
-                        </span>
-                      ) : null}
+                  <Link key={b.id} href={`/local-boys/${b.slug}`} className="block border border-[#D8CDB4] bg-[#FBF8F0]">
+                    {b.image ? (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img src={b.image} alt="" className="h-[180px] w-full object-cover" />
+                    ) : null}
+                    <div className="p-5">
+                      <div className="mb-1.5 flex items-baseline justify-between gap-3">
+                        <div className="font-heading text-[20px] font-bold text-[#1C2B1A]">{b.name}</div>
+                        {b.featured ? (
+                          <span className="bg-[#C75B12] px-2 py-1 font-heading text-[11px] font-bold uppercase tracking-[0.14em] text-[#FFF6E8]">
+                            Featured
+                          </span>
+                        ) : null}
+                      </div>
+                      <div className="mb-3 text-[13px] font-medium uppercase tracking-[0.06em] text-[#8A8163]">{b.where}</div>
+                      <div className="font-serif text-[15px] leading-relaxed text-[#5C543F]">{b.desc}</div>
                     </div>
-                    <div className="mb-3 text-[13px] font-medium uppercase tracking-[0.06em] text-[#8A8163]">{b.where}</div>
-                    <div className="font-serif text-[15px] leading-relaxed text-[#5C543F]">{b.desc}</div>
-                  </div>
+                  </Link>
                 ))}
             </div>
           </div>

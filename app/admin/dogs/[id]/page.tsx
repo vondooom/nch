@@ -11,6 +11,7 @@ export default async function EditDogPage({ params }: { params: Promise<{ id: st
   if (id !== "new" && !existing) notFound();
   const dog = existing ?? {
     id: "",
+    slug: "",
     name: "",
     breed: "",
     week: "",
@@ -24,6 +25,7 @@ export default async function EditDogPage({ params }: { params: Promise<{ id: st
       <h1 className="font-heading text-[36px] font-bold uppercase">{existing ? "Edit dog" : "New dog"}</h1>
       {dog.id ? <input type="hidden" name="id" value={dog.id} /> : null}
       <input name="name" required defaultValue={dog.name} placeholder="Name" className={fieldClass} />
+      <input name="slug" defaultValue={dog.slug} placeholder="Slug" className={fieldClass} />
       <input name="breed" defaultValue={dog.breed} placeholder="Breed" className={fieldClass} />
       <input name="week" defaultValue={dog.week} placeholder="Week label" className={fieldClass} />
       <textarea name="story" rows={5} defaultValue={dog.story} placeholder="Story" className={fieldClass} />

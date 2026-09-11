@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
+import { SubscribeForm } from "@/components/site/subscribe-form";
 import { getStore, published } from "@/lib/store";
 
 export default function HomePage() {
@@ -111,7 +112,7 @@ export default function HomePage() {
       </section>
       {recipe ? (
         <section className="mx-auto max-w-[1180px] px-6 pt-4">
-          <Link href="/recipes" className="block border-2 border-[#211D14] bg-[#FBF8F0] p-6 md:p-8">
+          <Link href={`/recipes/${recipe.slug}`} className="block border-2 border-[#211D14] bg-[#FBF8F0] p-6 md:p-8">
             <div className="mb-2 font-heading text-[14px] font-semibold uppercase tracking-[0.22em] text-[#C75B12]">
               From Field to Table
             </div>
@@ -126,9 +127,7 @@ export default function HomePage() {
           <p className="mx-auto mb-6 max-w-[520px] font-serif text-[17px] leading-relaxed text-[#5C543F]">
             A five-minute read before every weekend in the field. 100% free, unsubscribe anytime.
           </p>
-          <Link href="/subscribe" className="inline-block bg-[#C75B12] px-8 py-4 font-heading text-[18px] font-semibold uppercase tracking-[0.1em] text-[#FFF6E8]">
-            Subscribe free
-          </Link>
+          <SubscribeForm source="homepage" align="center" />
         </div>
       </section>
       <SiteFooter />

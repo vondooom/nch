@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
 import { getStore, published } from "@/lib/store";
 
@@ -22,22 +23,30 @@ export default function GearPage() {
         </p>
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {items.map((g) => (
-            <div key={g.id} className="flex flex-col gap-2.5 border border-[#D8CDB4] bg-[#FBF8F0] p-5">
-              <div className="flex items-baseline justify-between gap-3">
-                <span className="bg-[#2F4A2C] px-2.5 py-1 font-heading text-[12px] font-bold uppercase tracking-[0.14em] text-[#FFF6E8]">
-                  {g.category}
-                </span>
-                <span className="font-heading text-[12px] font-bold uppercase tracking-[0.14em] text-[#C75B12]">
-                  {g.badge}
-                </span>
+            <Link key={g.id} href={`/gear/${g.slug}`} className="flex flex-col border border-[#D8CDB4] bg-[#FBF8F0]">
+              <div className="h-[200px] bg-[#1C2B1A]">
+                {g.image ? (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img src={g.image} alt={g.name} className="h-full w-full object-cover" />
+                ) : null}
               </div>
-              <div className="font-heading text-[21px] font-bold leading-snug text-[#1C2B1A]">{g.name}</div>
-              <div className="flex-1 font-serif text-[15px] leading-relaxed text-[#5C543F]">{g.why}</div>
-              <div className="flex items-baseline justify-between border-t border-[#E7DFC9] pt-2.5">
-                <span className="font-heading text-[18px] font-bold">{g.price}</span>
-                <span className="text-[13px] text-[#8A8163]">{g.issue}</span>
+              <div className="flex flex-1 flex-col gap-2.5 p-5">
+                <div className="flex items-baseline justify-between gap-3">
+                  <span className="bg-[#2F4A2C] px-2.5 py-1 font-heading text-[12px] font-bold uppercase tracking-[0.14em] text-[#FFF6E8]">
+                    {g.category}
+                  </span>
+                  <span className="font-heading text-[12px] font-bold uppercase tracking-[0.14em] text-[#C75B12]">
+                    {g.badge}
+                  </span>
+                </div>
+                <div className="font-heading text-[21px] font-bold leading-snug text-[#1C2B1A]">{g.name}</div>
+                <div className="flex-1 font-serif text-[15px] leading-relaxed text-[#5C543F]">{g.why}</div>
+                <div className="flex items-baseline justify-between border-t border-[#E7DFC9] pt-2.5">
+                  <span className="font-heading text-[18px] font-bold">{g.price}</span>
+                  <span className="text-[13px] text-[#8A8163]">{g.issue}</span>
+                </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </section>

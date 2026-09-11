@@ -1,0 +1,30 @@
+export function SubscribeForm({
+  source = "subscribe",
+  align = "center",
+}: {
+  source?: string;
+  align?: "center" | "start";
+}) {
+  return (
+    <form
+      action="/api/subscribe"
+      method="post"
+      className={`flex max-w-[560px] flex-wrap gap-2.5 ${align === "center" ? "mx-auto justify-center" : ""}`}
+    >
+      <input type="hidden" name="source" value={source} />
+      <input
+        name="email"
+        type="email"
+        required
+        placeholder="you@example.com"
+        className="min-w-[260px] flex-1 border-2 border-[#211D14] bg-[#FFFDF7] px-4 py-3.5 text-[16px]"
+      />
+      <button
+        type="submit"
+        className="bg-[#C75B12] px-7 py-3.5 font-heading text-[17px] font-semibold uppercase tracking-[0.1em] text-[#FFF6E8]"
+      >
+        Subscribe free
+      </button>
+    </form>
+  );
+}

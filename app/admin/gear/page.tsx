@@ -24,12 +24,15 @@ export default async function AdminGear({
           {existing ? "Edit a pick" : "Add a pick"}
         </div>
         <input name="name" required defaultValue={existing?.name} placeholder="Name" className={fieldClass} />
+        <input name="slug" defaultValue={existing?.slug} placeholder="Slug" className={fieldClass} />
+        <input name="image" defaultValue={existing?.image} placeholder="Image URL" className={fieldClass} />
         <div className="grid gap-2 sm:grid-cols-3">
           <input name="category" defaultValue={existing?.category} placeholder="Category" className={fieldClass} />
           <input name="badge" defaultValue={existing?.badge} placeholder="Badge" className={fieldClass} />
           <input name="price" defaultValue={existing?.price} placeholder="Price" className={fieldClass} />
         </div>
         <textarea name="why" required defaultValue={existing?.why} placeholder="Why we trust it" className={fieldClass} />
+        <textarea name="body" rows={6} defaultValue={existing?.body} placeholder="Full review" className={fieldClass} />
         <input name="issue" defaultValue={existing?.issue} placeholder="Issue" className={fieldClass} />
         <StatusField role={session.role} current={existing?.status} />
         <div className="flex flex-wrap gap-3">

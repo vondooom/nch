@@ -22,6 +22,7 @@ export default async function AdminRecipes({
         {existing ? <input type="hidden" name="id" value={existing.id} /> : null}
         <input name="title" required defaultValue={existing?.title} placeholder="Title" className={fieldClass} />
         <input name="slug" defaultValue={existing?.slug} placeholder="Slug" className={fieldClass} />
+        <input name="image" defaultValue={existing?.image} placeholder="Image URL" className={fieldClass} />
         <textarea name="lede" defaultValue={existing?.lede} placeholder="Lede" className={fieldClass} />
         <textarea
           name="need"

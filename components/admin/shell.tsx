@@ -14,6 +14,7 @@ const links = [
   ["Marketplace", "/admin/market"],
   ["Conditions", "/admin/conditions"],
   ["Inbox", "/admin/submissions"],
+  ["Subscribers", "/admin/subscribers"],
 ] as const;
 
 export function AdminShell({
