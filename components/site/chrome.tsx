@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { getSession } from "@/lib/auth";
 
 const nav = [
   ["Conditions", "/conditions"],
@@ -46,26 +45,12 @@ export function SiteHeader({ current }: { current?: string }) {
           <Link href="/subscribe" className="bg-[#C75B12] px-4 py-2 text-[#FFF6E8]">
             Subscribe
           </Link>
-          <StaffLink />
+          <Link href="/sign-in" className="text-[#8A8163] hover:text-[#C75B12]">
+            Staff
+          </Link>
         </nav>
       </div>
     </header>
-  );
-}
-
-async function StaffLink() {
-  const session = await getSession();
-  if (session) {
-    return (
-      <Link href="/admin" className="text-[#2F4A2C] hover:text-[#C75B12]">
-        Desk
-      </Link>
-    );
-  }
-  return (
-    <Link href="/sign-in" className="text-[#8A8163] hover:text-[#C75B12]">
-      Staff
-    </Link>
   );
 }
 

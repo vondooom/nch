@@ -3,7 +3,7 @@
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { canDelete, canPublish, clearSession, createSession, requireSession, staffAccounts } from "./auth";
-import { getStore, newId, stamp, updateStore } from "./store";
+import { getStore, newId, recordPublicSubmission, stamp, updateStore } from "./store";
 import type { PublishStatus, Role } from "./types";
 
 function revalidatePublic() {
@@ -55,19 +55,7 @@ export async function subscribeAction(formData: FormData) {
 }
 
 export async function submitPublicAction(formData: FormData) {
-  const kind = String(formData.get("kind") || "story") === "dog" ? "dog" : "story";
-  updateStore((data) => {
-    data.submissions.unshift({
-      id: newId("sub"),
-      kind,
-      name: String(formData.get("name") || "").trim() || "Anonymous",
-      email: String(formData.get("email") || "").trim(),
-      title: String(formData.get("title") || "").trim(),
-      body: String(formData.get("body") || "").trim(),
-      createdAt: stamp(),
-      state: "new",
-    });
-  });
+  const kind = recordPublicSubmission(formData);
   revalidatePath("/admin/submissions");
   redirect(kind === "dog" ? "/dog-of-the-week/nominate?ok=1" : "/field-stories/submit?ok=1");
 }

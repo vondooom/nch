@@ -1,4 +1,7 @@
+import { redirect } from "next/navigation";
+
 import { loginAction } from "@/lib/actions";
+import { getSession } from "@/lib/auth";
 
 export const metadata = { title: "Staff sign-in" };
 
@@ -7,6 +10,7 @@ export default async function SignInPage({
 }: {
   searchParams: Promise<{ error?: string }>;
 }) {
+  if (await getSession()) redirect("/admin");
   const { error } = await searchParams;
   return (
     <main className="flex min-h-screen items-center justify-center bg-[#1C2B1A] px-6 py-16">

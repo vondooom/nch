@@ -63,6 +63,23 @@ export function stamp() {
   return new Date().toISOString();
 }
 
+export function recordPublicSubmission(formData: FormData) {
+  const kind = String(formData.get("kind") || "story") === "dog" ? "dog" : "story";
+  updateStore((data) => {
+    data.submissions.unshift({
+      id: newId("sub"),
+      kind,
+      name: String(formData.get("name") || "").trim() || "Anonymous",
+      email: String(formData.get("email") || "").trim(),
+      title: String(formData.get("title") || "").trim(),
+      body: String(formData.get("body") || "").trim(),
+      createdAt: stamp(),
+      state: "new",
+    });
+  });
+  return kind;
+}
+
 export function dashboardCounts() {
   const data = getStore();
   return {
