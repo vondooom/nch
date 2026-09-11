@@ -1,0 +1,86 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans), Barlow, sans-serif;
+  --font-heading: var(--font-heading), "Barlow Condensed", sans-serif;
+  --font-serif: var(--font-serif), "Source Serif 4", serif;
+  --font-mono: ui-monospace, monospace;
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: 0;
+  --radius-md: 0;
+  --radius-lg: 0;
+  --radius-xl: 0;
+}
+
+:root {
+  --background: #f5f1e8;
+  --foreground: #211d14;
+  --card: #fbf8f0;
+  --card-foreground: #211d14;
+  --popover: #fffdf7;
+  --popover-foreground: #211d14;
+  --primary: #c75b12;
+  --primary-foreground: #fff6e8;
+  --secondary: #1c2b1a;
+  --secondary-foreground: #f2eddd;
+  --muted: #efe8d6;
+  --muted-foreground: #8a8163;
+  --accent: #2f4a2c;
+  --accent-foreground: #f2eddd;
+  --destructive: #8c2f14;
+  --border: #d8cdb4;
+  --input: #d8cdb4;
+  --ring: #c75b12;
+  --sidebar: #1c2b1a;
+  --sidebar-foreground: #d9d2ba;
+  --sidebar-primary: #c75b12;
+  --sidebar-primary-foreground: #fff6e8;
+  --sidebar-accent: #24361f;
+  --sidebar-accent-foreground: #f2eddd;
+  --sidebar-border: #33422f;
+  --sidebar-ring: #c75b12;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  a {
+    @apply text-[#2F4A2C] no-underline;
+  }
+  a:hover {
+    @apply text-[#C75B12];
+  }
+}

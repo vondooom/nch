@@ -1,48 +1,69 @@
 # NorCalHunt
 
-The NorCalHunt website — weekly intel for Northern California hunters. Weather, season dates, regulations, shoot times, field stories, and gear in one place.
+Weekly intel for Northern California hunters — weather, season dates, regulations, shoot times, field stories, recipes, and gear in one place.
 
-This repo is a Vite multi-page site built from the NorCal Hunt website rebuild export. Pages render through the included design-canvas runtime (`support.js`).
+The public site is a Next.js App Router app. Staff manage copy from **the desk** at `/admin`.
 
-## Pages
+## Roles
 
-- `/` — Homepage
-- `/conditions` — Hunt-day conditions dashboard
-- `/regulations` — Season dates and regs
-- `/newsletters` — Briefing archive
-- `/issue-13` — Latest issue
-- `/field-stories` — Reader hunts
-- `/gear` — Field-tested gear
-- `/local-boys` — Local services directory
-- `/dog-of-the-week` — Featured dogs
-- `/marketplace` — Classifieds concept preview
-- `/about` — Who’s behind it
-- `/subscribe` — Tuesday briefing signup (client-side confirmation)
+| Role | What they can do |
+| --- | --- |
+| **Editor** | Create and revise drafts, update hunt-day conditions, work the public inbox. Cannot publish, unpublish, or delete. |
+| **Admin** | Everything an editor can do, plus publish, delete, and see the Team page. |
 
-Subscribe currently validates email in the browser and shows a success state. It does not post to a newsletter provider yet.
+Local seats (change these in `.env.local`):
+
+- Admin: `admin@norcalhunt.local` / `hunt-admin`
+- Editor: `editor@norcalhunt.local` / `hunt-editor`
+
+Sign in at `/sign-in`. Production should set `STAFF_SESSION_SECRET` and stronger passwords. Clerk + Neon can replace the cookie login and JSON store when you connect them on the Vercel project.
+
+## Public pages
+
+- `/` — Homepage, conditions strip, latest briefings, featured recipe
+- `/newsletters` and `/newsletters/[slug]` — Tuesday briefing archive
+- `/field-stories` and `/field-stories/[slug]` — Reader hunts
+- `/field-stories/submit` — Public story inbox
+- `/dog-of-the-week` and `/nominate` — Featured dogs
+- `/recipes` — From Field to Table
+- `/gear` — Field-tested picks
+- `/conditions` — Hunt-day dashboard
+- `/regulations` — The Board (seasons and deadlines)
+- `/local-boys` — Trusted local services
+- `/marketplace` — Classifieds preview
+- `/about` / `/subscribe`
+
+Drafts never appear on these routes.
+
+## The desk (`/admin`)
+
+Collections: issues, stories, dogs, gear, recipes, the Board, Local Boys, marketplace, conditions, and the public inbox. Accepting an inbox item can start a draft. Only admins can push that draft live.
+
+Content is stored in `.data/store.json` locally and `/tmp/norcal-hunt-store.json` on Vercel until Neon is connected. Serverless writes will not persist across instances.
 
 ## Local development
 
 ```bash
 npm install
+cp .env.example .env.local
 npm run dev
 ```
 
-The dev server binds to `http://127.0.0.1:43180`.
+Dev server: `http://127.0.0.1:43180`
 
 ```bash
 npm run build
-npm run preview
+npm run start
 ```
 
 ## Deploy
 
-Live production project: [norcal-hunt.vercel.app](https://norcal-hunt.vercel.app)
+Production project: [norcal-hunt.vercel.app](https://norcal-hunt.vercel.app)
 
-Local `npm run build` produces static files in `dist/`. To publish:
+Set `STAFF_SESSION_SECRET`, `ADMIN_PASSWORD`, and `EDITOR_PASSWORD` on the Vercel project before treating the desk as real. Then:
 
 ```bash
 npx vercel --prod
 ```
 
-The first Vercel project (`norcal-hunt` on the ai2040 team) was created with a file deploy. `vercel.json` currently rewrites `/support.js` and `/image-slot.js` to the immutable deployment that first uploaded those runtimes. If you connect a Git repo and let Vite build `public/` into `dist/`, remove those rewrites so the built copies are served instead.
+To graduate off the local seats and ephemeral JSON file, add **Clerk** and **Neon** from the Vercel Marketplace on the `norcal-hunt` project and pull env vars with `vercel env pull`.
