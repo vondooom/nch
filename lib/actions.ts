@@ -18,6 +18,9 @@ function revalidatePublic() {
   revalidatePath("/recipes");
   revalidatePath("/regulations");
   revalidatePath("/conditions");
+  revalidatePath("/zones");
+  revalidatePath("/species");
+  revalidatePath("/calendar");
   revalidatePath("/admin");
   revalidatePath("/sitemap.xml");
 }
@@ -366,7 +369,9 @@ export async function promoteSubmissionAction(formData: FormData) {
     const row = data.submissions.find((s) => s.id === id);
     if (!row) return;
     row.state = "accepted";
-    if (row.kind === "dog") {
+    if (row.kind === "contact") {
+      dest = "/admin/submissions";
+    } else if (row.kind === "dog") {
       dest = "/admin/dogs";
       data.dogs.unshift({
         id: newId("dog"),

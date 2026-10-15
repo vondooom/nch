@@ -7,8 +7,8 @@ export default function AdminSubmissions() {
     <div>
       <h1 className="mb-6 font-heading text-[36px] font-bold uppercase">Inbox</h1>
       <p className="mb-6 font-serif text-[#5C543F]">
-        Public story and dog nominations land here. Start a draft from the good ones — it stays unpublished until an
-        admin hits publish.
+        Public stories, dog nominations, and contact notes land here. Start a draft from the good hunts — it stays
+        unpublished until an admin hits publish. Contact notes are marked accepted without becoming a story.
       </p>
       {rows.length === 0 ? (
         <p className="font-serif text-[#5C543F]">Inbox is empty.</p>
@@ -27,12 +27,14 @@ export default function AdminSubmissions() {
               <p className="mb-4 font-serif text-[16px] leading-relaxed">{s.body}</p>
               {s.state === "new" ? (
                 <div className="flex flex-wrap gap-2">
-                  <form action={promoteSubmissionAction}>
-                    <input type="hidden" name="id" value={s.id} />
-                    <button className="bg-[#2F4A2C] px-3 py-1.5 font-heading text-[12px] font-semibold uppercase tracking-[0.1em] text-[#F2EDDD]">
-                      Start draft
-                    </button>
-                  </form>
+                  {s.kind === "contact" ? null : (
+                    <form action={promoteSubmissionAction}>
+                      <input type="hidden" name="id" value={s.id} />
+                      <button className="bg-[#2F4A2C] px-3 py-1.5 font-heading text-[12px] font-semibold uppercase tracking-[0.1em] text-[#F2EDDD]">
+                        Start draft
+                      </button>
+                    </form>
+                  )}
                   <form action={reviewSubmissionAction}>
                     <input type="hidden" name="id" value={s.id} />
                     <input type="hidden" name="state" value="accepted" />

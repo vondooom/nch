@@ -1,4 +1,6 @@
+import Link from "next/link";
 import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
+import { deskDisclaimer } from "@/lib/guides";
 import { getStore } from "@/lib/store";
 
 export const metadata = { title: "Conditions" };
@@ -34,6 +36,10 @@ export default function ConditionsPage() {
           These numbers are maintained by the desk — editors update them before each briefing. Always confirm fire
           closures, refuge draws, and legal shoot times with CDFW and the refuge you&apos;re hunting.
         </p>
+        <p className="mt-4">{deskDisclaimer}</p>
+        <Link href="/checklist" className="mt-6 inline-block font-heading text-[15px] font-semibold uppercase tracking-[0.1em] text-[#C75B12]">
+          Driveway checklist →
+        </Link>
       </section>
       <SiteFooter compact />
     </>

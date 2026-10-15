@@ -1,17 +1,28 @@
 import Link from "next/link";
 
-const nav = [
+const primary = [
   ["Conditions", "/conditions"],
-  ["Regs", "/regulations"],
-  ["Newsletters", "/newsletters"],
+  ["Seasons", "/regulations"],
   ["Stories", "/field-stories"],
-  ["Recipes", "/recipes"],
   ["Gear", "/gear"],
-  ["Local Boys", "/local-boys"],
-  ["Dogs", "/dog-of-the-week"],
-  ["Marketplace", "/marketplace"],
-  ["About", "/about"],
+  ["Recipes", "/recipes"],
 ] as const;
+
+const field = [
+  ["Zones", "/zones"],
+  ["Species", "/species"],
+  ["Calendar", "/calendar"],
+  ["Checklist", "/checklist"],
+  ["Newsletters", "/newsletters"],
+  ["Dogs", "/dog-of-the-week"],
+  ["Local Boys", "/local-boys"],
+  ["Marketplace", "/marketplace"],
+  ["FAQ", "/faq"],
+  ["About", "/about"],
+  ["Contact", "/contact"],
+] as const;
+
+const footerLinks = [...primary, ...field, ["Privacy", "/privacy"]] as const;
 
 export function SiteBanner() {
   return (
@@ -28,8 +39,8 @@ export function SiteHeader({ current }: { current?: string }) {
         <Link href="/" className="font-heading text-[30px] font-bold leading-none tracking-[0.02em] text-[#1C2B1A]">
           NORCAL<span className="text-[#C75B12]">HUNT</span>
         </Link>
-        <nav className="ml-auto flex flex-wrap items-center gap-4 font-heading text-[15px] font-semibold uppercase tracking-[0.09em]">
-          {nav.map(([label, href]) => (
+        <nav className="ml-auto flex flex-wrap items-center gap-x-4 gap-y-2 font-heading text-[15px] font-semibold uppercase tracking-[0.09em]">
+          {primary.map(([label, href]) => (
             <Link
               key={href}
               href={href}
@@ -42,6 +53,22 @@ export function SiteHeader({ current }: { current?: string }) {
               {label}
             </Link>
           ))}
+          <details className="relative">
+            <summary
+              className={`cursor-pointer list-none ${
+                field.some(([, href]) => href === current) ? "text-[#C75B12]" : "text-[#211D14]"
+              }`}
+            >
+              Field
+            </summary>
+            <div className="absolute right-0 z-50 mt-2 grid min-w-[200px] gap-2 border-2 border-[#211D14] bg-[#FBF8F0] p-3 shadow-md">
+              {field.map(([label, href]) => (
+                <Link key={href} href={href} className="text-[#211D14] hover:text-[#C75B12]">
+                  {label}
+                </Link>
+              ))}
+            </div>
+          </details>
           <Link href="/subscribe" className="bg-[#C75B12] px-4 py-2 text-[#FFF6E8]">
             Subscribe
           </Link>
@@ -65,12 +92,12 @@ export function SiteFooter({ compact = false }: { compact?: boolean }) {
             </div>
             <p className="font-serif text-[15px] leading-relaxed">One inbox. Every NorCal hunt, handled.</p>
           </div>
-          <div>
+          <div className="lg:col-span-2">
             <div className="mb-3.5 font-heading text-[13px] font-semibold uppercase tracking-[0.18em] text-[#8FA07C]">
               Explore
             </div>
-            <div className="grid gap-2 text-[15px] font-medium">
-              {nav.slice(0, 8).map(([label, href]) => (
+            <div className="grid gap-2 text-[15px] font-medium sm:grid-cols-2">
+              {footerLinks.map(([label, href]) => (
                 <Link key={href} href={href} className="text-[#D9D2BA] hover:text-[#C75B12]">
                   {label}
                 </Link>
@@ -99,7 +126,10 @@ export function SiteFooter({ compact = false }: { compact?: boolean }) {
         </div>
       ) : null}
       <div className="border-t border-[#33422F] px-6 py-4 text-center text-[13px] font-medium text-[#7E7660]">
-        © 2026 NorCalHunt · Independently owned and operated · Hunt legal, hunt safe — always verify with CDFW
+        © 2026 NorCalHunt · Independently owned · Hunt legal, hunt safe — always verify with CDFW ·{" "}
+        <Link href="/privacy" className="text-[#D9D2BA] hover:text-[#C75B12]">
+          Privacy
+        </Link>
       </div>
     </footer>
   );

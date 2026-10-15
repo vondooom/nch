@@ -31,6 +31,11 @@ Sign in at `/sign-in`. Production should set `STAFF_SESSION_SECRET` and stronger
 - `/regulations` — The Board (seasons and deadlines)
 - `/local-boys` and `/local-boys/[slug]` — Trusted local services
 - `/marketplace` — Classifieds preview
+- `/zones` and `/zones/[slug]` — Deer zones and valley refuge country
+- `/species` and `/species/[slug]` — Blacktail, dove, waterfowl, turkey, pig, quail, pheasant
+- `/calendar` — The hunting year, month by month
+- `/checklist` — Before you leave the driveway
+- `/faq` / `/privacy` / `/contact`
 - `/about` / `/subscribe` — Tuesday briefing signup (stored on the desk; Beehiiv later)
 - `/sitemap.xml` — Index of every published entry
 

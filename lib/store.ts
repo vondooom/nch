@@ -75,7 +75,8 @@ export function stamp() {
 }
 
 export function recordPublicSubmission(formData: FormData) {
-  const kind = String(formData.get("kind") || "story") === "dog" ? "dog" : "story";
+  const raw = String(formData.get("kind") || "story");
+  const kind = raw === "dog" ? "dog" : raw === "contact" ? "contact" : "story";
   updateStore((data) => {
     data.submissions.unshift({
       id: newId("sub"),

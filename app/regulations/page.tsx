@@ -1,4 +1,6 @@
+import Link from "next/link";
 import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
+import { deskDisclaimer } from "@/lib/guides";
 import { getStore, published } from "@/lib/store";
 
 export const metadata = { title: "Regulations" };
@@ -16,10 +18,16 @@ export default function RegulationsPage() {
         <h1 className="mb-4 font-heading text-[clamp(36px,5vw,56px)] font-bold uppercase leading-none">
           Season dates, deadlines, and the rules that bite
         </h1>
-        <p className="mb-10 font-serif text-[17px] leading-relaxed text-[#5C543F]">
-          The same board that used to live only inside Tuesday&apos;s issue. Editors keep it current; verify every date
-          with CDFW before you leave the house.
+        <p className="mb-4 font-serif text-[17px] leading-relaxed text-[#5C543F]">
+          The same board that used to live only inside Tuesday&apos;s issue. Editors keep it current. This is a briefing
+          note, not the regulation booklet.
         </p>
+        <div className="mb-10 flex flex-wrap gap-4 font-heading text-[14px] font-semibold uppercase tracking-[0.1em]">
+          <Link href="/zones" className="text-[#C75B12]">Zones →</Link>
+          <Link href="/species" className="text-[#C75B12]">Species →</Link>
+          <Link href="/calendar" className="text-[#C75B12]">Calendar →</Link>
+          <Link href="/checklist" className="text-[#C75B12]">Checklist →</Link>
+        </div>
         <div className="grid gap-3">
           {board.map((b) => (
             <div key={b.id} className="grid grid-cols-[4px_1fr] gap-4 border border-[#D8CDB4] bg-[#FBF8F0] p-5">
@@ -31,6 +39,7 @@ export default function RegulationsPage() {
             </div>
           ))}
         </div>
+        <p className="mt-8 font-serif text-[14px] leading-relaxed text-[#8A8163]">{deskDisclaimer}</p>
       </section>
       <SiteFooter compact />
     </>

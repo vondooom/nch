@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
 import { SubscribeForm } from "@/components/site/subscribe-form";
 
@@ -27,7 +28,10 @@ export default async function SubscribePage({
         <SubscribeForm />
         {q.error ? <p className="mt-3 text-[14px] font-medium text-[#8C2F14]">Enter a valid email address.</p> : null}
         <p className="mt-3.5 text-[13px] font-medium text-[#8A8163]">
-          No spam, no selling your address. One email a week. Addresses land on the desk until Beehiiv is connected.
+          No spam, no selling your address. One email a week. Addresses land on the desk until Beehiiv is connected.{" "}
+          <Link href="/privacy" className="underline">
+            Privacy
+          </Link>
         </p>
       </section>
       <SiteFooter compact />

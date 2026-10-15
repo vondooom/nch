@@ -1,8 +1,19 @@
 import type { StoreData } from "./types";
+import {
+  extraBoard,
+  extraConditions,
+  extraDogs,
+  extraGear,
+  extraIssues,
+  extraLocals,
+  extraMarket,
+  extraRecipes,
+  extraStories,
+} from "./seed-extra";
 
 const now = "2026-09-11T12:00:00.000Z";
 
-export const seed: StoreData = {
+const seedBase: StoreData = {
   issues: [
     {
       id: "issue-13",
@@ -551,4 +562,17 @@ They will tell you if the cape is too far gone. Pay for honesty.`,
     },
   ],
   subscribers: [],
+};
+
+export const seed: StoreData = {
+  ...seedBase,
+  issues: [...seedBase.issues, ...extraIssues],
+  stories: [...seedBase.stories, ...extraStories],
+  dogs: [...seedBase.dogs, ...extraDogs],
+  gear: [...seedBase.gear, ...extraGear],
+  locals: [...seedBase.locals, ...extraLocals],
+  market: [...seedBase.market, ...extraMarket],
+  recipes: [...seedBase.recipes, ...extraRecipes],
+  board: [...seedBase.board, ...extraBoard],
+  conditions: [...seedBase.conditions, ...extraConditions],
 };

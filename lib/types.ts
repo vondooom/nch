@@ -127,7 +127,7 @@ export type ConditionStat = {
 
 export type Submission = {
   id: string;
-  kind: "story" | "dog";
+  kind: "story" | "dog" | "contact";
   name: string;
   email: string;
   title: string;

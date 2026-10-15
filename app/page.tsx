@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
 import { SubscribeForm } from "@/components/site/subscribe-form";
+import { species, zones } from "@/lib/guides";
 import { getStore, published } from "@/lib/store";
 
 export default function HomePage() {
@@ -8,6 +9,8 @@ export default function HomePage() {
   const issues = published(data.issues).sort((a, b) => b.number - a.number).slice(0, 3);
   const stats = data.conditions.slice(0, 4);
   const recipe = published(data.recipes)[0];
+  const stories = published(data.stories).slice(0, 2);
+  const gear = published(data.gear).slice(0, 3);
   const pillars = [
     { title: "Weather Conditions", desc: "Hunt-day forecast, wind read, shoot light, and moon — organized by zone and refuge.", href: "/conditions", cta: "View conditions" },
     { title: "Season Dates & Regulations", desc: "Current CA seasons, zone dates, tag deadlines, and rule changes that matter.", href: "/regulations", cta: "View the board" },
@@ -104,6 +107,82 @@ export default function HomePage() {
               </div>
               <div className="mb-2.5 font-heading text-[20px] font-semibold leading-snug text-[#1C2B1A]">{it.title}</div>
               <div className="font-serif text-[15px] leading-relaxed text-[#5C543F]">{it.blurb}</div>
+            </Link>
+          ))}
+        </div>
+      </section>
+      <section className="mx-auto max-w-[1180px] px-6 pt-16">
+        <div className="mb-7 flex flex-wrap items-baseline justify-between gap-4">
+          <h2 className="font-heading text-[clamp(28px,3.2vw,38px)] font-bold uppercase">Know the ground</h2>
+          <Link href="/zones" className="font-heading text-[15px] font-semibold uppercase tracking-[0.1em] text-[#C75B12]">
+            All zones →
+          </Link>
+        </div>
+        <div className="grid gap-4 md:grid-cols-3">
+          {zones.slice(0, 3).map((zone) => (
+            <Link key={zone.slug} href={`/zones/${zone.slug}`} className="block border border-[#D8CDB4] bg-[#FBF8F0]">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={zone.image} alt="" className="h-[160px] w-full object-cover" />
+              <div className="p-5">
+                <div className="mb-1 font-heading text-[12px] font-bold uppercase tracking-[0.14em] text-[#C75B12]">{zone.kicker}</div>
+                <div className="mb-2 font-heading text-[22px] font-bold uppercase">{zone.title}</div>
+                <p className="font-serif text-[15px] leading-relaxed text-[#5C543F]">{zone.lede}</p>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </section>
+      <section className="mx-auto max-w-[1180px] px-6 pt-12">
+        <div className="mb-6 flex flex-wrap items-baseline justify-between gap-4">
+          <h2 className="font-heading text-[clamp(28px,3.2vw,38px)] font-bold uppercase">The year&apos;s animals</h2>
+          <Link href="/species" className="font-heading text-[15px] font-semibold uppercase tracking-[0.1em] text-[#C75B12]">
+            All species →
+          </Link>
+        </div>
+        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          {species.slice(0, 4).map((animal) => (
+            <Link key={animal.slug} href={`/species/${animal.slug}`} className="border border-[#D8CDB4] bg-[#FBF8F0] p-4">
+              <div className="font-heading text-[18px] font-bold uppercase text-[#1C2B1A]">{animal.title}</div>
+              <div className="mt-1 font-serif text-[14px] leading-relaxed text-[#5C543F]">{animal.kicker}</div>
+            </Link>
+          ))}
+        </div>
+      </section>
+      <section className="mx-auto max-w-[1180px] px-6 pt-12">
+        <div className="mb-6 flex flex-wrap items-baseline justify-between gap-4">
+          <h2 className="font-heading text-[clamp(28px,3.2vw,38px)] font-bold uppercase">From the field</h2>
+          <Link href="/field-stories" className="font-heading text-[15px] font-semibold uppercase tracking-[0.1em] text-[#C75B12]">
+            All stories →
+          </Link>
+        </div>
+        <div className="grid gap-4 md:grid-cols-2">
+          {stories.map((story) => (
+            <Link key={story.id} href={`/field-stories/${story.slug}`} className="block border border-[#D8CDB4] bg-[#FBF8F0] p-6">
+              <div className="mb-2 text-[13px] uppercase tracking-[0.08em] text-[#8A8163]">{story.species}</div>
+              <div className="mb-2 font-heading text-[24px] font-bold uppercase">{story.title}</div>
+              <p className="font-serif text-[15px] leading-relaxed text-[#5C543F]">{story.excerpt}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
+      <section className="mx-auto max-w-[1180px] px-6 pt-12">
+        <div className="mb-6 flex flex-wrap items-baseline justify-between gap-4">
+          <h2 className="font-heading text-[clamp(28px,3.2vw,38px)] font-bold uppercase">Gear we keep</h2>
+          <Link href="/gear" className="font-heading text-[15px] font-semibold uppercase tracking-[0.1em] text-[#C75B12]">
+            All gear →
+          </Link>
+        </div>
+        <div className="grid gap-4 md:grid-cols-3">
+          {gear.map((item) => (
+            <Link key={item.id} href={`/gear/${item.slug}`} className="block border border-[#D8CDB4] bg-[#FBF8F0]">
+              {item.image ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img src={item.image} alt="" className="h-[150px] w-full object-cover" />
+              ) : null}
+              <div className="p-5">
+                <div className="mb-1 font-heading text-[12px] font-bold uppercase tracking-[0.14em] text-[#C75B12]">{item.badge}</div>
+                <div className="font-heading text-[20px] font-bold uppercase">{item.name}</div>
+              </div>
             </Link>
           ))}
         </div>
