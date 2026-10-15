@@ -23,10 +23,10 @@ export default async function ContactPage({ searchParams }: { searchParams: Prom
         </p>
         <form action="/api/submissions" method="post" className="grid gap-3 border-2 border-[#211D14] bg-[#FBF8F0] p-6">
           <input type="hidden" name="kind" value="contact" />
-          <input name="name" required placeholder="Name" className="border-2 border-[#211D14] bg-[#FFFDF7] px-4 py-3" />
-          <input name="email" type="email" required placeholder="Email" className="border-2 border-[#211D14] bg-[#FFFDF7] px-4 py-3" />
-          <input name="title" required placeholder="Subject" className="border-2 border-[#211D14] bg-[#FFFDF7] px-4 py-3" />
-          <textarea name="body" required rows={6} placeholder="What should we know?" className="border-2 border-[#211D14] bg-[#FFFDF7] px-4 py-3" />
+          <input name="name" required autoComplete="name" placeholder="Name" className="border-2 border-[#211D14] bg-[#FFFDF7] px-4 py-3" />
+          <input name="email" type="email" required autoComplete="email" placeholder="Email" className="border-2 border-[#211D14] bg-[#FFFDF7] px-4 py-3" />
+          <input name="title" required autoComplete="off" placeholder="Subject" className="border-2 border-[#211D14] bg-[#FFFDF7] px-4 py-3" />
+          <textarea name="body" required autoComplete="off" rows={6} placeholder="What should we know?" className="border-2 border-[#211D14] bg-[#FFFDF7] px-4 py-3" />
           <button type="submit" className="bg-[#C75B12] px-6 py-3 font-heading text-[16px] font-semibold uppercase tracking-[0.1em] text-[#FFF6E8]">
             Send to the desk
           </button>

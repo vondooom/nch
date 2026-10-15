@@ -256,7 +256,7 @@ It is not magic. If you are late, if the wind is wrong, if you are sitting in th
 Carry spare batteries. The hunt is two hours. The decoy should last three.`,
       price: "~$45",
       issue: "Issue #10",
-      image: "https://images.unsplash.com/photo-1564760055775-d63b17a69dd2?fm=jpg&q=60&w=1600&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1452570053594-1b985d6ea890?fm=jpg&q=60&w=1600&auto=format&fit=crop",
       status: "published",
       updatedAt: now,
     },
