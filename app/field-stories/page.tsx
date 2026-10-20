@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { PageHero, SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
+import { archiveShowcase } from "@/lib/archive";
 import { getStore, published } from "@/lib/store";
 
 export const metadata = { title: "Field Stories" };
@@ -14,7 +15,7 @@ export default function StoriesPage() {
         kicker="Field Stories"
         title="Real hunts. Real memories."
         lede="Handpicked tales from NorCal hunters — deer camps, duck blinds, turkey ridges, and everything in between."
-        image="https://images.unsplash.com/photo-1642017263197-f55a861ab4dd?fm=jpg&q=60&w=1600&auto=format&fit=crop"
+        image={archiveShowcase.find((item) => item.image)?.image}
       />
       <section className="mx-auto max-w-[1180px] px-6 py-12 pb-20">
         <div className="mb-8 flex flex-wrap items-center justify-between gap-4 border-2 border-[#211D14] bg-[#FBF8F0] px-5 py-4">

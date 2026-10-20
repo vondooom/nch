@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { logoSrc } from "@/lib/brand";
 
 const primary = [
   ["Conditions", "/conditions"],
@@ -15,6 +16,8 @@ const field = [
   ["Checklist", "/checklist"],
   ["Newsletters", "/newsletters"],
   ["Dogs", "/dog-of-the-week"],
+  ["Showcase", "/showcase"],
+  ["Bag limits", "/bag-limits"],
   ["Local Boys", "/local-boys"],
   ["Marketplace", "/marketplace"],
   ["FAQ", "/faq"],
@@ -36,8 +39,9 @@ export function SiteHeader({ current }: { current?: string }) {
   return (
     <header className="sticky top-0 z-50 border-b-2 border-[#211D14] bg-[#F5F1E8]">
       <div className="mx-auto flex max-w-[1180px] flex-wrap items-center gap-4 px-6 py-3.5">
-        <Link href="/" className="font-heading text-[30px] font-bold leading-none tracking-[0.02em] text-[#1C2B1A]">
-          NORCAL<span className="text-[#C75B12]">HUNT</span>
+        <Link href="/" className="flex items-center">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={logoSrc} alt="NorCalHunt" className="h-14 w-auto" />
         </Link>
         <nav className="ml-auto flex flex-wrap items-center gap-x-4 gap-y-2 font-heading text-[15px] font-semibold uppercase tracking-[0.09em]">
           {primary.map(([label, href]) => (

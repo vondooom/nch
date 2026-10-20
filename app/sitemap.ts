@@ -14,6 +14,8 @@ export default function sitemap() {
     "/dog-of-the-week",
     "/dog-of-the-week/nominate",
     "/local-boys",
+    "/showcase",
+    "/bag-limits",
     "/marketplace",
     "/conditions",
     "/regulations",

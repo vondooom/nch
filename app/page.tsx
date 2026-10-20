@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
 import { SubscribeForm } from "@/components/site/subscribe-form";
+import { heroSrc } from "@/lib/brand";
 import { species, zones } from "@/lib/guides";
 import { getStore, published } from "@/lib/store";
 
@@ -27,7 +28,7 @@ export default function HomePage() {
       <section className="relative min-h-[440px] md:min-h-[580px]">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="https://media.beehiiv.com/cdn-cgi/image/format=auto,fit=scale-down,onerror=redirect/uploads/asset/file/abca24bb-e76d-4cb1-9f07-c15f4b2ae888/liana-mikah-1SANF0Cw9yE-unsplash.jpg?t=1780089435"
+          src={heroSrc}
           alt=""
           className="absolute inset-0 h-full w-full object-cover"
         />

@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 
 import { JsonLd } from "@/components/site/json-ld";
 import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
+import { RichBody } from "@/components/site/rich-body";
 import { absoluteUrl, pageMeta } from "@/lib/site";
 import { getStore, published } from "@/lib/store";
 
@@ -55,14 +56,9 @@ export default async function GearDetailPage({ params }: { params: Promise<{ slu
           <span className="font-heading text-[12px] font-bold uppercase tracking-[0.14em] text-[#C75B12]">{item.badge}</span>
         </div>
         <h1 className="mb-3 font-heading text-[clamp(34px,4.6vw,54px)] font-bold uppercase leading-tight">{item.name}</h1>
-        <p className="mb-2 font-heading text-[22px] font-bold text-[#C75B12]">{item.price}</p>
+        {item.price ? <p className="mb-2 font-heading text-[22px] font-bold text-[#C75B12]">{item.price}</p> : null}
         <p className="mb-8 text-[13px] uppercase tracking-[0.08em] text-[#8A8163]">{item.issue}</p>
-        <p className="mb-6 font-serif text-[19px] leading-relaxed text-[#5C543F]">{item.why}</p>
-        <div className="grid gap-4 font-serif text-[17px] leading-[1.75] text-[#3B3526]">
-          {item.body.split("\n\n").map((p) => (
-            <p key={p.slice(0, 24)}>{p}</p>
-          ))}
-        </div>
+        <RichBody body={item.body} />
       </article>
       <SiteFooter compact />
     </>

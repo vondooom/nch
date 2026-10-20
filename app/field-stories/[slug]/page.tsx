@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 
 import { JsonLd } from "@/components/site/json-ld";
 import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
+import { RichBody } from "@/components/site/rich-body";
 import { absoluteUrl, pageMeta } from "@/lib/site";
 import { getStore, published } from "@/lib/store";
 
@@ -60,11 +61,7 @@ export default async function StoryPage({ params }: { params: Promise<{ slug: st
           // eslint-disable-next-line @next/next/no-img-element
           <img src={story.image} alt="" className="mb-8 aspect-video w-full border border-[#D8CDB4] object-cover" />
         ) : null}
-        <div className="grid gap-4 font-serif text-[17px] leading-[1.75] text-[#3B3526]">
-          {story.body.split("\n\n").map((p) => (
-            <p key={p.slice(0, 24)}>{p}</p>
-          ))}
-        </div>
+        <RichBody body={story.body} />
       </article>
       <SiteFooter compact />
     </>

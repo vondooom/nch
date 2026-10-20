@@ -1,5 +1,7 @@
 import Link from "next/link";
+import { ArchiveSections } from "@/components/site/archive-sections";
 import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
+import { archiveSeasons } from "@/lib/archive";
 import { deskDisclaimer } from "@/lib/guides";
 import { getStore, published } from "@/lib/store";
 
@@ -27,6 +29,7 @@ export default function RegulationsPage() {
           <Link href="/species" className="text-[#C75B12]">Species →</Link>
           <Link href="/calendar" className="text-[#C75B12]">Calendar →</Link>
           <Link href="/checklist" className="text-[#C75B12]">Checklist →</Link>
+          <Link href="/bag-limits" className="text-[#C75B12]">Bag limits →</Link>
         </div>
         <div className="grid gap-3">
           {board.map((b) => (
@@ -38,6 +41,9 @@ export default function RegulationsPage() {
               </div>
             </div>
           ))}
+        </div>
+        <div className="mt-14">
+          <ArchiveSections sections={archiveSeasons} />
         </div>
         <p className="mt-8 font-serif text-[14px] leading-relaxed text-[#8A8163]">{deskDisclaimer}</p>
       </section>

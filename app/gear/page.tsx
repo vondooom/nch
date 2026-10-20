@@ -41,9 +41,9 @@ export default function GearPage() {
                 </div>
                 <div className="font-heading text-[21px] font-bold leading-snug text-[#1C2B1A]">{g.name}</div>
                 <div className="flex-1 font-serif text-[15px] leading-relaxed text-[#5C543F]">{g.why}</div>
-                <div className="flex items-baseline justify-between border-t border-[#E7DFC9] pt-2.5">
-                  <span className="font-heading text-[18px] font-bold">{g.price}</span>
-                  <span className="text-[13px] text-[#8A8163]">{g.issue}</span>
+                <div className="flex items-baseline justify-between gap-3 border-t border-[#E7DFC9] pt-2.5">
+                  {g.price ? <span className="font-heading text-[18px] font-bold">{g.price}</span> : null}
+                  <span className={`text-[13px] text-[#8A8163] ${g.price ? "" : "uppercase tracking-[0.06em]"}`}>{g.issue}</span>
                 </div>
               </div>
             </Link>

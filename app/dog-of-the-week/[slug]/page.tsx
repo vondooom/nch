@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 
 import { JsonLd } from "@/components/site/json-ld";
 import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
+import { RichBody } from "@/components/site/rich-body";
 import { absoluteUrl, pageMeta } from "@/lib/site";
 import { getStore, published } from "@/lib/store";
 
@@ -55,7 +56,7 @@ export default async function DogPage({ params }: { params: Promise<{ slug: stri
         <div className="mb-2 text-[13px] font-medium uppercase tracking-[0.08em] text-[#8A8163]">{dog.week}</div>
         <h1 className="mb-2 font-heading text-[clamp(34px,4.6vw,54px)] font-bold uppercase leading-tight">{dog.name}</h1>
         <p className="mb-6 font-heading text-[16px] font-semibold uppercase tracking-[0.08em] text-[#2F4A2C]">{dog.breed}</p>
-        <p className="font-serif text-[18px] leading-[1.75] text-[#3B3526]">{dog.story}</p>
+        <RichBody body={dog.story} />
         <Link
           href="/dog-of-the-week/nominate"
           className="mt-10 inline-block bg-[#C75B12] px-6 py-3 font-heading text-[15px] font-semibold uppercase tracking-[0.1em] text-[#FFF6E8]"
