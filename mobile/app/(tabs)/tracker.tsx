@@ -8,6 +8,7 @@ import {
   bagStatus,
   Counts,
   HuntLog,
+  isSeedHunt,
   LimitLevel,
   loadHunts,
   locationLabel,
@@ -16,6 +17,7 @@ import {
   saveHunts,
   seasonOf,
   seasonStats,
+  seedLogs,
   sortHunts,
   SPECIES,
   SpeciesId,
@@ -89,6 +91,21 @@ export default function TrackerScreen() {
     const sorted = sortHunts(list);
     setHunts(sorted);
     void saveHunts(sorted);
+  };
+
+  const clearSamples = () => {
+    const seedCount = hunts.filter(isSeedHunt).length;
+    if (!seedCount) return;
+    commit(hunts.filter((h) => !isSeedHunt(h)));
+    setNotice(`Cleared ${seedCount} sample hunts — logbook now shows only your real hunts.`);
+  };
+
+  const restoreSamples = () => {
+    const seeds = seedLogs();
+    const byId = new Map(hunts.map((h) => [h.id, h]));
+    seeds.forEach((h) => byId.set(h.id, h));
+    commit([...byId.values()]);
+    setNotice(`Restored ${seeds.length} sample hunts for preview.`);
   };
 
   const patch = (p: Partial<HuntLog>) => setDraft((d) => ({ ...d, ...p }));
@@ -212,6 +229,8 @@ export default function TrackerScreen() {
         <Logbook
           hunts={hunts}
           teamCode={teamCode}
+          onClearSamples={clearSamples}
+          onRestoreSamples={restoreSamples}
           onDelete={async (h) => {
             if (await confirm("Delete this hunt?", `${h.date} · ${locationLabel(h)}`)) commit(hunts.filter((x) => x.id !== h.id));
           }}
@@ -221,18 +240,23 @@ export default function TrackerScreen() {
               return;
             }
             try {
+              // Upload hunts logged offline before pulling the group's logs.
+              const pending = hunts.filter((h) => !isSeedHunt(h) && !h.synced && (!code || h.teamCode === code));
+              const pushed = pending.length ? await pushHunts(pending) : [];
+              const local = hunts.map((h) => (pushed.includes(h.id) ? { ...h, synced: true } : h));
+              if (pushed.length) commit(local);
               const remote = await pullTeamHunts(code);
-              const byId = new Map(hunts.map((h) => [h.id, h]));
+              const byId = new Map(local.map((h) => [h.id, h]));
               remote.forEach((h) => byId.set(h.id, h));
               commit([...byId.values()]);
-              setNotice(`Pulled ${remote.length} ${code} hunts.`);
+              setNotice(`${pushed.length ? `Pushed ${pushed.length} offline hunts · ` : ""}Pulled ${remote.length} ${code} hunts.`);
             } catch (e) {
               setNotice(`Sync failed: ${e instanceof Error ? e.message : String(e)}`);
             }
           }}
         />
       ) : (
-        <Stats hunts={hunts} />
+        <Stats hunts={hunts} onClearSamples={clearSamples} />
       )}
     </Screen>
   );
@@ -480,18 +504,25 @@ function Field({
 function Logbook({
   hunts,
   teamCode,
+  onClearSamples,
+  onRestoreSamples,
   onDelete,
   onPull,
 }: {
   hunts: HuntLog[];
   teamCode: string;
+  onClearSamples: () => void;
+  onRestoreSamples: () => void;
   onDelete: (h: HuntLog) => void;
   onPull: (code: string) => void;
 }) {
-  const [filter, setFilter] = useState<string>("ALL");
+  const [picked, setFilter] = useState<string>("ALL");
   const [open, setOpen] = useState<string | null>(null);
   const codes = [...new Set(hunts.map((h) => h.teamCode).filter(Boolean))];
+  // A team chip can vanish (e.g. after clearing sample hunts) — fall back to All.
+  const filter = picked === "ALL" || codes.includes(picked) ? picked : "ALL";
   const list = hunts.filter((h) => filter === "ALL" || h.teamCode === filter);
+  const seedCount = hunts.filter(isSeedHunt).length;
 
   return (
     <View>
@@ -508,6 +539,25 @@ function Logbook({
         onPress={() => onPull(filter === "ALL" ? teamCode : filter)}
         style={{ marginBottom: spacing.md }}
       />
+      {seedCount > 0 ? (
+        <Button
+          label={`Clear ${seedCount} sample hunts`}
+          icon="trash-bin"
+          variant="ghost"
+          onPress={onClearSamples}
+          style={{ marginBottom: spacing.md }}
+        />
+      ) : null}
+      {list.length === 0 ? (
+        <Card>
+          <Text style={type.h3}>{hunts.length === 0 ? "No hunts logged yet" : `No ${filter} hunts yet`}</Text>
+          <Text style={[type.body, { marginTop: 6, color: colors.inkMuted }]}>
+            {hunts.length === 0
+              ? "Tap Log a Hunt after your next morning in the blind — it saves on this phone first, even with zero bars."
+              : "Sync your blind group or log a hunt with this team code."}
+          </Text>
+        </Card>
+      ) : null}
       {list.map((h) => {
         const birds = total(h.counts);
         const isOpen = open === h.id;
@@ -531,6 +581,11 @@ function Logbook({
                 </View>
               </View>
               <View style={styles.logMeta}>
+                {isSeedHunt(h) ? (
+                  <View style={styles.demoBadge}>
+                    <Text style={styles.demoBadgeText}>DEMO</Text>
+                  </View>
+                ) : null}
                 {h.teamCode ? (
                   <View style={styles.teamBadge}>
                     <Text style={styles.teamBadgeText}>{h.teamCode}</Text>
@@ -557,23 +612,51 @@ function Logbook({
           </Pressable>
         );
       })}
+      {seedCount === 0 ? (
+        <Button
+          label={`Restore ${seedLogs().length} sample hunts`}
+          icon="refresh"
+          variant="ghost"
+          onPress={onRestoreSamples}
+          style={{ marginTop: spacing.sm }}
+        />
+      ) : null}
     </View>
   );
 }
 
 // ── Season analytics ─────────────────────────────────────────────────────
 
-function Stats({ hunts }: { hunts: HuntLog[] }) {
-  const seasons = [...new Set(hunts.map((h) => seasonOf(h.date)))].sort().reverse();
-  const [season, setSeason] = useState<string>(seasons[0] ?? "ALL");
-  const [team, setTeam] = useState<string>("ALL");
-  const teams = [...new Set(hunts.map((h) => h.teamCode).filter(Boolean))];
-  const scoped = hunts.filter((h) => (season === "ALL" || seasonOf(h.date) === season) && (team === "ALL" || h.teamCode === team));
+function Stats({ hunts, onClearSamples }: { hunts: HuntLog[]; onClearSamples: () => void }) {
+  const seedCount = hunts.filter(isSeedHunt).length;
+  const realCount = hunts.length - seedCount;
+  // null = follow the default: show samples until the first real hunt is logged.
+  const [samplesChoice, setSamplesChoice] = useState<boolean | null>(null);
+  const includeSamples = samplesChoice ?? realCount === 0;
+  const base = useMemo(() => (includeSamples ? hunts : hunts.filter((h) => !isSeedHunt(h))), [hunts, includeSamples]);
+
+  const seasons = [...new Set(base.map((h) => seasonOf(h.date)))].sort().reverse();
+  const [pickedSeason, setSeason] = useState<string | null>(null);
+  const season = pickedSeason === "ALL" || (pickedSeason && seasons.includes(pickedSeason)) ? pickedSeason : seasons[0] ?? "ALL";
+  const [pickedTeam, setTeam] = useState<string>("ALL");
+  const teams = [...new Set(base.map((h) => h.teamCode).filter(Boolean))];
+  const team = pickedTeam === "ALL" || teams.includes(pickedTeam) ? pickedTeam : "ALL";
+  const scoped = useMemo(
+    () => base.filter((h) => (season === "ALL" || seasonOf(h.date) === season) && (team === "ALL" || h.teamCode === team)),
+    [base, season, team],
+  );
   const s = useMemo(() => seasonStats(scoped), [scoped]);
-  const allTeams = useMemo(() => seasonStats(hunts.filter((h) => season === "ALL" || seasonOf(h.date) === season)).teams, [hunts, season]);
+  const allTeams = useMemo(() => seasonStats(base.filter((h) => season === "ALL" || seasonOf(h.date) === season)).teams, [base, season]);
 
   return (
     <View>
+      {seedCount > 0 ? (
+        <View style={styles.chipRow}>
+          <Chip label="Include sample hunts" active={includeSamples} onPress={() => setSamplesChoice(true)} />
+          <Chip label="My real hunts only" active={!includeSamples} onPress={() => setSamplesChoice(false)} />
+          <Chip label={`Clear ${seedCount} sample hunts`} icon="close-circle" onPress={onClearSamples} />
+        </View>
+      ) : null}
       <View style={styles.chipRow}>
         {seasons.map((x) => (
           <Chip key={x} label={x} active={season === x} onPress={() => setSeason(x)} />
@@ -719,6 +802,8 @@ const styles = StyleSheet.create({
   logBirdsN: { ...type.numeral, fontSize: 30, lineHeight: 32, color: colors.accent },
   logMeta: { flexDirection: "row", alignItems: "center", gap: spacing.sm, flexWrap: "wrap", marginVertical: 6 },
   teamBadge: { borderWidth: 1, borderColor: colors.accentDeep, borderRadius: radius.sm, paddingHorizontal: 6, paddingVertical: 1 },
+  demoBadge: { borderWidth: 1, borderColor: colors.warn, borderRadius: radius.sm, paddingHorizontal: 6, paddingVertical: 1 },
+  demoBadgeText: { color: colors.warn, fontFamily: fonts.headingSemi, fontSize: 12, letterSpacing: 1 },
   teamBadgeText: { color: colors.accent, fontFamily: fonts.headingSemi, fontSize: 12, letterSpacing: 1 },
   statsRow: { flexDirection: "row", gap: spacing.sm },
   hbarRow: { flexDirection: "row", alignItems: "center", gap: spacing.sm },

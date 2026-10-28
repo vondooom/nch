@@ -152,7 +152,12 @@ const SEED: Omit<HuntLog, "id" | "createdAt">[] = [
   { date: "2026-01-31", locationKind: "refuge", refugeId: "los-banos", locationName: "Los Banos WA", blind: "Pond 4", party: ["Danny K.", "Marcus T."], teamCode: "YOLO-DAWN", sky: "Rain", windDir: 150, windMph: 17, tempF: 45, start: "06:44", end: "11:00", notes: "Closer. Storm day, pintail and spoonies.", counts: { pintail: 4, shoveler: 5, gwt: 3, redhead: 1 } },
 ];
 
-function seedLogs(): HuntLog[] {
+/** Sample hunts shipped for first-run preview carry a `seed-` id. */
+export function isSeedHunt(h: HuntLog): boolean {
+  return h.id.startsWith("seed-");
+}
+
+export function seedLogs(): HuntLog[] {
   return SEED.map((s, i) => ({ ...s, id: `seed-${i}`, createdAt: Date.parse(`${s.date}T12:00:00`) }));
 }
 

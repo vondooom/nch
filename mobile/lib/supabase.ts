@@ -46,11 +46,11 @@ type Row = {
   payload: HuntLog;
 };
 
-/** Push hunts that carry a team code. Returns the ids that made it up. */
+/** Push real hunts that carry a team code (never the sample seed hunts). Returns the ids that made it up. */
 export async function pushHunts(hunts: HuntLog[]): Promise<string[]> {
   if (!isSupabaseConfigured) return [];
   const rows: Row[] = hunts
-    .filter((h) => h.teamCode)
+    .filter((h) => h.teamCode && !h.id.startsWith("seed-"))
     .map((h) => ({ id: h.id, team_code: h.teamCode, hunt_date: h.date, payload: { ...h, synced: true } }));
   if (!rows.length) return [];
   const { error } = await getSupabase().from("hunt_logs").upsert(rows, { onConflict: "id" });

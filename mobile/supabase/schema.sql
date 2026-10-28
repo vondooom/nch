@@ -34,3 +34,10 @@ create policy "team members fix hunts"
   on public.hunt_logs for update
   to anon, authenticated
   using (true) with check (true);
+
+create policy "team members delete hunts"
+  on public.hunt_logs for delete
+  to anon, authenticated
+  using (true);
+
+grant select, insert, update, delete on public.hunt_logs to anon, authenticated;

@@ -17,7 +17,7 @@
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "com.norcalhunts.app",
-      "buildNumber": "1",
+      "buildNumber": "2",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false,
         "UIBackgroundModes": ["location"],
@@ -83,8 +83,8 @@
       "typedRoutes": true
     },
     "extra": {
-      "supabaseUrl": "",
-      "supabaseAnonKey": "",
+      "supabaseUrl": "https://yykveqtbymifnvnmzwrr.supabase.co",
+      "supabaseAnonKey": "sb_publishable_bXCKcWZRbH1wpSnhzKInqg_GdGDskeR",
       "router": {}
     },
     "runtimeVersion": {
