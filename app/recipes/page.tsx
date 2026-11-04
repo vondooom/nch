@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
+import { FitPhoto } from "@/components/site/fit-photo";
 import { getStore, published } from "@/lib/store";
 
 export const metadata = { title: "From Field to Table" };
@@ -23,10 +24,7 @@ export default function RecipesPage() {
         <div className="grid gap-6">
           {recipes.map((r) => (
             <Link key={r.id} href={`/recipes/${r.slug}`} className="block border-2 border-[#211D14] bg-[#FBF8F0]">
-              {r.image ? (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img src={r.image} alt="" className="aspect-[21/9] w-full object-cover" />
-              ) : null}
+              <FitPhoto src={r.image} alt={r.title} />
               <div className="p-6 md:p-8">
                 <h2 className="mb-2 font-heading text-[32px] font-bold uppercase text-[#1C2B1A]">{r.title}</h2>
                 <p className="font-serif text-[17px] leading-relaxed text-[#5C543F]">{r.lede}</p>

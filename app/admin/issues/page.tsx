@@ -1,11 +1,12 @@
 import Link from "next/link";
+import { MissingIssues } from "@/components/admin/missing-issues";
 import { StatusBadge } from "@/components/admin/shell";
 import { getStore } from "@/lib/store";
 
 export const metadata = { title: "Issues" };
 
 export default function AdminIssues() {
-  const issues = getStore().issues;
+  const issues = [...getStore().issues].sort((a, b) => b.number - a.number);
   return (
     <div>
       <div className="mb-6 flex items-end justify-between gap-4">
@@ -14,6 +15,7 @@ export default function AdminIssues() {
           New issue
         </Link>
       </div>
+      <MissingIssues />
       <div className="grid gap-2">
         {issues.map((i) => (
           <Link key={i.id} href={`/admin/issues/${i.id}`} className="flex flex-wrap items-center justify-between gap-3 border border-[#D8CDB4] bg-[#FBF8F0] px-4 py-3">

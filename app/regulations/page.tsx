@@ -21,12 +21,12 @@ export default function RegulationsPage() {
           Season dates, deadlines, and the rules that bite
         </h1>
         <p className="mb-4 font-serif text-[17px] leading-relaxed text-[#5C543F]">
-          The same board that used to live only inside Tuesday&apos;s issue. Editors keep it current. This is a briefing
+          The same board that used to live only inside the Sunday issue. Editors keep it current. This is a briefing
           note, not the regulation booklet.
         </p>
         <div className="mb-10 flex flex-wrap gap-4 font-heading text-[14px] font-semibold uppercase tracking-[0.1em]">
           <Link href="/zones" className="text-[#C75B12]">Zones →</Link>
-          <Link href="/species" className="text-[#C75B12]">Species →</Link>
+          <Link href="/species" className="text-[#C75B12]">Game →</Link>
           <Link href="/calendar" className="text-[#C75B12]">Calendar →</Link>
           <Link href="/checklist" className="text-[#C75B12]">Checklist →</Link>
           <Link href="/bag-limits" className="text-[#C75B12]">Bag limits →</Link>

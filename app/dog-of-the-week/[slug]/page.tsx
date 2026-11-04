@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 
 import { JsonLd } from "@/components/site/json-ld";
 import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
+import { FitPhoto } from "@/components/site/fit-photo";
 import { RichBody } from "@/components/site/rich-body";
 import { absoluteUrl, pageMeta } from "@/lib/site";
 import { getStore, published } from "@/lib/store";
@@ -33,7 +34,7 @@ export default async function DogPage({ params }: { params: Promise<{ slug: stri
         data={{
           "@context": "https://schema.org",
           "@type": "Article",
-          headline: `${dog.name} — Dog of the Week`,
+          headline: `${dog.name}, Dog of the Week`,
           description: dog.story,
           image: dog.image,
           url: absoluteUrl(`/dog-of-the-week/${dog.slug}`),
@@ -48,14 +49,14 @@ export default async function DogPage({ params }: { params: Promise<{ slug: stri
         >
           ← All dogs
         </Link>
-        {dog.image ? (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img src={dog.image} alt={dog.name} className="mt-6 mb-6 aspect-[16/9] w-full border border-[#D8CDB4] object-cover" />
-        ) : null}
-        {dog.credit ? <p className="mb-4 text-[13px] text-[#8A8163]">{dog.credit}</p> : null}
-        <div className="mb-2 text-[13px] font-medium uppercase tracking-[0.08em] text-[#8A8163]">{dog.week}</div>
+        <FitPhoto src={dog.image} alt={dog.name} className="mt-6 border border-[#D8CDB4]" />
+        {dog.credit ? <p className="mt-2 mb-4 text-[13px] text-[#8A8163]">Photo: {dog.credit}</p> : null}
+        <div className="mt-4 mb-2 text-[13px] font-medium uppercase tracking-[0.08em] text-[#8A8163]">{dog.week}</div>
         <h1 className="mb-2 font-heading text-[clamp(34px,4.6vw,54px)] font-bold uppercase leading-tight">{dog.name}</h1>
-        <p className="mb-6 font-heading text-[16px] font-semibold uppercase tracking-[0.08em] text-[#2F4A2C]">{dog.breed}</p>
+        <p className={`font-heading text-[16px] font-semibold uppercase tracking-[0.08em] text-[#2F4A2C] ${dog.owner ? "" : "mb-6"}`}>
+          {dog.breed}
+        </p>
+        {dog.owner ? <p className="mt-2 mb-6 font-serif text-[18px] text-[#3B3526]">Owner: {dog.owner}</p> : null}
         <RichBody body={dog.story} />
         <Link
           href="/dog-of-the-week/nominate"

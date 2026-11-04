@@ -8,7 +8,7 @@ export type FieldGuide = {
   title: string;
   kicker: string;
   lede: string;
-  image: string;
+  image?: string;
   sections: GuideSection[];
 };
 
@@ -18,7 +18,6 @@ export const zones: FieldGuide[] = [
     title: "A zone",
     kicker: "Deer country",
     lede: "Northwest timber, early rifle, and the hunt most NorCal kids grow up on. Steep ground, thick canopy, and bucks that vanish if you walk the ridge at noon.",
-    image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?fm=jpg&q=60&w=1600&auto=format&fit=crop",
     sections: [
       {
         heading: "The ground",
@@ -47,12 +46,11 @@ export const zones: FieldGuide[] = [
     title: "B zones",
     kicker: "Deer country",
     lede: "North-state ridges with more glassing than A zone and less forgiveness if you are late. These tags are where a lot of public-land blacktail seasons actually get decided.",
-    image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?fm=jpg&q=60&w=1600&auto=format&fit=crop",
     sections: [
       {
         heading: "The ground",
         paragraphs: [
-          "B zones sit across the north interior — oak, pine, and the kind of ridge where you can see a buck and still be an hour from a shot. Water is the whole scouting plan in a dry September.",
+          "B zones sit across the north interior. Oak, pine, and the kind of ridge where you can see a buck and still be an hour from a shot. Water is the whole scouting plan in a dry September.",
           "Public land is real here. So is the walk. If the hip belt on your pack is webbing, fix that before rifle season, not after the shot.",
         ],
       },
@@ -76,7 +74,6 @@ export const zones: FieldGuide[] = [
     title: "C zones",
     kicker: "Deer country",
     lede: "Coast range and the interior edges where blacktail live in the brush and the shot, when it comes, is close. C zone rewards the hunter who can sit still.",
-    image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?fm=jpg&q=60&w=1600&auto=format&fit=crop",
     sections: [
       {
         heading: "The ground",
@@ -105,7 +102,6 @@ export const zones: FieldGuide[] = [
     title: "D zones",
     kicker: "Deer country",
     lede: "Often the premium draw, often the long drive, and the reason people glass in July. D zone is where a tag application becomes a real plan.",
-    image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?fm=jpg&q=60&w=1600&auto=format&fit=crop",
     sections: [
       {
         heading: "The ground",
@@ -118,13 +114,13 @@ export const zones: FieldGuide[] = [
         heading: "How we hunt it",
         paragraphs: [
           "We split scouting from hunting. July and August are for water, trails, and where the deer actually feed. The season is for executing that, not discovering the mountain.",
-          "Weather swings harder on the east side. A cold front changes the whole week. That is a Tuesday-briefing problem, which is why the conditions strip exists.",
+          "Weather swings harder on the east side. A cold front changes the whole week. That is why the Sunday briefing keeps a conditions strip.",
         ],
       },
       {
         heading: "Before you go",
         paragraphs: [
-          "Premium tags have payment deadlines. Miss one and the tag is a story you tell bitterly. Watch leftover, but do not hunt the rumor — hunt the CDFW list.",
+          "Premium tags have payment deadlines. Miss one and the tag is a story you tell bitterly. Watch leftover, but do not hunt the rumor. Hunt the CDFW list.",
         ],
       },
     ],
@@ -134,7 +130,6 @@ export const zones: FieldGuide[] = [
     title: "X zones",
     kicker: "Deer country",
     lede: "Additional hunts with their own dates, quotas, and egos. An X tag is not a bonus weekend on your general tag. Read the code.",
-    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?fm=jpg&q=60&w=1600&auto=format&fit=crop",
     sections: [
       {
         heading: "The ground",
@@ -162,7 +157,6 @@ export const zones: FieldGuide[] = [
     title: "Sacramento Valley refuges",
     kicker: "Waterfowl",
     lede: "Rice, refuge draws, and the hunts that make a Tuesday storm worth calling in sick. This is the valley's duck country, and it fills up.",
-    image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?fm=jpg&q=60&w=1600&auto=format&fit=crop",
     sections: [
       {
         heading: "The ground",
@@ -387,11 +381,11 @@ export const species: FieldGuide[] = [
 export const faqs: { q: string; a: string }[] = [
   {
     q: "What is NorCalHunt?",
-    a: "A free Tuesday briefing and a field desk for Northern California hunters. Weather, season notes, gear we actually use, recipes, dogs, and local people — one place instead of five tabs.",
+    a: "A free Sunday briefing and a field desk for Northern California hunters. Weather, season notes, gear we actually use, recipes, dogs, and local people, in one place instead of five tabs. It goes out every Sunday at 7am.",
   },
   {
     q: "Does Subscribe free send the newsletter?",
-    a: "It saves your address on the desk. Tuesday mail goes out once Beehiiv is connected. Until then you can read every published issue on the site, and we do not sell the list.",
+    a: "It saves your address on the desk. Sunday mail goes out at 7am once Beehiiv is connected. Until then you can read every published issue on the site, and we do not sell the list.",
   },
   {
     q: "Are the season dates official?",
@@ -411,7 +405,7 @@ export const faqs: { q: string; a: string }[] = [
   },
   {
     q: "Who can publish on the site?",
-    a: "Editors can draft and revise. Only an admin can publish, unpublish, or delete. That split is on purpose so a half-finished issue does not go out on Tuesday.",
+    a: "Editors can draft and revise. Only an admin can publish, unpublish, or delete. That split is on purpose so a half-finished issue does not go out on Sunday.",
   },
   {
     q: "What should I check the morning of a hunt?",

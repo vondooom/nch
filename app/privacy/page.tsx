@@ -23,8 +23,8 @@ export default function PrivacyPage() {
             to a gear company.
           </p>
           <p>
-            Tuesday mail is not sending yet. When Beehiiv is connected, that is the tool that will deliver the briefing.
-            Until then, the address sits on the desk and the issues stay on the site.
+            The Sunday 7am briefing is not sending from this site yet. When Beehiiv is connected, that is the tool that
+            will deliver it. Until then, the address sits on the desk and the issues stay on the site.
           </p>
           <p>
             Story submissions, dog nominations, and the contact form store the name, email, and note you type. Editors
