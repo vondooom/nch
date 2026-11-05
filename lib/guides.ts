@@ -18,6 +18,7 @@ export const zones: FieldGuide[] = [
     title: "A zone",
     kicker: "Deer country",
     lede: "Northwest timber, early rifle, and the hunt most NorCal kids grow up on. Steep ground, thick canopy, and bucks that vanish if you walk the ridge at noon.",
+    image: "/photos/zones/a-zone.webp",
     sections: [
       {
         heading: "The ground",
@@ -46,6 +47,7 @@ export const zones: FieldGuide[] = [
     title: "B zones",
     kicker: "Deer country",
     lede: "North-state ridges with more glassing than A zone and less forgiveness if you are late. These tags are where a lot of public-land blacktail seasons actually get decided.",
+    image: "/photos/zones/b-zones.webp",
     sections: [
       {
         heading: "The ground",
@@ -74,6 +76,7 @@ export const zones: FieldGuide[] = [
     title: "C zones",
     kicker: "Deer country",
     lede: "Coast range and the interior edges where blacktail live in the brush and the shot, when it comes, is close. C zone rewards the hunter who can sit still.",
+    image: "/photos/zones/c-zones.webp",
     sections: [
       {
         heading: "The ground",
@@ -102,6 +105,7 @@ export const zones: FieldGuide[] = [
     title: "D zones",
     kicker: "Deer country",
     lede: "Often the premium draw, often the long drive, and the reason people glass in July. D zone is where a tag application becomes a real plan.",
+    image: "/photos/zones/d-zones.webp",
     sections: [
       {
         heading: "The ground",
@@ -130,6 +134,7 @@ export const zones: FieldGuide[] = [
     title: "X zones",
     kicker: "Deer country",
     lede: "Additional hunts with their own dates, quotas, and egos. An X tag is not a bonus weekend on your general tag. Read the code.",
+    image: "/photos/zones/x-zones.webp",
     sections: [
       {
         heading: "The ground",
