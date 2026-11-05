@@ -11,7 +11,7 @@ export default function StorySubmittedPage() {
       <SiteHeader current="/field-stories" />
       <section className="mx-auto max-w-[720px] px-6 py-16">
         <div className="bg-[#2F4A2C] p-6 font-heading text-[20px] font-semibold text-[#F2EDDD]">
-          Got it. If it runs, you&apos;ll see it in a Tuesday briefing.
+          Got it. If it runs, you&apos;ll see it in a Sunday briefing.
         </div>
         <Link
           href="/field-stories"

@@ -23,11 +23,11 @@ const serif = Source_Serif_4({
 
 export const metadata: Metadata = {
   title: {
-    default: "NorCalHunt — One inbox. Every NorCal hunt, handled.",
-    template: "%s — NorCalHunt",
+    default: "NorCalHunt · One inbox. Every NorCal hunt, handled.",
+    template: "%s · NorCalHunt",
   },
   description:
-    "Weekly intel for the Northern California hunter. Weather, season dates, regulations, shoot times, and field-tested gear.",
+    "Weekly intel for the Northern California hunter. A free briefing every Sunday at 7am, with weather, season dates, regulations, shoot times, and field-tested gear.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

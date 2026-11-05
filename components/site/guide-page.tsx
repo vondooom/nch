@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
+import { FitPhoto } from "@/components/site/fit-photo";
 import { deskDisclaimer, type FieldGuide } from "@/lib/guides";
 
 export function GuideIndex({
@@ -28,8 +29,7 @@ export function GuideIndex({
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {items.map((item) => (
             <Link key={item.slug} href={`${basePath}/${item.slug}`} className="flex flex-col border border-[#D8CDB4] bg-[#FBF8F0]">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={item.image} alt="" className="h-[180px] w-full object-cover" />
+              <FitPhoto src={item.image} alt={item.title} />
               <div className="flex flex-1 flex-col gap-2 p-5">
                 <div className="font-heading text-[12px] font-bold uppercase tracking-[0.14em] text-[#C75B12]">{item.kicker}</div>
                 <div className="font-heading text-[22px] font-bold uppercase text-[#1C2B1A]">{item.title}</div>
@@ -64,9 +64,10 @@ export function GuideDetail({
         <Link href={backHref} className="font-heading text-[13px] font-semibold uppercase tracking-[0.14em] text-[#8A8163]">
           ← {backLabel}
         </Link>
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={guide.image} alt="" className="mt-6 mb-8 aspect-[16/9] w-full border border-[#D8CDB4] object-cover" />
-        <div className="mb-2 font-heading text-[13px] font-semibold uppercase tracking-[0.14em] text-[#C75B12]">{guide.kicker}</div>
+        <FitPhoto src={guide.image} alt={guide.title} className="mt-6 mb-8 border border-[#D8CDB4]" />
+        <div className={`mb-2 font-heading text-[13px] font-semibold uppercase tracking-[0.14em] text-[#C75B12] ${guide.image ? "" : "mt-6"}`}>
+          {guide.kicker}
+        </div>
         <h1 className="mb-4 font-heading text-[clamp(34px,4.6vw,54px)] font-bold uppercase leading-tight">{guide.title}</h1>
         <p className="mb-8 font-serif text-[19px] leading-relaxed text-[#5C543F]">{guide.lede}</p>
         <div className="grid gap-8">

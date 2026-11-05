@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { JsonLd } from "@/components/site/json-ld";
+import { FitPhoto } from "@/components/site/fit-photo";
 import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
 import { absoluteUrl, pageMeta } from "@/lib/site";
 import { getStore, published } from "@/lib/store";
@@ -50,10 +51,7 @@ export default async function RecipePage({ params }: { params: Promise<{ slug: s
         <Link href="/recipes" className="font-heading text-[13px] font-semibold uppercase tracking-[0.14em] text-[#8A8163]">
           ← All recipes
         </Link>
-        {recipe.image ? (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img src={recipe.image} alt={recipe.title} className="mt-6 mb-8 aspect-[16/9] w-full border border-[#D8CDB4] object-cover" />
-        ) : null}
+        <FitPhoto src={recipe.image} alt={recipe.title} className="mt-6 mb-8 border border-[#D8CDB4]" />
         <h1 className="mb-3 font-heading text-[clamp(34px,4.6vw,54px)] font-bold uppercase leading-tight">{recipe.title}</h1>
         <p className="mb-8 font-serif text-[19px] leading-relaxed text-[#5C543F]">{recipe.lede}</p>
         <div className="grid gap-0.5 bg-[#211D14] md:grid-cols-2">

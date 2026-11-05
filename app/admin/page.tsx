@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { MissingIssues } from "@/components/admin/missing-issues";
 import { requireSession } from "@/lib/auth";
 import { dashboardCounts, getStore } from "@/lib/store";
 
@@ -30,6 +31,7 @@ export default async function AdminHome() {
           </Link>
         ))}
       </div>
+      <MissingIssues compact />
       <h2 className="mb-3 font-heading text-[22px] font-bold uppercase">Needs a look</h2>
       {inbox.length === 0 ? (
         <p className="font-serif text-[#5C543F]">Inbox is clear.</p>
