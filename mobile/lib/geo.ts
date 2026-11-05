@@ -66,6 +66,24 @@ export function cardinal(deg: number, points: 8 | 16 = 8): string {
   return list[Math.round(norm360(deg) / (360 / list.length)) % list.length];
 }
 
+/**
+ * Rotate the offset (dx, dy) — screen coords, y down, 0° = up — clockwise by
+ * `deg` about (cx, cy). Used to draw compass arrows as plain geometry instead
+ * of relying on SVG <G rotation/origin>, which react-native-svg dropped on the
+ * new architecture (every wind arrow rendered pointing straight north–south).
+ */
+export function rotateAbout(cx: number, cy: number, dx: number, dy: number, deg: number): { x: number; y: number } {
+  const a = deg * rad;
+  return { x: cx + dx * Math.cos(a) - dy * Math.sin(a), y: cy + dx * Math.sin(a) + dy * Math.cos(a) };
+}
+
+/**
+ * Meteorological wind direction is where the wind comes FROM (0 = from north,
+ * 90 = from east). Every arrow in the app points where it's blowing TO — the
+ * weather-app convention — so a north wind draws an arrow pointing south.
+ */
+export const windArrowDeg = (fromDeg: number) => norm360(fromDeg + 180);
+
 export const ARROWS = ["↑", "↗", "→", "↘", "↓", "↙", "←", "↖"];
 export function arrowFor(deg: number): string {
   return ARROWS[Math.round(norm360(deg) / 45) % 8];

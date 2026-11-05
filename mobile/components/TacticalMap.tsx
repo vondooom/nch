@@ -2,7 +2,7 @@ import { useMemo, useRef, useState } from "react";
 import { LayoutChangeEvent, PanResponder, StyleSheet, View } from "react-native";
 import Svg, { Circle, Ellipse, G, Line, Path, Polyline, Rect, Text as SvgText } from "react-native-svg";
 import { colors } from "@/constants/theme";
-import { fromLocalMeters, LatLon, toLocalMeters } from "@/lib/geo";
+import { fromLocalMeters, LatLon, rotateAbout, toLocalMeters, windArrowDeg } from "@/lib/geo";
 import { Schematic } from "@/lib/refuges";
 import { TrackPoint } from "@/lib/track";
 import { Waypoint, WAYPOINT_KINDS } from "@/lib/waypoints";
@@ -199,10 +199,17 @@ export function TacticalMap(p: Props) {
           {p.windDir != null ? (
             <G>
               <Rect x={w - 92} y={8} width={84} height={30} rx={6} fill={colors.bgOverlay} stroke={colors.borderStrong} />
-              <G rotation={p.windDir + 180} origin={`${w - 74}, 23`}>
-                <Line x1={w - 74} y1={33} x2={w - 74} y2={15} stroke={colors.accent} strokeWidth={2.5} />
-                <Path d={`M ${w - 74} 11 L ${w - 79} 19 L ${w - 69} 19 Z`} fill={colors.accent} />
-              </G>
+              {(() => {
+                // Points downwind (from + 180°); drawn as rotated geometry, see rotateAbout.
+                const pt = (dx: number, dy: number) => rotateAbout(w - 74, 23, dx, dy, windArrowDeg(p.windDir!));
+                const a = pt(0, 10), b = pt(0, -8), tip = pt(0, -12), l = pt(-5, -4), r = pt(5, -4);
+                return (
+                  <G>
+                    <Line x1={a.x} y1={a.y} x2={b.x} y2={b.y} stroke={colors.accent} strokeWidth={2.5} />
+                    <Path d={`M ${tip.x} ${tip.y} L ${l.x} ${l.y} L ${r.x} ${r.y} Z`} fill={colors.accent} />
+                  </G>
+                );
+              })()}
               <SvgText x={w - 58} y={27} fill={colors.ink} fontSize={11} fontWeight="700">
                 {`${Math.round(p.windMph ?? 0)} mph`}
               </SvgText>

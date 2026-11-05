@@ -1,21 +1,36 @@
-import { useEffect, useMemo, useState } from "react";
-import { ActivityIndicator, Pressable, StyleSheet, Text, TextInput, View } from "react-native";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { ActivityIndicator, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-import { router } from "expo-router";
+import { router, useFocusEffect } from "expo-router";
 import { colors, fonts, radius, spacing, type } from "@/constants/theme";
 import { Bar, Button, Card, Chip, Header, Screen, SectionLabel, Sheet } from "@/components/ui";
 import { WindDial } from "@/components/WindDial";
 import { REFUGES, Refuge } from "@/lib/refuges";
 import { computeIndex, IndexResult, ratingColor } from "@/lib/huntIndex";
-import { arrowFor, cardinal } from "@/lib/geo";
+import { arrowFor, cardinal, distanceMeters, windArrowDeg } from "@/lib/geo";
 import { formatClock, shootWindow } from "@/lib/sun";
 import { KEYS, readJSON, writeJSON } from "@/lib/storage";
 import { useWeather } from "@/lib/useWeather";
 import { RefugeWeather } from "@/lib/weather";
+import { HuntLog, huntSpotKey, loadHunts, loadSpots, mergeSpots, Spot, spotFavId, total } from "@/lib/huntLog";
 
 type Sort = "score" | "name" | "north" | "wind";
 
 type Row = { refuge: Refuge; weather: RefugeWeather; index: IndexResult };
+
+/** A club or free-roam spot from the logbook, read against its nearest refuge. */
+type SpotRow = { spot: Spot; hunts: number; birds: number; last: string | null; near: Row | null };
+
+type Item = { favId: string; row: Row; spot?: undefined } | { favId: string; spot: SpotRow; row?: undefined };
+
+const itemScore = (i: Item) => (i.row ? i.row.index.total : i.spot.near?.index.total ?? -1);
+const itemName = (i: Item) => (i.row ? i.row.refuge.name : i.spot.spot.name);
+const itemLat = (i: Item) => (i.row ? i.row.refuge.coords.lat : i.spot.spot.coords?.lat ?? -90);
+const itemWind = (i: Item) => (i.row ? i.row.weather.windMph : i.spot.near?.weather.windMph ?? -1);
+const itemText = (i: Item) =>
+  i.row
+    ? `${i.row.refuge.name} ${i.row.refuge.short} ${i.row.refuge.county} ${i.row.refuge.region}`
+    : `${i.spot.spot.name} ${i.spot.spot.kind === "club" ? "club" : "free roam"} ${i.spot.spot.blinds.join(" ")} ${i.spot.near?.refuge.short ?? ""}`;
 
 export default function HuntIndexScreen() {
   const { map, loading, error, updatedAt, refresh } = useWeather();
@@ -24,10 +39,33 @@ export default function HuntIndexScreen() {
   const [query, setQuery] = useState("");
   const [sort, setSort] = useState<Sort>("score");
   const [openId, setOpenId] = useState<string | null>(null);
+  const [hunts, setHunts] = useState<HuntLog[]>([]);
+  const [storedSpots, setStoredSpots] = useState<Spot[]>([]);
+  const [privacyHidden, setPrivacyHidden] = useState(true);
+  const scrollRef = useRef<ScrollView>(null);
+  const scrollY = useRef(0);
+  const searchY = useRef(0);
 
   useEffect(() => {
-    readJSON<string[]>(KEYS.favorites, []).then(setFavorites);
+    readJSON<boolean>(KEYS.privacyDismissed, false).then((d) => setPrivacyHidden(d));
   }, []);
+
+  // Re-read the logbook each time the tab comes into focus so spots logged a
+  // minute ago show up here, and favorites starred elsewhere stay in step.
+  useFocusEffect(
+    useCallback(() => {
+      let live = true;
+      Promise.all([readJSON<string[]>(KEYS.favorites, []), loadHunts(), loadSpots()]).then(([f, h, sp]) => {
+        if (!live) return;
+        setFavorites(f);
+        setHunts(h);
+        setStoredSpots(sp);
+      });
+      return () => {
+        live = false;
+      };
+    }, []),
+  );
 
   const toggleFav = (id: string) => {
     setFavorites((prev) => {
@@ -37,7 +75,14 @@ export default function HuntIndexScreen() {
     });
   };
 
+  const dismissPrivacy = () => {
+    setPrivacyHidden(true);
+    void writeJSON(KEYS.privacyDismissed, true);
+  };
+
   const today = new Date();
+  // The full data set. Search and the favorites chip only ever filter a copy
+  // of this — nothing below writes back to it.
   const rows: Row[] = useMemo(
     () =>
       REFUGES.map((refuge) => {
@@ -47,23 +92,57 @@ export default function HuntIndexScreen() {
     [map],
   );
 
+  const spotRows: SpotRow[] = useMemo(() => {
+    const spots = mergeSpots(storedSpots, hunts).filter((s) => s.kind !== "refuge");
+    return spots.map((spot) => {
+      const mine = hunts.filter((h) => huntSpotKey(h) === spot.key);
+      const c = spot.coords;
+      const near = c ? rows.reduce((a, b) => (distanceMeters(c, b.refuge.coords) < distanceMeters(c, a.refuge.coords) ? b : a)) : null;
+      return {
+        spot,
+        hunts: mine.length,
+        birds: mine.reduce((a, h) => a + total(h.counts), 0),
+        last: mine.reduce<string | null>((a, h) => (!a || h.date > a ? h.date : a), null),
+        near,
+      };
+    });
+  }, [storedSpots, hunts, rows]);
+
+  const items: Item[] = useMemo(
+    () => [
+      ...rows.map((row) => ({ favId: row.refuge.id, row })),
+      ...spotRows.map((spot) => ({ favId: spotFavId(spot.spot.key), spot })),
+    ],
+    [rows, spotRows],
+  );
+
+  const q = query.trim().toLowerCase();
   const visible = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    let list = rows.filter(
-      (r) =>
-        (!mine || favorites.includes(r.refuge.id)) &&
-        (!q || `${r.refuge.name} ${r.refuge.county} ${r.refuge.region}`.toLowerCase().includes(q)),
-    );
-    list = list.slice().sort((a, b) => {
+    const fav = new Set(favorites);
+    const list = items.filter((i) => (!mine || fav.has(i.favId)) && (!q || itemText(i).toLowerCase().includes(q)));
+    return list.sort((a, b) => {
+      // Favorites first, then the chosen sort.
+      const f = Number(fav.has(b.favId)) - Number(fav.has(a.favId));
+      if (f) return f;
       switch (sort) {
-        case "name": return a.refuge.name.localeCompare(b.refuge.name);
-        case "north": return b.refuge.coords.lat - a.refuge.coords.lat;
-        case "wind": return b.weather.windMph - a.weather.windMph;
-        default: return b.index.total - a.index.total;
+        case "name": return itemName(a).localeCompare(itemName(b));
+        case "north": return itemLat(b) - itemLat(a);
+        case "wind": return itemWind(b) - itemWind(a);
+        default: return itemScore(b) - itemScore(a);
       }
     });
-    return list;
-  }, [rows, mine, favorites, query, sort]);
+  }, [items, mine, favorites, q, sort]);
+
+  const favCount = items.filter((i) => favorites.includes(i.favId)).length;
+
+  // When a search shrinks the list, iOS can leave the scroll offset past the
+  // end of the (now short) content — the screen looks blank and won't scroll.
+  // Pull the search bar back into view instead.
+  useEffect(() => {
+    if (scrollY.current > searchY.current) scrollRef.current?.scrollTo({ y: Math.max(0, searchY.current - 8), animated: false });
+  }, [q, mine]);
+
+  const clearSearch = () => setQuery("");
 
   const best = rows.reduce((a, b) => (b.index.total > a.index.total ? b : a), rows[0]);
   const live = Object.values(map).some((w) => w.source !== "baseline");
@@ -71,7 +150,7 @@ export default function HuntIndexScreen() {
   const open = rows.find((r) => r.refuge.id === openId) ?? null;
 
   return (
-    <Screen>
+    <Screen scrollRef={scrollRef} onScroll={(e) => (scrollY.current = e.nativeEvent.contentOffset.y)}>
       <Header
         eyebrow={`NorCalHunt Index · ${today.toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric" })}`}
         title="Hunt Index"
@@ -81,6 +160,18 @@ export default function HuntIndexScreen() {
           </Pressable>
         }
       />
+
+      {!privacyHidden ? (
+        <View style={styles.privacy} accessibilityRole="summary">
+          <Ionicons name="shield-checkmark" size={18} color={colors.good} />
+          <Text style={[type.body, styles.flex, { fontSize: 14 }]}>
+            Your hunt data is yours. We don&apos;t share or sell it.
+          </Text>
+          <Pressable onPress={dismissPrivacy} hitSlop={10} accessibilityLabel="Dismiss privacy note">
+            <Ionicons name="close" size={18} color={colors.inkMuted} />
+          </Pressable>
+        </View>
+      ) : null}
 
       <View style={styles.liveRow}>
         <View style={[styles.liveDot, { backgroundColor: live ? colors.good : colors.warn }]} />
@@ -107,20 +198,27 @@ export default function HuntIndexScreen() {
         </Pressable>
       ) : null}
 
-      <View style={styles.filters}>
-        <Chip label="All Refuges" active={!mine} onPress={() => setMine(false)} />
-        <Chip label={`My Refuges (${favorites.length})`} icon="star" active={mine} onPress={() => setMine(true)} />
+      <View style={styles.filters} onLayout={(e) => (searchY.current = e.nativeEvent.layout.y)}>
+        <Chip label="All" active={!mine} onPress={() => setMine(false)} />
+        <Chip label={`Favorites (${favCount})`} icon="star" active={mine} onPress={() => setMine(true)} />
       </View>
       <View style={styles.search}>
         <Ionicons name="search" size={16} color={colors.inkFaint} />
         <TextInput
           value={query}
           onChangeText={setQuery}
-          placeholder="Search refuge, county, region"
+          placeholder="Search refuge, county, your spots"
           placeholderTextColor={colors.inkFaint}
           style={styles.searchInput}
           autoCorrect={false}
+          autoCapitalize="none"
+          returnKeyType="search"
         />
+        {query ? (
+          <Pressable onPress={clearSearch} hitSlop={10} accessibilityLabel="Clear search">
+            <Ionicons name="close-circle" size={18} color={colors.inkMuted} />
+          </Pressable>
+        ) : null}
       </View>
       <View style={styles.filters}>
         {(
@@ -136,22 +234,44 @@ export default function HuntIndexScreen() {
       </View>
 
       {visible.length === 0 ? (
-        <Card>
-          <Text style={type.body}>
-            {mine ? "No starred refuges yet. Tap the ☆ on any refuge to add it to My Refuges." : "No refuge matches that search."}
+        <Card style={styles.empty}>
+          <Ionicons name={q ? "search" : "star-outline"} size={28} color={colors.inkFaint} />
+          <Text style={[type.h3, { textAlign: "center" }]}>
+            {q ? `Nothing matches “${query.trim()}”` : "No favorites yet"}
           </Text>
+          <Text style={[type.body, { color: colors.inkMuted, textAlign: "center" }]}>
+            {q
+              ? mine
+                ? "None of your favorites match. Try another name, or search all refuges and spots."
+                : "Try a refuge name, county, region, or one of your logbook spots."
+              : "Tap the ☆ on any refuge or logbook spot and it'll sit at the top of the Index."}
+          </Text>
+          <View style={styles.emptyActions}>
+            {q ? <Button label="Clear search" icon="close-circle" onPress={clearSearch} /> : null}
+            {mine ? <Button label="Show all" icon="list" variant="ghost" onPress={() => setMine(false)} /> : null}
+          </View>
         </Card>
       ) : null}
 
-      {visible.map((row) => (
-        <RefugeCard
-          key={row.refuge.id}
-          row={row}
-          fav={favorites.includes(row.refuge.id)}
-          onFav={() => toggleFav(row.refuge.id)}
-          onPress={() => setOpenId(row.refuge.id)}
-        />
-      ))}
+      {visible.map((item) =>
+        item.row ? (
+          <RefugeCard
+            key={item.favId}
+            row={item.row}
+            fav={favorites.includes(item.favId)}
+            onFav={() => toggleFav(item.favId)}
+            onPress={() => setOpenId(item.row.refuge.id)}
+          />
+        ) : (
+          <SpotCard
+            key={item.favId}
+            row={item.spot}
+            fav={favorites.includes(item.favId)}
+            onFav={() => toggleFav(item.favId)}
+            onNear={item.spot.near ? () => setOpenId(item.spot.near!.refuge.id) : undefined}
+          />
+        ),
+      )}
 
       <Text style={[type.caption, styles.footnote]}>
         Index = Wind 20 + Weather Change 20 + Recent Hunter Reports 20 + Barometer 15 + Migration 15 + Temperature 10.
@@ -177,6 +297,45 @@ export default function HuntIndexScreen() {
         ) : null}
       </Sheet>
     </Screen>
+  );
+}
+
+function SpotCard({ row, fav, onFav, onNear }: { row: SpotRow; fav: boolean; onFav: () => void; onNear?: () => void }) {
+  const { spot, near } = row;
+  return (
+    <Card>
+      <View style={styles.cardHead}>
+        <View style={styles.flex}>
+          <Text style={type.eyebrow}>{spot.kind === "club" ? "Your club" : "Your spot"} · from the logbook</Text>
+          <Text style={type.h3}>{spot.name}</Text>
+          <Text style={type.caption}>
+            {row.hunts ? `${row.hunts} hunt${row.hunts === 1 ? "" : "s"} · ${row.birds} birds` : "No hunts logged yet"}
+            {row.last ? ` · last ${new Date(`${row.last}T12:00:00`).toLocaleDateString(undefined, { month: "short", day: "numeric" })}` : ""}
+          </Text>
+        </View>
+        <Pressable onPress={onFav} hitSlop={10} accessibilityLabel={fav ? "Remove from favorites" : "Add to favorites"}>
+          <Ionicons name={fav ? "star" : "star-outline"} size={22} color={fav ? colors.accent : colors.inkFaint} />
+        </Pressable>
+      </View>
+      {spot.blinds.length ? (
+        <View style={[styles.filters, { marginTop: spacing.sm, marginBottom: 0 }]}>
+          {spot.blinds.map((b) => (
+            <View key={b} style={styles.blindTag}>
+              <Ionicons name="home" size={11} color={colors.inkMuted} />
+              <Text style={styles.blindTagText}>{b}</Text>
+            </View>
+          ))}
+        </View>
+      ) : null}
+      {near ? (
+        <Pressable onPress={onNear} style={styles.nearRow}>
+          <Text style={[type.caption, styles.flex]}>
+            Nearest refuge read · {near.refuge.short}: {Math.round(near.weather.windMph)} mph from {cardinal(near.weather.windDir)}
+          </Text>
+          <Text style={[styles.nearScore, { color: ratingColor(near.index.rating) }]}>{near.index.total}</Text>
+        </Pressable>
+      ) : null}
+    </Card>
   );
 }
 
@@ -206,14 +365,14 @@ function RefugeCard({ row, fav, onFav, onPress }: { row: Row; fav: boolean; onFa
               {refuge.region} · {refuge.coords.lat.toFixed(4)}, {refuge.coords.lon.toFixed(4)}
             </Text>
           </View>
-          <Pressable onPress={onFav} hitSlop={10} accessibilityLabel={fav ? "Remove from My Refuges" : "Add to My Refuges"}>
+          <Pressable onPress={onFav} hitSlop={10} accessibilityLabel={fav ? "Remove from favorites" : "Add to favorites"}>
             <Ionicons name={fav ? "star" : "star-outline"} size={22} color={fav ? colors.accent : colors.inkFaint} />
           </Pressable>
         </View>
         <View style={styles.cardBody}>
           <ScoreBlock index={index} />
           <View style={styles.metrics}>
-            <Metric icon="flag" label="Wind" value={`${Math.round(w.windMph)} mph ${cardinal(w.windDir)} ${arrowFor(w.windDir + 180)}`} />
+            <Metric icon="flag" label="Wind" value={`${Math.round(w.windMph)} mph from ${cardinal(w.windDir)} (${Math.round(w.windDir)}°) ${arrowFor(windArrowDeg(w.windDir))}`} />
             <Metric icon="speedometer" label="Baro" value={`${w.pressureInHg.toFixed(2)} ${index.trend === "Rising" ? "▲" : index.trend === "Falling" ? "▼" : "▬"}`} />
             <Metric icon="thermometer" label="Temp" value={`${Math.round(w.tempF)}°F · ${w.sky}`} />
             <Metric icon="sunny" label="Shoot" value={`${formatClock(sw.open)} – ${formatClock(sw.close)}`} />
@@ -258,7 +417,7 @@ function RefugeDetail({ row, fav, onFav, onMap }: { row: Row; fav: boolean; onFa
           <Text style={[type.h3, { color: ratingColor(index.rating) }]}>
             {index.total}/100 — {index.rating}
           </Text>
-          <Button label={fav ? "Starred" : "Add to My Refuges"} icon={fav ? "star" : "star-outline"} variant="ghost" onPress={onFav} />
+          <Button label={fav ? "Favorite" : "Add to favorites"} icon={fav ? "star" : "star-outline"} variant="ghost" onPress={onFav} />
         </View>
       </View>
 
@@ -293,8 +452,9 @@ function RefugeDetail({ row, fav, onFav, onMap }: { row: Row; fav: boolean; onFa
               {Math.round(w.windMph)} mph {cardinal(w.windDir, 16)}
             </Text>
             <Text style={type.caption}>
-              From {Math.round(w.windDir)}° · gusts {Math.round(w.gustMph)} mph
+              From {cardinal(w.windDir, 16)} ({Math.round(w.windDir)}°) · gusts {Math.round(w.gustMph)} mph
             </Text>
+            <Text style={type.caption}>Arrow points the way the wind is blowing.</Text>
           </View>
         </View>
         <Text style={[type.body, { marginTop: spacing.md }]}>{index.decoyTip}</Text>
@@ -382,6 +542,24 @@ const styles = StyleSheet.create({
     marginBottom: spacing.sm,
   },
   searchInput: { flex: 1, color: colors.ink, paddingVertical: 10, fontSize: 15 },
+  privacy: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: spacing.sm,
+    padding: spacing.md,
+    borderRadius: radius.md,
+    borderWidth: 1,
+    borderColor: colors.border,
+    backgroundColor: colors.bgElevated,
+    marginTop: -8,
+    marginBottom: spacing.md,
+  },
+  empty: { alignItems: "center", gap: spacing.sm, paddingVertical: spacing.xl },
+  emptyActions: { flexDirection: "row", gap: spacing.sm, marginTop: spacing.sm, flexWrap: "wrap", justifyContent: "center" },
+  blindTag: { flexDirection: "row", alignItems: "center", gap: 4, borderWidth: 1, borderColor: colors.border, borderRadius: radius.sm, paddingHorizontal: 6, paddingVertical: 2 },
+  blindTagText: { color: colors.inkMuted, fontSize: 12 },
+  nearRow: { flexDirection: "row", alignItems: "center", gap: spacing.sm, marginTop: spacing.md, paddingTop: spacing.sm, borderTopWidth: StyleSheet.hairlineWidth, borderTopColor: colors.hairline },
+  nearScore: { fontFamily: fonts.heading, fontSize: 22, fontVariant: ["tabular-nums"] },
   cardHead: { flexDirection: "row", alignItems: "flex-start", gap: spacing.sm },
   cardBody: { flexDirection: "row", gap: spacing.lg, marginTop: spacing.md, alignItems: "center" },
   scoreBlock: { alignItems: "center", minWidth: 78 },

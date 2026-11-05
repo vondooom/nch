@@ -17,14 +17,16 @@
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "com.norcalhunts.app",
-      "buildNumber": "2",
+      "buildNumber": "3",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false,
         "UIBackgroundModes": ["location"],
         "NSLocationWhenInUseUsageDescription": "NorCalHunt uses your high-precision GPS location to navigate refuges in the dark, mark blind and decoy waypoints, calculate exact legal shoot times, and track your walk-in path.",
         "NSLocationAlwaysAndWhenInUseUsageDescription": "NorCalHunt uses continuous background GPS tracking so your walk-in breadcrumb trail to the blind, downed bird marks, and truck return bearing stay accurate even when your phone is in your waders.",
         "NSLocationAlwaysUsageDescription": "NorCalHunt uses background location to record your walk-in trail and blind waypoints in pre-dawn conditions.",
-        "NSMotionUsageDescription": "NorCalHunt reads the compass so the map and bearing arrows point the way you are facing in the marsh."
+        "NSMotionUsageDescription": "NorCalHunt reads the compass so the map and bearing arrows point the way you are facing in the marsh.",
+        "NSCameraUsageDescription": "NorCalHunt uses the camera so you can attach a photo of your birds or blind to a hunt in your logbook. Photos stay on your phone.",
+        "NSPhotoLibraryUsageDescription": "NorCalHunt lets you pick a photo from your library to attach to a hunt in your logbook. Photos stay on your phone."
       }
     },
     "android": {
@@ -75,6 +77,14 @@
           "imageWidth": 220,
           "resizeMode": "contain",
           "backgroundColor": "#0d1410"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "NorCalHunt lets you pick a photo from your library to attach to a hunt in your logbook. Photos stay on your phone.",
+          "cameraPermission": "NorCalHunt uses the camera so you can attach a photo of your birds or blind to a hunt in your logbook. Photos stay on your phone.",
+          "microphonePermission": false
         }
       ],
       "expo-font"

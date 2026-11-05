@@ -1,3 +1,4 @@
+import { norm360 } from "./geo";
 import { Refuge } from "./refuges";
 import { KEYS, readJSON, writeJSON } from "./storage";
 
@@ -101,7 +102,8 @@ function fromOpenMeteo(r: Refuge, b: OMBlock): RefugeWeather {
     tempF: c.temperature_2m,
     windMph: c.wind_speed_10m,
     gustMph: c.wind_gusts_10m,
-    windDir: c.wind_direction_10m,
+    // Degrees (not radians), meteorological "from". Never the speed field.
+    windDir: norm360(Number(c.wind_direction_10m) || 0),
     pressureInHg: hPaToInHg(c.pressure_msl),
     surfaceInHg: hPaToInHg(c.surface_pressure),
     pressureDelta3h: hPaToInHg(p[iNow] - p[i3]),
@@ -177,7 +179,8 @@ export async function fetchNWS(r: Refuge): Promise<RefugeWeather> {
     tempF: ((p.temperature.value ?? 10) * 9) / 5 + 32,
     windMph: kmh(p.windSpeed),
     gustMph: Math.max(kmh(p.windGust), kmh(p.windSpeed)),
-    windDir: p.windDirection.value ?? 0,
+    // NWS reports degrees true, "from"; null when calm/variable.
+    windDir: norm360(Number(p.windDirection.value) || 0),
     pressureInHg: hPaToInHg(pa / 100),
     surfaceInHg: hPaToInHg((p.barometricPressure.value ?? pa) / 100),
     pressureDelta3h: 0,

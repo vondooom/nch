@@ -41,6 +41,16 @@ export const BAG_LIMITS = {
   possessionMultiplier: 3,
 } as const;
 
+/**
+ * Hen-only daily limits, per hunter, keyed by tracker species id. These count
+ * hens alone; the species and overall duck totals still count both sexes.
+ * Pintail is 3 of either sex this season, so it has no entry here — add one
+ * (e.g. `pintail: 1`) if the frameworks bring back a hen restriction.
+ */
+export const HEN_LIMITS: Record<string, number> = {
+  mallard: BAG_LIMITS.mallardHens,
+};
+
 export const BAG_REFERENCE: { label: string; value: string }[] = [
   { label: "Ducks", value: "7 / day · 21 possession" },
   { label: "Mallards", value: "Up to 7, no more than 2 hens" },

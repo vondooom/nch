@@ -1,42 +1,63 @@
-import { useEffect, useMemo, useState } from "react";
-import { Pressable, StyleSheet, Text, TextInput, View } from "react-native";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { Image, Pressable, StyleSheet, Text, TextInput, View } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import * as Location from "expo-location";
 import { colors, fonts, radius, spacing, type } from "@/constants/theme";
 import { Bar, Button, Card, Chip, Header, Screen, SectionLabel, Stat } from "@/components/ui";
 import {
   bagStatus,
-  Counts,
+  cleanTeamName,
+  CountKey,
+  countKey,
   HuntLog,
+  huntSpotKey,
   isSeedHunt,
+  isSexed,
   LimitLevel,
   loadHunts,
+  loadSpots,
   locationLabel,
   LocationKind,
-  normalizeTeamCode,
+  mergeSpots,
+  migrateCounts,
+  normName,
+  removeBlind,
+  sameTeam,
   saveHunts,
+  saveSpots,
   seasonOf,
   seasonStats,
   seedLogs,
+  Sex,
   sortHunts,
   SPECIES,
-  SpeciesId,
+  speciesCount,
+  Spot,
+  spotKey,
+  TEAM_NAME_MAX,
+  teamKey,
+  teamSyncable,
   total,
+  uniqueTeams,
+  upsertSpot,
   worstLevel,
 } from "@/lib/huntLog";
 import { REFUGE_BY_ID, REFUGES } from "@/lib/refuges";
 import { isoDay } from "@/lib/regs";
-import { cardinal, distanceMeters } from "@/lib/geo";
-import { formatClock, shootWindow } from "@/lib/sun";
+import { cardinal, distanceMeters, LatLon } from "@/lib/geo";
+import { shootWindow } from "@/lib/sun";
 import { useWeather } from "@/lib/useWeather";
 import { newId } from "@/lib/waypoints";
 import { confirm } from "@/lib/confirm";
 import { isSupabaseConfigured, pullTeamHunts, pushHunts } from "@/lib/supabase";
 import { KEYS, readJSON, writeJSON } from "@/lib/storage";
+import { deleteHuntPhoto, explainDenied, photoUri, pickHuntPhoto, PhotoSource } from "@/lib/photos";
 
 type Tab = "log" | "book" | "stats";
 
 const hhmm = (d: Date) => `${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`;
+
+const PRIVACY_LINE = "Your hunt data is yours. We don't share or sell it.";
 
 function blankDraft(refugeId: string, teamCode: string): HuntLog {
   const now = new Date();
@@ -73,19 +94,28 @@ const LEVEL_COLOR: Record<LimitLevel, string> = {
 export default function TrackerScreen() {
   const [tab, setTab] = useState<Tab>("log");
   const [hunts, setHunts] = useState<HuntLog[]>([]);
+  const [storedSpots, setStoredSpots] = useState<Spot[]>([]);
   const [teamCode, setTeamCode] = useState("BUTTE-7");
   const [draft, setDraft] = useState<HuntLog>(() => blankDraft("gray-lodge", "BUTTE-7"));
+  // Set while the form is editing a saved hunt; the new-hunt draft waits in the stash.
+  const [editingId, setEditingId] = useState<string | null>(null);
+  const stash = useRef<HuntLog | null>(null);
+  const [fix, setFix] = useState<LatLon | null>(null);
   const [notice, setNotice] = useState<string | null>(null);
   const [autoFilling, setAutoFilling] = useState(false);
   const { map: weather } = useWeather();
 
   useEffect(() => {
     loadHunts().then(setHunts);
+    loadSpots().then(setStoredSpots);
     readJSON<string>(KEYS.teamCode, "BUTTE-7").then((c) => {
       setTeamCode(c);
       setDraft((d) => ({ ...d, teamCode: c }));
     });
   }, []);
+
+  const spots = useMemo(() => mergeSpots(storedSpots, hunts), [storedSpots, hunts]);
+  const editing = editingId ? hunts.find((h) => h.id === editingId) ?? null : null;
 
   const commit = (list: HuntLog[]) => {
     const sorted = sortHunts(list);
@@ -93,9 +123,17 @@ export default function TrackerScreen() {
     void saveHunts(sorted);
   };
 
+  const commitSpots = (fn: (prev: Spot[]) => Spot[]) =>
+    setStoredSpots((prev) => {
+      const next = fn(prev);
+      void saveSpots(next);
+      return next;
+    });
+
   const clearSamples = () => {
     const seedCount = hunts.filter(isSeedHunt).length;
     if (!seedCount) return;
+    if (editing && isSeedHunt(editing)) cancelEdit();
     commit(hunts.filter((h) => !isSeedHunt(h)));
     setNotice(`Cleared ${seedCount} sample hunts — logbook now shows only your real hunts.`);
   };
@@ -109,12 +147,33 @@ export default function TrackerScreen() {
   };
 
   const patch = (p: Partial<HuntLog>) => setDraft((d) => ({ ...d, ...p }));
-  const bump = (id: SpeciesId, delta: number) =>
-    setDraft((d) => ({ ...d, counts: { ...d.counts, [id]: Math.max(0, (d.counts[id] ?? 0) + delta) } }));
+  const bump = (key: CountKey, delta: number) =>
+    setDraft((d) => ({ ...d, counts: { ...d.counts, [key]: Math.max(0, (d.counts[key] ?? 0) + delta) } }));
 
   const svsma = draft.refugeId ? REFUGE_BY_ID[draft.refugeId]?.svsma ?? false : false;
   const limits = bagStatus(draft.counts, draft.party.length, draft.date, svsma);
   const worst = worstLevel(limits);
+
+  function startEdit(h: HuntLog) {
+    if (!editingId) stash.current = draft;
+    setDraft({ ...h, counts: { ...h.counts }, party: [...h.party] });
+    setEditingId(h.id);
+    setNotice(null);
+    setTab("log");
+  }
+
+  function finishEdit() {
+    setEditingId(null);
+    setDraft(stash.current ?? blankDraft("gray-lodge", teamCode));
+    stash.current = null;
+  }
+
+  function cancelEdit() {
+    // A photo picked during the edit but never saved would be orphaned.
+    if (draft.photo && draft.photo !== editing?.photo) void deleteHuntPhoto(draft.photo);
+    finishEdit();
+    setTab("book");
+  }
 
   async function autoFill() {
     setAutoFilling(true);
@@ -128,23 +187,23 @@ export default function TrackerScreen() {
           (await Location.getCurrentPositionAsync({ accuracy: Location.Accuracy.Balanced }));
         where = { lat: pos.coords.latitude, lon: pos.coords.longitude };
         fromGps = true;
+        setFix(where);
       }
     } catch {
       // No fix — fall back to the selected refuge.
     }
     const nearest = REFUGES.reduce((a, b) => (distanceMeters(where, b.coords) < distanceMeters(where, a.coords) ? b : a));
     const w = weather[nearest.id];
+    const moveTo = fromGps && distanceMeters(where, nearest.coords) < 15000 && draft.locationKind === "refuge" && draft.refugeId !== nearest.id;
     patch({
       sky: w.sky,
       windDir: Math.round(w.windDir),
       windMph: Math.round(w.windMph),
       tempF: Math.round(w.tempF),
-      ...(fromGps && distanceMeters(where, nearest.coords) < 15000 && draft.locationKind === "refuge"
-        ? { refugeId: nearest.id, locationName: nearest.name }
-        : null),
+      ...(moveTo ? { refugeId: nearest.id, locationName: nearest.name, blind: "" } : null),
     });
     setNotice(
-      `${fromGps ? "GPS" : "Selected refuge"} → ${nearest.short} weather (${w.source === "baseline" ? "offline baseline" : "live"}): ${w.sky}, ${Math.round(w.windMph)} mph ${cardinal(w.windDir)}, ${Math.round(w.tempF)}°F.`,
+      `${fromGps ? "GPS" : "Selected refuge"} → ${nearest.short} weather (${w.source === "baseline" ? "offline baseline" : "live"}): ${w.sky}, ${Math.round(w.windMph)} mph from ${cardinal(w.windDir)} (${Math.round(w.windDir)}°), ${Math.round(w.tempF)}°F.`,
     );
     setAutoFilling(false);
   }
@@ -155,23 +214,44 @@ export default function TrackerScreen() {
       return;
     }
     const party = draft.party.map((p) => p.trim()).filter(Boolean);
+    const locationName = draft.refugeId
+      ? REFUGE_BY_ID[draft.refugeId].name
+      : draft.locationName.trim() || (draft.locationKind === "club" ? "Duck club" : "Free roam");
     const log: HuntLog = {
       ...draft,
-      id: newId("hunt"),
+      id: editing?.id ?? newId("hunt"),
       party: party.length ? party : ["Me"],
-      teamCode: normalizeTeamCode(draft.teamCode),
-      end: draft.end || hhmm(new Date()),
-      locationName: draft.refugeId ? REFUGE_BY_ID[draft.refugeId].name : draft.locationName || (draft.locationKind === "club" ? "Duck club" : "Free roam"),
-      createdAt: Date.now(),
+      teamCode: cleanTeamName(draft.teamCode),
+      blind: draft.blind.trim(),
+      counts: migrateCounts(draft.counts),
+      end: draft.end || (editing ? "" : hhmm(new Date())),
+      locationName,
+      createdAt: editing?.createdAt ?? Date.now(),
+      updatedAt: editing ? Date.now() : undefined,
+      synced: false,
     };
-    const next = [log, ...hunts];
+    // Editing replaces the row in place (same id) — never a second copy.
+    const next = editing ? hunts.map((h) => (h.id === log.id ? log : h)) : [log, ...hunts];
     commit(next);
+    if (editing?.photo && editing.photo !== log.photo) void deleteHuntPhoto(editing.photo);
+    commitSpots((prev) =>
+      upsertSpot(prev, {
+        kind: log.locationKind,
+        refugeId: log.refugeId,
+        name: log.locationName,
+        blind: log.blind,
+        // Today's GPS fix only describes today's spot, not an older hunt being edited.
+        coords: log.locationKind !== "refuge" && !editing ? fix ?? undefined : undefined,
+      }),
+    );
     if (log.teamCode) {
       setTeamCode(log.teamCode);
       void writeJSON(KEYS.teamCode, log.teamCode);
     }
     let synced = "";
-    if (isSupabaseConfigured && log.teamCode) {
+    if (isSeedHunt(log)) {
+      synced = " · sample hunt, kept on this phone only";
+    } else if (isSupabaseConfigured && teamSyncable(log.teamCode)) {
       try {
         const ids = await pushHunts([log]);
         if (ids.length) {
@@ -182,9 +262,16 @@ export default function TrackerScreen() {
         synced = " · saved offline, will sync later";
       }
     }
-    setNotice(`Logged ${total(log.counts)} birds at ${locationLabel(log)}${synced}.`);
-    setDraft(blankDraft(log.refugeId ?? "gray-lodge", log.teamCode));
+    setNotice(`${editing ? "Updated" : "Logged"} ${total(log.counts)} birds at ${locationLabel(log)}${log.blind ? ` · ${log.blind}` : ""}${synced}.`);
+    if (editing) finishEdit();
+    else setDraft(blankDraft(log.refugeId ?? "gray-lodge", log.teamCode));
     setTab("book");
+  }
+
+  /** Photo changes from the logbook detail apply straight away (local-only, so no sync). */
+  function setHuntPhoto(h: HuntLog, photo: string | undefined) {
+    commit(hunts.map((x) => (x.id === h.id ? { ...x, photo } : x)));
+    if (h.photo && h.photo !== photo) void deleteHuntPhoto(h.photo);
   }
 
   return (
@@ -193,7 +280,7 @@ export default function TrackerScreen() {
       <View style={styles.segment}>
         {(
           [
-            ["log", "Log a Hunt", "add-circle"],
+            ["log", editing ? "Edit Hunt" : "Log a Hunt", editing ? "create" : "add-circle"],
             ["book", "Logbook", "list"],
             ["stats", "Season Stats", "stats-chart"],
           ] as [Tab, string, keyof typeof Ionicons.glyphMap][]
@@ -215,6 +302,8 @@ export default function TrackerScreen() {
       {tab === "log" ? (
         <LogForm
           draft={draft}
+          editing={editing}
+          onCancelEdit={cancelEdit}
           patch={patch}
           bump={bump}
           limits={limits}
@@ -223,31 +312,64 @@ export default function TrackerScreen() {
           autoFill={autoFill}
           autoFilling={autoFilling}
           onSave={saveDraft}
-          recentCodes={[...new Set(hunts.map((h) => h.teamCode).filter(Boolean))]}
+          onNotice={setNotice}
+          spots={spots}
+          onAddBlind={(blind) => {
+            commitSpots((prev) => upsertSpot(prev, { kind: draft.locationKind, refugeId: draft.refugeId, name: draft.locationName, blind }));
+            patch({ blind });
+          }}
+          onRemoveBlind={async (spot, blind) => {
+            const used = hunts.filter((h) => huntSpotKey(h) === spot.key && normName(h.blind) === normName(blind)).length;
+            if (used) {
+              setNotice(`“${blind}” is on ${used} logged hunt${used === 1 ? "" : "s"} — edit those hunts to retire it.`);
+              return;
+            }
+            if (await confirm("Remove this blind?", `${blind} · ${spot.name}`, "Remove")) {
+              commitSpots((prev) => removeBlind(prev, spot.key, blind));
+              if (normName(draft.blind) === normName(blind)) patch({ blind: "" });
+            }
+          }}
+          recentCodes={hunts.map((h) => h.teamCode)}
         />
       ) : tab === "book" ? (
         <Logbook
           hunts={hunts}
           teamCode={teamCode}
+          editingId={editingId}
           onClearSamples={clearSamples}
           onRestoreSamples={restoreSamples}
+          onEdit={startEdit}
+          onPhoto={setHuntPhoto}
+          onNotice={setNotice}
           onDelete={async (h) => {
-            if (await confirm("Delete this hunt?", `${h.date} · ${locationLabel(h)}`)) commit(hunts.filter((x) => x.id !== h.id));
+            if (await confirm("Delete this hunt?", `${h.date} · ${locationLabel(h)}`)) {
+              if (editingId === h.id) finishEdit();
+              commit(hunts.filter((x) => x.id !== h.id));
+              void deleteHuntPhoto(h.photo);
+            }
           }}
           onPull={async (code) => {
             if (!isSupabaseConfigured) {
               setNotice("Team sync is off — set EXPO_PUBLIC_SUPABASE_URL / ANON_KEY to share logs with your blind group. Everything is saved on this phone.");
               return;
             }
+            if (!teamSyncable(code)) {
+              setNotice("Add a team / blind group name (at least two letters or numbers) to sync.");
+              return;
+            }
             try {
-              // Upload hunts logged offline before pulling the group's logs.
-              const pending = hunts.filter((h) => !isSeedHunt(h) && !h.synced && (!code || h.teamCode === code));
+              // Upload hunts logged or edited offline before pulling the group's logs.
+              const pending = hunts.filter((h) => !isSeedHunt(h) && !h.synced && sameTeam(h.teamCode, code));
               const pushed = pending.length ? await pushHunts(pending) : [];
               const local = hunts.map((h) => (pushed.includes(h.id) ? { ...h, synced: true } : h));
               if (pushed.length) commit(local);
               const remote = await pullTeamHunts(code);
               const byId = new Map(local.map((h) => [h.id, h]));
-              remote.forEach((h) => byId.set(h.id, h));
+              // Photos never leave the phone, so keep ours when the cloud copy lands.
+              remote.forEach((h) => {
+                const mine = byId.get(h.id);
+                byId.set(h.id, mine?.photo ? { ...h, photo: mine.photo } : h);
+              });
               commit([...byId.values()]);
               setNotice(`${pushed.length ? `Pushed ${pushed.length} offline hunts · ` : ""}Pulled ${remote.length} ${code} hunts.`);
             } catch (e) {
@@ -266,6 +388,8 @@ export default function TrackerScreen() {
 
 function LogForm({
   draft,
+  editing,
+  onCancelEdit,
   patch,
   bump,
   limits,
@@ -274,25 +398,68 @@ function LogForm({
   autoFill,
   autoFilling,
   onSave,
+  onNotice,
+  spots,
+  onAddBlind,
+  onRemoveBlind,
   recentCodes,
 }: {
   draft: HuntLog;
+  editing: HuntLog | null;
+  onCancelEdit: () => void;
   patch: (p: Partial<HuntLog>) => void;
-  bump: (id: SpeciesId, d: number) => void;
+  bump: (key: CountKey, d: number) => void;
   limits: ReturnType<typeof bagStatus>;
   worst: LimitLevel;
   svsma: boolean;
   autoFill: () => void;
   autoFilling: boolean;
   onSave: () => void;
+  onNotice: (s: string) => void;
+  spots: Spot[];
+  onAddBlind: (blind: string) => void;
+  onRemoveBlind: (spot: Spot, blind: string) => void;
   recentCodes: string[];
 }) {
   const [member, setMember] = useState("");
+  const [newBlind, setNewBlind] = useState("");
   const birds = total(draft.counts);
-  const codes = [...new Set(["BUTTE-7", "YOLO-DAWN", ...recentCodes])];
+  const codes = uniqueTeams(["BUTTE-7", "YOLO-DAWN", ...recentCodes]);
+  const here = spots.find((s) => s.key === spotKey(draft.locationKind, draft.refugeId, draft.locationName)) ?? null;
+  const blinds = here?.blinds ?? [];
+  const typedBlind = draft.blind.trim() && !blinds.some((b) => normName(b) === normName(draft.blind)) ? draft.blind.trim() : null;
+  const savedPlaces = spots.filter((s) => s.kind === draft.locationKind && s.kind !== "refuge");
+  const team = draft.teamCode.trim();
+
+  const addBlind = () => {
+    const b = newBlind.trim();
+    if (!b) return;
+    if (draft.locationKind !== "refuge" && !draft.locationName.trim()) {
+      onNotice("Name the club or spot first, then add its blinds.");
+      return;
+    }
+    onAddBlind(b);
+    setNewBlind("");
+  };
 
   return (
     <View>
+      {editing ? (
+        <Card style={styles.editBanner}>
+          <View style={styles.logHead}>
+            <Ionicons name="create" size={18} color={colors.accent} />
+            <View style={styles.flex}>
+              <Text style={type.h3}>Editing a saved hunt</Text>
+              <Text style={type.caption}>
+                {editing.date} · {locationLabel(editing)}
+                {isSeedHunt(editing) ? " · sample hunt, changes stay on this phone" : editing.synced ? " · saving updates the synced copy" : ""}
+              </Text>
+            </View>
+          </View>
+          <Button label="Cancel edit" icon="close" variant="ghost" onPress={onCancelEdit} style={{ marginTop: spacing.sm }} />
+        </Card>
+      ) : null}
+
       <SectionLabel>Where & when</SectionLabel>
       <Card>
         <Field label="Date (YYYY-MM-DD)" value={draft.date} onChange={(v) => patch({ date: v })} />
@@ -308,28 +475,87 @@ function LogForm({
               key={k}
               label={label}
               active={draft.locationKind === k}
-              onPress={() =>
-                patch(k === "refuge" ? { locationKind: k, refugeId: draft.refugeId ?? "gray-lodge" } : { locationKind: k, refugeId: null })
-              }
+              onPress={() => {
+                if (k === draft.locationKind) return;
+                const r = draft.refugeId ?? "gray-lodge";
+                patch(
+                  k === "refuge"
+                    ? { locationKind: k, refugeId: r, locationName: REFUGE_BY_ID[r].name, blind: "" }
+                    : { locationKind: k, refugeId: null, locationName: "", blind: "" },
+                );
+              }}
             />
           ))}
         </View>
         {draft.locationKind === "refuge" ? (
           <View style={styles.chipRow}>
             {REFUGES.map((r) => (
-              <Chip key={r.id} label={r.short} active={draft.refugeId === r.id} onPress={() => patch({ refugeId: r.id, locationName: r.name })} />
+              <Chip
+                key={r.id}
+                label={r.short}
+                active={draft.refugeId === r.id}
+                onPress={() => draft.refugeId !== r.id && patch({ refugeId: r.id, locationName: r.name, blind: "" })}
+              />
             ))}
           </View>
         ) : (
-          <Field
-            label={draft.locationKind === "club" ? "Club name" : "Spot"}
-            value={draft.locationName}
-            onChange={(v) => patch({ locationName: v })}
-            placeholder={draft.locationKind === "club" ? "e.g. Butte Sink club" : "e.g. Colusa rice, levee 3"}
-          />
+          <>
+            {savedPlaces.length ? (
+              <>
+                <Text style={styles.fieldLabel}>{draft.locationKind === "club" ? "Your clubs" : "Your spots"}</Text>
+                <View style={styles.chipRow}>
+                  {savedPlaces.map((sp) => (
+                    <Chip
+                      key={sp.key}
+                      label={sp.name}
+                      icon="location"
+                      active={here?.key === sp.key}
+                      onPress={() => here?.key !== sp.key && patch({ locationName: sp.name, blind: "" })}
+                    />
+                  ))}
+                </View>
+              </>
+            ) : null}
+            <Field
+              label={draft.locationKind === "club" ? "Club name" : "Spot"}
+              value={draft.locationName}
+              onChange={(v) => patch({ locationName: v })}
+              placeholder={draft.locationKind === "club" ? "e.g. Butte Sink club" : "e.g. Colusa rice, levee 3"}
+              autoCapitalize="words"
+            />
+          </>
         )}
+
+        <Text style={styles.fieldLabel}>Blind / Pond # {blinds.length ? `· ${blinds.length} saved here` : ""}</Text>
+        <View style={styles.chipRow}>
+          <Chip label="No blind" active={!draft.blind.trim()} onPress={() => patch({ blind: "" })} />
+          {blinds.map((b) => (
+            <Chip
+              key={b}
+              label={b}
+              icon="home"
+              active={normName(draft.blind) === normName(b)}
+              onPress={() => patch({ blind: normName(draft.blind) === normName(b) ? "" : b })}
+              onLongPress={() => here && onRemoveBlind(here, b)}
+            />
+          ))}
+          {typedBlind ? <Chip label={typedBlind} icon="home" active /> : null}
+        </View>
+        <View style={styles.addRow}>
+          <TextInput
+            value={newBlind}
+            onChangeText={setNewBlind}
+            placeholder="Add a blind at this spot (e.g. Spaced Blind 14)"
+            placeholderTextColor={colors.inkFaint}
+            style={[styles.input, styles.flex]}
+            onSubmitEditing={addBlind}
+            returnKeyType="done"
+          />
+          <Button label="Add" icon="add" variant="ghost" onPress={addBlind} />
+        </View>
+        {blinds.length ? <Text style={[type.caption, { marginTop: -6, marginBottom: spacing.sm }]}>Long-press a blind to remove it.</Text> : null}
+
         <View style={styles.twoCol}>
-          <Field label="Blind / Pond #" value={draft.blind} onChange={(v) => patch({ blind: v })} placeholder="Spaced Blind 14" />
           <Field label="Start" value={draft.start} onChange={(v) => patch({ start: v })} placeholder="06:28" />
           <Field label="End" value={draft.end} onChange={(v) => patch({ end: v })} placeholder="now" />
         </View>
@@ -365,15 +591,25 @@ function LogForm({
           />
         </View>
         <Field
-          label="Team / Blind Group Code"
+          label="Team / Blind Group Name"
           value={draft.teamCode}
-          onChange={(v) => patch({ teamCode: normalizeTeamCode(v) })}
-          placeholder="BUTTE-7"
-          autoCapitalize="characters"
+          onChange={(v) => patch({ teamCode: v })}
+          placeholder="e.g. Butte Sink Crew"
+          autoCapitalize="words"
+          maxLength={TEAM_NAME_MAX}
         />
+        {team ? (
+          <Text style={[type.caption, { marginTop: -4, marginBottom: spacing.sm }]}>
+            {teamSyncable(team)
+              ? teamKey(team) !== team
+                ? `Group key ${teamKey(team)} — anyone who types “${team}” joins the same group.`
+                : "Anyone who types this name joins the same group."
+              : "Use at least two letters or numbers to share with your group."}
+          </Text>
+        ) : null}
         <View style={styles.chipRow}>
           {codes.map((c) => (
-            <Chip key={c} label={c} active={draft.teamCode === c} onPress={() => patch({ teamCode: c })} />
+            <Chip key={teamKey(c)} label={c} active={sameTeam(draft.teamCode, c)} onPress={() => patch({ teamCode: c })} />
           ))}
         </View>
       </Card>
@@ -399,19 +635,46 @@ function LogForm({
       <Card style={{ paddingVertical: spacing.sm }}>
         {(["duck", "white", "dark"] as const).map((g) => (
           <View key={g}>
-            <Text style={styles.groupLabel}>{g === "duck" ? "Ducks" : g === "white" ? "White geese" : "Dark geese"}</Text>
+            <Text style={styles.groupLabel}>{g === "duck" ? "Ducks · drakes & hens" : g === "white" ? "White geese" : "Dark geese"}</Text>
             {SPECIES.filter((s) => s.group === g).map((s) => {
-              const n = draft.counts[s.id] ?? 0;
+              if (!isSexed(s.id)) {
+                const n = draft.counts[s.id] ?? 0;
+                return (
+                  <View key={s.id} style={styles.counterRow}>
+                    <Text style={[styles.counterName, n > 0 && { color: colors.inkStrong }]}>{s.name}</Text>
+                    <Stepper n={n} name={s.name} onBump={(d) => bump(s.id, d)} />
+                  </View>
+                );
+              }
+              const all = speciesCount(draft.counts, s.id);
+              const unsexed = draft.counts[s.id] ?? 0;
               return (
-                <View key={s.id} style={styles.counterRow}>
-                  <Text style={[styles.counterName, n > 0 && { color: colors.inkStrong }]}>{s.name}</Text>
-                  <Pressable onPress={() => bump(s.id, -1)} style={styles.counterBtn} hitSlop={6} accessibilityLabel={`Remove ${s.name}`}>
-                    <Ionicons name="remove" size={20} color={n > 0 ? colors.ink : colors.inkFaint} />
-                  </Pressable>
-                  <Text style={[styles.counterVal, n > 0 && { color: colors.accent }]}>{n}</Text>
-                  <Pressable onPress={() => bump(s.id, 1)} style={[styles.counterBtn, styles.counterPlus]} hitSlop={6} accessibilityLabel={`Add ${s.name}`}>
-                    <Ionicons name="add" size={20} color={colors.onAccent} />
-                  </Pressable>
+                <View key={s.id} style={styles.duckBlock}>
+                  <View style={styles.duckHead}>
+                    <Text style={[styles.counterName, all > 0 && { color: colors.inkStrong }]}>{s.name}</Text>
+                    {all > 0 ? <Text style={styles.duckTotal}>{all}</Text> : null}
+                  </View>
+                  <View style={styles.sexRow}>
+                    {(["drake", "hen"] as Sex[]).map((sex) => (
+                      <View key={sex} style={styles.sexCell}>
+                        <Text style={styles.sexLabel}>{sex === "drake" ? "Drake" : "Hen"}</Text>
+                        <Stepper
+                          n={draft.counts[countKey(s.id, sex)] ?? 0}
+                          name={`${s.name} ${sex}`}
+                          onBump={(d) => bump(countKey(s.id, sex), d)}
+                          compact
+                        />
+                      </View>
+                    ))}
+                  </View>
+                  {unsexed > 0 ? (
+                    <View style={styles.sexRow}>
+                      <View style={styles.sexCell}>
+                        <Text style={[styles.sexLabel, { width: undefined, flex: 1 }]}>Unsexed (older log)</Text>
+                        <Stepper n={unsexed} name={`${s.name} unsexed`} onBump={(d) => bump(s.id, d)} compact />
+                      </View>
+                    </View>
+                  ) : null}
                 </View>
               );
             })}
@@ -423,6 +686,7 @@ function LogForm({
       <Card style={worst === "over" ? { borderColor: colors.danger } : worst === "at" || worst === "near" ? { borderColor: colors.warn } : undefined}>
         <Text style={type.caption}>
           Per-hunter limits × {Math.max(1, draft.party.length)} in the blind{svsma ? " · Sacramento Valley SMA" : ""}. Each hunter may only take their own limit.
+          Duck totals count drakes and hens; hen limits count hens only.
         </Text>
         {limits.map((l) => (
           <View key={l.key} style={styles.limitRow}>
@@ -451,6 +715,17 @@ function LogForm({
         ))}
       </Card>
 
+      <SectionLabel>Photo</SectionLabel>
+      <Card>
+        <PhotoControls
+          photo={draft.photo}
+          onChange={(photo) => patch({ photo })}
+          onNotice={onNotice}
+          // The saved hunt's own photo is only deleted on Save, so Cancel can't lose it.
+          onDiscard={(old) => old !== editing?.photo && void deleteHuntPhoto(old)}
+        />
+      </Card>
+
       <SectionLabel>Notes</SectionLabel>
       <TextInput
         value={draft.notes}
@@ -460,10 +735,90 @@ function LogForm({
         style={[styles.input, { minHeight: 90, textAlignVertical: "top" }]}
         multiline
       />
-      <Button label="Save hunt" icon="save" onPress={onSave} style={{ marginTop: spacing.lg }} />
+      <Button label={editing ? "Save changes" : "Save hunt"} icon="save" onPress={onSave} style={{ marginTop: spacing.lg }} />
+      {editing ? <Button label="Cancel edit" icon="close" variant="ghost" onPress={onCancelEdit} style={{ marginTop: spacing.sm }} /> : null}
       <Text style={[type.caption, { marginTop: spacing.sm, textAlign: "center" }]}>
-        Saved on this phone first — works with zero bars.{isSupabaseConfigured ? " Team code hunts sync to your blind group." : ""}
+        Saved on this phone first — works with zero bars.{isSupabaseConfigured ? " Team hunts sync to your blind group; photos stay on this phone." : ""}
       </Text>
+      <PrivacyLine />
+    </View>
+  );
+}
+
+function Stepper({ n, name, onBump, compact }: { n: number; name: string; onBump: (d: number) => void; compact?: boolean }) {
+  return (
+    <View style={styles.stepper}>
+      <Pressable onPress={() => onBump(-1)} style={[styles.counterBtn, compact && styles.counterBtnSm]} hitSlop={6} accessibilityLabel={`Remove ${name}`}>
+        <Ionicons name="remove" size={20} color={n > 0 ? colors.ink : colors.inkFaint} />
+      </Pressable>
+      <Text style={[styles.counterVal, compact && { width: 34 }, n > 0 && { color: colors.accent }]}>{n}</Text>
+      <Pressable onPress={() => onBump(1)} style={[styles.counterBtn, styles.counterPlus, compact && styles.counterBtnSm]} hitSlop={6} accessibilityLabel={`Add ${name}`}>
+        <Ionicons name="add" size={20} color={colors.onAccent} />
+      </Pressable>
+    </View>
+  );
+}
+
+function PrivacyLine() {
+  return (
+    <View style={styles.privacyLine}>
+      <Ionicons name="lock-closed" size={12} color={colors.inkFaint} />
+      <Text style={[type.caption, { fontSize: 12 }]}>{PRIVACY_LINE}</Text>
+    </View>
+  );
+}
+
+/** Add / replace / remove a hunt photo. `onDiscard` gets the file being replaced or removed. */
+function PhotoControls({
+  photo,
+  onChange,
+  onNotice,
+  onDiscard,
+}: {
+  photo?: string;
+  onChange: (photo: string | undefined) => void;
+  onNotice: (s: string) => void;
+  onDiscard?: (old: string) => void;
+}) {
+  const [busy, setBusy] = useState(false);
+  const uri = photoUri(photo);
+
+  async function pick(source: PhotoSource) {
+    setBusy(true);
+    const res = await pickHuntPhoto(source);
+    setBusy(false);
+    if (res.status === "ok") {
+      if (photo) onDiscard?.(photo);
+      onChange(res.photo);
+    } else if (res.status === "denied") {
+      explainDenied(res.source);
+    } else if (res.status === "error") {
+      onNotice(`Couldn't add the photo: ${res.message}`);
+    }
+  }
+
+  return (
+    <View>
+      {uri ? <Image source={{ uri }} style={styles.photo} resizeMode="cover" accessibilityLabel="Hunt photo" /> : null}
+      <View style={styles.photoBtns}>
+        <Button label={uri ? "Retake" : "Camera"} icon="camera" variant="ghost" onPress={() => pick("camera")} disabled={busy} style={styles.flex} />
+        <Button label={uri ? "Replace" : "Library"} icon="images" variant="ghost" onPress={() => pick("library")} disabled={busy} style={styles.flex} />
+      </View>
+      {uri ? (
+        <Button
+          label="Remove photo"
+          icon="trash"
+          variant="danger"
+          onPress={async () => {
+            if (!(await confirm("Remove this photo?", "It's only stored on this phone.", "Remove"))) return;
+            if (photo) onDiscard?.(photo);
+            onChange(undefined);
+          }}
+          style={{ marginTop: spacing.sm }}
+        />
+      ) : (
+        <Text style={[type.caption, { marginTop: spacing.sm }]}>Optional. Stays on this phone — never uploaded with team sync.</Text>
+      )}
     </View>
   );
 }
@@ -475,13 +830,15 @@ function Field({
   placeholder,
   keyboard,
   autoCapitalize,
+  maxLength,
 }: {
   label: string;
   value: string;
   onChange: (v: string) => void;
   placeholder?: string;
   keyboard?: "numeric";
-  autoCapitalize?: "characters";
+  autoCapitalize?: "characters" | "words";
+  maxLength?: number;
 }) {
   return (
     <View style={[styles.field, styles.flex]}>
@@ -493,6 +850,7 @@ function Field({
         placeholderTextColor={colors.inkFaint}
         keyboardType={keyboard === "numeric" ? "numeric" : "default"}
         autoCapitalize={autoCapitalize ?? "sentences"}
+        maxLength={maxLength}
         style={styles.input}
       />
     </View>
@@ -504,32 +862,41 @@ function Field({
 function Logbook({
   hunts,
   teamCode,
+  editingId,
   onClearSamples,
   onRestoreSamples,
+  onEdit,
+  onPhoto,
+  onNotice,
   onDelete,
   onPull,
 }: {
   hunts: HuntLog[];
   teamCode: string;
+  editingId: string | null;
   onClearSamples: () => void;
   onRestoreSamples: () => void;
+  onEdit: (h: HuntLog) => void;
+  onPhoto: (h: HuntLog, photo: string | undefined) => void;
+  onNotice: (s: string) => void;
   onDelete: (h: HuntLog) => void;
   onPull: (code: string) => void;
 }) {
   const [picked, setFilter] = useState<string>("ALL");
   const [open, setOpen] = useState<string | null>(null);
-  const codes = [...new Set(hunts.map((h) => h.teamCode).filter(Boolean))];
+  const codes = uniqueTeams(hunts.map((h) => h.teamCode));
   // A team chip can vanish (e.g. after clearing sample hunts) — fall back to All.
-  const filter = picked === "ALL" || codes.includes(picked) ? picked : "ALL";
-  const list = hunts.filter((h) => filter === "ALL" || h.teamCode === filter);
+  const filter = picked === "ALL" || codes.some((c) => sameTeam(c, picked)) ? picked : "ALL";
+  const list = hunts.filter((h) => filter === "ALL" || sameTeam(h.teamCode, filter));
   const seedCount = hunts.filter(isSeedHunt).length;
 
   return (
     <View>
+      <PrivacyLine />
       <View style={styles.chipRow}>
         <Chip label={`All (${hunts.length})`} active={filter === "ALL"} onPress={() => setFilter("ALL")} />
         {codes.map((c) => (
-          <Chip key={c} label={c} icon="people" active={filter === c} onPress={() => setFilter(c)} />
+          <Chip key={teamKey(c)} label={c} icon="people" active={filter !== "ALL" && sameTeam(filter, c)} onPress={() => setFilter(c)} />
         ))}
       </View>
       <Button
@@ -554,17 +921,19 @@ function Logbook({
           <Text style={[type.body, { marginTop: 6, color: colors.inkMuted }]}>
             {hunts.length === 0
               ? "Tap Log a Hunt after your next morning in the blind — it saves on this phone first, even with zero bars."
-              : "Sync your blind group or log a hunt with this team code."}
+              : "Sync your blind group or log a hunt with this team name."}
           </Text>
         </Card>
       ) : null}
       {list.map((h) => {
         const birds = total(h.counts);
         const isOpen = open === h.id;
-        const top = SPECIES.filter((s) => (h.counts[s.id] ?? 0) > 0).map((s) => `${h.counts[s.id]} ${s.chartName}`);
+        const present = SPECIES.filter((s) => speciesCount(h.counts, s.id) > 0);
+        const top = present.map((s) => `${speciesCount(h.counts, s.id)} ${s.chartName}`);
+        const uri = photoUri(h.photo);
         return (
           <Pressable key={h.id} onPress={() => setOpen(isOpen ? null : h.id)}>
-            <Card>
+            <Card style={editingId === h.id ? { borderColor: colors.accent } : undefined}>
               <View style={styles.logHead}>
                 <View style={styles.flex}>
                   <Text style={type.caption}>
@@ -575,6 +944,7 @@ function Logbook({
                     {h.blind ? ` · ${h.blind}` : ""}
                   </Text>
                 </View>
+                {uri && !isOpen ? <Image source={{ uri }} style={styles.thumb} /> : null}
                 <View style={styles.logBirds}>
                   <Text style={styles.logBirdsN}>{birds}</Text>
                   <Text style={type.caption}>birds</Text>
@@ -603,9 +973,40 @@ function Logbook({
                 <View style={{ marginTop: spacing.sm }}>
                   <Text style={type.caption}>
                     {h.start}–{h.end}
+                    {h.locationKind !== "refuge" ? ` · ${h.locationKind === "club" ? "Club" : "Free roam"}` : ""}
                   </Text>
+                  {present.some((s) => isSexed(s.id)) ? (
+                    <View style={{ marginTop: 6 }}>
+                      {present.map((s) => {
+                        const d = h.counts[countKey(s.id, "drake")] ?? 0;
+                        const hen = h.counts[countKey(s.id, "hen")] ?? 0;
+                        const un = h.counts[s.id] ?? 0;
+                        const parts = isSexed(s.id)
+                          ? [d ? `${d} drake${d === 1 ? "" : "s"}` : "", hen ? `${hen} hen${hen === 1 ? "" : "s"}` : "", un ? `${un} unsexed` : ""].filter(Boolean)
+                          : [];
+                        return (
+                          <Text key={s.id} style={type.caption}>
+                            {s.name}: {speciesCount(h.counts, s.id)}
+                            {parts.length ? ` (${parts.join(", ")})` : ""}
+                          </Text>
+                        );
+                      })}
+                    </View>
+                  ) : null}
                   {h.notes ? <Text style={[type.body, { marginTop: 6 }]}>{h.notes}</Text> : null}
-                  <Button label="Delete hunt" icon="trash" variant="danger" onPress={() => onDelete(h)} style={{ marginTop: spacing.md }} />
+                  <View style={{ marginTop: spacing.md }}>
+                    <PhotoControls photo={h.photo} onChange={(p) => onPhoto(h, p)} onNotice={onNotice} />
+                  </View>
+                  <Button
+                    label={editingId === h.id ? "Continue editing" : "Edit hunt"}
+                    icon="create"
+                    onPress={() => onEdit(h)}
+                    style={{ marginTop: spacing.md }}
+                  />
+                  {isSeedHunt(h) ? (
+                    <Text style={[type.caption, { marginTop: 4 }]}>Sample hunt — edits stay on this phone and never sync.</Text>
+                  ) : null}
+                  <Button label="Delete hunt" icon="trash" variant="danger" onPress={() => onDelete(h)} style={{ marginTop: spacing.sm }} />
                 </View>
               ) : null}
             </Card>
@@ -639,10 +1040,10 @@ function Stats({ hunts, onClearSamples }: { hunts: HuntLog[]; onClearSamples: ()
   const [pickedSeason, setSeason] = useState<string | null>(null);
   const season = pickedSeason === "ALL" || (pickedSeason && seasons.includes(pickedSeason)) ? pickedSeason : seasons[0] ?? "ALL";
   const [pickedTeam, setTeam] = useState<string>("ALL");
-  const teams = [...new Set(base.map((h) => h.teamCode).filter(Boolean))];
-  const team = pickedTeam === "ALL" || teams.includes(pickedTeam) ? pickedTeam : "ALL";
+  const teams = uniqueTeams(base.map((h) => h.teamCode));
+  const team = pickedTeam === "ALL" || teams.some((t) => sameTeam(t, pickedTeam)) ? pickedTeam : "ALL";
   const scoped = useMemo(
-    () => base.filter((h) => (season === "ALL" || seasonOf(h.date) === season) && (team === "ALL" || h.teamCode === team)),
+    () => base.filter((h) => (season === "ALL" || seasonOf(h.date) === season) && (team === "ALL" || sameTeam(h.teamCode, team))),
     [base, season, team],
   );
   const s = useMemo(() => seasonStats(scoped), [scoped]);
@@ -666,7 +1067,7 @@ function Stats({ hunts, onClearSamples }: { hunts: HuntLog[]; onClearSamples: ()
       <View style={styles.chipRow}>
         <Chip label="Everyone" active={team === "ALL"} onPress={() => setTeam("ALL")} />
         {teams.map((t) => (
-          <Chip key={t} label={t} icon="people" active={team === t} onPress={() => setTeam(t)} />
+          <Chip key={teamKey(t)} label={t} icon="people" active={team !== "ALL" && sameTeam(team, t)} onPress={() => setTeam(t)} />
         ))}
       </View>
 
@@ -789,6 +1190,19 @@ const styles = StyleSheet.create({
   groupLabel: { ...type.eyebrow, color: colors.inkMuted, fontSize: 11, marginTop: spacing.sm, marginBottom: 2 },
   counterRow: { flexDirection: "row", alignItems: "center", paddingVertical: 6, borderBottomWidth: StyleSheet.hairlineWidth, borderBottomColor: colors.hairline },
   counterName: { flex: 1, color: colors.inkMuted, fontSize: 15 },
+  counterBtnSm: { width: 34, height: 32 },
+  stepper: { flexDirection: "row", alignItems: "center" },
+  duckBlock: { paddingVertical: 6, borderBottomWidth: StyleSheet.hairlineWidth, borderBottomColor: colors.hairline },
+  duckHead: { flexDirection: "row", alignItems: "center", marginBottom: 4 },
+  duckTotal: { ...type.numeral, fontSize: 16, color: colors.accent },
+  sexRow: { flexDirection: "row", gap: spacing.md, marginTop: 2 },
+  sexCell: { flex: 1, flexDirection: "row", alignItems: "center", justifyContent: "space-between" },
+  sexLabel: { ...type.caption, width: 44, textTransform: "uppercase", letterSpacing: 1, fontSize: 11 },
+  editBanner: { borderColor: colors.accent, backgroundColor: colors.accentSoft },
+  privacyLine: { flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 6, marginVertical: spacing.sm },
+  photo: { width: "100%", aspectRatio: 4 / 3, borderRadius: radius.md, backgroundColor: colors.bgSunken, marginBottom: spacing.sm },
+  photoBtns: { flexDirection: "row", gap: spacing.sm },
+  thumb: { width: 44, height: 44, borderRadius: radius.sm, backgroundColor: colors.bgSunken },
   counterBtn: { width: 40, height: 36, borderRadius: radius.sm, borderWidth: 1, borderColor: colors.borderStrong, alignItems: "center", justifyContent: "center" },
   counterPlus: { backgroundColor: colors.accent, borderColor: colors.accent },
   counterVal: { ...type.numeral, width: 40, textAlign: "center", fontSize: 22, color: colors.inkFaint },

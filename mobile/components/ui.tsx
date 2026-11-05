@@ -1,8 +1,10 @@
-import { ReactNode } from "react";
+import { ReactNode, Ref } from "react";
 import {
   Modal,
   Platform,
   Pressable,
+  NativeScrollEvent,
+  NativeSyntheticEvent,
   ScrollView,
   StyleProp,
   StyleSheet,
@@ -15,11 +17,25 @@ import { Ionicons } from "@expo/vector-icons";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { colors, fonts, radius, spacing, type } from "@/constants/theme";
 
-export function Screen({ children, scroll = true }: { children: ReactNode; scroll?: boolean }) {
+export function Screen({
+  children,
+  scroll = true,
+  scrollRef,
+  onScroll,
+}: {
+  children: ReactNode;
+  scroll?: boolean;
+  scrollRef?: Ref<ScrollView>;
+  onScroll?: (e: NativeSyntheticEvent<NativeScrollEvent>) => void;
+}) {
   return (
     <SafeAreaView style={styles.safe} edges={["top"]}>
       {scroll ? (
         <ScrollView
+          ref={scrollRef}
+          onScroll={onScroll}
+          scrollEventThrottle={onScroll ? 32 : undefined}
+          keyboardDismissMode="on-drag"
           style={styles.flex}
           contentContainerStyle={styles.scroll}
           keyboardShouldPersistTaps="handled"
@@ -64,12 +80,14 @@ export function Chip({
   label,
   active,
   onPress,
+  onLongPress,
   icon,
   tone = "accent",
 }: {
   label: string;
   active?: boolean;
   onPress?: () => void;
+  onLongPress?: () => void;
   icon?: keyof typeof Ionicons.glyphMap;
   tone?: "accent" | "danger" | "good";
 }) {
@@ -77,6 +95,7 @@ export function Chip({
   return (
     <Pressable
       onPress={onPress}
+      onLongPress={onLongPress}
       accessibilityRole="button"
       accessibilityState={{ selected: !!active }}
       style={({ pressed }) => [
