@@ -1,11 +1,12 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { ActivityIndicator, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from "react-native";
+import { ActivityIndicator, Linking, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import { router, useFocusEffect } from "expo-router";
 import { colors, fonts, radius, spacing, type } from "@/constants/theme";
 import { Bar, Button, Card, Chip, Header, Screen, SectionLabel, Sheet } from "@/components/ui";
 import { WindDial } from "@/components/WindDial";
-import { REFUGES, Refuge } from "@/lib/refuges";
+import { AGENCY_LABEL, REFUGES, Refuge } from "@/lib/refuges";
+import { duckStatusForZone, GameStatus, gooseStatusForZone, isoDay, SEASON_YEAR, WaterfowlZoneId, ZONE_BY_ID } from "@/lib/regs";
 import { computeIndex, IndexResult, ratingColor } from "@/lib/huntIndex";
 import { arrowFor, cardinal, distanceMeters, windArrowDeg } from "@/lib/geo";
 import { formatClock, shootWindow } from "@/lib/sun";
@@ -15,6 +16,11 @@ import { RefugeWeather } from "@/lib/weather";
 import { HuntLog, huntSpotKey, loadHunts, loadSpots, mergeSpots, Spot, spotFavId, total } from "@/lib/huntLog";
 
 type Sort = "score" | "name" | "north" | "wind";
+type AgencyFilter = "all" | Refuge["agency"];
+type ZoneFilter = "all" | WaterfowlZoneId;
+
+// Only zones with a mapped refuge get a chip.
+const INDEX_ZONES = [...new Set(REFUGES.map((r) => r.zoneId))].map((id) => ZONE_BY_ID[id]);
 
 type Row = { refuge: Refuge; weather: RefugeWeather; index: IndexResult };
 
@@ -29,7 +35,7 @@ const itemLat = (i: Item) => (i.row ? i.row.refuge.coords.lat : i.spot.spot.coor
 const itemWind = (i: Item) => (i.row ? i.row.weather.windMph : i.spot.near?.weather.windMph ?? -1);
 const itemText = (i: Item) =>
   i.row
-    ? `${i.row.refuge.name} ${i.row.refuge.short} ${i.row.refuge.county} ${i.row.refuge.region}`
+    ? `${i.row.refuge.name} ${i.row.refuge.short} ${i.row.refuge.county} ${i.row.refuge.region} ${AGENCY_LABEL[i.row.refuge.agency]} ${ZONE_BY_ID[i.row.refuge.zoneId].name}`
     : `${i.spot.spot.name} ${i.spot.spot.kind === "club" ? "club" : "free roam"} ${i.spot.spot.blinds.join(" ")} ${i.spot.near?.refuge.short ?? ""}`;
 
 export default function HuntIndexScreen() {
@@ -38,6 +44,8 @@ export default function HuntIndexScreen() {
   const [mine, setMine] = useState(false);
   const [query, setQuery] = useState("");
   const [sort, setSort] = useState<Sort>("score");
+  const [agency, setAgency] = useState<AgencyFilter>("all");
+  const [zone, setZone] = useState<ZoneFilter>("all");
   const [openId, setOpenId] = useState<string | null>(null);
   const [hunts, setHunts] = useState<HuntLog[]>([]);
   const [storedSpots, setStoredSpots] = useState<Spot[]>([]);
@@ -117,9 +125,13 @@ export default function HuntIndexScreen() {
   );
 
   const q = query.trim().toLowerCase();
+  const narrowed = agency !== "all" || zone !== "all";
   const visible = useMemo(() => {
     const fav = new Set(favorites);
-    const list = items.filter((i) => (!mine || fav.has(i.favId)) && (!q || itemText(i).toLowerCase().includes(q)));
+    // Agency / zone describe refuges — logbook spots drop out while either is set.
+    const inFilter = (i: Item) =>
+      !narrowed || (!!i.row && (agency === "all" || i.row.refuge.agency === agency) && (zone === "all" || i.row.refuge.zoneId === zone));
+    const list = items.filter((i) => (!mine || fav.has(i.favId)) && inFilter(i) && (!q || itemText(i).toLowerCase().includes(q)));
     return list.sort((a, b) => {
       // Favorites first, then the chosen sort.
       const f = Number(fav.has(b.favId)) - Number(fav.has(a.favId));
@@ -131,7 +143,7 @@ export default function HuntIndexScreen() {
         default: return itemScore(b) - itemScore(a);
       }
     });
-  }, [items, mine, favorites, q, sort]);
+  }, [items, mine, favorites, q, sort, agency, zone, narrowed]);
 
   const favCount = items.filter((i) => favorites.includes(i.favId)).length;
 
@@ -140,9 +152,13 @@ export default function HuntIndexScreen() {
   // Pull the search bar back into view instead.
   useEffect(() => {
     if (scrollY.current > searchY.current) scrollRef.current?.scrollTo({ y: Math.max(0, searchY.current - 8), animated: false });
-  }, [q, mine]);
+  }, [q, mine, agency, zone]);
 
   const clearSearch = () => setQuery("");
+  const clearFilters = () => {
+    setAgency("all");
+    setZone("all");
+  };
 
   const best = rows.reduce((a, b) => (b.index.total > a.index.total ? b : a), rows[0]);
   const live = Object.values(map).some((w) => w.source !== "baseline");
@@ -202,6 +218,23 @@ export default function HuntIndexScreen() {
         <Chip label="All" active={!mine} onPress={() => setMine(false)} />
         <Chip label={`Favorites (${favCount})`} icon="star" active={mine} onPress={() => setMine(true)} />
       </View>
+      <View style={styles.filters}>
+        {(
+          [
+            ["all", "Federal + State"],
+            ["USFWS", "Federal"],
+            ["CDFW", "State"],
+          ] as [AgencyFilter, string][]
+        ).map(([k, label]) => (
+          <Chip key={k} label={label} active={agency === k} onPress={() => setAgency(k)} />
+        ))}
+      </View>
+      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={[styles.filters, { flexWrap: "nowrap" }]}>
+        <Chip label="All zones" active={zone === "all"} onPress={() => setZone("all")} />
+        {INDEX_ZONES.map((z) => (
+          <Chip key={z.id} label={z.short} active={zone === z.id} onPress={() => setZone(z.id)} />
+        ))}
+      </ScrollView>
       <View style={styles.search}>
         <Ionicons name="search" size={16} color={colors.inkFaint} />
         <TextInput
@@ -235,19 +268,26 @@ export default function HuntIndexScreen() {
 
       {visible.length === 0 ? (
         <Card style={styles.empty}>
-          <Ionicons name={q ? "search" : "star-outline"} size={28} color={colors.inkFaint} />
+          <Ionicons name={q ? "search" : mine ? "star-outline" : "funnel-outline"} size={28} color={colors.inkFaint} />
           <Text style={[type.h3, { textAlign: "center" }]}>
-            {q ? `Nothing matches “${query.trim()}”` : "No favorites yet"}
+            {q ? `Nothing matches “${query.trim()}”` : mine ? "No favorites here" : "No refuges in that combo"}
           </Text>
           <Text style={[type.body, { color: colors.inkMuted, textAlign: "center" }]}>
             {q
               ? mine
                 ? "None of your favorites match. Try another name, or search all refuges and spots."
-                : "Try a refuge name, county, region, or one of your logbook spots."
-              : "Tap the ☆ on any refuge or logbook spot and it'll sit at the top of the Index."}
+                : narrowed
+                  ? "Nothing matches inside these filters. Clear them or try another name."
+                  : "Try a refuge name, county, region, or one of your logbook spots."
+              : mine && !narrowed
+                ? "Tap the ☆ on any refuge or logbook spot and it'll sit at the top of the Index."
+                : mine
+                  ? "None of your favorites fit these filters."
+                  : "No federal refuges in that zone yet — the Northeastern areas are all state."}
           </Text>
           <View style={styles.emptyActions}>
             {q ? <Button label="Clear search" icon="close-circle" onPress={clearSearch} /> : null}
+            {narrowed ? <Button label="Clear filters" icon="funnel" variant="ghost" onPress={clearFilters} /> : null}
             {mine ? <Button label="Show all" icon="list" variant="ghost" onPress={() => setMine(false)} /> : null}
           </View>
         </Card>
@@ -281,7 +321,7 @@ export default function HuntIndexScreen() {
       <Sheet
         visible={!!open}
         onClose={() => setOpenId(null)}
-        eyebrow={open ? `${open.refuge.agency} · ${open.refuge.county} County` : undefined}
+        eyebrow={open ? `${AGENCY_LABEL[open.refuge.agency]} · ${open.refuge.agency} · ${open.refuge.county} County` : undefined}
         title={open?.refuge.name ?? ""}
       >
         {open ? (
@@ -362,7 +402,7 @@ function RefugeCard({ row, fav, onFav, onPress }: { row: Row; fav: boolean; onFa
           <View style={styles.flex}>
             <Text style={type.h3}>{refuge.name}</Text>
             <Text style={type.caption}>
-              {refuge.region} · {refuge.coords.lat.toFixed(4)}, {refuge.coords.lon.toFixed(4)}
+              {AGENCY_LABEL[refuge.agency]} · {refuge.region} · {refuge.coords.lat.toFixed(4)}, {refuge.coords.lon.toFixed(4)}
             </Text>
           </View>
           <Pressable onPress={onFav} hitSlop={10} accessibilityLabel={fav ? "Remove from favorites" : "Add to favorites"}>
@@ -424,6 +464,15 @@ function RefugeDetail({ row, fav, onFav, onMap }: { row: Row; fav: boolean; onFa
       <Card style={styles.callCard}>
         <Text style={type.eyebrow}>Tad&apos;s call</Text>
         <Text style={[type.body, { fontSize: 16 }]}>{index.call}</Text>
+      </Card>
+
+      <SectionLabel>{`Seasons · ${SEASON_YEAR} · CDFW`}</SectionLabel>
+      <Card>
+        <Text style={[type.caption, { marginBottom: spacing.xs }]}>{ZONE_BY_ID[refuge.zoneId].name}{refuge.svsma ? " · Sacramento Valley SMA" : ""}</Text>
+        <SeasonStatusLine game="Ducks" st={duckStatusForZone(refuge.zoneId, isoDay(now))} />
+        <SeasonStatusLine game="Geese" st={gooseStatusForZone(refuge.zoneId, isoDay(now))} />
+        {refuge.svsma ? <Text style={[type.caption, { marginTop: spacing.xs }]}>White-fronts close here after Dec 21 · 3/day.</Text> : null}
+        <Text style={[type.caption, { marginTop: spacing.xs }]}>Field reference, not law — the CDFW regs booklet is the final word.</Text>
       </Card>
 
       <SectionLabel>Index breakdown</SectionLabel>
@@ -504,6 +553,20 @@ function RefugeDetail({ row, fav, onFav, onMap }: { row: Row; fav: boolean; onFa
       <Text style={[type.body, { color: colors.inkMuted, fontStyle: "italic", marginVertical: spacing.md }]}>{refuge.character}</Text>
 
       <Button label="Open on GPS map" icon="navigate" onPress={onMap} />
+      {refuge.url ? (
+        <Button label={`${refuge.agency} area page`} icon="open-outline" variant="ghost" onPress={() => Linking.openURL(refuge.url!)} style={{ marginTop: spacing.sm }} />
+      ) : null}
+    </View>
+  );
+}
+
+function SeasonStatusLine({ game, st }: { game: string; st: GameStatus }) {
+  const color = st.status === "open" ? colors.good : st.status === "upcoming" ? colors.accent : colors.inkFaint;
+  return (
+    <View style={styles.seasonLine}>
+      <View style={[styles.seasonDot, { backgroundColor: color }]} />
+      <Text style={styles.seasonGame}>{game}:</Text>
+      <Text style={[styles.seasonText, { color }]}>{st.label}</Text>
     </View>
   );
 }
@@ -574,6 +637,10 @@ const styles = StyleSheet.create({
   miniBars: { flexDirection: "row", gap: 4, marginTop: spacing.md },
   miniBar: { flex: 1, flexDirection: "row" },
   footnote: { marginTop: spacing.md },
+  seasonLine: { flexDirection: "row", alignItems: "center", gap: spacing.sm, paddingVertical: 4 },
+  seasonDot: { width: 8, height: 8, borderRadius: 4 },
+  seasonGame: { color: colors.ink, fontFamily: fonts.headingSemi, fontSize: 16, width: 56 },
+  seasonText: { flex: 1, fontSize: 15 },
   detailHead: { flexDirection: "row", gap: spacing.lg, alignItems: "center", marginBottom: spacing.md },
   callCard: { backgroundColor: colors.accentSoft, borderColor: colors.accentDeep },
   subRow: { marginBottom: spacing.md },

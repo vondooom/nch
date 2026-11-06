@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Image, Pressable, StyleSheet, Text, TextInput, View } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
+import { router } from "expo-router";
 import * as Location from "expo-location";
 import { colors, fonts, radius, spacing, type } from "@/constants/theme";
 import { Bar, Button, Card, Chip, Header, Screen, SectionLabel, Stat } from "@/components/ui";
@@ -49,7 +50,8 @@ import { shootWindow } from "@/lib/sun";
 import { useWeather } from "@/lib/useWeather";
 import { newId } from "@/lib/waypoints";
 import { confirm } from "@/lib/confirm";
-import { isSupabaseConfigured, pullTeamHunts, pushHunts } from "@/lib/supabase";
+import { isSupabaseConfigured, pullMyHunts, pushHunts, SIGN_IN_TO_SYNC } from "@/lib/supabase";
+import { useAuth } from "@/lib/auth";
 import { KEYS, readJSON, writeJSON } from "@/lib/storage";
 import { deleteHuntPhoto, explainDenied, photoUri, pickHuntPhoto, PhotoSource } from "@/lib/photos";
 
@@ -58,6 +60,7 @@ type Tab = "log" | "book" | "stats";
 const hhmm = (d: Date) => `${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`;
 
 const PRIVACY_LINE = "Your hunt data is yours. We don't share or sell it.";
+const SYNC_LINE = "Logs stay on this phone until you sign in. After you sign in, your hunts sync to your account.";
 
 function blankDraft(refugeId: string, teamCode: string): HuntLog {
   const now = new Date();
@@ -104,6 +107,7 @@ export default function TrackerScreen() {
   const [notice, setNotice] = useState<string | null>(null);
   const [autoFilling, setAutoFilling] = useState(false);
   const { map: weather } = useWeather();
+  const { session, user, signOut } = useAuth();
 
   useEffect(() => {
     loadHunts().then(setHunts);
@@ -151,7 +155,8 @@ export default function TrackerScreen() {
     setDraft((d) => ({ ...d, counts: { ...d.counts, [key]: Math.max(0, (d.counts[key] ?? 0) + delta) } }));
 
   const svsma = draft.refugeId ? REFUGE_BY_ID[draft.refugeId]?.svsma ?? false : false;
-  const limits = bagStatus(draft.counts, draft.party.length, draft.date, svsma);
+  const zoneId = draft.refugeId ? REFUGE_BY_ID[draft.refugeId]?.zoneId : undefined;
+  const limits = bagStatus(draft.counts, draft.party.length, draft.date, svsma, zoneId);
   const worst = worstLevel(limits);
 
   function startEdit(h: HuntLog) {
@@ -251,12 +256,14 @@ export default function TrackerScreen() {
     let synced = "";
     if (isSeedHunt(log)) {
       synced = " · sample hunt, kept on this phone only";
-    } else if (isSupabaseConfigured && teamSyncable(log.teamCode)) {
+    } else if (isSupabaseConfigured && !session) {
+      synced = " · on this phone — sign in to sync";
+    } else if (isSupabaseConfigured) {
       try {
         const ids = await pushHunts([log]);
         if (ids.length) {
           commit(next.map((h) => (ids.includes(h.id) ? { ...h, synced: true } : h)));
-          synced = " · synced to the blind group";
+          synced = " · synced to your account";
         }
       } catch {
         synced = " · saved offline, will sync later";
@@ -348,22 +355,36 @@ export default function TrackerScreen() {
               void deleteHuntPhoto(h.photo);
             }
           }}
+          accountEmail={user?.email ?? (session ? "your account" : null)}
+          onSignIn={() => router.push("/sign-in")}
+          onSignOut={async () => {
+            if (await confirm("Sign out?", "Your hunts stay on this phone. Sign back in to sync again.", "Sign out")) {
+              try {
+                await signOut();
+                setNotice("Signed out. Logs stay on this phone until you sign in again.");
+              } catch (e) {
+                setNotice(`Sign out failed: ${e instanceof Error ? e.message : String(e)}`);
+              }
+            }
+          }}
           onPull={async (code) => {
             if (!isSupabaseConfigured) {
-              setNotice("Team sync is off — set EXPO_PUBLIC_SUPABASE_URL / ANON_KEY to share logs with your blind group. Everything is saved on this phone.");
+              setNotice("Sync is off in this build. Everything is saved on this phone.");
               return;
             }
-            if (!teamSyncable(code)) {
-              setNotice("Add a team / blind group name (at least two letters or numbers) to sync.");
+            if (!session) {
+              setNotice(SIGN_IN_TO_SYNC);
+              router.push("/sign-in");
               return;
             }
             try {
-              // Upload hunts logged or edited offline before pulling the group's logs.
-              const pending = hunts.filter((h) => !isSeedHunt(h) && !h.synced && sameTeam(h.teamCode, code));
+              // Upload hunts logged or edited offline before pulling the account's logs.
+              const pending = hunts.filter((h) => !isSeedHunt(h) && !h.synced);
               const pushed = pending.length ? await pushHunts(pending) : [];
               const local = hunts.map((h) => (pushed.includes(h.id) ? { ...h, synced: true } : h));
               if (pushed.length) commit(local);
-              const remote = await pullTeamHunts(code);
+              // `code` only matters on the pre-migration schema (team_code pull).
+              const remote = await pullMyHunts(code);
               const byId = new Map(local.map((h) => [h.id, h]));
               // Photos never leave the phone, so keep ours when the cloud copy lands.
               remote.forEach((h) => {
@@ -371,7 +392,7 @@ export default function TrackerScreen() {
                 byId.set(h.id, mine?.photo ? { ...h, photo: mine.photo } : h);
               });
               commit([...byId.values()]);
-              setNotice(`${pushed.length ? `Pushed ${pushed.length} offline hunts · ` : ""}Pulled ${remote.length} ${code} hunts.`);
+              setNotice(`${pushed.length ? `Pushed ${pushed.length} offline hunts · ` : ""}Pulled ${remote.length} hunts from your account.`);
             } catch (e) {
               setNotice(`Sync failed: ${e instanceof Error ? e.message : String(e)}`);
             }
@@ -421,6 +442,7 @@ function LogForm({
   onRemoveBlind: (spot: Spot, blind: string) => void;
   recentCodes: string[];
 }) {
+  const { session } = useAuth();
   const [member, setMember] = useState("");
   const [newBlind, setNewBlind] = useState("");
   const birds = total(draft.counts);
@@ -602,9 +624,9 @@ function LogForm({
           <Text style={[type.caption, { marginTop: -4, marginBottom: spacing.sm }]}>
             {teamSyncable(team)
               ? teamKey(team) !== team
-                ? `Group key ${teamKey(team)} — anyone who types “${team}” joins the same group.`
-                : "Anyone who types this name joins the same group."
-              : "Use at least two letters or numbers to share with your group."}
+                ? `Group key ${teamKey(team)} — use “${team}” on every hunt with this crew to keep them together.`
+                : "Use the same name on every hunt with this crew to keep them together."
+              : "Use at least two letters or numbers for a group name."}
           </Text>
         ) : null}
         <View style={styles.chipRow}>
@@ -738,7 +760,8 @@ function LogForm({
       <Button label={editing ? "Save changes" : "Save hunt"} icon="save" onPress={onSave} style={{ marginTop: spacing.lg }} />
       {editing ? <Button label="Cancel edit" icon="close" variant="ghost" onPress={onCancelEdit} style={{ marginTop: spacing.sm }} /> : null}
       <Text style={[type.caption, { marginTop: spacing.sm, textAlign: "center" }]}>
-        Saved on this phone first — works with zero bars.{isSupabaseConfigured ? " Team hunts sync to your blind group; photos stay on this phone." : ""}
+        Saved on this phone first — works with zero bars.
+        {isSupabaseConfigured ? (session ? " Hunts sync to your account; photos stay on this phone." : ` ${SYNC_LINE}`) : ""}
       </Text>
       <PrivacyLine />
     </View>
@@ -870,6 +893,9 @@ function Logbook({
   onNotice,
   onDelete,
   onPull,
+  accountEmail,
+  onSignIn,
+  onSignOut,
 }: {
   hunts: HuntLog[];
   teamCode: string;
@@ -881,6 +907,9 @@ function Logbook({
   onNotice: (s: string) => void;
   onDelete: (h: HuntLog) => void;
   onPull: (code: string) => void;
+  accountEmail: string | null;
+  onSignIn: () => void;
+  onSignOut: () => void;
 }) {
   const [picked, setFilter] = useState<string>("ALL");
   const [open, setOpen] = useState<string | null>(null);
@@ -899,13 +928,28 @@ function Logbook({
           <Chip key={teamKey(c)} label={c} icon="people" active={filter !== "ALL" && sameTeam(filter, c)} onPress={() => setFilter(c)} />
         ))}
       </View>
-      <Button
-        label={`Sync ${filter === "ALL" ? teamCode || "team" : filter} logs`}
-        icon="cloud-download"
-        variant="ghost"
-        onPress={() => onPull(filter === "ALL" ? teamCode : filter)}
-        style={{ marginBottom: spacing.md }}
-      />
+      <Card>
+        <Text style={type.eyebrow}>Account</Text>
+        {!isSupabaseConfigured ? (
+          <Text style={[type.body, { color: colors.inkMuted, marginTop: 4 }]}>Sync is off in this build — everything is saved on this phone.</Text>
+        ) : accountEmail ? (
+          <>
+            <View style={styles.accountRow}>
+              <Ionicons name="person-circle" size={22} color={colors.good} />
+              <Text style={[type.body, styles.flex]} numberOfLines={1}>
+                {accountEmail}
+              </Text>
+            </View>
+            <Button label="Sync my hunts" icon="cloud-download" onPress={() => onPull(filter === "ALL" ? teamCode : filter)} style={{ marginTop: spacing.sm }} />
+            <Button label="Sign out" icon="log-out" variant="ghost" onPress={onSignOut} style={{ marginTop: spacing.sm }} />
+          </>
+        ) : (
+          <>
+            <Text style={[type.body, { color: colors.inkMuted, marginTop: 4 }]}>{SYNC_LINE}</Text>
+            <Button label="Sign in to sync" icon="log-in" onPress={onSignIn} style={{ marginTop: spacing.sm }} />
+          </>
+        )}
+      </Card>
       {seedCount > 0 ? (
         <Button
           label={`Clear ${seedCount} sample hunts`}
@@ -1199,6 +1243,7 @@ const styles = StyleSheet.create({
   sexCell: { flex: 1, flexDirection: "row", alignItems: "center", justifyContent: "space-between" },
   sexLabel: { ...type.caption, width: 44, textTransform: "uppercase", letterSpacing: 1, fontSize: 11 },
   editBanner: { borderColor: colors.accent, backgroundColor: colors.accentSoft },
+  accountRow: { flexDirection: "row", alignItems: "center", gap: spacing.sm, marginTop: spacing.xs },
   privacyLine: { flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 6, marginVertical: spacing.sm },
   photo: { width: "100%", aspectRatio: 4 / 3, borderRadius: radius.md, backgroundColor: colors.bgSunken, marginBottom: spacing.sm },
   photoBtns: { flexDirection: "row", gap: spacing.sm },

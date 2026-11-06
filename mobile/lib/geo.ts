@@ -8,7 +8,7 @@ const rad = Math.PI / 180;
 
 // Magnetic declination across the Sacramento & San Joaquin valleys is ~12–13.5°
 // east for 2026 (NOAA WMM). A linear fit on latitude is well inside a compass
-// needle's error across our ten refuges.
+// needle's error across our refuges.
 export function declinationAt(lat: number): number {
   return 12.3 + (lat - 37.1) * 0.43;
 }

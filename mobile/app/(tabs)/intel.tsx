@@ -9,7 +9,21 @@ import { REFUGE_BY_ID, REFUGES } from "@/lib/refuges";
 import { LatLon } from "@/lib/geo";
 import { formatClock, formatCountdown, shootWindow, ShootWindow } from "@/lib/sun";
 import { fetchSunVerification } from "@/lib/weather";
-import { BAG_REFERENCE, BOS_SEASONS, FIELD_RULES, isoDay, NE_SEASONS, SeasonRow, seasonStatus } from "@/lib/regs";
+import {
+  BAG_REFERENCE,
+  duckStatusForZone,
+  FIELD_RULES,
+  gooseStatusForZone,
+  GameStatus,
+  isoDay,
+  SEASON_YEAR,
+  SeasonRow,
+  seasonStatus,
+  SMA_SEASONS,
+  WaterfowlZoneId,
+  ZONE_BY_ID,
+  ZONES,
+} from "@/lib/regs";
 import { ALL_DISPATCHES, Dispatch } from "@/lib/dispatches";
 
 type Place = { id: string; label: string; at: LatLon };
@@ -24,6 +38,8 @@ export default function FieldDeskScreen() {
   const [verify, setVerify] = useState<Verify | null>(null);
   const [filter, setFilter] = useState<Filter>("all");
   const [reading, setReading] = useState<Dispatch | null>(null);
+  // null = follow the picked refuge's zone.
+  const [zonePick, setZonePick] = useState<WaterfowlZoneId | null>(null);
 
   useEffect(() => {
     const id = setInterval(() => setNow(new Date()), 1000);
@@ -33,7 +49,7 @@ export default function FieldDeskScreen() {
   const place: Place =
     placeId === "gps" && gps
       ? { id: "gps", label: "My GPS", at: gps }
-      : { id: placeId, label: REFUGE_BY_ID[placeId]?.short ?? "Gray Lodge", at: (REFUGE_BY_ID[placeId] ?? REFUGES[5]).coords };
+      : { id: placeId, label: REFUGE_BY_ID[placeId]?.short ?? "Gray Lodge", at: (REFUGE_BY_ID[placeId] ?? REFUGE_BY_ID["gray-lodge"]).coords };
 
   useEffect(() => {
     let alive = true;
@@ -92,6 +108,7 @@ export default function FieldDeskScreen() {
   const dayProgress = (t - today.open.getTime()) / (today.close.getTime() - today.open.getTime());
 
   const todayIso = isoDay(now);
+  const zone = ZONE_BY_ID[zonePick ?? REFUGE_BY_ID[placeId]?.zoneId ?? "balance-of-state"];
   const list = ALL_DISPATCHES.filter((d) =>
     filter === "all" ? true : filter === "waterfowl" ? d.waterfowl : d.kind === filter,
   );
@@ -103,7 +120,15 @@ export default function FieldDeskScreen() {
       <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.chipRow}>
         <Chip label="My GPS" icon="locate" active={placeId === "gps"} onPress={locateMe} />
         {REFUGES.map((r) => (
-          <Chip key={r.id} label={r.short} active={placeId === r.id} onPress={() => setPlaceId(r.id)} />
+          <Chip
+            key={r.id}
+            label={r.short}
+            active={placeId === r.id}
+            onPress={() => {
+              setPlaceId(r.id);
+              setZonePick(null);
+            }}
+          />
         ))}
       </ScrollView>
       {gpsMsg ? <Text style={[type.caption, { marginBottom: spacing.sm }]}>{gpsMsg}</Text> : null}
@@ -131,15 +156,34 @@ export default function FieldDeskScreen() {
         Legal: 30 min before sunrise to sunset. Times are computed astronomically on the phone and cross-checked against Open-Meteo when online.
       </Text>
 
-      <SectionLabel>2026–27 season dates · Balance of State</SectionLabel>
+      <SectionLabel>{`Season dates · ${SEASON_YEAR} · CDFW`}</SectionLabel>
+      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.chipRow}>
+        {ZONES.map((z) => (
+          <Chip key={z.id} label={z.short} active={zone.id === z.id} onPress={() => setZonePick(z.id)} />
+        ))}
+      </ScrollView>
       <Card>
-        {BOS_SEASONS.map((s) => (
-          <SeasonLine key={s.label} s={s} today={todayIso} />
+        <Text style={type.eyebrow}>{zone.name}</Text>
+        <View style={styles.zoneStatus}>
+          <GameLine game="Ducks" st={duckStatusForZone(zone.id, todayIso)} />
+          <GameLine game="Geese" st={gooseStatusForZone(zone.id, todayIso)} />
+        </View>
+        {zone.seasons.map((s) => (
+          <SeasonLine key={`${s.label}-${s.start}`} s={s} today={todayIso} />
         ))}
-        <Text style={[type.eyebrow, { color: colors.inkMuted, fontSize: 11, marginTop: spacing.md }]}>Northeastern Zone</Text>
-        {NE_SEASONS.map((s) => (
-          <SeasonLine key={s.label} s={s} today={todayIso} />
+        <Text style={[type.caption, { marginTop: spacing.sm }]}>
+          {REFUGES.filter((r) => r.zoneId === zone.id).map((r) => r.short).join(" · ") || "No NorCalHunt refuges mapped in this zone."}
+        </Text>
+      </Card>
+
+      <SectionLabel>Special management areas · brant</SectionLabel>
+      <Card>
+        {SMA_SEASONS.map((s) => (
+          <SeasonLine key={`${s.label}-${s.start}`} s={s} today={todayIso} />
         ))}
+        <Text style={[type.caption, { marginTop: spacing.sm }]}>
+          {SEASON_YEAR} dates from wildlife.ca.gov/hunting/waterfowl. Field reference, not law — check the CDFW booklet for SMA boundaries.
+        </Text>
       </Card>
 
       <SectionLabel>Daily bag limits</SectionLabel>
@@ -230,6 +274,17 @@ function DayCard({ label, w, verify }: { label: string; w: ShootWindow; verify?:
   );
 }
 
+function GameLine({ game, st }: { game: string; st: GameStatus }) {
+  const color = st.status === "open" ? colors.good : st.status === "upcoming" ? colors.accent : colors.inkFaint;
+  return (
+    <View style={styles.gameLine}>
+      <View style={[styles.gameDot, { backgroundColor: color }]} />
+      <Text style={styles.gameName}>{game}:</Text>
+      <Text style={[styles.gameText, { color }]}>{st.label}</Text>
+    </View>
+  );
+}
+
 function SeasonLine({ s, today }: { s: SeasonRow; today: string }) {
   const st = seasonStatus(s, today);
   const color = st === "open" ? colors.good : st === "upcoming" ? colors.accent : colors.inkFaint;
@@ -263,6 +318,11 @@ const styles = StyleSheet.create({
   dayLabel: { color: colors.inkFaint, fontSize: 10, letterSpacing: 1, textTransform: "uppercase", marginTop: 6 },
   dayBig: { ...type.numeral, fontSize: 26, color: colors.inkStrong },
   dayMid: { ...type.numeral, fontSize: 18, color: colors.inkMuted },
+  zoneStatus: { marginTop: spacing.xs, marginBottom: spacing.sm },
+  gameLine: { flexDirection: "row", alignItems: "center", gap: spacing.sm, paddingVertical: 3 },
+  gameDot: { width: 8, height: 8, borderRadius: 4 },
+  gameName: { color: colors.ink, fontFamily: fonts.headingSemi, fontSize: 16, width: 56 },
+  gameText: { flex: 1, fontSize: 15 },
   seasonRow: { flexDirection: "row", alignItems: "center", gap: spacing.md, paddingVertical: 8, borderBottomWidth: StyleSheet.hairlineWidth, borderBottomColor: colors.hairline },
   seasonLabel: { color: colors.inkStrong, fontFamily: fonts.headingSemi, fontSize: 16 },
   statusPill: { borderWidth: 1, borderRadius: radius.pill, paddingHorizontal: 8, paddingVertical: 2 },

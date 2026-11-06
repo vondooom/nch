@@ -6,6 +6,7 @@ import { SafeAreaProvider } from "react-native-safe-area-context";
 import { useFonts, BarlowCondensed_600SemiBold, BarlowCondensed_700Bold } from "@expo-google-fonts/barlow-condensed";
 import { colors } from "@/constants/theme";
 import { WebShell } from "@/components/WebShell";
+import { AuthProvider } from "@/lib/auth";
 
 SplashScreen.preventAutoHideAsync().catch(() => {});
 
@@ -22,15 +23,20 @@ export default function RootLayout() {
 
   return (
     <SafeAreaProvider>
-      <StatusBar style="light" />
-      <WebShell>
-        <Stack
-          screenOptions={{
-            headerShown: false,
-            contentStyle: { backgroundColor: colors.bg },
-          }}
-        />
-      </WebShell>
+      <AuthProvider>
+        <StatusBar style="light" />
+        <WebShell>
+          <Stack
+            screenOptions={{
+              headerShown: false,
+              contentStyle: { backgroundColor: colors.bg },
+            }}
+          >
+            <Stack.Screen name="(tabs)" />
+            <Stack.Screen name="sign-in" options={{ presentation: "modal" }} />
+          </Stack>
+        </WebShell>
+      </AuthProvider>
     </SafeAreaProvider>
   );
 }

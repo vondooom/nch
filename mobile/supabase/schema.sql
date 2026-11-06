@@ -1,5 +1,9 @@
 -- NorCalHunt logbook sync (optional). Run in the Supabase SQL editor.
 --
+-- HISTORICAL STARTER (Builds 1–3). Next step: migrations/20261106_hunt_logs_auth.sql
+-- adds user_id + per-user RLS for Supabase Auth and replaces the open policies
+-- below. Don't apply it without Chris OK.
+--
 -- A blind group shares a team code (e.g. BUTTE-7) and the app filters by it.
 -- Rows without a team code never leave the phone.
 --

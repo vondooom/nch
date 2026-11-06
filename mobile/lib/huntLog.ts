@@ -1,6 +1,6 @@
 import { cardinal } from "./geo";
 import { REFUGE_BY_ID } from "./refuges";
-import { BAG_LIMITS, HEN_LIMITS, scaupOpen } from "./regs";
+import { BAG_LIMITS, HEN_LIMITS, scaupOpen, scaupRows, WaterfowlZoneId } from "./regs";
 import { KEYS, readJSON, writeJSON } from "./storage";
 
 // ── Species ────────────────────────────────────────────────────────────────
@@ -83,7 +83,7 @@ function level(count: number, limit: number): LimitLevel {
  * of three can bring back 21 ducks only if each hunter shot their own, so
  * this is the blind's ceiling, not a license to party-hunt — the UI says so.
  */
-export function bagStatus(c: Counts, party: number, day: string, svsma: boolean): LimitStatus[] {
+export function bagStatus(c: Counts, party: number, day: string, svsma: boolean, zoneId: WaterfowlZoneId = "balance-of-state"): LimitStatus[] {
   const n = Math.max(1, party);
   const L = BAG_LIMITS;
   const rows: LimitStatus[] = [
@@ -114,10 +114,10 @@ export function bagStatus(c: Counts, party: number, day: string, svsma: boolean)
   ];
   for (const r of rows) r.level = level(r.count, r.limit);
   const scaup = rows.find((r) => r.key === "scaup")!;
-  if (!scaupOpen(day)) {
+  if (!scaupOpen(day, zoneId)) {
     scaup.limit = 0;
     scaup.level = scaup.count > 0 ? "over" : "closed";
-    scaup.note = "Scaup window is Nov 7 – Jan 31";
+    scaup.note = `Scaup window is ${scaupRows(zoneId).map((r) => r.dates).join(" & ")}`;
   }
   return rows;
 }

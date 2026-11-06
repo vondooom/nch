@@ -4,7 +4,7 @@ import { KEYS, readJSON, writeJSON } from "./storage";
 
 // Live refuge weather.
 //
-// Primary: Open-Meteo — one batched request for all ten refuges (comma-joined
+// Primary: Open-Meteo — one batched request for every refuge (comma-joined
 // lat/lon lists), no key, CORS-open so it works on web too. It gives current
 // wind/gust/temp/pressure plus hourly pressure for the trend and daily
 // sunrise/sunset to cross-check the astronomical shoot times.

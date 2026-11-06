@@ -13,9 +13,9 @@ npm run web:export   # static web build → dist/
 
 | Tab | File | What it does |
 |---|---|---|
-| Index | `app/(tabs)/index.tsx` | NorCalHunt Index 0–100 for 10 refuges, six sub-scores, live Open-Meteo (NWS fallback) weather, wind/decoy tip, barometer trend, shoot light, CDFW harvest, My Refuges. |
+| Index | `app/(tabs)/index.tsx` | NorCalHunt Index 0–100 for 16 federal + state areas (filter Federal / State and by CDFW zone), zone season status, six sub-scores, live Open-Meteo (NWS fallback) weather, wind/decoy tip, barometer trend, shoot light, CDFW harvest, My Refuges. |
 | GPS Map | `app/(tabs)/map.tsx` | BestForNavigation tracking (2 m / 2 s), background task `NORCALHUNT_BG_LOCATION_TASK`, compass, breadcrumb trail, SVG tactical map (native satellite view on iOS/Android), precision waypoints with distance + magnetic bearing, Simulate Walk-In Trek. |
-| Logbook | `app/(tabs)/tracker.tsx` | Offline hunt log with species counters, live bag-limit warnings, team/blind group codes, season analytics and leaderboard. Optional Supabase sync. |
+| Logbook | `app/(tabs)/tracker.tsx` | Offline hunt log with species counters, live bag-limit warnings, team/blind group names, season analytics and leaderboard. Optional Supabase sync behind email-code sign-in (`lib/auth.tsx`, `app/sign-in.tsx`); per-user RLS in `supabase/migrations/20261106_hunt_logs_auth.sql` (not applied yet). |
 | Field Desk | `app/(tabs)/intel.tsx` | Legal shoot-time clock for today/tomorrow (NOAA algorithm, Open-Meteo cross-check), 2026–27 season dates, bag limits, field rules, and the NorCalHunt newsletter archive reader. |
 
 ## Data
