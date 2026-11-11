@@ -21,7 +21,7 @@ import {
   norm360,
 } from "@/lib/geo";
 import { REFUGE_BY_ID, REFUGES } from "@/lib/refuges";
-import { landmarksFor, MAP_COMING, mapFor } from "@/lib/refugeMaps";
+import { landmarksFor, MAP_COMING, mapsFor } from "@/lib/refugeMaps";
 import {
   appendPoints,
   clearTrack,
@@ -52,7 +52,7 @@ export default function MapScreen() {
   const [refugeId, setRefugeId] = useState(params.refuge && REFUGE_BY_ID[params.refuge] ? params.refuge : REFUGES[0].id);
   const refuge = REFUGE_BY_ID[refugeId];
   const landmarks = useMemo(() => landmarksFor(refuge), [refuge]);
-  const officialMap = mapFor(refuge);
+  const officialMaps = mapsFor(refuge);
   const { map: weather } = useWeather();
   const wx = weather[refugeId];
 
@@ -348,16 +348,18 @@ export default function MapScreen() {
       <Card style={styles.officialCard}>
         <Text style={type.eyebrow}>Blinds & units · {refuge.short}</Text>
         <Text style={[type.body, { fontSize: 14, marginTop: 2 }]}>{MAP_COMING}</Text>
-        {officialMap ? (
-          <Button
-            label="Official map"
-            icon={officialMap.kind === "pdf" ? "document-text" : "open-outline"}
-            variant="ghost"
-            onPress={() => Linking.openURL(officialMap.url)}
-            style={{ marginTop: spacing.sm }}
-          />
-        ) : null}
-        {officialMap ? <Text style={[type.caption, { marginTop: 4 }]}>{officialMap.label}</Text> : null}
+        {officialMaps.map((m) => (
+          <View key={m.url}>
+            <Button
+              label={officialMaps.length > 1 ? m.label.replace(/^(CDFW|USFWS) /, "").replace(/ \(PDF\)$/, "") : "Official map"}
+              icon={m.kind === "pdf" ? "document-text" : "open-outline"}
+              variant="ghost"
+              onPress={() => Linking.openURL(m.url)}
+              style={{ marginTop: spacing.sm }}
+            />
+            {officialMaps.length > 1 ? null : <Text style={[type.caption, { marginTop: 4 }]}>{m.label}</Text>}
+          </View>
+        ))}
       </Card>
 
       {notice ? (

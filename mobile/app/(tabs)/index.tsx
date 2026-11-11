@@ -7,7 +7,7 @@ import { Bar, Button, Card, Chip, Header, Screen, SectionLabel, Sheet } from "@/
 import { WindDial } from "@/components/WindDial";
 import { AGENCY_LABEL, ENTRY_TYPE_SOURCE_URL, HARVEST_SOURCE_LABEL, HARVEST_SOURCE_URL, REFUGES, Refuge } from "@/lib/refuges";
 import { INDEX_WEEK } from "@/lib/harvestWeeks";
-import { mapFor } from "@/lib/refugeMaps";
+import { mapsFor } from "@/lib/refugeMaps";
 import { duckStatusForZone, GameStatus, gooseStatusForZone, isoDay, SEASON_YEAR, WaterfowlZoneId, ZONE_BY_ID } from "@/lib/regs";
 import { computeIndex, IndexResult, NO_HARVEST, ratingColor } from "@/lib/huntIndex";
 import { arrowFor, cardinal, distanceMeters, windArrowDeg } from "@/lib/geo";
@@ -628,16 +628,17 @@ function RefugeDetail({ row, fav, onFav, onMap }: { row: Row; fav: boolean; onFa
       <Text style={[type.body, { color: colors.inkMuted, fontStyle: "italic", marginVertical: spacing.md }]}>{refuge.character}</Text>
 
       <Button label="Open on GPS map" icon="navigate" onPress={onMap} />
-      {mapFor(refuge) ? (
+      {mapsFor(refuge).map((m, _i, all) => (
         <Button
-          label="Official hunt map"
-          icon="map-outline"
+          key={m.url}
+          label={all.length > 1 ? m.label.replace(/ \(PDF\)$/, "") : "Official hunt map"}
+          icon={m.kind === "pdf" ? "map-outline" : "open-outline"}
           variant="ghost"
-          onPress={() => Linking.openURL(mapFor(refuge)!.url)}
+          onPress={() => Linking.openURL(m.url)}
           style={{ marginTop: spacing.sm }}
         />
-      ) : null}
-      {refuge.url ? (
+      ))}
+      {refuge.url && !mapsFor(refuge).some((m) => m.url === refuge.url) ? (
         <Button label={`${refuge.agency} area page`} icon="open-outline" variant="ghost" onPress={() => Linking.openURL(refuge.url!)} style={{ marginTop: spacing.sm }} />
       ) : null}
     </View>
