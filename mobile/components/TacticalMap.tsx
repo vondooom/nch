@@ -1,9 +1,9 @@
 import { useMemo, useRef, useState } from "react";
 import { LayoutChangeEvent, PanResponder, StyleSheet, View } from "react-native";
-import Svg, { Circle, Ellipse, G, Line, Path, Polyline, Rect, Text as SvgText } from "react-native-svg";
+import Svg, { Circle, G, Line, Path, Polyline, Rect, Text as SvgText } from "react-native-svg";
 import { colors } from "@/constants/theme";
 import { fromLocalMeters, LatLon, rotateAbout, toLocalMeters, windArrowDeg } from "@/lib/geo";
-import { Schematic } from "@/lib/refuges";
+import { Landmark } from "@/lib/refugeMaps";
 import { TrackPoint } from "@/lib/track";
 import { Waypoint, WAYPOINT_KINDS } from "@/lib/waypoints";
 
@@ -15,7 +15,8 @@ type Props = {
   center: LatLon;           // map center
   anchor: LatLon;           // grid origin (refuge HQ) so grid lines don't swim
   mpp: number;              // meters per pixel
-  schematic: Schematic | null;
+  /** Sourced pins only (HQ / check station). No invented ponds or lots. */
+  landmarks: Landmark[];
   track: TrackPoint[];
   waypoints: Waypoint[];
   me: TrackPoint | null;
@@ -94,39 +95,7 @@ export function TacticalMap(p: Props) {
             ),
           )}
 
-          {p.schematic?.ponds.map((pond) => {
-            const q = px(pond.center);
-            return (
-              <G key={pond.id}>
-                <Ellipse
-                  cx={q.x}
-                  cy={q.y}
-                  rx={pond.rx / p.mpp + 5}
-                  ry={pond.ry / p.mpp + 5}
-                  rotation={pond.rot}
-                  origin={`${q.x}, ${q.y}`}
-                  fill={colors.tule}
-                  opacity={0.35}
-                />
-                <Ellipse
-                  cx={q.x}
-                  cy={q.y}
-                  rx={pond.rx / p.mpp}
-                  ry={pond.ry / p.mpp}
-                  rotation={pond.rot}
-                  origin={`${q.x}, ${q.y}`}
-                  fill={colors.waterDeep}
-                  stroke={colors.water}
-                  strokeWidth={1.5}
-                />
-                <SvgText x={q.x} y={q.y + 4} fill="#6f9da1" fontSize={11} fontWeight="600" textAnchor="middle">
-                  {pond.label}
-                </SvgText>
-              </G>
-            );
-          })}
-
-          {p.schematic?.landmarks.map((l) => {
+          {p.landmarks.map((l) => {
             const q = px(l.at);
             return (
               <G key={l.id}>

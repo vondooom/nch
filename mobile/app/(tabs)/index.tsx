@@ -6,6 +6,8 @@ import { colors, fonts, radius, spacing, type } from "@/constants/theme";
 import { Bar, Button, Card, Chip, Header, Screen, SectionLabel, Sheet } from "@/components/ui";
 import { WindDial } from "@/components/WindDial";
 import { AGENCY_LABEL, ENTRY_TYPE_SOURCE_URL, HARVEST_SOURCE_LABEL, HARVEST_SOURCE_URL, REFUGES, Refuge } from "@/lib/refuges";
+import { INDEX_WEEK } from "@/lib/harvestWeeks";
+import { mapFor } from "@/lib/refugeMaps";
 import { duckStatusForZone, GameStatus, gooseStatusForZone, isoDay, SEASON_YEAR, WaterfowlZoneId, ZONE_BY_ID } from "@/lib/regs";
 import { computeIndex, IndexResult, NO_HARVEST, ratingColor } from "@/lib/huntIndex";
 import { arrowFor, cardinal, distanceMeters, windArrowDeg } from "@/lib/geo";
@@ -201,6 +203,10 @@ export default function HuntIndexScreen() {
           {error && live ? " · partial refresh" : ""}
         </Text>
       </View>
+      <Pressable onPress={() => Linking.openURL(HARVEST_SOURCE_URL)} hitSlop={6} style={styles.liveRow}>
+        <Ionicons name="document-text-outline" size={12} color={colors.inkFaint} />
+        <Text style={[type.caption, styles.link]}>{INDEX_WEEK.label} · CDFW Doc {INDEX_WEEK.docId}</Text>
+      </Pressable>
 
       {best ? (
         <Pressable onPress={() => setOpenId(best.refuge.id)}>
@@ -318,8 +324,8 @@ export default function HuntIndexScreen() {
 
       <Text style={[type.caption, styles.footnote]}>
         Index = Wind 20 + Weather Change 20 + Recent Hunter Reports 20 + Barometer 15 + Migration 15 + Temperature 10.
-        Hunter reports = birds per hunter from the official {HARVEST_SOURCE_LABEL} week totals. Areas missing from that report show
-        no score until CDFW lists them.
+        Hunter reports = birds per hunter from the official {HARVEST_SOURCE_LABEL} week totals. An area missing from that report
+        uses its latest older CDFW week, labeled with those dates; an area in no report shows no score until CDFW lists it.
       </Text>
 
       <Sheet
@@ -418,6 +424,9 @@ function RefugeCard({ row, fav, onFav, onPress }: { row: Row; fav: boolean; onFa
             <Text style={type.caption}>
               {AGENCY_LABEL[refuge.agency]} · {refuge.region} · {refuge.coords.lat.toFixed(4)}, {refuge.coords.lon.toFixed(4)}
             </Text>
+            {refuge.harvest && !refuge.harvest.isIndexWeek ? (
+              <Text style={[type.caption, { color: colors.warn }]}>Hunter reports: CDFW {refuge.harvest.range} (not in {INDEX_WEEK.range})</Text>
+            ) : null}
           </View>
           <Pressable onPress={onFav} hitSlop={10} accessibilityLabel={fav ? "Remove from favorites" : "Add to favorites"}>
             <Ionicons name={fav ? "star" : "star-outline"} size={22} color={fav ? colors.accent : colors.inkFaint} />
@@ -474,6 +483,8 @@ function RefugeDetail({ row, fav, onFav, onMap }: { row: Row; fav: boolean; onFa
           </Text>
           {index.total == null ? (
             <Text style={type.caption}>Not in the {HARVEST_SOURCE_LABEL} report, so there&apos;s no Index score. Weather below is still live.</Text>
+          ) : harvest && !harvest.isIndexWeek ? (
+            <Text style={type.caption}>Hunter reports from {harvest.range} — {refuge.short} isn&apos;t in the {INDEX_WEEK.range} report.</Text>
           ) : null}
           <Button label={fav ? "Favorite" : "Add to favorites"} icon={fav ? "star" : "star-outline"} variant="ghost" onPress={onFav} />
         </View>
@@ -561,7 +572,7 @@ function RefugeDetail({ row, fav, onFav, onMap }: { row: Row; fav: boolean; onFa
         </Pressable>
       </Card>
 
-      <SectionLabel>{refuge.harvest ? `CDFW harvest · ${refuge.harvest.week}` : "CDFW harvest"}</SectionLabel>
+      <SectionLabel>{harvest ? `CDFW harvest · ${harvest.range}` : "CDFW harvest"}</SectionLabel>
       <Card>
         {harvest ? (
           <>
@@ -587,8 +598,18 @@ function RefugeDetail({ row, fav, onFav, onMap }: { row: Row; fav: boolean; onFa
                 ))
               )
             ) : null}
+            {!harvest.isIndexWeek ? (
+              <Text style={[type.caption, { color: colors.warn, marginTop: spacing.sm }]}>
+                Older week: {refuge.short} isn&apos;t listed in the {INDEX_WEEK.range} report, so these are its {harvest.range} numbers.
+              </Text>
+            ) : null}
+            {harvest.prior ? (
+              <Text style={[type.caption, { marginTop: spacing.sm }]}>
+                Week before ({harvest.prior.range}): {harvest.prior.birdsPerHunter.toFixed(2)} birds/hunter · {harvest.prior.hunters} hunters
+              </Text>
+            ) : null}
             <Text style={[type.caption, { marginTop: spacing.sm }]}>
-              Week totals from CDFW&apos;s weekly hunt results. CDFW lists each day&apos;s top two species, not bag shares.
+              Week totals from CDFW&apos;s weekly hunt results (Doc {harvest.docId}). CDFW lists each day&apos;s top two species, not bag shares.
             </Text>
           </>
         ) : (
@@ -599,14 +620,23 @@ function RefugeDetail({ row, fav, onFav, onMap }: { row: Row; fav: boolean; onFa
             </Text>
           </>
         )}
-        <Pressable onPress={() => Linking.openURL(HARVEST_SOURCE_URL)} hitSlop={6}>
-          <Text style={[type.caption, styles.link, { marginTop: spacing.sm }]}>Open the CDFW report</Text>
+        <Pressable onPress={() => Linking.openURL(harvest?.sourceUrl ?? HARVEST_SOURCE_URL)} hitSlop={6}>
+          <Text style={[type.caption, styles.link, { marginTop: spacing.sm }]}>Open the CDFW report{harvest ? ` · ${harvest.range}` : ""}</Text>
         </Pressable>
       </Card>
 
       <Text style={[type.body, { color: colors.inkMuted, fontStyle: "italic", marginVertical: spacing.md }]}>{refuge.character}</Text>
 
       <Button label="Open on GPS map" icon="navigate" onPress={onMap} />
+      {mapFor(refuge) ? (
+        <Button
+          label="Official hunt map"
+          icon="map-outline"
+          variant="ghost"
+          onPress={() => Linking.openURL(mapFor(refuge)!.url)}
+          style={{ marginTop: spacing.sm }}
+        />
+      ) : null}
       {refuge.url ? (
         <Button label={`${refuge.agency} area page`} icon="open-outline" variant="ghost" onPress={() => Linking.openURL(refuge.url!)} style={{ marginTop: spacing.sm }} />
       ) : null}

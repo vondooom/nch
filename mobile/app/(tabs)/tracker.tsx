@@ -53,9 +53,11 @@ import { confirm } from "@/lib/confirm";
 import { isSupabaseConfigured, onLegacySchema, pullMyHunts, pushHunts, SIGN_IN_TO_SYNC } from "@/lib/supabase";
 import { useAuth } from "@/lib/auth";
 import { KEYS, readJSON, writeJSON } from "@/lib/storage";
+import { DrawsPanel } from "@/components/DrawsPanel";
+import { GroupsPanel } from "@/components/GroupsPanel";
 import { deleteHuntPhoto, explainDenied, photoUri, pickHuntPhoto, PhotoSource } from "@/lib/photos";
 
-type Tab = "log" | "book" | "stats";
+type Tab = "log" | "book" | "stats" | "draws" | "groups";
 
 const hhmm = (d: Date) => `${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`;
 
@@ -300,6 +302,19 @@ export default function TrackerScreen() {
           </Pressable>
         ))}
       </View>
+      <View style={[styles.segment, { marginTop: -spacing.sm }]}>
+        {(
+          [
+            ["draws", "Sweat-Line Draws", "ticket"],
+            ["groups", "Groups", "people"],
+          ] as [Tab, string, keyof typeof Ionicons.glyphMap][]
+        ).map(([k, label, icon]) => (
+          <Pressable key={k} onPress={() => setTab(k)} style={[styles.segBtn, tab === k && styles.segBtnOn]}>
+            <Ionicons name={icon} size={15} color={tab === k ? colors.onAccent : colors.inkMuted} />
+            <Text style={[styles.segText, tab === k && { color: colors.onAccent }]}>{label}</Text>
+          </Pressable>
+        ))}
+      </View>
 
       {notice ? (
         <Pressable onPress={() => setNotice(null)} style={styles.notice}>
@@ -400,6 +415,10 @@ export default function TrackerScreen() {
             }
           }}
         />
+      ) : tab === "draws" ? (
+        <DrawsPanel userId={user?.id ?? null} onNotice={setNotice} />
+      ) : tab === "groups" ? (
+        <GroupsPanel hunts={hunts} spots={spots} userId={user?.id ?? null} onNotice={setNotice} />
       ) : (
         <Stats hunts={hunts} onClearSamples={clearSamples} />
       )}

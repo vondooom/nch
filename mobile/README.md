@@ -21,7 +21,10 @@ npm run web:export   # static web build → dist/
 ## Data
 
 - `data/dispatches.json` — snapshot of the website's newsletter archive (`../lib/archive.json`, read-only). Refresh with `npm run data:dispatches`.
-- `lib/refuges.ts` — refuge coordinates, 14 CCR §551 entry types, and official CDFW weekly harvest totals (Oct 21–25, 2026; areas not in the report have `harvest: null` and no Index score).
+- `lib/refuges.ts` — refuge coordinates, 14 CCR §551 entry types, and official CDFW weekly harvest totals from `lib/harvestWeeks.ts` (Index week Nov 4–8, 2026, DocumentID 248028; an area missing from it falls back to its newest older CDFW week, labeled with those dates; an area in no report has `harvest: null` and no Index score).
+- `lib/refugeMaps.ts` — official hunt-map links per area. The tactical map plots only the HQ pin plus your GPS trail and waypoints, with no invented ponds or blinds.
+- `lib/draws.ts` — sweat-line draw log (local only).
+- `lib/groups.ts` — guide / blind groups (local only until the auth lockdown; see `supabase/migrations/20261111_guide_groups.sql`, not applied).
 - `lib/regs.ts` — 2026–27 seasons and limits as published by the desk.
 - `assets/*.png` — generated from the website logo: `python3 scripts/make-icons.py ../public/media/c287c898-f222-4e06-ba3e-f9d2131869ad.png`.
 

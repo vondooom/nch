@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { Platform, Pressable, ScrollView, StyleSheet, Switch, Text, TextInput, View } from "react-native";
+import { Linking, Platform, Pressable, ScrollView, StyleSheet, Switch, Text, TextInput, View } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import { useFocusEffect, useLocalSearchParams } from "expo-router";
 import { colors, fonts, radius, spacing, type } from "@/constants/theme";
@@ -20,7 +20,8 @@ import {
   mpsToMph,
   norm360,
 } from "@/lib/geo";
-import { REFUGE_BY_ID, REFUGES, schematicFor } from "@/lib/refuges";
+import { REFUGE_BY_ID, REFUGES } from "@/lib/refuges";
+import { landmarksFor, MAP_COMING, mapFor } from "@/lib/refugeMaps";
 import {
   appendPoints,
   clearTrack,
@@ -50,7 +51,8 @@ export default function MapScreen() {
   const params = useLocalSearchParams<{ refuge?: string }>();
   const [refugeId, setRefugeId] = useState(params.refuge && REFUGE_BY_ID[params.refuge] ? params.refuge : REFUGES[0].id);
   const refuge = REFUGE_BY_ID[refugeId];
-  const schematic = useMemo(() => schematicFor(refuge), [refuge]);
+  const landmarks = useMemo(() => landmarksFor(refuge), [refuge]);
+  const officialMap = mapFor(refuge);
   const { map: weather } = useWeather();
   const wx = weather[refugeId];
 
@@ -156,18 +158,12 @@ export default function MapScreen() {
       stopTrack();
       await stopBackgroundTracking();
     }
-    const lot = schematic.landmarks.find((l) => l.kind === "parking")!.at;
+    // Simulation only: start at the HQ / check-station pin and walk ~650 m out.
+    // The sim blind is a made-up point, labeled "(sim)" — not a real blind.
     let truck = waypoints.find((w) => w.kind === "truck" && w.refugeId === refugeId);
     let blind = waypoints.find((w) => w.kind === "blind" && w.refugeId === refugeId);
-    const start: LatLon = truck ?? lot;
-    let goal: LatLon;
-    if (blind) goal = blind;
-    else {
-      // A pond a real walk-in away (~650 m), not the one beside the lot.
-      const walk = (c: LatLon) => Math.abs(distanceMeters(start, c) - 650);
-      const pond = schematic.ponds.reduce((a, b) => (walk(b.center) < walk(a.center) ? b : a));
-      goal = destination(pond.center, bearingTrue(pond.center, start), Math.min(pond.rx, pond.ry) * 0.9);
-    }
+    const start: LatLon = truck ?? refuge.coords;
+    const goal: LatLon = blind ?? destination(start, 35 + Math.random() * 60, 650);
     const added: Waypoint[] = [];
     const mk = (kind: WaypointKind, label: string, at: LatLon, notes: string): Waypoint => ({
       id: newId("wp"),
@@ -180,8 +176,8 @@ export default function MapScreen() {
       createdAt: Date.now(),
       refugeId,
     });
-    if (!truck) added.push((truck = mk("truck", `Truck · ${refuge.short} (sim)`, start, "Simulated parking spot")));
-    if (!blind) added.push((blind = mk("blind", `Blind · ${refuge.short} (sim)`, goal, "Simulated blind on the pond edge")));
+    if (!truck) added.push((truck = mk("truck", `Truck · ${refuge.short} (sim)`, start, "Simulated start at the HQ pin")));
+    if (!blind) added.push((blind = mk("blind", `Blind · ${refuge.short} (sim)`, goal, "Simulated point ~650 m out — not a real blind")));
     if (added.length) commitWaypoints([...waypoints, ...added]);
     setTargetId(blind.id);
 
@@ -319,7 +315,7 @@ export default function MapScreen() {
             center={center}
             anchor={refuge.coords}
             mpp={mpp}
-            schematic={schematic}
+            landmarks={landmarks}
             track={track.points}
             waypoints={waypoints}
             me={fix}
@@ -346,8 +342,23 @@ export default function MapScreen() {
       <View style={styles.viewRow}>
         <Chip label="Tactical" icon="grid" active={view === "tactical"} onPress={() => setView("tactical")} />
         {nativeMapAvailable ? <Chip label="Satellite" icon="earth" active={view === "satellite"} onPress={() => setView("satellite")} /> : null}
-        <Text style={[type.caption, styles.flex, { textAlign: "right" }]}>Ponds are schematic · trail & pins are GPS</Text>
+        <Text style={[type.caption, styles.flex, { textAlign: "right" }]}>HQ pin · your trail & pins are GPS</Text>
       </View>
+
+      <Card style={styles.officialCard}>
+        <Text style={type.eyebrow}>Blinds & units · {refuge.short}</Text>
+        <Text style={[type.body, { fontSize: 14, marginTop: 2 }]}>{MAP_COMING}</Text>
+        {officialMap ? (
+          <Button
+            label="Official map"
+            icon={officialMap.kind === "pdf" ? "document-text" : "open-outline"}
+            variant="ghost"
+            onPress={() => Linking.openURL(officialMap.url)}
+            style={{ marginTop: spacing.sm }}
+          />
+        ) : null}
+        {officialMap ? <Text style={[type.caption, { marginTop: 4 }]}>{officialMap.label}</Text> : null}
+      </Card>
 
       {notice ? (
         <Pressable onPress={() => setNotice(null)} style={styles.notice}>
@@ -685,6 +696,7 @@ const styles = StyleSheet.create({
     marginBottom: spacing.md,
   },
   returnCard: { borderColor: colors.borderStrong },
+  officialCard: { marginBottom: spacing.md },
   returnRow: { flexDirection: "row", gap: spacing.lg, alignItems: "center" },
   returnDist: { ...type.numeral, fontSize: 40, lineHeight: 44 },
   arrowWrap: { width: 84, height: 84, borderRadius: 42, borderWidth: 2, alignItems: "center", justifyContent: "center", backgroundColor: colors.bgSunken },

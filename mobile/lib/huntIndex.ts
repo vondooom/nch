@@ -95,7 +95,7 @@ function reportsScore(r: Refuge): SubScore {
     label: "Recent Hunter Reports",
     score: Math.round(v),
     max: 20,
-    note: `${bph.toFixed(2)} birds/hunter · ${r.harvest.hunters} hunters checked`,
+    note: `${bph.toFixed(2)} birds/hunter · ${r.harvest.hunters} hunters checked${r.harvest.isIndexWeek ? "" : ` · CDFW ${r.harvest.range}`}`,
   };
 }
 
