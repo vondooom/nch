@@ -66,6 +66,10 @@ async function requireSession(): Promise<Session> {
 // Until the auth migration is applied there's no user_id column. Fall back to
 // the starter team_code model so TestFlight sync keeps working in the meantime.
 let legacySchema = false;
+/** True once the live DB has shown it has no hunt_logs.user_id column yet. */
+export const onLegacySchema = () => legacySchema;
+export const LEGACY_NEEDS_TEAM =
+  "Per-account sync isn't switched on at the server yet, so hunts sync by team name for now — pick a team chip (or log a hunt with a team name) and sync again.";
 const missingUserId = (e: PostgrestError) =>
   e.code === "PGRST204" || e.code === "42703" || (/user_id/.test(e.message) && /column/i.test(e.message));
 
@@ -124,7 +128,7 @@ export async function pullMyHunts(legacyTeamCode?: string): Promise<HuntLog[]> {
   let res = legacySchema ? null : await selectHunts({ column: "user_id", value: session.user.id });
   if (!res || (res.error && missingUserId(res.error))) {
     legacySchema = true;
-    if (!legacyTeamCode || !teamSyncable(legacyTeamCode)) return [];
+    if (!legacyTeamCode || !teamSyncable(legacyTeamCode)) throw new Error(LEGACY_NEEDS_TEAM);
     res = await selectHunts({ column: "team_code", value: teamKey(legacyTeamCode) });
   }
   if (res.error) throw new Error(res.error.message);

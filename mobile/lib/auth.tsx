@@ -1,6 +1,6 @@
 import { createContext, ReactNode, useContext, useEffect, useMemo, useState } from "react";
 import { AppState } from "react-native";
-import type { Session, User } from "@supabase/supabase-js";
+import { isAuthSessionMissingError, type Session, type User } from "@supabase/supabase-js";
 import { getSupabase, isSupabaseConfigured } from "./supabase";
 
 // Supabase Auth, email one-time code. The session persists in AsyncStorage
@@ -66,8 +66,20 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       },
       async signOut() {
         if (!isSupabaseConfigured) return;
-        const { error } = await getSupabase().auth.signOut();
-        if (error) throw new Error(error.message);
+        const sb = getSupabase();
+        const { error } = await sb.auth.signOut();
+        if (!error) return;
+        // Session already gone (expired, revoked, signed out elsewhere): that's
+        // the state we wanted — don't block the hunter on it.
+        if (isAuthSessionMissingError(error) || /session (not found|missing)/i.test(error.message)) {
+          await sb.auth.signOut({ scope: "local" });
+          return;
+        }
+        // Server unreachable or refused: still clear this phone's session so
+        // sign-out never sticks, but tell the hunter what happened.
+        const local = await sb.auth.signOut({ scope: "local" });
+        if (local.error) throw new Error(local.error.message);
+        throw new Error(`signed out on this phone, but the server didn't confirm (${error.message})`);
       },
     }),
     [session, loading],

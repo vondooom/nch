@@ -95,7 +95,9 @@ export const ZONES: Zone[] = [
       row("Ducks", "2026-10-24", "2027-01-31", DUCK),
       row("Geese", "2026-10-24", "2027-01-31", GOOSE),
       row("Scaup (Bluebill)", "2026-11-07", "2027-01-31", NONE),
-      row("Veterans Hunt Days", "2027-02-06", "2027-02-07", DUCK, { limited: "veterans only" }),
+      // CDFW doesn't say "ducks only" for this zone's veterans days (unlike
+      // Balance of State / Northeastern), so the row feeds both status lines.
+      row("Veterans Hunt Days", "2027-02-06", "2027-02-07", BOTH, { limited: "veterans only" }),
       row("Youth Hunt Days", "2027-02-13", "2027-02-14", BOTH, { limited: "youth only" }),
     ],
   },
@@ -108,7 +110,9 @@ export const ZONES: Zone[] = [
       row("Ducks", "2026-10-24", "2027-01-31", DUCK),
       row("Geese", "2026-10-24", "2027-01-31", GOOSE),
       row("Scaup (Bluebill)", "2026-11-07", "2027-01-31", NONE),
-      row("Veterans Hunt Days", "2027-02-06", "2027-02-07", DUCK, { limited: "veterans only" }),
+      // CDFW doesn't say "ducks only" for this zone's veterans days (unlike
+      // Balance of State / Northeastern), so the row feeds both status lines.
+      row("Veterans Hunt Days", "2027-02-06", "2027-02-07", BOTH, { limited: "veterans only" }),
       row("Youth Hunt Days", "2027-02-13", "2027-02-14", BOTH, { limited: "youth only" }),
     ],
   },

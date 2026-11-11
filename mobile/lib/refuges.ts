@@ -17,20 +17,44 @@ import type { WaterfowlZoneId } from "./regs";
 //   - North Grasslands: OSM nature_reserve; https://wildlife.ca.gov/Lands/Places-to-Visit/North-Grasslands-WA
 // Zones per CDFW 2026–27 waterfowl regulations (https://wildlife.ca.gov/hunting/waterfowl).
 //
-// Harvest
-// figures are DESK FIGURES: entered by the editors from the weekly CDFW / USFWS
-// waterfowl harvest summaries (wildlife.ca.gov → Waterfowl → Hunting Results)
-// and shown with that caveat in the UI. Update `harvest` each week — the
-// "Recent Hunter Reports" sub-score reads straight from birdsPerHunter.
+// ── Harvest ────────────────────────────────────────────────────────────────
+// OFFICIAL CDFW WEEKLY TOTALS. Every area uses the same report so the
+// "Recent Hunter Reports" sub-score compares like with like:
+//   CDFW "2026-2027 Waterfowl Hunt Results", shoot days Oct 21–25, 2026
+//   https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=247861&inline=
+//   (catalog: https://nrm.dfg.ca.gov/documents/ContextDocs.aspx?cat=WLB-WaterfowlHunting)
+// Balance of State / Southern SJ Valley areas shot Oct 24–25 (opener weekend);
+// Northeastern areas also shot Wed Oct 21.
+//
+// hunters   = sum of "# OF HUNTERS" across the week's listed days
+// waterfowl = sum of "# OF WATERFOWL" across the same days
+// birdsPerHunter = waterfowl / hunters (precise ratio; the UI rounds)
+//
+// CDFW publishes only the #1 and #2 species code per day — not bag shares —
+// so `species` lists the codes seen that week, by name, with no percentages.
+// An area missing from the report gets `harvest: null` and the Index hides its
+// score rather than pretending reports were zero.
+//
+// ── Entry type ─────────────────────────────────────────────────────────────
+// Type A / B / C from Cal. Code Regs. tit. 14, § 551 (amendments filed
+// 6-7-2024, operative 7-1-2024, Register 2024 No. 23):
+// https://www.law.cornell.edu/regulations/california/14-CCR-551
+// State areas are listed under §551(b); the federal refuges here are Type A
+// under §551(c).
 
-export type SpeciesShare = { species: string; pct: number };
+export const HARVEST_SOURCE_URL = "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=247861&inline=";
+export const HARVEST_SOURCE_LABEL = "CDFW 2026-27 Waterfowl Hunt Results · Oct 21–25, 2026";
+export const ENTRY_TYPE_SOURCE_URL = "https://www.law.cornell.edu/regulations/california/14-CCR-551";
+
+/** pct is optional: CDFW's weekly report names top species but not bag shares. */
+export type SpeciesShare = { species: string; pct?: number };
 
 export type Harvest = {
-  week: string;              // which shoot days these averages cover
-  birdsPerHunter: number;
-  hunters: number;           // hunters checked through
-  quota: string;             // how you get in
-  species: SpeciesShare[];   // top species, % of the bag
+  week: string;              // which report / shoot days these totals cover
+  birdsPerHunter: number;    // waterfowl / hunters for the week
+  hunters: number;           // hunters checked through, week total
+  waterfowl: number;         // waterfowl checked through, week total
+  species: SpeciesShare[];   // top species codes seen that week (names only)
 };
 
 export type Refuge = {
@@ -46,7 +70,10 @@ export type Refuge = {
   coords: LatLon;
   /** Inside the Sacramento Valley Special Management Area (3 white-fronts/day). */
   svsma: boolean;
-  harvest: Harvest;
+  /** How you get in — entry type per 14 CCR § 551. Shown even with no harvest. */
+  quota: string;
+  /** Latest official weekly totals, or null when the area wasn't in the report. */
+  harvest: Harvest | null;
   /** A line from the desk on how the place hunts. */
   character: string;
   /** Agency page for the area. */
@@ -55,9 +82,38 @@ export type Refuge = {
 
 export const AGENCY_LABEL: Record<Refuge["agency"], string> = { USFWS: "Federal", CDFW: "State" };
 
-const OPENER = "Opener weekend · Oct 24–25, 2026";
-// Areas added in Build 4 carry seed numbers until the desk enters a real week.
-const DESK_SEED = "Desk seed · first weekly report not entered yet";
+const WEEK_OPENER = "CDFW weekly results · Oct 24–25, 2026";
+const WEEK_NE = "CDFW weekly results · Oct 21–25, 2026";
+
+// CDFW species codes → names.
+const SPECIES_CODE = {
+  MALL: "Mallard",
+  AGWT: "Green-winged Teal",
+  NSHO: "Northern Shoveler",
+  NOPI: "Northern Pintail",
+  AMWI: "American Wigeon",
+  GADW: "Gadwall",
+  GWFG: "White-fronted Goose",
+  CITE: "Cinnamon Teal",
+  WODU: "Wood Duck",
+} as const;
+type SpeciesCode = keyof typeof SPECIES_CODE;
+
+function week(label: string, hunters: number, waterfowl: number, codes: SpeciesCode[]): Harvest {
+  return {
+    week: label,
+    hunters,
+    waterfowl,
+    birdsPerHunter: waterfowl / hunters,
+    species: codes.map((c) => ({ species: SPECIES_CODE[c] })),
+  };
+}
+
+const TYPE_A = "Type A area · daily entry permit by reservation drawing or first-come line";
+const TYPE_A_FED = "Federal refuge · Type A under 14 CCR §551(c) · reservation drawing or first-come line";
+const TYPE_B =
+  "Type B area · buy a Type A or B season pass in advance and exchange it for an entry permit · reservations required opening weekend · shoot days Wed/Sat/Sun";
+const UPPER_BUTTE = `${TYPE_A} · Upper Butte Basin WA (Howard Slough, Little Dry Creek & Llano Seco units) · 14 CCR §551(b)(102)`;
 
 export const REFUGES: Refuge[] = [
   {
@@ -70,19 +126,9 @@ export const REFUGES: Refuge[] = [
     zoneId: "balance-of-state",
     coords: { lat: 39.4028, lon: -122.1836 },
     svsma: true,
-    harvest: {
-      week: OPENER,
-      birdsPerHunter: 3.9,
-      hunters: 412,
-      quota: "Reservation draw + first-come line · assigned ponds & spaced blinds",
-      species: [
-        { species: "Northern Pintail", pct: 24 },
-        { species: "Green-winged Teal", pct: 21 },
-        { species: "Mallard", pct: 16 },
-        { species: "American Widgeon", pct: 14 },
-        { species: "White-fronted Goose", pct: 9 },
-      ],
-    },
+    quota: `${TYPE_A_FED} · assigned ponds & spaced blinds`,
+    // "Sacramento": 10/24 188 hunters / 521 wf; 10/25 108 / 264 → 296 / 785 = 2.65
+    harvest: week(WEEK_OPENER, 296, 785, ["NSHO", "MALL", "AGWT"]),
     character: "Big water and big flights. The spaced blinds reward a tight spread and a hunter who stays still.",
   },
   {
@@ -95,19 +141,9 @@ export const REFUGES: Refuge[] = [
     zoneId: "balance-of-state",
     coords: { lat: 39.3183, lon: -122.1069 },
     svsma: true,
-    harvest: {
-      week: OPENER,
-      birdsPerHunter: 3.4,
-      hunters: 248,
-      quota: "Reservation draw + first-come line · assigned blinds & free roam",
-      species: [
-        { species: "Green-winged Teal", pct: 26 },
-        { species: "Northern Pintail", pct: 22 },
-        { species: "Northern Shoveler", pct: 15 },
-        { species: "Mallard", pct: 13 },
-        { species: "White-fronted Goose", pct: 8 },
-      ],
-    },
+    quota: `${TYPE_A_FED} · assigned blinds & free roam`,
+    // 10/24 142 / 609; 10/25 112 / 330 → 254 / 939 = 3.70
+    harvest: week(WEEK_OPENER, 254, 939, ["NOPI", "NSHO"]),
     character: "Teal factory early. Free-roam hunters who scout the tule edges the day before do best.",
   },
   {
@@ -120,19 +156,9 @@ export const REFUGES: Refuge[] = [
     zoneId: "balance-of-state",
     coords: { lat: 39.1706, lon: -122.0469 },
     svsma: true,
-    harvest: {
-      week: OPENER,
-      birdsPerHunter: 3.1,
-      hunters: 186,
-      quota: "Reservation draw + first-come line · spaced blinds",
-      species: [
-        { species: "Northern Pintail", pct: 23 },
-        { species: "Green-winged Teal", pct: 22 },
-        { species: "American Widgeon", pct: 16 },
-        { species: "Mallard", pct: 14 },
-        { species: "White-fronted Goose", pct: 7 },
-      ],
-    },
+    quota: `${TYPE_A_FED} · spaced blinds`,
+    // 10/24 121 / 415; 10/25 69 / 196 → 190 / 611 = 3.22
+    harvest: week(WEEK_OPENER, 190, 611, ["AGWT", "NSHO", "GWFG"]),
     character: "Smaller units that burn out fast under pressure. Midweek and post-front days shine.",
   },
   {
@@ -145,19 +171,9 @@ export const REFUGES: Refuge[] = [
     zoneId: "balance-of-state",
     coords: { lat: 39.4614, lon: -121.8783 },
     svsma: true,
-    harvest: {
-      week: OPENER,
-      birdsPerHunter: 2.8,
-      hunters: 164,
-      quota: "Type A area · reservation draw + sweat line at the check station",
-      species: [
-        { species: "Mallard", pct: 22 },
-        { species: "Green-winged Teal", pct: 20 },
-        { species: "Northern Pintail", pct: 18 },
-        { species: "Wood Duck", pct: 9 },
-        { species: "White-fronted Goose", pct: 12 },
-      ],
-    },
+    quota: UPPER_BUTTE,
+    // 10/24 50 / 156; 10/25 29 / 58 → 79 / 214 = 2.71
+    harvest: week(WEEK_OPENER, 79, 214, ["AMWI", "GWFG", "AGWT"]),
     character: "Butte Creek timber and flooded ag. Specs pile in after the first real north wind.",
     url: "https://wildlife.ca.gov/Lands/Places-to-Visit/Upper-Butte-Basin-WA",
   },
@@ -171,19 +187,9 @@ export const REFUGES: Refuge[] = [
     zoneId: "balance-of-state",
     coords: { lat: 39.6052, lon: -121.9103 },
     svsma: true,
-    harvest: {
-      week: OPENER,
-      birdsPerHunter: 2.7,
-      hunters: 78,
-      quota: "Type A area · reservation draw + morning lottery + sweat line · ~78 hunters · check station at Seven Mile Lane & Nelson Rd",
-      species: [
-        { species: "Mallard", pct: 21 },
-        { species: "Green-winged Teal", pct: 21 },
-        { species: "Northern Pintail", pct: 18 },
-        { species: "American Widgeon", pct: 11 },
-        { species: "White-fronted Goose", pct: 11 },
-      ],
-    },
+    quota: UPPER_BUTTE,
+    // 10/24 29 / 50; 10/25 25 / 39 → 54 / 89 = 1.65
+    harvest: week(WEEK_OPENER, 54, 89, ["GWFG", "AMWI"]),
     character: "The third Upper Butte unit — the one Tad kept asking for. Butte Basin timber and wetlands; quieter than Howard Slough once the lottery shakes out.",
     url: "https://wildlife.ca.gov/Lands/Places-to-Visit/Upper-Butte-Basin-WA",
   },
@@ -197,19 +203,9 @@ export const REFUGES: Refuge[] = [
     zoneId: "balance-of-state",
     coords: { lat: 39.3931, lon: -121.8839 },
     svsma: true,
-    harvest: {
-      week: OPENER,
-      birdsPerHunter: 2.6,
-      hunters: 132,
-      quota: "Type A area · reservation draw + sweat line",
-      species: [
-        { species: "Green-winged Teal", pct: 24 },
-        { species: "Mallard", pct: 19 },
-        { species: "Northern Pintail", pct: 17 },
-        { species: "American Widgeon", pct: 12 },
-        { species: "White-fronted Goose", pct: 10 },
-      ],
-    },
+    quota: UPPER_BUTTE,
+    // 10/24 58 / 192; 10/25 44 / 113 → 102 / 305 = 2.99
+    harvest: week(WEEK_OPENER, 102, 305, ["MALL", "AMWI"]),
     character: "Walk-in water off the Butte Basin. Waders, a headlamp, and the breadcrumb trail earn their keep here.",
     url: "https://wildlife.ca.gov/Lands/Places-to-Visit/Upper-Butte-Basin-WA",
   },
@@ -223,19 +219,9 @@ export const REFUGES: Refuge[] = [
     zoneId: "balance-of-state",
     coords: { lat: 39.3255, lon: -121.8178 },
     svsma: true,
-    harvest: {
-      week: OPENER,
-      birdsPerHunter: 3.2,
-      hunters: 388,
-      quota: "Type A area · reservation draw + large sweat line · free roam",
-      species: [
-        { species: "Northern Pintail", pct: 21 },
-        { species: "Green-winged Teal", pct: 20 },
-        { species: "Mallard", pct: 17 },
-        { species: "American Widgeon", pct: 13 },
-        { species: "Snow/Ross's Goose", pct: 10 },
-      ],
-    },
+    quota: `${TYPE_A} · 14 CCR §551(b)(40)`,
+    // 10/24 170 / 335; 10/25 81 / 137 → 251 / 472 = 1.88
+    harvest: week(WEEK_OPENER, 251, 472, ["MALL", "GADW", "NSHO"]),
     character: "The Buttes on the horizon and birds in every direction. Busy — get away from the parking-lot ponds.",
   },
   {
@@ -248,19 +234,9 @@ export const REFUGES: Refuge[] = [
     zoneId: "balance-of-state",
     coords: { lat: 38.5505, lon: -121.6260 },
     svsma: false,
-    harvest: {
-      week: OPENER,
-      birdsPerHunter: 2.4,
-      hunters: 210,
-      quota: "Type A area · reservation draw + first-come · Wed/Sat/Sun",
-      species: [
-        { species: "Northern Shoveler", pct: 23 },
-        { species: "Green-winged Teal", pct: 21 },
-        { species: "Mallard", pct: 18 },
-        { species: "Gadwall", pct: 11 },
-        { species: "Northern Pintail", pct: 10 },
-      ],
-    },
+    quota: `${TYPE_A} · 14 CCR §551(b)(109)`,
+    // Report name "Yolo": 10/24 212 / 914; 10/25 135 / 352 → 347 / 1266 = 3.65
+    harvest: week(WEEK_OPENER, 347, 1266, ["NSHO", "AGWT"]),
     character: "In sight of the Causeway. Shallow, windy, and better the morning after a storm pushes birds off the rice.",
   },
   {
@@ -273,19 +249,10 @@ export const REFUGES: Refuge[] = [
     zoneId: "balance-of-state",
     coords: { lat: 38.1419, lon: -121.9769 },
     svsma: false,
-    harvest: {
-      week: OPENER,
-      birdsPerHunter: 2.1,
-      hunters: 154,
-      quota: "Type A area · reservation draw · tidal Suisun Marsh units",
-      species: [
-        { species: "Mallard", pct: 24 },
-        { species: "Gadwall", pct: 18 },
-        { species: "Northern Shoveler", pct: 17 },
-        { species: "Green-winged Teal", pct: 15 },
-        { species: "American Widgeon", pct: 11 },
-      ],
-    },
+    quota:
+      "Mixed entry types by unit · Type A: Crescent, Crescent Family, Grizzly Island, Joice Island · Type B: Goodyear Slough, Island Slough, West Family · Type C: Grey Goose · 14 CCR §551(b)(42)",
+    // 10/24 278 / 779; 10/25 95 / 128 → 373 / 907 = 2.43
+    harvest: week(WEEK_OPENER, 373, 907, ["NSHO", "AGWT"]),
     character: "Suisun wind is the whole game. On a howler the birds stay low and decoy hard to the lee side.",
   },
   {
@@ -298,19 +265,13 @@ export const REFUGES: Refuge[] = [
     zoneId: "southern-san-joaquin",
     coords: { lat: 37.3188, lon: -120.9600 },
     svsma: false,
-    harvest: {
-      week: DESK_SEED,
-      birdsPerHunter: 2.6,
-      hunters: 120,
-      quota: "State wildlife area · China Island, Gadwall & Salt Slough units · check CDFW for entry type & reservations",
-      species: [
-        { species: "Green-winged Teal", pct: 25 },
-        { species: "Northern Shoveler", pct: 19 },
-        { species: "Northern Pintail", pct: 17 },
-        { species: "Gadwall", pct: 12 },
-        { species: "Mallard", pct: 10 },
-      ],
-    },
+    quota: `${TYPE_A} · China Island, Gadwall & Salt Slough units · 14 CCR §551(b)(71)`,
+    // Three-unit total (CDFW reports each unit separately):
+    //   China Island 10/24 10 / 13;  10/25 1 / 7
+    //   Gadwall      10/24 36 / 150; 10/25 25 / 60
+    //   Salt Slough  10/24 72 / 178; 10/25 47 / 52
+    //   → 191 hunters / 460 waterfowl = 2.41
+    harvest: week(WEEK_OPENER, 191, 460, ["MALL", "AGWT", "NSHO", "WODU"]),
     character: "Three units strung along the San Joaquin. Know which one you drew before you leave the truck.",
     url: "https://wildlife.ca.gov/Lands/Places-to-Visit/North-Grasslands-WA",
   },
@@ -324,19 +285,9 @@ export const REFUGES: Refuge[] = [
     zoneId: "southern-san-joaquin",
     coords: { lat: 37.1819, lon: -120.8225 },
     svsma: false,
-    harvest: {
-      week: OPENER,
-      birdsPerHunter: 3.5,
-      hunters: 236,
-      quota: "Reservation draw + first-come · spaced blinds & free roam units",
-      species: [
-        { species: "Green-winged Teal", pct: 27 },
-        { species: "Northern Shoveler", pct: 19 },
-        { species: "Northern Pintail", pct: 18 },
-        { species: "Mallard", pct: 12 },
-        { species: "American Widgeon", pct: 9 },
-      ],
-    },
+    quota: `${TYPE_A_FED} · spaced blinds & free roam units`,
+    // 10/24 123 / 272; 10/25 79 / 113 → 202 / 385 = 1.91
+    harvest: week(WEEK_OPENER, 202, 385, ["MALL", "AGWT"]),
     character: "Grasslands teal on the opener and big pintail flights later. Tule fog can hold shoot light back — be ready.",
   },
   {
@@ -349,19 +300,9 @@ export const REFUGES: Refuge[] = [
     zoneId: "southern-san-joaquin",
     coords: { lat: 37.0999, lon: -120.8184 },
     svsma: false,
-    harvest: {
-      week: OPENER,
-      birdsPerHunter: 3.0,
-      hunters: 198,
-      quota: "Type A area · reservation draw + sweat line",
-      species: [
-        { species: "Green-winged Teal", pct: 25 },
-        { species: "Northern Shoveler", pct: 20 },
-        { species: "Northern Pintail", pct: 17 },
-        { species: "Gadwall", pct: 11 },
-        { species: "Mallard", pct: 10 },
-      ],
-    },
+    quota: `${TYPE_A} · 14 CCR §551(b)(58)`,
+    // 10/24 147 / 377; 10/25 60 / 117 → 207 / 494 = 2.39
+    harvest: week(WEEK_OPENER, 207, 494, ["MALL", "AGWT"]),
     character: "Oldest state area in the system. Heavy shoveler mix; pass on the spoonies early and the pintail will come.",
   },
   {
@@ -374,19 +315,9 @@ export const REFUGES: Refuge[] = [
     zoneId: "southern-san-joaquin",
     coords: { lat: 37.1313, lon: -120.9246 },
     svsma: false,
-    harvest: {
-      week: DESK_SEED,
-      birdsPerHunter: 2.6,
-      hunters: 90,
-      quota: "Type A area · reservation draw + sweat line",
-      species: [
-        { species: "Green-winged Teal", pct: 26 },
-        { species: "Northern Shoveler", pct: 20 },
-        { species: "Northern Pintail", pct: 16 },
-        { species: "Gadwall", pct: 11 },
-        { species: "Mallard", pct: 10 },
-      ],
-    },
+    quota: `${TYPE_A} · 14 CCR §551(b)(103)`,
+    // 10/24 160 / 640; 10/25 108 / 370 → 268 / 1010 = 3.77
+    harvest: week(WEEK_OPENER, 268, 1010, ["MALL", "AGWT", "CITE"]),
     character: "Small Merced grasslands marsh. Tight ponds, so a short spread and a good hide beat a big decoy show.",
     url: "https://wildlife.ca.gov/Lands/Places-to-Visit/Volta-WA",
   },
@@ -400,19 +331,10 @@ export const REFUGES: Refuge[] = [
     zoneId: "southern-san-joaquin",
     coords: { lat: 36.6950, lon: -120.3078 },
     svsma: false,
-    harvest: {
-      week: DESK_SEED,
-      birdsPerHunter: 2.4,
-      hunters: 110,
-      quota: "State wildlife area · check CDFW for entry type & reservations · 30431 W Whitesbridge Ave, Mendota",
-      species: [
-        { species: "Green-winged Teal", pct: 24 },
-        { species: "Northern Shoveler", pct: 21 },
-        { species: "Northern Pintail", pct: 16 },
-        { species: "Gadwall", pct: 12 },
-        { species: "Mallard", pct: 9 },
-      ],
-    },
+    quota: `${TYPE_A} · 14 CCR §551(b)(62) · 30431 W Whitesbridge Ave, Mendota`,
+    // Not listed in the Oct 21–25, 2026 report (DocumentID 247861). No other
+    // week or season average is substituted — the Index hides Mendota's score.
+    harvest: null,
     character: "Way down off Whitesbridge, south of the Grasslands. Fog sits on it some mornings — bring the GPS trail.",
     url: "https://wildlife.ca.gov/Lands/Places-to-Visit/Mendota-WA",
   },
@@ -426,19 +348,9 @@ export const REFUGES: Refuge[] = [
     zoneId: "northeastern",
     coords: { lat: 41.1885, lon: -121.0558 },
     svsma: false,
-    harvest: {
-      week: DESK_SEED,
-      birdsPerHunter: 2.2,
-      hunters: 60,
-      quota: "State wildlife area · check CDFW for entry type & access",
-      species: [
-        { species: "Mallard", pct: 26 },
-        { species: "Gadwall", pct: 18 },
-        { species: "American Widgeon", pct: 16 },
-        { species: "Green-winged Teal", pct: 14 },
-        { species: "Canada Goose", pct: 12 },
-      ],
-    },
+    quota: `${TYPE_B} · 14 CCR §551(b)(2)`,
+    // 10/21 16 / 57; 10/24 22 / 95; 10/25 6 / 14 → 44 / 166 = 3.77
+    harvest: week(WEEK_NE, 44, 166, ["MALL", "NOPI", "AMWI", "AGWT"]),
     character: "Big Valley meadow marsh up in the Northeastern Zone. Opens early and freezes early — hunt it before the ice.",
     url: "https://wildlife.ca.gov/Lands/Places-to-Visit/Ash-Creek-WA",
   },
@@ -452,19 +364,12 @@ export const REFUGES: Refuge[] = [
     zoneId: "northeastern",
     coords: { lat: 40.2986, lon: -120.3764 },
     svsma: false,
-    harvest: {
-      week: DESK_SEED,
-      birdsPerHunter: 2.1,
-      hunters: 70,
-      quota: "State wildlife area · Dakin & Fleming units · check CDFW for entry type & access",
-      species: [
-        { species: "Mallard", pct: 24 },
-        { species: "Gadwall", pct: 19 },
-        { species: "American Widgeon", pct: 15 },
-        { species: "Green-winged Teal", pct: 13 },
-        { species: "Canada Goose", pct: 14 },
-      ],
-    },
+    quota: `${TYPE_B} · Dakin & Fleming units · 14 CCR §551(b)(47)`,
+    // Dakin + Fleming combined (CDFW reports each unit separately):
+    //   Dakin   10/21 5 / 20; 10/24 7 / 19; 10/25 4 / 18
+    //   Fleming 10/21 1 / 6;  10/24 3 / 1;  10/25 3 / 3
+    //   → 23 hunters / 67 waterfowl = 2.91
+    harvest: week(WEEK_NE, 23, 67, ["AGWT", "MALL", "NOPI", "AMWI"]),
     character: "High desert water east of Susanville. Wind off the lake is real — the Dakin and Fleming units hunt differently on it.",
     url: "https://wildlife.ca.gov/Lands/Places-to-Visit/Honey-Lake-WA",
   },

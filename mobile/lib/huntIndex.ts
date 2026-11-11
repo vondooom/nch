@@ -12,11 +12,24 @@ import { pressureTrend, PressureTrend, RefugeWeather } from "./weather";
 //   Wind 20 · Weather Change 20 · Recent Hunter Reports 20
 //   Barometer 15 · Migration Conditions 15 · Temperature 10
 
-export type SubScore = { key: string; label: string; score: number; max: number; note: string };
+export type SubScore = {
+  key: string;
+  label: string;
+  score: number;
+  max: number;
+  note: string;
+  /** No data behind this sub-score (no harvest report) — render "—", not 0. */
+  missing?: boolean;
+};
 
 export type IndexResult = {
-  total: number;
-  rating: Rating;
+  /**
+   * 0–100, or null when the area has no official harvest week. Without the
+   * Recent Hunter Reports input the total would be a fake low score, so the UI
+   * shows "No harvest data yet" instead.
+   */
+  total: number | null;
+  rating: Rating | null;
   subs: SubScore[];
   trend: PressureTrend;
   call: string;          // Tad's one-sentence recommendation
@@ -69,7 +82,12 @@ function changeScore(w: RefugeWeather): SubScore {
   return { key: "change", label: "Weather Change", score: Math.round(clamp(v, 0, 20)), max: 20, note };
 }
 
+export const NO_HARVEST = "No harvest data yet";
+
 function reportsScore(r: Refuge): SubScore {
+  if (!r.harvest) {
+    return { key: "reports", label: "Recent Hunter Reports", score: 0, max: 20, note: `${NO_HARVEST} — not in this week's CDFW report`, missing: true };
+  }
   const bph = r.harvest.birdsPerHunter;
   const v = clamp((bph / 4.5) * 20, 0, 20);
   return {
@@ -77,7 +95,7 @@ function reportsScore(r: Refuge): SubScore {
     label: "Recent Hunter Reports",
     score: Math.round(v),
     max: 20,
-    note: `${bph.toFixed(1)} birds/hunter · ${r.harvest.hunters} checked`,
+    note: `${bph.toFixed(2)} birds/hunter · ${r.harvest.hunters} hunters checked`,
   };
 }
 
@@ -138,9 +156,12 @@ export function decoyTip(windDir: number, windMph: number): string {
   return `Strong ${from} wind: tight U-spread opening ${face}, decoys bunched in the lee, landing hole 20 yds out — birds will drop in fast and low, so shoot early.`;
 }
 
-function tadsCall(total: number, subs: SubScore[], w: RefugeWeather, r: Refuge, trend: PressureTrend): string {
+function tadsCall(total: number | null, subs: SubScore[], w: RefugeWeather, r: Refuge, trend: PressureTrend): string {
   const get = (k: string) => subs.find((s) => s.key === k)!;
   const wind = get("wind");
+  if (total == null) {
+    return `No CDFW harvest report for ${r.short} this week, so no Index score — ${Math.round(w.windMph)} mph out of the ${cardinal(w.windDir)} and ${trend.toLowerCase()} glass. ${wind.note}.`;
+  }
   if (total >= 85) {
     return `Set the alarm early for ${r.short} — ${trend.toLowerCase()} glass, ${Math.round(w.windMph)} mph out of the ${cardinal(w.windDir)} and fresh reports say this is a burn-the-PTO morning.`;
   }
@@ -158,10 +179,10 @@ function tadsCall(total: number, subs: SubScore[], w: RefugeWeather, r: Refuge, 
 export function computeIndex(r: Refuge, w: RefugeWeather, date = new Date()): IndexResult {
   const trend = pressureTrend(w.pressureDelta3h);
   const subs = [windScore(w), changeScore(w), reportsScore(r), baroScore(w, trend), migrationScore(w, date), tempScore(w)];
-  const total = clamp(Math.round(subs.reduce((a, s) => a + s.score, 0)), 0, 100);
+  const total = r.harvest ? clamp(Math.round(subs.reduce((a, s) => a + s.score, 0)), 0, 100) : null;
   return {
     total,
-    rating: ratingFor(total),
+    rating: total == null ? null : ratingFor(total),
     subs,
     trend,
     call: tadsCall(total, subs, w, r, trend),
@@ -169,7 +190,8 @@ export function computeIndex(r: Refuge, w: RefugeWeather, date = new Date()): In
   };
 }
 
-export function ratingColor(rating: Rating): string {
+export function ratingColor(rating: Rating | null): string {
+  if (rating == null) return "#6f705f"; // colors.inkFaint — no score
   switch (rating) {
     case "Excellent": return "#7fb069";
     case "Good": return "#e09f3e";

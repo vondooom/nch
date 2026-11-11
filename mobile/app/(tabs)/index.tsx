@@ -5,9 +5,9 @@ import { router, useFocusEffect } from "expo-router";
 import { colors, fonts, radius, spacing, type } from "@/constants/theme";
 import { Bar, Button, Card, Chip, Header, Screen, SectionLabel, Sheet } from "@/components/ui";
 import { WindDial } from "@/components/WindDial";
-import { AGENCY_LABEL, REFUGES, Refuge } from "@/lib/refuges";
+import { AGENCY_LABEL, ENTRY_TYPE_SOURCE_URL, HARVEST_SOURCE_LABEL, HARVEST_SOURCE_URL, REFUGES, Refuge } from "@/lib/refuges";
 import { duckStatusForZone, GameStatus, gooseStatusForZone, isoDay, SEASON_YEAR, WaterfowlZoneId, ZONE_BY_ID } from "@/lib/regs";
-import { computeIndex, IndexResult, ratingColor } from "@/lib/huntIndex";
+import { computeIndex, IndexResult, NO_HARVEST, ratingColor } from "@/lib/huntIndex";
 import { arrowFor, cardinal, distanceMeters, windArrowDeg } from "@/lib/geo";
 import { formatClock, shootWindow } from "@/lib/sun";
 import { KEYS, readJSON, writeJSON } from "@/lib/storage";
@@ -29,7 +29,9 @@ type SpotRow = { spot: Spot; hunts: number; birds: number; last: string | null; 
 
 type Item = { favId: string; row: Row; spot?: undefined } | { favId: string; spot: SpotRow; row?: undefined };
 
-const itemScore = (i: Item) => (i.row ? i.row.index.total : i.spot.near?.index.total ?? -1);
+// No-score areas (no harvest week) and spots without a nearest read sort after
+// every scored item — they are not "0".
+const itemScore = (i: Item) => (i.row ? i.row.index.total : i.spot.near?.index.total) ?? -1;
 const itemName = (i: Item) => (i.row ? i.row.refuge.name : i.spot.spot.name);
 const itemLat = (i: Item) => (i.row ? i.row.refuge.coords.lat : i.spot.spot.coords?.lat ?? -90);
 const itemWind = (i: Item) => (i.row ? i.row.weather.windMph : i.spot.near?.weather.windMph ?? -1);
@@ -160,7 +162,8 @@ export default function HuntIndexScreen() {
     setZone("all");
   };
 
-  const best = rows.reduce((a, b) => (b.index.total > a.index.total ? b : a), rows[0]);
+  // Top pick only from areas with a real score.
+  const best = rows.reduce<Row | null>((a, b) => (b.index.total != null && (a == null || b.index.total > a.index.total!) ? b : a), null);
   const live = Object.values(map).some((w) => w.source !== "baseline");
   const source = map[REFUGES[0].id]?.source;
   const open = rows.find((r) => r.refuge.id === openId) ?? null;
@@ -315,7 +318,8 @@ export default function HuntIndexScreen() {
 
       <Text style={[type.caption, styles.footnote]}>
         Index = Wind 20 + Weather Change 20 + Recent Hunter Reports 20 + Barometer 15 + Migration 15 + Temperature 10.
-        Harvest averages are desk-entered from the weekly CDFW/USFWS reports — confirm at wildlife.ca.gov.
+        Hunter reports = birds per hunter from the official {HARVEST_SOURCE_LABEL} week totals. Areas missing from that report show
+        no score until CDFW lists them.
       </Text>
 
       <Sheet
@@ -372,7 +376,7 @@ function SpotCard({ row, fav, onFav, onNear }: { row: SpotRow; fav: boolean; onF
           <Text style={[type.caption, styles.flex]}>
             Nearest refuge read · {near.refuge.short}: {Math.round(near.weather.windMph)} mph from {cardinal(near.weather.windDir)}
           </Text>
-          <Text style={[styles.nearScore, { color: ratingColor(near.index.rating) }]}>{near.index.total}</Text>
+          <Text style={[styles.nearScore, { color: ratingColor(near.index.rating) }]}>{near.index.total ?? "—"}</Text>
         </Pressable>
       ) : null}
     </Card>
@@ -381,6 +385,16 @@ function SpotCard({ row, fav, onFav, onNear }: { row: SpotRow; fav: boolean; onF
 
 function ScoreBlock({ index, big }: { index: IndexResult; big?: boolean }) {
   const c = ratingColor(index.rating);
+  if (index.total == null) {
+    return (
+      <View style={styles.scoreBlock} accessibilityLabel={`${NO_HARVEST}, no Index score`}>
+        <Text style={[styles.score, big && { fontSize: 52 }, { color: c }]}>—</Text>
+        <View style={[styles.badge, { borderColor: c }]}>
+          <Text style={[styles.badgeText, { color: c, textAlign: "center" }]}>No harvest{"\n"}data yet</Text>
+        </View>
+      </View>
+    );
+  }
   return (
     <View style={styles.scoreBlock}>
       <Text style={[styles.score, big && { fontSize: 52 }, { color: c }]}>{index.total}</Text>
@@ -421,7 +435,7 @@ function RefugeCard({ row, fav, onFav, onPress }: { row: Row; fav: boolean; onFa
         <View style={styles.miniBars}>
           {index.subs.map((s) => (
             <View key={s.key} style={styles.miniBar}>
-              <Bar value={s.score} max={s.max} height={4} />
+              <Bar value={s.missing ? 0 : s.score} max={s.max} height={4} />
             </View>
           ))}
         </View>
@@ -444,6 +458,7 @@ function Metric({ icon, label, value }: { icon: keyof typeof Ionicons.glyphMap; 
 
 function RefugeDetail({ row, fav, onFav, onMap }: { row: Row; fav: boolean; onFav: () => void; onMap: () => void }) {
   const { refuge, weather: w, index } = row;
+  const harvest = refuge.harvest;
   const now = new Date();
   const today = shootWindow(now, refuge.coords.lat, refuge.coords.lon);
   const tomorrow = shootWindow(new Date(now.getTime() + 86400000), refuge.coords.lat, refuge.coords.lon);
@@ -455,8 +470,11 @@ function RefugeDetail({ row, fav, onFav, onMap }: { row: Row; fav: boolean; onFa
         <ScoreBlock index={index} big />
         <View style={[styles.flex, { gap: spacing.sm }]}>
           <Text style={[type.h3, { color: ratingColor(index.rating) }]}>
-            {index.total}/100 — {index.rating}
+            {index.total == null ? NO_HARVEST : `${index.total}/100 — ${index.rating}`}
           </Text>
+          {index.total == null ? (
+            <Text style={type.caption}>Not in the {HARVEST_SOURCE_LABEL} report, so there&apos;s no Index score. Weather below is still live.</Text>
+          ) : null}
           <Button label={fav ? "Favorite" : "Add to favorites"} icon={fav ? "star" : "star-outline"} variant="ghost" onPress={onFav} />
         </View>
       </View>
@@ -482,11 +500,13 @@ function RefugeDetail({ row, fav, onFav, onMap }: { row: Row; fav: boolean; onFa
             <View style={styles.subHead}>
               <Text style={styles.subLabel}>{s.label}</Text>
               <Text style={styles.subScore}>
-                {s.score}
+                {s.missing ? "—" : s.score}
                 <Text style={styles.subMax}> /{s.max}</Text>
               </Text>
             </View>
-            <Bar value={s.score} max={s.max} height={7} color={s.score / s.max >= 0.7 ? colors.good : s.score / s.max >= 0.45 ? colors.accentDeep : colors.danger} />
+            {s.missing ? null : (
+              <Bar value={s.score} max={s.max} height={7} color={s.score / s.max >= 0.7 ? colors.good : s.score / s.max >= 0.45 ? colors.accentDeep : colors.danger} />
+            )}
             <Text style={[type.caption, { marginTop: 3 }]}>{s.note}</Text>
           </View>
         ))}
@@ -533,21 +553,55 @@ function RefugeDetail({ row, fav, onFav, onMap }: { row: Row; fav: boolean; onFa
         </Text>
       </Card>
 
-      <SectionLabel>CDFW harvest · {refuge.harvest.week}</SectionLabel>
+      <SectionLabel>How you get in</SectionLabel>
       <Card>
-        <View style={styles.statGrid}>
-          <Cell label="Birds / hunter" value={refuge.harvest.birdsPerHunter.toFixed(1)} />
-          <Cell label="Hunters checked" value={String(refuge.harvest.hunters)} />
-        </View>
-        <Text style={[type.caption, { marginVertical: spacing.sm }]}>{refuge.harvest.quota}</Text>
-        {refuge.harvest.species.map((s) => (
-          <View key={s.species} style={styles.speciesRow}>
-            <Text style={styles.speciesName}>{s.species}</Text>
-            <Bar value={s.pct} max={30} height={6} />
-            <Text style={styles.speciesPct}>{s.pct}%</Text>
-          </View>
-        ))}
-        <Text style={[type.caption, { marginTop: spacing.sm }]}>Desk figures from the weekly report — confirm at wildlife.ca.gov.</Text>
+        <Text style={type.body}>{refuge.quota}</Text>
+        <Pressable onPress={() => Linking.openURL(ENTRY_TYPE_SOURCE_URL)} hitSlop={6}>
+          <Text style={[type.caption, styles.link, { marginTop: spacing.sm }]}>Entry types: Cal. Code Regs. tit. 14, § 551</Text>
+        </Pressable>
+      </Card>
+
+      <SectionLabel>{refuge.harvest ? `CDFW harvest · ${refuge.harvest.week}` : "CDFW harvest"}</SectionLabel>
+      <Card>
+        {harvest ? (
+          <>
+            <View style={styles.statGrid}>
+              <Cell label="Birds / hunter" value={harvest.birdsPerHunter.toFixed(2)} />
+              <Cell label="Hunters checked" value={String(harvest.hunters)} />
+              <Cell label="Waterfowl checked" value={String(harvest.waterfowl)} />
+            </View>
+            {harvest.species.length ? (
+              harvest.species.every((s) => s.pct == null) ? (
+                <Text style={[type.body, { marginTop: spacing.sm }]}>Top birds: {harvest.species.map((s) => s.species).join(", ")}</Text>
+              ) : (
+                harvest.species.map((s) => (
+                  <View key={s.species} style={styles.speciesRow}>
+                    <Text style={styles.speciesName}>{s.species}</Text>
+                    {s.pct != null ? (
+                      <>
+                        <Bar value={s.pct} max={30} height={6} />
+                        <Text style={styles.speciesPct}>{s.pct}%</Text>
+                      </>
+                    ) : null}
+                  </View>
+                ))
+              )
+            ) : null}
+            <Text style={[type.caption, { marginTop: spacing.sm }]}>
+              Week totals from CDFW&apos;s weekly hunt results. CDFW lists each day&apos;s top two species, not bag shares.
+            </Text>
+          </>
+        ) : (
+          <>
+            <Text style={type.h3}>{NO_HARVEST}</Text>
+            <Text style={[type.body, { color: colors.inkMuted, marginTop: spacing.xs }]}>
+              {refuge.short} isn&apos;t listed in the {HARVEST_SOURCE_LABEL} report. The Index score stays hidden until CDFW reports it.
+            </Text>
+          </>
+        )}
+        <Pressable onPress={() => Linking.openURL(HARVEST_SOURCE_URL)} hitSlop={6}>
+          <Text style={[type.caption, styles.link, { marginTop: spacing.sm }]}>Open the CDFW report</Text>
+        </Pressable>
       </Card>
 
       <Text style={[type.body, { color: colors.inkMuted, fontStyle: "italic", marginVertical: spacing.md }]}>{refuge.character}</Text>
@@ -587,6 +641,7 @@ const signed = (v: number) => `${v >= 0 ? "+" : ""}${v.toFixed(2)}`;
 
 const styles = StyleSheet.create({
   flex: { flex: 1 },
+  link: { color: colors.accent, textDecorationLine: "underline" },
   refresh: { padding: 10, borderRadius: radius.pill, borderWidth: 1, borderColor: colors.borderStrong, width: 46, height: 46, alignItems: "center", justifyContent: "center" },
   liveRow: { flexDirection: "row", alignItems: "center", gap: 8, marginTop: -8, marginBottom: spacing.md },
   liveDot: { width: 8, height: 8, borderRadius: 4 },

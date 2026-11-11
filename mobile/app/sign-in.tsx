@@ -30,10 +30,11 @@ export default function SignInScreen() {
     setMsg(null);
     try {
       await signInWithEmail(email);
+      setCode("");
       setStep("code");
       setMsg(`Code sent to ${email.trim()}. Check spam if it's not there in a minute.`);
     } catch (e) {
-      setMsg(e instanceof Error ? e.message : String(e));
+      setMsg(`Couldn't send the code: ${e instanceof Error ? e.message : String(e)}`);
     } finally {
       setBusy(false);
     }

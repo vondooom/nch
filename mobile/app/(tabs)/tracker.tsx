@@ -50,7 +50,7 @@ import { shootWindow } from "@/lib/sun";
 import { useWeather } from "@/lib/useWeather";
 import { newId } from "@/lib/waypoints";
 import { confirm } from "@/lib/confirm";
-import { isSupabaseConfigured, pullMyHunts, pushHunts, SIGN_IN_TO_SYNC } from "@/lib/supabase";
+import { isSupabaseConfigured, onLegacySchema, pullMyHunts, pushHunts, SIGN_IN_TO_SYNC } from "@/lib/supabase";
 import { useAuth } from "@/lib/auth";
 import { KEYS, readJSON, writeJSON } from "@/lib/storage";
 import { deleteHuntPhoto, explainDenied, photoUri, pickHuntPhoto, PhotoSource } from "@/lib/photos";
@@ -264,9 +264,11 @@ export default function TrackerScreen() {
         if (ids.length) {
           commit(next.map((h) => (ids.includes(h.id) ? { ...h, synced: true } : h)));
           synced = " · synced to your account";
+        } else if (onLegacySchema()) {
+          synced = " · on this phone — until per-account sync is live, only hunts with a team name upload";
         }
-      } catch {
-        synced = " · saved offline, will sync later";
+      } catch (e) {
+        synced = ` · saved on this phone, will sync later (${e instanceof Error ? e.message : String(e)})`;
       }
     }
     setNotice(`${editing ? "Updated" : "Logged"} ${total(log.counts)} birds at ${locationLabel(log)}${log.blind ? ` · ${log.blind}` : ""}${synced}.`);

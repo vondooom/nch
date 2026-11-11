@@ -21,7 +21,7 @@ npm run web:export   # static web build → dist/
 ## Data
 
 - `data/dispatches.json` — snapshot of the website's newsletter archive (`../lib/archive.json`, read-only). Refresh with `npm run data:dispatches`.
-- `lib/refuges.ts` — refuge coordinates and weekly harvest desk figures.
+- `lib/refuges.ts` — refuge coordinates, 14 CCR §551 entry types, and official CDFW weekly harvest totals (Oct 21–25, 2026; areas not in the report have `harvest: null` and no Index score).
 - `lib/regs.ts` — 2026–27 seasons and limits as published by the desk.
 - `assets/*.png` — generated from the website logo: `python3 scripts/make-icons.py ../public/media/c287c898-f222-4e06-ba3e-f9d2131869ad.png`.
 
