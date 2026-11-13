@@ -2,6 +2,7 @@ import { cardinal } from "./geo";
 import { REFUGE_BY_ID } from "./refuges";
 import { BAG_LIMITS, HEN_LIMITS, scaupOpen, scaupRows, WaterfowlZoneId } from "./regs";
 import { KEYS, readJSON, writeJSON } from "./storage";
+import { isVisibility, type Visibility } from "./profile";
 
 // ── Species ────────────────────────────────────────────────────────────────
 
@@ -175,6 +176,16 @@ export type HuntLog = {
   /** Club hunts: roster id of the member hosting guests, and the guests' names. */
   guestHostId?: string;
   guestNames?: string[];
+
+  // ── Build 7 · social ───────────────────────────────────────────────────
+  /** Who sees this entry. Unset = follow the hunter's default (lib/profile.ts). */
+  visibility?: Visibility;
+  /**
+   * Coarse, shareable area ("Colusa County · rice", "Gray Lodge"), stamped at
+   * sync time by lib/privacy.ts. It's what people outside your groups see in
+   * place of the spot / blind name. Never coordinates.
+   */
+  coarseArea?: string;
 };
 
 export type WaterCondition = "dry" | "low" | "good" | "high" | "flooded" | "frozen";
@@ -272,6 +283,7 @@ export function migrateHunt(h: HuntLog): HuntLog {
     counts: migrateCounts(h.counts as Record<string, unknown>),
     bands: Array.isArray(h.bands) ? h.bands.filter((b) => b && typeof b.number === "string") : undefined,
     guestNames: Array.isArray(h.guestNames) ? h.guestNames.filter((n) => typeof n === "string" && n.trim()) : undefined,
+    visibility: isVisibility(h.visibility) ? h.visibility : undefined,
   };
 }
 

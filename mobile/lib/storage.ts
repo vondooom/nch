@@ -21,6 +21,7 @@ export const KEYS = {
   assignments: "nch.assignments.v1",
   clubDraws: "nch.clubDraws.v1",
   guestDays: "nch.guestDays.v1",
+  profile: "nch.profile.v1",
 } as const;
 
 export async function readJSON<T>(key: string, fallback: T): Promise<T> {

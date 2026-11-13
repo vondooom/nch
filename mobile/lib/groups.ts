@@ -38,6 +38,12 @@ export type HuntGroup = {
   guestDayLimit?: number;
   /** Supabase auth user id when signed in at creation; for a later sync. */
   ownerUserId: string | null;
+  /**
+   * Build 7: public.hunt_groups.id once the owner has put this group on the
+   * server (lib/social.ts publishGroup) so it can hand out invite links.
+   * Unset = this phone only.
+   */
+  serverId?: string;
   createdAt: number;
 };
 

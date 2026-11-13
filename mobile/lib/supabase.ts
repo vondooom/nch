@@ -3,6 +3,9 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import { createClient, PostgrestError, Session, SupabaseClient } from "@supabase/supabase-js";
 import Constants from "expo-constants";
 import { HuntLog, isSeedHunt, migrateHunt, teamKey, teamSyncable } from "./huntLog";
+import { bootGroupStore, groupStore } from "./groupStore";
+import { shareFields } from "./privacy";
+import { bootProfile, getMyProfile, Visibility } from "./profile";
 
 // Optional cloud sync for the logbook. The app is offline-first: every hunt is
 // written to AsyncStorage before anything here runs, and with no Supabase env
@@ -60,6 +63,8 @@ type Row = {
   hunt_date: string;
   payload: HuntLog;
   user_id?: string;
+  /** Build 7 (20261113_social.sql). Resolved: the entry's override or the hunter's default. */
+  visibility?: Visibility;
 };
 
 /** What leaves the phone: everything but local-only fields (the photo path). */
@@ -83,6 +88,10 @@ export const LEGACY_NEEDS_TEAM =
   "Per-account sync isn't switched on at the server yet, so hunts sync by team name for now — pick a team chip (or log a hunt with a team name) and sync again.";
 const missingUserId = (e: PostgrestError) =>
   e.code === "PGRST204" || e.code === "42703" || (/user_id/.test(e.message) && /column/i.test(e.message));
+// Same idea for Build 7's hunt_logs.visibility: until 20261113 is applied,
+// sync without it rather than failing every push.
+let noVisibilityColumn = false;
+const missingVisibility = (e: PostgrestError) => /visibility/.test(e.message) && (e.code === "PGRST204" || e.code === "42703" || /column/i.test(e.message));
 
 /**
  * Push real hunts (never the sample seed hunts) to the signed-in account.
@@ -94,22 +103,34 @@ export async function pushHunts(hunts: HuntLog[]): Promise<string[]> {
   if (!isSupabaseConfigured) return [];
   const session = await requireSession();
   const real = hunts.filter((h) => !isSeedHunt(h));
+  await Promise.all([bootProfile(), bootGroupStore()]);
+  const defaultVis = getMyProfile().logbookPrivacy;
+  const blinds = groupStore.get().blinds;
   const build = (): Row[] =>
     legacySchema
       ? real
           .filter((h) => teamSyncable(h.teamCode))
           .map((h) => ({ id: h.id, team_code: teamKey(h.teamCode), hunt_date: h.date, payload: toPayload(h) }))
-      : real.map((h) => ({
-          id: h.id,
-          team_code: teamSyncable(h.teamCode) ? teamKey(h.teamCode) : null,
-          hunt_date: h.date,
-          payload: toPayload(h),
-          // The migration defaults this to auth.uid(); sent anyway so it's explicit.
-          user_id: session.user.id,
-        }));
+      : real.map((h) => {
+          const share = shareFields(h, defaultVis, blinds);
+          return {
+            id: h.id,
+            team_code: teamSyncable(h.teamCode) ? teamKey(h.teamCode) : null,
+            hunt_date: h.date,
+            payload: { ...toPayload(h), coarseArea: share.coarseArea },
+            // The migration defaults this to auth.uid(); sent anyway so it's explicit.
+            user_id: session.user.id,
+            ...(noVisibilityColumn ? null : { visibility: share.visibility }),
+          };
+        });
   let rows = build();
   if (!rows.length) return [];
   let { error } = await getSupabase().from("hunt_logs").upsert(rows, { onConflict: "id" });
+  if (error && !legacySchema && !noVisibilityColumn && missingVisibility(error)) {
+    noVisibilityColumn = true;
+    rows = build();
+    ({ error } = await getSupabase().from("hunt_logs").upsert(rows, { onConflict: "id" }));
+  }
   if (error && !legacySchema && missingUserId(error)) {
     legacySchema = true;
     rows = build();
