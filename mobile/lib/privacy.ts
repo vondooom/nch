@@ -160,7 +160,7 @@ export function coarseArea(h: Pick<HuntLog, "locationKind" | "refugeId" | "coars
   }
   const county = countyLabel(blind?.county);
   const ground = blind ? BLIND_GROUND[blind.type] ?? "" : "";
-  if (h.locationKind === "club") return [county, "club"].filter(Boolean).join(" · ") || "Club ground";
+  if (h.locationKind === "club") return county ? `${county} · club` : "Club ground";
   return [county, ground].filter(Boolean).join(" · ") || "Private ground";
 }
 

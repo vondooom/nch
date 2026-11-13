@@ -9,6 +9,7 @@
     "web": "expo start --web",
     "web:export": "expo export --platform web --clear",
     "typecheck": "tsc --noEmit",
+    "check:social": "node scripts/check-social.cjs",
     "data:dispatches": "node scripts/build-dispatches.mjs"
   },
   "dependencies": {
