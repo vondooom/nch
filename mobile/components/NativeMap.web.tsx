@@ -19,6 +19,8 @@ type Props = {
   me: TrackPoint | null;
   onPressWaypoint: (id: string) => void;
   height?: number;
+  /** Blind access routes (truck → blind). */
+  routes?: { id: string; points: LatLon[] }[];
 };
 
 export function NativeMap({ height = 360 }: Props) {

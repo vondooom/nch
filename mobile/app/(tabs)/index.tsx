@@ -16,6 +16,7 @@ import { KEYS, readJSON, writeJSON } from "@/lib/storage";
 import { useWeather } from "@/lib/useWeather";
 import { RefugeWeather } from "@/lib/weather";
 import { HuntLog, huntSpotKey, loadHunts, loadSpots, mergeSpots, Spot, spotFavId, total } from "@/lib/huntLog";
+import { TypeStrip } from "@/components/TypeStrip";
 
 type Sort = "score" | "name" | "north" | "wind";
 type AgencyFilter = "all" | Refuge["agency"];
@@ -181,6 +182,8 @@ export default function HuntIndexScreen() {
           </Pressable>
         }
       />
+
+      <TypeStrip hunts={hunts} />
 
       {!privacyHidden ? (
         <View style={styles.privacy} accessibilityRole="summary">

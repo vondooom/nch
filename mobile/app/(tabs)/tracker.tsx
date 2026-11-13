@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { Image, Pressable, StyleSheet, Text, TextInput, View } from "react-native";
+import { Image, Pressable, Share, StyleSheet, Text, TextInput, View } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-import { router } from "expo-router";
+import { router, useLocalSearchParams } from "expo-router";
 import * as Location from "expo-location";
 import { colors, fonts, radius, spacing, type } from "@/constants/theme";
 import { Bar, Button, Card, Chip, Header, Screen, SectionLabel, Stat } from "@/components/ui";
@@ -10,6 +10,8 @@ import {
   cleanTeamName,
   CountKey,
   countKey,
+  FIELD_CONDITIONS,
+  hasBlindDetails,
   HuntLog,
   huntSpotKey,
   isSeedHunt,
@@ -41,6 +43,7 @@ import {
   total,
   uniqueTeams,
   upsertSpot,
+  WATER_CONDITIONS,
   worstLevel,
 } from "@/lib/huntLog";
 import { REFUGE_BY_ID, REFUGES } from "@/lib/refuges";
@@ -55,9 +58,41 @@ import { useAuth } from "@/lib/auth";
 import { KEYS, readJSON, writeJSON } from "@/lib/storage";
 import { DrawsPanel } from "@/components/DrawsPanel";
 import { GroupsPanel } from "@/components/GroupsPanel";
+import { BlindsPanel } from "@/components/BlindsPanel";
+import { LeaderboardPanel } from "@/components/LeaderboardPanel";
+import { HowIHuntSheet } from "@/components/HowIHunt";
+import { typesLabel, UserTypeId, useUserTypes } from "@/lib/userTypes";
+import { groupStore, useGroupStore } from "@/lib/groupStore";
+import { GROUP_TYPE_LABEL, linkHuntToGroup, memberName } from "@/lib/groups";
+import { groupCan } from "@/lib/permissions";
+import { DEFAULT_GUEST_LIMIT, dropGuestDaysForHunt, guestDaysUsed, syncGuestDaysForHunt } from "@/lib/guestDays";
+import { huntShareText } from "@/lib/leaderboard";
 import { deleteHuntPhoto, explainDenied, photoUri, pickHuntPhoto, PhotoSource } from "@/lib/photos";
 
-type Tab = "log" | "book" | "stats" | "draws" | "groups";
+type Tab = "log" | "book" | "stats" | "draws" | "groups" | "blinds" | "board";
+
+const TABS: Tab[] = ["log", "book", "stats", "draws", "groups", "blinds", "board"];
+
+type ToolTab = { k: Tab; label: string; icon: keyof typeof Ionicons.glyphMap; for: UserTypeId[] };
+const TOOL_TABS: ToolTab[] = [
+  { k: "draws", label: "Draws", icon: "ticket", for: ["refuge_rat"] },
+  { k: "groups", label: "Groups", icon: "people", for: ["blind_lease", "guide_service", "duck_club"] },
+  { k: "blinds", label: "Blinds", icon: "home", for: ["blind_lease", "guide_service", "duck_club"] },
+  { k: "board", label: "Board", icon: "trophy", for: ["refuge_rat"] },
+];
+
+/** Tools for the hunter's types first; everything stays reachable. */
+function orderTools(types: UserTypeId[]): (ToolTab & { emph: boolean })[] {
+  const score = (t: ToolTab) => {
+    // Guides live in Groups (the daily slate); refuge rats in Draws.
+    if (types.includes("guide_service") && t.k === "groups") return 3;
+    if (types.includes("refuge_rat") && t.k === "draws") return types.length === 1 ? 3 : 2;
+    return t.for.some((x) => types.includes(x)) ? 1 : 0;
+  };
+  return TOOL_TABS.map((t, i) => ({ ...t, emph: score(t) > 0, i, s: score(t) }))
+    .sort((a, b) => b.s - a.s || a.i - b.i)
+    .map(({ i: _i, s: _s, ...t }) => t);
+}
 
 const hhmm = (d: Date) => `${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`;
 
@@ -97,7 +132,16 @@ const LEVEL_COLOR: Record<LimitLevel, string> = {
 };
 
 export default function TrackerScreen() {
-  const [tab, setTab] = useState<Tab>("log");
+  const params = useLocalSearchParams<{ tab?: string }>();
+  const [tab, setTab] = useState<Tab>(TABS.includes(params.tab as Tab) ? (params.tab as Tab) : "log");
+  const [typesOpen, setTypesOpen] = useState(false);
+  const { types } = useUserTypes();
+  const tools = orderTools(types);
+
+  // Deep links from the Index strip ("/tracker?tab=draws").
+  useEffect(() => {
+    if (params.tab && TABS.includes(params.tab as Tab)) setTab(params.tab as Tab);
+  }, [params.tab]);
   const [hunts, setHunts] = useState<HuntLog[]>([]);
   const [storedSpots, setStoredSpots] = useState<Spot[]>([]);
   const [teamCode, setTeamCode] = useState("BUTTE-7");
@@ -224,8 +268,17 @@ export default function TrackerScreen() {
     const locationName = draft.refugeId
       ? REFUGE_BY_ID[draft.refugeId].name
       : draft.locationName.trim() || (draft.locationKind === "club" ? "Duck club" : "Free roam");
+    const guestNames = (draft.guestNames ?? []).map((n) => n.trim()).filter(Boolean);
+    const bands = (draft.bands ?? []).filter((b) => b.number.trim());
     const log: HuntLog = {
       ...draft,
+      guestNames: guestNames.length ? guestNames : undefined,
+      guestHostId: guestNames.length ? draft.guestHostId : undefined,
+      bands: bands.length ? bands : undefined,
+      waterLevel: draft.waterLevel?.trim() || undefined,
+      sightings: draft.sightings?.trim() || undefined,
+      trophies: draft.trophies?.trim() || undefined,
+      clientName: draft.clientName?.trim() || undefined,
       id: editing?.id ?? newId("hunt"),
       party: party.length ? party : ["Me"],
       teamCode: cleanTeamName(draft.teamCode),
@@ -240,6 +293,13 @@ export default function TrackerScreen() {
     // Editing replaces the row in place (same id) — never a second copy.
     const next = editing ? hunts.map((h) => (h.id === log.id ? log : h)) : [log, ...hunts];
     commit(next);
+    // Group log + club guest days follow the hunt (all on this phone).
+    if (log.groupId) groupStore.setGroups((prev) => linkHuntToGroup(prev, log.id, log.groupId));
+    groupStore.setGuestDays((prev) => syncGuestDaysForHunt(prev, log, () => newId("guest")));
+    // Latest water reading at a blind becomes the blind's current level.
+    if (log.blindId && log.waterLevel && log.date >= isoDay(new Date(Date.now() - 2 * 864e5))) {
+      groupStore.setBlinds((prev) => prev.map((b) => (b.id === log.blindId ? { ...b, waterLevel: log.waterLevel, updatedAt: Date.now() } : b)));
+    }
     if (editing?.photo && editing.photo !== log.photo) void deleteHuntPhoto(editing.photo);
     commitSpots((prev) =>
       upsertSpot(prev, {
@@ -275,7 +335,8 @@ export default function TrackerScreen() {
     }
     setNotice(`${editing ? "Updated" : "Logged"} ${total(log.counts)} birds at ${locationLabel(log)}${log.blind ? ` · ${log.blind}` : ""}${synced}.`);
     if (editing) finishEdit();
-    else setDraft(blankDraft(log.refugeId ?? "gray-lodge", log.teamCode));
+    // Leases and clubs log the same group (and usually the same blind) every time.
+    else setDraft({ ...blankDraft(log.refugeId ?? "gray-lodge", log.teamCode), groupId: log.groupId, blindId: log.blindId });
     setTab("book");
   }
 
@@ -287,7 +348,19 @@ export default function TrackerScreen() {
 
   return (
     <Screen>
-      <Header eyebrow={`Duck Tracker · ${seasonOf(isoDay(new Date()))} season`} title="Logbook" />
+      <Header
+        eyebrow={`Duck Tracker · ${seasonOf(isoDay(new Date()))} season`}
+        title="Logbook"
+        right={
+          <Pressable onPress={() => setTypesOpen(true)} style={styles.typesBtn} accessibilityLabel="How I hunt" hitSlop={6}>
+            <Ionicons name="person-circle-outline" size={18} color={colors.accent} />
+            <Text style={styles.typesBtnText} numberOfLines={1}>
+              {types.length ? typesLabel(types) : "How I hunt"}
+            </Text>
+          </Pressable>
+        }
+      />
+      <HowIHuntSheet visible={typesOpen} onClose={() => setTypesOpen(false)} />
       <View style={styles.segment}>
         {(
           [
@@ -303,15 +376,10 @@ export default function TrackerScreen() {
         ))}
       </View>
       <View style={[styles.segment, { marginTop: -spacing.sm }]}>
-        {(
-          [
-            ["draws", "Sweat-Line Draws", "ticket"],
-            ["groups", "Groups", "people"],
-          ] as [Tab, string, keyof typeof Ionicons.glyphMap][]
-        ).map(([k, label, icon]) => (
-          <Pressable key={k} onPress={() => setTab(k)} style={[styles.segBtn, tab === k && styles.segBtnOn]}>
-            <Ionicons name={icon} size={15} color={tab === k ? colors.onAccent : colors.inkMuted} />
-            <Text style={[styles.segText, tab === k && { color: colors.onAccent }]}>{label}</Text>
+        {tools.map(({ k, label, icon, emph }) => (
+          <Pressable key={k} onPress={() => setTab(k)} style={[styles.segBtn, emph && tab !== k && styles.segBtnEmph, tab === k && styles.segBtnOn]}>
+            <Ionicons name={icon} size={15} color={tab === k ? colors.onAccent : emph ? colors.accent : colors.inkMuted} />
+            <Text style={[styles.segText, emph && { color: colors.ink }, tab === k && { color: colors.onAccent }]}>{label}</Text>
           </Pressable>
         ))}
       </View>
@@ -354,6 +422,7 @@ export default function TrackerScreen() {
             }
           }}
           recentCodes={hunts.map((h) => h.teamCode)}
+          userTypes={types}
         />
       ) : tab === "book" ? (
         <Logbook
@@ -369,10 +438,13 @@ export default function TrackerScreen() {
             if (await confirm("Delete this hunt?", `${h.date} · ${locationLabel(h)}`)) {
               if (editingId === h.id) finishEdit();
               commit(hunts.filter((x) => x.id !== h.id));
+              groupStore.setGuestDays((prev) => dropGuestDaysForHunt(prev, h.id));
               void deleteHuntPhoto(h.photo);
             }
           }}
           accountEmail={user?.email ?? (session ? "your account" : null)}
+          typesText={typesLabel(types)}
+          onEditTypes={() => setTypesOpen(true)}
           onSignIn={() => router.push("/sign-in")}
           onSignOut={async () => {
             if (await confirm("Sign out?", "Your hunts stay on this phone. Sign back in to sync again.", "Sign out")) {
@@ -416,9 +488,13 @@ export default function TrackerScreen() {
           }}
         />
       ) : tab === "draws" ? (
-        <DrawsPanel userId={user?.id ?? null} onNotice={setNotice} />
+        <DrawsPanel userId={user?.id ?? null} onNotice={setNotice} emphasis={types.includes("refuge_rat")} />
       ) : tab === "groups" ? (
-        <GroupsPanel hunts={hunts} spots={spots} userId={user?.id ?? null} onNotice={setNotice} />
+        <GroupsPanel hunts={hunts} spots={spots} userId={user?.id ?? null} userTypes={types} onNotice={setNotice} />
+      ) : tab === "blinds" ? (
+        <BlindsPanel hunts={hunts} spots={spots} onNotice={setNotice} emphasis={types.includes("blind_lease")} />
+      ) : tab === "board" ? (
+        <LeaderboardPanel hunts={hunts} onNotice={setNotice} />
       ) : (
         <Stats hunts={hunts} onClearSamples={clearSamples} />
       )}
@@ -445,6 +521,7 @@ function LogForm({
   onAddBlind,
   onRemoveBlind,
   recentCodes,
+  userTypes,
 }: {
   draft: HuntLog;
   editing: HuntLog | null;
@@ -462,6 +539,7 @@ function LogForm({
   onAddBlind: (blind: string) => void;
   onRemoveBlind: (spot: Spot, blind: string) => void;
   recentCodes: string[];
+  userTypes: UserTypeId[];
 }) {
   const { session } = useAuth();
   const [member, setMember] = useState("");
@@ -758,6 +836,8 @@ function LogForm({
         ))}
       </Card>
 
+      <BlindDetails draft={draft} patch={patch} userTypes={userTypes} onNotice={onNotice} />
+
       <SectionLabel>Photo</SectionLabel>
       <Card>
         <PhotoControls
@@ -785,6 +865,237 @@ function LogForm({
         {isSupabaseConfigured ? (session ? " Hunts sync to your account; photos stay on this phone." : ` ${SYNC_LINE}`) : ""}
       </Text>
       <PrivacyLine />
+    </View>
+  );
+}
+
+// ── Blind, water & client (Build 6, all optional) ─────────────────────────
+
+const WATER_LABEL = Object.fromEntries(WATER_CONDITIONS.map((w) => [w.id, w.label]));
+const FIELD_LABEL = Object.fromEntries(FIELD_CONDITIONS.map((w) => [w.id, w.label]));
+
+function BlindDetails({
+  draft,
+  patch,
+  userTypes,
+  onNotice,
+}: {
+  draft: HuntLog;
+  patch: (p: Partial<HuntLog>) => void;
+  userTypes: UserTypeId[];
+  onNotice: (s: string) => void;
+}) {
+  const { groups, blinds, guestDays } = useGroupStore();
+  const wantsOpen = userTypes.some((t) => t !== "refuge_rat") || hasBlindDetails(draft);
+  const [openPick, setOpen] = useState<boolean | null>(null);
+  const open = openPick ?? wantsOpen;
+  const [band, setBand] = useState("");
+  const [bandSp, setBandSp] = useState("");
+  const loggable = groups.filter((g) => groupCan.log(g));
+  const g = groups.find((x) => x.id === draft.groupId);
+  const blindChoices = blinds.filter((b) => (draft.groupId ? b.groupId === draft.groupId : !b.groupId || !groups.some((x) => x.id === b.groupId)));
+  const clients = g?.type === "guide_service" ? g.members.filter((m) => m.role === "client") : [];
+  const hosts = g?.type === "duck_club" ? g.members.filter((m) => m.role !== "guest" && m.role !== "client") : [];
+  const guestText = (draft.guestNames ?? []).join(", ");
+  const guestCount = (draft.guestNames ?? []).filter((n) => n.trim()).length;
+  const limit = g?.guestDayLimit ?? DEFAULT_GUEST_LIMIT;
+  const usedBefore =
+    g && draft.guestHostId ? guestDaysUsed(guestDays.filter((x) => x.huntId !== draft.id || !draft.id), g.id, draft.guestHostId, draft.date) : 0;
+
+  const filled = [
+    g ? g.name : "",
+    blinds.find((b) => b.id === draft.blindId)?.name ?? "",
+    draft.waterCondition ? `water ${WATER_LABEL[draft.waterCondition]}` : "",
+    draft.sightings ? "sightings" : "",
+    draft.bands?.length ? `${draft.bands.length} band${draft.bands.length === 1 ? "" : "s"}` : "",
+    draft.clientName ? `client ${draft.clientName}` : "",
+    guestCount ? `${guestCount} guest${guestCount === 1 ? "" : "s"}` : "",
+  ].filter(Boolean);
+
+  function addBand() {
+    const n = band.trim();
+    if (!n) return;
+    patch({ bands: [...(draft.bands ?? []), { id: newId("band"), number: n, species: bandSp.trim() || undefined, clientName: draft.clientName?.trim() || undefined }] });
+    setBand("");
+    setBandSp("");
+  }
+
+  return (
+    <>
+      <SectionLabel
+        right={<Chip label={open ? "Hide" : "Show"} icon={open ? "chevron-up" : "chevron-down"} onPress={() => setOpen(!open)} />}
+      >
+        Blind, water & sightings
+      </SectionLabel>
+      {!open ? (
+        <Pressable onPress={() => setOpen(true)}>
+          <Card>
+            <Text style={type.caption}>
+              {filled.length ? filled.join(" · ") : "Optional — group & blind, water and field conditions, what you saw, bands, clients, guests."}
+            </Text>
+          </Card>
+        </Pressable>
+      ) : (
+        <Card>
+          {loggable.length ? (
+            <>
+              <Text style={styles.fieldLabel}>Group log</Text>
+              <View style={styles.chipRow}>
+                <Chip label="None" active={!draft.groupId} onPress={() => patch({ groupId: undefined, blindId: undefined, clientMemberId: undefined, guestHostId: undefined })} />
+                {loggable.map((x) => (
+                  <Chip
+                    key={x.id}
+                    label={x.name}
+                    icon="people"
+                    active={draft.groupId === x.id}
+                    onPress={() =>
+                      patch({
+                        groupId: x.id,
+                        blindId: blinds.find((b) => b.id === draft.blindId)?.groupId === x.id ? draft.blindId : undefined,
+                        guestHostId: x.type === "duck_club" ? draft.guestHostId ?? x.meId : undefined,
+                      })
+                    }
+                  />
+                ))}
+              </View>
+              {g ? <Text style={[type.caption, { marginTop: -4, marginBottom: spacing.sm }]}>{GROUP_TYPE_LABEL[g.type]} — this hunt joins its shared log on this phone.</Text> : null}
+            </>
+          ) : null}
+
+          <Text style={styles.fieldLabel}>Blind {blindChoices.length ? "" : "· add blinds on the Blinds tab"}</Text>
+          {blindChoices.length ? (
+            <View style={styles.chipRow}>
+              <Chip label="None" active={!draft.blindId} onPress={() => patch({ blindId: undefined })} />
+              {blindChoices.map((b) => (
+                <Chip
+                  key={b.id}
+                  label={b.name}
+                  icon="home"
+                  active={draft.blindId === b.id}
+                  onPress={() =>
+                    draft.blindId === b.id
+                      ? patch({ blindId: undefined })
+                      : patch({ blindId: b.id, blind: draft.blind.trim() ? draft.blind : b.name, waterLevel: draft.waterLevel || b.waterLevel })
+                  }
+                />
+              ))}
+            </View>
+          ) : null}
+
+          <Text style={styles.fieldLabel}>Water</Text>
+          <View style={styles.chipRow}>
+            {WATER_CONDITIONS.map((w) => (
+              <Chip key={w.id} label={w.label} active={draft.waterCondition === w.id} onPress={() => patch({ waterCondition: draft.waterCondition === w.id ? undefined : w.id })} />
+            ))}
+          </View>
+          <Field label="Water level (optional)" value={draft.waterLevel ?? ""} onChange={(v) => patch({ waterLevel: v })} placeholder="18 in at the gauge" />
+          <Text style={styles.fieldLabel}>Field</Text>
+          <View style={styles.chipRow}>
+            {FIELD_CONDITIONS.map((f) => (
+              <Chip key={f.id} label={f.label} active={draft.fieldCondition === f.id} onPress={() => patch({ fieldCondition: draft.fieldCondition === f.id ? undefined : f.id })} />
+            ))}
+          </View>
+          <Field label="Bird sightings" value={draft.sightings ?? ""} onChange={(v) => patch({ sightings: v })} placeholder="500 specs north at 7, pintail high all morning" />
+
+          {g?.type === "guide_service" ? (
+            <>
+              <Text style={styles.fieldLabel}>Client</Text>
+              {clients.length ? (
+                <View style={styles.chipRow}>
+                  {clients.map((m) => (
+                    <Chip
+                      key={m.id}
+                      label={m.name}
+                      icon="person"
+                      active={draft.clientMemberId === m.id}
+                      onPress={() =>
+                        draft.clientMemberId === m.id ? patch({ clientMemberId: undefined, clientName: undefined }) : patch({ clientMemberId: m.id, clientName: m.name })
+                      }
+                    />
+                  ))}
+                </View>
+              ) : null}
+              <Field label="Client name" value={draft.clientName ?? ""} onChange={(v) => patch({ clientName: v, clientMemberId: undefined })} placeholder="Dave S." autoCapitalize="words" />
+              <Field label="Trophies" value={draft.trophies ?? ""} onChange={(v) => patch({ trophies: v })} placeholder="Bull sprig for the wall, first limit" />
+            </>
+          ) : null}
+
+          <Text style={styles.fieldLabel}>Bands {draft.bands?.length ? `· ${draft.bands.length}` : ""}</Text>
+          {(draft.bands ?? []).map((b) => (
+            <View key={b.id} style={styles.bandRow}>
+              <Text style={[type.body, styles.flex, { fontSize: 14 }]}>
+                🏷 {b.number}
+                {b.species ? ` · ${b.species}` : ""}
+                {b.clientName ? ` · ${b.clientName}` : ""}
+              </Text>
+              <Pressable onPress={() => patch({ bands: (draft.bands ?? []).filter((x) => x.id !== b.id) })} hitSlop={8} accessibilityLabel="Remove band">
+                <Ionicons name="close" size={16} color={colors.inkFaint} />
+              </Pressable>
+            </View>
+          ))}
+          <View style={styles.addRow}>
+            <TextInput value={band} onChangeText={setBand} placeholder="Band #" placeholderTextColor={colors.inkFaint} style={[styles.input, styles.flex]} />
+            <TextInput value={bandSp} onChangeText={setBandSp} placeholder="Species" placeholderTextColor={colors.inkFaint} style={[styles.input, styles.flex]} />
+            <Button label="Add" icon="pricetag" variant="ghost" onPress={addBand} />
+          </View>
+
+          {g?.type === "duck_club" ? (
+            <>
+              <Text style={styles.fieldLabel}>Guests · host</Text>
+              <View style={styles.chipRow}>
+                {hosts.map((m) => (
+                  <Chip key={m.id} label={m.name} icon="person" active={draft.guestHostId === m.id} onPress={() => patch({ guestHostId: m.id })} />
+                ))}
+              </View>
+              <Field
+                label="Guest names (comma-separated)"
+                value={guestText}
+                onChange={(v) => patch({ guestNames: v.split(",").map((x) => x.trimStart()) })}
+                placeholder="Rick P., Sam"
+                autoCapitalize="words"
+              />
+              {draft.guestHostId && guestCount ? (
+                <Text style={[type.caption, { marginTop: -4, color: usedBefore + guestCount > limit ? colors.danger : usedBefore + guestCount === limit ? colors.warn : colors.inkMuted }]}>
+                  {memberName(g, draft.guestHostId)}: {usedBefore + guestCount} of {limit} guest days this season
+                  {usedBefore + guestCount > limit ? " — over the club limit." : usedBefore + guestCount === limit ? " — at the limit." : "."}
+                </Text>
+              ) : null}
+            </>
+          ) : null}
+          {!loggable.length && userTypes.some((t) => t !== "refuge_rat") ? (
+            <Pressable onPress={() => onNotice("Start your lease, guide service or club on the Groups tab, then pick it here.")}>
+              <Text style={[type.caption, { marginTop: spacing.sm, color: colors.accent }]}>No groups yet — set one up on the Groups tab.</Text>
+            </Pressable>
+          ) : null}
+        </Card>
+      )}
+    </>
+  );
+}
+
+/** Build 6 details on an opened logbook entry. */
+function HuntExtras({ h }: { h: HuntLog }) {
+  const { groups, blinds } = useGroupStore();
+  const g = groups.find((x) => x.id === h.groupId);
+  const b = blinds.find((x) => x.id === h.blindId);
+  const lines = [
+    g ? `Group: ${g.name}` : "",
+    b ? `Blind: ${b.name}${b.property ? ` · ${b.property}` : ""}` : "",
+    [h.waterCondition ? `Water ${WATER_LABEL[h.waterCondition]}` : "", h.waterLevel ?? "", h.fieldCondition ? `Field ${FIELD_LABEL[h.fieldCondition]}` : ""].filter(Boolean).join(" · "),
+    h.sightings ? `Saw: ${h.sightings}` : "",
+    h.clientName ? `Client: ${h.clientName}` : "",
+    h.bands?.length ? `Bands: ${h.bands.map((x) => `${x.number}${x.species ? ` (${x.species})` : ""}`).join(", ")}` : "",
+    h.trophies ? `Trophies: ${h.trophies}` : "",
+    h.guestNames?.length ? `Guests: ${h.guestNames.join(", ")}${g && h.guestHostId ? ` (with ${memberName(g, h.guestHostId)})` : ""}` : "",
+  ].filter(Boolean);
+  if (!lines.length) return null;
+  return (
+    <View style={{ marginTop: 6 }}>
+      {lines.map((l) => (
+        <Text key={l} style={type.caption}>
+          {l}
+        </Text>
+      ))}
     </View>
   );
 }
@@ -917,7 +1228,11 @@ function Logbook({
   accountEmail,
   onSignIn,
   onSignOut,
+  typesText,
+  onEditTypes,
 }: {
+  typesText: string;
+  onEditTypes: () => void;
   hunts: HuntLog[];
   teamCode: string;
   editingId: string | null;
@@ -950,6 +1265,14 @@ function Logbook({
         ))}
       </View>
       <Card>
+        <Pressable onPress={onEditTypes} style={styles.accountRow} accessibilityLabel="Edit how I hunt">
+          <Ionicons name="compass-outline" size={18} color={colors.accent} />
+          <Text style={[type.body, styles.flex]} numberOfLines={1}>
+            How I hunt: <Text style={{ color: colors.accent }}>{typesText}</Text>
+          </Text>
+          <Ionicons name="create-outline" size={16} color={colors.inkMuted} />
+        </Pressable>
+        <View style={styles.hair} />
         <Text style={type.eyebrow}>Account</Text>
         {!isSupabaseConfigured ? (
           <Text style={[type.body, { color: colors.inkMuted, marginTop: 4 }]}>{SYNC_OFF_LINE}</Text>
@@ -1058,10 +1381,18 @@ function Logbook({
                       })}
                     </View>
                   ) : null}
+                  <HuntExtras h={h} />
                   {h.notes ? <Text style={[type.body, { marginTop: 6 }]}>{h.notes}</Text> : null}
                   <View style={{ marginTop: spacing.md }}>
                     <PhotoControls photo={h.photo} onChange={(p) => onPhoto(h, p)} onNotice={onNotice} />
                   </View>
+                  <Button
+                    label="Share hunt card"
+                    icon="share-social"
+                    variant="ghost"
+                    onPress={() => void Share.share({ message: huntShareText(h) }).catch(() => undefined)}
+                    style={{ marginTop: spacing.md }}
+                  />
                   <Button
                     label={editingId === h.id ? "Continue editing" : "Edit hunt"}
                     icon="create"
@@ -1225,6 +1556,10 @@ const styles = StyleSheet.create({
   segment: { flexDirection: "row", backgroundColor: colors.bgSunken, borderRadius: radius.md, padding: 4, marginBottom: spacing.md, borderWidth: 1, borderColor: colors.border },
   segBtn: { flex: 1, flexDirection: "row", gap: 5, alignItems: "center", justifyContent: "center", paddingVertical: 9, borderRadius: radius.sm },
   segBtnOn: { backgroundColor: colors.accent },
+  segBtnEmph: { borderWidth: 1, borderColor: colors.accentDeep },
+  typesBtn: { flexDirection: "row", alignItems: "center", gap: 4, maxWidth: 170, paddingHorizontal: 10, paddingVertical: 7, borderRadius: radius.pill, borderWidth: 1, borderColor: colors.borderStrong },
+  typesBtnText: { color: colors.ink, fontFamily: fonts.headingSemi, fontSize: 13, letterSpacing: 0.4, flexShrink: 1 },
+  hair: { height: StyleSheet.hairlineWidth, backgroundColor: colors.hairline, marginVertical: spacing.sm },
   segText: { color: colors.inkMuted, fontFamily: fonts.headingSemi, fontSize: 14, letterSpacing: 0.4 },
   notice: {
     flexDirection: "row",
@@ -1251,6 +1586,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
   },
   addRow: { flexDirection: "row", gap: spacing.sm, marginBottom: spacing.md },
+  bandRow: { flexDirection: "row", alignItems: "center", gap: spacing.sm, paddingVertical: 4 },
   birdTotal: { ...type.numeral, color: colors.accent, fontSize: 18 },
   groupLabel: { ...type.eyebrow, color: colors.inkMuted, fontSize: 11, marginTop: spacing.sm, marginBottom: 2 },
   counterRow: { flexDirection: "row", alignItems: "center", paddingVertical: 6, borderBottomWidth: StyleSheet.hairlineWidth, borderBottomColor: colors.hairline },

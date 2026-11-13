@@ -27,6 +27,8 @@ type Props = {
   onPan: (c: LatLon) => void;
   onPressWaypoint: (id: string) => void;
   height?: number;
+  /** Blind access routes (truck → blind), drawn under the pins. */
+  routes?: { id: string; points: LatLon[] }[];
 };
 
 const GRID_STEPS = [10, 25, 50, 100, 200, 250, 500, 1000, 2000];
@@ -106,6 +108,22 @@ export function TacticalMap(p: Props) {
               </G>
             );
           })}
+
+          {(p.routes ?? []).map((r) =>
+            r.points.length > 1 ? (
+              <Polyline
+                key={`route-${r.id}`}
+                points={r.points.map(px).map((q) => `${q.x.toFixed(1)},${q.y.toFixed(1)}`).join(" ")}
+                fill="none"
+                stroke={colors.good}
+                strokeOpacity={0.8}
+                strokeWidth={2}
+                strokeDasharray="2,4"
+                strokeLinejoin="round"
+                strokeLinecap="round"
+              />
+            ) : null,
+          )}
 
           {p.track.length > 1 ? (
             <>

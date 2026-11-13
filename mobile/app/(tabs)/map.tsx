@@ -42,13 +42,16 @@ import { useWeather } from "@/lib/useWeather";
 import { loadWaypoints, newId, saveWaypoints, Waypoint, WAYPOINT_KINDS, WAYPOINT_ORDER, WaypointKind } from "@/lib/waypoints";
 import { formatElapsed } from "@/lib/sun";
 import { confirm } from "@/lib/confirm";
+import { useGroupStore } from "@/lib/groupStore";
+import { hasPin } from "@/lib/blinds";
+import { GROUP_TYPE_LABEL } from "@/lib/groups";
 
 const ZOOMS = [0.5, 1, 2, 4, 8, 16, 32];
 const SIM_STEP_S = 4;          // simulated seconds per real second
 const SIM_WALK_MPS = 1.45;     // ~3.2 mph, waders in mud
 
 export default function MapScreen() {
-  const params = useLocalSearchParams<{ refuge?: string }>();
+  const params = useLocalSearchParams<{ refuge?: string; blind?: string }>();
   const [refugeId, setRefugeId] = useState(params.refuge && REFUGE_BY_ID[params.refuge] ? params.refuge : REFUGES[0].id);
   const refuge = REFUGE_BY_ID[refugeId];
   const landmarks = useMemo(() => landmarksFor(refuge), [refuge]);
@@ -99,7 +102,7 @@ export default function MapScreen() {
   // First real fix near a refuge: snap the selector to it.
   const autoPicked = useRef(false);
   useEffect(() => {
-    if (!fix || autoPicked.current || simRunning || params.refuge) return;
+    if (!fix || autoPicked.current || simRunning || params.refuge || params.blind) return;
     autoPicked.current = true;
     const nearest = REFUGES.reduce((a, b) => (distanceMeters(fix, b.coords) < distanceMeters(fix, a.coords) ? b : a));
     if (distanceMeters(fix, nearest.coords) < 30000) {
@@ -107,7 +110,7 @@ export default function MapScreen() {
       setCenter(fix);
       setFollow(true);
     }
-  }, [fix, simRunning, params.refuge]);
+  }, [fix, simRunning, params.refuge, params.blind]);
 
   useEffect(() => {
     if (follow && fix) setCenter({ lat: fix.lat, lon: fix.lon });
@@ -128,10 +131,54 @@ export default function MapScreen() {
     setZoom(3);
   }
 
+  // ── group blinds (Build 6) ────────────────────────────────────────────
+  // Pinned blinds from your groups (and your own) ride along as read-only
+  // "blind" pins, with their access routes drawn in. They live in the blinds
+  // store, not the waypoint list, so deleting a waypoint never touches them.
+  const { blinds, groups } = useGroupStore();
+  const pinned = useMemo(() => blinds.filter(hasPin), [blinds]);
+  const blindPins: Waypoint[] = useMemo(
+    () =>
+      pinned.map((b) => ({
+        id: `blind:${b.id}`,
+        kind: "blind" as const,
+        label: `${b.name}${b.property ? ` · ${b.property}` : ""}`,
+        notes: b.accessRoute ?? "",
+        lat: b.lat,
+        lon: b.lng,
+        acc: null,
+        createdAt: b.createdAt,
+        refugeId: null,
+      })),
+    [pinned],
+  );
+  const routes = useMemo(
+    () =>
+      pinned
+        .filter((b) => b.routePoints && b.routePoints.length > 0)
+        .map((b) => ({ id: b.id, points: [...b.routePoints!, { lat: b.lat, lon: b.lng }] })),
+    [pinned],
+  );
+  const mapPins = useMemo(() => [...waypoints, ...blindPins], [waypoints, blindPins]);
+
+  function showBlind(id: string) {
+    const b = pinned.find((x) => x.id === id);
+    if (!b) return;
+    setCenter({ lat: b.lat, lon: b.lng });
+    setFollow(false);
+    setZoom(2);
+    setTargetId(`blind:${b.id}`);
+  }
+
+  // Deep link from the Blinds tab ("Show on map").
+  useEffect(() => {
+    if (params.blind) showBlind(params.blind);
+  }, [params.blind, pinned.length]);
+
   // ── waypoints & target ────────────────────────────────────────────────
   const origin: LatLon | null = fix ? { lat: fix.lat, lon: fix.lon } : null;
   const target =
-    waypoints.find((w) => w.id === targetId) ??
+    mapPins.find((w) => w.id === targetId) ??
     waypoints.find((w) => w.kind === "truck" && w.refugeId === refugeId) ??
     waypoints.find((w) => w.kind === "blind" && w.refugeId === refugeId) ??
     null;
@@ -317,7 +364,8 @@ export default function MapScreen() {
             mpp={mpp}
             landmarks={landmarks}
             track={track.points}
-            waypoints={waypoints}
+            waypoints={mapPins}
+            routes={routes}
             me={fix}
             heading={heading}
             windDir={wx?.windDir ?? null}
@@ -330,7 +378,7 @@ export default function MapScreen() {
             onPressWaypoint={setTargetId}
           />
         ) : (
-          <NativeMap center={center} mpp={mpp} track={track.points} waypoints={waypoints} me={fix} onPressWaypoint={setTargetId} />
+          <NativeMap center={center} mpp={mpp} track={track.points} waypoints={mapPins} routes={routes} me={fix} onPressWaypoint={setTargetId} />
         )}
         <View style={styles.mapControls}>
           <MapBtn icon="add" onPress={() => setZoom((z) => Math.max(0, z - 1))} label="Zoom in" />
@@ -450,6 +498,36 @@ export default function MapScreen() {
           <Button label="Clear trail" icon="trash" variant="ghost" onPress={clearTrail} style={{ marginTop: spacing.sm }} />
         ) : null}
       </Card>
+
+      {pinned.length ? (
+        <>
+          <SectionLabel>Your blinds · {pinned.length} pinned</SectionLabel>
+          <Card>
+            {pinned.map((b) => {
+              const g = groups.find((x) => x.id === b.groupId);
+              const d = origin ? distanceMeters(origin, { lat: b.lat, lon: b.lng }) : null;
+              return (
+                <Pressable key={b.id} onPress={() => showBlind(b.id)} style={styles.blindRow}>
+                  <Ionicons name="home" size={16} color={target?.id === `blind:${b.id}` ? colors.accent : colors.inkMuted} />
+                  <View style={styles.flex}>
+                    <Text style={{ color: colors.ink }} numberOfLines={1}>
+                      {b.name}
+                      {g ? <Text style={type.caption}>{`  · ${g.name} (${GROUP_TYPE_LABEL[g.type]})`}</Text> : null}
+                    </Text>
+                    {b.accessRoute ? (
+                      <Text style={type.caption} numberOfLines={2}>
+                        Way in: {b.accessRoute}
+                      </Text>
+                    ) : null}
+                  </View>
+                  <Text style={type.caption}>{d != null ? formatDistance(d) : b.county ?? ""}</Text>
+                </Pressable>
+              );
+            })}
+            <Text style={[type.caption, { marginTop: spacing.sm }]}>Tap a blind to center it and point the return arrow at it. Green dashes are access routes. Edit blinds on Logbook → Blinds.</Text>
+          </Card>
+        </>
+      ) : null}
 
       <SectionLabel right={<Chip label="Drop pin" icon="pin" active onPress={() => setAdding(true)} />}>Precision waypoints</SectionLabel>
       {sorted.length === 0 ? (
@@ -671,6 +749,7 @@ function AddWaypointSheet({
 
 const styles = StyleSheet.create({
   flex: { flex: 1 },
+  blindRow: { flexDirection: "row", alignItems: "center", gap: spacing.sm, paddingVertical: 8, borderBottomWidth: StyleSheet.hairlineWidth, borderBottomColor: colors.hairline },
   gpsPill: { flexDirection: "row", alignItems: "center", gap: 6, borderWidth: 1, borderRadius: radius.pill, paddingHorizontal: 10, paddingVertical: 6 },
   gpsPillText: { color: colors.ink, fontFamily: fonts.headingSemi, fontSize: 13, letterSpacing: 1 },
   dot: { width: 8, height: 8, borderRadius: 4 },

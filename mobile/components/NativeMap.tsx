@@ -19,9 +19,11 @@ type Props = {
   me: TrackPoint | null;
   onPressWaypoint: (id: string) => void;
   height?: number;
+  /** Blind access routes (truck → blind). */
+  routes?: { id: string; points: LatLon[] }[];
 };
 
-export function NativeMap({ center, mpp, track, waypoints, me, onPressWaypoint, height = 360 }: Props) {
+export function NativeMap({ center, mpp, track, waypoints, me, onPressWaypoint, height = 360, routes = [] }: Props) {
   // ~390 px across the card → span in degrees from meters-per-pixel.
   const latDelta = (mpp * 390) / 111320;
   return (
@@ -36,6 +38,17 @@ export function NativeMap({ center, mpp, track, waypoints, me, onPressWaypoint, 
         rotateEnabled={false}
         pitchEnabled={false}
       >
+        {routes.map((r) =>
+          r.points.length > 1 ? (
+            <Polyline
+              key={`route-${r.id}`}
+              coordinates={r.points.map((p) => ({ latitude: p.lat, longitude: p.lon }))}
+              strokeColor={colors.good}
+              strokeWidth={3}
+              lineDashPattern={[4, 6]}
+            />
+          ) : null,
+        )}
         {track.length > 1 ? (
           <Polyline
             coordinates={track.map((p) => ({ latitude: p.lat, longitude: p.lon }))}
