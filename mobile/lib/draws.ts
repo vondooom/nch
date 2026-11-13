@@ -22,7 +22,32 @@ export type Draw = {
   userId: string | null;
   createdAt: number;
   updatedAt?: number;
+  /** Build 6. Sweat line (default) or a reservation drawing. */
+  kind?: DrawKind;
+  /** Build 6. Did the number get you in? */
+  result?: DrawResult;
+  /** Build 6. Lines logged together on one night share this id. */
+  nightId?: string;
 };
+
+export type DrawKind = "sweat" | "reservation";
+export type DrawResult = "in" | "out" | "pending";
+
+export const DRAW_KIND_LABEL: Record<DrawKind, string> = { sweat: "Sweat line", reservation: "Reservation" };
+export const DRAW_RESULT_LABEL: Record<DrawResult, string> = { in: "Got in", out: "Didn't get in", pending: "Waiting" };
+
+export type DrawNight = { date: string; draws: Draw[]; best: Draw | null };
+
+/** Draws grouped by hunt date, newest night first — several lines one night read together. */
+export function drawNights(list: Draw[]): DrawNight[] {
+  const by = new Map<string, Draw[]>();
+  sortDraws(list).forEach((d) => by.set(d.date, [...(by.get(d.date) ?? []), d]));
+  return [...by.entries()].map(([date, draws]) => {
+    const withNum = draws.filter((d) => drawNum(d) != null);
+    const best = withNum.reduce<Draw | null>((a, d) => (!a || drawNum(d)! < drawNum(a)! ? d : a), null);
+    return { date, draws, best };
+  });
+}
 
 export const DRAWS_LOCAL_LINE = "Draws stay on this phone for now — no cloud upload until the NorCalHunt database is set up.";
 

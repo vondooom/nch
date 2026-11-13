@@ -153,7 +153,55 @@ export type HuntLog = {
   synced?: boolean;
   /** Local-only photo: a path under the app's document dir (native) or a URI (web). Never synced. */
   photo?: string;
+
+  // ── Build 6 · optional, all backward-compatible ─────────────────────────
+  /** lib/blinds.ts Blind id this hunt was in. */
+  blindId?: string;
+  /** lib/groups.ts HuntGroup id whose shared log this hunt belongs to. */
+  groupId?: string;
+  waterCondition?: WaterCondition;
+  fieldCondition?: FieldCondition;
+  /** Free text: "18 in at the gauge", "low — boards pulled". */
+  waterLevel?: string;
+  /** What flew: "500 specs north at 7, pintail high". */
+  sightings?: string;
+  /** Leg bands recovered. */
+  bands?: Band[];
+  /** Mounts, limits, firsts — free text. */
+  trophies?: string;
+  /** Guide hunts: the client this hunt was for (roster id and/or name). */
+  clientMemberId?: string;
+  clientName?: string;
+  /** Club hunts: roster id of the member hosting guests, and the guests' names. */
+  guestHostId?: string;
+  guestNames?: string[];
 };
+
+export type WaterCondition = "dry" | "low" | "good" | "high" | "flooded" | "frozen";
+export type FieldCondition = "standing" | "cut" | "rolled" | "burned" | "flooded" | "worked";
+export type Band = { id: string; number: string; species?: string; notes?: string; clientName?: string };
+
+export const WATER_CONDITIONS: { id: WaterCondition; label: string }[] = [
+  { id: "dry", label: "Dry" },
+  { id: "low", label: "Low" },
+  { id: "good", label: "Good" },
+  { id: "high", label: "High" },
+  { id: "flooded", label: "Flooded" },
+  { id: "frozen", label: "Iced" },
+];
+
+export const FIELD_CONDITIONS: { id: FieldCondition; label: string }[] = [
+  { id: "standing", label: "Standing" },
+  { id: "cut", label: "Cut" },
+  { id: "rolled", label: "Rolled" },
+  { id: "burned", label: "Burned" },
+  { id: "flooded", label: "Flooded" },
+  { id: "worked", label: "Worked" },
+];
+
+/** True when any Build 6 detail is filled in (keeps the form section open on edit). */
+export const hasBlindDetails = (h: HuntLog) =>
+  !!(h.blindId || h.groupId || h.waterCondition || h.fieldCondition || h.waterLevel || h.sightings || h.bands?.length || h.trophies || h.clientName || h.guestNames?.length);
 
 export function seasonOf(date: string): string {
   const [y, m] = date.split("-").map(Number);
@@ -222,6 +270,8 @@ export function migrateHunt(h: HuntLog): HuntLog {
     party: Array.isArray(h.party) ? h.party : [],
     teamCode: cleanTeamName(h.teamCode ?? ""),
     counts: migrateCounts(h.counts as Record<string, unknown>),
+    bands: Array.isArray(h.bands) ? h.bands.filter((b) => b && typeof b.number === "string") : undefined,
+    guestNames: Array.isArray(h.guestNames) ? h.guestNames.filter((n) => typeof n === "string" && n.trim()) : undefined,
   };
 }
 

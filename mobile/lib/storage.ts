@@ -15,6 +15,12 @@ export const KEYS = {
   privacyDismissed: "nch.privacyDismissed.v1",
   draws: "nch.draws.v1",
   groups: "nch.groups.v1",
+  userTypes: "nch.userTypes.v1",
+  userTypesPrompt: "nch.userTypesPrompt.v1",
+  blinds: "nch.blinds.v1",
+  assignments: "nch.assignments.v1",
+  clubDraws: "nch.clubDraws.v1",
+  guestDays: "nch.guestDays.v1",
 } as const;
 
 export async function readJSON<T>(key: string, fallback: T): Promise<T> {
