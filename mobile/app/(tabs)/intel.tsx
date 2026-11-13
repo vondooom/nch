@@ -25,6 +25,7 @@ import {
   ZONES,
 } from "@/lib/regs";
 import { ALL_DISPATCHES, Dispatch } from "@/lib/dispatches";
+import { ConnectSection } from "@/components/ConnectSection";
 
 type Place = { id: string; label: string; at: LatLon };
 type Filter = "all" | "waterfowl" | "issue" | "story";
@@ -206,6 +207,8 @@ export default function FieldDeskScreen() {
         ))}
         <Text style={[type.caption, { marginTop: spacing.sm }]}>Field reference from the NorCalHunt desk — the CDFW Waterfowl Regulations booklet is the law.</Text>
       </Card>
+
+      <ConnectSection />
 
       <SectionLabel>NorCalHunt dispatches</SectionLabel>
       <View style={[styles.chipRow, { flexWrap: "wrap" }]}>

@@ -34,6 +34,14 @@ export default function RootLayout() {
           >
             <Stack.Screen name="(tabs)" />
             <Stack.Screen name="sign-in" options={{ presentation: "modal" }} />
+            {/* Build 7 · Connect. norcalhunt://invite/<code> → invite/[code] via expo-router. */}
+            <Stack.Screen name="profile" />
+            <Stack.Screen name="search" />
+            <Stack.Screen name="requests" />
+            <Stack.Screen name="feed" />
+            <Stack.Screen name="hunter/[id]" />
+            <Stack.Screen name="invite/index" />
+            <Stack.Screen name="invite/[code]" />
           </Stack>
         </WebShell>
       </AuthProvider>

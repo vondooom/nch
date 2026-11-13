@@ -67,6 +67,8 @@ import { GROUP_TYPE_LABEL, linkHuntToGroup, memberName } from "@/lib/groups";
 import { groupCan } from "@/lib/permissions";
 import { DEFAULT_GUEST_LIMIT, dropGuestDaysForHunt, guestDaysUsed, syncGuestDaysForHunt } from "@/lib/guestDays";
 import { huntShareText } from "@/lib/leaderboard";
+import { effectiveVisibility, useMyProfile, VISIBILITY_LABEL } from "@/lib/profile";
+import { VisibilityPicker } from "@/components/Connect";
 import { deleteHuntPhoto, explainDenied, photoUri, pickHuntPhoto, PhotoSource } from "@/lib/photos";
 
 type Tab = "log" | "book" | "stats" | "draws" | "groups" | "blinds" | "board";
@@ -542,6 +544,7 @@ function LogForm({
   userTypes: UserTypeId[];
 }) {
   const { session } = useAuth();
+  const { profile } = useMyProfile();
   const [member, setMember] = useState("");
   const [newBlind, setNewBlind] = useState("");
   const birds = total(draft.counts);
@@ -858,6 +861,13 @@ function LogForm({
         style={[styles.input, { minHeight: 90, textAlignVertical: "top" }]}
         multiline
       />
+      <SectionLabel>Who sees this hunt</SectionLabel>
+      <Card>
+        <VisibilityPicker value={draft.visibility} onChange={(v) => patch({ visibility: v })} inherit={profile.logbookPrivacy} />
+        <Text style={[type.caption, { marginTop: 4 }]}>
+          Outside your groups it&apos;s the area and the birds — never GPS, blind or notes.{draft.groupId ? " The group log follows the group's roles either way." : ""}
+        </Text>
+      </Card>
       <Button label={editing ? "Save changes" : "Save hunt"} icon="save" onPress={onSave} style={{ marginTop: spacing.lg }} />
       {editing ? <Button label="Cancel edit" icon="close" variant="ghost" onPress={onCancelEdit} style={{ marginTop: spacing.sm }} /> : null}
       <Text style={[type.caption, { marginTop: spacing.sm, textAlign: "center" }]}>
@@ -1076,6 +1086,7 @@ function BlindDetails({
 /** Build 6 details on an opened logbook entry. */
 function HuntExtras({ h }: { h: HuntLog }) {
   const { groups, blinds } = useGroupStore();
+  const { profile } = useMyProfile();
   const g = groups.find((x) => x.id === h.groupId);
   const b = blinds.find((x) => x.id === h.blindId);
   const lines = [
@@ -1087,6 +1098,7 @@ function HuntExtras({ h }: { h: HuntLog }) {
     h.bands?.length ? `Bands: ${h.bands.map((x) => `${x.number}${x.species ? ` (${x.species})` : ""}`).join(", ")}` : "",
     h.trophies ? `Trophies: ${h.trophies}` : "",
     h.guestNames?.length ? `Guests: ${h.guestNames.join(", ")}${g && h.guestHostId ? ` (with ${memberName(g, h.guestHostId)})` : ""}` : "",
+    `Who sees it: ${VISIBILITY_LABEL[effectiveVisibility(h, profile.logbookPrivacy)]}${h.visibility ? "" : " (default)"}`,
   ].filter(Boolean);
   if (!lines.length) return null;
   return (

@@ -4,6 +4,7 @@ import { Ionicons } from "@expo/vector-icons";
 import { colors, fonts, radius, spacing, type } from "@/constants/theme";
 import { Button, Card, Chip, SectionLabel } from "@/components/ui";
 import { Input, panelStyles } from "@/components/DrawsPanel";
+import { InvitePanel } from "@/components/InvitePanel";
 import {
   BlindPerfList,
   ClientBandsSection,
@@ -315,24 +316,30 @@ function GroupCard({
 
       {open ? (
         <View style={{ marginTop: spacing.sm }}>
-          <View style={styles.codeRow}>
-            <Text style={panelStyles.label}>Invite code</Text>
-            <Text style={styles.code}>{g.inviteCode}</Text>
-            {g.owner ? (
-              <Pressable
-                onPress={() =>
-                  void Share.share({
-                    message: `Join "${g.name}" on NorCalHunt with code ${g.inviteCode}. (Group sharing turns on once the NorCalHunt database is set up — save the code for now.)`,
-                  })
-                }
-                hitSlop={8}
-                accessibilityLabel="Share invite code"
-              >
-                <Ionicons name="share-outline" size={18} color={colors.accent} />
-              </Pressable>
-            ) : null}
-          </View>
-          <Text style={type.caption}>The code doesn&apos;t connect phones yet — it&apos;s saved for when sharing turns on.</Text>
+          {g.inviteCode ? (
+            <>
+              <View style={styles.codeRow}>
+                <Text style={panelStyles.label}>Group code</Text>
+                <Text style={styles.code}>{g.inviteCode}</Text>
+                {g.owner ? (
+                  <Pressable
+                    onPress={() =>
+                      void Share.share({
+                        message: `Join "${g.name}" on NorCalHunt with code ${g.inviteCode}. (Group sharing turns on once the NorCalHunt database is set up — save the code for now.)`,
+                      })
+                    }
+                    hitSlop={8}
+                    accessibilityLabel="Share invite code"
+                  >
+                    <Ionicons name="share-outline" size={18} color={colors.accent} />
+                  </Pressable>
+                ) : null}
+              </View>
+              <Text style={type.caption}>The group code doesn&apos;t connect phones yet — it&apos;s saved for later.</Text>
+            </>
+          ) : null}
+          {g.serverId ? <Text style={type.caption}>On the NorCalHunt server — invite links work.</Text> : null}
+          <InvitePanel g={g} onChange={onChange} onNotice={onNotice} />
 
           {!g.owner ? (
             <>
