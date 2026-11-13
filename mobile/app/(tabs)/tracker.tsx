@@ -50,7 +50,7 @@ import { shootWindow } from "@/lib/sun";
 import { useWeather } from "@/lib/useWeather";
 import { newId } from "@/lib/waypoints";
 import { confirm } from "@/lib/confirm";
-import { isSupabaseConfigured, onLegacySchema, pullMyHunts, pushHunts, SIGN_IN_TO_SYNC } from "@/lib/supabase";
+import { isSupabaseConfigured, onLegacySchema, pullMyHunts, pushHunts, SIGN_IN_TO_SYNC, SYNC_OFF_LINE } from "@/lib/supabase";
 import { useAuth } from "@/lib/auth";
 import { KEYS, readJSON, writeJSON } from "@/lib/storage";
 import { DrawsPanel } from "@/components/DrawsPanel";
@@ -386,7 +386,7 @@ export default function TrackerScreen() {
           }}
           onPull={async (code) => {
             if (!isSupabaseConfigured) {
-              setNotice("Sync is off in this build. Everything is saved on this phone.");
+              setNotice(SYNC_OFF_LINE);
               return;
             }
             if (!session) {
@@ -952,7 +952,7 @@ function Logbook({
       <Card>
         <Text style={type.eyebrow}>Account</Text>
         {!isSupabaseConfigured ? (
-          <Text style={[type.body, { color: colors.inkMuted, marginTop: 4 }]}>Sync is off in this build — everything is saved on this phone.</Text>
+          <Text style={[type.body, { color: colors.inkMuted, marginTop: 4 }]}>{SYNC_OFF_LINE}</Text>
         ) : accountEmail ? (
           <>
             <View style={styles.accountRow}>

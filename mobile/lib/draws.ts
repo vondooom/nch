@@ -24,7 +24,7 @@ export type Draw = {
   updatedAt?: number;
 };
 
-export const DRAWS_LOCAL_LINE = "Draws stay on this phone for now — no cloud upload until accounts are locked down.";
+export const DRAWS_LOCAL_LINE = "Draws stay on this phone for now — no cloud upload until the NorCalHunt database is set up.";
 
 export async function loadDraws(): Promise<Draw[]> {
   return sortDraws(await readJSON<Draw[]>(KEYS.draws, []));

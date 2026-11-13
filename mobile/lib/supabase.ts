@@ -10,13 +10,20 @@ import { HuntLog, isSeedHunt, migrateHunt, teamKey, teamSyncable } from "./huntL
 // Schema: supabase/schema.sql, then supabase/migrations/20261106_hunt_logs_auth.sql
 // for per-user rows + RLS.
 
+// NorCalHunt has its own Supabase project — not set up yet. app.json `extra`
+// and eas.json ship BLANK on purpose: there is no default URL or key, so with
+// nothing configured isSupabaseConfigured is false, getSupabase() is never
+// called, and every hunt, draw, group and blind stays in AsyncStorage. Point
+// EXPO_PUBLIC_SUPABASE_URL / EXPO_PUBLIC_SUPABASE_ANON_KEY (or app.json extra)
+// at the NorCalHunt project only — never at another app's database.
+
 const extra = (Constants.expoConfig?.extra ?? {}) as {
   supabaseUrl?: string;
   supabaseAnonKey?: string;
 };
 
-const url = process.env.EXPO_PUBLIC_SUPABASE_URL || extra.supabaseUrl || "";
-const anonKey = process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY || extra.supabaseAnonKey || "";
+const url = (process.env.EXPO_PUBLIC_SUPABASE_URL || extra.supabaseUrl || "").trim();
+const anonKey = (process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY || extra.supabaseAnonKey || "").trim();
 
 export const isSupabaseConfigured = url.length > 0 && anonKey.length > 0;
 
@@ -40,6 +47,10 @@ export function getSupabase(): SupabaseClient {
   }
   return client;
 }
+
+/** Shown wherever a sync / account CTA would be, while no project is configured. */
+export const SYNC_OFF_LINE =
+  "Everything saves on this phone. Sync turns on once the NorCalHunt database is set up and you sign in.";
 
 export const SIGN_IN_TO_SYNC = "Sign in to sync — your hunts are safe on this phone.";
 

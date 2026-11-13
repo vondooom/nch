@@ -1,7 +1,7 @@
 import { createContext, ReactNode, useContext, useEffect, useMemo, useState } from "react";
 import { AppState } from "react-native";
 import { isAuthSessionMissingError, type Session, type User } from "@supabase/supabase-js";
-import { getSupabase, isSupabaseConfigured } from "./supabase";
+import { getSupabase, isSupabaseConfigured, SYNC_OFF_LINE } from "./supabase";
 
 // Supabase Auth, email one-time code. The session persists in AsyncStorage
 // (see getSupabase), so a hunter signs in once per phone. Signed out, the
@@ -17,7 +17,7 @@ type Auth = {
   signOut: () => Promise<void>;
 };
 
-const OFF = "Sync is off in this build — your hunts stay on this phone.";
+const OFF = SYNC_OFF_LINE;
 
 const AuthContext = createContext<Auth | null>(null);
 

@@ -5,7 +5,7 @@ import { router } from "expo-router";
 import { colors, radius, spacing, type } from "@/constants/theme";
 import { Button, Card, Header, Screen } from "@/components/ui";
 import { useAuth } from "@/lib/auth";
-import { isSupabaseConfigured } from "@/lib/supabase";
+import { isSupabaseConfigured, SYNC_OFF_LINE } from "@/lib/supabase";
 
 // Email one-time code sign-in. Two steps: send the code, type the code.
 
@@ -77,10 +77,8 @@ export default function SignInScreen() {
         </Card>
       ) : !isSupabaseConfigured ? (
         <Card>
-          <Text style={type.h3}>Sync is off in this build</Text>
-          <Text style={[type.body, { color: colors.inkMuted, marginTop: spacing.sm }]}>
-            Your logbook still works — everything stays on this phone.
-          </Text>
+          <Text style={type.h3}>Sign-in isn&apos;t on yet</Text>
+          <Text style={[type.body, { color: colors.inkMuted, marginTop: spacing.sm }]}>{SYNC_OFF_LINE}</Text>
         </Card>
       ) : (
         <Card>
