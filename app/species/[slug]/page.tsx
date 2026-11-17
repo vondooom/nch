@@ -7,7 +7,7 @@ import { absoluteUrl, pageMeta } from "@/lib/site";
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const animal = findSpecies((await params).slug);
-  if (!animal) return { title: "Species" };
+  if (!animal) return { title: "Game species" };
   return pageMeta({
     title: animal.title,
     description: animal.lede,
@@ -31,7 +31,7 @@ export default async function SpeciesPage({ params }: { params: Promise<{ slug: 
           url: absoluteUrl(`/species/${animal.slug}`),
         }}
       />
-      <GuideDetail current="/species" backHref="/species" backLabel="All species" guide={animal} />
+      <GuideDetail current="/species" backHref="/species" backLabel="All game" guide={animal} />
     </>
   );
 }

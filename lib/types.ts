@@ -41,6 +41,8 @@ export type Dog = {
   slug: string;
   name: string;
   breed: string;
+  /** Person or kennel named in the archive. Omit when no name is on file. */
+  owner?: string;
   week: string;
   story: string;
   image?: string;

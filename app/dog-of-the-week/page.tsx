@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
+import { FitPhoto } from "@/components/site/fit-photo";
 import { getStore, published } from "@/lib/store";
 
 export const metadata = { title: "Dog of the Week" };
@@ -18,18 +19,13 @@ export default function DogsPage() {
           The best hunting partners have four legs
         </h1>
         <p className="mb-8 max-w-[640px] font-serif text-[17px] leading-relaxed text-[#5C543F]">
-          Every issue features one NorCal hunting dog and the story behind it. Send us yours and we&apos;ll put it in
-          front of the whole pack.
+          Every issue features one NorCal hunting dog, the owner, and the story behind them. Send us yours and we&apos;ll put
+          it in front of the whole pack.
         </p>
         <div className="mb-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {dogs.map((d) => (
             <Link key={d.id} href={`/dog-of-the-week/${d.slug}`} className="flex flex-col border border-[#D8CDB4] bg-[#FBF8F0]">
-              <div className="h-[230px] bg-[#1C2B1A]">
-                {d.image ? (
-                  // eslint-disable-next-line @next/next/no-img-element
-                  <img src={d.image} alt={d.name} className="h-full w-full object-cover" />
-                ) : null}
-              </div>
+              <FitPhoto src={d.image} alt={d.name} />
               <div className="flex flex-1 flex-col gap-2 p-5">
                 <div className="flex items-baseline justify-between gap-3">
                   <div className="font-heading text-[24px] font-bold uppercase text-[#1C2B1A]">{d.name}</div>
@@ -40,6 +36,7 @@ export default function DogsPage() {
                 <div className="font-heading text-[14px] font-semibold uppercase tracking-[0.08em] text-[#2F4A2C]">
                   {d.breed}
                 </div>
+                {d.owner ? <div className="font-serif text-[15px] text-[#3B3526]">Owner: {d.owner}</div> : null}
                 <div className="font-serif text-[15px] leading-relaxed text-[#5C543F]">{d.story}</div>
               </div>
             </Link>
@@ -49,7 +46,7 @@ export default function DogsPage() {
           <div>
             <div className="mb-1.5 font-heading text-[22px] font-bold uppercase">Nominate a dog</div>
             <div className="max-w-[520px] font-serif text-[15px] leading-relaxed text-[#5C543F]">
-              A photo, the dog&apos;s name and breed, and the story — a retrieve, a point, a lesson.
+              A photo, the dog&apos;s name and breed, and the story. A retrieve, a point, a lesson.
             </div>
           </div>
           <Link href="/dog-of-the-week/nominate" className="bg-[#C75B12] px-6 py-3.5 font-heading text-[16px] font-semibold uppercase tracking-[0.1em] text-[#FFF6E8]">

@@ -21,7 +21,7 @@ Sign in at `/sign-in`. Production should set `STAFF_SESSION_SECRET` and stronger
 ## Public pages
 
 - `/` — Homepage, conditions strip, latest briefings, featured recipe
-- `/newsletters` and `/newsletters/[slug]` — Tuesday briefing archive
+- `/newsletters` and `/newsletters/[slug]`: Sunday 7am briefing archive
 - `/field-stories` and `/field-stories/[slug]` — Reader hunts (one URL per story)
 - `/field-stories/submit` — Public story inbox
 - `/dog-of-the-week` and `/dog-of-the-week/[slug]` — Featured dogs
@@ -32,11 +32,11 @@ Sign in at `/sign-in`. Production should set `STAFF_SESSION_SECRET` and stronger
 - `/local-boys` and `/local-boys/[slug]` — Trusted local services
 - `/marketplace` — Classifieds preview
 - `/zones` and `/zones/[slug]` — Deer zones and valley refuge country
-- `/species` and `/species/[slug]` — Blacktail, dove, waterfowl, turkey, pig, quail, pheasant
+- `/species` and `/species/[slug]`: game species (blacktail, dove, waterfowl, turkey, pig, quail, pheasant)
 - `/calendar` — The hunting year, month by month
 - `/checklist` — Before you leave the driveway
 - `/faq` / `/privacy` / `/contact`
-- `/about` / `/subscribe` — Tuesday briefing signup (stored on the desk; Beehiiv later)
+- `/about` / `/subscribe`: Sunday 7am briefing signup (stored on the desk; Beehiiv later)
 - `/sitemap.xml` — Index of every published entry
 
 Drafts never appear on these routes.

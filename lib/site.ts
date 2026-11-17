@@ -34,7 +34,7 @@ export function pageMeta({
     description,
     alternates: { canonical: url },
     openGraph: {
-      title: `${title} — NorCalHunt`,
+      title: `${title} · NorCalHunt`,
       description,
       url,
       type: "article",

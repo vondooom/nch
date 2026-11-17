@@ -17,7 +17,7 @@ export default function NominatePage() {
         </h1>
         <PublicSubmitForm
           kind="dog"
-          namePlaceholder="Your name"
+          namePlaceholder="Owner name"
           titlePlaceholder="Dog name, breed, town"
           bodyPlaceholder="What they hunt and the story"
           submitLabel="Nominate"

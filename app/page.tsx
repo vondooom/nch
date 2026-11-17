@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { FitPhoto } from "@/components/site/fit-photo";
 import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
 import { SubscribeForm } from "@/components/site/subscribe-form";
 import { heroSrc } from "@/lib/brand";
@@ -13,9 +14,9 @@ export default function HomePage() {
   const stories = published(data.stories).slice(0, 2);
   const gear = published(data.gear).slice(0, 3);
   const pillars = [
-    { title: "Weather Conditions", desc: "Hunt-day forecast, wind read, shoot light, and moon — organized by zone and refuge.", href: "/conditions", cta: "View conditions" },
+    { title: "Weather Conditions", desc: "Hunt-day forecast, wind read, shoot light, and moon, organized by zone and refuge.", href: "/conditions", cta: "View conditions" },
     { title: "Season Dates & Regulations", desc: "Current CA seasons, zone dates, tag deadlines, and rule changes that matter.", href: "/regulations", cta: "View the board" },
-    { title: "From Field to Table", desc: "Wild-game recipes worth the freezer space — now a standing section, not just a sidebar.", href: "/recipes", cta: "See recipes" },
+    { title: "From Field to Table", desc: "Wild-game recipes worth the freezer space, now a standing section, not just a sidebar.", href: "/recipes", cta: "See recipes" },
     { title: "Gear Recommendations", desc: "Honest, field-tested gear and value picks. No junk, no hype.", href: "/gear", cta: "View gear" },
     { title: "Field Stories", desc: "Reader hunts, campfire tales, and lessons learned the hard way.", href: "/field-stories", cta: "Read stories" },
     { title: "Dog of the Week", desc: "A featured NorCal hunting dog and the story behind it, every week.", href: "/dog-of-the-week", cta: "Meet the dogs" },
@@ -42,7 +43,7 @@ export default function HomePage() {
               One inbox. Every NorCal hunt, handled.
             </h1>
             <p className="mb-6 max-w-[560px] font-serif text-[clamp(16px,1.6vw,19px)] leading-relaxed text-[#E4DCC6]">
-              Weather, season dates, regulations, shoot times, and field-tested gear — one weekly briefing instead of five
+              Weather, season dates, regulations, shoot times, and field-tested gear. One weekly briefing instead of five
               scattered websites.
             </p>
             <div className="flex flex-col gap-3.5">
@@ -77,7 +78,7 @@ export default function HomePage() {
           What&apos;s inside every issue
         </h2>
         <p className="mb-9 max-w-[640px] font-serif text-[17px] leading-relaxed text-[#5C543F]">
-          We gather the crucial information a NorCal hunter needs — your one-stop shop before every trip.
+          We gather the crucial information a NorCal hunter needs. Your one-stop shop before every trip.
         </p>
         <div className="grid gap-0.5 border-2 border-[#211D14] bg-[#211D14] sm:grid-cols-2 lg:grid-cols-3">
           {pillars.map((p) => (
@@ -122,8 +123,7 @@ export default function HomePage() {
         <div className="grid gap-4 md:grid-cols-3">
           {zones.slice(0, 3).map((zone) => (
             <Link key={zone.slug} href={`/zones/${zone.slug}`} className="block border border-[#D8CDB4] bg-[#FBF8F0]">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={zone.image} alt="" className="h-[160px] w-full object-cover" />
+              <FitPhoto src={zone.image} alt="" />
               <div className="p-5">
                 <div className="mb-1 font-heading text-[12px] font-bold uppercase tracking-[0.14em] text-[#C75B12]">{zone.kicker}</div>
                 <div className="mb-2 font-heading text-[22px] font-bold uppercase">{zone.title}</div>
@@ -135,9 +135,9 @@ export default function HomePage() {
       </section>
       <section className="mx-auto max-w-[1180px] px-6 pt-12">
         <div className="mb-6 flex flex-wrap items-baseline justify-between gap-4">
-          <h2 className="font-heading text-[clamp(28px,3.2vw,38px)] font-bold uppercase">The year&apos;s animals</h2>
+          <h2 className="font-heading text-[clamp(28px,3.2vw,38px)] font-bold uppercase">Game species</h2>
           <Link href="/species" className="font-heading text-[15px] font-semibold uppercase tracking-[0.1em] text-[#C75B12]">
-            All species →
+            All game →
           </Link>
         </div>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
@@ -176,10 +176,7 @@ export default function HomePage() {
         <div className="grid gap-4 md:grid-cols-3">
           {gear.map((item) => (
             <Link key={item.id} href={`/gear/${item.slug}`} className="block border border-[#D8CDB4] bg-[#FBF8F0]">
-              {item.image ? (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img src={item.image} alt="" className="h-[150px] w-full object-cover" />
-              ) : null}
+              <FitPhoto src={item.image} alt={item.name} />
               <div className="p-5">
                 <div className="mb-1 font-heading text-[12px] font-bold uppercase tracking-[0.14em] text-[#C75B12]">{item.badge}</div>
                 <div className="font-heading text-[20px] font-bold uppercase">{item.name}</div>
@@ -201,9 +198,9 @@ export default function HomePage() {
       ) : null}
       <section className="mx-auto max-w-[1180px] px-6 py-16">
         <div className="border-2 border-[#211D14] bg-[#FBF8F0] px-8 py-12 text-center md:px-14">
-          <h2 className="mb-2.5 font-heading text-[clamp(30px,4vw,46px)] font-bold uppercase">Join the Tuesday briefing</h2>
+          <h2 className="mb-2.5 font-heading text-[clamp(30px,4vw,46px)] font-bold uppercase">Join the Sunday briefing</h2>
           <p className="mx-auto mb-6 max-w-[520px] font-serif text-[17px] leading-relaxed text-[#5C543F]">
-            A five-minute read before every weekend in the field. 100% free, unsubscribe anytime.
+            A five-minute read every Sunday at 7am. 100% free, unsubscribe anytime.
           </p>
           <SubscribeForm source="homepage" align="center" />
         </div>

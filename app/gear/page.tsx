@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
+import { FitPhoto } from "@/components/site/fit-photo";
 import { getStore, published } from "@/lib/store";
 
 export const metadata = { title: "Gear" };
@@ -24,12 +25,7 @@ export default function GearPage() {
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {items.map((g) => (
             <Link key={g.id} href={`/gear/${g.slug}`} className="flex flex-col border border-[#D8CDB4] bg-[#FBF8F0]">
-              <div className="h-[200px] bg-[#1C2B1A]">
-                {g.image ? (
-                  // eslint-disable-next-line @next/next/no-img-element
-                  <img src={g.image} alt={g.name} className="h-full w-full object-cover" />
-                ) : null}
-              </div>
+              <FitPhoto src={g.image} alt={g.name} />
               <div className="flex flex-1 flex-col gap-2.5 p-5">
                 <div className="flex items-baseline justify-between gap-3">
                   <span className="bg-[#2F4A2C] px-2.5 py-1 font-heading text-[12px] font-bold uppercase tracking-[0.14em] text-[#FFF6E8]">

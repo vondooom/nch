@@ -11,7 +11,7 @@ const primary = [
 
 const field = [
   ["Zones", "/zones"],
-  ["Species", "/species"],
+  ["Game", "/species"],
   ["Calendar", "/calendar"],
   ["Checklist", "/checklist"],
   ["Newsletters", "/newsletters"],
@@ -30,7 +30,7 @@ const footerLinks = [...primary, ...field, ["Privacy", "/privacy"]] as const;
 export function SiteBanner() {
   return (
     <div className="bg-[#1C2B1A] px-4 py-2 text-center text-[12px] font-medium uppercase tracking-[0.14em] text-[#D9D2BA]">
-      Weekly intel for the Northern California hunter · 100% free · Every Tuesday
+      Weekly intel for the Northern California hunter · 100% free · Every Sunday at 7am
     </div>
   );
 }
@@ -113,7 +113,7 @@ export function SiteFooter({ compact = false }: { compact?: boolean }) {
               The network
             </div>
             <p className="mb-2.5 font-serif text-[15px] leading-relaxed">
-              NorCalHunt is edition one of <span className="text-[#F7F2E4]">Local Boys Hunt</span> — local hunters
+              NorCalHunt is edition one of <span className="text-[#F7F2E4]">Local Boys Hunt</span>. Local hunters
               delivering local intel, region by region.
             </p>
             <p className="text-[13px] font-medium text-[#7E7660]">SoCal · Oregon · Nevada · more to come</p>
@@ -122,7 +122,7 @@ export function SiteFooter({ compact = false }: { compact?: boolean }) {
             <div className="mb-3.5 font-heading text-[13px] font-semibold uppercase tracking-[0.18em] text-[#8FA07C]">
               The briefing
             </div>
-            <p className="mb-4 font-serif text-[15px] leading-relaxed">Every Tuesday. 100% free. Unsubscribe anytime.</p>
+            <p className="mb-4 font-serif text-[15px] leading-relaxed">Every Sunday at 7am. 100% free. Unsubscribe anytime.</p>
             <Link href="/subscribe" className="inline-block bg-[#C75B12] px-5 py-2.5 font-heading text-[15px] font-semibold uppercase tracking-[0.1em] text-[#FFF6E8]">
               Subscribe
             </Link>
@@ -130,7 +130,7 @@ export function SiteFooter({ compact = false }: { compact?: boolean }) {
         </div>
       ) : null}
       <div className="border-t border-[#33422F] px-6 py-4 text-center text-[13px] font-medium text-[#7E7660]">
-        © 2026 NorCalHunt · Independently owned · Hunt legal, hunt safe — always verify with CDFW ·{" "}
+        © 2026 NorCalHunt · Independently owned · Hunt legal, hunt safe. Always verify with CDFW ·{" "}
         <Link href="/privacy" className="text-[#D9D2BA] hover:text-[#C75B12]">
           Privacy
         </Link>

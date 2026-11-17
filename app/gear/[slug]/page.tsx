@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 
 import { JsonLd } from "@/components/site/json-ld";
 import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
+import { FitPhoto } from "@/components/site/fit-photo";
 import { RichBody } from "@/components/site/rich-body";
 import { absoluteUrl, pageMeta } from "@/lib/site";
 import { getStore, published } from "@/lib/store";
@@ -45,10 +46,7 @@ export default async function GearDetailPage({ params }: { params: Promise<{ slu
         <Link href="/gear" className="font-heading text-[13px] font-semibold uppercase tracking-[0.14em] text-[#8A8163]">
           ← All gear
         </Link>
-        {item.image ? (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img src={item.image} alt={item.name} className="mt-6 mb-8 aspect-[16/9] w-full border border-[#D8CDB4] object-cover" />
-        ) : null}
+        <FitPhoto src={item.image} alt={item.name} className="mt-6 mb-8 border border-[#D8CDB4]" />
         <div className="mb-3 flex flex-wrap gap-2">
           <span className="bg-[#2F4A2C] px-2.5 py-1 font-heading text-[12px] font-bold uppercase tracking-[0.14em] text-[#FFF6E8]">
             {item.category}

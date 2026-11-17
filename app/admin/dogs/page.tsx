@@ -14,7 +14,10 @@ export default function AdminDogs() {
           <Link key={d.id} href={`/admin/dogs/${d.id}`} className="flex items-center justify-between border border-[#D8CDB4] bg-[#FBF8F0] px-4 py-3">
             <div>
               <div className="font-heading text-[18px] font-bold">{d.name}</div>
-              <div className="text-[13px] text-[#8A8163]">{d.breed}</div>
+              <div className="text-[13px] text-[#8A8163]">
+                {d.owner ? `Owner: ${d.owner}` : "No owner name on file"}
+                {d.breed ? ` · ${d.breed}` : ""}
+              </div>
             </div>
             <StatusBadge status={d.status} />
           </Link>

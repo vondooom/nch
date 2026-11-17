@@ -1,11 +1,14 @@
 import Link from "next/link";
 import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
+import { missingIssueSlots } from "@/lib/schedule";
 import { getStore, published } from "@/lib/store";
 
 export const metadata = { title: "Newsletters" };
 
 export default function NewslettersPage() {
   const issues = published(getStore().issues).sort((a, b) => b.number - a.number);
+  const latest = issues[0];
+  const gaps = missingIssueSlots(getStore().issues);
   return (
     <>
       <SiteBanner />
@@ -18,9 +21,16 @@ export default function NewslettersPage() {
           Every briefing so far
         </h1>
         <p className="mb-5 max-w-[620px] font-serif text-[17px] leading-relaxed text-[#5C543F]">
-          Every issue covers NorCal seasons, draw dates, regulations, gear, and migration updates — published every
-          Tuesday since June 2026, without a gap.
+          Every issue covers NorCal seasons, draw dates, regulations, gear, and migration updates. The briefing goes out
+          every Sunday at 7am.
+          {latest ? ` The latest issue on this site is #${latest.number}, ${latest.date}.` : ""}
         </p>
+        {gaps.length > 0 ? (
+          <p className="mb-5 max-w-[620px] font-serif text-[16px] leading-relaxed text-[#5C543F]">
+            Not on the site yet: {gaps.map((slot) => slot.date).join("; ")}. Those Sunday issues will show up here once
+            the briefing is added on the desk.
+          </p>
+        ) : null}
         <div className="mb-10 flex flex-wrap items-center gap-3 border-2 border-[#211D14] bg-[#FBF8F0] px-5 py-4">
           <span className="min-w-[220px] flex-1 font-serif text-[15px] text-[#3B3526]">
             Drop your email and never miss a beat.

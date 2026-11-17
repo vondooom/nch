@@ -14,6 +14,7 @@ export default async function EditDogPage({ params }: { params: Promise<{ id: st
     slug: "",
     name: "",
     breed: "",
+    owner: "",
     week: "",
     story: "",
     image: "",
@@ -26,6 +27,7 @@ export default async function EditDogPage({ params }: { params: Promise<{ id: st
       {dog.id ? <input type="hidden" name="id" value={dog.id} /> : null}
       <input name="name" required defaultValue={dog.name} placeholder="Name" className={fieldClass} />
       <input name="slug" defaultValue={dog.slug} placeholder="Slug" className={fieldClass} />
+      <input name="owner" defaultValue={dog.owner} placeholder="Owner name" className={fieldClass} />
       <input name="breed" defaultValue={dog.breed} placeholder="Breed" className={fieldClass} />
       <input name="week" defaultValue={dog.week} placeholder="Week label" className={fieldClass} />
       <textarea name="story" rows={5} defaultValue={dog.story} placeholder="Story" className={fieldClass} />

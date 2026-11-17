@@ -13,6 +13,8 @@ export type ShowcaseItem = {
   week: string;
   body: string;
   image: string;
+  /** YouTube URL when one is on file. Empty or omitted means no embed. */
+  youtube?: string;
 };
 
 type ArchiveFile = {
