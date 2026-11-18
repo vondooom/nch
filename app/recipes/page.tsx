@@ -2,11 +2,12 @@ import Link from "next/link";
 import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
 import { FitPhoto } from "@/components/site/fit-photo";
 import { getStore, published } from "@/lib/store";
+import { publicRecipes } from "@/lib/recipe-safety";
 
 export const metadata = { title: "From Field to Table" };
 
 export default function RecipesPage() {
-  const recipes = published(getStore().recipes);
+  const recipes = published(publicRecipes(getStore().recipes));
   return (
     <>
       <SiteBanner />

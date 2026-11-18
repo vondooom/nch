@@ -5,6 +5,7 @@ import { FitPhoto } from "@/components/site/fit-photo";
 import { SubscribeForm } from "@/components/site/subscribe-form";
 import { heroSrc } from "@/lib/brand";
 import { conditionSources } from "@/lib/condition-sources";
+import { publicRecipes } from "@/lib/recipe-safety";
 import { species, zones } from "@/lib/guides";
 import { absoluteUrl } from "@/lib/site";
 import { getStore, published } from "@/lib/store";
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
 export default function HomePage() {
   const data = getStore();
   const issues = published(data.issues).sort((a, b) => b.number - a.number).slice(0, 3);
-  const recipe = published(data.recipes)[0];
+  const recipe = published(publicRecipes(data.recipes))[0];
   const stories = published(data.stories).slice(0, 2);
   const gear = published(data.gear).slice(0, 3);
   const pillars = [

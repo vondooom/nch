@@ -239,7 +239,7 @@ export const species: FieldGuide[] = [
       {
         heading: "On the plate",
         paragraphs: [
-          "Bacon-wrapped poppers are the house recipe for a reason. Pink center, rendered bacon, and you will have people asking for the birds next year.",
+          "Bacon-wrapped poppers are the house recipe for a reason. Cook the dove meat and filling to 165°F (74°C), checked with a food thermometer in the thickest meat and the center of the filling, avoiding bone. Bacon color is not a doneness check. Bring a platter and you will have people asking for the birds next year.",
         ],
       },
     ],

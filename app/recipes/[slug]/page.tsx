@@ -7,9 +7,11 @@ import { FitPhoto } from "@/components/site/fit-photo";
 import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
 import { absoluteUrl, pageMeta } from "@/lib/site";
 import { getStore, published } from "@/lib/store";
+import { hasGameBirdCorrection, publicRecipes } from "@/lib/recipe-safety";
+import { GameBirdGuidance } from "@/components/site/game-bird-guidance";
 
 function findRecipe(slug: string) {
-  return published(getStore().recipes).find((item) => item.slug === slug || item.id === slug);
+  return published(publicRecipes(getStore().recipes)).find((item) => item.slug === slug || item.id === slug);
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
@@ -54,6 +56,7 @@ export default async function RecipePage({ params }: { params: Promise<{ slug: s
         <FitPhoto src={recipe.image} alt={recipe.title} className="mt-6 mb-8 border border-[#D8CDB4]" />
         <h1 className="mb-3 font-heading text-[clamp(34px,4.6vw,54px)] font-bold uppercase leading-tight">{recipe.title}</h1>
         <p className="mb-8 font-serif text-[19px] leading-relaxed text-[#5C543F]">{recipe.lede}</p>
+        {hasGameBirdCorrection(recipe) ? <GameBirdGuidance /> : null}
         <div className="grid gap-0.5 bg-[#211D14] md:grid-cols-2">
           <div className="bg-[#FBF8F0] p-6">
             <div className="mb-3 font-heading text-[15px] font-bold uppercase tracking-[0.14em]">You will need</div>

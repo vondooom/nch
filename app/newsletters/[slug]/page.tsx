@@ -5,6 +5,7 @@ import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
 import { RichBody } from "@/components/site/rich-body";
 import { pageMeta } from "@/lib/site";
 import { getStore, published } from "@/lib/store";
+import { GameBirdGuidance } from "@/components/site/game-bird-guidance";
 
 function findIssue(slug: string) {
   return published(getStore().issues).find((i) => i.slug === slug || i.id === slug);
@@ -49,6 +50,7 @@ export default async function IssuePage({ params }: { params: Promise<{ slug: st
           // eslint-disable-next-line @next/next/no-img-element
           <img src={issue.image} alt="" className="mb-8 aspect-video w-full border border-[#D8CDB4] object-cover" />
         ) : null}
+        {[3, 13, 16, 17, 20, 21, 22, 23].includes(issue.number) ? <GameBirdGuidance archived /> : null}
         <RichBody body={issue.body} />
       </article>
       <SiteFooter compact />
