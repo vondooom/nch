@@ -20,7 +20,7 @@ The boots in the gear check are the unfancy ones. They kept water out of a rice 
 
 Dove is three weeks out. If your vest is still in a bin that smells like last year's sunflower dust, wash it now.
 
-The NorCal Hunt Team · #010`,
+The Local Hunts Team · #010`,
   },
   {
     id: "issue-9",
@@ -39,7 +39,7 @@ We shot the value copper load from the gear check. It printed where we told it t
 
 Leftover tags are on the Board this week. Pay the premium tag you already drew. Hope is not a payment.
 
-The NorCal Hunt Team · #009`,
+The Local Hunts Team · #009`,
   },
   {
     id: "issue-8",
@@ -58,7 +58,7 @@ Also in the issue: a short quail loop above the valley, and the offline map we d
 
 License year is not a suggestion. If you are reading this in July with last year's card, stop and fix it.
 
-The NorCal Hunt Team · #008`,
+The Local Hunts Team · #008`,
   },
 ];
 
@@ -101,7 +101,7 @@ If you hunt pigs, hunt them like the meat matters. It does.`,
     id: "story-pheasant-saturday",
     slug: "one-rooster-worth-the-drive",
     title: "One rooster, worth the drive",
-    author: "NorCalHunt desk · Sacramento Valley",
+    author: "Local Hunts desk · Sacramento Valley",
     date: "Nov 18, 2025",
     species: "Pheasant",
     excerpt: "A public field, a dog that finally checked back, and a single rooster that made the Saturday.",

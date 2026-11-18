@@ -3,7 +3,7 @@ import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Write the NorCalHunt desk — corrections, hunts, and people we should know about.",
+  description: "Write the Local Hunts desk. Corrections, hunts, and people we should know about.",
 };
 
 export default async function ContactPage({ searchParams }: { searchParams: Promise<{ error?: string }> }) {

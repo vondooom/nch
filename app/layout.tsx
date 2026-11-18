@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Barlow, Barlow_Condensed, Source_Serif_4 } from "next/font/google";
+import { siteUrl } from "@/lib/site";
 import "./globals.css";
 
 const barlow = Barlow({
@@ -22,9 +23,12 @@ const serif = Source_Serif_4({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl()),
+  applicationName: "Local Hunts",
+  openGraph: { siteName: "Local Hunts", url: siteUrl() },
   title: {
-    default: "NorCalHunt · One inbox. Every NorCal hunt, handled.",
-    template: "%s · NorCalHunt",
+    default: "Local Hunts · One inbox. Every NorCal hunt, handled.",
+    template: "%s · Local Hunts",
   },
   description:
     "Weekly intel for the Northern California hunter. A free briefing every Sunday at 7am, with weather, season dates, regulations, shoot times, and field-tested gear.",

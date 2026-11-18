@@ -36,7 +36,7 @@ export default async function GearDetailPage({ params }: { params: Promise<{ slu
           "@type": "Review",
           itemReviewed: { "@type": "Product", name: item.name, category: item.category, image: item.image },
           reviewBody: item.why,
-          author: { "@type": "Organization", name: "NorCalHunt" },
+          author: { "@type": "Organization", name: "Local Hunts" },
           url: absoluteUrl(`/gear/${item.slug}`),
         }}
       />

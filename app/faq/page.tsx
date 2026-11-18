@@ -5,7 +5,7 @@ import { faqs } from "@/lib/guides";
 
 export const metadata: Metadata = {
   title: "FAQ",
-  description: "What NorCalHunt is, how subscribe works, and why you still check CDFW before you hunt.",
+  description: "What Local Hunts is, how subscribe works, and why you still check CDFW before you hunt.",
 };
 
 export default function FaqPage() {

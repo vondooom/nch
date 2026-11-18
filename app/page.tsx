@@ -1,10 +1,17 @@
+import type { Metadata } from "next";
 import Link from "next/link";
-import { FitPhoto } from "@/components/site/fit-photo";
 import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
+import { FitPhoto } from "@/components/site/fit-photo";
 import { SubscribeForm } from "@/components/site/subscribe-form";
 import { heroSrc } from "@/lib/brand";
 import { species, zones } from "@/lib/guides";
+import { absoluteUrl } from "@/lib/site";
 import { getStore, published } from "@/lib/store";
+
+export const metadata: Metadata = {
+  alternates: { canonical: absoluteUrl("/") },
+  openGraph: { url: absoluteUrl("/") },
+};
 
 export default function HomePage() {
   const data = getStore();
