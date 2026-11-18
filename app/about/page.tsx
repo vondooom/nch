@@ -12,7 +12,7 @@ export default function AboutPage() {
       <SiteHeader current="/about" />
       <section className="mx-auto max-w-[780px] px-6 pt-14">
         <div className="mb-3 font-heading text-[14px] font-semibold uppercase tracking-[0.22em] text-[#C75B12]">
-          About NorCalHunt
+          About Local Hunts
         </div>
         <h1 className="mb-5 font-heading text-[clamp(38px,5.5vw,58px)] font-bold uppercase leading-none">
           We&apos;re hunters first.

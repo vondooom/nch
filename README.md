@@ -1,4 +1,4 @@
-# NorCalHunt
+# Local Hunts
 
 Weekly intel for Northern California hunters — weather, season dates, regulations, shoot times, field stories, recipes, and gear in one place.
 
@@ -64,7 +64,7 @@ npm run start
 
 ## Deploy
 
-Production project: [norcal-hunt.vercel.app](https://norcal-hunt.vercel.app)
+Production site: [localhunts.co](https://localhunts.co)
 
 Set `STAFF_SESSION_SECRET`, `ADMIN_PASSWORD`, and `EDITOR_PASSWORD` on the Vercel project before treating the desk as real. Then:
 

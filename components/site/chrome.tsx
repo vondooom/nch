@@ -41,7 +41,7 @@ export function SiteHeader({ current }: { current?: string }) {
       <div className="mx-auto flex max-w-[1180px] flex-wrap items-center gap-4 px-6 py-3.5">
         <Link href="/" className="flex items-center">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={logoSrc} alt="NorCalHunt" className="h-14 w-auto" />
+          <img src={logoSrc} alt="Local Hunts" className="h-14 w-auto" />
         </Link>
         <nav className="ml-auto flex flex-wrap items-center gap-x-4 gap-y-2 font-heading text-[15px] font-semibold uppercase tracking-[0.09em]">
           {primary.map(([label, href]) => (
@@ -92,7 +92,7 @@ export function SiteFooter({ compact = false }: { compact?: boolean }) {
         <div className="mx-auto grid max-w-[1180px] gap-10 px-6 py-12 sm:grid-cols-2 lg:grid-cols-4">
           <div>
             <div className="mb-3 font-heading text-[26px] font-bold leading-none tracking-[0.02em] text-[#F7F2E4]">
-              NORCAL<span className="text-[#C75B12]">HUNT</span>
+              LOCAL<span className="text-[#C75B12]">HUNTS</span>
             </div>
             <p className="font-serif text-[15px] leading-relaxed">One inbox. Every NorCal hunt, handled.</p>
           </div>
@@ -113,7 +113,7 @@ export function SiteFooter({ compact = false }: { compact?: boolean }) {
               The network
             </div>
             <p className="mb-2.5 font-serif text-[15px] leading-relaxed">
-              NorCalHunt is edition one of <span className="text-[#F7F2E4]">Local Boys Hunt</span>. Local hunters
+              Local Hunts is edition one of <span className="text-[#F7F2E4]">Local Boys Hunt</span>. Local hunters
               delivering local intel, region by region.
             </p>
             <p className="text-[13px] font-medium text-[#7E7660]">SoCal · Oregon · Nevada · more to come</p>
@@ -130,7 +130,7 @@ export function SiteFooter({ compact = false }: { compact?: boolean }) {
         </div>
       ) : null}
       <div className="border-t border-[#33422F] px-6 py-4 text-center text-[13px] font-medium text-[#7E7660]">
-        © 2026 NorCalHunt · Independently owned · Hunt legal, hunt safe. Always verify with CDFW ·{" "}
+        © 2026 Local Hunts · Independently owned · Hunt legal, hunt safe. Always verify with CDFW ·{" "}
         <Link href="/privacy" className="text-[#D9D2BA] hover:text-[#C75B12]">
           Privacy
         </Link>

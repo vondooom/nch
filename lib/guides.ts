@@ -1,5 +1,5 @@
 export const deskDisclaimer =
-  "Dates and rules on NorCalHunt are the desk's briefing notes. Confirm every season, tag, and refuge rule with CDFW before you leave the driveway.";
+  "Dates and rules on Local Hunts are the desk's briefing notes. Confirm every season, tag, and refuge rule with CDFW before you leave the driveway.";
 
 export type GuideSection = { heading: string; paragraphs: string[] };
 
@@ -385,7 +385,7 @@ export const species: FieldGuide[] = [
 
 export const faqs: { q: string; a: string }[] = [
   {
-    q: "What is NorCalHunt?",
+    q: "What is Local Hunts?",
     a: "A free Sunday briefing and a field desk for Northern California hunters. Weather, season notes, gear we actually use, recipes, dogs, and local people, in one place instead of five tabs. It goes out every Sunday at 7am.",
   },
   {

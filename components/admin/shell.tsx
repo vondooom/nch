@@ -28,7 +28,7 @@ export function AdminShell({
     <div className="min-h-screen bg-[#EFE8D6]">
       <header className="flex flex-wrap items-center gap-4 border-b-2 border-[#211D14] bg-[#1C2B1A] px-6 py-3 text-[#D9D2BA]">
         <Link href="/admin" className="font-heading text-[22px] font-bold tracking-[0.02em] text-[#F7F2E4]">
-          NORCAL<span className="text-[#C75B12]">HUNT</span>
+          LOCAL<span className="text-[#C75B12]">HUNTS</span>
           <span className="ml-2 text-[12px] font-semibold uppercase tracking-[0.16em] text-[#9FB18B]">Desk</span>
         </Link>
         <nav className="flex flex-wrap gap-x-4 gap-y-1 font-heading text-[13px] font-semibold uppercase tracking-[0.1em]">

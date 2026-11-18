@@ -3,7 +3,7 @@ import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
 
 export const metadata: Metadata = {
   title: "Privacy",
-  description: "What NorCalHunt does with the email you type into Subscribe free.",
+  description: "What Local Hunts does with the email you type into Subscribe free.",
 };
 
 export default function PrivacyPage() {

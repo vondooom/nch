@@ -16,7 +16,7 @@ export default async function SignInPage({
     <main className="flex min-h-screen items-center justify-center bg-[#1C2B1A] px-6 py-16">
       <div className="w-full max-w-md border-2 border-[#33422F] bg-[#F5F1E8] p-8">
         <div className="mb-1 font-heading text-[28px] font-bold tracking-[0.02em] text-[#1C2B1A]">
-          NORCAL<span className="text-[#C75B12]">HUNT</span>
+          LOCAL<span className="text-[#C75B12]">HUNTS</span>
         </div>
         <p className="mb-6 font-heading text-[14px] font-semibold uppercase tracking-[0.16em] text-[#8A8163]">
           Staff desk

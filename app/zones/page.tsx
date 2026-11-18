@@ -4,7 +4,7 @@ import { zones } from "@/lib/guides";
 
 export const metadata: Metadata = {
   title: "Hunt zones",
-  description: "A, B, C, D, and X deer zones plus Sacramento Valley refuge country. How NorCalHunt reads the ground.",
+  description: "A, B, C, D, and X deer zones plus Sacramento Valley refuge country. How Local Hunts reads the ground.",
 };
 
 export default function ZonesPage() {
