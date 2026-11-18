@@ -4,6 +4,7 @@ import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
 import { FitPhoto } from "@/components/site/fit-photo";
 import { SubscribeForm } from "@/components/site/subscribe-form";
 import { heroSrc } from "@/lib/brand";
+import { conditionSources } from "@/lib/condition-sources";
 import { species, zones } from "@/lib/guides";
 import { absoluteUrl } from "@/lib/site";
 import { getStore, published } from "@/lib/store";
@@ -16,7 +17,6 @@ export const metadata: Metadata = {
 export default function HomePage() {
   const data = getStore();
   const issues = published(data.issues).sort((a, b) => b.number - a.number).slice(0, 3);
-  const stats = data.conditions.slice(0, 4);
   const recipe = published(data.recipes)[0];
   const stories = published(data.stories).slice(0, 2);
   const gear = published(data.gear).slice(0, 3);
@@ -64,12 +64,13 @@ export default function HomePage() {
       </section>
       <section className="border-t-[3px] border-[#C75B12] bg-[#24361F]">
         <div className="mx-auto grid max-w-[1180px] items-center gap-4 px-6 py-5 sm:grid-cols-2 lg:grid-cols-5">
-          {stats.map((q) => (
+          {conditionSources.map((q) => (
             <div key={q.id} className="border-l border-[#3C5232] pl-4">
               <div className="mb-1.5 font-heading text-[12px] font-semibold uppercase tracking-[0.18em] text-[#9FB18B]">
                 {q.label}
               </div>
               <div className="font-heading text-[20px] font-bold leading-tight text-[#F2EDDD]">{q.value}</div>
+              <a href={q.href} className="mt-2 inline-block text-sm text-[#E8A05C] underline">{q.source} →</a>
             </div>
           ))}
           <Link href="/conditions" className="font-heading text-[15px] font-semibold uppercase tracking-[0.1em] text-[#E8A05C] lg:justify-self-end">
