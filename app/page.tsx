@@ -22,12 +22,12 @@ export default function HomePage() {
   const stories = published(data.stories).slice(0, 2);
   const gear = published(data.gear).slice(0, 3);
   const pillars = [
-    { title: "Weather Conditions", desc: "Hunt-day forecast, wind read, shoot light, and moon, organized by zone and refuge.", href: "/conditions", cta: "View conditions" },
-    { title: "Season Dates & Regulations", desc: "Current CA seasons, zone dates, tag deadlines, and rule changes that matter.", href: "/regulations", cta: "View the board" },
+    { title: "Weather Conditions", desc: "A National Weather Service forecast, sunrise, and sunset for one point in each state.", href: "/conditions", cta: "View conditions" },
+    { title: "Season Dates & Regulations", desc: "State hubs with the wildlife agency link. Season dates go up only when we can quote the agency.", href: "/hunt", cta: "Browse states" },
     { title: "From Field to Table", desc: "Wild-game recipes worth the freezer space, now a standing section, not just a sidebar.", href: "/recipes", cta: "See recipes" },
     { title: "Gear Recommendations", desc: "Honest, field-tested gear and value picks. No junk, no hype.", href: "/gear", cta: "View gear" },
     { title: "Field Stories", desc: "Reader hunts, campfire tales, and lessons learned the hard way.", href: "/field-stories", cta: "Read stories" },
-    { title: "Dog of the Week", desc: "A featured NorCal hunting dog and the story behind it, every week.", href: "/dog-of-the-week", cta: "Meet the dogs" },
+    { title: "Dog of the Week", desc: "A hunting dog and the story behind it. The dogs in the archive so far are from California.", href: "/dog-of-the-week", cta: "Meet the dogs" },
   ];
 
   return (
@@ -48,11 +48,11 @@ export default function HomePage() {
               Built by hunters · Improved by hunters
             </div>
             <h1 className="mb-3.5 max-w-[720px] font-heading text-[clamp(44px,6.5vw,76px)] font-bold uppercase leading-[0.98] text-[#F7F2E4]">
-              One inbox. Every NorCal hunt, handled.
+              One inbox. Every local hunt, handled.
             </h1>
             <p className="mb-6 max-w-[560px] font-serif text-[clamp(16px,1.6vw,19px)] leading-relaxed text-[#E4DCC6]">
-              Weather, season dates, regulations, shoot times, and field-tested gear. One weekly briefing instead of five
-              scattered websites.
+              Weather, season dates, regulations, shoot times, and field-tested gear for the state you hunt. One weekly
+              briefing instead of five scattered websites.
             </p>
             <div className="flex flex-col gap-3.5">
               <SubscribeForm source="homepage-hero" align="start" tone="dark" />
@@ -87,7 +87,7 @@ export default function HomePage() {
           What&apos;s inside every issue
         </h2>
         <p className="mb-9 max-w-[640px] font-serif text-[17px] leading-relaxed text-[#5C543F]">
-          We gather the crucial information a NorCal hunter needs. Your one-stop shop before every trip.
+          The briefing a hunter checks before the truck leaves. California is where the archive started. The state hubs cover the rest of the country.
         </p>
         <div className="grid gap-0.5 border-2 border-[#211D14] bg-[#211D14] sm:grid-cols-2 lg:grid-cols-3">
           {pillars.map((p) => (
@@ -125,13 +125,13 @@ export default function HomePage() {
       <section className="mx-auto max-w-[1180px] px-6 pt-16">
         <div className="mb-7 flex flex-wrap items-baseline justify-between gap-4">
           <h2 className="font-heading text-[clamp(28px,3.2vw,38px)] font-bold uppercase">Know the ground</h2>
-          <Link href="/zones" className="font-heading text-[15px] font-semibold uppercase tracking-[0.1em] text-[#C75B12]">
-            All zones →
+          <Link href="/hunt/california/zones" className="font-heading text-[15px] font-semibold uppercase tracking-[0.1em] text-[#C75B12]">
+            California zones →
           </Link>
         </div>
         <div className="grid gap-4 md:grid-cols-3">
           {zones.slice(0, 3).map((zone) => (
-            <Link key={zone.slug} href={`/zones/${zone.slug}`} className="block border border-[#D8CDB4] bg-[#FBF8F0]">
+            <Link key={zone.slug} href={`/hunt/california/zones/${zone.slug}`} className="block border border-[#D8CDB4] bg-[#FBF8F0]">
               <FitPhoto src={zone.image} alt="" />
               <div className="p-5">
                 <div className="mb-1 font-heading text-[12px] font-bold uppercase tracking-[0.14em] text-[#C75B12]">{zone.kicker}</div>
@@ -145,13 +145,13 @@ export default function HomePage() {
       <section className="mx-auto max-w-[1180px] px-6 pt-12">
         <div className="mb-6 flex flex-wrap items-baseline justify-between gap-4">
           <h2 className="font-heading text-[clamp(28px,3.2vw,38px)] font-bold uppercase">Game species</h2>
-          <Link href="/species" className="font-heading text-[15px] font-semibold uppercase tracking-[0.1em] text-[#C75B12]">
-            All game →
+          <Link href="/hunt/california/species" className="font-heading text-[15px] font-semibold uppercase tracking-[0.1em] text-[#C75B12]">
+            California game →
           </Link>
         </div>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {species.slice(0, 4).map((animal) => (
-            <Link key={animal.slug} href={`/species/${animal.slug}`} className="border border-[#D8CDB4] bg-[#FBF8F0] p-4">
+            <Link key={animal.slug} href={`/hunt/california/species/${animal.slug}`} className="border border-[#D8CDB4] bg-[#FBF8F0] p-4">
               <div className="font-heading text-[18px] font-bold uppercase text-[#1C2B1A]">{animal.title}</div>
               <div className="mt-1 font-serif text-[14px] leading-relaxed text-[#5C543F]">{animal.kicker}</div>
             </Link>

@@ -27,11 +27,11 @@ export const metadata: Metadata = {
   applicationName: "Local Hunts",
   openGraph: { siteName: "Local Hunts", url: siteUrl() },
   title: {
-    default: "Local Hunts · One inbox. Every NorCal hunt, handled.",
+    default: "Local Hunts · One inbox. Every local hunt, handled.",
     template: "%s · Local Hunts",
   },
   description:
-    "Weekly intel for the Northern California hunter. A free briefing every Sunday at 7am, with weather, season dates, regulations, shoot times, and field-tested gear.",
+    "Weekly intel for hunters in all 50 states. A free briefing every Sunday at 7am, with weather, season dates when we can quote the agency, regulations, shoot times, and field-tested gear.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

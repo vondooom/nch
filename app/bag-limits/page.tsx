@@ -18,7 +18,8 @@ export default function BagLimitsPage() {
           Northern California bag limits
         </h1>
         <p className="mb-8 font-serif text-[17px] leading-relaxed text-[#5C543F]">
-          The quick reference from the old field desk. This is a plain-language summary, not the regulation booklet.{" "}
+          The California quick reference from the old field desk. This is a plain-language summary, not the regulation
+          booklet, and it is not a sourced season record.{" "}
           <Link href="/regulations" className="text-[#C75B12]">
             Season dates live with the board.
           </Link>

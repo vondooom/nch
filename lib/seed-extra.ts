@@ -2,7 +2,7 @@ import type { BoardItem, ConditionStat, Dog, GearItem, Issue, LocalListing, Mark
 
 const now = "2026-09-11T12:00:00.000Z";
 
-export const extraIssues: Issue[] = [
+export const extraIssues: Omit<Issue, "state" | "region">[] = [
   {
     id: "issue-10",
     number: 10,
@@ -62,7 +62,7 @@ The Local Hunts Team · #008`,
   },
 ];
 
-export const extraStories: Story[] = [
+export const extraStories: Omit<Story, "state" | "region">[] = [
   {
     id: "story-public-miss",
     slug: "the-buck-we-did-not-shoot",
@@ -133,7 +133,7 @@ Send the hunts that were almost. They read truer than the limits.`,
   },
 ];
 
-export const extraDogs: Dog[] = [
+export const extraDogs: Omit<Dog, "state" | "region">[] = [
   {
     id: "dog-rio",
     slug: "rio",
@@ -172,7 +172,7 @@ export const extraDogs: Dog[] = [
   },
 ];
 
-export const extraGear: GearItem[] = [
+export const extraGear: Omit<GearItem, "state" | "region">[] = [
   {
     id: "gear-boots",
     slug: "unlined-knee-boots",
@@ -247,7 +247,7 @@ Public land, private land, and the fence between them should be obvious before y
   },
 ];
 
-export const extraRecipes: Recipe[] = [
+export const extraRecipes: Omit<Recipe, "state" | "region">[] = [
   {
     id: "recipe-duck-pan",
     slug: "pan-duck-breast",
@@ -441,7 +441,7 @@ export const extraRecipes: Recipe[] = [
   },
 ];
 
-export const extraLocals: LocalListing[] = [
+export const extraLocals: Omit<LocalListing, "state" | "region">[] = [
   {
     id: "local-sporting",
     slug: "north-valley-sporting",
@@ -504,7 +504,7 @@ Book early. A drawn tag in June is not a plan in September if you wait until the
   },
 ];
 
-export const extraMarket: MarketListing[] = [
+export const extraMarket: Omit<MarketListing, "state" | "region">[] = [
   {
     id: "mkt-decoys",
     cat: "Decoys",
@@ -537,7 +537,7 @@ export const extraMarket: MarketListing[] = [
   },
 ];
 
-export const extraBoard: BoardItem[] = [
+export const extraBoard: Omit<BoardItem, "state" | "region">[] = [
   {
     id: "board-turkey",
     label: "Spring turkey",

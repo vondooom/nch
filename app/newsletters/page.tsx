@@ -21,8 +21,8 @@ export default function NewslettersPage() {
           Every briefing so far
         </h1>
         <p className="mb-5 max-w-[620px] font-serif text-[17px] leading-relaxed text-[#5C543F]">
-          Every issue covers NorCal seasons, draw dates, regulations, gear, and migration updates. The briefing goes out
-          every Sunday at 7am.
+          This archive is the California briefing, kept intact. Each issue covers seasons, draw dates, regulations, gear,
+          and migration updates from that desk. The briefing goes out every Sunday at 7am.
           {latest ? ` The latest issue on this site is #${latest.number}, ${latest.date}.` : ""}
         </p>
         {gaps.length > 0 ? (

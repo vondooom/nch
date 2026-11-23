@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ConditionsPanel } from "@/components/site/conditions-panel";
 import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
 import { FitPhoto } from "@/components/site/fit-photo";
 import { deskDisclaimer, type FieldGuide } from "@/lib/guides";
@@ -82,6 +83,11 @@ export function GuideDetail({
             </section>
           ))}
         </div>
+        {guide.point ? (
+          <div className="mt-10">
+            <ConditionsPanel zone={guide.slug} />
+          </div>
+        ) : null}
         <p className="mt-10 border-t border-[#D8CDB4] pt-4 font-serif text-[14px] leading-relaxed text-[#8A8163]">{deskDisclaimer}</p>
       </article>
       <SiteFooter compact />

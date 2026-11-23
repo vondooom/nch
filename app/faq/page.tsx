@@ -5,7 +5,7 @@ import { faqs } from "@/lib/guides";
 
 export const metadata: Metadata = {
   title: "FAQ",
-  description: "What Local Hunts is, how subscribe works, and why you still check CDFW before you hunt.",
+  description: "What Local Hunts is, how subscribe works, and why you still confirm the rule with the state agency before you hunt.",
 };
 
 export default function FaqPage() {

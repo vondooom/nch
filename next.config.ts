@@ -26,6 +26,10 @@ const nextConfig: NextConfig = {
       hostRedirect(host, "/:path+", `${CANONICAL_ORIGIN}/:path+`),
     ]);
     return [
+      { source: "/zones", destination: "/hunt/california/zones", permanent: true },
+      { source: "/zones/:slug", destination: "/hunt/california/zones/:slug", permanent: true },
+      { source: "/species", destination: "/hunt/california/species", permanent: true },
+      { source: "/species/:slug", destination: "/hunt/california/species/:slug", permanent: true },
       ...fromLegacyHosts,
       {
         source: "/",

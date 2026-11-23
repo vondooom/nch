@@ -17,6 +17,9 @@ export default function AboutPage() {
         <h1 className="mb-5 font-heading text-[clamp(38px,5.5vw,58px)] font-bold uppercase leading-none">
           We&apos;re hunters first.
         </h1>
+        <p className="mb-6 font-serif text-[18px] leading-relaxed text-[#3B3526]">
+          Local Hunts now covers all 50 states. The story below is the founders&apos; California account, kept as they wrote it.
+        </p>
         {archiveAboutPoster ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img src={archiveAboutPoster} alt="" className="mb-8 w-full border border-[#D8CDB4] object-cover" />

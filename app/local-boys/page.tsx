@@ -13,13 +13,13 @@ export default function LocalBoysPage() {
       <SiteHeader current="/local-boys" />
       <section className="mx-auto max-w-[1180px] px-6 py-12 pb-20">
         <div className="mb-2.5 font-heading text-[14px] font-semibold uppercase tracking-[0.22em] text-[#C75B12]">
-          Local Boys — Services
+          Local Boys
         </div>
         <h1 className="mb-3.5 font-heading text-[clamp(36px,5vw,56px)] font-bold uppercase leading-none">
           People we&apos;d send our own family to
         </h1>
         <p className="mb-10 max-w-[660px] font-serif text-[17px] leading-relaxed text-[#5C543F]">
-          Trusted local guides, processors, trainers, and taxidermists who hunt the same ground you do.
+          Trusted guides, processors, trainers, and taxidermists. The list below is the California desk. Other states are not filled in yet.
         </p>
         {groups.map((group) => (
           <div key={group} className="mb-10">

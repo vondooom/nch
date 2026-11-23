@@ -18,8 +18,10 @@ function revalidatePublic() {
   revalidatePath("/recipes");
   revalidatePath("/regulations");
   revalidatePath("/conditions");
-  revalidatePath("/zones");
-  revalidatePath("/species");
+  revalidatePath("/hunt");
+  revalidatePath("/hunt/california");
+  revalidatePath("/hunt/california/zones");
+  revalidatePath("/hunt/california/species");
   revalidatePath("/calendar");
   revalidatePath("/admin");
   revalidatePath("/sitemap.xml");

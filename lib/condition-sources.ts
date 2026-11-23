@@ -4,7 +4,7 @@
 export const conditionSources = [
   {
     id: "shoot-times",
-    label: "Legal shoot times",
+    label: "California shoot times",
     value: "Unverified here",
     detail: "Choose your hunt date and area in the CDFW bird-hunting table; confirm species and refuge rules.",
     href: "https://wildlife.ca.gov/Regulations/Nor-Cal-Shoot-Times",
@@ -20,7 +20,7 @@ export const conditionSources = [
   },
   {
     id: "seasons",
-    label: "Dove & upland seasons",
+    label: "California dove and upland",
     value: "Unverified here",
     detail: "Confirm the season year, species, area, dates, and limits with CDFW.",
     href: "https://wildlife.ca.gov/Hunting/Upland-Game-Birds",

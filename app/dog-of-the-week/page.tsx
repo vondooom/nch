@@ -19,8 +19,8 @@ export default function DogsPage() {
           The best hunting partners have four legs
         </h1>
         <p className="mb-8 max-w-[640px] font-serif text-[17px] leading-relaxed text-[#5C543F]">
-          Every issue features one NorCal hunting dog, the owner, and the story behind them. Send us yours and we&apos;ll put
-          it in front of the whole pack.
+          Every issue features one hunting dog, the owner, and the story behind them. The dogs in this archive so far are
+          from California. Send us yours and we&apos;ll put it in front of the whole pack.
         </p>
         <div className="mb-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {dogs.map((d) => (

@@ -22,8 +22,8 @@ export default async function SubscribePage({
           Spend less time searching. More time hunting.
         </h1>
         <p className="mx-auto mb-8 max-w-[520px] font-serif text-[18px] leading-relaxed text-[#5C543F]">
-          Join the NorCal hunters who get the Sunday briefing, a five-minute read with everything you check before a
-          trip, in one place. It lands every Sunday at 7am.
+          Join the hunters who get the Sunday briefing, a five-minute read with what you check before a trip, in one
+          place. It lands every Sunday at 7am. The archive on this site started in California.
         </p>
         <SubscribeForm />
         {q.error ? <p className="mt-3 text-[14px] font-medium text-[#8C2F14]">Enter a valid email address.</p> : null}

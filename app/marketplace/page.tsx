@@ -16,15 +16,15 @@ export default function MarketplacePage() {
             The Marketplace
           </div>
           <span className="bg-[#1C2B1A] px-2.5 py-1 font-heading text-[11px] font-bold uppercase tracking-[0.16em] text-[#E8A05C]">
-            Coming soon — concept preview
+            Coming soon, concept preview
           </span>
         </div>
         <h1 className="mb-3.5 font-heading text-[clamp(36px,5vw,56px)] font-bold uppercase leading-none">
           Buy, sell & trade inside the pack
         </h1>
         <p className="mb-8 max-w-[660px] font-serif text-[17px] leading-relaxed text-[#5C543F]">
-          A members&apos; classifieds for NorCal hunters. Illustrative listings — the real board opens to subscribers
-          first. The marketplace will not list firearms.
+          A members&apos; classifieds. The listings below are illustrative, and the current examples are from California.
+          The real board opens to subscribers first. The marketplace will not list firearms.
         </p>
         <div className="mb-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {listings.map((l) => (

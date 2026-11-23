@@ -2,6 +2,7 @@ import Link from "next/link";
 import { logoSrc } from "@/lib/brand";
 
 const primary = [
+  ["States", "/hunt"],
   ["Conditions", "/conditions"],
   ["Seasons", "/regulations"],
   ["Stories", "/field-stories"],
@@ -10,8 +11,8 @@ const primary = [
 ] as const;
 
 const field = [
-  ["Zones", "/zones"],
-  ["Game", "/species"],
+  ["Zones", "/hunt/california/zones"],
+  ["Game", "/hunt/california/species"],
   ["Calendar", "/calendar"],
   ["Checklist", "/checklist"],
   ["Newsletters", "/newsletters"],
@@ -30,7 +31,7 @@ const footerLinks = [...primary, ...field, ["Privacy", "/privacy"]] as const;
 export function SiteBanner() {
   return (
     <div className="bg-[#1C2B1A] px-4 py-2 text-center text-[12px] font-medium uppercase tracking-[0.14em] text-[#D9D2BA]">
-      Weekly intel for the Northern California hunter · 100% free · Every Sunday at 7am
+      Weekly intel for local hunters · 100% free · Every Sunday at 7am
     </div>
   );
 }
@@ -94,7 +95,7 @@ export function SiteFooter({ compact = false }: { compact?: boolean }) {
             <div className="mb-3 font-heading text-[26px] font-bold leading-none tracking-[0.02em] text-[#F7F2E4]">
               LOCAL<span className="text-[#C75B12]">HUNTS</span>
             </div>
-            <p className="font-serif text-[15px] leading-relaxed">One inbox. Every NorCal hunt, handled.</p>
+            <p className="font-serif text-[15px] leading-relaxed">One inbox. Every local hunt, handled.</p>
           </div>
           <div className="lg:col-span-2">
             <div className="mb-3.5 font-heading text-[13px] font-semibold uppercase tracking-[0.18em] text-[#8FA07C]">
@@ -113,10 +114,14 @@ export function SiteFooter({ compact = false }: { compact?: boolean }) {
               The network
             </div>
             <p className="mb-2.5 font-serif text-[15px] leading-relaxed">
-              Local Hunts is edition one of <span className="text-[#F7F2E4]">Local Boys Hunt</span>. Local hunters
-              delivering local intel, region by region.
+              Local Hunts covers all 50 states. California is where the archive started. Season dates go up state by
+              state, only when we can quote the agency.
             </p>
-            <p className="text-[13px] font-medium text-[#7E7660]">SoCal · Oregon · Nevada · more to come</p>
+            <p className="text-[13px] font-medium text-[#7E7660]">
+              <Link href="/hunt" className="text-[#D9D2BA] hover:text-[#C75B12]">
+                Browse the states
+              </Link>
+            </p>
           </div>
           <div>
             <div className="mb-3.5 font-heading text-[13px] font-semibold uppercase tracking-[0.18em] text-[#8FA07C]">
@@ -130,7 +135,7 @@ export function SiteFooter({ compact = false }: { compact?: boolean }) {
         </div>
       ) : null}
       <div className="border-t border-[#33422F] px-6 py-4 text-center text-[13px] font-medium text-[#7E7660]">
-        © 2026 Local Hunts · Independently owned · Hunt legal, hunt safe. Always verify with CDFW ·{" "}
+        © 2026 Local Hunts · Independently owned · Hunt legal, hunt safe. Confirm with the agency before you hunt. ·{" "}
         <Link href="/privacy" className="text-[#D9D2BA] hover:text-[#C75B12]">
           Privacy
         </Link>
