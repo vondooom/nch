@@ -1,5 +1,5 @@
 export const deskDisclaimer =
-  "Dates and rules on Local Hunts are the desk's briefing notes. Confirm every season, tag, and refuge rule with CDFW before you leave the driveway.";
+  "Dates and rules on Local Hunts are briefing notes. Confirm every season, tag, and unit rule with the state wildlife agency before you leave the driveway.";
 
 export type GuideSection = { heading: string; paragraphs: string[] };
 
@@ -9,10 +9,20 @@ export type FieldGuide = {
   kicker: string;
   lede: string;
   image?: string;
+  state: string;
+  region: string;
+  /** Set only when a real place has been confirmed. Weather uses this point. */
+  point?: { label: string; lat: number; lon: number };
   sections: GuideSection[];
 };
 
-export const zones: FieldGuide[] = [
+type GuideDraft = Omit<FieldGuide, "state" | "region">;
+
+function asCalifornia(guides: GuideDraft[]): FieldGuide[] {
+  return guides.map((guide) => ({ ...guide, state: "california", region: "pacific-coast" }));
+}
+
+const zoneDrafts: GuideDraft[] = [
   {
     slug: "a-zone",
     title: "A zone",
@@ -187,7 +197,9 @@ export const zones: FieldGuide[] = [
   },
 ];
 
-export const species: FieldGuide[] = [
+export const zones: FieldGuide[] = asCalifornia(zoneDrafts);
+
+const speciesDrafts: GuideDraft[] = [
   {
     slug: "blacktail-deer",
     title: "Blacktail deer",
@@ -383,10 +395,12 @@ export const species: FieldGuide[] = [
   },
 ];
 
+export const species: FieldGuide[] = asCalifornia(speciesDrafts);
+
 export const faqs: { q: string; a: string }[] = [
   {
     q: "What is Local Hunts?",
-    a: "A free Sunday briefing and a field desk for Northern California hunters. Weather, season notes, gear we actually use, recipes, dogs, and local people, in one place instead of five tabs. It goes out every Sunday at 7am.",
+    a: "A free Sunday briefing for hunters in all 50 states. Weather for a real point, season notes when we can quote the agency, gear we actually use, recipes, dogs, and local people, in one place instead of five tabs. It goes out every Sunday at 7am. The archive on the site started in California.",
   },
   {
     q: "Does Subscribe free send the newsletter?",
@@ -394,11 +408,11 @@ export const faqs: { q: string; a: string }[] = [
   },
   {
     q: "Are the season dates official?",
-    a: "No. The Board is our read of the current window so you are not surprised. CDFW regulations are the law. If we are wrong, the booklet wins and we correct the note.",
+    a: "A season on a state hub is shown only with the agency's own words, a link, and the date we checked it. The Board is the older California briefing, and it is not a sourced season record. The agency's regulation is the law. If we are wrong, the agency wins and we correct the note.",
   },
   {
     q: "Do I need non-lead ammunition?",
-    a: "California requires non-lead for taking wildlife. Zero the load you will hunt with before opener. A rifle zeroed on old lead is a different rifle.",
+    a: "California requires non-lead for taking wildlife. Other states set their own rules. Confirm the load with the agency for the state you are hunting, and zero the load you will actually carry.",
   },
   {
     q: "Can I send a hunt story or a dog?",
@@ -414,7 +428,7 @@ export const faqs: { q: string; a: string }[] = [
   },
   {
     q: "What should I check the morning of a hunt?",
-    a: "The checklist: license and tag, non-lead, shoot light, wind, fire closures, and the refuge or zone rule for that exact unit. Conditions on the homepage are the desk's snapshot, not a forecast service.",
+    a: "The checklist: license and tag, the load that is legal where you are hunting, shoot light, wind, fire closures, and the unit rule for that exact place. State hubs show a National Weather Service forecast for one city in the state, not a forecast for every ridge.",
   },
 ];
 
@@ -530,7 +544,7 @@ export const checklist: { title: string; items: string[] }[] = [
   {
     title: "The gun and the load",
     items: [
-      "Non-lead, and a zero you confirmed with that load.",
+      "The load that is legal where you are hunting. California requires non-lead for taking wildlife. Confirm the rule with the state agency, and zero that load.",
       "Plug in the shotgun where the rule requires it.",
       "Shells you have patterned, in the vest, not a new box in the console.",
     ],

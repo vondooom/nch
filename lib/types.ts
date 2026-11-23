@@ -20,6 +20,10 @@ export type Issue = {
   image?: string;
   status: PublishStatus;
   updatedAt: string;
+  /** State slug. Existing archive issues are California. */
+  state?: string;
+  /** Region slug. */
+  region?: string;
 };
 
 export type Story = {
@@ -34,6 +38,8 @@ export type Story = {
   image?: string;
   status: PublishStatus;
   updatedAt: string;
+  state?: string;
+  region?: string;
 };
 
 export type Dog = {
@@ -49,6 +55,8 @@ export type Dog = {
   credit?: string;
   status: PublishStatus;
   updatedAt: string;
+  state?: string;
+  region?: string;
 };
 
 export type GearItem = {
@@ -64,6 +72,8 @@ export type GearItem = {
   image?: string;
   status: PublishStatus;
   updatedAt: string;
+  state?: string;
+  region?: string;
 };
 
 export type LocalListing = {
@@ -78,6 +88,8 @@ export type LocalListing = {
   featured: boolean;
   status: PublishStatus;
   updatedAt: string;
+  state?: string;
+  region?: string;
 };
 
 export type MarketListing = {
@@ -89,6 +101,8 @@ export type MarketListing = {
   price: string;
   status: PublishStatus;
   updatedAt: string;
+  state?: string;
+  region?: string;
 };
 
 export type Recipe = {
@@ -102,6 +116,8 @@ export type Recipe = {
   image?: string;
   status: PublishStatus;
   updatedAt: string;
+  state?: string;
+  region?: string;
 };
 
 export type Subscriber = {
@@ -118,6 +134,8 @@ export type BoardItem = {
   kind: "open" | "deadline" | "watch";
   status: PublishStatus;
   updatedAt: string;
+  state?: string;
+  region?: string;
 };
 
 export type ConditionStat = {

@@ -1,6 +1,7 @@
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { unstable_noStore as noStore } from "next/cache";
+import { ensurePlace } from "./place";
 import { seed } from "./seed";
 import type { StoreData } from "./types";
 
@@ -20,11 +21,29 @@ function dataPath() {
   return join(process.cwd(), ".data", "store.json");
 }
 
+function withPlace<T extends { state?: string; region?: string }>(rows: T[]) {
+  return rows.map((row) => ensurePlace(row));
+}
+
+function normalize(data: StoreData): StoreData {
+  return {
+    ...data,
+    issues: withPlace(data.issues),
+    stories: withPlace(data.stories),
+    dogs: withPlace(data.dogs),
+    gear: withPlace(data.gear),
+    locals: withPlace(data.locals),
+    market: withPlace(data.market),
+    recipes: withPlace(data.recipes),
+    board: withPlace(data.board),
+  };
+}
+
 function readStore(): StoreData {
   try {
     const raw = readFileSync(/*turbopackIgnore: true*/ dataPath(), "utf8");
     const parsed = JSON.parse(raw) as StoreData;
-    return {
+    return normalize({
       ...seed,
       ...parsed,
       issues: withSeed(parsed.issues, seed.issues),
@@ -38,7 +57,7 @@ function readStore(): StoreData {
       conditions: withSeed(parsed.conditions, seed.conditions),
       submissions: parsed.submissions ?? seed.submissions,
       subscribers: parsed.subscribers ?? seed.subscribers,
-    };
+    });
   } catch {
     return structuredClone(seed);
   }
@@ -58,8 +77,9 @@ export function getStore(): StoreData {
 export function updateStore(mutator: (data: StoreData) => void): StoreData {
   const data = readStore();
   mutator(data);
-  writeStore(data);
-  return data;
+  const next = normalize(data);
+  writeStore(next);
+  return next;
 }
 
 export function published<T extends { status: string }>(items: T[]): T[] {

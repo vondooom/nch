@@ -52,6 +52,11 @@ export default async function IssuePage({ params }: { params: Promise<{ slug: st
         ) : null}
         {[3, 13, 16, 17, 20, 21, 22, 23].includes(issue.number) ? <GameBirdGuidance archived /> : null}
         <RichBody body={issue.body} />
+        {issue.body.includes("The Local Hunts Team") ? null : (
+          <p className="mt-10 font-heading text-[18px] font-semibold uppercase tracking-[0.08em] text-[#1C2B1A]">
+            The Local Hunts Team
+          </p>
+        )}
       </article>
       <SiteFooter compact />
     </>

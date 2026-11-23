@@ -5,7 +5,7 @@ import { calendar, deskDisclaimer } from "@/lib/guides";
 
 export const metadata: Metadata = {
   title: "Season calendar",
-  description: "A twelve-month read of the NorCal hunting year, from license day in July through turkey and pigs.",
+  description: "A twelve-month read of the California hunting year, from license day in July through turkey and pigs.",
 };
 
 export default function CalendarPage() {
@@ -15,7 +15,7 @@ export default function CalendarPage() {
         data={{
           "@context": "https://schema.org",
           "@type": "ItemList",
-          name: "NorCal hunting year",
+          name: "California hunting year",
           itemListElement: calendar.map((month, index) => ({
             "@type": "ListItem",
             position: index + 1,
@@ -30,11 +30,12 @@ export default function CalendarPage() {
           The year
         </div>
         <h1 className="mb-3.5 font-heading text-[clamp(36px,5vw,56px)] font-bold uppercase leading-none">
-          A hunting calendar for NorCal
+          A hunting calendar for California
         </h1>
         <p className="mb-10 max-w-[640px] font-serif text-[17px] leading-relaxed text-[#5C543F]">
-          What the desk is thinking about each month. Open dates still live on the Board and at CDFW — this is the rhythm,
-          not the regulation.
+          What the desk is thinking about each month in California. Open dates still live on the Board and with the
+          California Department of Fish and Wildlife. This is the rhythm, not the regulation. Other states live on their
+          own hubs.
         </p>
         <div className="grid gap-4">
           {calendar.map((month) => (

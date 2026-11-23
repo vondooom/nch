@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ConditionsPanel } from "@/components/site/conditions-panel";
 import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
 import { deskDisclaimer } from "@/lib/guides";
 import { conditionSources } from "@/lib/condition-sources";
@@ -32,11 +33,14 @@ export default function ConditionsPage() {
           </div>
         ))}
       </section>
+      <section className="mx-auto max-w-[780px] px-6 pb-4">
+        <ConditionsPanel state="california" />
+      </section>
       <section className="mx-auto max-w-[780px] px-6 pb-20 font-serif text-[17px] leading-relaxed text-[#3B3526]">
         <p>
-          We do not currently have verified, date- and location-specific conditions to display. Use the official sources
-          above for your hunt date and location. Always confirm fire closures, refuge draws, and legal shoot times
-          with CDFW and the refuge you&apos;re hunting.
+          The cards above are California links from the original desk. Every state hub has its own agency link and a
+          forecast for one city in that state. Confirm fire closures, refuge draws, and legal shooting hours with the
+          agency and the unit you are hunting.
         </p>
         <p className="mt-4">{deskDisclaimer}</p>
         <Link href="/checklist" className="mt-6 inline-block font-heading text-[15px] font-semibold uppercase tracking-[0.1em] text-[#C75B12]">

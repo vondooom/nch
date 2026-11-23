@@ -14,7 +14,7 @@ export default function StoriesPage() {
       <PageHero
         kicker="Field Stories"
         title="Real hunts. Real memories."
-        lede="Handpicked tales from NorCal hunters — deer camps, duck blinds, turkey ridges, and everything in between."
+        lede="Handpicked tales from the field. Deer camps, duck blinds, turkey ridges, and the days in between. The stories here so far are from California."
         image={archiveShowcase.find((item) => item.image)?.image}
       />
       <section className="mx-auto max-w-[1180px] px-6 py-12 pb-20">

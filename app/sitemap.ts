@@ -1,3 +1,5 @@
+import { regions } from "@/lib/geo/regions";
+import { states } from "@/lib/geo/states";
 import { species, zones } from "@/lib/guides";
 import { absoluteUrl } from "@/lib/site";
 import { getStore, published } from "@/lib/store";
@@ -21,8 +23,11 @@ export default function sitemap() {
     "/regulations",
     "/about",
     "/subscribe",
-    "/zones",
-    "/species",
+    "/hunt",
+    ...states.map((item) => `/hunt/${item.slug}`),
+    ...regions.map((region) => `/regions/${region.slug}`),
+    ...states.filter((item) => zones.some((zone) => zone.state === item.slug)).map((item) => `/hunt/${item.slug}/zones`),
+    ...states.filter((item) => species.some((animal) => animal.state === item.slug)).map((item) => `/hunt/${item.slug}/species`),
     "/calendar",
     "/checklist",
     "/faq",
@@ -41,8 +46,8 @@ export default function sitemap() {
     ...published(data.recipes).map((item) => ({ url: absoluteUrl(`/recipes/${item.slug}`), changeFrequency: "monthly" as const, priority: 0.7 })),
     ...published(data.locals).map((item) => ({ url: absoluteUrl(`/local-boys/${item.slug}`), changeFrequency: "monthly" as const, priority: 0.6 })),
     ...published(data.dogs).map((item) => ({ url: absoluteUrl(`/dog-of-the-week/${item.slug}`), changeFrequency: "weekly" as const, priority: 0.7 })),
-    ...zones.map((item) => ({ url: absoluteUrl(`/zones/${item.slug}`), changeFrequency: "monthly" as const, priority: 0.7 })),
-    ...species.map((item) => ({ url: absoluteUrl(`/species/${item.slug}`), changeFrequency: "monthly" as const, priority: 0.7 })),
+    ...zones.map((item) => ({ url: absoluteUrl(`/hunt/${item.state}/zones/${item.slug}`), changeFrequency: "monthly" as const, priority: 0.7 })),
+    ...species.map((item) => ({ url: absoluteUrl(`/hunt/${item.state}/species/${item.slug}`), changeFrequency: "monthly" as const, priority: 0.7 })),
   ];
 
   return [...staticRoutes, ...entries];

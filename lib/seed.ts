@@ -1,5 +1,6 @@
 import type { StoreData } from "./types";
 import { archiveDogs, archiveGear, archiveIssues, archiveLocals, archiveStories } from "./archive";
+import { withCaliforniaPlace } from "./place";
 import { extraBoard, extraConditions, extraMarket, extraRecipes } from "./seed-extra";
 
 const now = "2026-09-11T12:00:00.000Z";
@@ -209,8 +210,8 @@ export const seed: StoreData = {
   dogs: archiveDogs,
   gear: archiveGear,
   locals: archiveLocals,
-  market: [...seedBase.market, ...extraMarket],
-  recipes: [...seedBase.recipes, ...extraRecipes],
-  board: [...seedBase.board, ...extraBoard],
+  market: withCaliforniaPlace([...seedBase.market, ...extraMarket]),
+  recipes: withCaliforniaPlace([...seedBase.recipes, ...extraRecipes]),
+  board: withCaliforniaPlace([...seedBase.board, ...extraBoard]),
   conditions: [...seedBase.conditions, ...extraConditions],
 };

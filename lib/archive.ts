@@ -1,5 +1,8 @@
 import raw from "./archive.json";
+import { withCaliforniaPlace } from "./place";
 import type { Dog, GearItem, Issue, LocalListing, Story } from "./types";
+
+type Archived<T> = Omit<T, "state" | "region">;
 
 export type ArchiveSection = {
   title: string;
@@ -21,11 +24,11 @@ type ArchiveFile = {
   logo: string;
   hero: string;
   aboutPoster: string;
-  issues: Issue[];
-  stories: Story[];
-  dogs: Dog[];
-  gear: GearItem[];
-  locals: LocalListing[];
+  issues: Archived<Issue>[];
+  stories: Archived<Story>[];
+  dogs: Archived<Dog>[];
+  gear: Archived<GearItem>[];
+  locals: Archived<LocalListing>[];
   showcase: ShowcaseItem[];
   bagLimits: ArchiveSection[];
   seasons: ArchiveSection[];
@@ -35,11 +38,11 @@ type ArchiveFile = {
 const archive = raw as ArchiveFile;
 
 export const archiveAboutPoster = archive.aboutPoster;
-export const archiveIssues = archive.issues;
-export const archiveStories = archive.stories;
-export const archiveDogs = archive.dogs;
-export const archiveGear = archive.gear;
-export const archiveLocals = archive.locals;
+export const archiveIssues = withCaliforniaPlace(archive.issues);
+export const archiveStories = withCaliforniaPlace(archive.stories);
+export const archiveDogs = withCaliforniaPlace(archive.dogs);
+export const archiveGear = withCaliforniaPlace(archive.gear);
+export const archiveLocals = withCaliforniaPlace(archive.locals);
 export const archiveShowcase = archive.showcase;
 export const archiveBagLimits = archive.bagLimits;
 export const archiveSeasons = archive.seasons;
