@@ -13,6 +13,10 @@ export function unitTokens(zone: string) {
 export function zoneMatchesUnit(zone: string, query: string) {
   const q = query.trim().toLowerCase();
   if (!q) return true;
-  if (/^\d+[a-z]*$/.test(q)) return unitTokens(zone).some((token) => token === q);
+  if (/^\d+[a-z]*$/.test(q)) {
+    const gmu = zone.match(/^GMU\s+(\d+[A-Za-z]*)/i);
+    if (gmu) return gmu[1].toLowerCase() === q;
+    return unitTokens(zone).some((token) => token === q);
+  }
   return zone.toLowerCase().includes(q);
 }

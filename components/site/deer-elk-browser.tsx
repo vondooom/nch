@@ -16,6 +16,8 @@ const loaders: Record<DeerElkState, () => Promise<{ default: unknown }>> = {
   montana: () => import("@/data/seasons/mt-deer-elk.json"),
   utah: () => import("@/data/seasons/ut-deer-elk.json"),
   oregon: () => import("@/data/seasons/or-deer-elk.json"),
+  washington: () => import("@/data/seasons/wa-deer-elk.json"),
+  "new-mexico": () => import("@/data/seasons/nm-deer-elk.json"),
 };
 
 function sourceFragments(quote: string) {

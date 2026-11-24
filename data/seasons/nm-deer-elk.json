@@ -1,0 +1,402 @@
+[
+ {
+  "id": "nm-deer-unit46-private-land-any-legal-2026",
+  "state": "NM",
+  "species": "deer",
+  "seasonName": "Deer, Private-Land Only OTC, Any legal sporting arm",
+  "zone": "GMU 46 (private land only)",
+  "seasonYear": "2026-27",
+  "periods": [
+   {
+    "open": "2026-10-24",
+    "close": "2026-10-28",
+    "note": "DER-1-504; bag FAD (Fork-antlered deer (white-tailed or mule deer)); unlimited licenses"
+   },
+   {
+    "open": "2026-10-31",
+    "close": "2026-11-04",
+    "note": "DER-1-505; bag FAD (Fork-antlered deer (white-tailed or mule deer)); unlimited licenses"
+   }
+  ],
+  "bagLimit": null,
+  "possessionLimit": null,
+  "agency": "NMDOW",
+  "sourceTitle": "2026-2027 New Mexico Hunting Rules and Information (v08.11.26)",
+  "sourceUrl": "https://wildlife.dgf.nm.gov/download/2026-2027-new-mexico-hunting-rules-and-info/?wpdmdl=52826",
+  "sourceQuote": "Private-Land Deer Hunting in Units 8, 46, 54, 55A and 55B | Private–land hunters in these units must select one of the hunt codes listed below. | Over-the-counter, Private-Land Deer Licenses are not valid on any public land. | Unit 46 | Any Legal Oct. 24-28 DER-1-504 S Unlimited FAD | Any Legal Oct. 31-Nov.4 DER-1-505 S Unlimited FAD",
+  "checkedDate": "2026-11-23",
+  "notes": "Private-Land Only Deer License, sold over the counter (online, by telephone, from license vendors or at NMDOW offices); not valid on any public land; written landowner permission required. Licenses are unlimited. Fee type S (standard). Online and telephone purchases must be made at least 14 days before the hunt start date unless the E-Tag option is chosen. Public-land deer hunting in this unit is by draw only and is not recorded. NMDOW prints month and day; years assigned for the 2026-27 license year (Jul-Dec = 2026, Jan-Jun = 2027); '27 dates used as printed."
+ },
+ {
+  "id": "nm-deer-unit46-private-land-bow-2026",
+  "state": "NM",
+  "species": "deer",
+  "seasonName": "Deer, Private-Land Only OTC, Bow-only",
+  "zone": "GMU 46 (private land only)",
+  "seasonYear": "2026-27",
+  "periods": [
+   {
+    "open": "2026-09-01",
+    "close": "2026-09-24",
+    "note": "DER-2-506; bag FAD (Fork-antlered deer (white-tailed or mule deer)); unlimited licenses"
+   }
+  ],
+  "bagLimit": null,
+  "possessionLimit": null,
+  "agency": "NMDOW",
+  "sourceTitle": "2026-2027 New Mexico Hunting Rules and Information (v08.11.26)",
+  "sourceUrl": "https://wildlife.dgf.nm.gov/download/2026-2027-new-mexico-hunting-rules-and-info/?wpdmdl=52826",
+  "sourceQuote": "Private-Land Deer Hunting in Units 8, 46, 54, 55A and 55B | Private–land hunters in these units must select one of the hunt codes listed below. | Over-the-counter, Private-Land Deer Licenses are not valid on any public land. | Unit 46 | Bow Sept. 1-24 DER-2-506 S Unlimited FAD",
+  "checkedDate": "2026-11-23",
+  "notes": "Private-Land Only Deer License, sold over the counter (online, by telephone, from license vendors or at NMDOW offices); not valid on any public land; written landowner permission required. Licenses are unlimited. Fee type S (standard). Online and telephone purchases must be made at least 14 days before the hunt start date unless the E-Tag option is chosen. Public-land deer hunting in this unit is by draw only and is not recorded. NMDOW prints month and day; years assigned for the 2026-27 license year (Jul-Dec = 2026, Jan-Jun = 2027); '27 dates used as printed."
+ },
+ {
+  "id": "nm-deer-unit46-private-land-muzzleloader-2026",
+  "state": "NM",
+  "species": "deer",
+  "seasonName": "Deer, Private-Land Only OTC, Muzzleloader",
+  "zone": "GMU 46 (private land only)",
+  "seasonYear": "2026-27",
+  "periods": [
+   {
+    "open": "2026-09-27",
+    "close": "2026-10-03",
+    "note": "DER-3-507; bag FAD (Fork-antlered deer (white-tailed or mule deer)); unlimited licenses"
+   }
+  ],
+  "bagLimit": null,
+  "possessionLimit": null,
+  "agency": "NMDOW",
+  "sourceTitle": "2026-2027 New Mexico Hunting Rules and Information (v08.11.26)",
+  "sourceUrl": "https://wildlife.dgf.nm.gov/download/2026-2027-new-mexico-hunting-rules-and-info/?wpdmdl=52826",
+  "sourceQuote": "Private-Land Deer Hunting in Units 8, 46, 54, 55A and 55B | Private–land hunters in these units must select one of the hunt codes listed below. | Over-the-counter, Private-Land Deer Licenses are not valid on any public land. | Unit 46 | Muzzle Sept. 27-Oct.3 DER-3-507 S Unlimited FAD",
+  "checkedDate": "2026-11-23",
+  "notes": "Private-Land Only Deer License, sold over the counter (online, by telephone, from license vendors or at NMDOW offices); not valid on any public land; written landowner permission required. Licenses are unlimited. Fee type S (standard). Online and telephone purchases must be made at least 14 days before the hunt start date unless the E-Tag option is chosen. Public-land deer hunting in this unit is by draw only and is not recorded. NMDOW prints month and day; years assigned for the 2026-27 license year (Jul-Dec = 2026, Jan-Jun = 2027); '27 dates used as printed."
+ },
+ {
+  "id": "nm-deer-unit54-private-land-any-legal-2026",
+  "state": "NM",
+  "species": "deer",
+  "seasonName": "Deer, Private-Land Only OTC, Any legal sporting arm",
+  "zone": "GMU 54 (private land only)",
+  "seasonYear": "2026-27",
+  "periods": [
+   {
+    "open": "2026-10-24",
+    "close": "2026-10-28",
+    "note": "DER-1-508; bag FAD (Fork-antlered deer (white-tailed or mule deer)); unlimited licenses"
+   },
+   {
+    "open": "2026-10-31",
+    "close": "2026-11-04",
+    "note": "DER-1-509; bag FAD (Fork-antlered deer (white-tailed or mule deer)); unlimited licenses"
+   },
+   {
+    "open": "2026-11-25",
+    "close": "2026-11-29",
+    "note": "DER-1-510; bag ESWTD (Either sex white-tailed deer); unlimited licenses"
+   },
+   {
+    "open": "2026-11-21",
+    "close": "2026-11-29",
+    "note": "DER-1-511; youth only; bag FAD (Fork-antlered deer (white-tailed or mule deer)); unlimited licenses"
+   }
+  ],
+  "bagLimit": null,
+  "possessionLimit": null,
+  "agency": "NMDOW",
+  "sourceTitle": "2026-2027 New Mexico Hunting Rules and Information (v08.11.26)",
+  "sourceUrl": "https://wildlife.dgf.nm.gov/download/2026-2027-new-mexico-hunting-rules-and-info/?wpdmdl=52826",
+  "sourceQuote": "Private-Land Deer Hunting in Units 8, 46, 54, 55A and 55B | Private–land hunters in these units must select one of the hunt codes listed below. | Over-the-counter, Private-Land Deer Licenses are not valid on any public land. | Unit 54 | Any Legal Oct. 24-28 DER-1-508 S Unlimited FAD | Any Legal Oct. 31-Nov.4 DER-1-509 S Unlimited FAD | Any Legal Nov. 25-29 DER-1-510 S Unlimited ESWTD | Nov. 21-29 DER-1-511 S Unlimited FAD",
+  "checkedDate": "2026-11-23",
+  "notes": "Private-Land Only Deer License, sold over the counter (online, by telephone, from license vendors or at NMDOW offices); not valid on any public land; written landowner permission required. Licenses are unlimited. Fee type S (standard). Online and telephone purchases must be made at least 14 days before the hunt start date unless the E-Tag option is chosen. Public-land deer hunting in this unit is by draw only and is not recorded. NMDOW prints month and day; years assigned for the 2026-27 license year (Jul-Dec = 2026, Jan-Jun = 2027); '27 dates used as printed."
+ },
+ {
+  "id": "nm-deer-unit54-private-land-bow-2026",
+  "state": "NM",
+  "species": "deer",
+  "seasonName": "Deer, Private-Land Only OTC, Bow-only",
+  "zone": "GMU 54 (private land only)",
+  "seasonYear": "2026-27",
+  "periods": [
+   {
+    "open": "2026-09-01",
+    "close": "2026-09-24",
+    "note": "DER-2-512; bag FAD (Fork-antlered deer (white-tailed or mule deer)); unlimited licenses"
+   }
+  ],
+  "bagLimit": null,
+  "possessionLimit": null,
+  "agency": "NMDOW",
+  "sourceTitle": "2026-2027 New Mexico Hunting Rules and Information (v08.11.26)",
+  "sourceUrl": "https://wildlife.dgf.nm.gov/download/2026-2027-new-mexico-hunting-rules-and-info/?wpdmdl=52826",
+  "sourceQuote": "Private-Land Deer Hunting in Units 8, 46, 54, 55A and 55B | Private–land hunters in these units must select one of the hunt codes listed below. | Over-the-counter, Private-Land Deer Licenses are not valid on any public land. | Unit 54 | Bow Sept. 1-24 DER-2-512 S Unlimited FAD",
+  "checkedDate": "2026-11-23",
+  "notes": "Private-Land Only Deer License, sold over the counter (online, by telephone, from license vendors or at NMDOW offices); not valid on any public land; written landowner permission required. Licenses are unlimited. Fee type S (standard). Online and telephone purchases must be made at least 14 days before the hunt start date unless the E-Tag option is chosen. Public-land deer hunting in this unit is by draw only and is not recorded. NMDOW prints month and day; years assigned for the 2026-27 license year (Jul-Dec = 2026, Jan-Jun = 2027); '27 dates used as printed."
+ },
+ {
+  "id": "nm-deer-unit54-private-land-muzzleloader-2026",
+  "state": "NM",
+  "species": "deer",
+  "seasonName": "Deer, Private-Land Only OTC, Muzzleloader",
+  "zone": "GMU 54 (private land only)",
+  "seasonYear": "2026-27",
+  "periods": [
+   {
+    "open": "2026-09-27",
+    "close": "2026-10-03",
+    "note": "DER-3-513; bag FAD (Fork-antlered deer (white-tailed or mule deer)); unlimited licenses"
+   }
+  ],
+  "bagLimit": null,
+  "possessionLimit": null,
+  "agency": "NMDOW",
+  "sourceTitle": "2026-2027 New Mexico Hunting Rules and Information (v08.11.26)",
+  "sourceUrl": "https://wildlife.dgf.nm.gov/download/2026-2027-new-mexico-hunting-rules-and-info/?wpdmdl=52826",
+  "sourceQuote": "Private-Land Deer Hunting in Units 8, 46, 54, 55A and 55B | Private–land hunters in these units must select one of the hunt codes listed below. | Over-the-counter, Private-Land Deer Licenses are not valid on any public land. | Unit 54 | Muzzle Sept. 27-Oct.3 DER-3-513 S Unlimited FAD",
+  "checkedDate": "2026-11-23",
+  "notes": "Private-Land Only Deer License, sold over the counter (online, by telephone, from license vendors or at NMDOW offices); not valid on any public land; written landowner permission required. Licenses are unlimited. Fee type S (standard). Online and telephone purchases must be made at least 14 days before the hunt start date unless the E-Tag option is chosen. Public-land deer hunting in this unit is by draw only and is not recorded. NMDOW prints month and day; years assigned for the 2026-27 license year (Jul-Dec = 2026, Jan-Jun = 2027); '27 dates used as printed."
+ },
+ {
+  "id": "nm-deer-unit55a-private-land-any-legal-2026",
+  "state": "NM",
+  "species": "deer",
+  "seasonName": "Deer, Private-Land Only OTC, Any legal sporting arm",
+  "zone": "GMU 55A (private land only)",
+  "seasonYear": "2026-27",
+  "periods": [
+   {
+    "open": "2026-10-24",
+    "close": "2026-10-28",
+    "note": "DER-1-514; bag FAD (Fork-antlered deer (white-tailed or mule deer)); unlimited licenses"
+   },
+   {
+    "open": "2026-10-31",
+    "close": "2026-11-04",
+    "note": "DER-1-515; bag FAD (Fork-antlered deer (white-tailed or mule deer)); unlimited licenses"
+   },
+   {
+    "open": "2026-11-21",
+    "close": "2026-11-29",
+    "note": "DER-1-516; youth only; bag FAD (Fork-antlered deer (white-tailed or mule deer)); unlimited licenses"
+   },
+   {
+    "open": "2026-11-25",
+    "close": "2026-11-29",
+    "note": "DER-1-519; bag ESWTD (Either sex white-tailed deer); unlimited licenses"
+   }
+  ],
+  "bagLimit": null,
+  "possessionLimit": null,
+  "agency": "NMDOW",
+  "sourceTitle": "2026-2027 New Mexico Hunting Rules and Information (v08.11.26)",
+  "sourceUrl": "https://wildlife.dgf.nm.gov/download/2026-2027-new-mexico-hunting-rules-and-info/?wpdmdl=52826",
+  "sourceQuote": "Private-Land Deer Hunting in Units 8, 46, 54, 55A and 55B | Private–land hunters in these units must select one of the hunt codes listed below. | Over-the-counter, Private-Land Deer Licenses are not valid on any public land. | Units 55A and 55B | Any Legal Oct. 24-28 DER-1-514 S Unlimited FAD | Any Legal Oct. 31-Nov.4 DER-1-515 S Unlimited FAD | Youth Nov. 21-29 DER-1-516 S Unlimited FAD | Any Legal Nov. 25-29 DER-1-519 S Unlimited ESWTD",
+  "checkedDate": "2026-11-23",
+  "notes": "Private-Land Only Deer License, sold over the counter (online, by telephone, from license vendors or at NMDOW offices); not valid on any public land; written landowner permission required. Licenses are unlimited. Fee type S (standard). Online and telephone purchases must be made at least 14 days before the hunt start date unless the E-Tag option is chosen. Public-land deer hunting in this unit is by draw only and is not recorded. NMDOW prints month and day; years assigned for the 2026-27 license year (Jul-Dec = 2026, Jan-Jun = 2027); '27 dates used as printed."
+ },
+ {
+  "id": "nm-deer-unit55a-private-land-bow-2026",
+  "state": "NM",
+  "species": "deer",
+  "seasonName": "Deer, Private-Land Only OTC, Bow-only",
+  "zone": "GMU 55A (private land only)",
+  "seasonYear": "2026-27",
+  "periods": [
+   {
+    "open": "2026-09-01",
+    "close": "2026-09-24",
+    "note": "DER-2-517; bag FAD (Fork-antlered deer (white-tailed or mule deer)); unlimited licenses"
+   }
+  ],
+  "bagLimit": null,
+  "possessionLimit": null,
+  "agency": "NMDOW",
+  "sourceTitle": "2026-2027 New Mexico Hunting Rules and Information (v08.11.26)",
+  "sourceUrl": "https://wildlife.dgf.nm.gov/download/2026-2027-new-mexico-hunting-rules-and-info/?wpdmdl=52826",
+  "sourceQuote": "Private-Land Deer Hunting in Units 8, 46, 54, 55A and 55B | Private–land hunters in these units must select one of the hunt codes listed below. | Over-the-counter, Private-Land Deer Licenses are not valid on any public land. | Units 55A and 55B | Bow Sept. 1-24 DER-2-517 S Unlimited FAD",
+  "checkedDate": "2026-11-23",
+  "notes": "Private-Land Only Deer License, sold over the counter (online, by telephone, from license vendors or at NMDOW offices); not valid on any public land; written landowner permission required. Licenses are unlimited. Fee type S (standard). Online and telephone purchases must be made at least 14 days before the hunt start date unless the E-Tag option is chosen. Public-land deer hunting in this unit is by draw only and is not recorded. NMDOW prints month and day; years assigned for the 2026-27 license year (Jul-Dec = 2026, Jan-Jun = 2027); '27 dates used as printed."
+ },
+ {
+  "id": "nm-deer-unit55a-private-land-muzzleloader-2026",
+  "state": "NM",
+  "species": "deer",
+  "seasonName": "Deer, Private-Land Only OTC, Muzzleloader",
+  "zone": "GMU 55A (private land only)",
+  "seasonYear": "2026-27",
+  "periods": [
+   {
+    "open": "2026-09-27",
+    "close": "2026-10-03",
+    "note": "DER-3-518; bag FAD (Fork-antlered deer (white-tailed or mule deer)); unlimited licenses"
+   }
+  ],
+  "bagLimit": null,
+  "possessionLimit": null,
+  "agency": "NMDOW",
+  "sourceTitle": "2026-2027 New Mexico Hunting Rules and Information (v08.11.26)",
+  "sourceUrl": "https://wildlife.dgf.nm.gov/download/2026-2027-new-mexico-hunting-rules-and-info/?wpdmdl=52826",
+  "sourceQuote": "Private-Land Deer Hunting in Units 8, 46, 54, 55A and 55B | Private–land hunters in these units must select one of the hunt codes listed below. | Over-the-counter, Private-Land Deer Licenses are not valid on any public land. | Units 55A and 55B | Muzzle Sept. 27-Oct.3 DER-3-518 S Unlimited FAD",
+  "checkedDate": "2026-11-23",
+  "notes": "Private-Land Only Deer License, sold over the counter (online, by telephone, from license vendors or at NMDOW offices); not valid on any public land; written landowner permission required. Licenses are unlimited. Fee type S (standard). Online and telephone purchases must be made at least 14 days before the hunt start date unless the E-Tag option is chosen. Public-land deer hunting in this unit is by draw only and is not recorded. NMDOW prints month and day; years assigned for the 2026-27 license year (Jul-Dec = 2026, Jan-Jun = 2027); '27 dates used as printed."
+ },
+ {
+  "id": "nm-deer-unit55b-private-land-any-legal-2026",
+  "state": "NM",
+  "species": "deer",
+  "seasonName": "Deer, Private-Land Only OTC, Any legal sporting arm",
+  "zone": "GMU 55B (private land only)",
+  "seasonYear": "2026-27",
+  "periods": [
+   {
+    "open": "2026-10-24",
+    "close": "2026-10-28",
+    "note": "DER-1-514; bag FAD (Fork-antlered deer (white-tailed or mule deer)); unlimited licenses"
+   },
+   {
+    "open": "2026-10-31",
+    "close": "2026-11-04",
+    "note": "DER-1-515; bag FAD (Fork-antlered deer (white-tailed or mule deer)); unlimited licenses"
+   },
+   {
+    "open": "2026-11-21",
+    "close": "2026-11-29",
+    "note": "DER-1-516; youth only; bag FAD (Fork-antlered deer (white-tailed or mule deer)); unlimited licenses"
+   },
+   {
+    "open": "2026-11-25",
+    "close": "2026-11-29",
+    "note": "DER-1-519; bag ESWTD (Either sex white-tailed deer); unlimited licenses"
+   }
+  ],
+  "bagLimit": null,
+  "possessionLimit": null,
+  "agency": "NMDOW",
+  "sourceTitle": "2026-2027 New Mexico Hunting Rules and Information (v08.11.26)",
+  "sourceUrl": "https://wildlife.dgf.nm.gov/download/2026-2027-new-mexico-hunting-rules-and-info/?wpdmdl=52826",
+  "sourceQuote": "Private-Land Deer Hunting in Units 8, 46, 54, 55A and 55B | Private–land hunters in these units must select one of the hunt codes listed below. | Over-the-counter, Private-Land Deer Licenses are not valid on any public land. | Units 55A and 55B | Any Legal Oct. 24-28 DER-1-514 S Unlimited FAD | Any Legal Oct. 31-Nov.4 DER-1-515 S Unlimited FAD | Youth Nov. 21-29 DER-1-516 S Unlimited FAD | Any Legal Nov. 25-29 DER-1-519 S Unlimited ESWTD",
+  "checkedDate": "2026-11-23",
+  "notes": "Private-Land Only Deer License, sold over the counter (online, by telephone, from license vendors or at NMDOW offices); not valid on any public land; written landowner permission required. Licenses are unlimited. Fee type S (standard). Online and telephone purchases must be made at least 14 days before the hunt start date unless the E-Tag option is chosen. Public-land deer hunting in this unit is by draw only and is not recorded. NMDOW prints month and day; years assigned for the 2026-27 license year (Jul-Dec = 2026, Jan-Jun = 2027); '27 dates used as printed."
+ },
+ {
+  "id": "nm-deer-unit55b-private-land-bow-2026",
+  "state": "NM",
+  "species": "deer",
+  "seasonName": "Deer, Private-Land Only OTC, Bow-only",
+  "zone": "GMU 55B (private land only)",
+  "seasonYear": "2026-27",
+  "periods": [
+   {
+    "open": "2026-09-01",
+    "close": "2026-09-24",
+    "note": "DER-2-517; bag FAD (Fork-antlered deer (white-tailed or mule deer)); unlimited licenses"
+   }
+  ],
+  "bagLimit": null,
+  "possessionLimit": null,
+  "agency": "NMDOW",
+  "sourceTitle": "2026-2027 New Mexico Hunting Rules and Information (v08.11.26)",
+  "sourceUrl": "https://wildlife.dgf.nm.gov/download/2026-2027-new-mexico-hunting-rules-and-info/?wpdmdl=52826",
+  "sourceQuote": "Private-Land Deer Hunting in Units 8, 46, 54, 55A and 55B | Private–land hunters in these units must select one of the hunt codes listed below. | Over-the-counter, Private-Land Deer Licenses are not valid on any public land. | Units 55A and 55B | Bow Sept. 1-24 DER-2-517 S Unlimited FAD",
+  "checkedDate": "2026-11-23",
+  "notes": "Private-Land Only Deer License, sold over the counter (online, by telephone, from license vendors or at NMDOW offices); not valid on any public land; written landowner permission required. Licenses are unlimited. Fee type S (standard). Online and telephone purchases must be made at least 14 days before the hunt start date unless the E-Tag option is chosen. Public-land deer hunting in this unit is by draw only and is not recorded. NMDOW prints month and day; years assigned for the 2026-27 license year (Jul-Dec = 2026, Jan-Jun = 2027); '27 dates used as printed."
+ },
+ {
+  "id": "nm-deer-unit55b-private-land-muzzleloader-2026",
+  "state": "NM",
+  "species": "deer",
+  "seasonName": "Deer, Private-Land Only OTC, Muzzleloader",
+  "zone": "GMU 55B (private land only)",
+  "seasonYear": "2026-27",
+  "periods": [
+   {
+    "open": "2026-09-27",
+    "close": "2026-10-03",
+    "note": "DER-3-518; bag FAD (Fork-antlered deer (white-tailed or mule deer)); unlimited licenses"
+   }
+  ],
+  "bagLimit": null,
+  "possessionLimit": null,
+  "agency": "NMDOW",
+  "sourceTitle": "2026-2027 New Mexico Hunting Rules and Information (v08.11.26)",
+  "sourceUrl": "https://wildlife.dgf.nm.gov/download/2026-2027-new-mexico-hunting-rules-and-info/?wpdmdl=52826",
+  "sourceQuote": "Private-Land Deer Hunting in Units 8, 46, 54, 55A and 55B | Private–land hunters in these units must select one of the hunt codes listed below. | Over-the-counter, Private-Land Deer Licenses are not valid on any public land. | Units 55A and 55B | Muzzle Sept. 27-Oct.3 DER-3-518 S Unlimited FAD",
+  "checkedDate": "2026-11-23",
+  "notes": "Private-Land Only Deer License, sold over the counter (online, by telephone, from license vendors or at NMDOW offices); not valid on any public land; written landowner permission required. Licenses are unlimited. Fee type S (standard). Online and telephone purchases must be made at least 14 days before the hunt start date unless the E-Tag option is chosen. Public-land deer hunting in this unit is by draw only and is not recorded. NMDOW prints month and day; years assigned for the 2026-27 license year (Jul-Dec = 2026, Jan-Jun = 2027); '27 dates used as printed."
+ },
+ {
+  "id": "nm-deer-unit8-private-land-any-legal-2026",
+  "state": "NM",
+  "species": "deer",
+  "seasonName": "Deer, Private-Land Only OTC, Any legal sporting arm",
+  "zone": "GMU 8 (private land only)",
+  "seasonYear": "2026-27",
+  "periods": [
+   {
+    "open": "2026-10-17",
+    "close": "2026-10-21",
+    "note": "DER-1-500; bag FAD (Fork-antlered deer (white-tailed or mule deer)); unlimited licenses"
+   }
+  ],
+  "bagLimit": null,
+  "possessionLimit": null,
+  "agency": "NMDOW",
+  "sourceTitle": "2026-2027 New Mexico Hunting Rules and Information (v08.11.26)",
+  "sourceUrl": "https://wildlife.dgf.nm.gov/download/2026-2027-new-mexico-hunting-rules-and-info/?wpdmdl=52826",
+  "sourceQuote": "Private-Land Deer Hunting in Units 8, 46, 54, 55A and 55B | Private–land hunters in these units must select one of the hunt codes listed below. | Over-the-counter, Private-Land Deer Licenses are not valid on any public land. | Unit 8 | Any Legal Oct. 17-21 DER-1-500 Q Unlimited FAD",
+  "checkedDate": "2026-11-23",
+  "notes": "Private-Land Only Deer License, sold over the counter (online, by telephone, from license vendors or at NMDOW offices); not valid on any public land; written landowner permission required. Licenses are unlimited. Fee type Q (quality deer license fee applies to non-residents). Online and telephone purchases must be made at least 14 days before the hunt start date unless the E-Tag option is chosen. Public-land deer hunting in this unit is by draw only and is not recorded. NMDOW prints month and day; years assigned for the 2026-27 license year (Jul-Dec = 2026, Jan-Jun = 2027); '27 dates used as printed."
+ },
+ {
+  "id": "nm-deer-unit8-private-land-bow-2026",
+  "state": "NM",
+  "species": "deer",
+  "seasonName": "Deer, Private-Land Only OTC, Bow-only",
+  "zone": "GMU 8 (private land only)",
+  "seasonYear": "2026-27",
+  "periods": [
+   {
+    "open": "2026-09-01",
+    "close": "2026-09-24",
+    "note": "DER-2-501; bag FAD (Fork-antlered deer (white-tailed or mule deer)); unlimited licenses"
+   },
+   {
+    "open": "2027-01-01",
+    "close": "2027-01-15",
+    "note": "DER-2-502; bag FAD (Fork-antlered deer (white-tailed or mule deer)); unlimited licenses"
+   }
+  ],
+  "bagLimit": null,
+  "possessionLimit": null,
+  "agency": "NMDOW",
+  "sourceTitle": "2026-2027 New Mexico Hunting Rules and Information (v08.11.26)",
+  "sourceUrl": "https://wildlife.dgf.nm.gov/download/2026-2027-new-mexico-hunting-rules-and-info/?wpdmdl=52826",
+  "sourceQuote": "Private-Land Deer Hunting in Units 8, 46, 54, 55A and 55B | Private–land hunters in these units must select one of the hunt codes listed below. | Over-the-counter, Private-Land Deer Licenses are not valid on any public land. | Unit 8 | Bow Sept. 1-24 DER-2-501 Q Unlimited FAD | Bow Jan. 1-15, '27 DER-2-502 Q Unlimited FAD",
+  "checkedDate": "2026-11-23",
+  "notes": "Private-Land Only Deer License, sold over the counter (online, by telephone, from license vendors or at NMDOW offices); not valid on any public land; written landowner permission required. Licenses are unlimited. Fee type Q (quality deer license fee applies to non-residents). Online and telephone purchases must be made at least 14 days before the hunt start date unless the E-Tag option is chosen. Public-land deer hunting in this unit is by draw only and is not recorded. NMDOW prints month and day; years assigned for the 2026-27 license year (Jul-Dec = 2026, Jan-Jun = 2027); '27 dates used as printed."
+ },
+ {
+  "id": "nm-deer-unit8-private-land-muzzleloader-2026",
+  "state": "NM",
+  "species": "deer",
+  "seasonName": "Deer, Private-Land Only OTC, Muzzleloader",
+  "zone": "GMU 8 (private land only)",
+  "seasonYear": "2026-27",
+  "periods": [
+   {
+    "open": "2026-09-27",
+    "close": "2026-10-03",
+    "note": "DER-3-503; bag FAD (Fork-antlered deer (white-tailed or mule deer)); unlimited licenses"
+   }
+  ],
+  "bagLimit": null,
+  "possessionLimit": null,
+  "agency": "NMDOW",
+  "sourceTitle": "2026-2027 New Mexico Hunting Rules and Information (v08.11.26)",
+  "sourceUrl": "https://wildlife.dgf.nm.gov/download/2026-2027-new-mexico-hunting-rules-and-info/?wpdmdl=52826",
+  "sourceQuote": "Private-Land Deer Hunting in Units 8, 46, 54, 55A and 55B | Private–land hunters in these units must select one of the hunt codes listed below. | Over-the-counter, Private-Land Deer Licenses are not valid on any public land. | Unit 8 | Muzzle Sept. 27-Oct.3 DER-3-503 Q Unlimited FAD",
+  "checkedDate": "2026-11-23",
+  "notes": "Private-Land Only Deer License, sold over the counter (online, by telephone, from license vendors or at NMDOW offices); not valid on any public land; written landowner permission required. Licenses are unlimited. Fee type Q (quality deer license fee applies to non-residents). Online and telephone purchases must be made at least 14 days before the hunt start date unless the E-Tag option is chosen. Public-land deer hunting in this unit is by draw only and is not recorded. NMDOW prints month and day; years assigned for the 2026-27 license year (Jul-Dec = 2026, Jan-Jun = 2027); '27 dates used as printed."
+ }
+]
