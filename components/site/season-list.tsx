@@ -32,11 +32,15 @@ function groupsFor(records: SeasonRecord[]) {
   return groups;
 }
 
-/** Empty periods are not open windows. The label comes from the agency quote. */
+/**
+ * Empty periods are not open windows. The label comes from the agency quote.
+ * "Closed on" a forest or refuge is a place rule, not a closed season.
+ */
 function emptyPeriodLabel(record: SeasonRecord) {
-  const quote = record.sourceQuote.toLowerCase();
-  if (quote.includes("closed")) return "Closed for 2026-27";
-  if (quote.includes("all year")) return "Open all year";
+  const fragments = sourceFragments(record.sourceQuote.toLowerCase());
+  const seasonClosed = fragments.some((fragment) => fragment.includes("closed") && !/\bclosed on\b/.test(fragment));
+  if (seasonClosed) return "Closed for 2026-27";
+  if (fragments.some((fragment) => fragment.includes("all year"))) return "Open all year";
   return null;
 }
 

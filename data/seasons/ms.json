@@ -1,0 +1,380 @@
+[
+  {
+    "id": "ms-deer-delta-nc-hills-2026",
+    "state": "MS",
+    "species": "deer",
+    "seasonName": "Deer, Delta, North Central, and Hills Units",
+    "zone": "Delta, North Central, and Hills Deer Management Units",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-11",
+        "close": "2026-09-13",
+        "note": "archery velvet hunt; special permit, one legal buck"
+      },
+      {
+        "open": "2026-10-01",
+        "close": "2026-11-20",
+        "note": "archery"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2027-01-31",
+        "note": "youth season (15 and under)"
+      },
+      {
+        "open": "2026-11-09",
+        "close": "2026-11-20",
+        "note": "antlerless primitive weapon (private lands)"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2026-12-01",
+        "note": "gun (with dogs)"
+      },
+      {
+        "open": "2026-12-02",
+        "close": "2026-12-15",
+        "note": "primitive weapon"
+      },
+      {
+        "open": "2026-12-16",
+        "close": "2026-12-23",
+        "note": "gun (without dogs)"
+      },
+      {
+        "open": "2026-12-24",
+        "close": "2027-01-20",
+        "note": "gun (with dogs)"
+      },
+      {
+        "open": "2027-01-21",
+        "close": "2027-01-31",
+        "note": "archery/primitive weapon"
+      }
+    ],
+    "bagLimit": "Antlered bucks: 1 per day, 3 per annual season (North Central: 1 per day, 4 per season)",
+    "possessionLimit": "Private-land antlerless: 5 per season (North Central 10)",
+    "agency": "MDWFP",
+    "sourceTitle": "2026-2027 Hunting Seasons (MDWFP)",
+    "sourceUrl": "https://www.mdwfp.com/sites/default/files/2026-06/2026-2027%20hunting%20seasons.pdf",
+    "sourceQuote": "DELTA, NORTH CENTRAL, AND HILLS DEER MANAGEMENT UNITS | Archery Sept. 11 - 13 | Oct. 1 - Nov. 20 | Antlerless Primitive Weapon Nov. 9 - 20 | Gun (with dogs) Nov. 21 - Dec. 1 | Primitive Weapon Dec. 2 - 15 | Gun (without dogs) Dec. 16 - 23 | Gun (with dogs) Dec. 24 - Jan. 20 | Archery/Primitive Weapon Jan. 21 - 31 | The statewide bag limit on antlered buck deer is one",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Youth season shown as Nov. 7 to Jan. 31 (table lists Nov. 7 - Nov. 20 and Nov. 21 - Jan. 31). Legal-buck antler rules differ by unit. Open public land is often legal-bucks-only."
+  },
+  {
+    "id": "ms-deer-southeast-2026",
+    "state": "MS",
+    "species": "deer",
+    "seasonName": "Deer, Southeast Unit",
+    "zone": "Southeast Deer Management Unit",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-11",
+        "close": "2026-09-13",
+        "note": "archery velvet hunt; special permit, one legal buck"
+      },
+      {
+        "open": "2026-10-15",
+        "close": "2026-11-20",
+        "note": "archery"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2027-02-15",
+        "note": "youth season (15 and under)"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2026-12-01",
+        "note": "gun (with dogs)"
+      },
+      {
+        "open": "2026-12-02",
+        "close": "2026-12-15",
+        "note": "primitive weapon"
+      },
+      {
+        "open": "2026-12-16",
+        "close": "2026-12-23",
+        "note": "gun (without dogs)"
+      },
+      {
+        "open": "2026-12-24",
+        "close": "2027-01-20",
+        "note": "gun (with dogs)"
+      },
+      {
+        "open": "2027-01-21",
+        "close": "2027-01-31",
+        "note": "archery/primitive weapon"
+      },
+      {
+        "open": "2027-02-01",
+        "close": "2027-02-15",
+        "note": "archery/primitive weapon, legal bucks only"
+      }
+    ],
+    "bagLimit": "Antlered bucks: 1 per day, 3 per annual season",
+    "possessionLimit": "Antlerless: 3 per season, 1 per day",
+    "agency": "MDWFP",
+    "sourceTitle": "2026-2027 Hunting Seasons (MDWFP)",
+    "sourceUrl": "https://www.mdwfp.com/sites/default/files/2026-06/2026-2027%20hunting%20seasons.pdf",
+    "sourceQuote": "SOUTHEAST UNIT | Oct. 15 - Nov. 20 | Gun (with dogs) Nov. 21 - Dec. 1 | Primitive Weapon Dec. 2 - 15 | Gun (without dogs) Dec. 16 - 23 | Gun (with dogs) Dec. 24 - Jan. 20 | Feb. 1 - 15 | Only three (3) antlerless deer may be harvested from the Southeast Unit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Southeast Unit: areas south of U.S. Hwy 84 and east of MS Hwy. 35. Youth season shown as Nov. 7 to Feb. 15 (table lists Nov. 7 - Nov. 20, Nov. 21 - Jan. 31 and Feb. 1 - 15)."
+  },
+  {
+    "id": "ms-turkey-spring-2027",
+    "state": "MS",
+    "species": "turkey",
+    "seasonName": "Spring Turkey",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-03-08",
+        "close": "2027-03-14",
+        "note": "youth (15 and under)"
+      },
+      {
+        "open": "2027-03-15",
+        "close": "2027-05-02",
+        "note": "spring"
+      }
+    ],
+    "bagLimit": "Resident: 1 adult gobbler or 1 gobbler with a 6-inch or longer beard per day, 3 per spring season; non-resident: 2 per spring season, only 1 before April 1",
+    "possessionLimit": null,
+    "agency": "MDWFP",
+    "sourceTitle": "2026-2027 Hunting Seasons (MDWFP)",
+    "sourceUrl": "https://www.mdwfp.com/sites/default/files/2026-06/2026-2027%20hunting%20seasons.pdf",
+    "sourceQuote": "Spring Turkey | Mar. 8 - 14 | Spring * Mar. 15 - May 2 | Resident: One (1) adult gobbler or 1",
+    "checkedDate": "2026-11-23",
+    "notes": "Years not printed; assigned 2027 as the spring of the 2026-2027 booklet. Non-residents cannot hunt public land before April 1 unless drawn. Fall turkey is not listed in this summary."
+  },
+  {
+    "id": "ms-quail-statewide-2026",
+    "state": "MS",
+    "species": "quail",
+    "seasonName": "Bobwhite Quail",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-26",
+        "close": "2027-03-07",
+        "note": null
+      }
+    ],
+    "bagLimit": "8",
+    "possessionLimit": null,
+    "agency": "MDWFP",
+    "sourceTitle": "2026-2027 Hunting Seasons (MDWFP)",
+    "sourceUrl": "https://www.mdwfp.com/sites/default/files/2026-06/2026-2027%20hunting%20seasons.pdf",
+    "sourceQuote": "Bobwhite Quail Nov. 26 - Mar. 7 8",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ms-duck-teal-2026",
+    "state": "MS",
+    "species": "duck",
+    "seasonName": "September Teal",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-27",
+        "note": "teal only"
+      }
+    ],
+    "bagLimit": "6",
+    "possessionLimit": "18",
+    "agency": "MDWFP",
+    "sourceTitle": "2026-2027 Hunting Seasons (MDWFP)",
+    "sourceUrl": "https://www.mdwfp.com/sites/default/files/2026-06/2026-2027%20hunting%20seasons.pdf",
+    "sourceQuote": "Sept. Teal Sept. 19 - Sept. 27 6 18",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ms-duck-statewide-2026",
+    "state": "MS",
+    "species": "duck",
+    "seasonName": "Ducks, Mergansers, and Coots",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-27",
+        "close": "2026-11-29",
+        "note": null
+      },
+      {
+        "open": "2026-12-04",
+        "close": "2026-12-06",
+        "note": null
+      },
+      {
+        "open": "2026-12-09",
+        "close": "2027-01-31",
+        "note": null
+      },
+      {
+        "open": "2027-02-06",
+        "close": "2027-02-07",
+        "note": "youth, veterans, and active military waterfowl days"
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 mallards (no more than 2 females), 1 mottled duck, 2 black ducks, 3 pintails, 3 wood ducks, 2 canvasbacks, 2 redheads); scaup 1 per day through Dec. 17, 2 per day Dec. 18-Jan. 31",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "MDWFP",
+    "sourceTitle": "2026-2027 Hunting Seasons (MDWFP)",
+    "sourceUrl": "https://www.mdwfp.com/sites/default/files/2026-06/2026-2027%20hunting%20seasons.pdf",
+    "sourceQuote": "Nov. 27 – Nov. 29 | Ducks, Mergansers, and Coots** Dec. 4 – Dec. 6 See below** See below** | Dec. 9 - Jan. 31 | **The duck daily bag limit is a total of 6 ducks, including no more than 4 mallards (no more than 2 of which may be females), 1 mottled | Feb. 6 - 7 Same as regular season Same as regular season",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Merganser 5 (2 hooded); coot 15."
+  },
+  {
+    "id": "ms-goose-september-canada-2026",
+    "state": "MS",
+    "species": "goose",
+    "seasonName": "September Canada Geese",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "5",
+    "possessionLimit": "15",
+    "agency": "MDWFP",
+    "sourceTitle": "2026-2027 Hunting Seasons (MDWFP)",
+    "sourceUrl": "https://www.mdwfp.com/sites/default/files/2026-06/2026-2027%20hunting%20seasons.pdf",
+    "sourceQuote": "Sept. Canada Geese* Sept. 1 - Sept. 30 5 15 | *Sept. Canada Goose season is closed on Roebuck Lake in Leflore County.",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ms-goose-regular-2026",
+    "state": "MS",
+    "species": "goose",
+    "seasonName": "Geese: Canada, White-fronted, Snow, Blue, Ross', and Brant",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-13",
+        "close": "2026-11-29",
+        "note": null
+      },
+      {
+        "open": "2026-12-04",
+        "close": "2026-12-06",
+        "note": null
+      },
+      {
+        "open": "2026-12-09",
+        "close": "2027-01-31",
+        "note": null
+      },
+      {
+        "open": "2027-02-06",
+        "close": "2027-02-07",
+        "note": "youth, veterans, and active military waterfowl days"
+      }
+    ],
+    "bagLimit": "Canada 5; snow, blue and Ross' 20; white-fronted 3; brant 1",
+    "possessionLimit": "Canada 15; snow, blue and Ross' no limit; white-fronted 9; brant 3",
+    "agency": "MDWFP",
+    "sourceTitle": "2026-2027 Hunting Seasons (MDWFP)",
+    "sourceUrl": "https://www.mdwfp.com/sites/default/files/2026-06/2026-2027%20hunting%20seasons.pdf",
+    "sourceQuote": "Canada Geese: 5 Canada Geese: 15 | Nov. 13 - Nov. 29 | Geese: Canada, White-fronted, Snow, Blue, Snow, Blue, & Ross’: 20 Snow, Blue, & Ross’: No limit | White-fronted: 3 White-fronted: 9 | Brant: 1 Brant: 3",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Dec. 4-6 and Dec. 9-Jan. 31 segments read from the table rows that follow Nov. 13-29. Light Goose Conservation Order not recorded."
+  },
+  {
+    "id": "ms-dove-statewide-2026",
+    "state": "MS",
+    "species": "dove",
+    "seasonName": "Mourning and White-winged Doves",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-10-04",
+        "note": null
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2026-11-22",
+        "note": null
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2027-01-24",
+        "note": null
+      }
+    ],
+    "bagLimit": "15 singly or in aggregate",
+    "possessionLimit": "45 singly or in aggregate",
+    "agency": "MDWFP",
+    "sourceTitle": "2026-2027 Hunting Seasons (MDWFP)",
+    "sourceUrl": "https://www.mdwfp.com/sites/default/files/2026-06/2026-2027%20hunting%20seasons.pdf",
+    "sourceQuote": "Sept. 5 – Oct. 4 | Mourning and White-winged Doves | Oct. 24 - Nov. 22 15 Singly or in aggregate 45 Singly or in aggregate | (Statewide) | Dec. 26 - Jan. 24",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ms-woodcock-statewide-2026",
+    "state": "MS",
+    "species": "woodcock",
+    "seasonName": "Woodcock",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-18",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "MDWFP",
+    "sourceTitle": "2026-2027 Hunting Seasons (MDWFP)",
+    "sourceUrl": "https://www.mdwfp.com/sites/default/files/2026-06/2026-2027%20hunting%20seasons.pdf",
+    "sourceQuote": "Woodcock Dec. 18 - Jan. 31 3 9",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ms-snipe-statewide-2026",
+    "state": "MS",
+    "species": "snipe",
+    "seasonName": "Snipe",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-14",
+        "close": "2027-02-28",
+        "note": null
+      }
+    ],
+    "bagLimit": "8",
+    "possessionLimit": "24",
+    "agency": "MDWFP",
+    "sourceTitle": "2026-2027 Hunting Seasons (MDWFP)",
+    "sourceUrl": "https://www.mdwfp.com/sites/default/files/2026-06/2026-2027%20hunting%20seasons.pdf",
+    "sourceQuote": "Snipe Nov. 14 - Feb. 28 8 24",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027)."
+  }
+]

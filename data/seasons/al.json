@@ -1,0 +1,615 @@
+[
+  {
+    "id": "al-duck-statewide-2026",
+    "state": "AL",
+    "species": "duck",
+    "seasonName": "Duck, Coot and Merganser",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-21",
+        "note": "youth, active military and veterans day"
+      },
+      {
+        "open": "2026-11-27",
+        "close": "2026-11-28",
+        "note": "split 1"
+      },
+      {
+        "open": "2026-12-05",
+        "close": "2027-01-31",
+        "note": "split 2"
+      },
+      {
+        "open": "2027-02-06",
+        "close": "2027-02-06",
+        "note": "youth, active military and veterans day"
+      }
+    ],
+    "bagLimit": "6 ducks a day (no more than 4 mallards, no more than 2 of which may be female; 3 wood ducks, 1 mottled duck, 2 black duck, 2 redhead, 3 pintail, 2 canvasback, 1 scaup)",
+    "possessionLimit": null,
+    "agency": "ADCNR",
+    "sourceTitle": "Waterfowl Seasons 2026-2027 (Outdoor Alabama, ADCNR)",
+    "sourceUrl": "https://www.outdooralabama.com/seasons-and-bag-limits/waterfowl-season",
+    "sourceQuote": "Waterfowl Seasons 2026-2027 | November 21, 2026 and February 6, 2027 | DUCK, COOT AND MERGANSER November 27 – November 28 and December 5 – January 31 | 6 ducks a day — may include no more than 4 Mallards (no more than 2 of which may be female), 3 Wood Ducks, 1 Mottled Duck, 2 Black Duck, 2 Redhead, 3 Pintail, 2 Canvasback, and 1 Scaup.",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027). ADCNR notes that at time of printing, federal guidelines were not final. Coot 15 a day; merganser 5 a day (only 2 hooded). Possession limit not stated on this page."
+  },
+  {
+    "id": "al-duck-teal-2026",
+    "state": "AL",
+    "species": "duck",
+    "seasonName": "Special Teal Season",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-09-20",
+        "note": "teal only"
+      }
+    ],
+    "bagLimit": "6 a day",
+    "possessionLimit": null,
+    "agency": "ADCNR",
+    "sourceTitle": "Waterfowl Seasons 2026-2027 (Outdoor Alabama, ADCNR)",
+    "sourceUrl": "https://www.outdooralabama.com/seasons-and-bag-limits/waterfowl-season",
+    "sourceQuote": "SPECIAL TEAL SEASON September 12 – September 20 | 6 a day",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027). ADCNR notes that at time of printing, federal guidelines were not final."
+  },
+  {
+    "id": "al-goose-statewide-2026",
+    "state": "AL",
+    "species": "goose",
+    "seasonName": "Geese (all geese)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-10-04",
+        "note": null
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-31",
+        "note": null
+      },
+      {
+        "open": "2026-11-27",
+        "close": "2026-11-28",
+        "note": null
+      },
+      {
+        "open": "2026-12-05",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "Dark geese (Canada, white-fronted, brant): 5 a day in aggregate; light geese (snow, blue, Ross's): 5 a day in aggregate",
+    "possessionLimit": null,
+    "agency": "ADCNR",
+    "sourceTitle": "Waterfowl Seasons 2026-2027 (Outdoor Alabama, ADCNR)",
+    "sourceUrl": "https://www.outdooralabama.com/seasons-and-bag-limits/waterfowl-season",
+    "sourceQuote": "ALL GEESE: September 5 – October 4 October 17 – October 31 November 27 – November 28 December 5 – January 31 | DARK GEESE (CANADA, WHITE-FRONTED, BRANT) The aggregate bag limit shall be 5 a day. | LIGHT GEESE (SNOW, BLUE, ROSS'S) The aggregate bag limit shall be 5 a day.",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027). ADCNR notes that at time of printing, federal guidelines were not final. Youth, military and veterans days (Nov 21, 2026 and Feb 6, 2027) also apply to geese."
+  },
+  {
+    "id": "al-dove-north-2026",
+    "state": "AL",
+    "species": "dove",
+    "seasonName": "Mourning and White-Winged Dove",
+    "zone": "North Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-05",
+        "note": "noon until sunset only"
+      },
+      {
+        "open": "2026-09-06",
+        "close": "2026-10-18",
+        "note": null
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-29",
+        "note": null
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-01-17",
+        "note": null
+      }
+    ],
+    "bagLimit": "15 per day",
+    "possessionLimit": null,
+    "agency": "ADCNR",
+    "sourceTitle": "Mourning and White-Winged Dove Season 2026-2027 (Outdoor Alabama, ADCNR)",
+    "sourceUrl": "https://www.outdooralabama.com/seasons-and-bag-limits/mourning-and-white-winged-dove-season",
+    "sourceQuote": "NORTH ZONE: (All counties except those listed below in south zone.) | 15 per day limit (90 days) | 12 O’clock noon until Sunset (Afternoon Shooting Only) – September 5 | One-half hour before Sunrise until Sunset (All Day) – September 6 – October 18 | One-half hour before Sunrise until Sunset (All Day) – November 21 – November 29 | One-half hour before Sunrise until Sunset (All Day) – December 12 – January 17",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "al-dove-south-2026",
+    "state": "AL",
+    "species": "dove",
+    "seasonName": "Mourning and White-Winged Dove",
+    "zone": "South Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-09-12",
+        "note": "noon until sunset only"
+      },
+      {
+        "open": "2026-09-13",
+        "close": "2026-10-25",
+        "note": null
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-29",
+        "note": null
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-01-17",
+        "note": null
+      }
+    ],
+    "bagLimit": "15 per day",
+    "possessionLimit": null,
+    "agency": "ADCNR",
+    "sourceTitle": "Mourning and White-Winged Dove Season 2026-2027 (Outdoor Alabama, ADCNR)",
+    "sourceUrl": "https://www.outdooralabama.com/seasons-and-bag-limits/mourning-and-white-winged-dove-season",
+    "sourceQuote": "SOUTH ZONE: Baldwin, Coffee, Covington, Dale, Escambia, Geneva, Henry, Houston, and Mobile counties. | 15 per day limit (90 days) | 12 O’clock noon until Sunset (Afternoon Shooting Only) – September 12 | One-half hour before Sunrise until Sunset (All Day) – September 13 – October 25 | One-half hour before Sunrise until Sunset (All Day) – November 21 – November 29 | One-half hour before Sunrise until Sunset (All Day) – December 12 – January 17",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "al-quail-statewide-2026",
+    "state": "AL",
+    "species": "quail",
+    "seasonName": "Bobwhite Quail",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [],
+    "bagLimit": "8 a day",
+    "possessionLimit": "8 in possession",
+    "agency": "ADCNR",
+    "sourceTitle": "Bobwhite Quail 2026-2027 (Outdoor Alabama, ADCNR)",
+    "sourceUrl": "https://www.outdooralabama.com/seasons-and-bag-limits/bobwhite-quail-season",
+    "sourceQuote": "Bobwhite Quail 2026-2027 | First Saturday in November – Last day in February | 8 a day — 8 in possession | Closed on the Bankhead National Forest",
+    "checkedDate": "2026-11-23",
+    "notes": "ADCNR states the season as a rule (first Saturday in November to the last day in February) without calendar dates, so periods are left empty rather than computed."
+  },
+  {
+    "id": "al-woodcock-statewide-2026",
+    "state": "AL",
+    "species": "woodcock",
+    "seasonName": "Woodcock",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-18",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "3 a day",
+    "possessionLimit": null,
+    "agency": "ADCNR",
+    "sourceTitle": "Woodcock 2026-2027 (Outdoor Alabama, ADCNR)",
+    "sourceUrl": "https://www.outdooralabama.com/seasons-and-bag-limits/woodcock-season",
+    "sourceQuote": "Woodcock 2026-2027 | December 18, 2026 – January 31, 2027 | 3 a day",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "al-snipe-statewide-2026",
+    "state": "AL",
+    "species": "snipe",
+    "seasonName": "Snipe",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2027-02-21",
+        "note": null
+      }
+    ],
+    "bagLimit": "8 a day",
+    "possessionLimit": null,
+    "agency": "ADCNR",
+    "sourceTitle": "Snipe Season 2026-2027 (Outdoor Alabama, ADCNR)",
+    "sourceUrl": "https://www.outdooralabama.com/snipe-season",
+    "sourceQuote": "Snipe Season 2026-2027 | November 7, 2026 – February 21, 2027 | 8 a day",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "al-turkey-fall-zone3-2026",
+    "state": "AL",
+    "species": "turkey",
+    "seasonName": "Fall Turkey Season, Zone 3",
+    "zone": "Zone 3 (Clarke, Clay, Covington, Monroe, Randolph, and Talladega)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-14",
+        "close": "2026-11-22",
+        "note": "no decoys"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2026-12-27",
+        "note": "no decoys"
+      }
+    ],
+    "bagLimit": "One gobbler per day; four gobbler bag limit during the combined fall and spring season",
+    "possessionLimit": null,
+    "agency": "ADCNR",
+    "sourceTitle": "Turkey Season 2026-2027 (Outdoor Alabama, ADCNR)",
+    "sourceUrl": "https://www.outdooralabama.com/seasons-and-bag-limits/turkey-season",
+    "sourceQuote": "ZONE 3: Fall Season - November 14 – 22 ( NO Decoys Allowed) Fall Season - December 12 – 27 ( NO Decoys Allowed) | Clarke, Clay, Covington, Monroe, Randolph, and Talladega. | One gobbler per day; four gobbler bag limit during the combined fall and spring season.",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Gobblers only. Zones 1 and 2 have no fall season on this page."
+  },
+  {
+    "id": "al-turkey-spring-zone1-2027",
+    "state": "AL",
+    "species": "turkey",
+    "seasonName": "Spring Turkey Season, Zone 1",
+    "zone": "Zone 1 (county list on ADCNR page)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-03-13",
+        "close": "2027-03-14",
+        "note": "special youth hunt"
+      },
+      {
+        "open": "2027-03-19",
+        "close": "2027-03-19",
+        "note": "special disabled hunt"
+      },
+      {
+        "open": "2027-03-20",
+        "close": "2027-05-03",
+        "note": "spring season"
+      }
+    ],
+    "bagLimit": "One gobbler per day; four gobbler bag limit during the combined fall and spring season",
+    "possessionLimit": null,
+    "agency": "ADCNR",
+    "sourceTitle": "Turkey Season 2026-2027 (Outdoor Alabama, ADCNR)",
+    "sourceUrl": "https://www.outdooralabama.com/seasons-and-bag-limits/turkey-season",
+    "sourceQuote": "ZONE 1: Special Youth Hunt - March 13 – 14 (Decoys Allowed) Special Disabled Hunt - March 19 (Decoys Allowed) Spring Season - March 20 – May 3 (Decoys Allowed) | One gobbler per day; four gobbler bag limit during combined fall and spring season.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone 1 and Zone 3 spring dates print without a year; assigned 2027 from the 2026-2027 page (Zone 2 prints 2027). WMAs and national forest ranger districts have their own dates (not recorded)."
+  },
+  {
+    "id": "al-turkey-spring-zone2-2027",
+    "state": "AL",
+    "species": "turkey",
+    "seasonName": "Spring Turkey Season, Zone 2",
+    "zone": "Zone 2 (north Alabama counties)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-03-20",
+        "close": "2027-03-21",
+        "note": "special youth hunt"
+      },
+      {
+        "open": "2027-03-26",
+        "close": "2027-03-26",
+        "note": "special disabled hunt"
+      },
+      {
+        "open": "2027-03-27",
+        "close": "2027-05-03",
+        "note": "spring season"
+      }
+    ],
+    "bagLimit": "One gobbler per day; four gobbler bag limit during the combined fall and spring season",
+    "possessionLimit": null,
+    "agency": "ADCNR",
+    "sourceTitle": "Turkey Season 2026-2027 (Outdoor Alabama, ADCNR)",
+    "sourceUrl": "https://www.outdooralabama.com/seasons-and-bag-limits/turkey-season",
+    "sourceQuote": "ZONE 2: Special Youth Hunt - March 20 – 21, 2027 (Decoys Allowed) Special Disabled Hunt - March 26, 2027 (Decoys Allowed) Spring Season - March 27 – May 3, 2027 (Decoys Allowed ) | Colbert, Cullman (north of Lewis Smith Lake and north of Cullman County Road 437 and west of Interstate 65), Franklin, Lauderdale, Lawrence, Limestone, Madison, Morgan, and Winston. | One gobbler per day; four gobbler bag limit during combined fall and spring season.",
+    "checkedDate": "2026-11-23",
+    "notes": "WMAs and national forest ranger districts have their own dates (not recorded)."
+  },
+  {
+    "id": "al-turkey-spring-zone3-2027",
+    "state": "AL",
+    "species": "turkey",
+    "seasonName": "Spring Turkey Season, Zone 3",
+    "zone": "Zone 3 (Clarke, Clay, Covington, Monroe, Randolph, and Talladega)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-03-13",
+        "close": "2027-03-14",
+        "note": "special youth hunt"
+      },
+      {
+        "open": "2027-03-19",
+        "close": "2027-03-19",
+        "note": "special disabled hunt"
+      },
+      {
+        "open": "2027-03-20",
+        "close": "2027-05-03",
+        "note": "spring season"
+      }
+    ],
+    "bagLimit": "One gobbler per day; four gobbler bag limit during the combined fall and spring season",
+    "possessionLimit": null,
+    "agency": "ADCNR",
+    "sourceTitle": "Turkey Season 2026-2027 (Outdoor Alabama, ADCNR)",
+    "sourceUrl": "https://www.outdooralabama.com/seasons-and-bag-limits/turkey-season",
+    "sourceQuote": "Fall Season - December 12 – 27 ( NO Decoys Allowed) Special Youth Hunt - March 13 – 14 (Decoys Allowed) Special Disabled Hunt - March 19 (Decoys Allowed) Spring Season - March 20 – May 3 (Decoys Allowed ) | Clarke, Clay, Covington, Monroe, Randolph, and Talladega. | One gobbler per day; four gobbler bag limit during combined fall and spring season.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone 1 and Zone 3 spring dates print without a year; assigned 2027 from the 2026-2027 page (Zone 2 prints 2027). WMAs and national forest ranger districts have their own dates (not recorded)."
+  },
+  {
+    "id": "al-deer-zone-a-2026",
+    "state": "AL",
+    "species": "deer",
+    "seasonName": "Deer Seasons, Zone A",
+    "zone": "Zone A",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-15",
+        "close": "2027-02-10",
+        "note": "archery, either sex"
+      },
+      {
+        "open": "2026-11-13",
+        "close": "2026-11-16",
+        "note": "special youth gun (under 16), either sex"
+      },
+      {
+        "open": "2026-11-16",
+        "close": "2026-11-20",
+        "note": "special muzzleloader and air rifle, either sex"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2027-02-10",
+        "note": "gun deer stalk hunting, private or leased land, either sex"
+      }
+    ],
+    "bagLimit": "Antlered bucks: one a day; three per hunter during all combined seasons",
+    "possessionLimit": null,
+    "agency": "ADCNR",
+    "sourceTitle": "Deer Season 2026-2027 (Outdoor Alabama, ADCNR)",
+    "sourceUrl": "https://www.outdooralabama.com/seasons-and-bag-limits/deer-season",
+    "sourceQuote": "ZONE A ARCHERY – STALK HUNTING: October 15, 2026 – February 10, 2027 - Either Sex SPECIAL YOUTH GUN November 13-16, 2026 - Either Sex | GUN DEER-STALK HUNTING: ON PRIVATELY OWNED OR LEASED LAND ONLY November 21, 2026 – February 10, 2027 - Either Sex | above natural hairline – Statewide – one a day. | Three per hunter during all combined seasons.",
+    "checkedDate": "2026-11-23",
+    "notes": "Open-permit public land and dog-deer hunting have separate, shorter windows (not recorded). Unantlered limits vary by zone. Zone boundaries are described on the ADCNR page and map. WMAs have their own seasons."
+  },
+  {
+    "id": "al-deer-zone-b-2026",
+    "state": "AL",
+    "species": "deer",
+    "seasonName": "Deer Seasons, Zone B",
+    "zone": "Zone B",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-15",
+        "close": "2026-10-24",
+        "note": "archery, antlered bucks only"
+      },
+      {
+        "open": "2026-10-25",
+        "close": "2027-02-10",
+        "note": "archery, either sex"
+      },
+      {
+        "open": "2026-11-13",
+        "close": "2026-11-16",
+        "note": "special youth gun (under 16), either sex"
+      },
+      {
+        "open": "2026-11-16",
+        "close": "2026-11-20",
+        "note": "special muzzleloader and air rifle, either sex"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2027-02-10",
+        "note": "gun deer stalk hunting, private or leased land, either sex"
+      }
+    ],
+    "bagLimit": "Antlered bucks: one a day; three per hunter during all combined seasons",
+    "possessionLimit": null,
+    "agency": "ADCNR",
+    "sourceTitle": "Deer Season 2026-2027 (Outdoor Alabama, ADCNR)",
+    "sourceUrl": "https://www.outdooralabama.com/seasons-and-bag-limits/deer-season",
+    "sourceQuote": "ZONE B ARCHERY – STALK HUNTING: October 15-24, 2026 - Antlered Bucks Only October 25, 2026 – February 10, 2027 - Either Sex SPECIAL YOUTH GUN November 13-16, 2026 - Either Sex | GUN DEER-STALK HUNTING: ON PRIVATELY OWNED OR LEASED LAND ONLY November 21, 2026 – February 10, 2027 - Either Sex | above natural hairline – Statewide – one a day. | Three per hunter during all combined seasons.",
+    "checkedDate": "2026-11-23",
+    "notes": "Open-permit public land and dog-deer hunting have separate, shorter windows (not recorded). Unantlered limits vary by zone. Zone boundaries are described on the ADCNR page and map. WMAs have their own seasons."
+  },
+  {
+    "id": "al-deer-zone-c-2026",
+    "state": "AL",
+    "species": "deer",
+    "seasonName": "Deer Seasons, Zone C",
+    "zone": "Zone C",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-15",
+        "close": "2027-02-10",
+        "note": "archery, either sex"
+      },
+      {
+        "open": "2026-11-13",
+        "close": "2026-11-16",
+        "note": "special youth gun (under 16), either sex"
+      },
+      {
+        "open": "2026-11-16",
+        "close": "2026-11-20",
+        "note": "special muzzleloader and air rifle, either sex"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2027-02-10",
+        "note": "gun deer stalk hunting, private or leased land; either-sex and antlered-only windows alternate (see quote)"
+      }
+    ],
+    "bagLimit": "Antlered bucks: one a day; three per hunter during all combined seasons",
+    "possessionLimit": null,
+    "agency": "ADCNR",
+    "sourceTitle": "Deer Season 2026-2027 (Outdoor Alabama, ADCNR)",
+    "sourceUrl": "https://www.outdooralabama.com/seasons-and-bag-limits/deer-season",
+    "sourceQuote": "ZONE C ARCHERY – STALK HUNTING October 15, 2026 – February 10, 2027 - Either Sex SPECIAL YOUTH GUN November 13-16, 2026 - Either Sex | GUN DEER-STALK HUNTING: ON PRIVATELY OWNED OR LEASED LAND ONLY November 21-29, 2026 - Either Sex November 30, 2026 - December 11, 2026 - Antlered Bucks Only December 12, 2026 – January 1, 2027 - Either Sex January 2 – February 10, 2027 - Antlered Bucks Only | above natural hairline – Statewide – one a day. | Three per hunter during all combined seasons.",
+    "checkedDate": "2026-11-23",
+    "notes": "Open-permit public land and dog-deer hunting have separate, shorter windows (not recorded). Unantlered limits vary by zone. Zone boundaries are described on the ADCNR page and map. WMAs have their own seasons."
+  },
+  {
+    "id": "al-deer-zone-d-2026",
+    "state": "AL",
+    "species": "deer",
+    "seasonName": "Deer Seasons, Zone D",
+    "zone": "Zone D",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2027-01-15",
+        "note": "archery, either sex"
+      },
+      {
+        "open": "2027-01-16",
+        "close": "2027-01-27",
+        "note": "archery, antlered bucks only"
+      },
+      {
+        "open": "2026-10-30",
+        "close": "2026-11-02",
+        "note": "special youth gun (under 16), either sex"
+      },
+      {
+        "open": "2026-11-02",
+        "close": "2026-11-06",
+        "note": "special muzzleloader and air rifle, either sex"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2027-01-27",
+        "note": "gun deer stalk hunting, private or leased land; either-sex and antlered-only windows alternate (see quote)"
+      }
+    ],
+    "bagLimit": "Antlered bucks: one a day; three per hunter during all combined seasons",
+    "possessionLimit": null,
+    "agency": "ADCNR",
+    "sourceTitle": "Deer Season 2026-2027 (Outdoor Alabama, ADCNR)",
+    "sourceUrl": "https://www.outdooralabama.com/seasons-and-bag-limits/deer-season",
+    "sourceQuote": "ZONE D ARCHERY – STALK HUNTING October 1, 2026 – January 15, 2027 - Either Sex January 16-27, 2027 - Antlered Bucks Only SPECIAL YOUTH GUN October 30– November 2, 2026 - Either Sex | November 2-6, 2026 - Either Sex GUN DEER-STALK HUNTING: ON PRIVATELY OWNED OR LEASED LAND ONLY November 7-20, 2026 - Antlered Bucks Only November 21-29, 2026 - Either Sex November 30- December 11, 2026 - Antlered Bucks Only December 12, 2026 - January 1, 2027 - Either Sex January 2-27, 2027 - Antlered Bucks Only | above natural hairline – Statewide – one a day. | Three per hunter during all combined seasons.",
+    "checkedDate": "2026-11-23",
+    "notes": "Open-permit public land and dog-deer hunting have separate, shorter windows (not recorded). Unantlered limits vary by zone. Zone boundaries are described on the ADCNR page and map. WMAs have their own seasons."
+  },
+  {
+    "id": "al-deer-zone-e-2026",
+    "state": "AL",
+    "species": "deer",
+    "seasonName": "Deer Seasons, Zone E",
+    "zone": "Zone E",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2027-01-15",
+        "note": "archery, either sex"
+      },
+      {
+        "open": "2027-01-16",
+        "close": "2027-01-27",
+        "note": "archery, antlered bucks only"
+      },
+      {
+        "open": "2026-10-30",
+        "close": "2026-11-02",
+        "note": "special youth gun (under 16), either sex"
+      },
+      {
+        "open": "2026-11-02",
+        "close": "2026-11-06",
+        "note": "special muzzleloader and air rifle, either sex"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2027-01-15",
+        "note": "gun deer stalk hunting, private or leased land, either sex"
+      },
+      {
+        "open": "2027-01-16",
+        "close": "2027-01-27",
+        "note": "gun deer stalk hunting, private or leased land, antlered bucks only"
+      }
+    ],
+    "bagLimit": "Antlered bucks: one a day; three per hunter during all combined seasons",
+    "possessionLimit": null,
+    "agency": "ADCNR",
+    "sourceTitle": "Deer Season 2026-2027 (Outdoor Alabama, ADCNR)",
+    "sourceUrl": "https://www.outdooralabama.com/seasons-and-bag-limits/deer-season",
+    "sourceQuote": "ZONE E ARCHERY – STALK HUNTING October 1, 2026 – January 15, 2027 - Either Sex January 16-27, 2027 - Antlered Bucks Only SPECIAL YOUTH GUN October 30 – November 2, 2026 - Either Sex | GUN DEER-STALK HUNTING: ON PRIVATELY OWNED OR LEASED LAND ONLY November 7, 2026 – January 15, 2027 - Either Sex January 16-27, 2027 - Antlered Bucks Only | above natural hairline – Statewide – one a day. | Three per hunter during all combined seasons.",
+    "checkedDate": "2026-11-23",
+    "notes": "Open-permit public land and dog-deer hunting have separate, shorter windows (not recorded). Unantlered limits vary by zone. Zone boundaries are described on the ADCNR page and map. WMAs have their own seasons."
+  },
+  {
+    "id": "al-deer-zone-cmz-2026",
+    "state": "AL",
+    "species": "deer",
+    "seasonName": "Deer Seasons, CWD Management Zone (CMZ)",
+    "zone": "CWD Management Zone (CMZ)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-15",
+        "close": "2027-02-10",
+        "note": "archery, either sex"
+      },
+      {
+        "open": "2026-11-13",
+        "close": "2026-11-16",
+        "note": "special youth gun (under 16), either sex"
+      },
+      {
+        "open": "2026-11-16",
+        "close": "2026-11-20",
+        "note": "special muzzleloader and air rifle, either sex"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2027-02-10",
+        "note": "gun deer stalk hunting, private or leased land, either sex"
+      }
+    ],
+    "bagLimit": "Antlered bucks: one a day; three per hunter during all combined seasons",
+    "possessionLimit": null,
+    "agency": "ADCNR",
+    "sourceTitle": "Deer Season 2026-2027 (Outdoor Alabama, ADCNR)",
+    "sourceUrl": "https://www.outdooralabama.com/seasons-and-bag-limits/deer-season",
+    "sourceQuote": "CHRONIC WASTING DISEASE MANAGEMENT ZONE (CMZ) ARCHERY – STALK HUNTING October 15, 2026 – February 10, 2027 - Either Sex SPECIAL YOUTH GUN November 13-16, 2026 - Either Sex | GUN DEER-STALK HUNTING: ON PRIVATELY OWNED OR LEASED LAND ONLY November 21, 2026 – February 10, 2027 - Either Sex | The CWD Management Zone (CMZ) includes all of Lauderdale and Colbert Counties and a portion of Franklin County. | above natural hairline – Statewide – one a day. | Three per hunter during all combined seasons.",
+    "checkedDate": "2026-11-23",
+    "notes": "Open-permit public land and dog-deer hunting have separate, shorter windows (not recorded). Unantlered limits vary by zone. Zone boundaries are described on the ADCNR page and map. WMAs have their own seasons."
+  }
+]

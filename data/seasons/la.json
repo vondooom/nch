@@ -1,0 +1,886 @@
+[
+  {
+    "id": "la-duck-east-2026",
+    "state": "LA",
+    "species": "duck",
+    "seasonName": "Ducks, Coots, Mergansers, East Zone",
+    "zone": "East Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-14",
+        "close": "2026-11-14",
+        "note": "youth and veterans"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2026-12-06",
+        "note": "regular season"
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2027-01-31",
+        "note": "regular season"
+      },
+      {
+        "open": "2027-02-06",
+        "close": "2027-02-06",
+        "note": "youth and veterans"
+      }
+    ],
+    "bagLimit": "6 (no more than 4 mallards (no more than 2 females), 3 wood ducks, 2 canvasbacks, 2 redheads, 1 black duck and 3 pintails (no more than 1 female); scaup limit on LDWF page)",
+    "possessionLimit": "3 times the daily bag limit",
+    "agency": "LDWF",
+    "sourceTitle": "Seasons and Regulations, Quick Reference Guide - Hunting Seasons (LDWF)",
+    "sourceUrl": "https://www.wlf.louisiana.gov/page/seasons-and-regulations",
+    "sourceQuote": "Ducks, Coots, Mergansers East Zone: Regular season: November 21 - December 6 and December 19 - January 31 Youth and Veterans: November 14 and February 6 | Daily bag limit on ducks is 6 and may include no more than 4 mallards (no more than 2 females), 3 wood ducks, 2 canvasbacks, 2 redheads, 1 black duck and 3 pintails (no more than 1 female).",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Coots 15; mergansers 5 (only 2 hooded)."
+  },
+  {
+    "id": "la-duck-west-2026",
+    "state": "LA",
+    "species": "duck",
+    "seasonName": "Ducks, Coots, Mergansers, West Zone",
+    "zone": "West Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-07",
+        "note": "youth and veterans"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-12-06",
+        "note": "regular season"
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2027-01-24",
+        "note": "regular season"
+      },
+      {
+        "open": "2027-01-30",
+        "close": "2027-01-30",
+        "note": "youth and veterans"
+      }
+    ],
+    "bagLimit": "6 (no more than 4 mallards (no more than 2 females), 3 wood ducks, 2 canvasbacks, 2 redheads, 1 black duck and 3 pintails (no more than 1 female); scaup limit on LDWF page)",
+    "possessionLimit": "3 times the daily bag limit",
+    "agency": "LDWF",
+    "sourceTitle": "Seasons and Regulations, Quick Reference Guide - Hunting Seasons (LDWF)",
+    "sourceUrl": "https://www.wlf.louisiana.gov/page/seasons-and-regulations",
+    "sourceQuote": "West Zone: Regular season: November 14 - December 6 and December 19 - January 24 Youth and Veterans, November 7 and January 30 | Daily bag limit on ducks is 6 and may include no more than 4 mallards (no more than 2 females), 3 wood ducks, 2 canvasbacks, 2 redheads, 1 black duck and 3 pintails (no more than 1 female).",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Coots 15; mergansers 5 (only 2 hooded)."
+  },
+  {
+    "id": "la-duck-teal-2026",
+    "state": "LA",
+    "species": "duck",
+    "seasonName": "Teal (Blue, Green, and Cinnamon)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-27",
+        "note": "teal only"
+      }
+    ],
+    "bagLimit": "6",
+    "possessionLimit": "18",
+    "agency": "LDWF",
+    "sourceTitle": "Seasons and Regulations, Quick Reference Guide - Hunting Seasons (LDWF)",
+    "sourceUrl": "https://www.wlf.louisiana.gov/page/seasons-and-regulations",
+    "sourceQuote": "Teal (Blue, Green, and Cinnamon) September 19-27 6 18",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "la-goose-east-2026",
+    "state": "LA",
+    "species": "goose",
+    "seasonName": "Light, White-fronted and Canada Geese, East Zone",
+    "zone": "East Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-14",
+        "close": "2026-12-06",
+        "note": null
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2027-02-07",
+        "note": null
+      }
+    ],
+    "bagLimit": "Light geese 20; white-fronted geese 3; Canada geese 1",
+    "possessionLimit": "Light geese none; white-fronted geese 9; Canada geese 3",
+    "agency": "LDWF",
+    "sourceTitle": "Seasons and Regulations, Quick Reference Guide - Hunting Seasons (LDWF)",
+    "sourceUrl": "https://www.wlf.louisiana.gov/page/seasons-and-regulations",
+    "sourceQuote": "Light Geese (Snow, Blue, Ross), White-fronted Geese (Specklebelly), and Canada Geese | East Zone: November 14 - December 6 December 19 - February 7 | Light Geese: 20 White-fronted Geese: 3 Canada Geese: 1 Light Geese: None White-fronted Geese: 9 Canada Geese: 3",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Conservation Order for light geese not recorded."
+  },
+  {
+    "id": "la-goose-west-2026",
+    "state": "LA",
+    "species": "goose",
+    "seasonName": "Light, White-fronted and Canada Geese, West Zone",
+    "zone": "West Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-14",
+        "close": "2026-12-06",
+        "note": null
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2027-02-07",
+        "note": null
+      }
+    ],
+    "bagLimit": "Light geese 20; white-fronted geese 3; Canada geese 1",
+    "possessionLimit": "Light geese none; white-fronted geese 9; Canada geese 3",
+    "agency": "LDWF",
+    "sourceTitle": "Seasons and Regulations, Quick Reference Guide - Hunting Seasons (LDWF)",
+    "sourceUrl": "https://www.wlf.louisiana.gov/page/seasons-and-regulations",
+    "sourceQuote": "Light Geese (Snow, Blue, Ross), White-fronted Geese (Specklebelly), and Canada Geese | West Zone November 14 - December 6 December 19 - February 7 | Light Geese: 20 White-fronted Geese: 3 Canada Geese: 1 Light Geese: None White-fronted Geese: 9 Canada Geese: 3",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Conservation Order for light geese not recorded."
+  },
+  {
+    "id": "la-dove-north-2026",
+    "state": "LA",
+    "species": "dove",
+    "seasonName": "Dove, North Zone",
+    "zone": "North Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-27",
+        "note": null
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-11-15",
+        "note": null
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2027-01-17",
+        "note": null
+      }
+    ],
+    "bagLimit": "15 in aggregate",
+    "possessionLimit": "45 in aggregate",
+    "agency": "LDWF",
+    "sourceTitle": "Seasons and Regulations, Quick Reference Guide - Hunting Seasons (LDWF)",
+    "sourceUrl": "https://www.wlf.louisiana.gov/page/seasons-and-regulations",
+    "sourceQuote": "Dove (Mourning, White-winged, Fully Dressed Eurasian, and Collard Doves) North Zone: September 5 - 27 October 10 - November 15 December 19 - January 17 | 15 in aggregate 45 in aggregate",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "la-dove-south-2026",
+    "state": "LA",
+    "species": "dove",
+    "seasonName": "Dove, South Zone",
+    "zone": "South Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-20",
+        "note": null
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-11-29",
+        "note": null
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-01-10",
+        "note": null
+      }
+    ],
+    "bagLimit": "15 in aggregate",
+    "possessionLimit": "45 in aggregate",
+    "agency": "LDWF",
+    "sourceTitle": "Seasons and Regulations, Quick Reference Guide - Hunting Seasons (LDWF)",
+    "sourceUrl": "https://www.wlf.louisiana.gov/page/seasons-and-regulations",
+    "sourceQuote": "South Zone: September 5-20 October 17 - November 29 December 12 - January 10 15 in aggregate 45 in aggregate",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "la-snipe-statewide-2026",
+    "state": "LA",
+    "species": "snipe",
+    "seasonName": "Snipe",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-31",
+        "close": "2027-01-10",
+        "note": null
+      },
+      {
+        "open": "2027-01-25",
+        "close": "2027-02-28",
+        "note": null
+      }
+    ],
+    "bagLimit": "8",
+    "possessionLimit": "24",
+    "agency": "LDWF",
+    "sourceTitle": "Seasons and Regulations, Quick Reference Guide - Hunting Seasons (LDWF)",
+    "sourceUrl": "https://www.wlf.louisiana.gov/page/seasons-and-regulations",
+    "sourceQuote": "Snipe October 31 - January 10 January 25 - February 28 8 24",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "la-woodcock-statewide-2026",
+    "state": "LA",
+    "species": "woodcock",
+    "seasonName": "Woodcock",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-18",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "LDWF",
+    "sourceTitle": "Seasons and Regulations, Quick Reference Guide - Hunting Seasons (LDWF)",
+    "sourceUrl": "https://www.wlf.louisiana.gov/page/seasons-and-regulations",
+    "sourceQuote": "Woodcock December 18 - January 31 | 3 9",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Extended falconry Nov. 1 to Dec. 17 not recorded."
+  },
+  {
+    "id": "la-quail-statewide-2026",
+    "state": "LA",
+    "species": "quail",
+    "seasonName": "Quail",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2027-02-28",
+        "note": null
+      }
+    ],
+    "bagLimit": "10",
+    "possessionLimit": "30",
+    "agency": "LDWF",
+    "sourceTitle": "Seasons and Regulations, Quick Reference Guide - Hunting Seasons (LDWF)",
+    "sourceUrl": "https://www.wlf.louisiana.gov/page/seasons-and-regulations",
+    "sourceQuote": "Quail (2026/2027) Dates Daily Bag Limit Possession Limit November 21 - February 28 10 30",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "la-turkey-areaa-2027",
+    "state": "LA",
+    "species": "turkey",
+    "seasonName": "Turkey, Area A",
+    "zone": "Area A (private lands)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-03-26",
+        "close": "2027-03-28",
+        "note": "youth and physically challenged hunt, private land only"
+      },
+      {
+        "open": "2027-04-03",
+        "close": "2027-05-02",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "LDWF",
+    "sourceTitle": "Seasons and Regulations, Quick Reference Guide - Hunting Seasons (LDWF)",
+    "sourceUrl": "https://www.wlf.louisiana.gov/page/seasons-and-regulations",
+    "sourceQuote": "Turkey (2026/2027) Area A Area B Area C Notes April 3-May 2* April 3-25* April 3-18* | Youth & Physically Challenged Hunt (restricted to youth and wheelchair-confined physically challenged hunters - Areas A, B and C on private land only): March 26-28 | Seasons open in Areas A, B and C, on private lands only.",
+    "checkedDate": "2026-11-23",
+    "notes": "Area A date read from the column order of the LDWF table (April 3-May 2*). Years not printed; assigned 2027 as the spring of the 2026/2027 season. Bag limit not stated on this page. WMA, NWR and federal lands have separate schedules."
+  },
+  {
+    "id": "la-turkey-areab-2027",
+    "state": "LA",
+    "species": "turkey",
+    "seasonName": "Turkey, Area B",
+    "zone": "Area B (private lands)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-03-26",
+        "close": "2027-03-28",
+        "note": "youth and physically challenged hunt, private land only"
+      },
+      {
+        "open": "2027-04-03",
+        "close": "2027-04-25",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "LDWF",
+    "sourceTitle": "Seasons and Regulations, Quick Reference Guide - Hunting Seasons (LDWF)",
+    "sourceUrl": "https://www.wlf.louisiana.gov/page/seasons-and-regulations",
+    "sourceQuote": "Turkey (2026/2027) Area A Area B Area C Notes April 3-May 2* April 3-25* April 3-18* | Youth & Physically Challenged Hunt (restricted to youth and wheelchair-confined physically challenged hunters - Areas A, B and C on private land only): March 26-28 | Seasons open in Areas A, B and C, on private lands only.",
+    "checkedDate": "2026-11-23",
+    "notes": "Area B date read from the column order of the LDWF table (April 3-25*). Years not printed; assigned 2027 as the spring of the 2026/2027 season. Bag limit not stated on this page. WMA, NWR and federal lands have separate schedules."
+  },
+  {
+    "id": "la-turkey-areac-2027",
+    "state": "LA",
+    "species": "turkey",
+    "seasonName": "Turkey, Area C",
+    "zone": "Area C (private lands)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-03-26",
+        "close": "2027-03-28",
+        "note": "youth and physically challenged hunt, private land only"
+      },
+      {
+        "open": "2027-04-03",
+        "close": "2027-04-18",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "LDWF",
+    "sourceTitle": "Seasons and Regulations, Quick Reference Guide - Hunting Seasons (LDWF)",
+    "sourceUrl": "https://www.wlf.louisiana.gov/page/seasons-and-regulations",
+    "sourceQuote": "Turkey (2026/2027) Area A Area B Area C Notes April 3-May 2* April 3-25* April 3-18* | Youth & Physically Challenged Hunt (restricted to youth and wheelchair-confined physically challenged hunters - Areas A, B and C on private land only): March 26-28 | Seasons open in Areas A, B and C, on private lands only.",
+    "checkedDate": "2026-11-23",
+    "notes": "Area C date read from the column order of the LDWF table (April 3-18*). Years not printed; assigned 2027 as the spring of the 2026/2027 season. Bag limit not stated on this page. WMA, NWR and federal lands have separate schedules."
+  },
+  {
+    "id": "la-deer-area1-2026",
+    "state": "LA",
+    "species": "deer",
+    "seasonName": "Deer, Area 1",
+    "zone": "Deer Area 1",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-09-20",
+        "note": "archery, bucks only in CWD Zone"
+      },
+      {
+        "open": "2026-10-01",
+        "close": "2027-01-31",
+        "note": "archery, either sex"
+      },
+      {
+        "open": "2026-10-31",
+        "close": "2026-11-06",
+        "note": "youth and honorably discharged veterans"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-11-20",
+        "note": "primitive firearms"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2026-12-11",
+        "note": "firearms, still-hunt only"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-01-03",
+        "note": "firearms, with or without dogs"
+      },
+      {
+        "open": "2027-01-04",
+        "close": "2027-01-24",
+        "note": "firearms, still-hunt only"
+      },
+      {
+        "open": "2027-01-25",
+        "close": "2027-01-31",
+        "note": "primitive firearms"
+      }
+    ],
+    "bagLimit": "1 antlered and 1 antlerless (when legal)",
+    "possessionLimit": "6 per season, not to exceed 3 antlered OR 4 antlerless per season (Area 4: 4/season; Area 10: 3/season)",
+    "agency": "LDWF",
+    "sourceTitle": "Seasons and Regulations, Quick Reference Guide - Hunting Seasons (LDWF)",
+    "sourceUrl": "https://www.wlf.louisiana.gov/page/seasons-and-regulations",
+    "sourceQuote": "Deer (2026/2027) Area Archery Primitive Firearms Firearms (Still-Hunt only) Firearms (With or Without Dogs) Youth and Honorably Discharged Veterans | 1 Either Sex: October 1 - January 31 Bucks Only in CWD Zone (with or without velvet): Sept 12-20 Either Sex: November 14-20 January 25-31 Either Sex: November 21 - December 11 January 4-24 Either Sex: December 12 - January 3 Either Sex: October 31 – November 6 | DAILY BAG LIMITS: 1 antlered and1 antlerless (when legal)",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Columns: archery, primitive firearms, firearms still-hunt only, firearms with or without dogs, youth and honorably discharged veterans. WMAs have separate schedules."
+  },
+  {
+    "id": "la-deer-area2-2026",
+    "state": "LA",
+    "species": "deer",
+    "seasonName": "Deer, Area 2",
+    "zone": "Deer Area 2",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-29",
+        "close": "2026-09-06",
+        "note": "archery, bucks only in CWD Zone"
+      },
+      {
+        "open": "2026-10-01",
+        "close": "2027-01-31",
+        "note": "archery, either sex"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "youth and honorably discharged veterans"
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2026-10-30",
+        "note": "primitive firearms"
+      },
+      {
+        "open": "2026-10-31",
+        "close": "2026-12-09",
+        "note": "firearms, still-hunt only"
+      },
+      {
+        "open": "2026-12-10",
+        "close": "2027-01-17",
+        "note": "firearms, with or without dogs"
+      },
+      {
+        "open": "2027-01-18",
+        "close": "2027-01-24",
+        "note": "primitive firearms"
+      }
+    ],
+    "bagLimit": "1 antlered and 1 antlerless (when legal)",
+    "possessionLimit": "6 per season, not to exceed 3 antlered OR 4 antlerless per season (Area 4: 4/season; Area 10: 3/season)",
+    "agency": "LDWF",
+    "sourceTitle": "Seasons and Regulations, Quick Reference Guide - Hunting Seasons (LDWF)",
+    "sourceUrl": "https://www.wlf.louisiana.gov/page/seasons-and-regulations",
+    "sourceQuote": "Deer (2026/2027) Area Archery Primitive Firearms Firearms (Still-Hunt only) Firearms (With or Without Dogs) Youth and Honorably Discharged Veterans | 2 Either Sex: October 1 - January 31 Bucks Only in CWD Zone (with or without velvet): August 29-Sept 6 Either Sex: October 24-30 January 18-24 Either Sex: October 31 - December 9 Either Sex: December 10- January 17 Either Sex: October 10-16 | DAILY BAG LIMITS: 1 antlered and1 antlerless (when legal)",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Columns: archery, primitive firearms, firearms still-hunt only, firearms with or without dogs, youth and honorably discharged veterans. WMAs have separate schedules."
+  },
+  {
+    "id": "la-deer-area3-2026",
+    "state": "LA",
+    "species": "deer",
+    "seasonName": "Deer, Area 3",
+    "zone": "Deer Area 3",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2027-01-15",
+        "note": "archery, either sex"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-10-02",
+        "note": "youth and honorably discharged veterans"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "primitive firearms"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-11-29",
+        "note": "firearms, still-hunt only"
+      },
+      {
+        "open": "2026-11-30",
+        "close": "2027-01-03",
+        "note": "firearms, with or without dogs"
+      },
+      {
+        "open": "2027-01-04",
+        "close": "2027-01-10",
+        "note": "primitive firearms"
+      }
+    ],
+    "bagLimit": "1 antlered and 1 antlerless (when legal)",
+    "possessionLimit": "6 per season, not to exceed 3 antlered OR 4 antlerless per season (Area 4: 4/season; Area 10: 3/season)",
+    "agency": "LDWF",
+    "sourceTitle": "Seasons and Regulations, Quick Reference Guide - Hunting Seasons (LDWF)",
+    "sourceUrl": "https://www.wlf.louisiana.gov/page/seasons-and-regulations",
+    "sourceQuote": "Deer (2026/2027) Area Archery Primitive Firearms Firearms (Still-Hunt only) Firearms (With or Without Dogs) Youth and Honorably Discharged Veterans | 3 Either Sex: September 19 - January 15 Either Sex: October 10-16 January 4-10 Either Sex: October 17 - November 29 Either Sex: November 30 - January 3 Either Sex: September 26 - October 2 | DAILY BAG LIMITS: 1 antlered and1 antlerless (when legal)",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Columns: archery, primitive firearms, firearms still-hunt only, firearms with or without dogs, youth and honorably discharged veterans. WMAs have separate schedules."
+  },
+  {
+    "id": "la-deer-area7-2026",
+    "state": "LA",
+    "species": "deer",
+    "seasonName": "Deer, Area 7",
+    "zone": "Deer Area 7",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2027-01-15",
+        "note": "archery, either sex"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-10-02",
+        "note": "youth and honorably discharged veterans"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "primitive firearms"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-11-29",
+        "note": "firearms, still-hunt only"
+      },
+      {
+        "open": "2026-11-30",
+        "close": "2027-01-03",
+        "note": "firearms, with or without dogs"
+      },
+      {
+        "open": "2027-01-04",
+        "close": "2027-01-10",
+        "note": "primitive firearms"
+      }
+    ],
+    "bagLimit": "1 antlered and 1 antlerless (when legal)",
+    "possessionLimit": "6 per season, not to exceed 3 antlered OR 4 antlerless per season (Area 4: 4/season; Area 10: 3/season)",
+    "agency": "LDWF",
+    "sourceTitle": "Seasons and Regulations, Quick Reference Guide - Hunting Seasons (LDWF)",
+    "sourceUrl": "https://www.wlf.louisiana.gov/page/seasons-and-regulations",
+    "sourceQuote": "Deer (2026/2027) Area Archery Primitive Firearms Firearms (Still-Hunt only) Firearms (With or Without Dogs) Youth and Honorably Discharged Veterans | 7 Either Sex: September 19 - January 15 Either Sex: October 10-16 January 4-10 Either Sex: October 17 - November 29 Either Sex: November 30 - January 3 Either Sex: September 26 - October 2 | DAILY BAG LIMITS: 1 antlered and1 antlerless (when legal)",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Columns: archery, primitive firearms, firearms still-hunt only, firearms with or without dogs, youth and honorably discharged veterans. WMAs have separate schedules."
+  },
+  {
+    "id": "la-deer-area8-2026",
+    "state": "LA",
+    "species": "deer",
+    "seasonName": "Deer, Area 8",
+    "zone": "Deer Area 8",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2027-01-15",
+        "note": "archery, either sex"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-10-02",
+        "note": "youth and honorably discharged veterans"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "primitive firearms"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-11-29",
+        "note": "firearms, still-hunt only"
+      },
+      {
+        "open": "2026-11-30",
+        "close": "2027-01-03",
+        "note": "firearms, with or without dogs"
+      },
+      {
+        "open": "2027-01-04",
+        "close": "2027-01-10",
+        "note": "primitive firearms"
+      }
+    ],
+    "bagLimit": "1 antlered and 1 antlerless (when legal)",
+    "possessionLimit": "6 per season, not to exceed 3 antlered OR 4 antlerless per season (Area 4: 4/season; Area 10: 3/season)",
+    "agency": "LDWF",
+    "sourceTitle": "Seasons and Regulations, Quick Reference Guide - Hunting Seasons (LDWF)",
+    "sourceUrl": "https://www.wlf.louisiana.gov/page/seasons-and-regulations",
+    "sourceQuote": "Deer (2026/2027) Area Archery Primitive Firearms Firearms (Still-Hunt only) Firearms (With or Without Dogs) Youth and Honorably Discharged Veterans | 8 Either Sex: September 19- January 15 Either Sex: October 10-16 January 4 - 10 Either Sex: October 17 - November 29 Either Sex: November 30 - January 3 Either Sex: September 26 - October 2 | DAILY BAG LIMITS: 1 antlered and1 antlerless (when legal)",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Columns: archery, primitive firearms, firearms still-hunt only, firearms with or without dogs, youth and honorably discharged veterans. WMAs have separate schedules."
+  },
+  {
+    "id": "la-deer-area4-2026",
+    "state": "LA",
+    "species": "deer",
+    "seasonName": "Deer, Area 4",
+    "zone": "Deer Area 4",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2027-01-31",
+        "note": "archery, either sex"
+      },
+      {
+        "open": "2026-10-31",
+        "close": "2026-11-06",
+        "note": "youth and honorably discharged veterans"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-11-20",
+        "note": "primitive firearms"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2026-12-11",
+        "note": "firearms, still-hunt only"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-01-03",
+        "note": "firearms, with or without dogs"
+      },
+      {
+        "open": "2027-01-04",
+        "close": "2027-01-24",
+        "note": "firearms, still-hunt only"
+      },
+      {
+        "open": "2027-01-25",
+        "close": "2027-01-31",
+        "note": "primitive firearms"
+      }
+    ],
+    "bagLimit": "1 antlered and 1 antlerless (when legal)",
+    "possessionLimit": "6 per season, not to exceed 3 antlered OR 4 antlerless per season (Area 4: 4/season; Area 10: 3/season)",
+    "agency": "LDWF",
+    "sourceTitle": "Seasons and Regulations, Quick Reference Guide - Hunting Seasons (LDWF)",
+    "sourceUrl": "https://www.wlf.louisiana.gov/page/seasons-and-regulations",
+    "sourceQuote": "Deer (2026/2027) Area Archery Primitive Firearms Firearms (Still-Hunt only) Firearms (With or Without Dogs) Youth and Honorably Discharged Veterans | 4 Either Sex: October 1 - January 31 Either Sex: November 14-20 January 25-31 Either Sex: November 21 - December 11 January 4 - January 24 Either Sex: December 12 - January 3 Either Sex: October 31 - November 6 | DAILY BAG LIMITS: 1 antlered and1 antlerless (when legal)",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Columns: archery, primitive firearms, firearms still-hunt only, firearms with or without dogs, youth and honorably discharged veterans. WMAs have separate schedules."
+  },
+  {
+    "id": "la-deer-area5-2026",
+    "state": "LA",
+    "species": "deer",
+    "seasonName": "Deer, Area 5",
+    "zone": "Deer Area 5",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2026-10-15",
+        "note": "archery, bucks only"
+      },
+      {
+        "open": "2026-10-16",
+        "close": "2027-02-15",
+        "note": "archery, either sex unless a bucks-only firearms season is in progress"
+      },
+      {
+        "open": "2026-10-31",
+        "close": "2026-11-06",
+        "note": "youth and honorably discharged veterans"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-11-20",
+        "note": "primitive firearms, either sex"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2027-01-24",
+        "note": "firearms with or without dogs; either-sex and bucks-only days alternate (see LDWF table)"
+      },
+      {
+        "open": "2027-01-25",
+        "close": "2027-01-31",
+        "note": "primitive firearms, bucks only"
+      }
+    ],
+    "bagLimit": "1 antlered and 1 antlerless (when legal)",
+    "possessionLimit": "6 per season, not to exceed 3 antlered OR 4 antlerless per season (Area 4: 4/season; Area 10: 3/season)",
+    "agency": "LDWF",
+    "sourceTitle": "Seasons and Regulations, Quick Reference Guide - Hunting Seasons (LDWF)",
+    "sourceUrl": "https://www.wlf.louisiana.gov/page/seasons-and-regulations",
+    "sourceQuote": "Deer (2026/2027) Area Archery Primitive Firearms Firearms (Still-Hunt only) Firearms (With or Without Dogs) Youth and Honorably Discharged Veterans | 5 Either Sex: (unless a Bucks Only Firearms Season is in progress) October 16 - February 15 Bucks Only: October 1-15 Either Sex: November 14 - 20 Bucks Only: January 25 - 31 | DAILY BAG LIMITS: 1 antlered and1 antlerless (when legal)",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Columns: archery, primitive firearms, firearms still-hunt only, firearms with or without dogs, youth and honorably discharged veterans. Area 5 and 9 firearms dates are a single either-sex/bucks-only schedule in the table; the record keeps the overall Nov. 21 to Jan. 24 span. WMAs have separate schedules."
+  },
+  {
+    "id": "la-deer-area9-2026",
+    "state": "LA",
+    "species": "deer",
+    "seasonName": "Deer, Area 9",
+    "zone": "Deer Area 9",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2026-10-15",
+        "note": "archery, bucks only"
+      },
+      {
+        "open": "2026-10-16",
+        "close": "2027-02-15",
+        "note": "archery, either sex unless a bucks-only firearms season is in progress"
+      },
+      {
+        "open": "2026-10-31",
+        "close": "2026-11-06",
+        "note": "youth and honorably discharged veterans"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-11-20",
+        "note": "primitive firearms, either sex"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2027-01-24",
+        "note": "firearms with or without dogs; either-sex and bucks-only days alternate (see LDWF table)"
+      },
+      {
+        "open": "2027-01-25",
+        "close": "2027-01-31",
+        "note": "primitive firearms, bucks only"
+      }
+    ],
+    "bagLimit": "1 antlered and 1 antlerless (when legal)",
+    "possessionLimit": "6 per season, not to exceed 3 antlered OR 4 antlerless per season (Area 4: 4/season; Area 10: 3/season)",
+    "agency": "LDWF",
+    "sourceTitle": "Seasons and Regulations, Quick Reference Guide - Hunting Seasons (LDWF)",
+    "sourceUrl": "https://www.wlf.louisiana.gov/page/seasons-and-regulations",
+    "sourceQuote": "Deer (2026/2027) Area Archery Primitive Firearms Firearms (Still-Hunt only) Firearms (With or Without Dogs) Youth and Honorably Discharged Veterans | 9 Either Sex: (unless a Bucks Only Firearms Season is in progress) October 16 - February 15 Bucks Only: October 1 - 15 Either Sex: November 14-20 Bucks Only: January 25-31 | DAILY BAG LIMITS: 1 antlered and1 antlerless (when legal)",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Columns: archery, primitive firearms, firearms still-hunt only, firearms with or without dogs, youth and honorably discharged veterans. Area 5 and 9 firearms dates are a single either-sex/bucks-only schedule in the table; the record keeps the overall Nov. 21 to Jan. 24 span. WMAs have separate schedules."
+  },
+  {
+    "id": "la-deer-area6-2026",
+    "state": "LA",
+    "species": "deer",
+    "seasonName": "Deer, Area 6",
+    "zone": "Deer Area 6",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-09-20",
+        "note": "archery, bucks only in CWD Zone"
+      },
+      {
+        "open": "2026-10-01",
+        "close": "2026-10-15",
+        "note": "archery, bucks only"
+      },
+      {
+        "open": "2026-10-16",
+        "close": "2027-02-15",
+        "note": "archery, either sex"
+      },
+      {
+        "open": "2026-10-31",
+        "close": "2026-11-06",
+        "note": "youth and honorably discharged veterans"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-11-20",
+        "note": "primitive firearms"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2026-12-11",
+        "note": "firearms, still-hunt only"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-01-24",
+        "note": "firearms, with or without dogs"
+      },
+      {
+        "open": "2027-01-25",
+        "close": "2027-01-31",
+        "note": "primitive firearms"
+      }
+    ],
+    "bagLimit": "1 antlered and 1 antlerless (when legal)",
+    "possessionLimit": "6 per season, not to exceed 3 antlered OR 4 antlerless per season (Area 4: 4/season; Area 10: 3/season)",
+    "agency": "LDWF",
+    "sourceTitle": "Seasons and Regulations, Quick Reference Guide - Hunting Seasons (LDWF)",
+    "sourceUrl": "https://www.wlf.louisiana.gov/page/seasons-and-regulations",
+    "sourceQuote": "Deer (2026/2027) Area Archery Primitive Firearms Firearms (Still-Hunt only) Firearms (With or Without Dogs) Youth and Honorably Discharged Veterans | 6 Bucks Only in CWD Zone (with or without velvet): Sept 12-20 Either Sex: Oct. 16-Feb. 15 Bucks Only: OCt.1-15 Either Sex: November 14 - 20 and January 25 - 31 Either Sex: November 21 - December 11 Either Sex: December 12 - January 24 Either Sex: October 31 - November 6 | DAILY BAG LIMITS: 1 antlered and1 antlerless (when legal)",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Columns: archery, primitive firearms, firearms still-hunt only, firearms with or without dogs, youth and honorably discharged veterans. WMAs have separate schedules."
+  },
+  {
+    "id": "la-deer-area10-2026",
+    "state": "LA",
+    "species": "deer",
+    "seasonName": "Deer, Area 10",
+    "zone": "Deer Area 10",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2027-01-15",
+        "note": "archery, either sex"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-10-02",
+        "note": "youth and honorably discharged veterans"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "primitive firearms"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2027-01-03",
+        "note": "firearms"
+      },
+      {
+        "open": "2027-01-04",
+        "close": "2027-01-10",
+        "note": "primitive firearms"
+      }
+    ],
+    "bagLimit": "1 antlered and 1 antlerless (when legal)",
+    "possessionLimit": "6 per season, not to exceed 3 antlered OR 4 antlerless per season (Area 4: 4/season; Area 10: 3/season)",
+    "agency": "LDWF",
+    "sourceTitle": "Seasons and Regulations, Quick Reference Guide - Hunting Seasons (LDWF)",
+    "sourceUrl": "https://www.wlf.louisiana.gov/page/seasons-and-regulations",
+    "sourceQuote": "Deer (2026/2027) Area Archery Primitive Firearms Firearms (Still-Hunt only) Firearms (With or Without Dogs) Youth and Honorably Discharged Veterans | 10 Either Sex: September 19 - January 15 Either Sex: October 10-16 January 4-10 Either Sex: October 17 - January 3 Either Sex: September 26 - October 2 | DAILY BAG LIMITS: 1 antlered and1 antlerless (when legal)",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Columns: archery, primitive firearms, firearms still-hunt only, firearms with or without dogs, youth and honorably discharged veterans. Area 10 lists four entries, so it is not clear whether the Oct. 17 to Jan. 3 firearms season is still-hunt only or with or without dogs. WMAs have separate schedules."
+  }
+]
