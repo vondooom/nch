@@ -82,4 +82,28 @@ export const unlistedBigGame: Record<string, { species: string; line: string; li
       line: "Turkey licenses are issued by lottery, so season dates are not listed here.",
     },
   ],
+  texas: [
+    {
+      species: "Deer",
+      line: "County bag limits, antler restrictions, doe days, and mandatory harvest reporting are set by county. The white-tailed muzzleloader season is set by county and is not listed here.",
+    },
+    {
+      species: "Turkey",
+      line: "Turkey bag limits are set by county, so they are not listed here.",
+    },
+    {
+      species: "Pronghorn",
+      line: "Pronghorn are permit only, so season dates are not listed here.",
+    },
+    {
+      species: "Desert bighorn",
+      line: "Desert bighorn sheep are permit only, so season dates are not listed here.",
+    },
+  ],
+  oklahoma: [
+    {
+      species: "Antelope",
+      line: "Antelope gun hunting is by draw or landowner permit, so those dates are not listed here.",
+    },
+  ],
 };

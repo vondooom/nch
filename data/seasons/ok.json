@@ -1,0 +1,471 @@
+[
+  {
+    "id": "ok-duck-panhandle-2026",
+    "state": "OK",
+    "species": "duck",
+    "seasonName": "Ducks, Mergansers & Coots, Panhandle Counties (High Plains Mallard Management Unit)",
+    "zone": "Panhandle Counties (Cimarron, Texas and Beaver)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-03",
+        "note": "youth, veteran and active military waterfowl day"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2027-01-13",
+        "note": "regular season"
+      },
+      {
+        "open": "2027-01-30",
+        "close": "2027-01-30",
+        "note": "youth, veteran and active military waterfowl day"
+      }
+    ],
+    "bagLimit": "6 ducks combined (no more than 5 mallards, only 2 hens; 3 wood ducks; 3 pintails; 2 redheads; 2 canvasbacks; 1 scaup), mergansers included; coots 15",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Ducks, Mergansers & Coots (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/ducks-mergansers-coots",
+    "sourceQuote": "Panhandle Counties (High Plains Mallard Management Unit) Oct 10, 2026 - Jan 13, 2027 | Youth, Veteran & Active Military Waterfowl Days: Oct. 3, 2026 & Jan. 30, 2027 (Cimmaron, Texas, and Beaver Counties) | Daily Limit: Six combined of any species of duck. The daily limit may include no more than five mallards (only two may be hens), three wood ducks, three pintails, two redheads, two canvasbacks and one scaup. | Mergansers are included in the duck daily limit. | Coots Image Daily Limit: 15",
+    "checkedDate": "2026-11-23",
+    "notes": "Possession limit is not printed on this page (ODWC's Migratory Game Bird Regulations page gives a general rule: one daily bag per day hunted, up to three daily bag limits). The duck page says youth hunters must be 15 or younger; ODWC's Youth, Veteran & Active Military page and the 2026-27 regulations PDF say 17 or younger. The page spells Cimarron as 'Cimmaron'. Years as printed on the page."
+  },
+  {
+    "id": "ok-duck-zones12-2026",
+    "state": "OK",
+    "species": "duck",
+    "seasonName": "Ducks, Mergansers & Coots, Zones 1 & 2",
+    "zone": "Zones 1 & 2 (all counties excluding Cimarron, Texas, and Beaver)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-07",
+        "note": "youth, veteran and active military waterfowl day"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-12-06",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-01-31",
+        "note": "second segment"
+      },
+      {
+        "open": "2027-02-06",
+        "close": "2027-02-06",
+        "note": "youth, veteran and active military waterfowl day"
+      }
+    ],
+    "bagLimit": "6 ducks combined (no more than 5 mallards, only 2 hens; 3 wood ducks; 3 pintails; 2 redheads; 2 canvasbacks; 1 scaup), mergansers included; coots 15",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Ducks, Mergansers & Coots (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/ducks-mergansers-coots",
+    "sourceQuote": "Zones 1 & 2 Nov 14, 2026 - Dec 6, 2026 Dec 12, 2026 - Jan 31, 2027 | Youth, Veteran & Active Military Waterfowl Days: Nov. 7, 2026 & Feb. 6, 2027. (All counties excluding Cimmaron, Texas, and Beaver.) | Daily Limit: Six combined of any species of duck. The daily limit may include no more than five mallards (only two may be hens), three wood ducks, three pintails, two redheads, two canvasbacks and one scaup. | Mergansers are included in the duck daily limit. | Coots Image Daily Limit: 15",
+    "checkedDate": "2026-11-23",
+    "notes": "Possession limit is not printed on this page (ODWC's Migratory Game Bird Regulations page gives a general rule: one daily bag per day hunted, up to three daily bag limits). The duck page says youth hunters must be 15 or younger; ODWC's Youth, Veteran & Active Military page and the 2026-27 regulations PDF say 17 or younger. Zones 1 and 2 share the same dates on this page. Years as printed on the page."
+  },
+  {
+    "id": "ok-teal-september-2026",
+    "state": "OK",
+    "species": "duck",
+    "seasonName": "September Teal",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-09-20",
+        "note": "teal only"
+      }
+    ],
+    "bagLimit": "6 teal",
+    "possessionLimit": "12 after the first day, 18 after the second day",
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, September Teal, Geese & Sandhill Cranes (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/september-teal-geese-sandhill-cranes",
+    "sourceQuote": "September Teal Sep 12, 2026 - Sep 20, 2026 Statewide Bag and Possession Limits Six teal daily, 12 in possession after the first day, 18 in possession after the second day.",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed on the page."
+  },
+  {
+    "id": "ok-goose-resident-canada-2026",
+    "state": "OK",
+    "species": "goose",
+    "seasonName": "Special Resident Canada Goose",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-09-21",
+        "note": null
+      }
+    ],
+    "bagLimit": "8",
+    "possessionLimit": "16 after the first day, 24 after the second day",
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, September Teal, Geese & Sandhill Cranes (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/september-teal-geese-sandhill-cranes",
+    "sourceQuote": "Special Resident Canada goose Sep 12, 2026 - Sep 21, 2026 Statewide Bag and Possession Limits Eight daily, 16 in possession after the first day, 24 in possession after the second day.",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed on the page."
+  },
+  {
+    "id": "ok-goose-white-fronted-2026",
+    "state": "OK",
+    "species": "goose",
+    "seasonName": "White-Fronted Geese",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2026-12-06",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-02-07",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "2",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, September Teal, Geese & Sandhill Cranes (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/september-teal-geese-sandhill-cranes",
+    "sourceQuote": "White-Fronted Geese Nov 7, 2026 - Dec 6, 2026 Dec 12, 2026 - Feb 7, 2027 Statewide Bag and Possession Limits The daily bag limit is two. | The possession limit for dark geese, white-fronted geese and sandhill crane is three times the daily bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed on the page."
+  },
+  {
+    "id": "ok-goose-dark-2026",
+    "state": "OK",
+    "species": "goose",
+    "seasonName": "Dark Geese (all geese, except White-Fronted and Light Geese)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2026-12-06",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-02-14",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "8",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, September Teal, Geese & Sandhill Cranes (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/september-teal-geese-sandhill-cranes",
+    "sourceQuote": "Dark Geese (all geese, except White-Fronted and Light Geese) Nov 7, 2026 - Dec 6, 2026 Dec 12, 2026 - Feb 14, 2027 Statewide Bag and Possession Limits The daily bag limit is 8. | The possession limit for dark geese, white-fronted geese and sandhill crane is three times the daily bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed on the page."
+  },
+  {
+    "id": "ok-goose-light-2026",
+    "state": "OK",
+    "species": "goose",
+    "seasonName": "Light Geese (Snow, Blue & Ross')",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2026-12-06",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-02-14",
+        "note": "second segment"
+      },
+      {
+        "open": "2027-02-15",
+        "close": "2027-03-30",
+        "note": "Conservation Order Light Goose Season (no daily bag or possession limit; registration required)"
+      }
+    ],
+    "bagLimit": "50 (no daily bag during the Conservation Order)",
+    "possessionLimit": "No possession limit",
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, September Teal, Geese & Sandhill Cranes (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/september-teal-geese-sandhill-cranes",
+    "sourceQuote": "Light Geese Snow, Blue & Ross’ Nov 7, 2026 - Dec 6, 2026 Dec 12, 2026 - Feb 14, 2027 Statewide | The daily bag limit is 50. (**no daily bag during COLGS). There is no possession limit for light geese (snow, blue and Ross'). | Conservation Order Light Goose Season (COLGS) Feb 15, 2027 - Mar 30, 2027 Statewide",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed on the page."
+  },
+  {
+    "id": "ok-dove-2026",
+    "state": "OK",
+    "species": "dove",
+    "seasonName": "Dove (Mourning, White-Winged & Eurasian Collared)",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-10-31",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-12-01",
+        "close": "2026-12-29",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "15 combined (mourning, white-winged and fully dressed Eurasian collared doves)",
+    "possessionLimit": "30 after the first day, 45 after the second day",
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Dove (Mourning, White-Winged & Eurasian Collared) (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/dove-mourning-white-winged-eurasian-collared",
+    "sourceQuote": "Dove Sep 1, 2026 - Oct 31, 2026 Dec 1, 2026 - Dec 29, 2026 | Bag and Possession Limit 15 daily, 30 in possession after first day combined, 45 in possession after the second day combined.",
+    "checkedDate": "2026-11-23",
+    "notes": "The page prints no open area or zones, so zone is null. No bag limit on Eurasian collared doves with head or a fully feathered wing attached. Years as printed on the page."
+  },
+  {
+    "id": "ok-pheasant-2026",
+    "state": "OK",
+    "species": "pheasant",
+    "seasonName": "Pheasant",
+    "zone": "Alfalfa, Beaver, Cimarron, Garfield, Grant, Harper, Kay, Major, Noble, Osage, Texas, Woods and Woodward counties; Blaine, Dewey, Ellis, Kingfisher and Logan counties north of State Highway 51",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-01",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 cocks",
+    "possessionLimit": "4 after the first day",
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Pheasant Regulations (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/pheasant-regulations",
+    "sourceQuote": "Pheasant Dec 1, 2026 - Jan 31, 2027 Open areas include Alfalfa, Beaver, Cimarron, Garfield, Grant, Harper, Kay, Major, Noble, Osage, Texas, Woods and Woodward counties; and the portions of Blaine, Dewey, Ellis, Kingfisher and Logan counties north of State Highway 51. | Cocks only : Two cocks daily; four in possession after the first day.",
+    "checkedDate": "2026-11-23",
+    "notes": "Seasons on public lands may vary. Years as printed on the page."
+  },
+  {
+    "id": "ok-quail-statewide-2026",
+    "state": "OK",
+    "species": "quail",
+    "seasonName": "Quail (Bobwhite & Scaled)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-14",
+        "close": "2027-02-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "10",
+    "possessionLimit": "20 after the first day",
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Quail (Bobwhite & Scaled) Regulations (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/quail-bobwhite-scaled-regulations",
+    "sourceQuote": "Quail Nov 14, 2026 - Feb 15, 2027 Some WMAs closed to nonresidents after Jan 31. Statewide. Daily Limit 10 daily, 20 in possession after the first day.",
+    "checkedDate": "2026-11-23",
+    "notes": "The adult nonresident 5-day hunting license is not valid for quail. Years as printed on the page."
+  },
+  {
+    "id": "ok-turkey-fall-archery-2026",
+    "state": "OK",
+    "species": "turkey",
+    "seasonName": "Archery Fall Turkey",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2027-01-15",
+        "note": "archery only"
+      }
+    ],
+    "bagLimit": "1 tom turkey (fall season limit)",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Fall Turkey (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/fall-turkey",
+    "sourceQuote": "Fall Turkey Season Limit One tom turkey regardless of method of take. | Archery Fall Turkey Oct 1, 2026 - Jan 15, 2027 Statewide.",
+    "checkedDate": "2026-11-23",
+    "notes": "Fall season limit is one tom turkey regardless of method of take (includes the youth turkey taken during youth deer gun season); controlled hunt turkeys do not count. Jan. 1-15 requires a fall turkey license for the current calendar year. Years as printed on the page."
+  },
+  {
+    "id": "ok-turkey-fall-gun-2026",
+    "state": "OK",
+    "species": "turkey",
+    "seasonName": "Gun Fall Turkey",
+    "zone": "Open counties per the ODWC fall gun turkey map (map not in page text)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-31",
+        "close": "2026-11-20",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 tom turkey (fall season limit)",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Fall Turkey (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/fall-turkey",
+    "sourceQuote": "Fall Turkey Season Limit One tom turkey regardless of method of take. | Gun Fall Turkey Oct 31, 2026 - Nov 20, 2026 See the map below for restrictions.",
+    "checkedDate": "2026-11-23",
+    "notes": "Fall season limit is one tom turkey regardless of method of take (includes the youth turkey taken during youth deer gun season); controlled hunt turkeys do not count. Open counties are shown only on a map image; not recorded county by county. Youths in the youth deer gun season (Oct. 16-18, 2026) may also take a turkey in the open counties (ODWC deer page). Years as printed on the page."
+  },
+  {
+    "id": "ok-turkey-spring-2027",
+    "state": "OK",
+    "species": "turkey",
+    "seasonName": "Spring Turkey",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-04-10",
+        "close": "2027-04-11",
+        "note": "youth spring turkey (17 and younger)"
+      },
+      {
+        "open": "2027-04-16",
+        "close": "2027-05-16",
+        "note": "spring turkey"
+      }
+    ],
+    "bagLimit": "1 tom turkey (season limit, statewide)",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Spring Turkey (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/spring-turkey",
+    "sourceQuote": "Youth Spring Turkey Apr 10, 2027 - Apr 11, 2027 Age Requirements 17 years old and younger. | Season Limit One tom turkey statewide regardless of method of take. | Spring Turkey Apr 16, 2027 - May 16, 2027 Statewide. One (1) tom turkey; harvest of non-bearded turkeys is prohibited.",
+    "checkedDate": "2026-11-23",
+    "notes": "A youth-season turkey counts toward the spring limit. Rifles and handguns are not legal in spring. Years as printed on the page."
+  },
+  {
+    "id": "ok-deer-archery-2026",
+    "state": "OK",
+    "species": "deer",
+    "seasonName": "Deer Archery",
+    "zone": "Antlerless deer zones 1-10 (same dates printed for each zone)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2027-01-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "6 (no more than 2 antlered)",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Deer - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/deer-big-game-season",
+    "sourceQuote": "Combined Season Limit Six: no more than two may be antlered. | Deer Archery Oct 1, 2026 - Jan 15, 2027 Six : no more than two may be antlered.",
+    "checkedDate": "2026-11-23",
+    "notes": "Combined season limit is six deer, no more than two antlered (archery, youth gun, muzzleloader and gun). Antlerless harvest during firearm seasons is limited to the Antlerless Deer Zones (map). Deer taken Jan. 1-15, 2027 count toward the 2026 combined limit. The page prints the same dates under every antlerless deer zone (1-10); it does not use the word statewide. Years as printed on the page."
+  },
+  {
+    "id": "ok-deer-youth-gun-2026",
+    "state": "OK",
+    "species": "deer",
+    "seasonName": "Youth Deer Gun",
+    "zone": "Antlerless deer zones 1-10 (same dates printed for each zone)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-16",
+        "close": "2026-10-18",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 (no more than 1 antlered; no antlerless mule deer)",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Deer - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/deer-big-game-season",
+    "sourceQuote": "Combined Season Limit Six: no more than two may be antlered. | Youth Deer Gun Oct 16, 2026 - Oct 18, 2026 Two : no more than one may be antlered. Harvest of antlerless mule deer is prohibited. | Youth Deer Gun Age Requirements 17 years old and younger.",
+    "checkedDate": "2026-11-23",
+    "notes": "Combined season limit is six deer, no more than two antlered (archery, youth gun, muzzleloader and gun). Antlerless harvest during firearm seasons is limited to the Antlerless Deer Zones (map). Youth 17 and younger, accompanied by an adult 18 or older. The page prints the same dates under every antlerless deer zone (1-10); it does not use the word statewide. Years as printed on the page."
+  },
+  {
+    "id": "ok-deer-muzzleloader-2026",
+    "state": "OK",
+    "species": "deer",
+    "seasonName": "Deer Muzzleloader",
+    "zone": "Antlerless deer zones 1-10 (same dates printed for each zone)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2026-11-01",
+        "note": null
+      }
+    ],
+    "bagLimit": "4 (no more than 1 antlered; antlerless limit by zone; no antlerless mule deer)",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Deer - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/deer-big-game-season",
+    "sourceQuote": "Combined Season Limit Six: no more than two may be antlered. | Deer Muzzleloader Oct 24, 2026 - Nov 1, 2026 Four : no more than one may be antlered. Harvest of antlerless mule deer is prohibited. Antlerless harvest limits are set by zone.",
+    "checkedDate": "2026-11-23",
+    "notes": "Combined season limit is six deer, no more than two antlered (archery, youth gun, muzzleloader and gun). Antlerless harvest during firearm seasons is limited to the Antlerless Deer Zones (map). Antlerless limits by zone: Zone 1 one; Zones 2, 7 and 8 four; Zones 3, 4, 5, 6 and 9 two; Zone 10 one (Zone 1 is closed to antlerless muzzleloader harvest). The page prints the same dates under every antlerless deer zone (1-10); it does not use the word statewide. Years as printed on the page."
+  },
+  {
+    "id": "ok-deer-gun-2026",
+    "state": "OK",
+    "species": "deer",
+    "seasonName": "Deer Gun",
+    "zone": "Antlerless deer zones 1-10 (same dates printed for each zone)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2026-12-06",
+        "note": null
+      }
+    ],
+    "bagLimit": "4 (no more than 1 antlered; antlerless limit by zone; no antlerless mule deer)",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Deer - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/deer-big-game-season",
+    "sourceQuote": "Combined Season Limit Six: no more than two may be antlered. | Deer Gun Nov 21, 2026 - Dec 6, 2026 Four : no more than one may be antlered. Harvest of antlerless mule deer is prohibited. Antlerless harvest limits are set by zone. Zone 1: one antlerless. Zones 2, 7 & 8: four antlerless. Zones 3, 4, 5, 6 & 9: two antlerless. Zone 10: one antlerless.",
+    "checkedDate": "2026-11-23",
+    "notes": "Combined season limit is six deer, no more than two antlered (archery, youth gun, muzzleloader and gun). Antlerless harvest during firearm seasons is limited to the Antlerless Deer Zones (map). The page prints the same dates under every antlerless deer zone (1-10); it does not use the word statewide. Years as printed on the page."
+  },
+  {
+    "id": "ok-deer-holiday-antlerless-2026",
+    "state": "OK",
+    "species": "deer",
+    "seasonName": "Holiday Antlerless Deer Gun",
+    "zone": "Antlerless deer zones 1-10 (same dates printed for each zone)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-18",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 antlerless (do not count toward the combined limit; no antlerless mule deer)",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Deer - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/deer-big-game-season",
+    "sourceQuote": "Combined Season Limit Six: no more than two may be antlered. | Holiday Antlerless Deer Gun Dec 18, 2026 - Dec 31, 2026 Two : antlerless only. Harvest of antlerless mule deer is prohibited. Deer taken during the holiday antlerless deer gun season do not count toward the hunter’s combined season limit of six deer.",
+    "checkedDate": "2026-11-23",
+    "notes": "Combined season limit is six deer, no more than two antlered (archery, youth gun, muzzleloader and gun). Antlerless harvest during firearm seasons is limited to the Antlerless Deer Zones (map). Listed for all antlerless zones, including Zone 1, on the deer page. The page prints the same dates under every antlerless deer zone (1-10); it does not use the word statewide. Years as printed on the page."
+  }
+]

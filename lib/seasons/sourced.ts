@@ -8,8 +8,10 @@ import nd from "@/data/seasons/nd.json";
 import ne from "@/data/seasons/ne.json";
 import nm from "@/data/seasons/nm.json";
 import nv from "@/data/seasons/nv.json";
+import ok from "@/data/seasons/ok.json";
 import orRecords from "@/data/seasons/or.json";
 import sd from "@/data/seasons/sd.json";
+import tx from "@/data/seasons/tx.json";
 import ut from "@/data/seasons/ut.json";
 import wa from "@/data/seasons/wa.json";
 import wy from "@/data/seasons/wy.json";
@@ -32,6 +34,8 @@ const files = [
   ["ne.json", ne],
   ["nd.json", nd],
   ["sd.json", sd],
+  ["tx.json", tx],
+  ["ok.json", ok],
 ] as const;
 
 const loaded = files.map(([file, rows]) => validateSeasonFile(rows, file));
@@ -56,4 +60,6 @@ export const seasonStateCode: Record<string, string> = {
   nebraska: "NE",
   "north-dakota": "ND",
   "south-dakota": "SD",
+  texas: "TX",
+  oklahoma: "OK",
 };
