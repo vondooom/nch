@@ -1,6 +1,19 @@
 import { formatIsoDate, isOpenNow, type SeasonRecord } from "@/lib/seasons";
 import { calendarDateInTimeZone } from "@/lib/seasons/open";
 
+const speciesLabels: Record<string, string> = {
+  snipe: "Wilson's snipe",
+  pigeon: "Band-tailed pigeon",
+  grouse: "Sooty and ruffed grouse",
+  "sage-grouse": "Greater sage-grouse",
+  pig: "Wild pig",
+};
+
+function speciesHeading(species: string) {
+  const key = species.toLowerCase();
+  return speciesLabels[key] ?? species.charAt(0).toUpperCase() + species.slice(1);
+}
+
 function groupsFor(records: SeasonRecord[]) {
   const groups: { species: string; records: SeasonRecord[] }[] = [];
   for (const record of records) {
@@ -10,6 +23,14 @@ function groupsFor(records: SeasonRecord[]) {
     else groups.push({ species: record.species, records: [record] });
   }
   return groups;
+}
+
+/** Empty periods are not open windows. The label comes from the agency quote. */
+function emptyPeriodLabel(record: SeasonRecord) {
+  const quote = record.sourceQuote.toLowerCase();
+  if (quote.includes("closed")) return "Closed for 2026-27";
+  if (quote.includes("all year")) return "Open all year";
+  return null;
 }
 
 function sourceFragments(quote: string) {
@@ -24,11 +45,12 @@ export function SeasonList({ records, timeZone }: { records: SeasonRecord[]; tim
       {groupsFor(records).map((group) => (
         <section key={group.species.toLowerCase()}>
           <h3 className="mb-3 border-b-2 border-[#211D14] pb-2 font-heading text-[26px] font-bold uppercase">
-            {group.species.charAt(0).toUpperCase() + group.species.slice(1)}
+            {speciesHeading(group.species)}
           </h3>
           <div className="grid gap-4">
             {group.records.map((record) => {
               const open = isOpenNow(record, today);
+              const closedOrYearRound = record.periods.length === 0 ? emptyPeriodLabel(record) : null;
               return (
                 <article key={record.id} className="border border-[#D8CDB4] bg-[#FBF8F0] p-5">
                   <div className="mb-2 flex flex-wrap items-center gap-3">
@@ -43,19 +65,22 @@ export function SeasonList({ records, timeZone }: { records: SeasonRecord[]; tim
                     ) : null}
                   </div>
                   <p className="font-serif text-[16px] text-[#3B3526]">{record.seasonYear}</p>
-                  <ul className="mt-2 grid gap-1 font-serif text-[16px] text-[#3B3526]">
-                    {record.periods.map((period) => (
-                      <li key={`${record.id}-${period.open}-${period.close}-${period.note}`}>
-                        {formatIsoDate(period.open)} to {formatIsoDate(period.close)}
-                        {period.note ? ` (${period.note})` : ""}
-                      </li>
-                    ))}
-                  </ul>
+                  {record.periods.length > 0 ? (
+                    <ul className="mt-2 grid gap-1 font-serif text-[16px] text-[#3B3526]">
+                      {record.periods.map((period) => (
+                        <li key={`${record.id}-${period.open}-${period.close}-${period.note ?? ""}`}>
+                          {formatIsoDate(period.open)} to {formatIsoDate(period.close)}
+                          {period.note ? ` (${period.note})` : ""}
+                        </li>
+                      ))}
+                    </ul>
+                  ) : closedOrYearRound ? (
+                    <p className="mt-2 font-serif text-[16px] text-[#3B3526]">{closedOrYearRound}</p>
+                  ) : null}
                   {record.bagLimit ? <p className="mt-2 font-serif text-[15px] text-[#3B3526]">Daily bag: {record.bagLimit}</p> : null}
                   {record.possessionLimit ? (
                     <p className="font-serif text-[15px] text-[#3B3526]">Possession: {record.possessionLimit}</p>
                   ) : null}
-                  {record.notes ? <p className="mt-2 font-serif text-[15px] leading-relaxed text-[#5C543F]">{record.notes}</p> : null}
                   <details className="mt-3 border-t border-[#E7DFC9] pt-3">
                     <summary className="cursor-pointer font-heading text-[13px] font-semibold uppercase tracking-[0.12em] text-[#C75B12]">
                       Source text
@@ -65,6 +90,14 @@ export function SeasonList({ records, timeZone }: { records: SeasonRecord[]; tim
                         <li key={`${record.id}-quote-${index}`}>{fragment}</li>
                       ))}
                     </ul>
+                    {record.notes ? (
+                      <div className="mt-3">
+                        <div className="font-heading text-[13px] font-semibold uppercase tracking-[0.12em] text-[#8A8163]">
+                          Source notes
+                        </div>
+                        <p className="mt-1 font-serif text-[14px] leading-relaxed text-[#5C543F]">{record.notes}</p>
+                      </div>
+                    ) : null}
                   </details>
                   <p className="mt-3 font-serif text-[15px] text-[#3B3526]">
                     Per {record.agency}, checked {formatIsoDate(record.checkedDate)}.{" "}

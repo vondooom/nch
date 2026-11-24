@@ -38,6 +38,7 @@ export function periodContains(open: string, close: string, day: string) {
  */
 export function isOpenNow(record: SeasonRecord, today: string) {
   if (!isDisplayableSeason(record)) return false;
+  if (!record.periods || record.periods.length === 0) return false;
   const age = calendarDaysBetween(record.checkedDate, today);
   if (age < 0 || age > OPEN_NOW_MAX_CHECK_AGE_DAYS) return false;
   return record.periods.some((period) => periodContains(period.open, period.close, today));
