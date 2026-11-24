@@ -1,0 +1,607 @@
+[
+  {
+    "id": "nh-duck-northern-2026",
+    "state": "NH",
+    "species": "duck",
+    "seasonName": "Ducks (mergansers, coots and sea ducks on the same dates)",
+    "zone": "Northern Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-02",
+        "close": "2026-11-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "6 ducks (mergansers 5 in addition; coots 15; sea ducks 4 within the duck bag)",
+    "possessionLimit": "18",
+    "agency": "NH Fish and Game",
+    "sourceTitle": "NH Fish and Game, Waterfowl and Migratory Bird Hunting in New Hampshire (2026-2027 seasons)",
+    "sourceUrl": "https://www.wildlife.nh.gov/hunting-nh/waterfowl-and-migratory-bird-hunting-new-hampshire",
+    "sourceQuote": "Species Northern Zone Inland & CT River Zone Coastal Zone Bag Limit Possession Limit | Ducks A Oct 2 -Nov 30 Oct 13 -Nov 11 Nov 25 -Dec 24 Oct 6- Oct 12 Nov 26- Jan 17 6 18 | Mergansers B Oct 2 -Nov 30 Oct 13 -Nov 11 Nov 25 -Dec 24 Oct 6- Oct 12 Nov 26- Jan 17 5 15 | Coots Oct 2 -Nov 30 Oct 13 -Nov 11 Nov 25 -Dec 24 Oct 6- Oct 12 Nov 26- Jan 17 15 45 | A- Includes all species of ducks, with the following restrictions: No more than 4 mallards (2 of which may be a hen), 2 black ducks, 3 wood ducks, 3 pintails, 2 canvasbacks, 2 redheads, 1 scaup",
+    "checkedDate": "2026-11-23",
+    "notes": "Youth Waterfowl Sep. 26-27, 2026; Veteran & Active Military Weekend Jan. 23-24, 2027 (not recorded). Shooting hours 1/2 hour before sunrise to sunset. The NH Fish and Game waterfowl table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "nh-goose-canada-northern-2026",
+    "state": "NH",
+    "species": "goose",
+    "seasonName": "Canada geese (regular)",
+    "zone": "Northern Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-02",
+        "close": "2026-11-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "2",
+    "possessionLimit": "6",
+    "agency": "NH Fish and Game",
+    "sourceTitle": "NH Fish and Game, Waterfowl and Migratory Bird Hunting in New Hampshire (2026-2027 seasons)",
+    "sourceUrl": "https://www.wildlife.nh.gov/hunting-nh/waterfowl-and-migratory-bird-hunting-new-hampshire",
+    "sourceQuote": "Canada Geese Oct 2 -Nov 30 Oct 13 -Nov 11 Nov 25 -Dec 24 Oct 6- Oct 12 Nov 26- Jan 17 2 6",
+    "checkedDate": "2026-11-23",
+    "notes": "The NH Fish and Game waterfowl table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "nh-goose-snow-northern-2026",
+    "state": "NH",
+    "species": "goose",
+    "seasonName": "Snow geese",
+    "zone": "Northern Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-02",
+        "close": "2026-11-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "25",
+    "possessionLimit": "None",
+    "agency": "NH Fish and Game",
+    "sourceTitle": "NH Fish and Game, Waterfowl and Migratory Bird Hunting in New Hampshire (2026-2027 seasons)",
+    "sourceUrl": "https://www.wildlife.nh.gov/hunting-nh/waterfowl-and-migratory-bird-hunting-new-hampshire",
+    "sourceQuote": "Snow Geese Oct 2 -Nov 30 Oct 13 -Nov 11 Nov 25 -Dec 24 Oct 6- Oct 12 Nov 26- Jan 17 25 NONE",
+    "checkedDate": "2026-11-23",
+    "notes": "The NH Fish and Game waterfowl table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "nh-duck-inland-2026",
+    "state": "NH",
+    "species": "duck",
+    "seasonName": "Ducks (mergansers, coots and sea ducks on the same dates)",
+    "zone": "Inland & CT River Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-13",
+        "close": "2026-11-11",
+        "note": null
+      },
+      {
+        "open": "2026-11-25",
+        "close": "2026-12-24",
+        "note": null
+      }
+    ],
+    "bagLimit": "6 ducks (mergansers 5 in addition; coots 15; sea ducks 4 within the duck bag)",
+    "possessionLimit": "18",
+    "agency": "NH Fish and Game",
+    "sourceTitle": "NH Fish and Game, Waterfowl and Migratory Bird Hunting in New Hampshire (2026-2027 seasons)",
+    "sourceUrl": "https://www.wildlife.nh.gov/hunting-nh/waterfowl-and-migratory-bird-hunting-new-hampshire",
+    "sourceQuote": "Species Northern Zone Inland & CT River Zone Coastal Zone Bag Limit Possession Limit | Ducks A Oct 2 -Nov 30 Oct 13 -Nov 11 Nov 25 -Dec 24 Oct 6- Oct 12 Nov 26- Jan 17 6 18 | Mergansers B Oct 2 -Nov 30 Oct 13 -Nov 11 Nov 25 -Dec 24 Oct 6- Oct 12 Nov 26- Jan 17 5 15 | Coots Oct 2 -Nov 30 Oct 13 -Nov 11 Nov 25 -Dec 24 Oct 6- Oct 12 Nov 26- Jan 17 15 45 | A- Includes all species of ducks, with the following restrictions: No more than 4 mallards (2 of which may be a hen), 2 black ducks, 3 wood ducks, 3 pintails, 2 canvasbacks, 2 redheads, 1 scaup",
+    "checkedDate": "2026-11-23",
+    "notes": "Youth Waterfowl Sep. 26-27, 2026; Veteran & Active Military Weekend Jan. 23-24, 2027 (not recorded). Shooting hours 1/2 hour before sunrise to sunset. The NH Fish and Game waterfowl table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "nh-goose-canada-inland-2026",
+    "state": "NH",
+    "species": "goose",
+    "seasonName": "Canada geese (regular)",
+    "zone": "Inland & CT River Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-13",
+        "close": "2026-11-11",
+        "note": null
+      },
+      {
+        "open": "2026-11-25",
+        "close": "2026-12-24",
+        "note": null
+      }
+    ],
+    "bagLimit": "2",
+    "possessionLimit": "6",
+    "agency": "NH Fish and Game",
+    "sourceTitle": "NH Fish and Game, Waterfowl and Migratory Bird Hunting in New Hampshire (2026-2027 seasons)",
+    "sourceUrl": "https://www.wildlife.nh.gov/hunting-nh/waterfowl-and-migratory-bird-hunting-new-hampshire",
+    "sourceQuote": "Canada Geese Oct 2 -Nov 30 Oct 13 -Nov 11 Nov 25 -Dec 24 Oct 6- Oct 12 Nov 26- Jan 17 2 6",
+    "checkedDate": "2026-11-23",
+    "notes": "The NH Fish and Game waterfowl table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "nh-goose-snow-inland-2026",
+    "state": "NH",
+    "species": "goose",
+    "seasonName": "Snow geese",
+    "zone": "Inland & CT River Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-13",
+        "close": "2026-11-11",
+        "note": null
+      },
+      {
+        "open": "2026-11-25",
+        "close": "2026-12-24",
+        "note": null
+      }
+    ],
+    "bagLimit": "25",
+    "possessionLimit": "None",
+    "agency": "NH Fish and Game",
+    "sourceTitle": "NH Fish and Game, Waterfowl and Migratory Bird Hunting in New Hampshire (2026-2027 seasons)",
+    "sourceUrl": "https://www.wildlife.nh.gov/hunting-nh/waterfowl-and-migratory-bird-hunting-new-hampshire",
+    "sourceQuote": "Snow Geese Oct 2 -Nov 30 Oct 13 -Nov 11 Nov 25 -Dec 24 Oct 6- Oct 12 Nov 26- Jan 17 25 NONE",
+    "checkedDate": "2026-11-23",
+    "notes": "The NH Fish and Game waterfowl table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "nh-duck-coastal-2026",
+    "state": "NH",
+    "species": "duck",
+    "seasonName": "Ducks (mergansers, coots and sea ducks on the same dates)",
+    "zone": "Coastal Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-06",
+        "close": "2026-10-12",
+        "note": null
+      },
+      {
+        "open": "2026-11-26",
+        "close": "2027-01-17",
+        "note": null
+      }
+    ],
+    "bagLimit": "6 ducks (mergansers 5 in addition; coots 15; sea ducks 4 within the duck bag)",
+    "possessionLimit": "18",
+    "agency": "NH Fish and Game",
+    "sourceTitle": "NH Fish and Game, Waterfowl and Migratory Bird Hunting in New Hampshire (2026-2027 seasons)",
+    "sourceUrl": "https://www.wildlife.nh.gov/hunting-nh/waterfowl-and-migratory-bird-hunting-new-hampshire",
+    "sourceQuote": "Species Northern Zone Inland & CT River Zone Coastal Zone Bag Limit Possession Limit | Ducks A Oct 2 -Nov 30 Oct 13 -Nov 11 Nov 25 -Dec 24 Oct 6- Oct 12 Nov 26- Jan 17 6 18 | Mergansers B Oct 2 -Nov 30 Oct 13 -Nov 11 Nov 25 -Dec 24 Oct 6- Oct 12 Nov 26- Jan 17 5 15 | Coots Oct 2 -Nov 30 Oct 13 -Nov 11 Nov 25 -Dec 24 Oct 6- Oct 12 Nov 26- Jan 17 15 45 | A- Includes all species of ducks, with the following restrictions: No more than 4 mallards (2 of which may be a hen), 2 black ducks, 3 wood ducks, 3 pintails, 2 canvasbacks, 2 redheads, 1 scaup",
+    "checkedDate": "2026-11-23",
+    "notes": "Youth Waterfowl Sep. 26-27, 2026; Veteran & Active Military Weekend Jan. 23-24, 2027 (not recorded). Shooting hours 1/2 hour before sunrise to sunset. The NH Fish and Game waterfowl table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "nh-goose-canada-coastal-2026",
+    "state": "NH",
+    "species": "goose",
+    "seasonName": "Canada geese (regular)",
+    "zone": "Coastal Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-06",
+        "close": "2026-10-12",
+        "note": null
+      },
+      {
+        "open": "2026-11-26",
+        "close": "2027-01-17",
+        "note": null
+      }
+    ],
+    "bagLimit": "2",
+    "possessionLimit": "6",
+    "agency": "NH Fish and Game",
+    "sourceTitle": "NH Fish and Game, Waterfowl and Migratory Bird Hunting in New Hampshire (2026-2027 seasons)",
+    "sourceUrl": "https://www.wildlife.nh.gov/hunting-nh/waterfowl-and-migratory-bird-hunting-new-hampshire",
+    "sourceQuote": "Canada Geese Oct 2 -Nov 30 Oct 13 -Nov 11 Nov 25 -Dec 24 Oct 6- Oct 12 Nov 26- Jan 17 2 6",
+    "checkedDate": "2026-11-23",
+    "notes": "The NH Fish and Game waterfowl table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "nh-goose-snow-coastal-2026",
+    "state": "NH",
+    "species": "goose",
+    "seasonName": "Snow geese",
+    "zone": "Coastal Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-06",
+        "close": "2026-10-12",
+        "note": null
+      },
+      {
+        "open": "2026-11-26",
+        "close": "2027-01-17",
+        "note": null
+      }
+    ],
+    "bagLimit": "25",
+    "possessionLimit": "None",
+    "agency": "NH Fish and Game",
+    "sourceTitle": "NH Fish and Game, Waterfowl and Migratory Bird Hunting in New Hampshire (2026-2027 seasons)",
+    "sourceUrl": "https://www.wildlife.nh.gov/hunting-nh/waterfowl-and-migratory-bird-hunting-new-hampshire",
+    "sourceQuote": "Snow Geese Oct 2 -Nov 30 Oct 13 -Nov 11 Nov 25 -Dec 24 Oct 6- Oct 12 Nov 26- Jan 17 25 NONE",
+    "checkedDate": "2026-11-23",
+    "notes": "The NH Fish and Game waterfowl table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "nh-goose-sept-2026",
+    "state": "NH",
+    "species": "goose",
+    "seasonName": "Canada geese (September season)",
+    "zone": "All zones",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-25",
+        "note": null
+      }
+    ],
+    "bagLimit": "5",
+    "possessionLimit": "15",
+    "agency": "NH Fish and Game",
+    "sourceTitle": "NH Fish and Game, Waterfowl and Migratory Bird Hunting in New Hampshire (2026-2027 seasons)",
+    "sourceUrl": "https://www.wildlife.nh.gov/hunting-nh/waterfowl-and-migratory-bird-hunting-new-hampshire",
+    "sourceQuote": "Canada Geese (SEP) Sep 1- Sep 25 Sep 1- Sep 25 Sep 1- Sep 25 5 15",
+    "checkedDate": "2026-11-23",
+    "notes": "The NH Fish and Game waterfowl table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "nh-woodcock-2026",
+    "state": "NH",
+    "species": "woodcock",
+    "seasonName": "Woodcock",
+    "zone": "All zones",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2026-11-14",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "NH Fish and Game",
+    "sourceTitle": "NH Fish and Game, Waterfowl and Migratory Bird Hunting in New Hampshire (2026-2027 seasons)",
+    "sourceUrl": "https://www.wildlife.nh.gov/hunting-nh/waterfowl-and-migratory-bird-hunting-new-hampshire",
+    "sourceQuote": "Woodcock Oct 1- Nov 14 Oct 1- Nov 14 Oct 1- Nov 14 3 9",
+    "checkedDate": "2026-11-23",
+    "notes": "The NH Fish and Game waterfowl table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "nh-snipe-2026",
+    "state": "NH",
+    "species": "snipe",
+    "seasonName": "Common snipe",
+    "zone": "All zones",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-15",
+        "close": "2026-11-14",
+        "note": null
+      }
+    ],
+    "bagLimit": "8",
+    "possessionLimit": "24",
+    "agency": "NH Fish and Game",
+    "sourceTitle": "NH Fish and Game, Waterfowl and Migratory Bird Hunting in New Hampshire (2026-2027 seasons)",
+    "sourceUrl": "https://www.wildlife.nh.gov/hunting-nh/waterfowl-and-migratory-bird-hunting-new-hampshire",
+    "sourceQuote": "Common Snipe Sep 15- Nov 14 Sep 15- Nov 14 Sep 15- Nov 14 8 24",
+    "checkedDate": "2026-11-23",
+    "notes": "The NH Fish and Game waterfowl table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "nh-pheasant-2026",
+    "state": "NH",
+    "species": "pheasant",
+    "seasonName": "Pheasant",
+    "zone": "All WMUs",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "2",
+    "possessionLimit": "Season limit 10",
+    "agency": "NH Fish and Game",
+    "sourceTitle": "NH Fish and Game, New Hampshire Hunting & Trapping Digest on eRegulations: 2026-2027 Small Game Hunting Seasons",
+    "sourceUrl": "https://www.eregulations.com/newhampshire/hunting/small-game-hunting-seasons",
+    "sourceQuote": "2026–2027 Small Game Hunting Seasons | Pheasant* Oct. 1–Dec. 31 All 2 10 | * Pheasant License required.",
+    "checkedDate": "2026-11-23",
+    "notes": "Season limit 10 (printed in the Season Limit column; possession not printed). Youth pheasant Sept. 26-27, 2026. Pheasant season closed until 2:00 PM on in-season stocking days (Oct. 8-9, 15-16, 22-23). The digest table prints month and day only for these rows; year 2026 from the 2026-2027 table. NH Fish and Game links to this eRegulations digest as its NH Hunting and Trapping Digest. "
+  },
+  {
+    "id": "nh-grouse-2026",
+    "state": "NH",
+    "species": "grouse",
+    "seasonName": "Ruffed grouse (partridge)",
+    "zone": "All WMUs",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "4",
+    "possessionLimit": null,
+    "agency": "NH Fish and Game",
+    "sourceTitle": "NH Fish and Game, New Hampshire Hunting & Trapping Digest on eRegulations: 2026-2027 Small Game Hunting Seasons",
+    "sourceUrl": "https://www.eregulations.com/newhampshire/hunting/small-game-hunting-seasons",
+    "sourceQuote": "Ruffed Grouse (Partridge) Oct. 1–Dec. 31 All 4 No",
+    "checkedDate": "2026-11-23",
+    "notes": "The digest table prints month and day only for these rows; year 2026 from the 2026-2027 table. NH Fish and Game links to this eRegulations digest as its NH Hunting and Trapping Digest. "
+  },
+  {
+    "id": "nh-quail-2026",
+    "state": "NH",
+    "species": "quail",
+    "seasonName": "Quail, chukar, Hungarian/European partridge",
+    "zone": "All WMUs",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "4",
+    "possessionLimit": null,
+    "agency": "NH Fish and Game",
+    "sourceTitle": "NH Fish and Game, New Hampshire Hunting & Trapping Digest on eRegulations: 2026-2027 Small Game Hunting Seasons",
+    "sourceUrl": "https://www.eregulations.com/newhampshire/hunting/small-game-hunting-seasons",
+    "sourceQuote": "Quail, Chukar, Hungarian/European Partridge Oct. 1–Dec. 31 All 4 No",
+    "checkedDate": "2026-11-23",
+    "notes": "Quail shares a row with chukar and partridge (combined key quail here). The digest table prints month and day only for these rows; year 2026 from the 2026-2027 table. NH Fish and Game links to this eRegulations digest as its NH Hunting and Trapping Digest. "
+  },
+  {
+    "id": "nh-turkey-fall-archery-a-2026",
+    "state": "NH",
+    "species": "turkey",
+    "seasonName": "Fall archery turkey season",
+    "zone": "WMU A",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-15",
+        "close": "2026-12-08",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 turkey (either sex), combined fall limit",
+    "possessionLimit": null,
+    "agency": "NH Fish and Game",
+    "sourceTitle": "NH Fish and Game, Turkey Hunting in New Hampshire",
+    "sourceUrl": "https://www.wildlife.nh.gov/hunting-nh/turkey-hunting-new-hampshire",
+    "sourceQuote": "Fall Archery (Sep 15- Dec 8) A Combined Limit 1 turkey (either sex)",
+    "checkedDate": "2026-11-23",
+    "notes": "Hunters who take 2 birds in spring forfeit the fall bird. The page prints month and day only for archery; year 2026 assigned. "
+  },
+  {
+    "id": "nh-turkey-fall-archery-bm-2026",
+    "state": "NH",
+    "species": "turkey",
+    "seasonName": "Fall archery turkey season",
+    "zone": "WMUs B-M",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-15",
+        "close": "2026-12-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 turkey (either sex), combined fall limit",
+    "possessionLimit": null,
+    "agency": "NH Fish and Game",
+    "sourceTitle": "NH Fish and Game, Turkey Hunting in New Hampshire",
+    "sourceUrl": "https://www.wildlife.nh.gov/hunting-nh/turkey-hunting-new-hampshire",
+    "sourceQuote": "Fall Archery (Sep 15- Dec 15) B-M Combined Limit 1 turkey (either sex)",
+    "checkedDate": "2026-11-23",
+    "notes": "The page prints month and day only for archery; year 2026 assigned. "
+  },
+  {
+    "id": "nh-turkey-fall-shotgun-2026",
+    "state": "NH",
+    "species": "turkey",
+    "seasonName": "Fall shotgun turkey season",
+    "zone": "WMUs D2, H1, H2, I1, J2, K, L, M",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-12",
+        "close": "2026-10-18",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 turkey (either sex), combined fall limit",
+    "possessionLimit": null,
+    "agency": "NH Fish and Game",
+    "sourceTitle": "NH Fish and Game, Turkey Hunting in New Hampshire",
+    "sourceUrl": "https://www.wildlife.nh.gov/hunting-nh/turkey-hunting-new-hampshire",
+    "sourceQuote": "Fall Shotgun (Oct 12-18, 2026) D2, H1, H2, I1, J2, K, L, M Combined Limit 1 turkey (either sex)",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed in the source."
+  },
+  {
+    "id": "nh-turkey-spring-2027",
+    "state": "NH",
+    "species": "turkey",
+    "seasonName": "Spring gobbler season",
+    "zone": "Statewide (second bird only in WMUs H1, H2, J2, K, L, M)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-05-01",
+        "close": "2027-05-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 or 2 male/bearded (one statewide; second only in H1, H2, J2, K, L or M)",
+    "possessionLimit": null,
+    "agency": "NH Fish and Game",
+    "sourceTitle": "NH Fish and Game, Dates and Seasons",
+    "sourceUrl": "https://www.wildlife.nh.gov/hunting-nh/dates-and-seasons",
+    "sourceQuote": "Spring Gobbler Season | May 1-May 31 annually",
+    "checkedDate": "2026-11-23",
+    "notes": "The Dates and Seasons page states the spring season runs May 1-31 annually, so 2027 is assigned from that rule. The 2027 youth turkey weekend is not yet published (the page still shows April 25-26, 2026). Bag from the Turkey Hunting page."
+  },
+  {
+    "id": "nh-deer-archery-a-2026",
+    "state": "NH",
+    "species": "deer",
+    "seasonName": "Archery deer season (any deer)",
+    "zone": "WMU A",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-15",
+        "close": "2026-12-08",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NH Fish and Game",
+    "sourceTitle": "NH Fish and Game, Deer Hunting in New Hampshire (2026 season dates)",
+    "sourceUrl": "https://www.wildlife.nh.gov/hunting-nh/deer-hunting-new-hampshire",
+    "sourceQuote": "Archery Dates | Any Deer (Sept. 15–Dec. 8) WMU A-Note: Archery deer season ends one week early.",
+    "checkedDate": "2026-11-23",
+    "notes": "Deer bag limits not printed on the page; null. The page prints month and day only for archery; year 2026 assigned. "
+  },
+  {
+    "id": "nh-deer-archery-bm-2026",
+    "state": "NH",
+    "species": "deer",
+    "seasonName": "Archery deer season (any deer)",
+    "zone": "WMUs B-M",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-15",
+        "close": "2026-12-15",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NH Fish and Game",
+    "sourceTitle": "NH Fish and Game, Deer Hunting in New Hampshire (2026 season dates)",
+    "sourceUrl": "https://www.wildlife.nh.gov/hunting-nh/deer-hunting-new-hampshire",
+    "sourceQuote": "Any Deer (Sept. 15–Dec. 15) B-M",
+    "checkedDate": "2026-11-23",
+    "notes": "Deer bag limits not printed on the page; null. The page prints month and day only for archery; year 2026 assigned. "
+  },
+  {
+    "id": "nh-deer-youth-2026",
+    "state": "NH",
+    "species": "deer",
+    "seasonName": "Youth deer weekend (any deer)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2026-10-25",
+        "note": "youth only"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NH Fish and Game",
+    "sourceTitle": "NH Fish and Game, Deer Hunting in New Hampshire (2026 season dates)",
+    "sourceUrl": "https://www.wildlife.nh.gov/hunting-nh/deer-hunting-new-hampshire",
+    "sourceQuote": "Youth Deer Weekend: | October 24 - 25, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed in the source."
+  },
+  {
+    "id": "nh-deer-muzzleloader-2026",
+    "state": "NH",
+    "species": "deer",
+    "seasonName": "Muzzleloader deer season",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-31",
+        "close": "2026-11-10",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NH Fish and Game",
+    "sourceTitle": "NH Fish and Game, Deer Hunting in New Hampshire (2026 season dates)",
+    "sourceUrl": "https://www.wildlife.nh.gov/hunting-nh/deer-hunting-new-hampshire",
+    "sourceQuote": "Muzzleloader: | October 31 - November 10, 2026 Statewide",
+    "checkedDate": "2026-11-23",
+    "notes": "Any-deer days vary by WMU (antlered only Oct. 31 - Nov. 10 in A, B, C1, C2, D1; any deer the whole season in L and M; 1-6 any-deer days elsewhere); see the 2026 Muzzleloader Dates table. Years as printed in the source."
+  },
+  {
+    "id": "nh-deer-firearms-a-2026",
+    "state": "NH",
+    "species": "deer",
+    "seasonName": "Regular firearms deer season",
+    "zone": "WMU A",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-11",
+        "close": "2026-11-29",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NH Fish and Game",
+    "sourceTitle": "NH Fish and Game, Deer Hunting in New Hampshire (2026 season dates)",
+    "sourceUrl": "https://www.wildlife.nh.gov/hunting-nh/deer-hunting-new-hampshire",
+    "sourceQuote": "Firearms: | November 11 - December 6, 2026 (closes November 29 in WMU A) | Any deer (Nov. 11) A",
+    "checkedDate": "2026-11-23",
+    "notes": "Any deer Nov. 11; antlered only Nov. 12-29. Years as printed in the source."
+  },
+  {
+    "id": "nh-deer-firearms-bm-2026",
+    "state": "NH",
+    "species": "deer",
+    "seasonName": "Regular firearms deer season",
+    "zone": "WMUs B-M",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-11",
+        "close": "2026-12-06",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NH Fish and Game",
+    "sourceTitle": "NH Fish and Game, Deer Hunting in New Hampshire (2026 season dates)",
+    "sourceUrl": "https://www.wildlife.nh.gov/hunting-nh/deer-hunting-new-hampshire",
+    "sourceQuote": "Firearms: | November 11 - December 6, 2026 (closes November 29 in WMU A)",
+    "checkedDate": "2026-11-23",
+    "notes": "Any-deer days vary by WMU: Nov. 11 only (B, C1, C2, D1); Nov. 11-12 (D2E, E, F, G2, I2); Nov. 11-13 (I1); Nov. 11-14 (J1, K); Nov. 11-15 (H1, H2, J2); Nov. 11-16 (D2W, G1); Nov. 11-22 (L, M); antlered only after. Years as printed in the source."
+  }
+]

@@ -1,0 +1,604 @@
+[
+  {
+    "id": "ma-deer-early-2026",
+    "state": "MA",
+    "species": "deer",
+    "seasonName": "Early Deer Season",
+    "zone": "Zones 13 & 14 only (Martha's Vineyard and Nantucket)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-21",
+        "close": "2026-10-01",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "MassWildlife",
+    "sourceTitle": "MassWildlife, 2026 Hunting and freshwater fishing season summary (Mass.gov)",
+    "sourceUrl": "https://www.mass.gov/info-details/2026-hunting-and-freshwater-fishing-season-summary",
+    "sourceQuote": "Deer hunting seasons | Early Deer Season | Zone 13 & 14 only | Sept. 21 – Oct. 1, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "Hunting is prohibited on Sundays. Deer bag limits are set by permit and zone (antlerless permits by lottery); null. Years as printed on the season summary page, except where noted."
+  },
+  {
+    "id": "ma-deer-archery-2026",
+    "state": "MA",
+    "species": "deer",
+    "seasonName": "Archery Deer Season",
+    "zone": "Zones 1-14",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-05",
+        "close": "2026-11-28",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "MassWildlife",
+    "sourceTitle": "MassWildlife, 2026 Hunting and freshwater fishing season summary (Mass.gov)",
+    "sourceUrl": "https://www.mass.gov/info-details/2026-hunting-and-freshwater-fishing-season-summary",
+    "sourceQuote": "Archery Deer Season | Zone 1-14 | Oct. 5 – Nov. 28, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "Youth Deer Hunt Oct. 2 and 3, 2026 (not recorded). Hunting is prohibited on Sundays. Deer bag limits are set by permit and zone (antlerless permits by lottery); null. Years as printed on the season summary page, except where noted."
+  },
+  {
+    "id": "ma-deer-shotgun-2026",
+    "state": "MA",
+    "species": "deer",
+    "seasonName": "Shotgun Deer Season",
+    "zone": "Zones 1-14",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-30",
+        "close": "2026-12-12",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "MassWildlife",
+    "sourceTitle": "MassWildlife, 2026 Hunting and freshwater fishing season summary (Mass.gov)",
+    "sourceUrl": "https://www.mass.gov/info-details/2026-hunting-and-freshwater-fishing-season-summary",
+    "sourceQuote": "Shotgun Deer Season | Zone 1-14 | Nov. 30 – Dec. 12, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "Hunting is prohibited on Sundays. Deer bag limits are set by permit and zone (antlerless permits by lottery); null. Years as printed on the season summary page, except where noted."
+  },
+  {
+    "id": "ma-deer-primitive-2026",
+    "state": "MA",
+    "species": "deer",
+    "seasonName": "Primitive Firearms Deer Season",
+    "zone": "Zones 1-14",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-14",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "MassWildlife",
+    "sourceTitle": "MassWildlife, 2026 Hunting and freshwater fishing season summary (Mass.gov)",
+    "sourceUrl": "https://www.mass.gov/info-details/2026-hunting-and-freshwater-fishing-season-summary",
+    "sourceQuote": "Primitive Firearms Deer Season | Zone 1-14 | Dec. 14–31",
+    "checkedDate": "2026-11-23",
+    "notes": "Year 2026 assigned (the row prints Dec. 14-31 without a year, in the 2026 summary). Winter deer season in Zones 13-14 Jan. 1 - Feb. 13, 2027 is on a separate MassWildlife page (not recorded here). Hunting is prohibited on Sundays. Deer bag limits are set by permit and zone (antlerless permits by lottery); null. "
+  },
+  {
+    "id": "ma-turkey-fall-2026",
+    "state": "MA",
+    "species": "turkey",
+    "seasonName": "Fall wild turkey season",
+    "zone": "Zones 1-13",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-05",
+        "close": "2026-11-28",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "MassWildlife",
+    "sourceTitle": "MassWildlife, 2026 Hunting and freshwater fishing season summary (Mass.gov)",
+    "sourceUrl": "https://www.mass.gov/info-details/2026-hunting-and-freshwater-fishing-season-summary",
+    "sourceQuote": "Wild turkey | Zones 1-13 | April 27 – May 23, 2026 | Oct. 5 – Nov. 28, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "The spring dates shown are spring 2026 (2025-26); spring 2027 dates are not yet on the page. Bag not printed in the summary; null. Hunting prohibited on Sundays. Years as printed on the season summary page, except where noted."
+  },
+  {
+    "id": "ma-pheasant-2026",
+    "state": "MA",
+    "species": "pheasant",
+    "seasonName": "Pheasant",
+    "zone": "Zones 1-14",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "MassWildlife",
+    "sourceTitle": "MassWildlife, 2026 Hunting and freshwater fishing season summary (Mass.gov)",
+    "sourceUrl": "https://www.mass.gov/info-details/2026-hunting-and-freshwater-fishing-season-summary",
+    "sourceQuote": "Pheasant | * | Zones 1-14 | Oct. 17 – Dec. 31, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "Closed during shotgun deer season. Youth pheasant hunts Sept. 5, 12, 19 and Oct. 3, 10, 2026. Bag not printed in the summary; null. Hunting prohibited on Sundays. Years as printed on the season summary page, except where noted."
+  },
+  {
+    "id": "ma-quail-2026",
+    "state": "MA",
+    "species": "quail",
+    "seasonName": "Quail",
+    "zone": "Zones 1-14",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "MassWildlife",
+    "sourceTitle": "MassWildlife, 2026 Hunting and freshwater fishing season summary (Mass.gov)",
+    "sourceUrl": "https://www.mass.gov/info-details/2026-hunting-and-freshwater-fishing-season-summary",
+    "sourceQuote": "Quail | * | Zones 1-14 | Oct. 17 – Dec. 31, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "Closed during shotgun deer season. Bag not printed in the summary; null. Hunting prohibited on Sundays. Years as printed on the season summary page, except where noted."
+  },
+  {
+    "id": "ma-grouse-2026",
+    "state": "MA",
+    "species": "grouse",
+    "seasonName": "Ruffed grouse",
+    "zone": "Zones 1-14",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2026-11-28",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "MassWildlife",
+    "sourceTitle": "MassWildlife, 2026 Hunting and freshwater fishing season summary (Mass.gov)",
+    "sourceUrl": "https://www.mass.gov/info-details/2026-hunting-and-freshwater-fishing-season-summary",
+    "sourceQuote": "Ruffed grouse | Zones 1-14 | Oct. 17 – Nov. 28, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag not printed in the summary; null. Hunting prohibited on Sundays. Years as printed on the season summary page, except where noted."
+  },
+  {
+    "id": "ma-woodcock-2026",
+    "state": "MA",
+    "species": "woodcock",
+    "seasonName": "American woodcock",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2026-11-21",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "MassWildlife",
+    "sourceTitle": "MassWildlife, Migratory game bird hunting regulations (Mass.gov), 2026-2027 seasons",
+    "sourceUrl": "https://www.mass.gov/info-details/migratory-game-bird-hunting-regulations",
+    "sourceQuote": "American woodcock | Oct. 1–Nov. 21 | 3 | 9",
+    "checkedDate": "2026-11-23",
+    "notes": "Hunting is prohibited on Sundays. The MassWildlife migratory bird tables prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ma-snipe-2026",
+    "state": "MA",
+    "species": "snipe",
+    "seasonName": "Snipe",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-12-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "8",
+    "possessionLimit": "24",
+    "agency": "MassWildlife",
+    "sourceTitle": "MassWildlife, Migratory game bird hunting regulations (Mass.gov), 2026-2027 seasons",
+    "sourceUrl": "https://www.mass.gov/info-details/migratory-game-bird-hunting-regulations",
+    "sourceQuote": "Snipe Sept. 1–Dec. 15 8 24",
+    "checkedDate": "2026-11-23",
+    "notes": "Hunting is prohibited on Sundays. The MassWildlife migratory bird tables prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ma-duck-berkshire-2026",
+    "state": "MA",
+    "species": "duck",
+    "seasonName": "Ducks, mergansers, sea ducks (and American coot)",
+    "zone": "Berkshire Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-12",
+        "close": "2026-11-28",
+        "note": null
+      },
+      {
+        "open": "2026-12-14",
+        "close": "2027-01-02",
+        "note": null
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 sea ducks, 5 mergansers; mallard 4 (2 females), wood duck 3, black duck 2, pintail 1, canvasback 2, redhead 2, scaup 1 (2 in Coastal Jan. 7-27)); coot 15",
+    "possessionLimit": "3 times the daily bag limit",
+    "agency": "MassWildlife",
+    "sourceTitle": "MassWildlife, Migratory game bird hunting regulations (Mass.gov), 2026-2027 seasons",
+    "sourceUrl": "https://www.mass.gov/info-details/migratory-game-bird-hunting-regulations",
+    "sourceQuote": "2026–2027 Duck seasons | Species Berkshire Central Coastal | Ducks, mergansers, sea ducks Oct. 12–Nov. 28 Dec. 14–Jan. 2 | Duck daily bag limit is 6 and may include: | No more than 4 sea ducks | Mallard: 4 (no more than 2 females) | Scaup: 1 all seasons/zones (except 2 in coastal zone, Jan. 7–27 only) | Possession limit is 3 times the daily bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "American coot has the same zone dates, bag 15, possession 45. Youth and Active Military/Veterans waterfowl hunts Sept. 26 and Oct. 3, 2026 (not recorded). Hunting is prohibited on Sundays. The MassWildlife migratory bird tables prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ma-duck-central-2026",
+    "state": "MA",
+    "species": "duck",
+    "seasonName": "Ducks, mergansers, sea ducks (and American coot)",
+    "zone": "Central Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2026-11-28",
+        "note": null
+      },
+      {
+        "open": "2026-12-15",
+        "close": "2027-01-02",
+        "note": null
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 sea ducks, 5 mergansers; mallard 4 (2 females), wood duck 3, black duck 2, pintail 1, canvasback 2, redhead 2, scaup 1 (2 in Coastal Jan. 7-27)); coot 15",
+    "possessionLimit": "3 times the daily bag limit",
+    "agency": "MassWildlife",
+    "sourceTitle": "MassWildlife, Migratory game bird hunting regulations (Mass.gov), 2026-2027 seasons",
+    "sourceUrl": "https://www.mass.gov/info-details/migratory-game-bird-hunting-regulations",
+    "sourceQuote": "2026–2027 Duck seasons | Species Berkshire Central Coastal | Oct. 12–Nov. 28 Dec. 14–Jan. 2 Oct. 10–Nov. 28 Dec. 15–Jan. 2 | Duck daily bag limit is 6 and may include: | No more than 4 sea ducks | Mallard: 4 (no more than 2 females) | Scaup: 1 all seasons/zones (except 2 in coastal zone, Jan. 7–27 only) | Possession limit is 3 times the daily bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "American coot has the same zone dates, bag 15, possession 45. Youth and Active Military/Veterans waterfowl hunts Sept. 26 and Oct. 3, 2026 (not recorded). Hunting is prohibited on Sundays. The MassWildlife migratory bird tables prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ma-duck-coastal-2026",
+    "state": "MA",
+    "species": "duck",
+    "seasonName": "Ducks, mergansers, sea ducks (and American coot)",
+    "zone": "Coastal Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-17",
+        "note": null
+      },
+      {
+        "open": "2026-11-27",
+        "close": "2027-01-27",
+        "note": null
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 sea ducks, 5 mergansers; mallard 4 (2 females), wood duck 3, black duck 2, pintail 1, canvasback 2, redhead 2, scaup 1 (2 in Coastal Jan. 7-27)); coot 15",
+    "possessionLimit": "3 times the daily bag limit",
+    "agency": "MassWildlife",
+    "sourceTitle": "MassWildlife, Migratory game bird hunting regulations (Mass.gov), 2026-2027 seasons",
+    "sourceUrl": "https://www.mass.gov/info-details/migratory-game-bird-hunting-regulations",
+    "sourceQuote": "2026–2027 Duck seasons | Species Berkshire Central Coastal | Dec. 15–Jan. 2 Oct. 10–Oct. 17 Nov. 27–Jan. 27 | Duck daily bag limit is 6 and may include: | No more than 4 sea ducks | Mallard: 4 (no more than 2 females) | Scaup: 1 all seasons/zones (except 2 in coastal zone, Jan. 7–27 only) | Possession limit is 3 times the daily bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "American coot has the same zone dates, bag 15, possession 45. Youth and Active Military/Veterans waterfowl hunts Sept. 26 and Oct. 3, 2026 (not recorded). Hunting is prohibited on Sundays. The MassWildlife migratory bird tables prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ma-goose-early-2026",
+    "state": "MA",
+    "species": "goose",
+    "seasonName": "Canada goose (early)",
+    "zone": "Statewide (Berkshire, Central and Coastal zones)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-25",
+        "note": null
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": "45",
+    "agency": "MassWildlife",
+    "sourceTitle": "MassWildlife, Migratory game bird hunting regulations (Mass.gov), 2026-2027 seasons",
+    "sourceUrl": "https://www.mass.gov/info-details/migratory-game-bird-hunting-regulations",
+    "sourceQuote": "Canada goose (early) Sept. 1–Sept. 25 Sept. 1–Sept. 25 Sept. 1–Sept. 25 15 45",
+    "checkedDate": "2026-11-23",
+    "notes": "Hunting is prohibited on Sundays. The MassWildlife migratory bird tables prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ma-goose-regular-berkshire-2026",
+    "state": "MA",
+    "species": "goose",
+    "seasonName": "Canada goose (regular)",
+    "zone": "Berkshire Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-12",
+        "close": "2026-11-28",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "MassWildlife",
+    "sourceTitle": "MassWildlife, Migratory game bird hunting regulations (Mass.gov), 2026-2027 seasons",
+    "sourceUrl": "https://www.mass.gov/info-details/migratory-game-bird-hunting-regulations",
+    "sourceQuote": "Canada goose (regular) Oct. 12–Nov. 28 Oct. 10–Nov. 28 Dec. 15–Jan. 2 Oct. 10–Oct. 17 Nov. 27–Jan. 27 3 (Berkshire) 2 (Central & Coastal) 9 (Berkshire) 6 (Central & Coastal)",
+    "checkedDate": "2026-11-23",
+    "notes": "Berkshire Canada goose season lengthened from 30 to 45 days and bag raised from 1 to 3 for 2026-27. Cackling and white-fronted geese count in the Canada goose limits. Hunting is prohibited on Sundays. The MassWildlife migratory bird tables prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ma-goose-regular-central-2026",
+    "state": "MA",
+    "species": "goose",
+    "seasonName": "Canada goose (regular)",
+    "zone": "Central Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2026-11-28",
+        "note": null
+      },
+      {
+        "open": "2026-12-15",
+        "close": "2027-01-02",
+        "note": null
+      }
+    ],
+    "bagLimit": "2",
+    "possessionLimit": "6",
+    "agency": "MassWildlife",
+    "sourceTitle": "MassWildlife, Migratory game bird hunting regulations (Mass.gov), 2026-2027 seasons",
+    "sourceUrl": "https://www.mass.gov/info-details/migratory-game-bird-hunting-regulations",
+    "sourceQuote": "Canada goose (regular) Oct. 12–Nov. 28 Oct. 10–Nov. 28 Dec. 15–Jan. 2 Oct. 10–Oct. 17 Nov. 27–Jan. 27 3 (Berkshire) 2 (Central & Coastal) 9 (Berkshire) 6 (Central & Coastal)",
+    "checkedDate": "2026-11-23",
+    "notes": "Cackling and white-fronted geese count in the Canada goose limits. Hunting is prohibited on Sundays. The MassWildlife migratory bird tables prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ma-goose-regular-coastal-2026",
+    "state": "MA",
+    "species": "goose",
+    "seasonName": "Canada goose (regular)",
+    "zone": "Coastal Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-17",
+        "note": null
+      },
+      {
+        "open": "2026-11-27",
+        "close": "2027-01-27",
+        "note": null
+      }
+    ],
+    "bagLimit": "2",
+    "possessionLimit": "6",
+    "agency": "MassWildlife",
+    "sourceTitle": "MassWildlife, Migratory game bird hunting regulations (Mass.gov), 2026-2027 seasons",
+    "sourceUrl": "https://www.mass.gov/info-details/migratory-game-bird-hunting-regulations",
+    "sourceQuote": "Canada goose (regular) Oct. 12–Nov. 28 Oct. 10–Nov. 28 Dec. 15–Jan. 2 Oct. 10–Oct. 17 Nov. 27–Jan. 27 3 (Berkshire) 2 (Central & Coastal) 9 (Berkshire) 6 (Central & Coastal)",
+    "checkedDate": "2026-11-23",
+    "notes": "Cackling and white-fronted geese count in the Canada goose limits. Hunting is prohibited on Sundays. The MassWildlife migratory bird tables prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ma-goose-late-berkshire-2026",
+    "state": "MA",
+    "species": "goose",
+    "seasonName": "Canada goose (late)",
+    "zone": "Berkshire Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-15",
+        "close": "2027-02-13",
+        "note": null
+      }
+    ],
+    "bagLimit": "5",
+    "possessionLimit": "15",
+    "agency": "MassWildlife",
+    "sourceTitle": "MassWildlife, Migratory game bird hunting regulations (Mass.gov), 2026-2027 seasons",
+    "sourceUrl": "https://www.mass.gov/info-details/migratory-game-bird-hunting-regulations",
+    "sourceQuote": "Canada goose (late) Dec. 15–Feb. 13 Jan. 16–Feb. 13 Jan. 28–Feb. 13* 5 15",
+    "checkedDate": "2026-11-23",
+    "notes": "Cackling and white-fronted geese count in the Canada goose limits. Hunting is prohibited on Sundays. The MassWildlife migratory bird tables prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ma-goose-late-central-2027",
+    "state": "MA",
+    "species": "goose",
+    "seasonName": "Canada goose (late)",
+    "zone": "Central Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-01-16",
+        "close": "2027-02-13",
+        "note": null
+      }
+    ],
+    "bagLimit": "5",
+    "possessionLimit": "15",
+    "agency": "MassWildlife",
+    "sourceTitle": "MassWildlife, Migratory game bird hunting regulations (Mass.gov), 2026-2027 seasons",
+    "sourceUrl": "https://www.mass.gov/info-details/migratory-game-bird-hunting-regulations",
+    "sourceQuote": "Canada goose (late) Dec. 15–Feb. 13 Jan. 16–Feb. 13 Jan. 28–Feb. 13* 5 15",
+    "checkedDate": "2026-11-23",
+    "notes": "Cackling and white-fronted geese count in the Canada goose limits. Hunting is prohibited on Sundays. The MassWildlife migratory bird tables prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ma-goose-late-coastal-2027",
+    "state": "MA",
+    "species": "goose",
+    "seasonName": "Canada goose (late)",
+    "zone": "North Coastal Zone only",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-01-28",
+        "close": "2027-02-13",
+        "note": null
+      }
+    ],
+    "bagLimit": "5",
+    "possessionLimit": "15",
+    "agency": "MassWildlife",
+    "sourceTitle": "MassWildlife, Migratory game bird hunting regulations (Mass.gov), 2026-2027 seasons",
+    "sourceUrl": "https://www.mass.gov/info-details/migratory-game-bird-hunting-regulations",
+    "sourceQuote": "Canada goose (late) Dec. 15–Feb. 13 Jan. 16–Feb. 13 Jan. 28–Feb. 13* 5 15 | North coastal zone only",
+    "checkedDate": "2026-11-23",
+    "notes": "Cackling and white-fronted geese count in the Canada goose limits. Hunting is prohibited on Sundays. The MassWildlife migratory bird tables prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ma-goose-snow-berkshire-2026",
+    "state": "MA",
+    "species": "goose",
+    "seasonName": "Snow goose",
+    "zone": "Berkshire Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-12",
+        "close": "2026-11-28",
+        "note": null
+      },
+      {
+        "open": "2026-12-14",
+        "close": "2027-01-02",
+        "note": null
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": "45",
+    "agency": "MassWildlife",
+    "sourceTitle": "MassWildlife, Migratory game bird hunting regulations (Mass.gov), 2026-2027 seasons",
+    "sourceUrl": "https://www.mass.gov/info-details/migratory-game-bird-hunting-regulations",
+    "sourceQuote": "Snow goose Oct. 12–Nov. 28 Dec. 14–Jan. 2 Oct. 10–Nov. 28 Dec. 15–Jan. 2 Oct. 10–Oct. 17 Nov. 27–Jan. 27 15 45",
+    "checkedDate": "2026-11-23",
+    "notes": "Ross' and blue geese count in the snow goose limits. No late snow goose season in Berkshire. Hunting is prohibited on Sundays. The MassWildlife migratory bird tables prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ma-goose-snow-central-2026",
+    "state": "MA",
+    "species": "goose",
+    "seasonName": "Snow goose",
+    "zone": "Central Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2026-11-28",
+        "note": null
+      },
+      {
+        "open": "2026-12-15",
+        "close": "2027-01-02",
+        "note": null
+      },
+      {
+        "open": "2027-01-16",
+        "close": "2027-02-13",
+        "note": "late season"
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": "45",
+    "agency": "MassWildlife",
+    "sourceTitle": "MassWildlife, Migratory game bird hunting regulations (Mass.gov), 2026-2027 seasons",
+    "sourceUrl": "https://www.mass.gov/info-details/migratory-game-bird-hunting-regulations",
+    "sourceQuote": "Snow goose Oct. 12–Nov. 28 Dec. 14–Jan. 2 Oct. 10–Nov. 28 Dec. 15–Jan. 2 Oct. 10–Oct. 17 Nov. 27–Jan. 27 15 45 | Snow goose (late) -— Jan. 16–Feb. 13 Jan. 28–Feb. 13* 15 45",
+    "checkedDate": "2026-11-23",
+    "notes": "Ross' and blue geese count in the snow goose limits. Hunting is prohibited on Sundays. The MassWildlife migratory bird tables prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ma-goose-snow-coastal-2026",
+    "state": "MA",
+    "species": "goose",
+    "seasonName": "Snow goose",
+    "zone": "Coastal Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-17",
+        "note": null
+      },
+      {
+        "open": "2026-11-27",
+        "close": "2027-01-27",
+        "note": null
+      },
+      {
+        "open": "2027-01-28",
+        "close": "2027-02-13",
+        "note": "late season, north coastal zone only"
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": "45",
+    "agency": "MassWildlife",
+    "sourceTitle": "MassWildlife, Migratory game bird hunting regulations (Mass.gov), 2026-2027 seasons",
+    "sourceUrl": "https://www.mass.gov/info-details/migratory-game-bird-hunting-regulations",
+    "sourceQuote": "Snow goose Oct. 12–Nov. 28 Dec. 14–Jan. 2 Oct. 10–Nov. 28 Dec. 15–Jan. 2 Oct. 10–Oct. 17 Nov. 27–Jan. 27 15 45 | Snow goose (late) -— Jan. 16–Feb. 13 Jan. 28–Feb. 13* 15 45 | North coastal zone only",
+    "checkedDate": "2026-11-23",
+    "notes": "Ross' and blue geese count in the snow goose limits. Hunting is prohibited on Sundays. The MassWildlife migratory bird tables prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ma-deer-winter-z13-14-2027",
+    "state": "MA",
+    "species": "deer",
+    "seasonName": "Winter Deer Season",
+    "zone": "Zones 13 & 14 (Martha's Vineyard, Elizabeth Islands, Nantucket)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-01-01",
+        "close": "2027-02-13",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 additional deer of either sex with the free Winter Deer Permit, plus valid 2027 antlered tags and antlerless permits",
+    "possessionLimit": null,
+    "agency": "MassWildlife",
+    "sourceTitle": "MassWildlife, Deer hunting on Martha's Vineyard and Nantucket (Mass.gov)",
+    "sourceUrl": "https://www.mass.gov/info-details/deer-hunting-on-marthas-vineyard-and-nantucket",
+    "sourceQuote": "The Winter Deer Season in zone 13 and 14 is open January 1 – February 13, 2027. | Licensed hunters may use archery equipment or primitive firearms during the winter deer season; no archery or primitive stamps are needed. | You can get one free Winter Deer Permit*, which allows you to take 1 additional deer of either sex to be used only during the Winter Deer Season in zones 13 and 14 only.",
+    "checkedDate": "2026-11-23",
+    "notes": "Archery or primitive firearms only; 2027 hunting or sporting license required (on sale Dec. 1, 2026). Unlimited 2027 antlerless permits for Zones 13 and 14. 500 square inches of blaze orange required. Years as printed in the source."
+  }
+]

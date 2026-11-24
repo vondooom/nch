@@ -4,6 +4,7 @@ import ar from "@/data/seasons/ar.json";
 import az from "@/data/seasons/az.json";
 import ca from "@/data/seasons/ca.json";
 import co from "@/data/seasons/co.json";
+import ct from "@/data/seasons/ct.json";
 import de from "@/data/seasons/de.json";
 import fl from "@/data/seasons/fl.json";
 import ga from "@/data/seasons/ga.json";
@@ -15,7 +16,9 @@ import inRecords from "@/data/seasons/in.json";
 import ks from "@/data/seasons/ks.json";
 import ky from "@/data/seasons/ky.json";
 import la from "@/data/seasons/la.json";
+import ma from "@/data/seasons/ma.json";
 import md from "@/data/seasons/md.json";
+import me from "@/data/seasons/me.json";
 import mi from "@/data/seasons/mi.json";
 import mo from "@/data/seasons/mo.json";
 import ms from "@/data/seasons/ms.json";
@@ -23,6 +26,7 @@ import mn from "@/data/seasons/mn.json";
 import mt from "@/data/seasons/mt.json";
 import nc from "@/data/seasons/nc.json";
 import nd from "@/data/seasons/nd.json";
+import nh from "@/data/seasons/nh.json";
 import nj from "@/data/seasons/nj.json";
 import ny from "@/data/seasons/ny.json";
 import ne from "@/data/seasons/ne.json";
@@ -31,12 +35,14 @@ import nv from "@/data/seasons/nv.json";
 import oh from "@/data/seasons/oh.json";
 import ok from "@/data/seasons/ok.json";
 import orRecords from "@/data/seasons/or.json";
+import ri from "@/data/seasons/ri.json";
 import pa from "@/data/seasons/pa.json";
 import sc from "@/data/seasons/sc.json";
 import sd from "@/data/seasons/sd.json";
 import tn from "@/data/seasons/tn.json";
 import tx from "@/data/seasons/tx.json";
 import ut from "@/data/seasons/ut.json";
+import vt from "@/data/seasons/vt.json";
 import va from "@/data/seasons/va.json";
 import wa from "@/data/seasons/wa.json";
 import wv from "@/data/seasons/wv.json";
@@ -90,6 +96,12 @@ const files = [
   ["wv.json", wv],
   ["ak.json", ak],
   ["hi.json", hi],
+  ["ct.json", ct],
+  ["me.json", me],
+  ["ma.json", ma],
+  ["nh.json", nh],
+  ["ri.json", ri],
+  ["vt.json", vt],
 ] as const;
 
 const loaded = files.map(([file, rows]) => validateSeasonFile(rows, file));
@@ -143,4 +155,10 @@ export const seasonStateCode: Record<string, string> = {
   "west-virginia": "WV",
   alaska: "AK",
   hawaii: "HI",
+  connecticut: "CT",
+  maine: "ME",
+  massachusetts: "MA",
+  "new-hampshire": "NH",
+  "rhode-island": "RI",
+  vermont: "VT",
 };

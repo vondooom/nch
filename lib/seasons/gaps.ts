@@ -414,6 +414,94 @@ export const unlistedBigGame: Record<string, { species: string; line: string; li
       line: "There is no 2026-27 fall turkey season, and spring 2027 is not announced yet.",
     },
   ],
+  connecticut: [
+    {
+      species: "Deer",
+      line: "State-land deer lotteries and the landowner season are not listed here. The January 2027 archery extension in Zones 11 and 12 will appear in the 2027 guide.",
+    },
+    {
+      species: "Pheasant",
+      line: "The January and February 2027 pheasant segment will appear in the 2027 guide and is not listed here.",
+    },
+    {
+      species: "Turkey",
+      line: "Spring turkey 2027 is not published yet, so it is not listed here.",
+    },
+    {
+      species: "Dove",
+      line: "No dove season is listed in the sources used here.",
+    },
+  ],
+  maine: [
+    {
+      species: "Moose",
+      line: "Moose permits are by lottery, so season dates are not listed here.",
+    },
+    {
+      species: "Deer",
+      line: "Antlerless permits and the expanded archery season are not listed here.",
+    },
+    {
+      species: "Dove",
+      line: "No dove season is listed in the sources used here.",
+    },
+  ],
+  massachusetts: [
+    {
+      species: "Turkey",
+      line: "Spring turkey 2027 is not published yet, so it is not listed here.",
+    },
+    {
+      species: "Dove",
+      line: "No dove season is listed in the sources used here.",
+    },
+  ],
+  "new-hampshire": [
+    {
+      species: "Moose",
+      line: "Moose permits are by lottery, so season dates are not listed here.",
+    },
+    {
+      species: "Deer",
+      line: "Special antlerless permits in WMUs L and M are not listed here.",
+    },
+    {
+      species: "Turkey",
+      line: "The 2027 youth turkey weekend is not published yet, so it is not listed here.",
+    },
+    {
+      species: "Dove",
+      line: "No dove season is listed in the sources used here.",
+    },
+  ],
+  "rhode-island": [
+    {
+      species: "Deer",
+      line: "Zone 4 (Block Island) is a day-by-day calendar, and the Zone 3 disabled hunter season is not listed here.",
+    },
+    {
+      species: "Grouse",
+      line: "Ruffed grouse is closed, so it is not listed here.",
+    },
+  ],
+  vermont: [
+    {
+      species: "Moose",
+      line: "Moose permits are by lottery, so season dates are not listed here.",
+    },
+    {
+      species: "Deer",
+      line: "The October muzzleloader antlerless permit season and expanded archery are not listed here.",
+    },
+    {
+      species: "Turkey",
+      line: "Spring turkey 2027 is not published yet, so it is not listed here.",
+    },
+    {
+      species: "Dove",
+      line: "No dove season is listed in the sources used here.",
+    },
+  ],
   wisconsin: [
     {
       species: "Deer",

@@ -1,19 +1,27 @@
 import type { Metadata } from "next";
-import { Barlow, Barlow_Condensed } from "next/font/google";
 import localFont from "next/font/local";
 import { siteUrl } from "@/lib/site";
 import "./globals.css";
 
-const barlow = Barlow({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+const barlow = localFont({
+  src: [
+    { path: "./fonts/barlow-latin-400-normal.woff2", weight: "400", style: "normal" },
+    { path: "./fonts/barlow-latin-500-normal.woff2", weight: "500", style: "normal" },
+    { path: "./fonts/barlow-latin-600-normal.woff2", weight: "600", style: "normal" },
+    { path: "./fonts/barlow-latin-700-normal.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-sans",
+  display: "swap",
 });
 
-const heading = Barlow_Condensed({
-  subsets: ["latin"],
-  weight: ["500", "600", "700"],
+const heading = localFont({
+  src: [
+    { path: "./fonts/barlow-condensed-latin-500-normal.woff2", weight: "500", style: "normal" },
+    { path: "./fonts/barlow-condensed-latin-600-normal.woff2", weight: "600", style: "normal" },
+    { path: "./fonts/barlow-condensed-latin-700-normal.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-heading",
+  display: "swap",
 });
 
 const serif = localFont({
