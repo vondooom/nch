@@ -13,6 +13,7 @@ const loaders: Record<DeerElkState, () => Promise<{ default: unknown }>> = {
   idaho: () => import("@/data/seasons/id-deer-elk.json"),
   wyoming: () => import("@/data/seasons/wy-deer-elk.json"),
   colorado: () => import("@/data/seasons/co-deer-elk.json"),
+  montana: () => import("@/data/seasons/mt-deer-elk.json"),
 };
 
 function sourceFragments(quote: string) {
@@ -151,7 +152,7 @@ export function DeerElkBrowser({
       </label>
       {records === null ? <p className="font-serif text-[16px] text-[#5C543F]">Loading seasons.</p> : null}
       {records && groups.length === 0 ? (
-        <p className="font-serif text-[16px] text-[#5C543F]">No unit or hunt area matches that number.</p>
+        <p className="font-serif text-[16px] text-[#5C543F]">{page.emptyLabel}</p>
       ) : null}
       {records ? (
         <p className="mb-4 font-serif text-[15px] text-[#5C543F]">
