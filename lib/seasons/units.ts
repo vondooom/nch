@@ -6,10 +6,13 @@ export function unitTokens(zone: string) {
 /**
  * A numeric search matches that unit number exactly.
  * "2" matches "Units 1, 2, 3" and does not match 12 or 20.
+ * "10" matches "Unit 10" and does not match "Unit 11" or "HD 100".
  * "4a" matches 4A only.
+ * A name search matches the unit text, such as "Zion" or "Beaver".
  */
 export function zoneMatchesUnit(zone: string, query: string) {
   const q = query.trim().toLowerCase();
   if (!q) return true;
-  return unitTokens(zone).some((token) => token === q);
+  if (/^\d+[a-z]*$/.test(q)) return unitTokens(zone).some((token) => token === q);
+  return zone.toLowerCase().includes(q);
 }

@@ -42,10 +42,21 @@ export default async function DeerElkPage({ params }: { params: Promise<{ state:
         <p className="mb-3 max-w-[640px] font-serif text-[17px] leading-relaxed text-[#5C543F]">{page.lede}</p>
         {"drawLine" in page ? (
           <p className="mb-3 max-w-[640px] font-serif text-[17px] leading-relaxed text-[#5C543F]">
-            {page.drawLine}{" "}
-            <a className="text-[#C75B12] underline" href={page.drawHref}>
-              {page.drawLabel}
-            </a>
+            {page.drawLine}
+            {"drawHref" in page ? (
+              <>
+                {" "}
+                {page.drawHref.startsWith("/") ? (
+                  <Link className="text-[#C75B12] underline" href={page.drawHref}>
+                    {page.drawLabel}
+                  </Link>
+                ) : (
+                  <a className="text-[#C75B12] underline" href={page.drawHref}>
+                    {page.drawLabel}
+                  </a>
+                )}
+              </>
+            ) : null}
           </p>
         ) : null}
         <p className="mb-4 font-serif text-[16px] font-medium text-[#1C2B1A]">Confirm with the agency before you hunt.</p>

@@ -38,6 +38,26 @@ export const deerElkPages = {
     emptyLabel: "No hunting district matches that number.",
     groupLabel: "district groups",
   },
+  utah: {
+    title: "Utah elk by unit",
+    lede: "These are Utah's general-season elk licenses by unit.",
+    drawLine: "Deer permits are drawn by unit. Statewide dates are on the",
+    drawHref: "/hunt/utah",
+    drawLabel: "Utah page.",
+    searchLabel: "Unit",
+    searchPlaceholder: "For example, Zion",
+    emptyLabel: "No unit matches that name.",
+    groupLabel: "unit groups",
+  },
+  oregon: {
+    title: "Oregon deer and elk by unit",
+    lede: "These are Oregon's deer and elk seasons by unit (WMU).",
+    drawLine: "Eastern Oregon deer is draw-only by hunt area from 2026.",
+    searchLabel: "Unit (WMU)",
+    searchPlaceholder: "For example, 10",
+    emptyLabel: "No unit matches that number.",
+    groupLabel: "unit groups",
+  },
 } as const;
 
 export type DeerElkState = keyof typeof deerElkPages;
