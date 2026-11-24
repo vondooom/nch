@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import Link from "next/link";
 import { formatIsoDate, formatPeriod, isOpenNow, type SeasonRecord } from "@/lib/seasons";
 import { calendarDateInTimeZone } from "@/lib/seasons/open";
 
@@ -48,6 +49,22 @@ function emptyPeriodLabel(record: SeasonRecord) {
 
 function sourceFragments(quote: string) {
   return quote.includes(" | ") ? quote.split(" | ") : [quote];
+}
+
+const districtPagePhrase = "Montana deer and elk by district page";
+
+function noteText(notes: string) {
+  const index = notes.indexOf(districtPagePhrase);
+  if (index < 0) return notes;
+  return (
+    <>
+      {notes.slice(0, index)}
+      <Link className="text-[#C75B12] underline" href="/hunt/montana/deer-elk">
+        {districtPagePhrase}
+      </Link>
+      {notes.slice(index + districtPagePhrase.length)}
+    </>
+  );
 }
 
 export function SeasonList({
@@ -115,7 +132,7 @@ export function SeasonList({
                         <div className="font-heading text-[13px] font-semibold uppercase tracking-[0.12em] text-[#8A8163]">
                           Source notes
                         </div>
-                        <p className="mt-1 font-serif text-[14px] leading-relaxed text-[#5C543F]">{record.notes}</p>
+                        <p className="mt-1 font-serif text-[14px] leading-relaxed text-[#5C543F]">{noteText(record.notes)}</p>
                       </div>
                     ) : null}
                   </details>
