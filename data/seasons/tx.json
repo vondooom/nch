@@ -1,0 +1,796 @@
+[
+  {
+    "id": "tx-teal-september-2026",
+    "state": "TX",
+    "species": "duck",
+    "seasonName": "September Teal Only Season",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-27",
+        "note": "teal only"
+      }
+    ],
+    "bagLimit": "6 birds (blue-winged, green-winged, cinnamon teal)",
+    "possessionLimit": "Three times daily bag limit",
+    "agency": "TPWD",
+    "sourceTitle": "TPWD Outdoor Annual, Teal (2026-2027 Seasons & Regulations)",
+    "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/blue-winged-green-winged-and-cinnamon-teal",
+    "sourceQuote": "September Teal Only Season Statewide Sept. 19 - 27, 2026 | Early Teal 6 birds | May include: blue-winged green-winged cinnamon teal Three times daily bag limit",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed on the page."
+  },
+  {
+    "id": "tx-duck-hpmmu-2026",
+    "state": "TX",
+    "species": "duck",
+    "seasonName": "Duck, High Plains Mallard Management Unit",
+    "zone": "High Plains Mallard Management Unit",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-18",
+        "note": "youth-only (16 or younger)"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-18",
+        "note": "veterans and active duty military"
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2026-10-25",
+        "note": "regular season, first segment (dusky duck dates: Oct. 31, 2026 - Jan. 31, 2027)"
+      },
+      {
+        "open": "2026-10-30",
+        "close": "2027-01-31",
+        "note": "regular season, second segment"
+      }
+    ],
+    "bagLimit": "6 in the aggregate, including mergansers (no more than 5 mallards, only 2 hens; 3 wood ducks; 3 pintails; 2 redheads; 2 canvasback; 1 scaup; 1 \"dusky\" duck); coot 15",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "TPWD",
+    "sourceTitle": "TPWD Outdoor Annual, Duck (2026-2027 Seasons & Regulations)",
+    "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/duck",
+    "sourceQuote": "Youth-Only High Plains Mallard Management Unit Oct. 17 - 18, 2026 | Regular Season High Plains Mallard Management Unit Oct. 24 - 25, 2026 Oct. 30, 2026 - Jan. 31, 2027 | \"Dusky\" Duck High Plains Mallard Management Unit Oct. 31, 2026 - Jan. 31, 2027 | High Plains Mallard Management Unit West of a line from the International Toll Bridge at Del Rio, north along U.S. Hwy. 277 to Abilene | Regular Duck 6 in the aggregate (includes mergansers) Includes no more than: 5 mallards (only two of which may be hens) 3 wood ducks 3 pintails 2 redheads 2 canvasback 1 scaup 1 \"dusky\" duck (mottled duck, Mexican duck, black duck, and their hybrids are closed the first five days of the season in each zone) | Coot 15 Possession Limit Three times the daily bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "\"Dusky\" ducks (mottled, Mexican, black duck and hybrids) are closed the first five days of the regular season in each zone; the dusky duck dates are recorded as a period note. Years as printed on the page."
+  },
+  {
+    "id": "tx-duck-north-2026",
+    "state": "TX",
+    "species": "duck",
+    "seasonName": "Duck, North Zone",
+    "zone": "North Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-08",
+        "note": "youth-only (16 or younger)"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-08",
+        "note": "veterans and active duty military"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-11-29",
+        "note": "regular season, first segment (dusky duck dates: Nov. 19 - 29, 2026; Dec. 5, 2026 - Jan. 31, 2027)"
+      },
+      {
+        "open": "2026-12-05",
+        "close": "2027-01-31",
+        "note": "regular season, second segment"
+      },
+      {
+        "open": "2027-02-01",
+        "close": "2027-02-21",
+        "note": "falconry only (3 daily, 9 possession)"
+      }
+    ],
+    "bagLimit": "6 in the aggregate, including mergansers (no more than 5 mallards, only 2 hens; 3 wood ducks; 3 pintails; 2 redheads; 2 canvasback; 1 scaup; 1 \"dusky\" duck); coot 15",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "TPWD",
+    "sourceTitle": "TPWD Outdoor Annual, Duck (2026-2027 Seasons & Regulations)",
+    "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/duck",
+    "sourceQuote": "North Zone Nov. 7 - 8, 2026 | North Zone Nov. 14 - 29, 2026 Dec. 5, 2026 - Jan. 31, 2027 | North Zone Nov. 19 - 29, 2026 Dec. 5, 2026 - Jan. 31, 2027 | Falconry North Zone Feb. 1 - 21, 2027 | North Zone Remainder of the state. | Regular Duck 6 in the aggregate (includes mergansers) Includes no more than: 5 mallards (only two of which may be hens) 3 wood ducks 3 pintails 2 redheads 2 canvasback 1 scaup 1 \"dusky\" duck (mottled duck, Mexican duck, black duck, and their hybrids are closed the first five days of the season in each zone) | Coot 15 Possession Limit Three times the daily bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "\"Dusky\" ducks (mottled, Mexican, black duck and hybrids) are closed the first five days of the regular season in each zone; the dusky duck dates are recorded as a period note. Years as printed on the page."
+  },
+  {
+    "id": "tx-duck-south-2026",
+    "state": "TX",
+    "species": "duck",
+    "seasonName": "Duck, South Zone",
+    "zone": "South Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-31",
+        "close": "2026-11-01",
+        "note": "youth-only (16 or younger)"
+      },
+      {
+        "open": "2026-10-31",
+        "close": "2026-11-01",
+        "note": "veterans and active duty military"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-29",
+        "note": "regular season, first segment (dusky duck dates: Nov. 12 - 29, 2026; Dec. 12, 2026 - Jan. 31, 2027)"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-01-31",
+        "note": "regular season, second segment"
+      },
+      {
+        "open": "2027-02-01",
+        "close": "2027-02-21",
+        "note": "falconry only (3 daily, 9 possession)"
+      }
+    ],
+    "bagLimit": "6 in the aggregate, including mergansers (no more than 5 mallards, only 2 hens; 3 wood ducks; 3 pintails; 2 redheads; 2 canvasback; 1 scaup; 1 \"dusky\" duck); coot 15",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "TPWD",
+    "sourceTitle": "TPWD Outdoor Annual, Duck (2026-2027 Seasons & Regulations)",
+    "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/duck",
+    "sourceQuote": "South Zone Oct. 31 - Nov. 1, 2026 | South Zone Nov. 7 - 29, 2026 Dec. 12, 2026 - Jan. 31, 2027 | South Zone Nov. 12 - 29, 2026 Dec. 12, 2026 - Jan. 31, 2027 | South Zone Feb. 1 - 21, 2027 | South Zone South of a line from the International Bridge and U.S. 277 Spur at Del Rio, east along U.S. 90 to San Antonio, east along IH 10 to the Texas-Louisiana state line. | Regular Duck 6 in the aggregate (includes mergansers) Includes no more than: 5 mallards (only two of which may be hens) 3 wood ducks 3 pintails 2 redheads 2 canvasback 1 scaup 1 \"dusky\" duck (mottled duck, Mexican duck, black duck, and their hybrids are closed the first five days of the season in each zone) | Coot 15 Possession Limit Three times the daily bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "\"Dusky\" ducks (mottled, Mexican, black duck and hybrids) are closed the first five days of the regular season in each zone; the dusky duck dates are recorded as a period note. Years as printed on the page."
+  },
+  {
+    "id": "tx-goose-dark-west-2026",
+    "state": "TX",
+    "species": "goose",
+    "seasonName": "Dark Geese, Western Zone",
+    "zone": "Western Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2027-02-07",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 dark geese in the aggregate",
+    "possessionLimit": "3 times daily bag",
+    "agency": "TPWD",
+    "sourceTitle": "TPWD Outdoor Annual, Goose (2026-2027 Seasons & Regulations)",
+    "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/goose",
+    "sourceQuote": "Dark Geese Western Zone Nov. 7, 2026 - Feb. 7, 2027 | Western Zone Bag Limits Animal Daily Bag Limit Daily Bag Aggregate Possession Limit Dark Geese Limits 5 birds In the aggregate 3 times daily bag | Western Zone West of a line from the International Toll Bridge at Laredo, north following IH-35 and 35W to Fort Worth",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed on the page."
+  },
+  {
+    "id": "tx-goose-light-west-2026",
+    "state": "TX",
+    "species": "goose",
+    "seasonName": "Light Geese, Western Zone",
+    "zone": "Western Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2027-02-07",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 light geese in the aggregate",
+    "possessionLimit": "3 times daily bag",
+    "agency": "TPWD",
+    "sourceTitle": "TPWD Outdoor Annual, Goose (2026-2027 Seasons & Regulations)",
+    "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/goose",
+    "sourceQuote": "Light Geese Western Zone Nov. 7, 2026 - Feb. 7, 2027 | Light Geese Limits 5 birds In the aggregate 3 times daily bag",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed on the page. No light goose conservation order dates are printed on the goose page."
+  },
+  {
+    "id": "tx-goose-early-canada-east-2026",
+    "state": "TX",
+    "species": "goose",
+    "seasonName": "Early Canada Geese Season, Eastern Zone",
+    "zone": "Eastern Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-09-27",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 in the aggregate",
+    "possessionLimit": "3 times daily bag",
+    "agency": "TPWD",
+    "sourceTitle": "TPWD Outdoor Annual, Goose (2026-2027 Seasons & Regulations)",
+    "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/goose",
+    "sourceQuote": "Early Canada Geese Season Eastern Zone Sept. 12 - 27, 2026 | Eastern Zone Bag Limits Animal Daily Bag Limit Daily Bag Aggregate Possession Limit Early Canada Geese Limits 5 birds In the aggregate 3 times daily bag | Eastern Zone Remainder of the state.",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed on the page."
+  },
+  {
+    "id": "tx-goose-dark-east-2026",
+    "state": "TX",
+    "species": "goose",
+    "seasonName": "Dark Geese, Eastern Zone",
+    "zone": "Eastern Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 dark geese (no more than 2 white-fronted geese)",
+    "possessionLimit": "3 times daily bag",
+    "agency": "TPWD",
+    "sourceTitle": "TPWD Outdoor Annual, Goose (2026-2027 Seasons & Regulations)",
+    "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/goose",
+    "sourceQuote": "Eastern Zone Nov. 7, 2026 - Jan. 31, 2027 | Dark Geese Limits 5 birds No more than 2 white-fronted geese 3 times daily bag",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed on the page."
+  },
+  {
+    "id": "tx-goose-light-east-2026",
+    "state": "TX",
+    "species": "goose",
+    "seasonName": "Light Geese, Eastern Zone",
+    "zone": "Eastern Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2027-02-19",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 light geese in the aggregate",
+    "possessionLimit": "3 times daily bag",
+    "agency": "TPWD",
+    "sourceTitle": "TPWD Outdoor Annual, Goose (2026-2027 Seasons & Regulations)",
+    "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/goose",
+    "sourceQuote": "Light Geese Western Zone Nov. 7, 2026 - Feb. 7, 2027 Eastern Zone Nov. 7, 2026 - Feb. 19, 2027 | Light Geese Limits 5 birds In the aggregate 3 times daily bag",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed on the page. No light goose conservation order dates are printed on the goose page."
+  },
+  {
+    "id": "tx-dove-north-2026",
+    "state": "TX",
+    "species": "dove",
+    "seasonName": "Dove, North Zone",
+    "zone": "North Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-11-08",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-12-18",
+        "close": "2027-01-07",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "15 birds (no more than 2 white-tipped)",
+    "possessionLimit": "3 times daily bag",
+    "agency": "TPWD",
+    "sourceTitle": "TPWD Outdoor Annual, Dove (2026-2027 Seasons & Regulations)",
+    "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/dove",
+    "sourceQuote": "Regular Season North Zone Sept. 1 - Nov. 8, 2026 Dec. 18, 2026 - Jan. 7, 2027 | North Zone 15 birds No more than 2 white-tipped 3 times daily bag | North Zone That portion of the state north of a line beginning at the International Bridge south of Fort Hancock",
+    "checkedDate": "2026-11-23",
+    "notes": "Mourning, white-winged and white-tipped doves. The 2026-27 page lists North, Central and South zones only; TPWD's New This Year page says Special White-winged Dove Days were eliminated and the South Zone regular season now starts Sept. 1. Eurasian collared-doves have no closed season or bag limit. Years as printed on the page."
+  },
+  {
+    "id": "tx-dove-central-2026",
+    "state": "TX",
+    "species": "dove",
+    "seasonName": "Dove, Central Zone",
+    "zone": "Central Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-10-25",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-12-11",
+        "close": "2027-01-14",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "15 birds (no more than 2 white-tipped)",
+    "possessionLimit": "3 times daily bag",
+    "agency": "TPWD",
+    "sourceTitle": "TPWD Outdoor Annual, Dove (2026-2027 Seasons & Regulations)",
+    "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/dove",
+    "sourceQuote": "Central Zone Sept. 1 - Oct. 25, 2026 Dec. 11, 2026 - Jan. 14, 2027 | Central Zone 15 birds No more than 2 white-tipped 3 times daily bag | Central Zone That portion of the state between the North Zone and the South Zone.",
+    "checkedDate": "2026-11-23",
+    "notes": "Mourning, white-winged and white-tipped doves. The 2026-27 page lists North, Central and South zones only; TPWD's New This Year page says Special White-winged Dove Days were eliminated and the South Zone regular season now starts Sept. 1. Eurasian collared-doves have no closed season or bag limit. Years as printed on the page."
+  },
+  {
+    "id": "tx-dove-south-2026",
+    "state": "TX",
+    "species": "dove",
+    "seasonName": "Dove, South Zone",
+    "zone": "South Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-10-25",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-12-18",
+        "close": "2027-01-21",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "15 birds (no more than 2 white-tipped)",
+    "possessionLimit": "3 times daily bag",
+    "agency": "TPWD",
+    "sourceTitle": "TPWD Outdoor Annual, Dove (2026-2027 Seasons & Regulations)",
+    "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/dove",
+    "sourceQuote": "South Zone Sept. 1 - Oct. 25, 2026 Dec. 18, 2026 - Jan. 21, 2027 | South Zone 15 birds No more than 2 white-tipped 3 times daily bag | South Zone That portion of the state south of a line beginning at the International Toll Bridge in Del Rio",
+    "checkedDate": "2026-11-23",
+    "notes": "Mourning, white-winged and white-tipped doves. The 2026-27 page lists North, Central and South zones only; TPWD's New This Year page says Special White-winged Dove Days were eliminated and the South Zone regular season now starts Sept. 1. Eurasian collared-doves have no closed season or bag limit. Years as printed on the page."
+  },
+  {
+    "id": "tx-dove-falconry-2026",
+    "state": "TX",
+    "species": "dove",
+    "seasonName": "Dove, Falconry",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-13",
+        "close": "2026-11-29",
+        "note": "falconry only"
+      }
+    ],
+    "bagLimit": "3 birds",
+    "possessionLimit": "3 times daily bag",
+    "agency": "TPWD",
+    "sourceTitle": "TPWD Outdoor Annual, Dove (2026-2027 Seasons & Regulations)",
+    "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/dove",
+    "sourceQuote": "Falconry Statewide Nov. 13 - 29, 2026 | Falconry (Statewide) 3 birds 3 times daily bag",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed on the page."
+  },
+  {
+    "id": "tx-pheasant-panhandle-2026",
+    "state": "TX",
+    "species": "pheasant",
+    "seasonName": "Pheasant, General Season",
+    "zone": "Panhandle",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-05",
+        "close": "2027-01-03",
+        "note": null
+      }
+    ],
+    "bagLimit": "3 cocks",
+    "possessionLimit": "9 cocks",
+    "agency": "TPWD",
+    "sourceTitle": "TPWD Outdoor Annual, Pheasant (2026-2027 Seasons & Regulations)",
+    "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/pheasant",
+    "sourceQuote": "General Season Panhandle Dec. 5, 2026 - Jan. 3, 2027 | 37 of 254 counties have Pheasant seasons. | Daily Bag Limit: 3 cocks Possession Limit: 9 cocks",
+    "checkedDate": "2026-11-23",
+    "notes": "The page says 37 of 254 counties have pheasant seasons; the county list is in TPWD's county lookup and is not recorded here. Years as printed on the page."
+  },
+  {
+    "id": "tx-quail-statewide-2026",
+    "state": "TX",
+    "species": "quail",
+    "seasonName": "Quail, Regular Season",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-01",
+        "close": "2027-02-28",
+        "note": null
+      }
+    ],
+    "bagLimit": "15 birds",
+    "possessionLimit": "45 birds",
+    "agency": "TPWD",
+    "sourceTitle": "TPWD Outdoor Annual, Quail (2026-2027 Seasons & Regulations)",
+    "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/quail",
+    "sourceQuote": "Regular Season Statewide Nov. 1, 2026 - Feb. 28, 2027 | Bobwhite quail, Scaled quail (blue quail) and Gambel's quail. No open season for Mearn's (Montezuma) quail. Daily Bag Limit: 15 birds Possession Limit: 45 birds",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed on the page."
+  },
+  {
+    "id": "tx-turkey-fall-archery-2026",
+    "state": "TX",
+    "species": "turkey",
+    "seasonName": "Wild Turkey, Archery Only (fall)",
+    "zone": "All counties with an open fall season",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-11-06",
+        "note": "archery only"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "TPWD",
+    "sourceTitle": "TPWD Outdoor Annual, Wild Turkey (2026-2027 Seasons & Regulations)",
+    "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/turkey",
+    "sourceQuote": "Archery Only All counties with an open fall season Oct. 3 - Nov. 6, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "Turkey bag limits are set by county (TPWD county listings) and are not printed on the species page, so bagLimit is null. Mandatory harvest reporting within 24 hours applies in all counties; harvest of unbearded hens is prohibited. 175 of 254 counties have wild turkey seasons. Years as printed on the page."
+  },
+  {
+    "id": "tx-turkey-fall-north-2026",
+    "state": "TX",
+    "species": "turkey",
+    "seasonName": "Wild Turkey, Fall Season, North Zone",
+    "zone": "North Zone (fall)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-30",
+        "close": "2026-11-01",
+        "note": "youth-only"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2027-01-03",
+        "note": "fall season"
+      },
+      {
+        "open": "2027-01-04",
+        "close": "2027-01-17",
+        "note": "youth-only"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "TPWD",
+    "sourceTitle": "TPWD Outdoor Annual, Wild Turkey (2026-2027 Seasons & Regulations)",
+    "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/turkey",
+    "sourceQuote": "Youth-Only North Zone Oct. 30 - Nov. 1, 2026 Jan. 4 - 17, 2027 | Fall Season North Zone Nov. 7, 2026 - Jan. 3, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Turkey bag limits are set by county (TPWD county listings) and are not printed on the species page, so bagLimit is null. Mandatory harvest reporting within 24 hours applies in all counties; harvest of unbearded hens is prohibited. 175 of 254 counties have wild turkey seasons. Years as printed on the page. Zone boundaries are on TPWD's fall zone map (not in page text)."
+  },
+  {
+    "id": "tx-turkey-fall-south-2026",
+    "state": "TX",
+    "species": "turkey",
+    "seasonName": "Wild Turkey, Fall Season, South Zone",
+    "zone": "South Zone (fall)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-30",
+        "close": "2026-11-01",
+        "note": "youth-only"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2027-01-17",
+        "note": "fall season"
+      },
+      {
+        "open": "2027-01-18",
+        "close": "2027-01-31",
+        "note": "youth-only"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "TPWD",
+    "sourceTitle": "TPWD Outdoor Annual, Wild Turkey (2026-2027 Seasons & Regulations)",
+    "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/turkey",
+    "sourceQuote": "South Zone Oct. 30 - Nov. 1, 2026 Jan. 18 - 31, 2027 | South Zone Nov. 7, 2026 - Jan. 17, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Turkey bag limits are set by county (TPWD county listings) and are not printed on the species page, so bagLimit is null. Mandatory harvest reporting within 24 hours applies in all counties; harvest of unbearded hens is prohibited. 175 of 254 counties have wild turkey seasons. Years as printed on the page. Zone boundaries are on TPWD's fall zone map (not in page text)."
+  },
+  {
+    "id": "tx-turkey-fall-bkkw-2026",
+    "state": "TX",
+    "species": "turkey",
+    "seasonName": "Wild Turkey, Fall Season, Brooks, Kenedy, Kleberg, and Willacy Counties",
+    "zone": "Brooks, Kenedy, Kleberg, and Willacy Counties",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-30",
+        "close": "2026-11-01",
+        "note": "youth-only"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2027-02-28",
+        "note": "fall season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "TPWD",
+    "sourceTitle": "TPWD Outdoor Annual, Wild Turkey (2026-2027 Seasons & Regulations)",
+    "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/turkey",
+    "sourceQuote": "Brooks, Kenedy, Kleberg, and Willacy Counties Oct. 30 - Nov. 1, 2026 | Brooks, Kenedy, Kleberg, and Willacy Counties Nov. 7, 2026 - Feb. 28, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Turkey bag limits are set by county (TPWD county listings) and are not printed on the species page, so bagLimit is null. Mandatory harvest reporting within 24 hours applies in all counties; harvest of unbearded hens is prohibited. 175 of 254 counties have wild turkey seasons. Years as printed on the page."
+  },
+  {
+    "id": "tx-turkey-spring-north-2027",
+    "state": "TX",
+    "species": "turkey",
+    "seasonName": "Wild Turkey, Spring Season, North Zone",
+    "zone": "North Zone (spring)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-03-27",
+        "close": "2027-03-28",
+        "note": "youth-only"
+      },
+      {
+        "open": "2027-04-03",
+        "close": "2027-05-16",
+        "note": "spring season"
+      },
+      {
+        "open": "2027-05-22",
+        "close": "2027-05-23",
+        "note": "youth-only"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "TPWD",
+    "sourceTitle": "TPWD Outdoor Annual, Wild Turkey (2026-2027 Seasons & Regulations)",
+    "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/turkey",
+    "sourceQuote": "North Zone Mar. 27 - 28, 2027 May 22 - 23, 2027 | Spring Season North Zone Apr. 3 - May 16, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Turkey bag limits are set by county (TPWD county listings) and are not printed on the species page, so bagLimit is null. Mandatory harvest reporting within 24 hours applies in all counties; harvest of unbearded hens is prohibited. 175 of 254 counties have wild turkey seasons. Years as printed on the page. Spring youth-only seasons are Rio Grande turkey only, in counties with a 4-turkey bag limit (Youth-Only page)."
+  },
+  {
+    "id": "tx-turkey-spring-south-2027",
+    "state": "TX",
+    "species": "turkey",
+    "seasonName": "Wild Turkey, Spring Season, South Zone",
+    "zone": "South Zone (spring)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-03-13",
+        "close": "2027-03-14",
+        "note": "youth-only"
+      },
+      {
+        "open": "2027-03-20",
+        "close": "2027-05-02",
+        "note": "spring season"
+      },
+      {
+        "open": "2027-05-08",
+        "close": "2027-05-09",
+        "note": "youth-only"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "TPWD",
+    "sourceTitle": "TPWD Outdoor Annual, Wild Turkey (2026-2027 Seasons & Regulations)",
+    "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/turkey",
+    "sourceQuote": "South Zone Mar. 13 - 14, 2027 May 8 - 9, 2027 | South Zone Mar. 20 - May 2, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Turkey bag limits are set by county (TPWD county listings) and are not printed on the species page, so bagLimit is null. Mandatory harvest reporting within 24 hours applies in all counties; harvest of unbearded hens is prohibited. 175 of 254 counties have wild turkey seasons. Years as printed on the page."
+  },
+  {
+    "id": "tx-turkey-spring-one-turkey-2027",
+    "state": "TX",
+    "species": "turkey",
+    "seasonName": "Wild Turkey, Spring Season, One-Turkey Counties",
+    "zone": "One-Turkey Counties",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-04-01",
+        "close": "2027-04-30",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "TPWD",
+    "sourceTitle": "TPWD Outdoor Annual, Wild Turkey (2026-2027 Seasons & Regulations)",
+    "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/turkey",
+    "sourceQuote": "Spring Season North Zone Apr. 3 - May 16, 2027 South Zone Mar. 20 - May 2, 2027 One-Turkey Counties Apr. 1 - 30, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "The page does not list the One-Turkey Counties with this season. Separately it describes a Western One-Gobbler Zone (one gobbler per county per year: Bastrop, Caldwell, Colorado, Fayette, Jackson, Lavaca, Lee, Matagorda, Milam, Wharton), but it does not say these are the same counties, and TPWD's New This Year page says Matagorda and Wharton are now closed to wild turkey. Turkey bag limits are set by county (TPWD county listings) and are not printed on the species page, so bagLimit is null. Mandatory harvest reporting within 24 hours applies in all counties; harvest of unbearded hens is prohibited. 175 of 254 counties have wild turkey seasons. Years as printed on the page."
+  },
+  {
+    "id": "tx-turkey-spring-east-2027",
+    "state": "TX",
+    "species": "turkey",
+    "seasonName": "Wild Turkey, Spring Season, East Zone",
+    "zone": "East Zone (Bowie N of US 82, Cass, Fannin N of US 82, Grayson, Jasper exc. Angelina NF, Lamar N of US 82, Marion, Nacogdoches, Newton, Polk, Red River N of US 82, Sabine)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-04-22",
+        "close": "2027-05-14",
+        "note": "shotgun and archery only; no hunting over bait"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "TPWD",
+    "sourceTitle": "TPWD Outdoor Annual, Wild Turkey (2026-2027 Seasons & Regulations)",
+    "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/turkey",
+    "sourceQuote": "East Zone Apr. 22 - May 14, 2027 | Shotgun and lawful archery equipment are the only legal methods of take; no hunting over bait. | Counties in East Zone: Bowie (north of U.S. 82), Cass, Fannin (north of U.S. 82), Grayson, Jasper (other than the Angelina National Forest), Lamar (north of U.S. 82), Marion, Nacogdoches, Newton, Polk, Red River (north of U.S. 82), and Sabine counties.",
+    "checkedDate": "2026-11-23",
+    "notes": "Turkey bag limits are set by county (TPWD county listings) and are not printed on the species page, so bagLimit is null. Mandatory harvest reporting within 24 hours applies in all counties; harvest of unbearded hens is prohibited. 175 of 254 counties have wild turkey seasons. Years as printed on the page."
+  },
+  {
+    "id": "tx-deer-wt-archery-2026",
+    "state": "TX",
+    "species": "deer",
+    "seasonName": "White-tailed Deer, Archery Only",
+    "zone": "All counties with an open season",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-11-06",
+        "note": "archery only; Archery Endorsement required"
+      }
+    ],
+    "bagLimit": "Set by county; annual limit 5 white-tailed deer, no more than 3 bucks",
+    "possessionLimit": null,
+    "agency": "TPWD",
+    "sourceTitle": "TPWD Outdoor Annual, White-tailed Deer (2026-2027 Seasons & Regulations)",
+    "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/white-tailed-deer",
+    "sourceQuote": "Archery Endorsement Required for Archery Hunting Archery Only All counties with an open season Oct. 3 - Nov. 6, 2026 | Bag limits are established by county. No person may exceed the annual bag limit of five white-tailed deer, no more than three of which may be bucks.",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag limits are set by county (not recorded); the page states the annual bag limit is five white-tailed deer, no more than three bucks (does not apply on MLDP properties). 252 of 254 counties have white-tailed deer seasons; antler restrictions, doe days and muzzleloader seasons vary by county. Years as printed on the page."
+  },
+  {
+    "id": "tx-deer-wt-north-2026",
+    "state": "TX",
+    "species": "deer",
+    "seasonName": "White-tailed Deer, North Zone",
+    "zone": "North Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-30",
+        "close": "2026-11-01",
+        "note": "youth-only (16 or younger)"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2027-01-03",
+        "note": "general season"
+      },
+      {
+        "open": "2027-01-04",
+        "close": "2027-01-17",
+        "note": "youth-only (16 or younger)"
+      },
+      {
+        "open": "2027-01-04",
+        "close": "2027-01-17",
+        "note": "special late season (counties with a Special Late Season only; antlerless and unbranched antlered deer)"
+      }
+    ],
+    "bagLimit": "Set by county; annual limit 5 white-tailed deer, no more than 3 bucks",
+    "possessionLimit": null,
+    "agency": "TPWD",
+    "sourceTitle": "TPWD Outdoor Annual, White-tailed Deer (2026-2027 Seasons & Regulations)",
+    "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/white-tailed-deer",
+    "sourceQuote": "General Season North Zone Nov. 7, 2026 - Jan. 3, 2027 | Youth-Only North Zone Oct. 30 - Nov. 1, 2026 Jan. 4 - 17, 2027 | Special Late North Zone Jan. 4 - 17, 2027 | Bag limits are established by county. No person may exceed the annual bag limit of five white-tailed deer, no more than three of which may be bucks.",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag limits are set by county (not recorded); the page states the annual bag limit is five white-tailed deer, no more than three bucks (does not apply on MLDP properties). 252 of 254 counties have white-tailed deer seasons; antler restrictions, doe days and muzzleloader seasons vary by county. Years as printed on the page. Zone boundaries are on TPWD's zone map (not in page text)."
+  },
+  {
+    "id": "tx-deer-wt-south-2026",
+    "state": "TX",
+    "species": "deer",
+    "seasonName": "White-tailed Deer, South Zone",
+    "zone": "South Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-30",
+        "close": "2026-11-01",
+        "note": "youth-only (16 or younger)"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2027-01-17",
+        "note": "general season"
+      },
+      {
+        "open": "2027-01-18",
+        "close": "2027-01-31",
+        "note": "special late season (counties with a Special Late Season only; antlerless and unbranched antlered deer)"
+      }
+    ],
+    "bagLimit": "Set by county; annual limit 5 white-tailed deer, no more than 3 bucks",
+    "possessionLimit": null,
+    "agency": "TPWD",
+    "sourceTitle": "TPWD Outdoor Annual, White-tailed Deer (2026-2027 Seasons & Regulations)",
+    "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/white-tailed-deer",
+    "sourceQuote": "South Zone Nov. 7, 2026 - Jan. 17, 2027 | South Zone Oct. 30 - Nov. 1, 2026 Muzzleloader Jan. 4 - 17, 2027 | South Zone Jan. 18 - 31, 2027 | Bag limits are established by county. No person may exceed the annual bag limit of five white-tailed deer, no more than three of which may be bucks.",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag limits are set by county (not recorded); the page states the annual bag limit is five white-tailed deer, no more than three bucks (does not apply on MLDP properties). 252 of 254 counties have white-tailed deer seasons; antler restrictions, doe days and muzzleloader seasons vary by county. Years as printed on the page. The page prints only Oct. 30 - Nov. 1 for South Zone youth-only (no late youth dates printed). Zone boundaries are on TPWD's zone map (not in page text)."
+  },
+  {
+    "id": "tx-deer-mule-panhandle-2026",
+    "state": "TX",
+    "species": "deer",
+    "seasonName": "Mule Deer, Panhandle",
+    "zone": "Panhandle",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-11-20",
+        "note": "archery only"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2026-12-06",
+        "note": "general season"
+      }
+    ],
+    "bagLimit": "Set by county; annual limit 2 mule deer, no more than 1 buck",
+    "possessionLimit": null,
+    "agency": "TPWD",
+    "sourceTitle": "TPWD Outdoor Annual, Mule Deer (2026-2027 Seasons & Regulations)",
+    "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/mule-deer",
+    "sourceQuote": "Archery Only Panhandle Oct. 3 - Nov. 20, 2026 | General Season Panhandle Nov. 21 - Dec. 6, 2026 | Bag limits are established by county. No person may exceed the annual bag limit of two mule deer, no more than one of which may be a buck.",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag limits are set by county (not recorded); the page states the annual bag limit is two mule deer, no more than one buck (does not apply on MLDP properties). 74 of 254 counties have mule deer seasons. Years as printed on the page. A 20-inch outside spread antler restriction applies in listed Panhandle and South Plains counties (outside CWD zones)."
+  },
+  {
+    "id": "tx-deer-mule-transpecos-2026",
+    "state": "TX",
+    "species": "deer",
+    "seasonName": "Mule Deer, Trans-Pecos",
+    "zone": "Trans-Pecos (Brewster, Pecos and Terrell counties are listed separately with the same dates)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-11-26",
+        "note": "archery only"
+      },
+      {
+        "open": "2026-11-27",
+        "close": "2026-12-13",
+        "note": "general season"
+      }
+    ],
+    "bagLimit": "Set by county; annual limit 2 mule deer, no more than 1 buck",
+    "possessionLimit": null,
+    "agency": "TPWD",
+    "sourceTitle": "TPWD Outdoor Annual, Mule Deer (2026-2027 Seasons & Regulations)",
+    "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/mule-deer",
+    "sourceQuote": "Trans-Pecos Oct. 3 - Nov. 26, 2026 Brewster, Pecos, Terrell Counties Oct. 3 - Nov. 26, 2026 | Trans-Pecos Nov. 27 - Dec. 13, 2026 Brewster, Pecos, Terrell Counties Nov. 27 - Dec. 13, 2026 | Bag limits are established by county. No person may exceed the annual bag limit of two mule deer, no more than one of which may be a buck.",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag limits are set by county (not recorded); the page states the annual bag limit is two mule deer, no more than one buck (does not apply on MLDP properties). 74 of 254 counties have mule deer seasons. Years as printed on the page."
+  }
+]
