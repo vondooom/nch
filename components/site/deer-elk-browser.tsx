@@ -4,14 +4,16 @@ import { useEffect, useMemo, useState } from "react";
 import { formatIsoDate, formatPeriod, isOpenNow, type SeasonRecord } from "@/lib/seasons";
 import { calendarDateInTimeZone } from "@/lib/seasons/open";
 import { validateSeasonFile } from "@/lib/seasons/validate";
+import { deerElkPages, type DeerElkState } from "@/lib/seasons/deer-elk-pages";
 import { zoneMatchesUnit } from "@/lib/seasons/units";
 
 type SpeciesFilter = "both" | "deer" | "elk";
 
-const loaders = {
+const loaders: Record<DeerElkState, () => Promise<{ default: unknown }>> = {
   idaho: () => import("@/data/seasons/id-deer-elk.json"),
   wyoming: () => import("@/data/seasons/wy-deer-elk.json"),
-} as const;
+  colorado: () => import("@/data/seasons/co-deer-elk.json"),
+};
 
 function sourceFragments(quote: string) {
   return quote.includes(" | ") ? quote.split(" | ") : [quote];
@@ -71,9 +73,10 @@ export function DeerElkBrowser({
   state,
   timeZone,
 }: {
-  state: "idaho" | "wyoming";
+  state: DeerElkState;
   timeZone: string;
 }) {
+  const page = deerElkPages[state];
   const [records, setRecords] = useState<SeasonRecord[] | null>(null);
   const [species, setSpecies] = useState<SpeciesFilter>("both");
   const [query, setQuery] = useState("");
@@ -136,13 +139,13 @@ export function DeerElkBrowser({
       </div>
       <label className="mb-6 block">
         <span className="mb-1 block font-heading text-[13px] font-semibold uppercase tracking-[0.12em] text-[#8A8163]">
-          {state === "idaho" ? "Unit number" : "Hunt area number"}
+          {page.searchLabel}
         </span>
         <input
           value={query}
           onChange={(event) => setQuery(event.target.value)}
           inputMode="text"
-          placeholder={state === "idaho" ? "For example, 2 or 4A" : "For example, 2"}
+          placeholder={page.searchPlaceholder}
           className="w-full max-w-[280px] border-2 border-[#211D14] bg-[#FFFDF7] px-3 py-2 text-[16px]"
         />
       </label>
@@ -152,7 +155,7 @@ export function DeerElkBrowser({
       ) : null}
       {records ? (
         <p className="mb-4 font-serif text-[15px] text-[#5C543F]">
-          {records.length} seasons loaded. {groups.length} {state === "idaho" ? "unit groups" : "hunt area groups"} shown.
+          {records.length} seasons loaded. {groups.length} {page.groupLabel} shown.
         </p>
       ) : null}
       <div className="grid gap-3">
