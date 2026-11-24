@@ -40,12 +40,12 @@ export function SiteBanner() {
 export function SiteHeader({ current }: { current?: string }) {
   return (
     <header className="sticky top-0 z-50 border-b-2 border-[#211D14] bg-[#F5F1E8]">
-      <div className="mx-auto flex max-w-[1180px] flex-wrap items-center gap-4 px-6 py-3.5">
-        <Link href="/" className="flex items-center">
+      <div className="mx-auto flex max-w-[1180px] flex-col gap-3 px-4 py-3 sm:px-6 md:flex-row md:items-center md:gap-5 md:py-4">
+        <Link href="/" className="flex shrink-0 items-center">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={logoSrc} alt="Local Hunts" className="h-14 w-auto" />
+          <img src={logoSrc} alt="Local Hunts" className="h-36 w-auto md:h-32 lg:h-40" />
         </Link>
-        <nav className="ml-auto flex flex-wrap items-center gap-x-4 gap-y-2 font-heading text-[15px] font-semibold uppercase tracking-[0.09em]">
+        <nav className="flex flex-wrap items-center gap-x-3 gap-y-2 font-heading text-[13px] font-semibold uppercase tracking-[0.06em] sm:gap-x-4 sm:text-[15px] sm:tracking-[0.08em] md:ml-auto">
           {primary.map(([label, href]) => (
             <Link
               key={href}
