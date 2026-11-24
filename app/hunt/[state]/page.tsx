@@ -140,6 +140,12 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
                   </h3>
                   <p className="font-serif text-[16px] leading-relaxed text-[#3B3526]">
                     {gap.line}{" "}
+                    {gap.listHref ? (
+                      <Link className="text-[#C75B12] underline" href={gap.listHref}>
+                        {gap.listLabel}
+                      </Link>
+                    ) : null}
+                    {gap.listHref && item.regulationsUrl ? " " : null}
                     {item.regulationsUrl ? (
                       <a className="text-[#C75B12] underline" href={item.regulationsUrl}>
                         {item.agency} regulations
