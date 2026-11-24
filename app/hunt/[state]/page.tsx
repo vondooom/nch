@@ -3,11 +3,13 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ConditionsPanel } from "@/components/site/conditions-panel";
 import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
+import { HuntMap } from "@/components/site/hunt-map";
 import { SeasonList } from "@/components/site/season-list";
 import { SubscribeForm } from "@/components/site/subscribe-form";
 import { findRegion } from "@/lib/geo/regions";
 import { findState, states } from "@/lib/geo/states";
 import { species, zones } from "@/lib/guides";
+import { huntUnitMaps } from "@/lib/maps/unit-maps";
 import { pageMeta } from "@/lib/site";
 import { visibleSeasonsForState } from "@/lib/seasons";
 
@@ -77,6 +79,53 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
             )}
           </div>
         </div>
+
+        {item.slug === "california" ? (
+          <div className="mb-10">
+            <h2 className="mb-3 font-heading text-[28px] font-bold uppercase">Hunt zones</h2>
+            <HuntMap variant="california" />
+            <div className="mt-4 grid gap-3 font-serif text-[14px] leading-relaxed text-[#5C543F]">
+              <p>
+                Deer zones: California Department of Fish and Wildlife, Wildlife Branch. Deer Hunt Zones, Title 14,
+                Section 360 [ds342]. November 2014. Biogeographic Information and Observation System (BIOS). Retrieved
+                November 23, 2026.{" "}
+                <a className="text-[#C75B12] underline" href="https://creativecommons.org/licenses/by/4.0/">
+                  CC BY 4.0
+                </a>
+                .
+              </p>
+              <p>
+                Waterfowl zones: California Department of Fish and Wildlife. Waterfowl Hunt Zone [ds2906]. 2020.
+                Biogeographic Information and Observation System (BIOS). Retrieved November 23, 2026.{" "}
+                <a className="text-[#C75B12] underline" href="https://creativecommons.org/licenses/by/4.0/">
+                  CC BY 4.0
+                </a>
+                .{" "}
+                <a className="text-[#C75B12] underline" href="https://www.wildlife.ca.gov/Data/BIOS/Citing-BIOS">
+                  How CDFW asks for BIOS to be cited
+                </a>
+                .
+              </p>
+              <p>These lines are approximate. Title 14 of the California Code of Regulations controls.</p>
+              <p>
+                Basemap: OpenFreeMap, OpenMapTiles, and OpenStreetMap contributors.{" "}
+                <a className="text-[#C75B12] underline" href="https://openfreemap.org/tos/">
+                  OpenFreeMap terms
+                </a>
+                .
+              </p>
+            </div>
+          </div>
+        ) : null}
+        {huntUnitMaps[item.slug] ? (
+          <p className="mb-8 font-serif text-[16px] leading-relaxed text-[#3B3526]">
+            Hunt unit boundaries are not drawn here.{" "}
+            <a className="text-[#C75B12] underline" href={huntUnitMaps[item.slug].href}>
+              {huntUnitMaps[item.slug].name}
+            </a>{" "}
+            is the agency map.
+          </p>
+        ) : null}
 
         <div className="mb-8">
           <h2 className="mb-3 font-heading text-[28px] font-bold uppercase">Seasons</h2>

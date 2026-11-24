@@ -5,7 +5,7 @@ const AGENCY = "California Department of Fish and Wildlife";
 const HIDDEN =
   "Mapped from the existing Local Hunts California archive. Hidden until an agency source URL and a verbatim quote are attached.";
 
-function period(open: string, close: string, note = ""): SeasonPeriod {
+function period(open: string, close: string, note: string | null = ""): SeasonPeriod {
   return { open, close, note };
 }
 

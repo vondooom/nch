@@ -3,6 +3,7 @@ import { logoSrc } from "@/lib/brand";
 
 const primary = [
   ["States", "/hunt"],
+  ["Map", "/map"],
   ["Conditions", "/conditions"],
   ["Seasons", "/regulations"],
   ["Stories", "/field-stories"],

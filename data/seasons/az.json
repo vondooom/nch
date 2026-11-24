@@ -1,0 +1,267 @@
+[
+  {
+    "id": "az-duck-statewide-2026",
+    "state": "AZ",
+    "species": "duck",
+    "seasonName": "General Waterfowl (Ducks including mergansers, coots, and gallinules)",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-23",
+        "close": "2027-01-31",
+        "note": null
+      },
+      {
+        "open": "2027-02-06",
+        "close": "2027-02-07",
+        "note": "youth only"
+      }
+    ],
+    "bagLimit": "7 ducks including mergansers (not more than 2 redheads, 3 pintails, 2 canvasback, 2 scaup, 1 black-bellied whistling duck, 7 mallards of which no more than 2 may be female, Mexican or Mexican-like ducks)",
+    "possessionLimit": "21 after opening day",
+    "agency": "AZGFD",
+    "sourceTitle": "2026-2027 Arizona Waterfowl and Snipe Regulations",
+    "sourceUrl": "https://azgfd-portal-wordpress-pantheon.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/05/04082841/2026-27-Waterfowl-and-Snipe-Regulations_web.pdf",
+    "sourceQuote": "Oct 23, 2026 – Jan 31, 2027 (All notes apply except 6) Open areas Statewide Ducks including mergansers, coots, and gallinules; | Nov 7, 2026 – Jan 31, 2027 (All notes apply except 6) Open areas Statewide Scaup | YOUTH-ONLY WATERFOWL | Feb 6 – Feb 7, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Scaup open Nov 7, 2026 to Jan 31, 2027. No waterfowl zones; statewide. Falconry-only Feb 1 to 4, 2027."
+  },
+  {
+    "id": "az-goose-statewide-2026",
+    "state": "AZ",
+    "species": "goose",
+    "seasonName": "General Waterfowl (white and dark geese)",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-23",
+        "close": "2027-01-31",
+        "note": null
+      },
+      {
+        "open": "2027-02-06",
+        "close": "2027-02-07",
+        "note": "youth only"
+      }
+    ],
+    "bagLimit": "20 white geese (snow/blue, Ross') and 5 dark geese (Canada, cackling, Brant, white-fronted)",
+    "possessionLimit": "60 white geese and 15 dark geese",
+    "agency": "AZGFD",
+    "sourceTitle": "2026-2027 Arizona Waterfowl and Snipe Regulations",
+    "sourceUrl": "https://azgfd-portal-wordpress-pantheon.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/05/04082841/2026-27-Waterfowl-and-Snipe-Regulations_web.pdf",
+    "sourceQuote": "Oct 23, 2026 – Jan 31, 2027 (All notes apply except 6) Open areas Statewide Ducks including mergansers, coots, and gallinules; | including white (snow/blue, Ross’) and dark geese | Feb 6 – Feb 7, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "az-dove-statewide-2026",
+    "state": "AZ",
+    "species": "dove",
+    "seasonName": "Mourning and white-winged doves",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-15",
+        "note": "early season"
+      },
+      {
+        "open": "2026-11-20",
+        "close": "2027-01-03",
+        "note": "late season"
+      }
+    ],
+    "bagLimit": "15 Mourning and White-winged Doves in the aggregate",
+    "possessionLimit": "45 Mourning and White-winged Doves in the aggregate",
+    "agency": "AZGFD",
+    "sourceTitle": "2026-2027 Arizona Dove and Band-tailed Pigeon Regulations",
+    "sourceUrl": "https://azgfd-portal-wordpress-pantheon.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/05/04082836/2026-27-Dove-and-Pigeon-Regulations.pdf",
+    "sourceQuote": "Sept. 1–15, 2026 | Mourning and white-winged doves | Nov. 20, 2026–Jan. 3, 2027 | For both the early and late seasons, the daily bag limit is",
+    "checkedDate": "2026-11-23",
+    "notes": "Eurasian collared-dove open Sept. 1, 2026 to Aug. 31, 2027 with no limit. Camp Navajo closed."
+  },
+  {
+    "id": "az-quail-statewide-2026",
+    "state": "AZ",
+    "species": "quail",
+    "seasonName": "General Quail",
+    "zone": "Open areas Statewide (excluding National Wildlife Refuges)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-16",
+        "close": "2027-02-07",
+        "note": "Gambel's, Scaled and California quail"
+      },
+      {
+        "open": "2026-12-04",
+        "close": "2027-02-07",
+        "note": "Mearns' quail"
+      }
+    ],
+    "bagLimit": "Fifteen (15) quail per day in the aggregate of which no more than eight (8) may be Mearns' quail",
+    "possessionLimit": "Forty-five (45) quail in the aggregate after opening day",
+    "agency": "AZGFD",
+    "sourceTitle": "2026-2027 Arizona Hunting Regulations",
+    "sourceUrl": "https://azgfd-portal-wordpress-pantheon.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/05/04081122/2026-27-Arizona-Hunting-Regulations.pdf",
+    "sourceQuote": "Quail: Commission Order 16 | GENERAL QUAIL | Oct 16, 2026 – Feb 7, 2027 | Dec 4, 2026 – Feb 7, 2027 | GENERAL Bag Limit Fifteen (15) quail per day in the aggregate of which no more than eight (8) may be Mearns’ quail.",
+    "checkedDate": "2026-11-23",
+    "notes": "Some National Wildlife Refuges open Oct 16, 2026 to Feb 7, 2027 for Gambel's, Scaled and California quail."
+  },
+  {
+    "id": "az-chukar-statewide-2026",
+    "state": "AZ",
+    "species": "chukar",
+    "seasonName": "General Chukar Partridge",
+    "zone": "Open areas Statewide (excluding National Wildlife Refuges)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2027-02-07",
+        "note": null
+      }
+    ],
+    "bagLimit": "Five (5) chukar per day",
+    "possessionLimit": "Fifteen (15) chukar",
+    "agency": "AZGFD",
+    "sourceTitle": "2026-2027 Arizona Hunting Regulations",
+    "sourceUrl": "https://azgfd-portal-wordpress-pantheon.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/05/04081122/2026-27-Arizona-Hunting-Regulations.pdf",
+    "sourceQuote": "GENERAL CHUKAR PARTRIDGE | Sep 1, 2026 – Feb 7, 2027 (3) Open areas Statewide (excluding National Wildlife Refuges) Any chukar | Bag Limit Five (5) chukar per day.",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "az-pheasant-40b-2026",
+    "state": "AZ",
+    "species": "pheasant",
+    "seasonName": "Limited Weapon-Shotgun Shooting Shot Pheasant",
+    "zone": "40B",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "Two (2) pheasants per day",
+    "possessionLimit": "Six (6) pheasants",
+    "agency": "AZGFD",
+    "sourceTitle": "2026-2027 Arizona Hunting Regulations",
+    "sourceUrl": "https://azgfd-portal-wordpress-pantheon.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/05/04081122/2026-27-Arizona-Hunting-Regulations.pdf",
+    "sourceQuote": "LIMITED WEAPON-SHOTGUN SHOOTING SHOT PHEASANT | Sep 1 – Sep 15, 2026 (6) 40B Any rooster pheasant",
+    "checkedDate": "2026-11-23",
+    "notes": "Any rooster pheasant."
+  },
+  {
+    "id": "az-pheasant-archery-2026",
+    "state": "AZ",
+    "species": "pheasant",
+    "seasonName": "Archery-Only Pheasant",
+    "zone": "Open areas Statewide (excluding National Wildlife Refuges)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-16",
+        "close": "2027-02-07",
+        "note": "archery only"
+      }
+    ],
+    "bagLimit": "Two (2) pheasants per day",
+    "possessionLimit": "Six (6) pheasants",
+    "agency": "AZGFD",
+    "sourceTitle": "2026-2027 Arizona Hunting Regulations",
+    "sourceUrl": "https://azgfd-portal-wordpress-pantheon.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/05/04081122/2026-27-Arizona-Hunting-Regulations.pdf",
+    "sourceQuote": "ARCHERY-ONLY PHEASANT | Oct 16, 2026 – Feb 7, 2027 (3) Open areas Statewide (excluding National Wildlife Refuges) Any pheasant",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "az-turkey-archery-nonpermit-2026",
+    "state": "AZ",
+    "species": "turkey",
+    "seasonName": "Archery-Only Nonpermit-tag Required Turkey",
+    "zone": "1, 3B, 3C, 4A, 4B, 5A, 5B, 6A, 6B (except Camp Navajo), 7, 8, 10, 11M, 12A, 23, and 27",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-21",
+        "close": "2026-09-10",
+        "note": "archery only"
+      }
+    ],
+    "bagLimit": "One (1) turkey per calendar year",
+    "possessionLimit": null,
+    "agency": "AZGFD",
+    "sourceTitle": "2026-2027 Arizona Hunting Regulations",
+    "sourceUrl": "https://azgfd-portal-wordpress-pantheon.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/05/04081122/2026-27-Arizona-Hunting-Regulations.pdf",
+    "sourceQuote": "ARCHERY-ONLY NONPERMIT-TAG REQUIRED TURKEY | Aug 21 - Sep 10, 2026 Any turkey | Navajo), 7, 8, 10, 11M, 12A, 23, and 27",
+    "checkedDate": "2026-11-23",
+    "notes": "Over-the-counter nonpermit-tag from a license dealer. Other fall turkey hunts are by draw."
+  },
+  {
+    "id": "az-turkey-youth-nonpermit-2026",
+    "state": "AZ",
+    "species": "turkey",
+    "seasonName": "Youth-Only Nonpermit-tag Required (Limited Weapon-Shotgun Shooting Shot) Turkey",
+    "zone": "1, 4A, 4B, 6A, 27 and 12A",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-02",
+        "close": "2026-10-08",
+        "note": "youth only, Units 1, 4A, 4B, 6A, and 27"
+      },
+      {
+        "open": "2026-10-02",
+        "close": "2026-10-12",
+        "note": "youth only, Unit 12A"
+      }
+    ],
+    "bagLimit": "One (1) turkey per calendar year",
+    "possessionLimit": null,
+    "agency": "AZGFD",
+    "sourceTitle": "2026-2027 Arizona Hunting Regulations",
+    "sourceUrl": "https://azgfd-portal-wordpress-pantheon.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/05/04081122/2026-27-Arizona-Hunting-Regulations.pdf",
+    "sourceQuote": "YOUTH-ONLY NONPERMIT-TAG REQUIRED (LIMITED WEAPON-SHOTGUN SHOOTING SHOT) TURKEY | Oct 2 - Oct 8, 2026 1, 4A, 4B, 6A, and 27 Any turkey | Oct 2 - Oct 12, 2026 (3) 12A Any turkey",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "az-deer-archery-nonpermit-2026",
+    "state": "AZ",
+    "species": "deer",
+    "seasonName": "Archery-Only Nonpermit-tag Required Deer",
+    "zone": "Open units vary by window (see Commission Order 2 table)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-21",
+        "close": "2026-09-10",
+        "note": "archery only, listed units"
+      },
+      {
+        "open": "2026-12-11",
+        "close": "2026-12-31",
+        "note": "archery only, listed units"
+      },
+      {
+        "open": "2027-01-01",
+        "close": "2027-01-31",
+        "note": "archery only, listed units; new calendar-year tag needed"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "AZGFD",
+    "sourceTitle": "2026-2027 Arizona Hunting Regulations",
+    "sourceUrl": "https://azgfd-portal-wordpress-pantheon.s3.us-west-2.amazonaws.com/wp-content/uploads/2026/05/04081122/2026-27-Arizona-Hunting-Regulations.pdf",
+    "sourceQuote": "ARCHERY-ONLY NONPERMIT-TAG REQUIRED DEER | Aug 21 - Sep 10, 2026, Dec 11 - Dec 31, 2026, and Jan 1 - Jan 31, 2027 (4,34,137,168) 7 and 9 Any antlered deer 140 | Archery deer | nonpermit-tags are only valid for one calendar year and require mandatory harvest reporting.",
+    "checkedDate": "2026-11-23",
+    "notes": "Over-the-counter. Each unit has a harvest limit and closes when reached; some units open only Dec and Jan. All other AZ deer hunts are by draw."
+  }
+]
