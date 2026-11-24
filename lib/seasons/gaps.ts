@@ -14,6 +14,20 @@ export const unlistedBigGame: Record<string, { species: string; line: string; li
       listLabel: "Open the unit list",
     },
   ],
+  colorado: [
+    {
+      species: "Deer",
+      line: "Over-the-counter licenses are listed by unit.",
+      listHref: "/hunt/colorado/deer-elk",
+      listLabel: "Open the unit list",
+    },
+    {
+      species: "Elk",
+      line: "Over-the-counter licenses are listed by unit.",
+      listHref: "/hunt/colorado/deer-elk",
+      listLabel: "Open the unit list",
+    },
+  ],
   wyoming: [
     {
       species: "Deer",
