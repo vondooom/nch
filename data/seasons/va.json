@@ -1,0 +1,507 @@
+[
+  {
+    "id": "va-deer-statewide-2026",
+    "state": "VA",
+    "species": "deer",
+    "seasonName": "Deer (statewide youth/apprentice weekend and early archery)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-27",
+        "note": "youth and apprentice weekend (either sex)"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-11-13",
+        "note": "early archery (either sex, full season)"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Virginia DWR",
+    "sourceTitle": "Virginia Hunting, Trapping, and Migratory Game Bird Seasons (July 2026-June 2027) (Virginia DWR)",
+    "sourceUrl": "https://dwr.virginia.gov/wp-content/uploads/media/2026-2027-Virginia-Hunting-Trapping-and-Migratory-Game-Bird-Seasons-Guide.pdf",
+    "sourceQuote": "ARCHERY DEER HUNTING SEASONS | Oct. 3 – Nov. 13 Beach overlaps early archery season.) | Apprentice Sep. 26 & 27 Statewide. Sep. 26 & 27",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Virginia's guide covers July 2026-June 2027. Daily and seasonal bag limits vary by location (published online by DWR). Firearms, late archery, urban archery and antlerless seasons are set county by county and are not recorded; see the East and West of the Blue Ridge muzzleloader records."
+  },
+  {
+    "id": "va-deer-muzzleloader-east-blue-ridge-2026",
+    "state": "VA",
+    "species": "deer",
+    "seasonName": "Muzzleloader Deer, East of the Blue Ridge",
+    "zone": "East of the Blue Ridge",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-31",
+        "close": "2026-11-13",
+        "note": "early muzzleloader (all areas except Chesapeake, Suffolk east of the Dismal Swamp line, and Virginia Beach)"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-01-02",
+        "note": "late muzzleloader (Henry and Patrick counties, federal and DWR lands in Franklin County, Chesapeake/Suffolk/Virginia Beach, and listed National Forest lands only)"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Virginia DWR",
+    "sourceTitle": "Virginia Hunting, Trapping, and Migratory Game Bird Seasons (July 2026-June 2027) (Virginia DWR)",
+    "sourceUrl": "https://dwr.virginia.gov/wp-content/uploads/media/2026-2027-Virginia-Hunting-Trapping-and-Migratory-Game-Bird-Seasons-Guide.pdf",
+    "sourceQuote": "MUZZLELOADER DEER HUNTING SEASONS | Oct. 31 – Nov. 13 On State Forest lands, State Park lands (except Occoneechee State Park), DWR-owned lands | East of the | Blue Ridge | Dec. 12 – Jan. 2",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Virginia's guide covers July 2026-June 2027. Either-sex days vary by land type (full season on most private land; Nov. 7 only on state forest, state park and DWR lands)."
+  },
+  {
+    "id": "va-deer-muzzleloader-west-blue-ridge-2026",
+    "state": "VA",
+    "species": "deer",
+    "seasonName": "Muzzleloader Deer, West of the Blue Ridge",
+    "zone": "West of the Blue Ridge",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-31",
+        "close": "2026-11-13",
+        "note": "early muzzleloader"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-01-02",
+        "note": "late muzzleloader (listed counties and lands only)"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Virginia DWR",
+    "sourceTitle": "Virginia Hunting, Trapping, and Migratory Game Bird Seasons (July 2026-June 2027) (Virginia DWR)",
+    "sourceUrl": "https://dwr.virginia.gov/wp-content/uploads/media/2026-2027-Virginia-Hunting-Trapping-and-Migratory-Game-Bird-Seasons-Guide.pdf",
+    "sourceQuote": "Oct. 31 – Nov. 13 Russell, Tazewell, Wise, and Washington counties and on the Highland WMA. | West of the | Dec. 12 – Jan. 2 West of the In Alleghany",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Virginia's guide covers July 2026-June 2027. Either-sex days vary by county and land type (full season on private land in some counties; Nov. 7 only or none elsewhere)."
+  },
+  {
+    "id": "va-elk-general-2026",
+    "state": "VA",
+    "species": "elk",
+    "seasonName": "Elk (outside the elk restoration counties)",
+    "zone": "All areas outside Buchanan, Dickenson, and Wise counties",
+    "seasonYear": "2026-27",
+    "periods": [],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Virginia DWR",
+    "sourceTitle": "Virginia Hunting, Trapping, and Migratory Game Bird Seasons (July 2026-June 2027) (Virginia DWR)",
+    "sourceUrl": "https://dwr.virginia.gov/wp-content/uploads/media/2026-2027-Virginia-Hunting-Trapping-and-Migratory-Game-Bird-Seasons-Guide.pdf",
+    "sourceQuote": "In all areas outside of Buchanan, Dickenson, and Wise counties, any elk (bull, cow, or calf) can | be taken on any day of an open deer season (archery, muzzleloader, or",
+    "checkedDate": "2026-11-23",
+    "notes": "Elk may be taken on any day of an open deer season in the area hunted, so there are no separate elk dates; periods left empty. Elk hunting in Buchanan, Dickenson, and Wise counties is by elk hunt lottery (not recorded). Reporting rules apply (see DWR elk page)."
+  },
+  {
+    "id": "va-turkey-fall-archery-2026",
+    "state": "VA",
+    "species": "turkey",
+    "seasonName": "Turkey, Archery and Fall Youth & Apprentice Weekend",
+    "zone": "Statewide (except where the firearm turkey season is closed)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-11-13",
+        "note": "archery"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-11",
+        "note": "fall youth and apprentice weekend (1 either sex per youth/apprentice per weekend)"
+      }
+    ],
+    "bagLimit": "1 per day, no more than 3 per year, only one of which may be beardless",
+    "possessionLimit": null,
+    "agency": "Virginia DWR",
+    "sourceTitle": "Virginia Hunting, Trapping, and Migratory Game Bird Seasons (July 2026-June 2027) (Virginia DWR)",
+    "sourceUrl": "https://dwr.virginia.gov/wp-content/uploads/media/2026-2027-Virginia-Hunting-Trapping-and-Migratory-Game-Bird-Seasons-Guide.pdf",
+    "sourceQuote": "TURKEY HUNTING SEASONS | than 3 per year, only Statewide except in areas where there is a closed frearm season | Archery Oct. 3 – Nov. 13 | & Apprentice Oct. 10 – 11 youth/apprentice per",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Virginia's guide covers July 2026-June 2027. Fall firearms turkey seasons are set by county groups (four date sets, plus closed in Arlington and several cities) and are not recorded. Some words in the extracted PDF text lose their 'fi'/'ff' ligatures; quotes avoid those words or keep them as extracted."
+  },
+  {
+    "id": "va-turkey-spring-2027",
+    "state": "VA",
+    "species": "turkey",
+    "seasonName": "Spring Turkey",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-04-03",
+        "close": "2027-04-04",
+        "note": "spring youth and apprentice weekend"
+      },
+      {
+        "open": "2027-04-10",
+        "close": "2027-04-25",
+        "note": "one-half hour before sunrise until 12 noon"
+      },
+      {
+        "open": "2027-04-26",
+        "close": "2027-05-15",
+        "note": "one-half hour before sunrise to sunset"
+      }
+    ],
+    "bagLimit": "1 bearded bird, no more than 3 per year",
+    "possessionLimit": null,
+    "agency": "Virginia DWR",
+    "sourceTitle": "Virginia Hunting, Trapping, and Migratory Game Bird Seasons (July 2026-June 2027) (Virginia DWR)",
+    "sourceUrl": "https://dwr.virginia.gov/wp-content/uploads/media/2026-2027-Virginia-Hunting-Trapping-and-Migratory-Game-Bird-Seasons-Guide.pdf",
+    "sourceQuote": "& Apprentice Apr. 3 – 4 youth/apprentice | Apr. 10 – 25 One-half hour before sunrise until 12 noon each day. | more than 3 per year | Apr. 26 – May 15 more than 3 per year One half-hour before sunrise to sunset.",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Virginia's guide covers July 2026-June 2027."
+  },
+  {
+    "id": "va-grouse-west-i95-2026",
+    "state": "VA",
+    "species": "grouse",
+    "seasonName": "Grouse",
+    "zone": "West of I-95",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2027-02-13",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": null,
+    "agency": "Virginia DWR",
+    "sourceTitle": "Virginia Hunting, Trapping, and Migratory Game Bird Seasons (July 2026-June 2027) (Virginia DWR)",
+    "sourceUrl": "https://dwr.virginia.gov/wp-content/uploads/media/2026-2027-Virginia-Hunting-Trapping-and-Migratory-Game-Bird-Seasons-Guide.pdf",
+    "sourceQuote": "SMALL GAME HUNTING SEASONS | Oct. 24 – Feb. 13 3 West of I-95",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Virginia's guide covers July 2026-June 2027. Grouse is closed east of I-95."
+  },
+  {
+    "id": "va-grouse-east-i95-closed-2026",
+    "state": "VA",
+    "species": "grouse",
+    "seasonName": "Grouse (closed)",
+    "zone": "East of I-95",
+    "seasonYear": "2026-27",
+    "periods": [],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Virginia DWR",
+    "sourceTitle": "Virginia Hunting, Trapping, and Migratory Game Bird Seasons (July 2026-June 2027) (Virginia DWR)",
+    "sourceUrl": "https://dwr.virginia.gov/wp-content/uploads/media/2026-2027-Virginia-Hunting-Trapping-and-Migratory-Game-Bird-Seasons-Guide.pdf",
+    "sourceQuote": "Closed - East of I-95",
+    "checkedDate": "2026-11-23",
+    "notes": "Closed for 2026-27; no season dates. Do not display as an open season."
+  },
+  {
+    "id": "va-quail-2026",
+    "state": "VA",
+    "species": "quail",
+    "seasonName": "Quail",
+    "zone": "Statewide (closed on all public lands west of the Blue Ridge and on Flippo-Gentry WMA)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "6",
+    "possessionLimit": null,
+    "agency": "Virginia DWR",
+    "sourceTitle": "Virginia Hunting, Trapping, and Migratory Game Bird Seasons (July 2026-June 2027) (Virginia DWR)",
+    "sourceUrl": "https://dwr.virginia.gov/wp-content/uploads/media/2026-2027-Virginia-Hunting-Trapping-and-Migratory-Game-Bird-Seasons-Guide.pdf",
+    "sourceQuote": "Quail Nov. 7 – Jan. 31 6 | Closed on all public lands west of the Blue Ridge Mountains and on | Flippo-Gentry WMA in Sussex County.",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Virginia's guide covers July 2026-June 2027."
+  },
+  {
+    "id": "va-pheasant-2026",
+    "state": "VA",
+    "species": "pheasant",
+    "seasonName": "Pheasant",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "no limit",
+    "possessionLimit": null,
+    "agency": "Virginia DWR",
+    "sourceTitle": "Virginia Hunting, Trapping, and Migratory Game Bird Seasons (July 2026-June 2027) (Virginia DWR)",
+    "sourceUrl": "https://dwr.virginia.gov/wp-content/uploads/media/2026-2027-Virginia-Hunting-Trapping-and-Migratory-Game-Bird-Seasons-Guide.pdf",
+    "sourceQuote": "Pheasant Nov. 7 – Jan. 31 no limit",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Virginia's guide covers July 2026-June 2027."
+  },
+  {
+    "id": "va-dove-statewide-2026",
+    "state": "VA",
+    "species": "dove",
+    "seasonName": "Dove (mourning and white-winged)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-10-24",
+        "note": "Sept. 5 noon until sunset"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-29",
+        "note": null
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2027-01-18",
+        "note": null
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": "45",
+    "agency": "Virginia DWR",
+    "sourceTitle": "Virginia Hunting, Trapping, and Migratory Game Bird Seasons (July 2026-June 2027) (Virginia DWR)",
+    "sourceUrl": "https://dwr.virginia.gov/wp-content/uploads/media/2026-2027-Virginia-Hunting-Trapping-and-Migratory-Game-Bird-Seasons-Guide.pdf",
+    "sourceQuote": "MIGRATORY GAME BIRD HUNTING SEASONS (1 of 2) | Sep. 5 – Oct. 24 Sep. 6 – Oct. 24: | Noon until sunset | Nov. 21 – 29 One half-hour before | Dec. 19 – Jan. 18 sunrise until sunset | 15 45",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Virginia's guide covers July 2026-June 2027."
+  },
+  {
+    "id": "va-woodcock-statewide-2026",
+    "state": "VA",
+    "species": "woodcock",
+    "seasonName": "Woodcock",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-11",
+        "close": "2026-12-01",
+        "note": null
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2027-01-18",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "Virginia DWR",
+    "sourceTitle": "Virginia Hunting, Trapping, and Migratory Game Bird Seasons (July 2026-June 2027) (Virginia DWR)",
+    "sourceUrl": "https://dwr.virginia.gov/wp-content/uploads/media/2026-2027-Virginia-Hunting-Trapping-and-Migratory-Game-Bird-Seasons-Guide.pdf",
+    "sourceQuote": "Nov. 11 – Dec. 1 One half-hour before | Woodcock Dec. 26 – Jan. 18 sunrise until sunset 3 9",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Virginia's guide covers July 2026-June 2027."
+  },
+  {
+    "id": "va-snipe-statewide-2026",
+    "state": "VA",
+    "species": "snipe",
+    "seasonName": "Snipe",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-28",
+        "close": "2026-11-29",
+        "note": null
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "8",
+    "possessionLimit": "24",
+    "agency": "Virginia DWR",
+    "sourceTitle": "Virginia Hunting, Trapping, and Migratory Game Bird Seasons (July 2026-June 2027) (Virginia DWR)",
+    "sourceUrl": "https://dwr.virginia.gov/wp-content/uploads/media/2026-2027-Virginia-Hunting-Trapping-and-Migratory-Game-Bird-Seasons-Guide.pdf",
+    "sourceQuote": "Sep. 28 – Nov. 29 One half-hour before | Snipe Dec. 19 – Jan. 31 sunrise until sunset 8 24",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Virginia's guide covers July 2026-June 2027."
+  },
+  {
+    "id": "va-duck-statewide-2026",
+    "state": "VA",
+    "species": "duck",
+    "seasonName": "Ducks",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-09",
+        "close": "2026-10-12",
+        "note": "black duck closed"
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2026-10-24",
+        "note": "youth and veterans waterfowl hunting day"
+      },
+      {
+        "open": "2026-11-18",
+        "close": "2026-11-29",
+        "note": null
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2027-01-31",
+        "note": null
+      },
+      {
+        "open": "2027-02-06",
+        "close": "2027-02-06",
+        "note": "youth and veterans waterfowl hunting day"
+      }
+    ],
+    "bagLimit": "6 of any species (no more than 4 mallards (2 hens), 3 wood ducks, 2 black ducks, scaup 1/day then 2/day Jan. 12-31, 2 redheads, 2 canvasback, 3 pintails, 1 mottled duck, 1 fulvous whistling duck, 4 sea ducks)",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "Virginia DWR",
+    "sourceTitle": "Virginia Hunting, Trapping, and Migratory Game Bird Seasons (July 2026-June 2027) (Virginia DWR)",
+    "sourceUrl": "https://dwr.virginia.gov/wp-content/uploads/media/2026-2027-Virginia-Hunting-Trapping-and-Migratory-Game-Bird-Seasons-Guide.pdf",
+    "sourceQuote": "Youth & Oct. 24, 2026 | Feb. 6, 2027 | Oct. 9 – 12 | (black duck closed) | Ducks Nov. 18 – 29 sunrise until sunset species* the daily bag | Dec. 19 – Jan. 31 | 4 mallards (only 2 hen mallards), 3 wood ducks, 2 black ducks (except",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Mergansers (5) and coots (15) share the duck dates."
+  },
+  {
+    "id": "va-duck-teal-east-i95-2026",
+    "state": "VA",
+    "species": "duck",
+    "seasonName": "September Teal",
+    "zone": "East of I-95",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-27",
+        "note": "blue-winged and green-winged teal only"
+      }
+    ],
+    "bagLimit": "6",
+    "possessionLimit": "18",
+    "agency": "Virginia DWR",
+    "sourceTitle": "Virginia Hunting, Trapping, and Migratory Game Bird Seasons (July 2026-June 2027) (Virginia DWR)",
+    "sourceUrl": "https://dwr.virginia.gov/wp-content/uploads/media/2026-2027-Virginia-Hunting-Trapping-and-Migratory-Game-Bird-Seasons-Guide.pdf",
+    "sourceQuote": "East of I–95: 18 | September Sep. 19 – 27 One half-hour before",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "va-duck-teal-west-i95-2026",
+    "state": "VA",
+    "species": "duck",
+    "seasonName": "September Teal",
+    "zone": "West of I-95",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-22",
+        "close": "2026-09-27",
+        "note": "blue-winged and green-winged teal only"
+      }
+    ],
+    "bagLimit": "6",
+    "possessionLimit": "18",
+    "agency": "Virginia DWR",
+    "sourceTitle": "Virginia Hunting, Trapping, and Migratory Game Bird Seasons (July 2026-June 2027) (Virginia DWR)",
+    "sourceUrl": "https://dwr.virginia.gov/wp-content/uploads/media/2026-2027-Virginia-Hunting-Trapping-and-Migratory-Game-Bird-Seasons-Guide.pdf",
+    "sourceQuote": "West of I–95: | Sep. 22 – 27",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "va-goose-atlantic-population-2026",
+    "state": "VA",
+    "species": "goose",
+    "seasonName": "Canada Goose (includes white-fronted geese)",
+    "zone": "Atlantic Population Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-24",
+        "close": "2026-11-29",
+        "note": null
+      },
+      {
+        "open": "2026-12-24",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "2",
+    "possessionLimit": "6",
+    "agency": "Virginia DWR",
+    "sourceTitle": "Virginia Hunting, Trapping, and Migratory Game Bird Seasons (July 2026-June 2027) (Virginia DWR)",
+    "sourceUrl": "https://dwr.virginia.gov/wp-content/uploads/media/2026-2027-Virginia-Hunting-Trapping-and-Migratory-Game-Bird-Seasons-Guide.pdf",
+    "sourceQuote": "MIGRATORY GAME BIRD HUNTING SEASONS (2 of 2) | Canada Goose Nov. 24 – 29 | 2 6 Includes white-fronted geese | Dec. 24 – Jan. 31",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "va-goose-resident-population-2026",
+    "state": "VA",
+    "species": "goose",
+    "seasonName": "Canada Goose (includes white-fronted geese)",
+    "zone": "Resident Population Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-18",
+        "close": "2026-11-29",
+        "note": null
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2027-02-21",
+        "note": null
+      }
+    ],
+    "bagLimit": "5",
+    "possessionLimit": "15",
+    "agency": "Virginia DWR",
+    "sourceTitle": "Virginia Hunting, Trapping, and Migratory Game Bird Seasons (July 2026-June 2027) (Virginia DWR)",
+    "sourceUrl": "https://dwr.virginia.gov/wp-content/uploads/media/2026-2027-Virginia-Hunting-Trapping-and-Migratory-Game-Bird-Seasons-Guide.pdf",
+    "sourceQuote": "Canada Goose Nov. 18 – 29 | 5 15 Includes white-fronted geese | Dec. 19 – Feb. 21",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "va-goose-september-canada-2026",
+    "state": "VA",
+    "species": "goose",
+    "seasonName": "September Canada Goose",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-25",
+        "note": null
+      }
+    ],
+    "bagLimit": "10",
+    "possessionLimit": "30",
+    "agency": "Virginia DWR",
+    "sourceTitle": "Virginia Hunting, Trapping, and Migratory Game Bird Seasons (July 2026-June 2027) (Virginia DWR)",
+    "sourceUrl": "https://dwr.virginia.gov/wp-content/uploads/media/2026-2027-Virginia-Hunting-Trapping-and-Migratory-Game-Bird-Seasons-Guide.pdf",
+    "sourceQuote": "September Sep. 1 – 25 sunrise to sunset 10 30 | September Canada goose hunting is not permitted within the",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Not permitted within the Amelia and Dick Cross WMAs."
+  }
+]

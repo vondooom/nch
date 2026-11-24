@@ -1,0 +1,632 @@
+[
+  {
+    "id": "ny-deer-northern-2026",
+    "state": "NY",
+    "species": "deer",
+    "seasonName": "Deer (bowhunting, muzzleloading and regular seasons)",
+    "zone": "Northern Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-27",
+        "close": "2026-10-23",
+        "note": "early bowhunting (all WMUs)"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-12",
+        "note": "youth firearms"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-23",
+        "note": "early muzzleloading (antlered only in WMU 6N per DEC map)"
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2026-12-06",
+        "note": "regular season"
+      },
+      {
+        "open": "2026-12-07",
+        "close": "2026-12-13",
+        "note": "late bowhunting and late muzzleloading, WMUs 5A, 5G, 5J, 6A, 6C, 6G and 6H only"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NYSDEC",
+    "sourceTitle": "2026-27 New York Hunting & Trapping Regulations Guide, Big Game Hunting (NYSDEC)",
+    "sourceUrl": "https://dec.ny.gov/sites/default/files/2024-07/htgbiggame.pdf",
+    "sourceQuote": "Northern Zone | Early Bowhunting (all WMUs) Sept. 27 - Oct. 23 | Regular Oct. 24 - Dec. 6 | Late Bowhunting (WMUs 5A, | Dec. 7 - Dec. 13 | 5G, 5J, 6A, 6C, 6G, and 6H only) | Muzzleloading Deer Seasons | Deer of Either Sex Oct. 17 - Oct. 23 | Antlered Deer Only Oct. 17 - Oct. 23 | Youth Firearms | Oct. 10 - 12",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). The Dec. 7-13 late muzzleloading window applies to the same WMUs shown in orange on DEC's muzzleloading map (read from the map, spot-check). Deer bag limits are set by tags (antlered and antlerless/DMP tags), not a daily limit, so bag is left null."
+  },
+  {
+    "id": "ny-deer-southern-2026",
+    "state": "NY",
+    "species": "deer",
+    "seasonName": "Deer (bowhunting, muzzleloading and regular seasons)",
+    "zone": "Southern Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-09-20",
+        "note": "early antlerless season, listed WMUs only (DMP/DMAP tags)"
+      },
+      {
+        "open": "2026-10-01",
+        "close": "2026-11-20",
+        "note": "early bowhunting"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-12",
+        "note": "youth firearms"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2026-12-13",
+        "note": "regular season"
+      },
+      {
+        "open": "2026-12-14",
+        "close": "2026-12-22",
+        "note": "late bowhunting and late muzzleloading"
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2027-01-01",
+        "note": "late bowhunting and late muzzleloading"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NYSDEC",
+    "sourceTitle": "2026-27 New York Hunting & Trapping Regulations Guide, Big Game Hunting (NYSDEC)",
+    "sourceUrl": "https://dec.ny.gov/sites/default/files/2024-07/htgbiggame.pdf",
+    "sourceQuote": "Southern Zone | Early Bowhunting Oct. 1 - Nov. 20 | Nov. 21 - Dec. 13 | Late Bowhunting Dec. 14 - Dec. 22 | Dec. 26 - Jan. 1 | Early Antlerless Season | Sept. 12 - Sept. 20 | Deer of Either Sex Dec. 26 - Jan. 1 | Youth Firearms | Oct. 10 - 12",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Westchester County (3S) is bowhunting only Oct. 1-Dec. 31 and Suffolk County (1C) bowhunting Oct. 1-Jan. 31 plus a permit special firearms season Jan. 3-31 (not recorded). Antler point restrictions apply in some WMUs. Deer bag limits are set by tags (antlered and antlerless/DMP tags), not a daily limit, so bag is left null."
+  },
+  {
+    "id": "ny-turkey-spring-2027",
+    "state": "NY",
+    "species": "turkey",
+    "seasonName": "Spring Turkey",
+    "zone": "Statewide (all open areas)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-04-24",
+        "close": "2027-04-25",
+        "note": "spring youth turkey season"
+      },
+      {
+        "open": "2027-05-01",
+        "close": "2027-05-31",
+        "note": "spring season, 1/2 hour before sunrise to noon"
+      }
+    ],
+    "bagLimit": "2 bearded birds, no more than 1 per day; no more than 1 in WMU 1C",
+    "possessionLimit": null,
+    "agency": "NYSDEC",
+    "sourceTitle": "2026-2027 New York Hunting & Trapping Guide, Turkey Hunting (NYSDEC)",
+    "sourceUrl": "https://dec.ny.gov/sites/default/files/2024-07/htgturkey.pdf",
+    "sourceQuote": "Spring Season | Hunting Hours: 1/2 hour before sunrise to noon | May 1 - May 31 | in all open areas | - 2 bearded birds, no | more than 1 per day. | April 24-25, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "May 1-31 year assigned 2027 from the spring youth hunt date (April 24-25, 2027) printed on the same page. Some WMUs are closed (shown on DEC map). Fall turkey seasons are set by WMU groups and are not recorded."
+  },
+  {
+    "id": "ny-duck-northeast-2026",
+    "state": "NY",
+    "species": "duck",
+    "seasonName": "Ducks and Coots",
+    "zone": "Northeast Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-27",
+        "note": "youth days and military days"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-11-29",
+        "note": null
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2026-12-20",
+        "note": null
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 mallards (2 hens), 3 wood ducks, 2 black ducks, 3 pintail, 2 redheads, 2 canvasbacks, 4 sea ducks; scaup 1, or 2 in the scaup 2/day window); coot 15",
+    "possessionLimit": "Ducks 18; coot 45 (three times the daily limit)",
+    "agency": "NYSDEC",
+    "sourceTitle": "2026-2027 New York Hunting & Trapping Guide, Migratory Game Bird Hunting Seasons and Bag Limits (NYSDEC)",
+    "sourceUrl": "https://dec.ny.gov/sites/default/files/2024-07/htgonlinemigratorygamebirds.pdf",
+    "sourceQuote": "2026–2027 Waterfowl Hunting Seasons | Northeast Zone Youth Days* Sept. 26 & 27 Military Days** Sept. 26 & 27 Oct. 10 - Nov. 29 Ducks*** and Coots Dec. 12 - Dec. 20 | Ducksa 6 18 Coot 15 45",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Scaup 2/day only in the printed scaup window."
+  },
+  {
+    "id": "ny-duck-lake-champlain-2026",
+    "state": "NY",
+    "species": "duck",
+    "seasonName": "Ducks and Coots",
+    "zone": "Lake Champlain Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-27",
+        "note": "youth days"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-11-01",
+        "note": null
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2026-12-27",
+        "note": null
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 mallards (2 hens), 3 wood ducks, 2 black ducks, 3 pintail, 2 redheads, 2 canvasbacks, 4 sea ducks; scaup 1, or 2 in the scaup 2/day window); coot 15",
+    "possessionLimit": "Ducks 18; coot 45 (three times the daily limit)",
+    "agency": "NYSDEC",
+    "sourceTitle": "2026-2027 New York Hunting & Trapping Guide, Migratory Game Bird Hunting Seasons and Bag Limits (NYSDEC)",
+    "sourceUrl": "https://dec.ny.gov/sites/default/files/2024-07/htgonlinemigratorygamebirds.pdf",
+    "sourceQuote": "2026–2027 Waterfowl Hunting Seasons | Lake Champlain Zone Youth Days* Sept. 26 & 27 Oct. 10 - Nov. 1 Ducks*** and Coots Nov. 21 - Dec. 27 | Ducksa 6 18 Coot 15 45",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Scaup 2/day only in the printed scaup window. No military days in this zone: DEC says Lake Champlain dates must match Vermont, which does not offer them."
+  },
+  {
+    "id": "ny-duck-long-island-2026",
+    "state": "NY",
+    "species": "duck",
+    "seasonName": "Ducks and Coots",
+    "zone": "Long Island Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-08",
+        "note": "youth days and military days"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-29",
+        "note": null
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 mallards (2 hens), 3 wood ducks, 2 black ducks, 3 pintail, 2 redheads, 2 canvasbacks, 4 sea ducks; scaup 1, or 2 in the scaup 2/day window); coot 15",
+    "possessionLimit": "Ducks 18; coot 45 (three times the daily limit)",
+    "agency": "NYSDEC",
+    "sourceTitle": "2026-2027 New York Hunting & Trapping Guide, Migratory Game Bird Hunting Seasons and Bag Limits (NYSDEC)",
+    "sourceUrl": "https://dec.ny.gov/sites/default/files/2024-07/htgonlinemigratorygamebirds.pdf",
+    "sourceQuote": "2026–2027 Waterfowl Hunting Seasons | Long Island Zone Youth Days* Nov. 7 & 8 Military Days** Nov. 7 & 8 Nov. 21 - Nov. 29 Ducks*** and Coots Dec. 12 - Jan. 31 | Ducksa 6 18 Coot 15 45",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Scaup 2/day only in the printed scaup window."
+  },
+  {
+    "id": "ny-duck-western-2026",
+    "state": "NY",
+    "species": "duck",
+    "seasonName": "Ducks and Coots",
+    "zone": "Western Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-27",
+        "note": "youth days"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-11-01",
+        "note": null
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-08",
+        "note": "military days"
+      },
+      {
+        "open": "2026-12-05",
+        "close": "2027-01-10",
+        "note": null
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 mallards (2 hens), 3 wood ducks, 2 black ducks, 3 pintail, 2 redheads, 2 canvasbacks, 4 sea ducks; scaup 1, or 2 in the scaup 2/day window); coot 15",
+    "possessionLimit": "Ducks 18; coot 45 (three times the daily limit)",
+    "agency": "NYSDEC",
+    "sourceTitle": "2026-2027 New York Hunting & Trapping Guide, Migratory Game Bird Hunting Seasons and Bag Limits (NYSDEC)",
+    "sourceUrl": "https://dec.ny.gov/sites/default/files/2024-07/htgonlinemigratorygamebirds.pdf",
+    "sourceQuote": "2026–2027 Waterfowl Hunting Seasons | Western Zone Youth Days* Sept. 26 & 27 Military Days** Nov. 7 & 8 Oct. 10 - Nov. 1 Ducks*** and Coots Dec. 5 - Jan. 10 | Ducksa 6 18 Coot 15 45",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Scaup 2/day only in the printed scaup window."
+  },
+  {
+    "id": "ny-duck-southeast-2026",
+    "state": "NY",
+    "species": "duck",
+    "seasonName": "Ducks and Coots",
+    "zone": "Southeast Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-27",
+        "note": "youth days and military days"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-18",
+        "note": null
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-12-27",
+        "note": null
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 mallards (2 hens), 3 wood ducks, 2 black ducks, 3 pintail, 2 redheads, 2 canvasbacks, 4 sea ducks; scaup 1, or 2 in the scaup 2/day window); coot 15",
+    "possessionLimit": "Ducks 18; coot 45 (three times the daily limit)",
+    "agency": "NYSDEC",
+    "sourceTitle": "2026-2027 New York Hunting & Trapping Guide, Migratory Game Bird Hunting Seasons and Bag Limits (NYSDEC)",
+    "sourceUrl": "https://dec.ny.gov/sites/default/files/2024-07/htgonlinemigratorygamebirds.pdf",
+    "sourceQuote": "2026–2027 Waterfowl Hunting Seasons | Southeast Zone Youth Days* Sept. 26 & 27 Military Days** Sept. 26 & 27 Oct. 10 - Oct. 18 Ducks*** and Coots Nov. 7 - Dec. 27 | Ducksa 6 18 Coot 15 45",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Scaup 2/day only in the printed scaup window."
+  },
+  {
+    "id": "ny-goose-northeast-2026",
+    "state": "NY",
+    "species": "goose",
+    "seasonName": "Canada Goose",
+    "zone": "Northeast Goose Hunting Area",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-25",
+        "note": "15 per day"
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2026-11-29",
+        "note": "3 per day"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2026-12-19",
+        "note": "3 per day"
+      }
+    ],
+    "bagLimit": "15 (Sept.); 3",
+    "possessionLimit": "Three times the daily limit",
+    "agency": "NYSDEC",
+    "sourceTitle": "2026-2027 New York Hunting & Trapping Guide, Migratory Game Bird Hunting Seasons and Bag Limits (NYSDEC)",
+    "sourceUrl": "https://dec.ny.gov/sites/default/files/2024-07/htgonlinemigratorygamebirds.pdf",
+    "sourceQuote": "2026–2027 Canada Goose Seasons | Northeast Season Dates Daily Limit Sept. 1 - Sept. 25 15 Oct. 24 - Nov. 29 3 Dec. 12 - Dec. 19",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Canada goose only (cackling and white-fronted geese count toward the Canada goose limit). New York City area is closed. Brant and snow goose dates are on the waterfowl zone table, not recorded here."
+  },
+  {
+    "id": "ny-goose-west-central-2026",
+    "state": "NY",
+    "species": "goose",
+    "seasonName": "Canada Goose",
+    "zone": "West Central Goose Hunting Area",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-25",
+        "note": "15 per day"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-12-21",
+        "note": "3 per day"
+      }
+    ],
+    "bagLimit": "15 (Sept.); 3",
+    "possessionLimit": "Three times the daily limit",
+    "agency": "NYSDEC",
+    "sourceTitle": "2026-2027 New York Hunting & Trapping Guide, Migratory Game Bird Hunting Seasons and Bag Limits (NYSDEC)",
+    "sourceUrl": "https://dec.ny.gov/sites/default/files/2024-07/htgonlinemigratorygamebirds.pdf",
+    "sourceQuote": "2026–2027 Canada Goose Seasons | West Central Season Dates Daily Limit Sept. 1 - Sept. 25 15 Nov. 7 - Dec. 21 3",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Canada goose only (cackling and white-fronted geese count toward the Canada goose limit). New York City area is closed. Brant and snow goose dates are on the waterfowl zone table, not recorded here."
+  },
+  {
+    "id": "ny-goose-lake-champlain-2026",
+    "state": "NY",
+    "species": "goose",
+    "seasonName": "Canada Goose",
+    "zone": "Lake Champlain Goose Hunting Area",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-25",
+        "note": "8 per day"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-11-23",
+        "note": "3 per day"
+      },
+      {
+        "open": "2026-12-01",
+        "close": "2027-01-04",
+        "note": "5 per day"
+      }
+    ],
+    "bagLimit": "8 (Sept.); 3 (Oct.-Nov.); 5 (Dec.-Jan.)",
+    "possessionLimit": "Three times the daily limit",
+    "agency": "NYSDEC",
+    "sourceTitle": "2026-2027 New York Hunting & Trapping Guide, Migratory Game Bird Hunting Seasons and Bag Limits (NYSDEC)",
+    "sourceUrl": "https://dec.ny.gov/sites/default/files/2024-07/htgonlinemigratorygamebirds.pdf",
+    "sourceQuote": "2026–2027 Canada Goose Seasons | Lake Champlain Season Dates Daily Limit Sept. 1 - Sept. 25 8 Oct. 10 - Nov. 23 3 Dec. 1 - Jan. 4 5",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Canada goose only (cackling and white-fronted geese count toward the Canada goose limit). New York City area is closed. Brant and snow goose dates are on the waterfowl zone table, not recorded here."
+  },
+  {
+    "id": "ny-goose-east-central-2026",
+    "state": "NY",
+    "species": "goose",
+    "seasonName": "Canada Goose",
+    "zone": "East Central Goose Hunting Area",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-25",
+        "note": "15 per day"
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2026-11-20",
+        "note": "3 per day"
+      },
+      {
+        "open": "2026-12-05",
+        "close": "2026-12-21",
+        "note": "3 per day"
+      }
+    ],
+    "bagLimit": "15 (Sept.); 3",
+    "possessionLimit": "Three times the daily limit",
+    "agency": "NYSDEC",
+    "sourceTitle": "2026-2027 New York Hunting & Trapping Guide, Migratory Game Bird Hunting Seasons and Bag Limits (NYSDEC)",
+    "sourceUrl": "https://dec.ny.gov/sites/default/files/2024-07/htgonlinemigratorygamebirds.pdf",
+    "sourceQuote": "2026–2027 Canada Goose Seasons | East Central Season Dates Daily Limit Sept. 1 - Sept. 25 15 Oct. 24 - Nov. 20 3 Dec. 5 - Dec. 21",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Canada goose only (cackling and white-fronted geese count toward the Canada goose limit). New York City area is closed. Brant and snow goose dates are on the waterfowl zone table, not recorded here."
+  },
+  {
+    "id": "ny-goose-hudson-valley-2026",
+    "state": "NY",
+    "species": "goose",
+    "seasonName": "Canada Goose",
+    "zone": "Hudson Valley Goose Hunting Area",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-25",
+        "note": "15 per day"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-12-21",
+        "note": "3 per day"
+      }
+    ],
+    "bagLimit": "15 (Sept.); 3",
+    "possessionLimit": "Three times the daily limit",
+    "agency": "NYSDEC",
+    "sourceTitle": "2026-2027 New York Hunting & Trapping Guide, Migratory Game Bird Hunting Seasons and Bag Limits (NYSDEC)",
+    "sourceUrl": "https://dec.ny.gov/sites/default/files/2024-07/htgonlinemigratorygamebirds.pdf",
+    "sourceQuote": "2026–2027 Canada Goose Seasons | Hudson Valley Season Dates Daily Limit Sept. 1 - Sept. 25 15 Nov. 7 - Dec. 21 3",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Canada goose only (cackling and white-fronted geese count toward the Canada goose limit). New York City area is closed. Brant and snow goose dates are on the waterfowl zone table, not recorded here."
+  },
+  {
+    "id": "ny-goose-south-2026",
+    "state": "NY",
+    "species": "goose",
+    "seasonName": "Canada Goose",
+    "zone": "South Goose Hunting Area",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-25",
+        "note": "15 per day"
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2027-01-11",
+        "note": "5 per day"
+      }
+    ],
+    "bagLimit": "15 (Sept.); 5",
+    "possessionLimit": "Three times the daily limit",
+    "agency": "NYSDEC",
+    "sourceTitle": "2026-2027 New York Hunting & Trapping Guide, Migratory Game Bird Hunting Seasons and Bag Limits (NYSDEC)",
+    "sourceUrl": "https://dec.ny.gov/sites/default/files/2024-07/htgonlinemigratorygamebirds.pdf",
+    "sourceQuote": "2026–2027 Canada Goose Seasons | South Season Dates Daily Limit Sept. 1 - Sept. 25 15 Oct. 24 - Jan. 11 5",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Canada goose only (cackling and white-fronted geese count toward the Canada goose limit). New York City area is closed. Brant and snow goose dates are on the waterfowl zone table, not recorded here."
+  },
+  {
+    "id": "ny-goose-li-western-2026",
+    "state": "NY",
+    "species": "goose",
+    "seasonName": "Canada Goose",
+    "zone": "Western Long Island Goose Hunting Area",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2027-02-21",
+        "note": "8 per day"
+      }
+    ],
+    "bagLimit": "8",
+    "possessionLimit": "Three times the daily limit",
+    "agency": "NYSDEC",
+    "sourceTitle": "2026-2027 New York Hunting & Trapping Guide, Migratory Game Bird Hunting Seasons and Bag Limits (NYSDEC)",
+    "sourceUrl": "https://dec.ny.gov/sites/default/files/2024-07/htgonlinemigratorygamebirds.pdf",
+    "sourceQuote": "2026–2027 Canada Goose Seasons | Western Season Dates Daily Limit | Nov. 7 - Feb. 21 8",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Canada goose only (cackling and white-fronted geese count toward the Canada goose limit). New York City area is closed. Brant and snow goose dates are on the waterfowl zone table, not recorded here."
+  },
+  {
+    "id": "ny-goose-li-central-2026",
+    "state": "NY",
+    "species": "goose",
+    "seasonName": "Canada Goose",
+    "zone": "Central Long Island Goose Hunting Area",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-08",
+        "close": "2026-09-30",
+        "note": "15 per day"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-29",
+        "note": "3 per day"
+      },
+      {
+        "open": "2026-12-05",
+        "close": "2027-02-03",
+        "note": "3 per day"
+      }
+    ],
+    "bagLimit": "15 (Sept.); 3",
+    "possessionLimit": "Three times the daily limit",
+    "agency": "NYSDEC",
+    "sourceTitle": "2026-2027 New York Hunting & Trapping Guide, Migratory Game Bird Hunting Seasons and Bag Limits (NYSDEC)",
+    "sourceUrl": "https://dec.ny.gov/sites/default/files/2024-07/htgonlinemigratorygamebirds.pdf",
+    "sourceQuote": "2026–2027 Canada Goose Seasons | Central Season Dates Daily Limit Sept. 8 - Sept. 30 15 Nov. 21 - Nov. 29 3 Dec. 5 - Feb. 3",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Canada goose only (cackling and white-fronted geese count toward the Canada goose limit). New York City area is closed. Brant and snow goose dates are on the waterfowl zone table, not recorded here."
+  },
+  {
+    "id": "ny-goose-li-eastern-2026",
+    "state": "NY",
+    "species": "goose",
+    "seasonName": "Canada Goose",
+    "zone": "Eastern Long Island Goose Hunting Area",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-08",
+        "close": "2026-09-30",
+        "note": "15 per day"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-29",
+        "note": "2 per day"
+      },
+      {
+        "open": "2026-12-05",
+        "close": "2027-01-24",
+        "note": "2 per day"
+      }
+    ],
+    "bagLimit": "15 (Sept.); 2",
+    "possessionLimit": "Three times the daily limit",
+    "agency": "NYSDEC",
+    "sourceTitle": "2026-2027 New York Hunting & Trapping Guide, Migratory Game Bird Hunting Seasons and Bag Limits (NYSDEC)",
+    "sourceUrl": "https://dec.ny.gov/sites/default/files/2024-07/htgonlinemigratorygamebirds.pdf",
+    "sourceQuote": "2026–2027 Canada Goose Seasons | Eastern Season Dates Daily Limit Sept. 8 - Sept. 30 15 Nov. 21 - Nov. 29 2 Dec. 5 - Jan. 24",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Canada goose only (cackling and white-fronted geese count toward the Canada goose limit). New York City area is closed. Brant and snow goose dates are on the waterfowl zone table, not recorded here."
+  },
+  {
+    "id": "ny-woodcock-upstate-2026",
+    "state": "NY",
+    "species": "woodcock",
+    "seasonName": "Woodcock",
+    "zone": "Upstate New York",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2026-11-14",
+        "note": null
+      }
+    ],
+    "bagLimit": "3/day",
+    "possessionLimit": "9 in possession",
+    "agency": "NYSDEC",
+    "sourceTitle": "2026-2027 New York Hunting & Trapping Guide, Migratory Game Bird Hunting Seasons and Bag Limits (NYSDEC)",
+    "sourceUrl": "https://dec.ny.gov/sites/default/files/2024-07/htgonlinemigratorygamebirds.pdf",
+    "sourceQuote": "Woodcock, Crow, Snipe, Rail, and Gallinule Hunting Season Dates, Bag Limits, and Regulations for 2026 –2027 | Upstate New York 1,3 Oct. 1 – Nov. 14 | 3/day | 9 in possession",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Upstate includes all of New York State north of the Bronx-Westchester County boundary; hunting season closed in New York City."
+  },
+  {
+    "id": "ny-woodcock-long-island-2026",
+    "state": "NY",
+    "species": "woodcock",
+    "seasonName": "Woodcock",
+    "zone": "Long Island (WMUs 1A and 1C)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2026-11-14",
+        "note": null
+      }
+    ],
+    "bagLimit": "3/day",
+    "possessionLimit": "9 in possession",
+    "agency": "NYSDEC",
+    "sourceTitle": "2026-2027 New York Hunting & Trapping Guide, Migratory Game Bird Hunting Seasons and Bag Limits (NYSDEC)",
+    "sourceUrl": "https://dec.ny.gov/sites/default/files/2024-07/htgonlinemigratorygamebirds.pdf",
+    "sourceQuote": "Long Island 2,3 Oct. 1 – Nov. 14 | 3/day | 9 in possession",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ny-snipe-upstate-2026",
+    "state": "NY",
+    "species": "snipe",
+    "seasonName": "Snipe",
+    "zone": "Upstate New York",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-11-09",
+        "note": null
+      }
+    ],
+    "bagLimit": "8/day",
+    "possessionLimit": "24 in possession",
+    "agency": "NYSDEC",
+    "sourceTitle": "2026-2027 New York Hunting & Trapping Guide, Migratory Game Bird Hunting Seasons and Bag Limits (NYSDEC)",
+    "sourceUrl": "https://dec.ny.gov/sites/default/files/2024-07/htgonlinemigratorygamebirds.pdf",
+    "sourceQuote": "Upstate New York 1,3 Oct. 1 – Nov. 14 Sept. 1 – Mar. 31 Sept. 1 – Nov. 9 | 8/day | 24 in possession",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Snipe is closed on Long Island."
+  }
+]

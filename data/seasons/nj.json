@@ -1,0 +1,593 @@
+[
+  {
+    "id": "nj-duck-north-2026",
+    "state": "NJ",
+    "species": "duck",
+    "seasonName": "Duck, Merganser, Coot",
+    "zone": "North Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-03",
+        "note": "youth waterfowl day"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-17",
+        "note": null
+      },
+      {
+        "open": "2026-10-31",
+        "close": "2026-10-31",
+        "note": "veterans/active military day"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2027-01-14",
+        "note": null
+      },
+      {
+        "open": "2027-02-06",
+        "close": "2027-02-06",
+        "note": "joint youth and veterans/active military day"
+      }
+    ],
+    "bagLimit": "6 ducks in aggregate (no more than 4 mallard (2 hen), 2 black duck, 3 wood duck, 3 pintail, 2 redhead, 2 canvasback, 1 whistling duck, 4 sea duck, 1 scaup except 2 in the last 20 days in each zone); mergansers 5; coot 15",
+    "possessionLimit": null,
+    "agency": "NJ Fish and Wildlife",
+    "sourceTitle": "2026-27 NJ Migratory Game Bird Regulations card (NJDEP Fish & Wildlife)",
+    "sourceUrl": "https://dep.nj.gov/wp-content/uploads/njfw/migratory-game-bird-regulations-card-2026-2027.pdf",
+    "sourceQuote": "2026-27 NJ Migratory Game Bird Regulations | North Zone Oct. 10 – Oct. 17 Duck-6; Merganser-5; Duck, Merganser, Coot Nov. 14 – Jan. 14 Coot-15 | Youth Waterfowl Day Oct. 3 See belowC | Joint Youth & Veterans/ Feb. 6 See belowC Active Military Day Veterans/Active Military Oct. 31 See belowC Day | A Bag Limits: 6 Ducks in aggregate but no to include more than 4 mallard (2 hen), 2 black duck, 3 wood duck, 3 pintail, 2 redhead, 2 canvasback, 1 whistling duck, 4 sea duck (no more than 3 scoter, 3 long-tailed duck, 3 eider [1 hen]), and 1 scaup (except during the last 20 days in each zone, the limit is 2).",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). No migratory bird hunting on Sundays. Statewide veterans and joint youth/veterans days apply in all zones. Special days: same limits except 2 scaup."
+  },
+  {
+    "id": "nj-duck-south-2026",
+    "state": "NJ",
+    "species": "duck",
+    "seasonName": "Duck, Merganser, Coot",
+    "zone": "South Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-10",
+        "note": "youth waterfowl day"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-24",
+        "note": null
+      },
+      {
+        "open": "2026-10-31",
+        "close": "2026-10-31",
+        "note": "veterans/active military day"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2027-01-21",
+        "note": null
+      },
+      {
+        "open": "2027-02-06",
+        "close": "2027-02-06",
+        "note": "joint youth and veterans/active military day"
+      }
+    ],
+    "bagLimit": "6 ducks in aggregate (no more than 4 mallard (2 hen), 2 black duck, 3 wood duck, 3 pintail, 2 redhead, 2 canvasback, 1 whistling duck, 4 sea duck, 1 scaup except 2 in the last 20 days in each zone); mergansers 5; coot 15",
+    "possessionLimit": null,
+    "agency": "NJ Fish and Wildlife",
+    "sourceTitle": "2026-27 NJ Migratory Game Bird Regulations card (NJDEP Fish & Wildlife)",
+    "sourceUrl": "https://dep.nj.gov/wp-content/uploads/njfw/migratory-game-bird-regulations-card-2026-2027.pdf",
+    "sourceQuote": "South Zone Oct. 17 – Oct. 24 Duck-6; Merganser-5; Duck, Merganser, Coot Nov. 21 – Jan. 21 Coot-15 | Youth Waterfowl Day Oct. 10 See belowC | Joint Youth & Veterans/ Feb. 6 See belowC Active Military Day Veterans/Active Military Oct. 31 See belowC Day | A Bag Limits: 6 Ducks in aggregate but no to include more than 4 mallard (2 hen), 2 black duck, 3 wood duck, 3 pintail, 2 redhead, 2 canvasback, 1 whistling duck, 4 sea duck (no more than 3 scoter, 3 long-tailed duck, 3 eider [1 hen]), and 1 scaup (except during the last 20 days in each zone, the limit is 2).",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). No migratory bird hunting on Sundays."
+  },
+  {
+    "id": "nj-duck-coastal-2026",
+    "state": "NJ",
+    "species": "duck",
+    "seasonName": "Duck, Merganser, Coot (with Canada Geese)",
+    "zone": "Coastal Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-31",
+        "close": "2026-10-31",
+        "note": "veterans/active military day"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-11-14",
+        "note": "youth waterfowl day"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2027-01-29",
+        "note": null
+      },
+      {
+        "open": "2027-02-06",
+        "close": "2027-02-06",
+        "note": "joint youth and veterans/active military day"
+      }
+    ],
+    "bagLimit": "6 ducks in aggregate (no more than 4 mallard (2 hen), 2 black duck, 3 wood duck, 3 pintail, 2 redhead, 2 canvasback, 1 whistling duck, 4 sea duck, 1 scaup except 2 in the last 20 days in each zone); mergansers 5; coot 15",
+    "possessionLimit": null,
+    "agency": "NJ Fish and Wildlife",
+    "sourceTitle": "2026-27 NJ Migratory Game Bird Regulations card (NJDEP Fish & Wildlife)",
+    "sourceUrl": "https://dep.nj.gov/wp-content/uploads/njfw/migratory-game-bird-regulations-card-2026-2027.pdf",
+    "sourceQuote": "Coastal Zone Duck, Canada Geese, Duck-6; Canada Goose-2; Nov. 21 – Jan. 29 Merganser, Coot Merganser-5; Coot-15 | Youth Waterfowl Day Nov. 14 See belowC | Joint Youth & Veterans/ Feb. 6 See belowC Active Military Day Veterans/Active Military Oct. 31 See belowC Day | A Bag Limits: 6 Ducks in aggregate but no to include more than 4 mallard (2 hen), 2 black duck, 3 wood duck, 3 pintail, 2 redhead, 2 canvasback, 1 whistling duck, 4 sea duck (no more than 3 scoter, 3 long-tailed duck, 3 eider [1 hen]), and 1 scaup (except during the last 20 days in each zone, the limit is 2).",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). No migratory bird hunting on Sundays. Canada geese share the Coastal Zone dates (2 per day); see nj-goose-coastal-2026."
+  },
+  {
+    "id": "nj-goose-north-2026",
+    "state": "NJ",
+    "species": "goose",
+    "seasonName": "Canada Geese and Brant",
+    "zone": "North Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-30",
+        "note": "Canada geese"
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2027-01-30",
+        "note": "Canada geese"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-28",
+        "note": "brant"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-01-07",
+        "note": "brant"
+      }
+    ],
+    "bagLimit": "Canada geese 3; brant 1",
+    "possessionLimit": null,
+    "agency": "NJ Fish and Wildlife",
+    "sourceTitle": "2026-27 NJ Migratory Game Bird Regulations card (NJDEP Fish & Wildlife)",
+    "sourceUrl": "https://dep.nj.gov/wp-content/uploads/njfw/migratory-game-bird-regulations-card-2026-2027.pdf",
+    "sourceQuote": "North Zone | Nov. 21 – Nov. 28 Brant 1 Dec. 12 – Jan. 7 Nov. 21 – Nov. 30 Canada Geese 3 Dec. 19 – Jan. 30",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). No migratory bird hunting on Sundays. Statewide September and winter Canada goose seasons are separate records."
+  },
+  {
+    "id": "nj-goose-south-2026",
+    "state": "NJ",
+    "species": "goose",
+    "seasonName": "Canada Geese and Brant",
+    "zone": "South Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-30",
+        "note": "Canada geese"
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2027-01-30",
+        "note": "Canada geese"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-28",
+        "note": "brant"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-01-07",
+        "note": "brant"
+      }
+    ],
+    "bagLimit": "Canada geese 3; brant 1",
+    "possessionLimit": null,
+    "agency": "NJ Fish and Wildlife",
+    "sourceTitle": "2026-27 NJ Migratory Game Bird Regulations card (NJDEP Fish & Wildlife)",
+    "sourceUrl": "https://dep.nj.gov/wp-content/uploads/njfw/migratory-game-bird-regulations-card-2026-2027.pdf",
+    "sourceQuote": "South Zone | Nov. 21 – Nov. 28 Brant 1 Dec. 12 – Jan. 7 Nov. 21 – Nov. 30 Canada Geese 3 Dec. 19 – Jan. 30",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). No migratory bird hunting on Sundays. Statewide September and winter Canada goose seasons are separate records."
+  },
+  {
+    "id": "nj-goose-coastal-2026",
+    "state": "NJ",
+    "species": "goose",
+    "seasonName": "Canada Geese and Brant",
+    "zone": "Coastal Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2027-01-29",
+        "note": "Canada geese"
+      },
+      {
+        "open": "2026-11-26",
+        "close": "2026-11-28",
+        "note": "brant"
+      },
+      {
+        "open": "2026-12-24",
+        "close": "2027-01-23",
+        "note": "brant"
+      }
+    ],
+    "bagLimit": "Canada geese 2; brant 1",
+    "possessionLimit": null,
+    "agency": "NJ Fish and Wildlife",
+    "sourceTitle": "2026-27 NJ Migratory Game Bird Regulations card (NJDEP Fish & Wildlife)",
+    "sourceUrl": "https://dep.nj.gov/wp-content/uploads/njfw/migratory-game-bird-regulations-card-2026-2027.pdf",
+    "sourceQuote": "Coastal Zone Duck, Canada Geese, Duck-6; Canada Goose-2; Nov. 21 – Jan. 29 | Nov. 26 – Nov. 28 Brant 1 Dec. 24 – Jan. 23",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). No migratory bird hunting on Sundays."
+  },
+  {
+    "id": "nj-goose-september-canada-2026",
+    "state": "NJ",
+    "species": "goose",
+    "seasonName": "Sept. Canada Goose",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": null,
+    "agency": "NJ Fish and Wildlife",
+    "sourceTitle": "2026-27 NJ Migratory Game Bird Regulations card (NJDEP Fish & Wildlife)",
+    "sourceUrl": "https://dep.nj.gov/wp-content/uploads/njfw/migratory-game-bird-regulations-card-2026-2027.pdf",
+    "sourceQuote": "Statewide Seasons Sept. Canada Goose Sept. 1 – Sept. 30 15",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). No migratory bird hunting on Sundays."
+  },
+  {
+    "id": "nj-goose-winter-canada-2027",
+    "state": "NJ",
+    "species": "goose",
+    "seasonName": "Winter Canada Goose",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-02-01",
+        "close": "2027-02-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "5",
+    "possessionLimit": null,
+    "agency": "NJ Fish and Wildlife",
+    "sourceTitle": "2026-27 NJ Migratory Game Bird Regulations card (NJDEP Fish & Wildlife)",
+    "sourceUrl": "https://dep.nj.gov/wp-content/uploads/njfw/migratory-game-bird-regulations-card-2026-2027.pdf",
+    "sourceQuote": "Other Migratory Game Bird SeasonsD Winter Canada Goose Feb. 1 – Feb. 15 5 | D All migratory bird zones are described in detail",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). No migratory bird hunting on Sundays. The card lists this season under 'Other Migratory Game Bird Seasons' without naming a zone; zone left null. Check the Digest for the open area before display."
+  },
+  {
+    "id": "nj-snipe-2026",
+    "state": "NJ",
+    "species": "snipe",
+    "seasonName": "Snipe",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2027-01-07",
+        "note": null
+      }
+    ],
+    "bagLimit": "8",
+    "possessionLimit": null,
+    "agency": "NJ Fish and Wildlife",
+    "sourceTitle": "2026-27 NJ Migratory Game Bird Regulations card (NJDEP Fish & Wildlife)",
+    "sourceUrl": "https://dep.nj.gov/wp-content/uploads/njfw/migratory-game-bird-regulations-card-2026-2027.pdf",
+    "sourceQuote": "Snipe Sept. 5 – Jan. 7 8",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). No migratory bird hunting on Sundays. Listed under 'Other Migratory Game Bird Seasons' with no zone split."
+  },
+  {
+    "id": "nj-woodcock-north-2026",
+    "state": "NJ",
+    "species": "woodcock",
+    "seasonName": "Woodcock",
+    "zone": "North Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2026-10-31",
+        "note": null
+      },
+      {
+        "open": "2026-11-03",
+        "close": "2026-12-05",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": null,
+    "agency": "NJ Fish and Wildlife",
+    "sourceTitle": "2026-27 NJ Migratory Game Bird Regulations card (NJDEP Fish & Wildlife)",
+    "sourceUrl": "https://dep.nj.gov/wp-content/uploads/njfw/migratory-game-bird-regulations-card-2026-2027.pdf",
+    "sourceQuote": "Oct. 24 - Oct. 31 Woodcock – North Zone 3 Nov. 3 – Dec. 5",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). No migratory bird hunting on Sundays."
+  },
+  {
+    "id": "nj-woodcock-south-2026",
+    "state": "NJ",
+    "species": "woodcock",
+    "seasonName": "Woodcock",
+    "zone": "South Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2026-12-05",
+        "note": null
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": null,
+    "agency": "NJ Fish and Wildlife",
+    "sourceTitle": "2026-27 NJ Migratory Game Bird Regulations card (NJDEP Fish & Wildlife)",
+    "sourceUrl": "https://dep.nj.gov/wp-content/uploads/njfw/migratory-game-bird-regulations-card-2026-2027.pdf",
+    "sourceQuote": "Nov. 7 – Dec. 5 Woodcock – South Zone 3 Dec. 19 – Dec. 31",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). No migratory bird hunting on Sundays."
+  },
+  {
+    "id": "nj-dove-closed-2026",
+    "state": "NJ",
+    "species": "dove",
+    "seasonName": "Mourning Dove (closed)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NJ Fish and Wildlife",
+    "sourceTitle": "2026-27 NJ Migratory Game Bird Regulations card (NJDEP Fish & Wildlife)",
+    "sourceUrl": "https://dep.nj.gov/wp-content/uploads/njfw/migratory-game-bird-regulations-card-2026-2027.pdf",
+    "sourceQuote": "Closed Season: Swans, harlequin duck, king rail, sandhill crane, and mourning dove.",
+    "checkedDate": "2026-11-23",
+    "notes": "Closed for 2026-27; no season dates. Do not display as an open season."
+  },
+  {
+    "id": "nj-grouse-closed-2026",
+    "state": "NJ",
+    "species": "grouse",
+    "seasonName": "Ruffed Grouse (closed)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NJ Fish and Wildlife",
+    "sourceTitle": "Upland Game Birds, NJ Hunting & Trapping Digest p. 52 (NJDEP Fish & Wildlife)",
+    "sourceUrl": "https://dep.nj.gov/wp-content/uploads/njfw/upland-game-bird-regulations-page-2.pdf",
+    "sourceQuote": "Ruffed Grouse Season Closed | the grouse hunting season is closed statewide. No exceptions.",
+    "checkedDate": "2026-11-23",
+    "notes": "Closed for 2026-27; no season dates. Do not display as an open season."
+  },
+  {
+    "id": "nj-quail-wild-closed-2026",
+    "state": "NJ",
+    "species": "quail",
+    "seasonName": "Bobwhite Quail, wild (closed)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NJ Fish and Wildlife",
+    "sourceTitle": "Upland Game Bird Seasons 2026-27, NJ Hunting & Trapping Digest p. 50 (NJDEP Fish & Wildlife)",
+    "sourceUrl": "https://dep.nj.gov/wp-content/uploads/njfw/upland-game-bird-regulations-page-1.pdf",
+    "sourceQuote": "Upland Game Bird Seasons 2026–27 | Bobwhite quail (wild), Ruffed grouse Closed statewide | Stocked quail may be taken at Peaslee and Greenwood",
+    "checkedDate": "2026-11-23",
+    "notes": "Closed for 2026-27; no season dates. Do not display as an open season. Stocked bobwhite quail may be taken Nov. 7, 2026-Jan. 31, 2027 only on Greenwood Forest and Peaslee WMAs (and on licensed preserves); not recorded as a statewide season."
+  },
+  {
+    "id": "nj-pheasant-statewide-2026",
+    "state": "NJ",
+    "species": "pheasant",
+    "seasonName": "Pheasant (with chukar and Hungarian partridge)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-31",
+        "close": "2026-10-31",
+        "note": "youth upland bird day (licensed youth with adult)"
+      },
+      {
+        "open": "2026-11-02",
+        "close": "2026-11-06",
+        "note": "youth pheasant days"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-12-06",
+        "note": null
+      },
+      {
+        "open": "2026-12-13",
+        "close": "2026-12-15",
+        "note": null
+      },
+      {
+        "open": "2026-12-17",
+        "close": "2027-02-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 pheasant (7 partridge)",
+    "possessionLimit": null,
+    "agency": "NJ Fish and Wildlife",
+    "sourceTitle": "Upland Game Bird Seasons 2026-27, NJ Hunting & Trapping Digest p. 50 (NJDEP Fish & Wildlife)",
+    "sourceUrl": "https://dep.nj.gov/wp-content/uploads/njfw/upland-game-bird-regulations-page-1.pdf",
+    "sourceQuote": "Upland Game Bird Seasons 2026–27 | No Sunday hunting except commercial and semi-wild hunting preserves. | Chukar partridge, Hungarian partridge, Nov. 7, 2026– Feb. 15, 2027 7 partridge, 2 pheasant | Pheasant Closed Dec. 7–12 & 16, 2026 | For properly licensed Youth hunters, Saturday, Oct. 31, 2026 | Nov. 2–6, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "Season printed as Nov. 7, 2026-Feb. 15, 2027, closed Dec. 7-12 and Dec. 16, 2026; the open periods are that range minus the printed closed days. Pheasants are stocked on designated WMAs (Pheasant and Quail Stamp required there)."
+  },
+  {
+    "id": "nj-deer-regset-high-2026",
+    "state": "NJ",
+    "species": "deer",
+    "seasonName": "Deer, Regulation Set High",
+    "zone": "Regulation Set High deer management zones (7, 8, 9*, 10, 11, 12, 13*, 14, 15, 17, 19, 36, 41, 42, 48, 49, 50, 51)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-10-02",
+        "note": "fall bow; first deer must be antlerless (not youth license holders)"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-26",
+        "note": "youth archery day"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-30",
+        "note": "fall bow; antlered or antlerless"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-21",
+        "note": "youth firearm day"
+      },
+      {
+        "open": "2026-12-07",
+        "close": "2026-12-12",
+        "note": "six-day firearm (bag two antlered deer)"
+      },
+      {
+        "open": "2027-01-01",
+        "close": "2027-02-20",
+        "note": "winter bow"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NJ Fish and Wildlife",
+    "sourceTitle": "Deer Seasons 2026-27, NJ Hunting & Trapping Digest (NJDEP Fish & Wildlife)",
+    "sourceUrl": "https://dep.nj.gov/wp-content/uploads/njfw/deer-hunting-regulations.pdf",
+    "sourceQuote": "Deer Seasons 2026-27 | September 12 - October 2, 2026; First deer must be antlerless (Does not apply to | 7, 8, 9*, 10, 11, Youth License Holders). 12, 13*, 14, 15, October 3 - October 30, 2026; 17, 19, 36, 41, Antlered or antlerless deer. 42, 48, 49, 50, Bag Limit: unlimited antlerless 51 deer and ONE antlered deer. | September 26, 2026; | November 21, 2026; | December 7-12, 2026; | January 1 - February | 20, 2027;",
+    "checkedDate": "2026-11-23",
+    "notes": "Zones marked * require at least 3 antler points on one side. Permit Bow, Permit Muzzleloader and Permit Shotgun seasons also apply but require the matching permit (not recorded as periods). Special Area zones (39, 54, 61, 64, 66, 67, 68, 71) and Not Designated zones have their own rules. Only one antlered buck per season per hunter except two in the Six-day Firearm season. Dates read from the Digest table by column; the Winter Bow closing date is split across lines in the extracted text, so spot-check against the PDF."
+  },
+  {
+    "id": "nj-deer-regset-medium-2026",
+    "state": "NJ",
+    "species": "deer",
+    "seasonName": "Deer, Regulation Set Medium",
+    "zone": "Regulation Set Medium deer management zones (2, 5, 6, 16, 25, 27*, 28*, 29*, 31*, 35*, 47*)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-10-02",
+        "note": "fall bow; first deer must be antlerless (not youth license holders)"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-26",
+        "note": "youth archery day"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-30",
+        "note": "fall bow; antlered or antlerless"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-21",
+        "note": "youth firearm day"
+      },
+      {
+        "open": "2026-12-07",
+        "close": "2026-12-12",
+        "note": "six-day firearm (bag two antlered deer)"
+      },
+      {
+        "open": "2027-01-01",
+        "close": "2027-01-31",
+        "note": "winter bow"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NJ Fish and Wildlife",
+    "sourceTitle": "Deer Seasons 2026-27, NJ Hunting & Trapping Digest (NJDEP Fish & Wildlife)",
+    "sourceUrl": "https://dep.nj.gov/wp-content/uploads/njfw/deer-hunting-regulations.pdf",
+    "sourceQuote": "Deer Seasons 2026-27 | September 12 - October 2, 2026; First deer must be antlerless (Does not apply to | 2, 5, 6, 16, 25, Youth License Holders). 27*, 28*, 29*, October 3 - October 30, 2026; 31*, 35*, 47* Antlered or antlerless deer. Bag Limit: 5 antlerless deer and ONE antlered deer. | September 26, 2026; | November 21, 2026; | December 7-12, 2026; | January 1 - January | 31, 2027;",
+    "checkedDate": "2026-11-23",
+    "notes": "Zones marked * require at least 3 antler points on one side. Permit Bow, Permit Muzzleloader and Permit Shotgun seasons also apply but require the matching permit (not recorded as periods). Special Area zones (39, 54, 61, 64, 66, 67, 68, 71) and Not Designated zones have their own rules. Only one antlered buck per season per hunter except two in the Six-day Firearm season. Dates read from the Digest table by column; the Winter Bow closing date is split across lines in the extracted text, so spot-check against the PDF."
+  },
+  {
+    "id": "nj-deer-regset-low-2026",
+    "state": "NJ",
+    "species": "deer",
+    "seasonName": "Deer, Regulation Set Low",
+    "zone": "Regulation Set Low deer management zones (1, 3*, 4, 18, 21, 22, 23, 24, 26, 30*, 34*, 43, 45, 46, 55, 63*, 65)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-26",
+        "note": "youth archery day"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-30",
+        "note": "fall bow; antlered or antlerless"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-21",
+        "note": "youth firearm day"
+      },
+      {
+        "open": "2026-12-07",
+        "close": "2026-12-12",
+        "note": "six-day firearm (bag two antlered deer)"
+      },
+      {
+        "open": "2027-01-01",
+        "close": "2027-01-31",
+        "note": "winter bow"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NJ Fish and Wildlife",
+    "sourceTitle": "Deer Seasons 2026-27, NJ Hunting & Trapping Digest (NJDEP Fish & Wildlife)",
+    "sourceUrl": "https://dep.nj.gov/wp-content/uploads/njfw/deer-hunting-regulations.pdf",
+    "sourceQuote": "Deer Seasons 2026-27 | October 3 - October 30, 2026; | 1, 3*, 4, 18, 21, | September 26, 2026; | November 21, 2026; | December 7-12, 2026; | January 1 - January | 31, 2027;",
+    "checkedDate": "2026-11-23",
+    "notes": "Zones marked * require at least 3 antler points on one side. Permit Bow, Permit Muzzleloader and Permit Shotgun seasons also apply but require the matching permit (not recorded as periods). Special Area zones (39, 54, 61, 64, 66, 67, 68, 71) and Not Designated zones have their own rules. Only one antlered buck per season per hunter except two in the Six-day Firearm season. Regulation Set Low has no September fall bow segment; Permit Bow, Permit Muzzleloader and Permit Shotgun are closed in Zones 45 and 46. Dates read from the Digest table by column; the Winter Bow closing date is split across lines in the extracted text, so spot-check against the PDF."
+  }
+]

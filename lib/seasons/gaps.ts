@@ -300,6 +300,92 @@ export const unlistedBigGame: Record<string, { species: string; line: string; li
       line: "WMA, waterfowl area, and public dove field schedules are not listed here.",
     },
   ],
+  delaware: [
+    {
+      species: "Other seasons",
+      line: "Waterfowl, dove, and upland dates are coming soon.",
+    },
+  ],
+  maryland: [
+    {
+      species: "Deer",
+      line: "Antlerless deer dates differ between the two deer regions and are not listed here.",
+    },
+  ],
+  "new-jersey": [
+    {
+      species: "Turkey",
+      line: "Spring turkey is a lottery and fall turkey is by permit, so those dates are not listed here.",
+    },
+    {
+      species: "Quail",
+      line: "Stocked quail is limited to two wildlife areas and is described in the source notes.",
+    },
+  ],
+  "new-york": [
+    {
+      species: "Turkey",
+      line: "Fall turkey is set by area on DEC maps and is not listed here.",
+    },
+    {
+      species: "Grouse",
+      line: "Grouse seasons are set by area on DEC maps and are not listed here.",
+    },
+    {
+      species: "Pheasant",
+      line: "Pheasant seasons are set by area on DEC maps and are not listed here.",
+    },
+    {
+      species: "Quail",
+      line: "Quail seasons are set by area on DEC maps and are not listed here.",
+    },
+    {
+      species: "Dove",
+      line: "There is no dove season in New York.",
+    },
+  ],
+  pennsylvania: [
+    {
+      species: "Deer",
+      line: "Extended archery and extended antlerless seasons are set by WMU and are not listed here.",
+    },
+    {
+      species: "Turkey",
+      line: "Fall turkey is set by WMU and is not listed here.",
+    },
+    {
+      species: "Elk",
+      line: "Elk is by license draw, so season dates are not listed here.",
+    },
+  ],
+  virginia: [
+    {
+      species: "Deer",
+      line: "Firearms and late archery dates vary by locality and are not listed here.",
+    },
+    {
+      species: "Turkey",
+      line: "Fall firearms turkey varies by locality and is not listed here.",
+    },
+    {
+      species: "Elk",
+      line: "Elk in Buchanan, Dickenson, and Wise counties is by lottery and is not listed here.",
+    },
+  ],
+  "west-virginia": [
+    {
+      species: "Deer",
+      line: "Antlerless deer seasons are set by county and are not listed here.",
+    },
+    {
+      species: "Turkey",
+      line: "Fall turkey is set by county and is not listed here.",
+    },
+    {
+      species: "Elk",
+      line: "There is no open elk season.",
+    },
+  ],
   wisconsin: [
     {
       species: "Deer",
