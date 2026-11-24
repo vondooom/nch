@@ -386,6 +386,34 @@ export const unlistedBigGame: Record<string, { species: string; line: string; li
       line: "There is no open elk season.",
     },
   ],
+  alaska: [
+    {
+      species: "Big game",
+      line: "Moose, caribou, Dall sheep, mountain goat, bison, muskox, and bears are set by Game Management Unit, with drawing, registration, and subsistence hunts, and are not listed here.",
+    },
+    {
+      species: "Sandhill crane",
+      line: "Sandhill crane permits are not listed here.",
+    },
+    {
+      species: "Tundra swan",
+      line: "Tundra swan permits are not listed here.",
+    },
+  ],
+  hawaii: [
+    {
+      species: "Other game",
+      line: "Pig, goat, sheep, and mouflon seasons are set by island and hunting unit and are not listed here.",
+    },
+    {
+      species: "Unit status",
+      line: "Several Kaua\u02bbi and Maui units have storm or access closures that change during the season. Confirm unit status with DOFAW before you go. Details are in each record's notes.",
+    },
+    {
+      species: "Turkey",
+      line: "There is no 2026-27 fall turkey season, and spring 2027 is not announced yet.",
+    },
+  ],
   wisconsin: [
     {
       species: "Deer",

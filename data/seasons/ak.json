@@ -1,0 +1,1267 @@
+[
+  {
+    "id": "ak-duck-southeast-2026",
+    "state": "AK",
+    "species": "duck",
+    "seasonName": "Duck season, Southeast (Units 1-4)",
+    "zone": "Southeast (Units 1-4)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-11-30",
+        "note": null
+      },
+      {
+        "open": "2026-12-16",
+        "close": "2026-12-31",
+        "note": "Season closed Dec. 1-15"
+      }
+    ],
+    "bagLimit": "Ducks 7 per day, 21 in possession (no more than 2 canvasback per day, 6 in possession); sea ducks: residents 10 per day, 20 in possession, nonresidents 7 per day, 20 per season",
+    "possessionLimit": null,
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Migratory Game Bird Hunting Regulations (waterfowl.pdf, linked from the ADF&G waterfowl hunting page)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=waterfowlhunting.main",
+    "sourceQuote": "SOUTHEAST Units 1-4 | Sept. 1-Nov. 30, and Dec. 16-Dec. 31 | Season closed Dec. 1-15; see page 10 for definitions | Ducks1 | 7 per day, 21 in possession | Sea Ducks2 Residents | 10 per day, 20 in possession | Nonresidents | 7 per day, 20 per season",
+    "checkedDate": "2026-11-23",
+    "notes": "Sea duck limits printed in this zone: residents 10 per day, 20 in possession; nonresidents 7 per day, 20 per season. Steller's and spectacled eiders are closed statewide; harlequin and long-tailed duck sub-limits apply (see source). Dates printed as month and day only; years assigned for the 2026-27 season (Sept-Dec = 2026, Jan = 2027). Hunters must hold a state hunting license and Alaska waterfowl conservation stamp (exemptions in source) plus a federal duck stamp if 16 or older; nonresident small game license $60 or hunting license $160 per the source. Daily bag limits also differ by unit within the zone (see source footnotes)."
+  },
+  {
+    "id": "ak-goose-southeast-2026",
+    "state": "AK",
+    "species": "goose",
+    "seasonName": "Goose season (Canada, white-fronted, white geese and brant), Southeast (Units 1-4)",
+    "zone": "Southeast (Units 1-4)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-11-30",
+        "note": null
+      },
+      {
+        "open": "2026-12-16",
+        "close": "2026-12-31",
+        "note": "Season closed Dec. 1-15"
+      },
+      {
+        "open": "2026-09-01",
+        "close": "2026-10-21",
+        "note": "Brant only"
+      }
+    ],
+    "bagLimit": "Canada geese 4 per day, 12 in possession; white-fronted geese 4 per day, 12 in possession; white geese 6 per day, 18 in possession; emperor geese no open season; brant 2 per day, 6 in possession",
+    "possessionLimit": null,
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Migratory Game Bird Hunting Regulations (waterfowl.pdf, linked from the ADF&G waterfowl hunting page)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=waterfowlhunting.main",
+    "sourceQuote": "SOUTHEAST Units 1-4 | Sept. 1-Nov. 30, and Dec. 16-Dec. 31 | Season closed Dec. 1-15; see page 10 for definitions | Canada Geese | 4 per day, 12 in possession | White-fronted Geese | 4 per day, 12 in possession | White Geese | 6 per day, 18 in possession | Emperor Geese | NO OPEN SEASON | Sept. 1-Oct. 21 | Brant | 2 per day, 6 in possession",
+    "checkedDate": "2026-11-23",
+    "notes": "Brant season printed separately (see brant period). Emperor geese and trumpeter swans are closed statewide; tundra swans are permit only. Dates printed as month and day only; years assigned for the 2026-27 season (Sept-Dec = 2026, Jan = 2027)."
+  },
+  {
+    "id": "ak-snipe-southeast-2026",
+    "state": "AK",
+    "species": "snipe",
+    "seasonName": "Snipe season, Southeast (Units 1-4)",
+    "zone": "Southeast (Units 1-4)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-11-30",
+        "note": null
+      },
+      {
+        "open": "2026-12-16",
+        "close": "2026-12-31",
+        "note": "Season closed Dec. 1-15"
+      }
+    ],
+    "bagLimit": "8 per day",
+    "possessionLimit": "24",
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Migratory Game Bird Hunting Regulations (waterfowl.pdf, linked from the ADF&G waterfowl hunting page)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=waterfowlhunting.main",
+    "sourceQuote": "SOUTHEAST Units 1-4 | Sept. 1-Nov. 30, and Dec. 16-Dec. 31 | Season closed Dec. 1-15; see page 10 for definitions | Snipe | 8 per day, 24 in possession",
+    "checkedDate": "2026-11-23",
+    "notes": "Snipe share the zone season shown in the header. The state duck stamp is not required for snipe. Dates printed as month and day only; years assigned for the 2026-27 season (Sept-Dec = 2026, Jan = 2027)."
+  },
+  {
+    "id": "ak-duck-gulf-coast-2026",
+    "state": "AK",
+    "species": "duck",
+    "seasonName": "Duck season, Gulf Coast (Units 5-7, 9, 10 Unimak Is. only, 14-16)",
+    "zone": "Gulf Coast (Units 5-7, 9, 10 Unimak Is. only, 14-16)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-12-16",
+        "note": null
+      }
+    ],
+    "bagLimit": "Ducks 8 per day, 24 in possession (no more than 2 canvasback per day, 6 in possession); sea ducks: residents 10 per day, 20 in possession, nonresidents 8 per day, 20 per season",
+    "possessionLimit": null,
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Migratory Game Bird Hunting Regulations (waterfowl.pdf, linked from the ADF&G waterfowl hunting page)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=waterfowlhunting.main",
+    "sourceQuote": "GULF COAST Units 5-7, 9, 10 (Unimak Is. only), | 14-16 | Sept. 1-Dec. 16 | See page 10 for definitions | Ducks1 | 8 per day, 24 in possession | Sea Ducks2, 3, 4 Residents | 10 per day, 20 in possession | Nonresidents | 8 per day, 20 per season",
+    "checkedDate": "2026-11-23",
+    "notes": "Sea duck limits printed in this zone: residents 10 per day, 20 in possession; nonresidents 8 per day, 20 per season. Steller's and spectacled eiders are closed statewide; harlequin and long-tailed duck sub-limits apply (see source). Dates printed as month and day only; years assigned for the 2026-27 season (Sept-Dec = 2026, Jan = 2027). Hunters must hold a state hunting license and Alaska waterfowl conservation stamp (exemptions in source) plus a federal duck stamp if 16 or older; nonresident small game license $60 or hunting license $160 per the source. Daily bag limits also differ by unit within the zone (see source footnotes). Units 7 and 15: resident and nonresident limits may include no more than 1 per day, 2 in possession of long-tailed ducks. Unit 15C east of Point Pogibshi-Anchor Point line has extra harlequin and eider sub-limits."
+  },
+  {
+    "id": "ak-goose-gulf-coast-2026",
+    "state": "AK",
+    "species": "goose",
+    "seasonName": "Goose season (Canada, white-fronted, white geese and brant), Gulf Coast (Units 5-7, 9, 10 Unimak Is. only, 14-16)",
+    "zone": "Gulf Coast (Units 5-7, 9, 10 Unimak Is. only, 14-16)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-12-16",
+        "note": null
+      },
+      {
+        "open": "2026-10-01",
+        "close": "2026-11-20",
+        "note": "Brant only"
+      },
+      {
+        "open": "2026-09-28",
+        "close": "2026-12-16",
+        "note": "Canada geese in Units 5 and 6 only (season starts Sept. 28)"
+      }
+    ],
+    "bagLimit": "Canada geese 4 per day, 12 in possession; white-fronted geese 4 per day, 12 in possession; white geese 6 per day, 18 in possession; emperor geese no open season; brant 2 per day, 6 in possession",
+    "possessionLimit": null,
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Migratory Game Bird Hunting Regulations (waterfowl.pdf, linked from the ADF&G waterfowl hunting page)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=waterfowlhunting.main",
+    "sourceQuote": "GULF COAST Units 5-7, 9, 10 (Unimak Is. only), | 14-16 | Sept. 1-Dec. 16 | See page 10 for definitions | Canada Geese5, 6, 7 | 4 per day, 12 in possession | White-fronted Geese8 | 4 per day, 12 in possession | White Geese | 6 per day, 18 in possession | Emperor Geese | NO OPEN SEASON | Oct. 1-Nov. 20 | Brant | 2 per day, 6 in possession | Units 5 and 6, the season for Canada geese is Sept. 28-Dec. 16. | In Unit 9, limits for Canada geese are 3 per day, 9 in possession. | In Unit 9 and Unimak Island portion of Unit 10, limits for White-fronted geese | are 6 per day, 18 in possession. | Unit 6(D), Middleton Island, hunting for Canada geese is by registration | permit only. Possession limit is 1 goose per permit; 1 permit per hunter. Permits | available in Anchorage or Cordova.",
+    "checkedDate": "2026-11-23",
+    "notes": "Brant season printed separately (see brant period). Emperor geese and trumpeter swans are closed statewide; tundra swans are permit only. Dates printed as month and day only; years assigned for the 2026-27 season (Sept-Dec = 2026, Jan = 2027). Units 5 and 6: Canada goose season is Sept. 28-Dec. 16. Unit 9: Canada geese 3 per day, 9 in possession. Unit 9 and Unimak Island portion of Unit 10: white-fronted geese 6 per day, 18 in possession. Unit 6(D) Middleton Island: Canada geese by registration permit only, possession limit 1 goose per permit, 1 permit per hunter."
+  },
+  {
+    "id": "ak-snipe-gulf-coast-2026",
+    "state": "AK",
+    "species": "snipe",
+    "seasonName": "Snipe season, Gulf Coast (Units 5-7, 9, 10 Unimak Is. only, 14-16)",
+    "zone": "Gulf Coast (Units 5-7, 9, 10 Unimak Is. only, 14-16)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-12-16",
+        "note": null
+      }
+    ],
+    "bagLimit": "8 per day",
+    "possessionLimit": "24",
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Migratory Game Bird Hunting Regulations (waterfowl.pdf, linked from the ADF&G waterfowl hunting page)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=waterfowlhunting.main",
+    "sourceQuote": "GULF COAST Units 5-7, 9, 10 (Unimak Is. only), | 14-16 | Sept. 1-Dec. 16 | See page 10 for definitions | Snipe | 8 per day, 24 in possession",
+    "checkedDate": "2026-11-23",
+    "notes": "Snipe share the zone season shown in the header. The state duck stamp is not required for snipe. Dates printed as month and day only; years assigned for the 2026-27 season (Sept-Dec = 2026, Jan = 2027)."
+  },
+  {
+    "id": "ak-duck-pribilof-aleutian-2026",
+    "state": "AK",
+    "species": "duck",
+    "seasonName": "Duck season, Pribilof/Aleutian (Unit 10 except Unimak Is.)",
+    "zone": "Pribilof/Aleutian (Unit 10 except Unimak Is.)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-08",
+        "close": "2027-01-22",
+        "note": null
+      }
+    ],
+    "bagLimit": "Ducks 7 per day, 21 in possession (no more than 2 canvasback per day, 6 in possession); sea ducks: residents 10 per day, 20 in possession, nonresidents 7 per day, 20 per season",
+    "possessionLimit": null,
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Migratory Game Bird Hunting Regulations (waterfowl.pdf, linked from the ADF&G waterfowl hunting page)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=waterfowlhunting.main",
+    "sourceQuote": "PRIBILOF/ALEUTIAN Unit 10 (except Unimak Is.) | Oct. 8-Jan. 22 | See page 10 for definitions | Ducks1 | 7 per day, 21 in possession | Sea Ducks2 Residents | 10 per day, 20 in possession | Nonresidents | 7 per day, 20 per season",
+    "checkedDate": "2026-11-23",
+    "notes": "Sea duck limits printed in this zone: residents 10 per day, 20 in possession; nonresidents 7 per day, 20 per season. Steller's and spectacled eiders are closed statewide; harlequin and long-tailed duck sub-limits apply (see source). Dates printed as month and day only; years assigned for the 2026-27 season (Sept-Dec = 2026, Jan = 2027). Hunters must hold a state hunting license and Alaska waterfowl conservation stamp (exemptions in source) plus a federal duck stamp if 16 or older; nonresident small game license $60 or hunting license $160 per the source. Daily bag limits also differ by unit within the zone (see source footnotes)."
+  },
+  {
+    "id": "ak-goose-pribilof-aleutian-2026",
+    "state": "AK",
+    "species": "goose",
+    "seasonName": "Goose season (Canada, white-fronted, white geese and brant), Pribilof/Aleutian (Unit 10 except Unimak Is.)",
+    "zone": "Pribilof/Aleutian (Unit 10 except Unimak Is.)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-08",
+        "close": "2027-01-22",
+        "note": null
+      },
+      {
+        "open": "2026-10-08",
+        "close": "2026-11-27",
+        "note": "Brant only"
+      }
+    ],
+    "bagLimit": "Canada geese 6 per day, 18 in possession; white-fronted geese 6 per day, 18 in possession; white geese 6 per day, 18 in possession; emperor geese no open season; brant 2 per day, 6 in possession",
+    "possessionLimit": null,
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Migratory Game Bird Hunting Regulations (waterfowl.pdf, linked from the ADF&G waterfowl hunting page)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=waterfowlhunting.main",
+    "sourceQuote": "PRIBILOF/ALEUTIAN Unit 10 (except Unimak Is.) | Oct. 8-Jan. 22 | See page 10 for definitions | Canada Geese | 6 per day, 18 in possession | White-fronted Geese | 6 per day, 18 in possession | White Geese | 6 per day, 18 in possession | Emperor Geese | NO OPEN SEASON | Oct. 8-Nov. 27 | Brant | 2 per day, 6 in possession",
+    "checkedDate": "2026-11-23",
+    "notes": "Brant season printed separately (see brant period). Emperor geese and trumpeter swans are closed statewide; tundra swans are permit only. Dates printed as month and day only; years assigned for the 2026-27 season (Sept-Dec = 2026, Jan = 2027)."
+  },
+  {
+    "id": "ak-snipe-pribilof-aleutian-2026",
+    "state": "AK",
+    "species": "snipe",
+    "seasonName": "Snipe season, Pribilof/Aleutian (Unit 10 except Unimak Is.)",
+    "zone": "Pribilof/Aleutian (Unit 10 except Unimak Is.)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-08",
+        "close": "2027-01-22",
+        "note": null
+      }
+    ],
+    "bagLimit": "8 per day",
+    "possessionLimit": "24",
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Migratory Game Bird Hunting Regulations (waterfowl.pdf, linked from the ADF&G waterfowl hunting page)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=waterfowlhunting.main",
+    "sourceQuote": "PRIBILOF/ALEUTIAN Unit 10 (except Unimak Is.) | Oct. 8-Jan. 22 | See page 10 for definitions | Snipe | 8 per day, 24 in possession",
+    "checkedDate": "2026-11-23",
+    "notes": "Snipe share the zone season shown in the header. The state duck stamp is not required for snipe. Dates printed as month and day only; years assigned for the 2026-27 season (Sept-Dec = 2026, Jan = 2027)."
+  },
+  {
+    "id": "ak-duck-kodiak-2026",
+    "state": "AK",
+    "species": "duck",
+    "seasonName": "Duck season, Kodiak (Unit 8)",
+    "zone": "Kodiak (Unit 8)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-08",
+        "close": "2027-01-22",
+        "note": null
+      }
+    ],
+    "bagLimit": "Ducks 7 per day, 21 in possession (no more than 2 canvasback per day, 6 in possession); sea ducks: residents 10 per day, 20 in possession, nonresidents 4 per day, 10 per season",
+    "possessionLimit": null,
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Migratory Game Bird Hunting Regulations (waterfowl.pdf, linked from the ADF&G waterfowl hunting page)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=waterfowlhunting.main",
+    "sourceQuote": "KODIAK Unit 8 | Oct. 8-Jan. 22 | See page 10 for definitions | Ducks1 | 7 per day, 21 in possession | Sea Ducks2 Residents | 10 per day, 20 in possession | Nonresidents | 4 per day, 10 per season",
+    "checkedDate": "2026-11-23",
+    "notes": "Sea duck limits printed in this zone: residents 10 per day, 20 in possession; nonresidents 4 per day, 10 per season. Steller's and spectacled eiders are closed statewide; harlequin and long-tailed duck sub-limits apply (see source). Dates printed as month and day only; years assigned for the 2026-27 season (Sept-Dec = 2026, Jan = 2027). Hunters must hold a state hunting license and Alaska waterfowl conservation stamp (exemptions in source) plus a federal duck stamp if 16 or older; nonresident small game license $60 or hunting license $160 per the source. Daily bag limits also differ by unit within the zone (see source footnotes). New for 2026-27: Unit 8 nonresident sea duck limit reduced to 4 per day and 10 per season, no more than 2 of any species."
+  },
+  {
+    "id": "ak-goose-kodiak-2026",
+    "state": "AK",
+    "species": "goose",
+    "seasonName": "Goose season (Canada, white-fronted, white geese and brant), Kodiak (Unit 8)",
+    "zone": "Kodiak (Unit 8)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-08",
+        "close": "2027-01-22",
+        "note": null
+      },
+      {
+        "open": "2026-10-08",
+        "close": "2026-11-27",
+        "note": "Brant only"
+      }
+    ],
+    "bagLimit": "Canada geese 1 per day, 2 in possession; white-fronted geese 4 per day, 12 in possession; white geese 6 per day, 18 in possession; emperor geese no open season; brant 2 per day, 6 in possession",
+    "possessionLimit": null,
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Migratory Game Bird Hunting Regulations (waterfowl.pdf, linked from the ADF&G waterfowl hunting page)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=waterfowlhunting.main",
+    "sourceQuote": "KODIAK Unit 8 | Oct. 8-Jan. 22 | See page 10 for definitions | Canada Geese | 1 per day, 2 in possession | White-fronted Geese | 4 per day, 12 in possession | White Geese | 6 per day, 18 in possession | Emperor Geese | NO OPEN SEASON | Oct. 8-Nov. 27 | Brant | 2 per day, 6 in possession",
+    "checkedDate": "2026-11-23",
+    "notes": "Brant season printed separately (see brant period). Emperor geese and trumpeter swans are closed statewide; tundra swans are permit only. Dates printed as month and day only; years assigned for the 2026-27 season (Sept-Dec = 2026, Jan = 2027)."
+  },
+  {
+    "id": "ak-snipe-kodiak-2026",
+    "state": "AK",
+    "species": "snipe",
+    "seasonName": "Snipe season, Kodiak (Unit 8)",
+    "zone": "Kodiak (Unit 8)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-08",
+        "close": "2027-01-22",
+        "note": null
+      }
+    ],
+    "bagLimit": "8 per day",
+    "possessionLimit": "24",
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Migratory Game Bird Hunting Regulations (waterfowl.pdf, linked from the ADF&G waterfowl hunting page)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=waterfowlhunting.main",
+    "sourceQuote": "KODIAK Unit 8 | Oct. 8-Jan. 22 | See page 10 for definitions | Snipe | 8 per day, 24 in possession",
+    "checkedDate": "2026-11-23",
+    "notes": "Snipe share the zone season shown in the header. The state duck stamp is not required for snipe. Dates printed as month and day only; years assigned for the 2026-27 season (Sept-Dec = 2026, Jan = 2027)."
+  },
+  {
+    "id": "ak-duck-northern-2026",
+    "state": "AK",
+    "species": "duck",
+    "seasonName": "Duck season, Northern (Units 11-13, 17-26)",
+    "zone": "Northern (Units 11-13, 17-26)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-12-16",
+        "note": null
+      }
+    ],
+    "bagLimit": "Ducks 10 per day, 30 in possession (no more than 2 canvasback per day, 6 in possession); sea ducks: residents 10 per day, 20 in possession, nonresidents 10 per day, 20 per season",
+    "possessionLimit": null,
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Migratory Game Bird Hunting Regulations (waterfowl.pdf, linked from the ADF&G waterfowl hunting page)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=waterfowlhunting.main",
+    "sourceQuote": "NORTHERN Units 11-13, 17-26 | Sept. 1-Dec. 16 | See page 10 for definitions | Ducks1 | 10 per day, 30 in possession | Sea Ducks2 Residents | 10 per day, 20 in possession | Nonresidents | 10 per day, 20 per season",
+    "checkedDate": "2026-11-23",
+    "notes": "Sea duck limits printed in this zone: residents 10 per day, 20 in possession; nonresidents 10 per day, 20 per season. Steller's and spectacled eiders are closed statewide; harlequin and long-tailed duck sub-limits apply (see source). Dates printed as month and day only; years assigned for the 2026-27 season (Sept-Dec = 2026, Jan = 2027). Hunters must hold a state hunting license and Alaska waterfowl conservation stamp (exemptions in source) plus a federal duck stamp if 16 or older; nonresident small game license $60 or hunting license $160 per the source. Daily bag limits also differ by unit within the zone (see source footnotes)."
+  },
+  {
+    "id": "ak-goose-northern-2026",
+    "state": "AK",
+    "species": "goose",
+    "seasonName": "Goose season (Canada, white-fronted, white geese and brant), Northern (Units 11-13, 17-26)",
+    "zone": "Northern (Units 11-13, 17-26)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-12-16",
+        "note": null
+      },
+      {
+        "open": "2026-09-01",
+        "close": "2026-10-21",
+        "note": "Brant only"
+      }
+    ],
+    "bagLimit": "Canada geese 4 per day, 12 in possession; white-fronted geese 4 per day, 12 in possession; white geese 6 per day, 18 in possession; emperor geese no open season; brant 2 per day, 6 in possession",
+    "possessionLimit": null,
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Migratory Game Bird Hunting Regulations (waterfowl.pdf, linked from the ADF&G waterfowl hunting page)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=waterfowlhunting.main",
+    "sourceQuote": "NORTHERN Units 11-13, 17-26 | Sept. 1-Dec. 16 | See page 10 for definitions | Canada Geese3 | 4 per day, 12 in possession | White-fronted Geese4 | 4 per day, 12 in possession | White Geese | 6 per day, 18 in possession | Emperor Geese | NO OPEN SEASON | Sept. 1-Oct. 21 | Brant | 2 per day, 6 in possession | In Units 17 and 18, limits for Canada geese are 3 per day, 9 in possession. | In Units 17 and 18, limits for White-fronted geese are 6 per day, 18 in | possession.",
+    "checkedDate": "2026-11-23",
+    "notes": "Brant season printed separately (see brant period). Emperor geese and trumpeter swans are closed statewide; tundra swans are permit only. Dates printed as month and day only; years assigned for the 2026-27 season (Sept-Dec = 2026, Jan = 2027). Units 17 and 18: Canada geese 3 per day, 9 in possession; white-fronted geese 6 per day, 18 in possession. Tundra swans by registration permit only in Units 17, 18, 22 and 23 (Sept. 1-Oct. 31); not recorded here. Unit 18 white-fronted goose limit was reduced to 6 per day, 18 in possession for 2026-27."
+  },
+  {
+    "id": "ak-snipe-northern-2026",
+    "state": "AK",
+    "species": "snipe",
+    "seasonName": "Snipe season, Northern (Units 11-13, 17-26)",
+    "zone": "Northern (Units 11-13, 17-26)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-12-16",
+        "note": null
+      }
+    ],
+    "bagLimit": "8 per day",
+    "possessionLimit": "24",
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Migratory Game Bird Hunting Regulations (waterfowl.pdf, linked from the ADF&G waterfowl hunting page)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=waterfowlhunting.main",
+    "sourceQuote": "NORTHERN Units 11-13, 17-26 | Sept. 1-Dec. 16 | See page 10 for definitions | Snipe | 8 per day, 24 in possession",
+    "checkedDate": "2026-11-23",
+    "notes": "Snipe share the zone season shown in the header. The state duck stamp is not required for snipe. Dates printed as month and day only; years assigned for the 2026-27 season (Sept-Dec = 2026, Jan = 2027)."
+  },
+  {
+    "id": "ak-grouse-units1-6-2026",
+    "state": "AK",
+    "species": "grouse",
+    "seasonName": "Grouse season, Units 1-6",
+    "zone": "Units 1-6",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-01",
+        "close": "2027-05-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 per day",
+    "possessionLimit": "10",
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Small Game: Seasons and Bag Limits (smgame.pdf, p. 141)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "Units 1–6: Five per day, ten in possession | Aug 1-May 15",
+    "checkedDate": "2026-11-23",
+    "notes": "Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026, Jan-Jun = 2027). Statewide table row; open to residents and nonresidents with the appropriate license (the table prints no residency split for this row). Grouse include ruffed, sharp-tailed, spruce and sooty grouse."
+  },
+  {
+    "id": "ak-grouse-units7-15-2026",
+    "state": "AK",
+    "species": "grouse",
+    "seasonName": "Grouse season, Units 7 and 15",
+    "zone": "Units 7 and 15",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-10",
+        "close": "2027-03-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "10 per day (no more than 1 per day may be ruffed grouse)",
+    "possessionLimit": "20 (no more than 2 ruffed)",
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Small Game: Seasons and Bag Limits (smgame.pdf, p. 141)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "Units 7 and 15: Ten per day, twenty in possession; of which not more than one per day and two in possession may be ruffed grouse | Aug 10-Mar 31",
+    "checkedDate": "2026-11-23",
+    "notes": "Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026, Jan-Jun = 2027). Statewide table row; open to residents and nonresidents with the appropriate license (the table prints no residency split for this row). "
+  },
+  {
+    "id": "ak-grouse-units9-17-19-21-24-26-2026",
+    "state": "AK",
+    "species": "grouse",
+    "seasonName": "Grouse season, Units 9, 17-19, 21-24 and 26",
+    "zone": "Units 9, 17-19, 21-24 and 26",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-10",
+        "close": "2027-04-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "15 per day",
+    "possessionLimit": "30",
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Small Game: Seasons and Bag Limits (smgame.pdf, p. 141)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "Units 9, 17–19, 21–24, and 26: Fifteen per day, thirty in possession | Aug 10-Apr 30",
+    "checkedDate": "2026-11-23",
+    "notes": "Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026, Jan-Jun = 2027). Statewide table row; open to residents and nonresidents with the appropriate license (the table prints no residency split for this row). Lead shot is prohibited in shotguns for all bird hunting in Unit 26."
+  },
+  {
+    "id": "ak-grouse-units11-12-20-25-2026",
+    "state": "AK",
+    "species": "grouse",
+    "seasonName": "Grouse season, Units 11-12, remainder of Unit 20, and Unit 25",
+    "zone": "Units 11-12, remainder of Unit 20, and Unit 25",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-10",
+        "close": "2027-03-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "15 per day",
+    "possessionLimit": "30",
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Small Game: Seasons and Bag Limits (smgame.pdf, p. 141)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "Units 11-12, remainder of Unit 20, and Unit 25: Fifteen per day, thirty in possession | Aug 10-Mar 31",
+    "checkedDate": "2026-11-23",
+    "notes": "Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026, Jan-Jun = 2027). Statewide table row; open to residents and nonresidents with the appropriate license (the table prints no residency split for this row). "
+  },
+  {
+    "id": "ak-grouse-units13-14ab-16-2026",
+    "state": "AK",
+    "species": "grouse",
+    "seasonName": "Grouse season, Units 13, 14A, 14B and 16",
+    "zone": "Units 13, 14A, 14B and 16",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-10",
+        "close": "2027-03-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "15 per day (no more than 2 per day may be ruffed grouse)",
+    "possessionLimit": "30 (no more than 4 ruffed)",
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Small Game: Seasons and Bag Limits (smgame.pdf, p. 141)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "Units 13, 14A, 14B, and 16: Fifteen per day, thirty in possession of which not more than two per day and four in possession may be ruffed grouse | Aug 10-Mar 31",
+    "checkedDate": "2026-11-23",
+    "notes": "Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026, Jan-Jun = 2027). Statewide table row; open to residents and nonresidents with the appropriate license (the table prints no residency split for this row). "
+  },
+  {
+    "id": "ak-grouse-unit14c-2026",
+    "state": "AK",
+    "species": "grouse",
+    "seasonName": "Grouse season, Unit 14C",
+    "zone": "Unit 14C",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2027-03-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 per day (no more than 2 per day may be ruffed grouse)",
+    "possessionLimit": "10 (no more than 4 ruffed)",
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Small Game: Seasons and Bag Limits (smgame.pdf, p. 141)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "Unit 14C: Five per day, ten in possession, of which not more than two per day and four in possession may be ruffed grouse | Sept 1-Mar 31",
+    "checkedDate": "2026-11-23",
+    "notes": "Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026, Jan-Jun = 2027). Statewide table row; open to residents and nonresidents with the appropriate license (the table prints no residency split for this row). Special area restrictions apply in Unit 14C; see ADF&G Unit 14C small game summary."
+  },
+  {
+    "id": "ak-grouse-unit20d-part-2026",
+    "state": "AK",
+    "species": "grouse",
+    "seasonName": "Grouse season, Unit 20D, west of the east bank of the Johnson River and south of the north bank of the Tanana River",
+    "zone": "Unit 20D, west of the east bank of the Johnson River and south of the north bank of the Tanana River",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-25",
+        "close": "2027-03-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 per day",
+    "possessionLimit": "15 (no more than 10 may be either ruffed or sharp-tailed)",
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Small Game: Seasons and Bag Limits (smgame.pdf, p. 141)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "Unit 20D, that portion lying west of the east bank of the Johnson River and south of the north bank of the Tanana River: Five per day, fifteen in possession, provided that not more than ten in possession may be either ruffed or sharp-tailed grouse | Aug 25-Mar 31",
+    "checkedDate": "2026-11-23",
+    "notes": "Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026, Jan-Jun = 2027). Statewide table row; open to residents and nonresidents with the appropriate license (the table prints no residency split for this row). The same table prints a falconry-only season Aug 10-Aug 24 in this area (ten per day, ten in possession, no more than two per day and two in possession sharp-tailed); not recorded as a separate period."
+  },
+  {
+    "id": "ak-ptarmigan-units1-5-6abc-2026",
+    "state": "AK",
+    "species": "ptarmigan",
+    "seasonName": "Ptarmigan season, Units 1-5, 6A, 6B and 6C",
+    "zone": "Units 1-5, 6A, 6B and 6C",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-01",
+        "close": "2027-05-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "20 per day",
+    "possessionLimit": "40",
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Small Game: Seasons and Bag Limits (smgame.pdf, p. 141)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "Units 1-5, 6A, 6B, and 6C: Twenty per day, forty in possession | Aug 1-May 15",
+    "checkedDate": "2026-11-23",
+    "notes": "Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026, Jan-Jun = 2027). Statewide table row; open to residents and nonresidents with the appropriate license (the table prints no residency split for this row). Ptarmigan include rock, white-tailed and willow ptarmigan. "
+  },
+  {
+    "id": "ak-ptarmigan-unit15c-north-2026",
+    "state": "AK",
+    "species": "ptarmigan",
+    "seasonName": "Ptarmigan season, Unit 15C, portion north of Kachemak Bay and north of the Fox River",
+    "zone": "Unit 15C, portion north of Kachemak Bay and north of the Fox River",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-10",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 per day",
+    "possessionLimit": "10",
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Small Game: Seasons and Bag Limits (smgame.pdf, p. 141)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "Unit 15C, that portion north of Kachemak Bay and north of the Fox River: Five per day, ten in possession | Aug 10-Jan 31",
+    "checkedDate": "2026-11-23",
+    "notes": "Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026, Jan-Jun = 2027). Statewide table row; open to residents and nonresidents with the appropriate license (the table prints no residency split for this row). Ptarmigan include rock, white-tailed and willow ptarmigan. "
+  },
+  {
+    "id": "ak-ptarmigan-units-6d-7-11-13acd-14ab-15-16-2026",
+    "state": "AK",
+    "species": "ptarmigan",
+    "seasonName": "Ptarmigan season, Units 6D, 7, 11, 13A, 13C, 13D, 14A, 14B, 15A, 15B, 15C remainder, and 16",
+    "zone": "Units 6D, 7, 11, 13A, 13C, 13D, 14A, 14B, 15A, 15B, 15C remainder, and 16",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-10",
+        "close": "2027-03-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "10 per day",
+    "possessionLimit": "20",
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Small Game: Seasons and Bag Limits (smgame.pdf, p. 141)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "Units 6D, 7, 11, 13A, 13C, 13D, 14A, 14B, 15A, 15B, 15C remainder, and 16: Ten per day, twenty in possession | Aug 10-Mar 31",
+    "checkedDate": "2026-11-23",
+    "notes": "Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026, Jan-Jun = 2027). Statewide table row; open to residents and nonresidents with the appropriate license (the table prints no residency split for this row). Ptarmigan include rock, white-tailed and willow ptarmigan. "
+  },
+  {
+    "id": "ak-ptarmigan-unit13b-2026",
+    "state": "AK",
+    "species": "ptarmigan",
+    "seasonName": "Ptarmigan season, Unit 13B",
+    "zone": "Unit 13B",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-20",
+        "close": "2027-02-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "10 per day",
+    "possessionLimit": "20",
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Small Game: Seasons and Bag Limits (smgame.pdf, p. 141)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "Units 13B: Ten per day, twenty in possession | Aug 20-Feb 15",
+    "checkedDate": "2026-11-23",
+    "notes": "Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026, Jan-Jun = 2027). Statewide table row; open to residents and nonresidents with the appropriate license (the table prints no residency split for this row). Ptarmigan include rock, white-tailed and willow ptarmigan. "
+  },
+  {
+    "id": "ak-ptarmigan-unit13e-2026",
+    "state": "AK",
+    "species": "ptarmigan",
+    "seasonName": "Ptarmigan season, Unit 13E",
+    "zone": "Unit 13E",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-10",
+        "close": "2027-02-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "10 per day",
+    "possessionLimit": "20",
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Small Game: Seasons and Bag Limits (smgame.pdf, p. 141)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "Unit 13E: Ten per day, twenty in possession | Aug 10-Feb 15",
+    "checkedDate": "2026-11-23",
+    "notes": "Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026, Jan-Jun = 2027). Statewide table row; open to residents and nonresidents with the appropriate license (the table prints no residency split for this row). Ptarmigan include rock, white-tailed and willow ptarmigan. "
+  },
+  {
+    "id": "ak-ptarmigan-unit14c-2026",
+    "state": "AK",
+    "species": "ptarmigan",
+    "seasonName": "Ptarmigan season, Unit 14C, excluding Eklutna Management Area",
+    "zone": "Unit 14C, excluding Eklutna Management Area",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-10",
+        "close": "2027-03-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "10 per day",
+    "possessionLimit": "20",
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Small Game: Seasons and Bag Limits (smgame.pdf, p. 141)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "Unit 14C, excluding Eklutna Management Area: Ten per day, twenty in possession | Aug 10-Mar 31",
+    "checkedDate": "2026-11-23",
+    "notes": "Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026, Jan-Jun = 2027). Statewide table row; open to residents and nonresidents with the appropriate license (the table prints no residency split for this row). Ptarmigan include rock, white-tailed and willow ptarmigan. Special area restrictions apply in Unit 14C."
+  },
+  {
+    "id": "ak-ptarmigan-unit14c-eklutna-2026",
+    "state": "AK",
+    "species": "ptarmigan",
+    "seasonName": "Ptarmigan season, Unit 14C, Eklutna Management Area",
+    "zone": "Unit 14C, Eklutna Management Area",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2027-03-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "10 per day",
+    "possessionLimit": "20",
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Small Game: Seasons and Bag Limits (smgame.pdf, p. 141)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "Unit 14C, Eklutna Management Area: Ten per day, twenty in possession | Sept 1-Mar 31",
+    "checkedDate": "2026-11-23",
+    "notes": "Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026, Jan-Jun = 2027). Statewide table row; open to residents and nonresidents with the appropriate license (the table prints no residency split for this row). Ptarmigan include rock, white-tailed and willow ptarmigan. Special area restrictions apply in Unit 14C."
+  },
+  {
+    "id": "ak-ptarmigan-units8-10-17-19-21-22-24-25abd-26b-2026",
+    "state": "AK",
+    "species": "ptarmigan",
+    "seasonName": "Ptarmigan season, Units 8, 10, 17, 19, 21-22, 24, 25A, 25B, 25D, and Unit 26B within the DHCMA and Prudhoe Bay Closed Area",
+    "zone": "Units 8, 10, 17, 19, 21-22, 24, 25A, 25B, 25D, and Unit 26B within the DHCMA and Prudhoe Bay Closed Area",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-10",
+        "close": "2027-04-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "20 per day",
+    "possessionLimit": "40",
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Small Game: Seasons and Bag Limits (smgame.pdf, p. 141)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "Units 8, 10, 17, 19, 21-22, 24, 25A, 25B, 25D, and Unit 26B within the DHCMA and Prudhoe Bay Closed Area: Twenty per day, forty in possession | Aug 10-Apr 30",
+    "checkedDate": "2026-11-23",
+    "notes": "Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026, Jan-Jun = 2027). Statewide table row; open to residents and nonresidents with the appropriate license (the table prints no residency split for this row). Ptarmigan include rock, white-tailed and willow ptarmigan. "
+  },
+  {
+    "id": "ak-ptarmigan-unit9-2026",
+    "state": "AK",
+    "species": "ptarmigan",
+    "seasonName": "Ptarmigan season, Unit 9",
+    "zone": "Unit 9",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-10",
+        "close": "2027-02-28",
+        "note": null
+      }
+    ],
+    "bagLimit": "10 per day",
+    "possessionLimit": "20",
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Small Game: Seasons and Bag Limits (smgame.pdf, p. 141)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "Unit 9: Ten per day, twenty in possession | Aug 10-Feb 28",
+    "checkedDate": "2026-11-23",
+    "notes": "Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026, Jan-Jun = 2027). Statewide table row; open to residents and nonresidents with the appropriate license (the table prints no residency split for this row). Ptarmigan include rock, white-tailed and willow ptarmigan. "
+  },
+  {
+    "id": "ak-ptarmigan-units12-20-25c-2026",
+    "state": "AK",
+    "species": "ptarmigan",
+    "seasonName": "Ptarmigan season, Units 12, 20 and 25C",
+    "zone": "Units 12, 20 and 25C",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-10",
+        "close": "2027-02-28",
+        "note": "20 per day, 40 in possession"
+      },
+      {
+        "open": "2027-03-01",
+        "close": "2027-04-30",
+        "note": "5 per day, 10 in possession"
+      }
+    ],
+    "bagLimit": "20 per day (Aug 10-Feb 28); 5 per day (Mar 1-Apr 30)",
+    "possessionLimit": "40 (Aug 10-Feb 28); 10 (Mar 1-Apr 30)",
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Small Game: Seasons and Bag Limits (smgame.pdf, p. 141)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "Units 12, 20, and 25C: Twenty per day, forty in possession | Aug 10-Feb 28 Five per day, ten in possession | Mar 1-Apr 30",
+    "checkedDate": "2026-11-23",
+    "notes": "Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026, Jan-Jun = 2027). Statewide table row; open to residents and nonresidents with the appropriate license (the table prints no residency split for this row). Ptarmigan include rock, white-tailed and willow ptarmigan. "
+  },
+  {
+    "id": "ak-ptarmigan-unit18-2026",
+    "state": "AK",
+    "species": "ptarmigan",
+    "seasonName": "Ptarmigan season, Unit 18",
+    "zone": "Unit 18",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-10",
+        "close": "2027-05-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "25 per day",
+    "possessionLimit": "50",
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Small Game: Seasons and Bag Limits (smgame.pdf, p. 141)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "Unit 18: Twenty-five per day, fifty in possession | Aug 10-May 15",
+    "checkedDate": "2026-11-23",
+    "notes": "Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026, Jan-Jun = 2027). Statewide table row; open to residents and nonresidents with the appropriate license (the table prints no residency split for this row). Ptarmigan include rock, white-tailed and willow ptarmigan. "
+  },
+  {
+    "id": "ak-ptarmigan-units23-26-2026",
+    "state": "AK",
+    "species": "ptarmigan",
+    "seasonName": "Ptarmigan season, Units 23 and 26, excluding Unit 26B within the DHCMA and Prudhoe Bay Closed Area",
+    "zone": "Units 23 and 26, excluding Unit 26B within the DHCMA and Prudhoe Bay Closed Area",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-10",
+        "close": "2027-06-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "50 per day",
+    "possessionLimit": "100",
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Small Game: Seasons and Bag Limits (smgame.pdf, p. 141)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "Units 23 and 26, excluding Unit 26B within the DHCMA and Prudhoe Bay Closed Area: Fifty per day, one hundred in possession | Aug 10-June 15",
+    "checkedDate": "2026-11-23",
+    "notes": "Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026, Jan-Jun = 2027). Statewide table row; open to residents and nonresidents with the appropriate license (the table prints no residency split for this row). Ptarmigan include rock, white-tailed and willow ptarmigan. Lead shot is prohibited in shotguns for all bird hunting in Unit 26."
+  },
+  {
+    "id": "ak-deer-unit1a-2026",
+    "state": "AK",
+    "species": "deer",
+    "seasonName": "Deer season, Unit 1A",
+    "zone": "Unit 1A",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-01",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "4 bucks",
+    "possessionLimit": null,
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Unit 1 Seasons and Bag Limits (gmu1.pdf)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "B 1A Four bucks Aug 1-Dec 31",
+    "checkedDate": "2026-11-23",
+    "notes": "Printed in the ADF&G unit table under Deer. Open-to column: B = residents and nonresidents, R = residents only, N = nonresidents only. HT = harvest ticket. Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026). Open to residents and nonresidents (B)."
+  },
+  {
+    "id": "ak-deer-unit1b-2026",
+    "state": "AK",
+    "species": "deer",
+    "seasonName": "Deer season, Unit 1B",
+    "zone": "Unit 1B",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-01",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 bucks",
+    "possessionLimit": null,
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Unit 1 Seasons and Bag Limits (gmu1.pdf)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "B 1B Two bucks Aug 1-Dec 31",
+    "checkedDate": "2026-11-23",
+    "notes": "Printed in the ADF&G unit table under Deer. Open-to column: B = residents and nonresidents, R = residents only, N = nonresidents only. HT = harvest ticket. Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026). Open to residents and nonresidents (B). Unit 1D has no open season."
+  },
+  {
+    "id": "ak-deer-unit1c-douglas-2026",
+    "state": "AK",
+    "species": "deer",
+    "seasonName": "Deer season, Unit 1C Douglas Island",
+    "zone": "Unit 1C, Douglas Island",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-01",
+        "close": "2026-09-14",
+        "note": "Bucks only"
+      },
+      {
+        "open": "2026-09-15",
+        "close": "2026-12-31",
+        "note": "Any deer (harvest ticket)"
+      }
+    ],
+    "bagLimit": "4 deer total, only one of which may be a doe",
+    "possessionLimit": null,
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Unit 1 Seasons and Bag Limits (gmu1.pdf)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "Douglas bucks Aug 1-Sept 14 | B 1C Four deer total only one of which may be a doe | Island any deer HT Sept 15-Dec 31",
+    "checkedDate": "2026-11-23",
+    "notes": "Printed in the ADF&G unit table under Deer. Open-to column: B = residents and nonresidents, R = residents only, N = nonresidents only. HT = harvest ticket. Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026). Open to residents and nonresidents (B)."
+  },
+  {
+    "id": "ak-deer-unit1c-lincoln-shelter-sullivan-2026",
+    "state": "AK",
+    "species": "deer",
+    "seasonName": "Deer season, Unit 1C Lincoln, Shelter and Sullivan islands",
+    "zone": "Unit 1C, Lincoln, Shelter and Sullivan islands",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-01",
+        "close": "2026-09-14",
+        "note": "Bucks only"
+      },
+      {
+        "open": "2026-09-15",
+        "close": "2026-12-31",
+        "note": "Any deer"
+      }
+    ],
+    "bagLimit": "4 deer total",
+    "possessionLimit": null,
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Unit 1 Seasons and Bag Limits (gmu1.pdf)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "Lincoln, Shelter, bucks Aug 1-Sept 14 | B 1C Four deer total | and Sullivan islands any deer Sept 15-Dec 31",
+    "checkedDate": "2026-11-23",
+    "notes": "Printed in the ADF&G unit table under Deer. Open-to column: B = residents and nonresidents, R = residents only, N = nonresidents only. HT = harvest ticket. Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026). Open to residents and nonresidents (B)."
+  },
+  {
+    "id": "ak-deer-unit1c-remainder-2026",
+    "state": "AK",
+    "species": "deer",
+    "seasonName": "Deer season, Unit 1C remainder",
+    "zone": "Unit 1C, remainder",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-01",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 bucks",
+    "possessionLimit": null,
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Unit 1 Seasons and Bag Limits (gmu1.pdf)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "B 1C remainder Two bucks Aug 1-Dec 31",
+    "checkedDate": "2026-11-23",
+    "notes": "Printed in the ADF&G unit table under Deer. Open-to column: B = residents and nonresidents, R = residents only, N = nonresidents only. HT = harvest ticket. Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026). Open to residents and nonresidents (B)."
+  },
+  {
+    "id": "ak-deer-unit2-2026",
+    "state": "AK",
+    "species": "deer",
+    "seasonName": "Deer season, Unit 2",
+    "zone": "Unit 2",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-01",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "4 bucks",
+    "possessionLimit": null,
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Unit 2 Seasons and Bag Limits (gmu2.pdf)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "B 2 Four bucks HT Aug 1-Dec 31",
+    "checkedDate": "2026-11-23",
+    "notes": "Printed in the ADF&G unit table under Deer. Open-to column: B = residents and nonresidents, R = residents only, N = nonresidents only. HT = harvest ticket. Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026). Open to residents and nonresidents (B)."
+  },
+  {
+    "id": "ak-deer-unit3-petersburg-mgmt-2026",
+    "state": "AK",
+    "species": "deer",
+    "seasonName": "Deer season, Unit 3 Petersburg Management Area (archery)",
+    "zone": "Unit 3, Petersburg Management Area",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-01",
+        "close": "2026-12-15",
+        "note": "Bow and arrow only"
+      }
+    ],
+    "bagLimit": "2 bucks, by bow and arrow only",
+    "possessionLimit": null,
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Unit 3 Seasons and Bag Limits (gmu3.pdf)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "B 3 Petersburg Management Area Two bucks by bow and arrow only HT Aug 1-Dec 15",
+    "checkedDate": "2026-11-23",
+    "notes": "Printed in the ADF&G unit table under Deer. Open-to column: B = residents and nonresidents, R = residents only, N = nonresidents only. HT = harvest ticket. Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026). Open to residents and nonresidents (B). The unit page defines the Petersburg Management Area boundary."
+  },
+  {
+    "id": "ak-deer-unit3-mitkof-2026",
+    "state": "AK",
+    "species": "deer",
+    "seasonName": "Deer season, Unit 3 Mitkof, Woewodski and Butterworth islands",
+    "zone": "Unit 3, remainder of Mitkof, Woewodski and Butterworth islands",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2026-11-07",
+        "note": "Residents (R)"
+      },
+      {
+        "open": "2026-10-15",
+        "close": "2026-10-31",
+        "note": "Nonresidents (N)"
+      }
+    ],
+    "bagLimit": "1 buck",
+    "possessionLimit": null,
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Unit 3 Seasons and Bag Limits (gmu3.pdf)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "R remainder of Mitkof, Woewodski, Oct 1-Nov 7 | 3 One buck HT | N and Butterworth islands Oct 15-Oct 31",
+    "checkedDate": "2026-11-23",
+    "notes": "Printed in the ADF&G unit table under Deer. Open-to column: B = residents and nonresidents, R = residents only, N = nonresidents only. HT = harvest ticket. Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026). Residents and nonresidents have different dates in this row."
+  },
+  {
+    "id": "ak-deer-unit3-lindenberg-2026",
+    "state": "AK",
+    "species": "deer",
+    "seasonName": "Deer season, Unit 3 Lindenberg Peninsula",
+    "zone": "Unit 3, Lindenberg Peninsula (east of the Portage Bay-Duncan Canal Portage)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2026-11-07",
+        "note": "Residents only; nonresidents have no open season"
+      }
+    ],
+    "bagLimit": "1 buck",
+    "possessionLimit": null,
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Unit 3 Seasons and Bag Limits (gmu3.pdf)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "R that portion of Kupreanof Island on the Lindenberg One buck HT Oct 1-Nov 7 | N Peninsula east of the Portage Bay-Duncan Canal Portage no open season",
+    "checkedDate": "2026-11-23",
+    "notes": "Printed in the ADF&G unit table under Deer. Open-to column: B = residents and nonresidents, R = residents only, N = nonresidents only. HT = harvest ticket. Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026). Residents only (R); the nonresident row prints no open season."
+  },
+  {
+    "id": "ak-deer-unit3-remainder-2026",
+    "state": "AK",
+    "species": "deer",
+    "seasonName": "Deer season, Unit 3 remainder",
+    "zone": "Unit 3, remainder",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-01",
+        "close": "2026-11-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 bucks",
+    "possessionLimit": null,
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Unit 3 Seasons and Bag Limits (gmu3.pdf)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "B 3 remainder Two bucks HT Aug 1-Nov 30",
+    "checkedDate": "2026-11-23",
+    "notes": "Printed in the ADF&G unit table under Deer. Open-to column: B = residents and nonresidents, R = residents only, N = nonresidents only. HT = harvest ticket. Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026). Open to residents and nonresidents (B)."
+  },
+  {
+    "id": "ak-deer-unit4-chichagof-ne-2026",
+    "state": "AK",
+    "species": "deer",
+    "seasonName": "Deer season, Unit 4 northeast Chichagof",
+    "zone": "Unit 4, Chichagof Island east of Port Frederick and north of Tenakee Inlet (excluding drainages running south into Tenakee Inlet)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-01",
+        "close": "2026-09-14",
+        "note": "Residents: bucks only"
+      },
+      {
+        "open": "2026-09-15",
+        "close": "2026-12-31",
+        "note": "Residents: any deer (harvest ticket)"
+      },
+      {
+        "open": "2026-08-01",
+        "close": "2026-12-31",
+        "note": "Nonresidents: 2 bucks"
+      }
+    ],
+    "bagLimit": "Residents: 3 deer total; nonresidents: 2 bucks",
+    "possessionLimit": null,
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Unit 4 Seasons and Bag Limits (gmu4.pdf)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "Chichagof Island east of Port Frederick bucks Aug 1-Sept 14 | R Three deer total | 4 and north of Tenakee Inlet, excluding any deer HT Sept 15-Dec 31 | N drainages running south into Tenakee Inlet Two bucks Aug 1-Dec 31",
+    "checkedDate": "2026-11-23",
+    "notes": "Printed in the ADF&G unit table under Deer. Open-to column: B = residents and nonresidents, R = residents only, N = nonresidents only. HT = harvest ticket. Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026). Residents and nonresidents have different limits in this row."
+  },
+  {
+    "id": "ak-deer-unit4-remainder-2026",
+    "state": "AK",
+    "species": "deer",
+    "seasonName": "Deer season, Unit 4 remainder",
+    "zone": "Unit 4, remainder",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-01",
+        "close": "2026-09-14",
+        "note": "Residents: bucks only"
+      },
+      {
+        "open": "2026-09-15",
+        "close": "2026-12-31",
+        "note": "Residents: any deer (harvest ticket)"
+      },
+      {
+        "open": "2026-08-01",
+        "close": "2026-12-31",
+        "note": "Nonresidents: 2 bucks"
+      }
+    ],
+    "bagLimit": "Residents: 6 deer total; nonresidents: 2 bucks",
+    "possessionLimit": null,
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Unit 4 Seasons and Bag Limits (gmu4.pdf)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "bucks Aug 1-Sept 14 | R Six deer total | 4 remainder any deer HT Sept 15-Dec 31 | N Two bucks Aug 1-Dec 31",
+    "checkedDate": "2026-11-23",
+    "notes": "Printed in the ADF&G unit table under Deer. Open-to column: B = residents and nonresidents, R = residents only, N = nonresidents only. HT = harvest ticket. Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026). Residents and nonresidents have different limits in this row."
+  },
+  {
+    "id": "ak-deer-unit5a-2026",
+    "state": "AK",
+    "species": "deer",
+    "seasonName": "Deer season, Unit 5A",
+    "zone": "Unit 5A (Yakutat)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-15",
+        "close": "2026-10-31",
+        "note": "Youth hunt only (Yakutat Youth Hunt Management Area)"
+      },
+      {
+        "open": "2026-11-01",
+        "close": "2026-11-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 buck",
+    "possessionLimit": null,
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Unit 5 Seasons and Bag Limits (gmu5.pdf)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "One buck Youth hunt only Oct 15-Oct 31 | B 5A HT | One buck Nov 1-Nov 30",
+    "checkedDate": "2026-11-23",
+    "notes": "Printed in the ADF&G unit table under Deer. Open-to column: B = residents and nonresidents, R = residents only, N = nonresidents only. HT = harvest ticket. Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026). Open to residents and nonresidents (B), harvest ticket. Unit 5B has no open season."
+  },
+  {
+    "id": "ak-deer-unit6-2026",
+    "state": "AK",
+    "species": "deer",
+    "seasonName": "Deer season, Unit 6",
+    "zone": "Unit 6",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-01",
+        "close": "2026-09-30",
+        "note": "Bucks"
+      },
+      {
+        "open": "2026-10-01",
+        "close": "2026-12-31",
+        "note": "Any deer"
+      }
+    ],
+    "bagLimit": "Residents: 5 deer total; nonresidents: 4 deer total",
+    "possessionLimit": null,
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Unit 6 Seasons and Bag Limits (gmu6.pdf)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "bucks Aug 1-Sept 30 | R Five deer total | any deer Oct 1-Dec 31 | 6 HT | bucks Aug 1-Sept 30 | N Four deer total | any deer Oct 1-Dec 31",
+    "checkedDate": "2026-11-23",
+    "notes": "Printed in the ADF&G unit table under Deer. Open-to column: B = residents and nonresidents, R = residents only, N = nonresidents only. HT = harvest ticket. Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026). Residents and nonresidents have different totals (R 5 deer, N 4 deer); same dates."
+  },
+  {
+    "id": "ak-deer-unit8-road-system-2026",
+    "state": "AK",
+    "species": "deer",
+    "seasonName": "Deer season, Unit 8 Kodiak Road System Management Area",
+    "zone": "Unit 8, Kodiak Road System Management Area",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-01",
+        "close": "2026-10-31",
+        "note": "One buck"
+      },
+      {
+        "open": "2026-11-01",
+        "close": "2026-11-14",
+        "note": "One deer, bow and arrow, crossbow or muzzleloader only"
+      },
+      {
+        "open": "2026-11-16",
+        "close": "2026-12-31",
+        "note": "One deer, bow and arrow, crossbow or muzzleloader only; youth hunt only"
+      }
+    ],
+    "bagLimit": "1 buck (Aug 1-Oct 31); 1 deer by archery, crossbow or muzzleloader only (Nov 1-Nov 14); youth hunt only (Nov 16-Dec 31)",
+    "possessionLimit": null,
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Unit 8 Seasons and Bag Limits (gmu8.pdf)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "Kodiak Road One buck Aug 1-Oct 31 | System One deer by bow and arrow, crossbow, or muzzleloader only Nov 1-Nov 14 | B 8 HT | Management One deer by bow and arrow, crossbow, or muzzleloader only; Youth | Area Nov 16-Dec 31 | hunt only",
+    "checkedDate": "2026-11-23",
+    "notes": "Printed in the ADF&G unit table under Deer. Open-to column: B = residents and nonresidents, R = residents only, N = nonresidents only. HT = harvest ticket. Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026). Open to residents and nonresidents (B), harvest ticket."
+  },
+  {
+    "id": "ak-deer-unit8-remainder-2026",
+    "state": "AK",
+    "species": "deer",
+    "seasonName": "Deer season, Unit 8 remainder",
+    "zone": "Unit 8, remainder",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-01",
+        "close": "2026-09-30",
+        "note": "Residents: bucks only"
+      },
+      {
+        "open": "2026-10-01",
+        "close": "2026-12-31",
+        "note": "Residents: any deer (harvest ticket)"
+      },
+      {
+        "open": "2026-08-01",
+        "close": "2026-12-31",
+        "note": "Nonresidents: 1 buck"
+      }
+    ],
+    "bagLimit": "Residents: 3 deer total; nonresidents: 1 buck",
+    "possessionLimit": null,
+    "agency": "ADF&G",
+    "sourceTitle": "ADF&G, 2026-2027 Alaska Hunting Regulations, Unit 8 Seasons and Bag Limits (gmu8.pdf)",
+    "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=wildliferegulations.hunting",
+    "sourceQuote": "bucks Aug 1-Sept 30 | R Three deer total | 8 remainder any deer HT Oct 1-Dec 31 | N One buck Aug 1-Dec 31",
+    "checkedDate": "2026-11-23",
+    "notes": "Printed in the ADF&G unit table under Deer. Open-to column: B = residents and nonresidents, R = residents only, N = nonresidents only. HT = harvest ticket. Dates printed as month and day only; years assigned for the 2026-27 season (Aug-Dec = 2026). Residents and nonresidents have different limits in this row."
+  }
+]

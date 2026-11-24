@@ -32,6 +32,10 @@ export function periodContains(open: string, close: string, day: string) {
   return open <= day && day <= close;
 }
 
+function isIsoDate(value: string | null): value is string {
+  return typeof value === "string" && /^\d{4}-\d{2}-\d{2}$/.test(value);
+}
+
 /**
  * True only when the record may be shown, today falls inside a period,
  * and the agency quote was checked within OPEN_NOW_MAX_CHECK_AGE_DAYS.
@@ -41,7 +45,7 @@ export function isOpenNow(record: SeasonRecord, today: string) {
   if (!record.periods || record.periods.length === 0) return false;
   const age = calendarDaysBetween(record.checkedDate, today);
   if (age < 0 || age > OPEN_NOW_MAX_CHECK_AGE_DAYS) return false;
-  return record.periods.some((period) => periodContains(period.open, period.close, today));
+  return record.periods.some((period) => isIsoDate(period.open) && isIsoDate(period.close) && periodContains(period.open, period.close, today));
 }
 
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
@@ -50,4 +54,13 @@ export function formatIsoDate(iso: string) {
   const [year, month, day] = iso.split("-").map(Number);
   if (!year || !month || !day || month < 1 || month > 12) return iso;
   return `${MONTHS[month - 1]} ${day}, ${year}`;
+}
+
+/** Dated periods show the range. A null open and close show the note, not a closed label. */
+export function formatPeriod(period: { open: string | null; close: string | null; note: string | null }) {
+  if (isIsoDate(period.open) && isIsoDate(period.close)) {
+    const dates = `${formatIsoDate(period.open)} to ${formatIsoDate(period.close)}`;
+    return period.note ? `${dates} (${period.note})` : dates;
+  }
+  return period.note ?? "";
 }

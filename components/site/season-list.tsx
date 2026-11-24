@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { formatIsoDate, isOpenNow, type SeasonRecord } from "@/lib/seasons";
+import { formatIsoDate, formatPeriod, isOpenNow, type SeasonRecord } from "@/lib/seasons";
 import { calendarDateInTimeZone } from "@/lib/seasons/open";
 
 const speciesLabels: Record<string, string> = {
@@ -12,6 +12,8 @@ const speciesLabels: Record<string, string> = {
   sharptail: "Sharp-tailed grouse",
   "prairie-chicken": "Prairie chicken",
   woodcock: "Woodcock",
+  ptarmigan: "Ptarmigan",
+  francolin: "Francolin",
 };
 
 export type SpeciesNote = { species: string; content: ReactNode };
@@ -86,12 +88,11 @@ export function SeasonList({
                   <p className="font-serif text-[16px] text-[#3B3526]">{record.seasonYear}</p>
                   {record.periods.length > 0 ? (
                     <ul className="mt-2 grid gap-1 font-serif text-[16px] text-[#3B3526]">
-                      {record.periods.map((period) => (
-                        <li key={`${record.id}-${period.open}-${period.close}-${period.note ?? ""}`}>
-                          {formatIsoDate(period.open)} to {formatIsoDate(period.close)}
-                          {period.note ? ` (${period.note})` : ""}
-                        </li>
-                      ))}
+                      {record.periods.map((period, index) => {
+                        const line = formatPeriod(period);
+                        if (!line) return null;
+                        return <li key={`${record.id}-period-${index}`}>{line}</li>;
+                      })}
                     </ul>
                   ) : closedOrYearRound ? (
                     <p className="mt-2 font-serif text-[16px] text-[#3B3526]">{closedOrYearRound}</p>

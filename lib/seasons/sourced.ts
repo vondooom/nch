@@ -1,3 +1,4 @@
+import ak from "@/data/seasons/ak.json";
 import al from "@/data/seasons/al.json";
 import ar from "@/data/seasons/ar.json";
 import az from "@/data/seasons/az.json";
@@ -6,6 +7,7 @@ import co from "@/data/seasons/co.json";
 import de from "@/data/seasons/de.json";
 import fl from "@/data/seasons/fl.json";
 import ga from "@/data/seasons/ga.json";
+import hi from "@/data/seasons/hi.json";
 import ia from "@/data/seasons/ia.json";
 import idRecords from "@/data/seasons/id.json";
 import il from "@/data/seasons/il.json";
@@ -86,6 +88,8 @@ const files = [
   ["pa.json", pa],
   ["va.json", va],
   ["wv.json", wv],
+  ["ak.json", ak],
+  ["hi.json", hi],
 ] as const;
 
 const loaded = files.map(([file, rows]) => validateSeasonFile(rows, file));
@@ -137,4 +141,6 @@ export const seasonStateCode: Record<string, string> = {
   pennsylvania: "PA",
   virginia: "VA",
   "west-virginia": "WV",
+  alaska: "AK",
+  hawaii: "HI",
 };

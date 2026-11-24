@@ -1,8 +1,8 @@
 export type SeasonPeriod = {
-  /** Inclusive open date, YYYY-MM-DD. */
-  open: string;
-  /** Inclusive close date, YYYY-MM-DD. */
-  close: string;
+  /** Inclusive open date, YYYY-MM-DD. Null when the agency prints a schedule in note instead of dates. */
+  open: string | null;
+  /** Inclusive close date, YYYY-MM-DD. Null when open is null. */
+  close: string | null;
   /** Null when the source row has no period note. */
   note: string | null;
 };

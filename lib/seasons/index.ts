@@ -3,7 +3,7 @@ import { calendarDateInTimeZone, isDisplayableSeason, isOpenNow } from "./open";
 import { seasonStateCode, sourcedSeasons } from "./sourced";
 import type { SeasonRecord } from "./types";
 
-export { OPEN_NOW_MAX_CHECK_AGE_DAYS, calendarDateInTimeZone, formatIsoDate, isDisplayableSeason, isOpenNow } from "./open";
+export { OPEN_NOW_MAX_CHECK_AGE_DAYS, calendarDateInTimeZone, formatIsoDate, formatPeriod, isDisplayableSeason, isOpenNow } from "./open";
 export { droppedSeasons } from "./sourced";
 export type { SeasonPeriod, SeasonRecord } from "./types";
 
