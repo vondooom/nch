@@ -1,0 +1,1914 @@
+[
+  {
+    "id": "ut-elk-beaver-west-general-any-bull-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season any bull",
+    "zone": "Beaver, West",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-16",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): one elk of either sex"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-09",
+        "note": "early any legal weapon (hunt EB1001): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "late any legal weapon (hunt EB1010): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1002): bull elk of any size, including a spike"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Beaver, West | EB1005 | Archery Hunters Choice Elk | Any bull units: Aug 15 2026 - Sept 16 2026 | EB1001 | Any Bull Elk Units | October 3, 2026 - October 9, 2026 | EB1010 | Any Bull Elk Units | Oct 10 2026 - Oct 16 2026 | EB1002 | Any Bull Elk Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season any bull elk permits are sold over the counter (on sale July 9, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on any bull units. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-book-cliffs-floy-canyon-general-any-bull-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season any bull",
+    "zone": "Book Cliffs, Floy Canyon",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-16",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): one elk of either sex"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-09",
+        "note": "early any legal weapon (hunt EB1001): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "late any legal weapon (hunt EB1010): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1002): bull elk of any size, including a spike"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Book Cliffs, Floy Canyon | EB1005 | Archery Hunters Choice Elk | Any bull units: Aug 15 2026 - Sept 16 2026 | EB1001 | Any Bull Elk Units | October 3, 2026 - October 9, 2026 | EB1010 | Any Bull Elk Units | Oct 10 2026 - Oct 16 2026 | EB1002 | Any Bull Elk Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season any bull elk permits are sold over the counter (on sale July 9, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on any bull units. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-box-elder-hansel-mtn-general-any-bull-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season any bull",
+    "zone": "Box Elder, Hansel Mtn",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-16",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): one elk of either sex"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-09",
+        "note": "early any legal weapon (hunt EB1001): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "late any legal weapon (hunt EB1010): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1002): bull elk of any size, including a spike"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Box Elder, Hansel Mtn | EB1005 | Archery Hunters Choice Elk | Any bull units: Aug 15 2026 - Sept 16 2026 | EB1001 | Any Bull Elk Units | October 3, 2026 - October 9, 2026 | EB1010 | Any Bull Elk Units | Oct 10 2026 - Oct 16 2026 | EB1002 | Any Bull Elk Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season any bull elk permits are sold over the counter (on sale July 9, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on any bull units. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-box-elder-sawtooth-general-any-bull-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season any bull",
+    "zone": "Box Elder, Sawtooth",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-16",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): one elk of either sex"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-09",
+        "note": "early any legal weapon (hunt EB1001): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "late any legal weapon (hunt EB1010): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1002): bull elk of any size, including a spike"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Box Elder, Sawtooth | EB1005 | Archery Hunters Choice Elk | Any bull units: Aug 15 2026 - Sept 16 2026 | EB1001 | Any Bull Elk Units | October 3, 2026 - October 9, 2026 | EB1010 | Any Bull Elk Units | Oct 10 2026 - Oct 16 2026 | EB1002 | Any Bull Elk Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season any bull elk permits are sold over the counter (on sale July 9, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on any bull units. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-cache-east-rich-general-any-bull-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season any bull",
+    "zone": "Cache, East Rich",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-16",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): one elk of either sex"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-09",
+        "note": "early any legal weapon (hunt EB1001): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "late any legal weapon (hunt EB1010): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1002): bull elk of any size, including a spike"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Cache, East Rich | EB1005 | Archery Hunters Choice Elk | Any bull units: Aug 15 2026 - Sept 16 2026 | EB1001 | Any Bull Elk Units | October 3, 2026 - October 9, 2026 | EB1010 | Any Bull Elk Units | Oct 10 2026 - Oct 16 2026 | EB1002 | Any Bull Elk Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season any bull elk permits are sold over the counter (on sale July 9, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on any bull units. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-cache-wellsville-general-any-bull-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season any bull",
+    "zone": "Cache, Wellsville",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-16",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): one elk of either sex"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-09",
+        "note": "early any legal weapon (hunt EB1001): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "late any legal weapon (hunt EB1010): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1002): bull elk of any size, including a spike"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Cache, Wellsville | EB1005 | Archery Hunters Choice Elk | Any bull units: Aug 15 2026 - Sept 16 2026 | EB1001 | Any Bull Elk Units | October 3, 2026 - October 9, 2026 | EB1010 | Any Bull Elk Units | Oct 10 2026 - Oct 16 2026 | EB1002 | Any Bull Elk Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season any bull elk permits are sold over the counter (on sale July 9, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on any bull units. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-cedar-stansbury-general-any-bull-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season any bull",
+    "zone": "Cedar/Stansbury",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-16",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): one elk of either sex"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-09",
+        "note": "early any legal weapon (hunt EB1001): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "late any legal weapon (hunt EB1010): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1002): bull elk of any size, including a spike"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Cedar/Stansbury | EB1005 | Archery Hunters Choice Elk | Any bull units: Aug 15 2026 - Sept 16 2026 | EB1001 | Any Bull Elk Units | October 3, 2026 - October 9, 2026 | EB1010 | Any Bull Elk Units | Oct 10 2026 - Oct 16 2026 | EB1002 | Any Bull Elk Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season any bull elk permits are sold over the counter (on sale July 9, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on any bull units. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-chalk-creek-general-any-bull-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season any bull",
+    "zone": "Chalk Creek",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-16",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): one elk of either sex"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-09",
+        "note": "early any legal weapon (hunt EB1001): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "late any legal weapon (hunt EB1010): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1002): bull elk of any size, including a spike"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Chalk Creek | EB1005 | Archery Hunters Choice Elk | Any bull units: Aug 15 2026 - Sept 16 2026 | EB1001 | Any Bull Elk Units | October 3, 2026 - October 9, 2026 | EB1010 | Any Bull Elk Units | Oct 10 2026 - Oct 16 2026 | EB1002 | Any Bull Elk Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season any bull elk permits are sold over the counter (on sale July 9, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on any bull units. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-east-canyon-general-any-bull-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season any bull",
+    "zone": "East Canyon",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-16",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): one elk of either sex"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-09",
+        "note": "early any legal weapon (hunt EB1001): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "late any legal weapon (hunt EB1010): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1002): bull elk of any size, including a spike"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "East Canyon | EB1005 | Archery Hunters Choice Elk | Any bull units: Aug 15 2026 - Sept 16 2026 | EB1001 | Any Bull Elk Units | October 3, 2026 - October 9, 2026 | EB1010 | Any Bull Elk Units | Oct 10 2026 - Oct 16 2026 | EB1002 | Any Bull Elk Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season any bull elk permits are sold over the counter (on sale July 9, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on any bull units. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-fillmore-oak-creek-south-general-any-bull-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season any bull",
+    "zone": "Fillmore, Oak Creek South",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-16",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): one elk of either sex"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-09",
+        "note": "early any legal weapon (hunt EB1001): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "late any legal weapon (hunt EB1010): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1002): bull elk of any size, including a spike"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Fillmore, Oak Creek South | EB1005 | Archery Hunters Choice Elk | Any bull units: Aug 15 2026 - Sept 16 2026 | EB1001 | Any Bull Elk Units | October 3, 2026 - October 9, 2026 | EB1010 | Any Bull Elk Units | Oct 10 2026 - Oct 16 2026 | EB1002 | Any Bull Elk Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season any bull elk permits are sold over the counter (on sale July 9, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on any bull units. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-henry-mtns-general-any-bull-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season any bull",
+    "zone": "Henry Mtns",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-16",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): one elk of either sex"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-09",
+        "note": "early any legal weapon (hunt EB1001): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "late any legal weapon (hunt EB1010): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1002): bull elk of any size, including a spike"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Henry Mtns | EB1005 | Archery Hunters Choice Elk | Any bull units: Aug 15 2026 - Sept 16 2026 | EB1001 | Any Bull Elk Units | October 3, 2026 - October 9, 2026 | EB1010 | Any Bull Elk Units | Oct 10 2026 - Oct 16 2026 | EB1002 | Any Bull Elk Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season any bull elk permits are sold over the counter (on sale July 9, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on any bull units. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-house-tintic-general-any-bull-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season any bull",
+    "zone": "House/Tintic",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-16",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): one elk of either sex"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-09",
+        "note": "early any legal weapon (hunt EB1001): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "late any legal weapon (hunt EB1010): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1002): bull elk of any size, including a spike"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "House/Tintic | EB1005 | Archery Hunters Choice Elk | Any bull units: Aug 15 2026 - Sept 16 2026 | EB1001 | Any Bull Elk Units | October 3, 2026 - October 9, 2026 | EB1010 | Any Bull Elk Units | Oct 10 2026 - Oct 16 2026 | EB1002 | Any Bull Elk Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season any bull elk permits are sold over the counter (on sale July 9, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on any bull units. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-kamas-general-any-bull-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season any bull",
+    "zone": "Kamas",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-16",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): one elk of either sex"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-09",
+        "note": "early any legal weapon (hunt EB1001): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "late any legal weapon (hunt EB1010): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1002): bull elk of any size, including a spike"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Kamas | EB1005 | Archery Hunters Choice Elk | Any bull units: Aug 15 2026 - Sept 16 2026 | EB1001 | Any Bull Elk Units | October 3, 2026 - October 9, 2026 | EB1010 | Any Bull Elk Units | Oct 10 2026 - Oct 16 2026 | EB1002 | Any Bull Elk Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season any bull elk permits are sold over the counter (on sale July 9, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on any bull units. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-morgan-south-rich-general-any-bull-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season any bull",
+    "zone": "Morgan-South Rich",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-16",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): one elk of either sex"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-09",
+        "note": "early any legal weapon (hunt EB1001): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "late any legal weapon (hunt EB1010): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1002): bull elk of any size, including a spike"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Morgan-South Rich | EB1005 | Archery Hunters Choice Elk | Any bull units: Aug 15 2026 - Sept 16 2026 | EB1001 | Any Bull Elk Units | October 3, 2026 - October 9, 2026 | EB1010 | Any Bull Elk Units | Oct 10 2026 - Oct 16 2026 | EB1002 | Any Bull Elk Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season any bull elk permits are sold over the counter (on sale July 9, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on any bull units. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-nebo-moroni-hills-general-any-bull-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season any bull",
+    "zone": "Nebo, Moroni Hills",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-16",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): one elk of either sex"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-09",
+        "note": "early any legal weapon (hunt EB1001): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "late any legal weapon (hunt EB1010): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1002): bull elk of any size, including a spike"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Nebo, Moroni Hills | EB1005 | Archery Hunters Choice Elk | Any bull units: Aug 15 2026 - Sept 16 2026 | EB1001 | Any Bull Elk Units | October 3, 2026 - October 9, 2026 | EB1010 | Any Bull Elk Units | Oct 10 2026 - Oct 16 2026 | EB1002 | Any Bull Elk Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season any bull elk permits are sold over the counter (on sale July 9, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on any bull units. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-nine-mile-anthro-myton-bench-general-any-bull-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season any bull",
+    "zone": "Nine Mile, Anthro-Myton Bench",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-16",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): one elk of either sex"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-09",
+        "note": "early any legal weapon (hunt EB1001): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "late any legal weapon (hunt EB1010): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1002): bull elk of any size, including a spike"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Nine Mile, Anthro-Myton Bench | EB1005 | Archery Hunters Choice Elk | Any bull units: Aug 15 2026 - Sept 16 2026 | EB1001 | Any Bull Elk Units | October 3, 2026 - October 9, 2026 | EB1010 | Any Bull Elk Units | Oct 10 2026 - Oct 16 2026 | EB1002 | Any Bull Elk Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season any bull elk permits are sold over the counter (on sale July 9, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on any bull units. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-nine-mile-range-creek-general-any-bull-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season any bull",
+    "zone": "Nine Mile, Range Creek",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-16",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): one elk of either sex"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-09",
+        "note": "early any legal weapon (hunt EB1001): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "late any legal weapon (hunt EB1010): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1002): bull elk of any size, including a spike"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Nine Mile, Range Creek | EB1005 | Archery Hunters Choice Elk | Any bull units: Aug 15 2026 - Sept 16 2026 | EB1001 | Any Bull Elk Units | October 3, 2026 - October 9, 2026 | EB1010 | Any Bull Elk Units | Oct 10 2026 - Oct 16 2026 | EB1002 | Any Bull Elk Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season any bull elk permits are sold over the counter (on sale July 9, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on any bull units. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-north-slope-summit-general-any-bull-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season any bull",
+    "zone": "North Slope, Summit",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-16",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): one elk of either sex"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-09",
+        "note": "early any legal weapon (hunt EB1001): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "late any legal weapon (hunt EB1010): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1002): bull elk of any size, including a spike"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "North Slope, Summit | EB1005 | Archery Hunters Choice Elk | Any bull units: Aug 15 2026 - Sept 16 2026 | EB1001 | Any Bull Elk Units | October 3, 2026 - October 9, 2026 | EB1010 | Any Bull Elk Units | Oct 10 2026 - Oct 16 2026 | EB1002 | Any Bull Elk Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season any bull elk permits are sold over the counter (on sale July 9, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on any bull units. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-north-slope-west-daggett-general-any-bull-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season any bull",
+    "zone": "North Slope, West Daggett",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-16",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): one elk of either sex"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-09",
+        "note": "early any legal weapon (hunt EB1001): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "late any legal weapon (hunt EB1010): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1002): bull elk of any size, including a spike"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "North Slope, West Daggett | EB1005 | Archery Hunters Choice Elk | Any bull units: Aug 15 2026 - Sept 16 2026 | EB1001 | Any Bull Elk Units | October 3, 2026 - October 9, 2026 | EB1010 | Any Bull Elk Units | Oct 10 2026 - Oct 16 2026 | EB1002 | Any Bull Elk Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season any bull elk permits are sold over the counter (on sale July 9, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on any bull units. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-ogden-general-any-bull-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season any bull",
+    "zone": "Ogden",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-16",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): one elk of either sex"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-09",
+        "note": "early any legal weapon (hunt EB1001): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "late any legal weapon (hunt EB1010): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1002): bull elk of any size, including a spike"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Ogden | EB1005 | Archery Hunters Choice Elk | Any bull units: Aug 15 2026 - Sept 16 2026 | EB1001 | Any Bull Elk Units | October 3, 2026 - October 9, 2026 | EB1010 | Any Bull Elk Units | Oct 10 2026 - Oct 16 2026 | EB1002 | Any Bull Elk Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season any bull elk permits are sold over the counter (on sale July 9, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on any bull units. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-oquirrh-general-any-bull-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season any bull",
+    "zone": "Oquirrh",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-16",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): one elk of either sex"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-09",
+        "note": "early any legal weapon (hunt EB1001): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "late any legal weapon (hunt EB1010): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1002): bull elk of any size, including a spike"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Oquirrh | EB1005 | Archery Hunters Choice Elk | Any bull units: Aug 15 2026 - Sept 16 2026 | EB1001 | Any Bull Elk Units | October 3, 2026 - October 9, 2026 | EB1010 | Any Bull Elk Units | Oct 10 2026 - Oct 16 2026 | EB1002 | Any Bull Elk Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season any bull elk permits are sold over the counter (on sale July 9, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on any bull units. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-paunsaugunt-general-any-bull-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season any bull",
+    "zone": "Paunsaugunt",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-09",
+        "note": "early any legal weapon (hunt EB1001): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "late any legal weapon (hunt EB1010): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1002): bull elk of any size, including a spike"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Paunsaugunt | EB1001 | Any Bull Elk Units | October 3, 2026 - October 9, 2026 | EB1010 | Any Bull Elk Units | Oct 10 2026 - Oct 16 2026 | EB1002 | Any Bull Elk Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season any bull elk permits are sold over the counter (on sale July 9, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on any bull units. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. No general-season archery elk hunt on this unit (the guidebook: \"No general-season archery elk hunt on the Paunsaugunt unit\"; the hunt table leaves it out of EB1005). Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-pine-valley-general-any-bull-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season any bull",
+    "zone": "Pine Valley",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-16",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): one elk of either sex"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-09",
+        "note": "early any legal weapon (hunt EB1001): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "late any legal weapon (hunt EB1010): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1002): bull elk of any size, including a spike"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Pine Valley | EB1005 | Archery Hunters Choice Elk | Any bull units: Aug 15 2026 - Sept 16 2026 | EB1001 | Any Bull Elk Units | October 3, 2026 - October 9, 2026 | EB1010 | Any Bull Elk Units | Oct 10 2026 - Oct 16 2026 | EB1002 | Any Bull Elk Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season any bull elk permits are sold over the counter (on sale July 9, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on any bull units. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-san-juan-montezuma-canyon-general-any-bull-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season any bull",
+    "zone": "San Juan, Montezuma Canyon",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-16",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): one elk of either sex"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-09",
+        "note": "early any legal weapon (hunt EB1001): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "late any legal weapon (hunt EB1010): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1002): bull elk of any size, including a spike"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "San Juan, Montezuma Canyon | EB1005 | Archery Hunters Choice Elk | Any bull units: Aug 15 2026 - Sept 16 2026 | EB1001 | Any Bull Elk Units | October 3, 2026 - October 9, 2026 | EB1010 | Any Bull Elk Units | Oct 10 2026 - Oct 16 2026 | EB1002 | Any Bull Elk Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season any bull elk permits are sold over the counter (on sale July 9, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on any bull units. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-san-rafael-north-general-any-bull-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season any bull",
+    "zone": "San Rafael, North",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-16",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): one elk of either sex"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-09",
+        "note": "early any legal weapon (hunt EB1001): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "late any legal weapon (hunt EB1010): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1002): bull elk of any size, including a spike"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "San Rafael, North | EB1005 | Archery Hunters Choice Elk | Any bull units: Aug 15 2026 - Sept 16 2026 | EB1001 | Any Bull Elk Units | October 3, 2026 - October 9, 2026 | EB1010 | Any Bull Elk Units | Oct 10 2026 - Oct 16 2026 | EB1002 | Any Bull Elk Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season any bull elk permits are sold over the counter (on sale July 9, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on any bull units. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-valley-mtns-general-any-bull-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season any bull",
+    "zone": "Valley Mtns",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-16",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): one elk of either sex"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-09",
+        "note": "early any legal weapon (hunt EB1001): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "late any legal weapon (hunt EB1010): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1002): bull elk of any size, including a spike"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Valley Mtns | EB1005 | Archery Hunters Choice Elk | Any bull units: Aug 15 2026 - Sept 16 2026 | EB1001 | Any Bull Elk Units | October 3, 2026 - October 9, 2026 | EB1010 | Any Bull Elk Units | Oct 10 2026 - Oct 16 2026 | EB1002 | Any Bull Elk Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season any bull elk permits are sold over the counter (on sale July 9, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on any bull units. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-vernal-bonanza-general-any-bull-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season any bull",
+    "zone": "Vernal/Bonanza",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-16",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): one elk of either sex"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-09",
+        "note": "early any legal weapon (hunt EB1001): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "late any legal weapon (hunt EB1010): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1002): bull elk of any size, including a spike"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Vernal/Bonanza | EB1005 | Archery Hunters Choice Elk | Any bull units: Aug 15 2026 - Sept 16 2026 | EB1001 | Any Bull Elk Units | October 3, 2026 - October 9, 2026 | EB1010 | Any Bull Elk Units | Oct 10 2026 - Oct 16 2026 | EB1002 | Any Bull Elk Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season any bull elk permits are sold over the counter (on sale July 9, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on any bull units. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-yellowstone-general-any-bull-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season any bull",
+    "zone": "Yellowstone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-16",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): one elk of either sex"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-09",
+        "note": "early any legal weapon (hunt EB1001): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "late any legal weapon (hunt EB1010): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1002): bull elk of any size, including a spike"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Yellowstone | EB1005 | Archery Hunters Choice Elk | Any bull units: Aug 15 2026 - Sept 16 2026 | EB1001 | Any Bull Elk Units | October 3, 2026 - October 9, 2026 | EB1010 | Any Bull Elk Units | Oct 10 2026 - Oct 16 2026 | EB1002 | Any Bull Elk Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season any bull elk permits are sold over the counter (on sale July 9, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on any bull units. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-zion-general-any-bull-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season any bull",
+    "zone": "Zion",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-16",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): one elk of either sex"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-09",
+        "note": "early any legal weapon (hunt EB1001): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "late any legal weapon (hunt EB1010): bull elk of any size, including a spike"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1002): bull elk of any size, including a spike"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Zion | EB1005 | Archery Hunters Choice Elk | Any bull units: Aug 15 2026 - Sept 16 2026 | EB1001 | Any Bull Elk Units | October 3, 2026 - October 9, 2026 | EB1010 | Any Bull Elk Units | Oct 10 2026 - Oct 16 2026 | EB1002 | Any Bull Elk Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season any bull elk permits are sold over the counter (on sale July 9, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on any bull units. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-beaver-east-general-spike-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season spike bull",
+    "zone": "Beaver, East",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-04",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): antlerless elk or spike bull elk"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-15",
+        "note": "any legal weapon (hunt EB1003): spike bull elk"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1004): spike bull elk"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Beaver, East | EB1005 | Archery Hunters Choice Elk | Spike only units: Aug 15-Sept 4, 2026 | EB1003 | Spike Only Units | Oct 03 2026 - Oct 15 2026 | EB1004 | Spike Only Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season spike bull elk permits are sold over the counter (on sale July 16, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on spike units. Multiseason spike bull permits (capped at 4,500, also sold July 16) cover all three seasons. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-book-cliffs-bitter-creek-east-general-spike-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season spike bull",
+    "zone": "Book Cliffs, Bitter Creek/East",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-04",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): spike bull only (Book Cliffs)"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-15",
+        "note": "any legal weapon (hunt EB1003): spike bull elk"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1004): spike bull elk"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Book Cliffs, Bitter Creek/East | EB1005 | Archery Hunters Choice Elk | Spike only units: Aug 15-Sept 4, 2026 | EB1003 | Spike Only Units | Oct 03 2026 - Oct 15 2026 | EB1004 | Spike Only Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season spike bull elk permits are sold over the counter (on sale July 16, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on spike units. Multiseason spike bull permits (capped at 4,500, also sold July 16) cover all three seasons. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Guidebook: \"Only a spike bull on the Book Cliffs unit\" for general-season archery; applied here to the Book Cliffs spike units. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-book-cliffs-little-creek-roadless-general-spike-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season spike bull",
+    "zone": "Book Cliffs, Little Creek Roadless",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-04",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): spike bull only (Book Cliffs)"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-15",
+        "note": "any legal weapon (hunt EB1003): spike bull elk"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1004): spike bull elk"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Book Cliffs, Little Creek Roadless | EB1005 | Archery Hunters Choice Elk | Spike only units: Aug 15-Sept 4, 2026 | EB1003 | Spike Only Units | Oct 03 2026 - Oct 15 2026 | EB1004 | Spike Only Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season spike bull elk permits are sold over the counter (on sale July 16, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on spike units. Multiseason spike bull permits (capped at 4,500, also sold July 16) cover all three seasons. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Guidebook: \"Only a spike bull on the Book Cliffs unit\" for general-season archery; applied here to the Book Cliffs spike units. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-boulder-kaiparowits-general-spike-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season spike bull",
+    "zone": "Boulder/Kaiparowits",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-04",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): antlerless elk or spike bull elk"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-15",
+        "note": "any legal weapon (hunt EB1003): spike bull elk"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1004): spike bull elk"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Boulder/Kaiparowits | EB1005 | Archery Hunters Choice Elk | Spike only units: Aug 15-Sept 4, 2026 | EB1003 | Spike Only Units | Oct 03 2026 - Oct 15 2026 | EB1004 | Spike Only Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season spike bull elk permits are sold over the counter (on sale July 16, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on spike units. Multiseason spike bull permits (capped at 4,500, also sold July 16) cover all three seasons. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-box-elder-grouse-creek-general-spike-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season spike bull",
+    "zone": "Box Elder, Grouse Creek",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-04",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): antlerless elk or spike bull elk"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-15",
+        "note": "any legal weapon (hunt EB1003): spike bull elk"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1004): spike bull elk"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Box Elder, Grouse Creek | EB1005 | Archery Hunters Choice Elk | Spike only units: Aug 15-Sept 4, 2026 | EB1003 | Spike Only Units | Oct 03 2026 - Oct 15 2026 | EB1004 | Spike Only Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season spike bull elk permits are sold over the counter (on sale July 16, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on spike units. Multiseason spike bull permits (capped at 4,500, also sold July 16) cover all three seasons. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-cache-meadowville-general-spike-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season spike bull",
+    "zone": "Cache, Meadowville",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-04",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): antlerless elk or spike bull elk"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-15",
+        "note": "any legal weapon (hunt EB1003): spike bull elk"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1004): spike bull elk"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Cache, Meadowville | EB1005 | Archery Hunters Choice Elk | Spike only units: Aug 15-Sept 4, 2026 | EB1003 | Spike Only Units | Oct 03 2026 - Oct 15 2026 | EB1004 | Spike Only Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season spike bull elk permits are sold over the counter (on sale July 16, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on spike units. Multiseason spike bull permits (capped at 4,500, also sold July 16) cover all three seasons. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-cache-north-general-spike-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season spike bull",
+    "zone": "Cache, North",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-04",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): antlerless elk or spike bull elk"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-15",
+        "note": "any legal weapon (hunt EB1003): spike bull elk"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1004): spike bull elk"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Cache, North | EB1005 | Archery Hunters Choice Elk | Spike only units: Aug 15-Sept 4, 2026 | EB1003 | Spike Only Units | Oct 03 2026 - Oct 15 2026 | EB1004 | Spike Only Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season spike bull elk permits are sold over the counter (on sale July 16, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on spike units. Multiseason spike bull permits (capped at 4,500, also sold July 16) cover all three seasons. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-cache-south-general-spike-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season spike bull",
+    "zone": "Cache, South",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-04",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): antlerless elk or spike bull elk"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-15",
+        "note": "any legal weapon (hunt EB1003): spike bull elk"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1004): spike bull elk"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Cache, South | EB1005 | Archery Hunters Choice Elk | Spike only units: Aug 15-Sept 4, 2026 | EB1003 | Spike Only Units | Oct 03 2026 - Oct 15 2026 | EB1004 | Spike Only Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season spike bull elk permits are sold over the counter (on sale July 16, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on spike units. Multiseason spike bull permits (capped at 4,500, also sold July 16) cover all three seasons. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-diamond-mtn-general-spike-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season spike bull",
+    "zone": "Diamond Mtn",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-04",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): antlerless elk or spike bull elk"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-15",
+        "note": "any legal weapon (hunt EB1003): spike bull elk"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1004): spike bull elk"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Diamond Mtn | EB1005 | Archery Hunters Choice Elk | Spike only units: Aug 15-Sept 4, 2026 | EB1003 | Spike Only Units | Oct 03 2026 - Oct 15 2026 | EB1004 | Spike Only Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season spike bull elk permits are sold over the counter (on sale July 16, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on spike units. Multiseason spike bull permits (capped at 4,500, also sold July 16) cover all three seasons. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-dolores-triangle-general-spike-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season spike bull",
+    "zone": "Dolores Triangle",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-04",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): antlerless elk or spike bull elk"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-15",
+        "note": "any legal weapon (hunt EB1003): spike bull elk"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1004): spike bull elk"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Dolores Triangle | EB1005 | Archery Hunters Choice Elk | Spike only units: Aug 15-Sept 4, 2026 | EB1003 | Spike Only Units | Oct 03 2026 - Oct 15 2026 | EB1004 | Spike Only Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season spike bull elk permits are sold over the counter (on sale July 16, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on spike units. Multiseason spike bull permits (capped at 4,500, also sold July 16) cover all three seasons. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-fillmore-pahvant-general-spike-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season spike bull",
+    "zone": "Fillmore, Pahvant",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-04",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): antlerless elk or spike bull elk"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-15",
+        "note": "any legal weapon (hunt EB1003): spike bull elk"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1004): spike bull elk"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Fillmore, Pahvant | EB1005 | Archery Hunters Choice Elk | Spike only units: Aug 15-Sept 4, 2026 | EB1003 | Spike Only Units | Oct 03 2026 - Oct 15 2026 | EB1004 | Spike Only Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season spike bull elk permits are sold over the counter (on sale July 16, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on spike units. Multiseason spike bull permits (capped at 4,500, also sold July 16) cover all three seasons. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-fishlake-thousand-lakes-general-spike-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season spike bull",
+    "zone": "Fishlake/Thousand Lakes",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-04",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): antlerless elk or spike bull elk"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-15",
+        "note": "any legal weapon (hunt EB1003): spike bull elk"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1004): spike bull elk"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Fishlake/Thousand Lakes | EB1005 | Archery Hunters Choice Elk | Spike only units: Aug 15-Sept 4, 2026 | EB1003 | Spike Only Units | Oct 03 2026 - Oct 15 2026 | EB1004 | Spike Only Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season spike bull elk permits are sold over the counter (on sale July 16, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on spike units. Multiseason spike bull permits (capped at 4,500, also sold July 16) cover all three seasons. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-la-sal-mtns-general-spike-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season spike bull",
+    "zone": "La Sal Mtns",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-04",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): antlerless elk or spike bull elk"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-15",
+        "note": "any legal weapon (hunt EB1003): spike bull elk"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1004): spike bull elk"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "La Sal Mtns | EB1005 | Archery Hunters Choice Elk | Spike only units: Aug 15-Sept 4, 2026 | EB1003 | Spike Only Units | Oct 03 2026 - Oct 15 2026 | EB1004 | Spike Only Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season spike bull elk permits are sold over the counter (on sale July 16, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on spike units. Multiseason spike bull permits (capped at 4,500, also sold July 16) cover all three seasons. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-manti-general-spike-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season spike bull",
+    "zone": "Manti",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-04",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): antlerless elk or spike bull elk"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-15",
+        "note": "any legal weapon (hunt EB1003): spike bull elk"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1004): spike bull elk"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Manti | EB1005 | Archery Hunters Choice Elk | Spike only units: Aug 15-Sept 4, 2026 | EB1003 | Spike Only Units | Oct 03 2026 - Oct 15 2026 | EB1004 | Spike Only Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season spike bull elk permits are sold over the counter (on sale July 16, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on spike units. Multiseason spike bull permits (capped at 4,500, also sold July 16) cover all three seasons. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-monroe-general-spike-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season spike bull",
+    "zone": "Monroe",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-04",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): antlerless elk or spike bull elk"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-15",
+        "note": "any legal weapon (hunt EB1003): spike bull elk"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1004): spike bull elk"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Monroe | EB1005 | Archery Hunters Choice Elk | Spike only units: Aug 15-Sept 4, 2026 | EB1003 | Spike Only Units | Oct 03 2026 - Oct 15 2026 | EB1004 | Spike Only Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season spike bull elk permits are sold over the counter (on sale July 16, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on spike units. Multiseason spike bull permits (capped at 4,500, also sold July 16) cover all three seasons. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-mt-dutton-general-spike-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season spike bull",
+    "zone": "Mt Dutton",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-04",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): antlerless elk or spike bull elk"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-15",
+        "note": "any legal weapon (hunt EB1003): spike bull elk"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1004): spike bull elk"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Mt Dutton | EB1005 | Archery Hunters Choice Elk | Spike only units: Aug 15-Sept 4, 2026 | EB1003 | Spike Only Units | Oct 03 2026 - Oct 15 2026 | EB1004 | Spike Only Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season spike bull elk permits are sold over the counter (on sale July 16, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on spike units. Multiseason spike bull permits (capped at 4,500, also sold July 16) cover all three seasons. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-nebo-san-pitch-mtns-general-spike-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season spike bull",
+    "zone": "Nebo/San Pitch Mtns",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-04",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): antlerless elk or spike bull elk"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-15",
+        "note": "any legal weapon (hunt EB1003): spike bull elk"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1004): spike bull elk"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Nebo/San Pitch Mtns | EB1005 | Archery Hunters Choice Elk | Spike only units: Aug 15-Sept 4, 2026 | EB1003 | Spike Only Units | Oct 03 2026 - Oct 15 2026 | EB1004 | Spike Only Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season spike bull elk permits are sold over the counter (on sale July 16, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on spike units. Multiseason spike bull permits (capped at 4,500, also sold July 16) cover all three seasons. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-panguitch-lake-general-spike-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season spike bull",
+    "zone": "Panguitch Lake",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-04",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): antlerless elk or spike bull elk"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-15",
+        "note": "any legal weapon (hunt EB1003): spike bull elk"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1004): spike bull elk"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Panguitch Lake | EB1005 | Archery Hunters Choice Elk | Spike only units: Aug 15-Sept 4, 2026 | EB1003 | Spike Only Units | Oct 03 2026 - Oct 15 2026 | EB1004 | Spike Only Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season spike bull elk permits are sold over the counter (on sale July 16, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on spike units. Multiseason spike bull permits (capped at 4,500, also sold July 16) cover all three seasons. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-san-juan-bull-elk-general-spike-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season spike bull",
+    "zone": "San Juan Bull Elk",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-04",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): antlerless elk or spike bull elk"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-15",
+        "note": "any legal weapon (hunt EB1003): spike bull elk"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1004): spike bull elk"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "San Juan Bull Elk | EB1005 | Archery Hunters Choice Elk | Spike only units: Aug 15-Sept 4, 2026 | EB1003 | Spike Only Units | Oct 03 2026 - Oct 15 2026 | EB1004 | Spike Only Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season spike bull elk permits are sold over the counter (on sale July 16, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on spike units. Multiseason spike bull permits (capped at 4,500, also sold July 16) cover all three seasons. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-san-rafael-south-dirty-devil-general-spike-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season spike bull",
+    "zone": "San Rafael, South-Dirty Devil",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-04",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): antlerless elk or spike bull elk"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-15",
+        "note": "any legal weapon (hunt EB1003): spike bull elk"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1004): spike bull elk"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "San Rafael, South-Dirty Devil | EB1005 | Archery Hunters Choice Elk | Spike only units: Aug 15-Sept 4, 2026 | EB1003 | Spike Only Units | Oct 03 2026 - Oct 15 2026 | EB1004 | Spike Only Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season spike bull elk permits are sold over the counter (on sale July 16, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on spike units. Multiseason spike bull permits (capped at 4,500, also sold July 16) cover all three seasons. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-southwest-desert-general-spike-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season spike bull",
+    "zone": "Southwest Desert",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-04",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): antlerless elk or spike bull elk"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-15",
+        "note": "any legal weapon (hunt EB1003): spike bull elk"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1004): spike bull elk"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Southwest Desert | EB1005 | Archery Hunters Choice Elk | Spike only units: Aug 15-Sept 4, 2026 | EB1003 | Spike Only Units | Oct 03 2026 - Oct 15 2026 | EB1004 | Spike Only Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season spike bull elk permits are sold over the counter (on sale July 16, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on spike units. Multiseason spike bull permits (capped at 4,500, also sold July 16) cover all three seasons. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-wasatch-mtns-general-spike-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season spike bull",
+    "zone": "Wasatch Mtns",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-04",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): antlerless elk or spike bull elk"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-15",
+        "note": "any legal weapon (hunt EB1003): spike bull elk"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1004): spike bull elk"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Wasatch Mtns | EB1005 | Archery Hunters Choice Elk | Spike only units: Aug 15-Sept 4, 2026 | EB1003 | Spike Only Units | Oct 03 2026 - Oct 15 2026 | EB1004 | Spike Only Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season spike bull elk permits are sold over the counter (on sale July 16, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on spike units. Multiseason spike bull permits (capped at 4,500, also sold July 16) cover all three seasons. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-wasatch-mtns-north-general-spike-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season spike bull",
+    "zone": "Wasatch Mtns, North",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-04",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): antlerless elk or spike bull elk"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-15",
+        "note": "any legal weapon (hunt EB1003): spike bull elk"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1004): spike bull elk"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "Wasatch Mtns, North | EB1005 | Archery Hunters Choice Elk | Spike only units: Aug 15-Sept 4, 2026 | EB1003 | Spike Only Units | Oct 03 2026 - Oct 15 2026 | EB1004 | Spike Only Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season spike bull elk permits are sold over the counter (on sale July 16, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on spike units. Multiseason spike bull permits (capped at 4,500, also sold July 16) cover all three seasons. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-west-desert-deep-creek-general-spike-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season spike bull",
+    "zone": "West Desert, Deep Creek",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-04",
+        "note": "archery (hunt EB1005, Archery Hunters Choice Elk): antlerless elk or spike bull elk"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-15",
+        "note": "any legal weapon (hunt EB1003): spike bull elk"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader (hunt EB1004): spike bull elk"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "West Desert, Deep Creek | EB1005 | Archery Hunters Choice Elk | Spike only units: Aug 15-Sept 4, 2026 | EB1003 | Spike Only Units | Oct 03 2026 - Oct 15 2026 | EB1004 | Spike Only Units | Oct 28 2026 - Nov 05 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "General-season spike bull elk permits are sold over the counter (on sale July 16, 2026 per the UDWR field regulations guidebook); one general-season bull elk permit per hunter, valid for one season/weapon and only on spike units. Multiseason spike bull permits (capped at 4,500, also sold July 16) cover all three seasons. Legal animals per the UDWR 2026 Big Game Field Regulations Guidebook. Youth: an unlimited over-the-counter general-season youth elk permit (hunt EB1011) is valid during all general seasons on any bull and spike units. UDWR's hunt table prints the year with each season; dates as printed."
+  },
+  {
+    "id": "ut-elk-uinta-basin-private-lands-any-bull-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "Elk, General-season private-lands-only any bull (Uinta Basin)",
+    "zone": "Uinta Basin (private lands only)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-01",
+        "close": "2026-11-15",
+        "note": "any bull elk, valid only on private property within the unit; documented landowner permission required"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah Hunt Planner (UDWR), 2026 general-season elk hunt tables and unit boundaries",
+    "sourceUrl": "https://hunt.utah.gov/",
+    "sourceQuote": "EB1012 | Uinta Basin Private Lands Any Bull Elk | Aug 01 2026 - Nov 15 2026 - Valid only on private property within the unit",
+    "checkedDate": "2026-11-23",
+    "notes": "Sold over the counter July 9, 2026 (UDWR field regulations guidebook) to address elk damage on private lands. UDWR's hunt table prints the year with each season; dates as printed."
+  }
+]

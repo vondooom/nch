@@ -28,6 +28,34 @@ export const unlistedBigGame: Record<string, { species: string; line: string; li
       listLabel: "Open the district list",
     },
   ],
+  utah: [
+    {
+      species: "Deer",
+      line: "Deer permits are drawn by unit. Statewide dates are on this page.",
+      listHref: "/hunt/utah/deer-elk",
+      listLabel: "Open the unit list",
+    },
+    {
+      species: "Elk",
+      line: "Elk seasons are listed by unit.",
+      listHref: "/hunt/utah/deer-elk",
+      listLabel: "Open the unit list",
+    },
+  ],
+  oregon: [
+    {
+      species: "Deer",
+      line: "Deer seasons are listed by unit. Eastern Oregon deer is draw-only by hunt area from 2026.",
+      listHref: "/hunt/oregon/deer-elk",
+      listLabel: "Open the unit list",
+    },
+    {
+      species: "Elk",
+      line: "Elk seasons are listed by unit.",
+      listHref: "/hunt/oregon/deer-elk",
+      listLabel: "Open the unit list",
+    },
+  ],
   colorado: [
     {
       species: "Deer",

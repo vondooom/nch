@@ -14,6 +14,8 @@ const loaders: Record<DeerElkState, () => Promise<{ default: unknown }>> = {
   wyoming: () => import("@/data/seasons/wy-deer-elk.json"),
   colorado: () => import("@/data/seasons/co-deer-elk.json"),
   montana: () => import("@/data/seasons/mt-deer-elk.json"),
+  utah: () => import("@/data/seasons/ut-deer-elk.json"),
+  oregon: () => import("@/data/seasons/or-deer-elk.json"),
 };
 
 function sourceFragments(quote: string) {
@@ -152,7 +154,9 @@ export function DeerElkBrowser({
       </label>
       {records === null ? <p className="font-serif text-[16px] text-[#5C543F]">Loading seasons.</p> : null}
       {records && groups.length === 0 ? (
-        <p className="font-serif text-[16px] text-[#5C543F]">{page.emptyLabel}</p>
+        <p className="font-serif text-[16px] text-[#5C543F]">
+          {query.trim() ? page.emptyLabel : "No seasons match that filter."}
+        </p>
       ) : null}
       {records ? (
         <p className="mb-4 font-serif text-[15px] text-[#5C543F]">
