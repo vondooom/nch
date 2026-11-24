@@ -770,7 +770,7 @@
     "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
     "sourceQuote": "2026 DEER HUNTS | GENERAL ZONES | C1 Zone General Seasons - Buck Sep 19 - Oct 18",
     "checkedDate": "2026-11-23",
-    "notes": "C Zones share a 2026 tag quota of 8,150. Archery in the C Zones is hunt A-1, not recorded here. Table lists month and day under 2026 headers. Tags are quota-limited."
+    "notes": "C Zones share a 2026 tag quota of 8,150. Archery in the C Zones is hunt A-1, listed separately. Table lists month and day under 2026 headers. Tags are quota-limited."
   },
   {
     "id": "ca-deer-c2-2026",
@@ -793,7 +793,7 @@
     "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
     "sourceQuote": "2026 DEER HUNTS | GENERAL ZONES | C2 Zone General Seasons - Buck For Archery Deer Sep 19- Oct 25",
     "checkedDate": "2026-11-23",
-    "notes": "C Zones share a 2026 tag quota of 8,150. Archery in the C Zones is hunt A-1, not recorded here. Table lists month and day under 2026 headers. Tags are quota-limited."
+    "notes": "C Zones share a 2026 tag quota of 8,150. Archery in the C Zones is hunt A-1, listed separately. Table lists month and day under 2026 headers. Tags are quota-limited."
   },
   {
     "id": "ca-deer-c3-2026",
@@ -816,7 +816,7 @@
     "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
     "sourceQuote": "2026 DEER HUNTS | GENERAL ZONES | C3 Zone General Seasons - Buck Zones See Hunt A1 Sep 19 - Oct 25",
     "checkedDate": "2026-11-23",
-    "notes": "C Zones share a 2026 tag quota of 8,150. Archery in the C Zones is hunt A-1, not recorded here. Table lists month and day under 2026 headers. Tags are quota-limited."
+    "notes": "C Zones share a 2026 tag quota of 8,150. Archery in the C Zones is hunt A-1, listed separately. Table lists month and day under 2026 headers. Tags are quota-limited."
   },
   {
     "id": "ca-deer-c4-2026",
@@ -839,7 +839,7 @@
     "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
     "sourceQuote": "2026 DEER HUNTS | GENERAL ZONES | C4 Zone General Seasons - Buck Sep 19 - Oct 4",
     "checkedDate": "2026-11-23",
-    "notes": "C Zones share a 2026 tag quota of 8,150. Archery in the C Zones is hunt A-1, not recorded here. Table lists month and day under 2026 headers. Tags are quota-limited."
+    "notes": "C Zones share a 2026 tag quota of 8,150. Archery in the C Zones is hunt A-1, listed separately. Table lists month and day under 2026 headers. Tags are quota-limited."
   },
   {
     "id": "ca-deer-d3-5-2026",
@@ -1643,7 +1643,7 @@
     "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
     "sourceQuote": "2026 DEER HUNTS | X ZONES | X1 Zone X1 General Season - Buck 760 Oct 3 - Oct 18",
     "checkedDate": "2026-11-23",
-    "notes": "2026 tag quota 760. Archery in this zone is separate hunt A-3, not recorded here. Table lists month and day under 2026 headers."
+    "notes": "2026 tag quota 760. Archery in this zone is separate hunt A-3, listed separately. Table lists month and day under 2026 headers."
   },
   {
     "id": "ca-deer-x2-2026",
@@ -1666,7 +1666,7 @@
     "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
     "sourceQuote": "2026 DEER HUNTS | X ZONES | X2 Zone X2 General Season - Buck 190 Oct 3 - Oct 18",
     "checkedDate": "2026-11-23",
-    "notes": "2026 tag quota 190. Archery in this zone is separate hunt A-4, not recorded here. Table lists month and day under 2026 headers."
+    "notes": "2026 tag quota 190. Archery in this zone is separate hunt A-4, listed separately. Table lists month and day under 2026 headers."
   },
   {
     "id": "ca-deer-x3a-2026",
@@ -1689,7 +1689,7 @@
     "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
     "sourceQuote": "2026 DEER HUNTS | X ZONES | X3A Zone X3a General Season - Buck 355 Oct 3 - Oct 18",
     "checkedDate": "2026-11-23",
-    "notes": "2026 tag quota 355. Archery in this zone is separate hunt A-5, not recorded here. Table lists month and day under 2026 headers."
+    "notes": "2026 tag quota 355. Archery in this zone is separate hunt A-5, listed separately. Table lists month and day under 2026 headers."
   },
   {
     "id": "ca-deer-x3b-2026",
@@ -1712,7 +1712,7 @@
     "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
     "sourceQuote": "2026 DEER HUNTS | X ZONES | X3B Zone X3b General Season - Buck 500 Oct 3 - Oct 18",
     "checkedDate": "2026-11-23",
-    "notes": "2026 tag quota 500. Archery in this zone is separate hunt A-6, not recorded here. Table lists month and day under 2026 headers."
+    "notes": "2026 tag quota 500. Archery in this zone is separate hunt A-6, listed separately. Table lists month and day under 2026 headers."
   },
   {
     "id": "ca-deer-x4-2026",
@@ -1735,7 +1735,7 @@
     "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
     "sourceQuote": "2026 DEER HUNTS | X ZONES | X4 Zone X4 General Season - Buck 480 Oct 3 - Oct 18",
     "checkedDate": "2026-11-23",
-    "notes": "2026 tag quota 480. Archery in this zone is separate hunt A-7, not recorded here. Table lists month and day under 2026 headers."
+    "notes": "2026 tag quota 480. Archery in this zone is separate hunt A-7, listed separately. Table lists month and day under 2026 headers."
   },
   {
     "id": "ca-deer-x5a-2026",
@@ -1758,7 +1758,7 @@
     "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
     "sourceQuote": "2026 DEER HUNTS | X ZONES | X5A Zone X5a General Season - Buck 75 Oct 3 - Oct 18",
     "checkedDate": "2026-11-23",
-    "notes": "2026 tag quota 75. Archery in this zone is separate hunt A-8, not recorded here. Table lists month and day under 2026 headers."
+    "notes": "2026 tag quota 75. Archery in this zone is separate hunt A-8, listed separately. Table lists month and day under 2026 headers."
   },
   {
     "id": "ca-deer-x5b-2026",
@@ -1781,7 +1781,7 @@
     "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
     "sourceQuote": "2026 DEER HUNTS | X ZONES | X5B Zone X5b General Season - Buck 50 Oct 3 - Oct 18",
     "checkedDate": "2026-11-23",
-    "notes": "2026 tag quota 50. Archery in this zone is separate hunt A-9, not recorded here. Table lists month and day under 2026 headers."
+    "notes": "2026 tag quota 50. Archery in this zone is separate hunt A-9, listed separately. Table lists month and day under 2026 headers."
   },
   {
     "id": "ca-deer-x6a-2026",
@@ -1804,7 +1804,7 @@
     "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
     "sourceQuote": "2026 DEER HUNTS | X ZONES | X6A Zone X6a General Season - Buck 330 Oct 3 - Oct 18",
     "checkedDate": "2026-11-23",
-    "notes": "2026 tag quota 330. Archery in this zone is separate hunt A-11, not recorded here. Table lists month and day under 2026 headers."
+    "notes": "2026 tag quota 330. Archery in this zone is separate hunt A-11, listed separately. Table lists month and day under 2026 headers."
   },
   {
     "id": "ca-deer-x6b-2026",
@@ -1827,7 +1827,7 @@
     "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
     "sourceQuote": "2026 DEER HUNTS | X ZONES | X6B Zone X6b General Season - Buck 310 Oct 3 - Oct 18",
     "checkedDate": "2026-11-23",
-    "notes": "2026 tag quota 310. Archery in this zone is separate hunt A-12, not recorded here. Table lists month and day under 2026 headers."
+    "notes": "2026 tag quota 310. Archery in this zone is separate hunt A-12, listed separately. Table lists month and day under 2026 headers."
   },
   {
     "id": "ca-deer-x7a-2026",
@@ -1850,7 +1850,7 @@
     "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
     "sourceQuote": "2026 DEER HUNTS | X ZONES | X7A Zone X7a General Season - Buck 230 Oct 3 - Oct 18",
     "checkedDate": "2026-11-23",
-    "notes": "2026 tag quota 230. Archery in this zone is separate hunt A-13, not recorded here. Table lists month and day under 2026 headers."
+    "notes": "2026 tag quota 230. Archery in this zone is separate hunt A-13, listed separately. Table lists month and day under 2026 headers."
   },
   {
     "id": "ca-deer-x7b-2026",
@@ -1873,7 +1873,7 @@
     "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
     "sourceQuote": "2026 DEER HUNTS | X ZONES | X7B Zone X7b General Season - Buck 135 Oct 3 - Oct 18",
     "checkedDate": "2026-11-23",
-    "notes": "2026 tag quota 135. Archery in this zone is separate hunt A-14, not recorded here. Table lists month and day under 2026 headers."
+    "notes": "2026 tag quota 135. Archery in this zone is separate hunt A-14, listed separately. Table lists month and day under 2026 headers."
   },
   {
     "id": "ca-deer-x8-2026",
@@ -1896,7 +1896,7 @@
     "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
     "sourceQuote": "2026 DEER HUNTS | X ZONES | X8 Zone X8 General Season - Buck 210 Sep 26 - Oct 11",
     "checkedDate": "2026-11-23",
-    "notes": "2026 tag quota 210. Archery in this zone is separate hunt A-15, not recorded here. Table lists month and day under 2026 headers."
+    "notes": "2026 tag quota 210. Archery in this zone is separate hunt A-15, listed separately. Table lists month and day under 2026 headers."
   },
   {
     "id": "ca-deer-x9a-2026",
@@ -1919,7 +1919,7 @@
     "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
     "sourceQuote": "2026 DEER HUNTS | X ZONES | X9A* Zone X9a General Season - Buck 270 | Sep 19 - Oct 12",
     "checkedDate": "2026-11-23",
-    "notes": "2026 tag quota 270. Archery in this zone is separate hunt A-16, not recorded here. Table lists month and day under 2026 headers. Starred in CDFW's table; CDFW's footnote says starred hunts are part of the CWD Management Zone (CWD sample required)."
+    "notes": "2026 tag quota 270. Archery in this zone is separate hunt A-16, listed separately. Table lists month and day under 2026 headers. Starred in CDFW's table; CDFW's footnote says starred hunts are part of the CWD Management Zone (CWD sample required)."
   },
   {
     "id": "ca-deer-x9b-2026",
@@ -1942,7 +1942,7 @@
     "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
     "sourceQuote": "2026 DEER HUNTS | X ZONES | X9B* Zone X9b General Season - Buck 230 | Sep 19 - Oct 12",
     "checkedDate": "2026-11-23",
-    "notes": "2026 tag quota 230. Archery in this zone is separate hunt A-17, not recorded here. Table lists month and day under 2026 headers. Starred in CDFW's table; CDFW's footnote says starred hunts are part of the CWD Management Zone (CWD sample required)."
+    "notes": "2026 tag quota 230. Archery in this zone is separate hunt A-17, listed separately. Table lists month and day under 2026 headers. Starred in CDFW's table; CDFW's footnote says starred hunts are part of the CWD Management Zone (CWD sample required)."
   },
   {
     "id": "ca-deer-x9c-2026",
@@ -1965,7 +1965,7 @@
     "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
     "sourceQuote": "2026 DEER HUNTS | X ZONES | X9C* Zone X9c General Season - Buck 325 | Oct 17 - Nov 8",
     "checkedDate": "2026-11-23",
-    "notes": "2026 tag quota 325. Archery in this zone is separate hunt A-18, not recorded here. Table lists month and day under 2026 headers. Starred in CDFW's table; CDFW's footnote says starred hunts are part of the CWD Management Zone (CWD sample required)."
+    "notes": "2026 tag quota 325. Archery in this zone is separate hunt A-18, listed separately. Table lists month and day under 2026 headers. Starred in CDFW's table; CDFW's footnote says starred hunts are part of the CWD Management Zone (CWD sample required)."
   },
   {
     "id": "ca-deer-x10-2026",
@@ -1988,7 +1988,7 @@
     "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
     "sourceQuote": "2026 DEER HUNTS | X ZONES | X10 Zone X10 General Season - Buck 400 Sep 26 - Oct 11",
     "checkedDate": "2026-11-23",
-    "notes": "2026 tag quota 400. Archery in this zone is separate hunt A-19, not recorded here. Table lists month and day under 2026 headers."
+    "notes": "2026 tag quota 400. Archery in this zone is separate hunt A-19, listed separately. Table lists month and day under 2026 headers."
   },
   {
     "id": "ca-deer-x12-2026",
@@ -2011,6 +2011,397 @@
     "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
     "sourceQuote": "2026 DEER HUNTS | X ZONES | X12 Zone X12 General Season - Buck 350 Sep 19 - Oct 12",
     "checkedDate": "2026-11-23",
-    "notes": "2026 tag quota 350. Archery in this zone is separate hunt A-20, not recorded here. Table lists month and day under 2026 headers."
+    "notes": "2026 tag quota 350. Archery in this zone is separate hunt A-20, listed separately. Table lists month and day under 2026 headers."
+  },
+  {
+    "id": "ca-deer-a3-archery-x1-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "Archery Hunt in Zone X1 (Hunt A-3), Buck",
+    "zone": "Zone X1",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-06",
+        "note": "archery only"
+      }
+    ],
+    "bagLimit": "One buck, forked horn (see subsection 351(a)) or better per tag",
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "AREA-SPECIFIC ARCHERY HUNTS | A3 Archery Hunt In Zone X1 - Buck 100 Aug 15 - Sep 6 | (B) Season: The archery season for hunt A-3 (Zone X-1 | (C) Bag and Possession Limit: One buck, forked horn",
+    "checkedDate": "2026-11-23",
+    "notes": "Hunt A-3 (Zone X-1 Archery Hunt). 2026 tag quota 100. Table lists month and day under 2026 headers."
+  },
+  {
+    "id": "ca-deer-a4-archery-x2-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "Archery Hunt in Zone X2 (Hunt A-4), Buck",
+    "zone": "Zone X2",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-06",
+        "note": "archery only"
+      }
+    ],
+    "bagLimit": "One buck, forked horn (see subsection 351(a)) or better per tag",
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "AREA-SPECIFIC ARCHERY HUNTS | A4 Archery Hunt In Zone X2 - Buck 10 Aug 15 - Sep 6 | (B) Season: The archery season for hunt A-4 (Zone X-2 | (C) Bag and Possession Limit: One buck, forked horn",
+    "checkedDate": "2026-11-23",
+    "notes": "Hunt A-4 (Zone X-2 Archery Hunt). 2026 tag quota 10. Table lists month and day under 2026 headers."
+  },
+  {
+    "id": "ca-deer-a5-archery-x3a-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "Archery Hunt in Zone X3a (Hunt A-5), Buck",
+    "zone": "Zone X3a",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-06",
+        "note": "archery only"
+      }
+    ],
+    "bagLimit": "One buck, forked horn (see subsection 351(a)) or better per tag",
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "AREA-SPECIFIC ARCHERY HUNTS | A5 Archery Hunt In Zone X3a - Buck 40 Aug 15 - Sep 6 | (B) Season: The archery season for hunt A-5 (Zone X-3a | (C) Bag and Possession Limit: One buck, forked horn",
+    "checkedDate": "2026-11-23",
+    "notes": "Hunt A-5 (Zone X-3a Archery Hunt). 2026 tag quota 40. Table lists month and day under 2026 headers."
+  },
+  {
+    "id": "ca-deer-a6-archery-x3b-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "Archery Hunt in Zone X3b (Hunt A-6), Buck",
+    "zone": "Zone X3b",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-06",
+        "note": "archery only"
+      }
+    ],
+    "bagLimit": "One buck, forked horn (see subsection 351(a)) or better per tag",
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "AREA-SPECIFIC ARCHERY HUNTS | A6 Archery Hunt In Zone X3b - Buck 70 Aug 15 - Sep 6 | (B) Season: The archery season for hunt A-6 (Zone X-3b | (C) Bag and Possession Limit: One buck, forked horn",
+    "checkedDate": "2026-11-23",
+    "notes": "Hunt A-6 (Zone X-3b Archery Hunt). 2026 tag quota 70. Table lists month and day under 2026 headers."
+  },
+  {
+    "id": "ca-deer-a7-archery-x4-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "Archery Hunt in Zone X4 (Hunt A-7), Buck",
+    "zone": "Zone X4",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-06",
+        "note": "archery only"
+      }
+    ],
+    "bagLimit": "One buck, forked horn (see subsection 351(a)) or better per tag",
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "AREA-SPECIFIC ARCHERY HUNTS | A7 Archery Hunt In Zone X4 - Buck 120 Aug 15 - Sep 6 | (B) Season: The archery season for hunt A-7 (Zone X-4 | (C) Bag and Possession Limit: One buck, forked horn",
+    "checkedDate": "2026-11-23",
+    "notes": "Hunt A-7 (Zone X-4 Archery Hunt). 2026 tag quota 120. Table lists month and day under 2026 headers."
+  },
+  {
+    "id": "ca-deer-a8-archery-x5a-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "Archery Hunt in Zone X5a (Hunt A-8), Buck",
+    "zone": "Zone X5a",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-06",
+        "note": "archery only"
+      }
+    ],
+    "bagLimit": "One buck, forked horn (see subsection 351(a)) or better per tag",
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "AREA-SPECIFIC ARCHERY HUNTS | A8 Archery Hunt In Zone X5a - Buck 10 Aug 15 - Sep 6 | (B) Season: The archery season for hunt A-8 (Zone X-5a | (C) Bag and Possession Limit: One buck, forked horn",
+    "checkedDate": "2026-11-23",
+    "notes": "Hunt A-8 (Zone X-5a Archery Hunt). 2026 tag quota 10. Table lists month and day under 2026 headers."
+  },
+  {
+    "id": "ca-deer-a9-archery-x5b-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "Archery Hunt in Zone X5b (Hunt A-9), Buck",
+    "zone": "Zone X5b",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-06",
+        "note": "archery only"
+      }
+    ],
+    "bagLimit": "One buck, forked horn (see subsection 351(a)) or better per tag",
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "AREA-SPECIFIC ARCHERY HUNTS | A9 Archery Hunt In Zone X5b - Buck 5 Aug 15 - Sep 6 | (B) Season: The archery season for hunt A-9 (Zone X-5b | (C) Bag and Possession Limit: One buck, forked horn",
+    "checkedDate": "2026-11-23",
+    "notes": "Hunt A-9 (Zone X-5b Archery Hunt). 2026 tag quota 5. Table lists month and day under 2026 headers."
+  },
+  {
+    "id": "ca-deer-a11-archery-x6a-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "Archery Hunt in Zone X6a (Hunt A-11), Buck",
+    "zone": "Zone X6a",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-06",
+        "note": "archery only"
+      }
+    ],
+    "bagLimit": "One buck, forked horn (see subsection 351(a)) or better per tag",
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "AREA-SPECIFIC ARCHERY HUNTS | A11 Archery Hunt In Zone X6a - Buck 50 Aug 15 - Sep 6 | (B) Season: The archery season for hunt A-11 (Zone X-6a | (C) Bag and Possession Limit: One buck, forked horn",
+    "checkedDate": "2026-11-23",
+    "notes": "Hunt A-11 (Zone X-6a Archery Hunt). 2026 tag quota 50. Table lists month and day under 2026 headers."
+  },
+  {
+    "id": "ca-deer-a12-archery-x6b-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "Archery Hunt in Zone X6b (Hunt A-12), Buck",
+    "zone": "Zone X6b",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-06",
+        "note": "archery only"
+      }
+    ],
+    "bagLimit": "One buck, forked horn (see subsection 351(a)) or better per tag",
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "AREA-SPECIFIC ARCHERY HUNTS | A12 Archery Hunt In Zone X6b - Buck 90 Aug 15 - Sep 6 | (B) Season: The archery season for hunt A-12 (Zone X-6b | (C) Bag and Possession Limit: One buck, forked horn",
+    "checkedDate": "2026-11-23",
+    "notes": "Hunt A-12 (Zone X-6b Archery Hunt). 2026 tag quota 90. Table lists month and day under 2026 headers."
+  },
+  {
+    "id": "ca-deer-a13-archery-x7a-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "Archery Hunt in Zone X7a (Hunt A-13), Buck",
+    "zone": "Zone X7a",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-06",
+        "note": "archery only"
+      }
+    ],
+    "bagLimit": "One buck, forked horn (see subsection 351(a)) or better per tag",
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "AREA-SPECIFIC ARCHERY HUNTS | A13 Archery Hunt In Zone X7a - Buck 45 Aug 15 - Sep 6 | (B) Season: The archery season for hunt A-13 (Zone X-7a | (C) Bag and Possession Limit: One buck, forked horn",
+    "checkedDate": "2026-11-23",
+    "notes": "Hunt A-13 (Zone X-7a Archery Hunt). 2026 tag quota 45. Table lists month and day under 2026 headers."
+  },
+  {
+    "id": "ca-deer-a14-archery-x7b-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "Archery Hunt in Zone X7b (Hunt A-14), Buck",
+    "zone": "Zone X7b",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-06",
+        "note": "archery only"
+      }
+    ],
+    "bagLimit": "One buck, forked horn (see subsection 351(a)) or better per tag",
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "AREA-SPECIFIC ARCHERY HUNTS | A14 Archery Hunt In Zone X7b - Buck 25 Aug 15 - Sep 6 | (B) Season: The archery season for hunt A-14 (Zone X-7b | (C) Bag and Possession Limit: One buck, forked horn",
+    "checkedDate": "2026-11-23",
+    "notes": "Hunt A-14 (Zone X-7b Archery Hunt). 2026 tag quota 25. Table lists month and day under 2026 headers."
+  },
+  {
+    "id": "ca-deer-a15-archery-x8-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "Archery Hunt in Zone X8 (Hunt A-15), Buck",
+    "zone": "Zone X8",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-06",
+        "note": "archery only"
+      }
+    ],
+    "bagLimit": "One buck, forked horn (see subsection 351(a)) or better per tag",
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "AREA-SPECIFIC ARCHERY HUNTS | A15 Archery Hunt In Zone X8 - Buck 40 Aug 15 - Sep 6 | (B) Season: The archery season for hunt A-15 (Zone X-8 | (C) Bag and Possession Limit: One buck, forked horn",
+    "checkedDate": "2026-11-23",
+    "notes": "Hunt A-15 (Zone X-8 Archery Hunt). 2026 tag quota 40. Table lists month and day under 2026 headers."
+  },
+  {
+    "id": "ca-deer-a16-archery-x9a-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "Archery Hunt in Zone X9a (Hunt A-16), Buck",
+    "zone": "Zone X9a",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-06",
+        "note": "archery only"
+      }
+    ],
+    "bagLimit": "One buck, forked horn (see subsection 351(a)) or better per tag",
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "AREA-SPECIFIC ARCHERY HUNTS | A16* Archery Hunt In Zone X9a - Buck 30 Aug 15 - Sep 6 | (B) Season: The archery season for hunt A-16 (Zone X-9a | (C) Bag and Possession Limit: One buck, forked horn",
+    "checkedDate": "2026-11-23",
+    "notes": "Hunt A-16 (Zone X-9a Archery Hunt). 2026 tag quota 30. Table lists month and day under 2026 headers. CDFW: in 2026-2027, X-9a is part of the CWD Management Zone; hunters shall submit a CWD sample within 10 days of harvest."
+  },
+  {
+    "id": "ca-deer-a17-archery-x9b-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "Archery Hunt in Zone X9b (Hunt A-17), Buck",
+    "zone": "Zone X9b",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-06",
+        "note": "archery only"
+      }
+    ],
+    "bagLimit": "One buck, forked horn (see subsection 351(a)) or better per tag",
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "AREA-SPECIFIC ARCHERY HUNTS | A17* Archery Hunt In Zone X9b - Buck 210 Aug 15 - Sep 6 | (B) Season: The archery season for hunt A-17 (Zone X-9b | (C) Bag and Possession Limit: One buck, forked horn",
+    "checkedDate": "2026-11-23",
+    "notes": "Hunt A-17 (Zone X-9b Archery Hunt). 2026 tag quota 210. Table lists month and day under 2026 headers. CDFW: in 2026-2027, X-9b is part of the CWD Management Zone; hunters shall submit a CWD sample within 10 days of harvest."
+  },
+  {
+    "id": "ca-deer-a18-archery-x9c-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "Archery Hunt in Zone X9c (Hunt A-18), Buck",
+    "zone": "Zone X9c",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-06",
+        "note": "archery only"
+      }
+    ],
+    "bagLimit": "One buck, forked horn (see subsection 351(a)) or better per tag",
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "AREA-SPECIFIC ARCHERY HUNTS | A18* Archery Hunt in Zone X9c - Buck 350 Aug 15 - Sep 6 | (B) Season: The archery season for hunt A-18 (Zone X-9c | (C) Bag and Possession Limit: One buck, forked horn",
+    "checkedDate": "2026-11-23",
+    "notes": "Hunt A-18 (Zone X-9c Archery Hunt). 2026 tag quota 350. Table lists month and day under 2026 headers. CDFW: in 2026-2027, X-9c is part of the CWD Management Zone; hunters shall submit a CWD sample within 10 days of harvest."
+  },
+  {
+    "id": "ca-deer-a19-archery-x10-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "Archery Hunt in Zone X10 (Hunt A-19), Buck",
+    "zone": "Zone X10",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-08-30",
+        "note": "archery only"
+      }
+    ],
+    "bagLimit": "One buck, forked horn (see subsection 351(a)) or better per tag",
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "AREA-SPECIFIC ARCHERY HUNTS | A19 Archery Hunt in X10 - Buck 100 Aug 15 - Aug 30 | (B) Season: The archery season for hunt A-19 (Zone X-10 | (C) Bag and Possession Limit: One buck, forked horn",
+    "checkedDate": "2026-11-23",
+    "notes": "Hunt A-19 (Zone X-10 Archery Hunt). 2026 tag quota 100. Table lists month and day under 2026 headers."
+  },
+  {
+    "id": "ca-deer-a20-archery-x12-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "Archery Hunt in Zone X12 (Hunt A-20), Buck",
+    "zone": "Zone X12",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-06",
+        "note": "archery only"
+      }
+    ],
+    "bagLimit": "One buck, forked horn (see subsection 351(a)) or better per tag",
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "AREA-SPECIFIC ARCHERY HUNTS | A20 Archery Hunt In Zone X12 - Buck 40 Aug 15 - Sep 6 | (B) Season: The archery season for hunt A-20 (Zone X-12 | (C) Bag and Possession Limit: One buck, forked horn",
+    "checkedDate": "2026-11-23",
+    "notes": "Hunt A-20 (Zone X-12 Archery Hunt). 2026 tag quota 40. Table lists month and day under 2026 headers."
   }
 ]
