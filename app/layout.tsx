@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { Barlow, Barlow_Condensed, Source_Serif_4 } from "next/font/google";
+import { Barlow, Barlow_Condensed } from "next/font/google";
+import localFont from "next/font/local";
 import { siteUrl } from "@/lib/site";
 import "./globals.css";
 
@@ -15,11 +16,15 @@ const heading = Barlow_Condensed({
   variable: "--font-heading",
 });
 
-const serif = Source_Serif_4({
-  subsets: ["latin"],
-  weight: ["400", "600"],
-  style: ["normal", "italic"],
+const serif = localFont({
+  src: [
+    { path: "./fonts/latin-400-normal.woff2", weight: "400", style: "normal" },
+    { path: "./fonts/latin-400-italic.woff2", weight: "400", style: "italic" },
+    { path: "./fonts/latin-600-normal.woff2", weight: "600", style: "normal" },
+    { path: "./fonts/latin-600-italic.woff2", weight: "600", style: "italic" },
+  ],
   variable: "--font-serif",
+  display: "swap",
 });
 
 export const metadata: Metadata = {

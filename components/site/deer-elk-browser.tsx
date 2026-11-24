@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { formatIsoDate, isOpenNow, type SeasonRecord } from "@/lib/seasons";
+import { formatIsoDate, formatPeriod, isOpenNow, type SeasonRecord } from "@/lib/seasons";
 import { calendarDateInTimeZone } from "@/lib/seasons/open";
 import { validateSeasonFile } from "@/lib/seasons/validate";
 import { zoneMatchesUnit } from "@/lib/seasons/units";
@@ -35,12 +35,11 @@ function RecordCard({ record, today }: { record: SeasonRecord; today: string }) 
         ) : null}
       </div>
       <ul className="grid gap-1 font-serif text-[15px] text-[#3B3526]">
-        {(record.periods ?? []).map((period) => (
-          <li key={`${record.id}-${period.open}-${period.close}-${period.note ?? ""}`}>
-            {formatIsoDate(period.open)} to {formatIsoDate(period.close)}
-            {period.note ? ` (${period.note})` : ""}
-          </li>
-        ))}
+        {(record.periods ?? []).map((period, index) => {
+          const line = formatPeriod(period);
+          if (!line) return null;
+          return <li key={`${record.id}-period-${index}`}>{line}</li>;
+        })}
       </ul>
       <details className="mt-3 border-t border-[#E7DFC9] pt-3">
         <summary className="cursor-pointer font-heading text-[13px] font-semibold uppercase tracking-[0.12em] text-[#C75B12]">

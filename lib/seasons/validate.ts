@@ -1,7 +1,7 @@
 import type { SeasonRecord } from "./types";
 
 const DATE = /^\d{4}-\d{2}-\d{2}$/;
-const CODES = new Set(["CA", "OR", "WA", "NV", "UT", "AZ", "ID", "MT", "WY", "CO", "NM", "KS", "NE", "ND", "SD", "TX", "OK", "IL", "IN", "IA", "MI", "MN", "OH", "WI", "AL", "AR", "KY", "LA", "MS", "MO", "TN", "FL", "GA", "NC", "SC", "DE", "MD", "NJ", "NY", "PA", "VA", "WV"]);
+const CODES = new Set(["CA", "OR", "WA", "NV", "UT", "AZ", "ID", "MT", "WY", "CO", "NM", "KS", "NE", "ND", "SD", "TX", "OK", "IL", "IN", "IA", "MI", "MN", "OH", "WI", "AL", "AR", "KY", "LA", "MS", "MO", "TN", "FL", "GA", "NC", "SC", "DE", "MD", "NJ", "NY", "PA", "VA", "WV", "AK", "HI"]);
 
 export type DroppedSeason = { id: string; file: string; reason: string };
 
@@ -46,8 +46,11 @@ export function validateSeasonRecord(value: unknown, file: string): { record?: S
         reasons.push(`periods[${index}]`);
         return;
       }
-      if (!DATE.test(String(period.open))) reasons.push(`periods[${index}].open`);
-      if (!DATE.test(String(period.close))) reasons.push(`periods[${index}].close`);
+      const openOk = period.open === null || DATE.test(String(period.open));
+      const closeOk = period.close === null || DATE.test(String(period.close));
+      if (!openOk) reasons.push(`periods[${index}].open`);
+      if (!closeOk) reasons.push(`periods[${index}].close`);
+      if ((period.open === null) !== (period.close === null)) reasons.push(`periods[${index}] dates`);
       if (period.note !== null && typeof period.note !== "string") reasons.push(`periods[${index}].note`);
       if (DATE.test(String(period.open)) && DATE.test(String(period.close)) && String(period.open) > String(period.close)) {
         reasons.push(`periods[${index}] open after close`);
