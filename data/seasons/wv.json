@@ -1,0 +1,312 @@
+[
+  {
+    "id": "wv-deer-statewide-2026",
+    "state": "WV",
+    "species": "deer",
+    "seasonName": "Deer (archery/crossbow, youth, buck firearms, muzzleloader, Mountaineer Heritage)",
+    "zone": "Statewide (county exceptions in the Regulations Summary)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-12-31",
+        "note": "archery and crossbow"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-18",
+        "note": "youth/Class Q/Class XS"
+      },
+      {
+        "open": "2026-11-23",
+        "close": "2026-12-06",
+        "note": "buck firearms"
+      },
+      {
+        "open": "2026-12-14",
+        "close": "2026-12-20",
+        "note": "muzzleloader"
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2026-12-27",
+        "note": "youth/Class Q/Class XS"
+      },
+      {
+        "open": "2027-01-14",
+        "close": "2027-01-17",
+        "note": "Mountaineer Heritage (1 deer)"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "WVDNR",
+    "sourceTitle": "West Virginia 2026-2027 Hunting Season Dates (WVDNR)",
+    "sourceUrl": "https://wvdnr.gov/hunting/hunting-seasons/",
+    "sourceQuote": "West Virginia 2026-2027 Hunting Season Dates | *Deer (Buck Firearms) November 23 December 6 | *Deer (Archery and Crossbow) September 26 December 31 | *Deer (Muzzleloader) December 14 December 20 | *Deer (Youth/Class Q/Class XS) Split Season October 17 October 18 | December 26 December 27 | *Deer, Bear and Turkey (Winter 2027 Mountaineer Heritage) January 14 January 17 1 Deer, 1 Bear, 1 Turkey",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). WVDNR prints month and day only under the 2026-2027 heading. Antlerless split season is open in selected counties only (not recorded). Deer bag limits are on pages 13-18 of the Regulations Summary and vary by county; several counties have season exceptions."
+  },
+  {
+    "id": "wv-turkey-spring-2027",
+    "state": "WV",
+    "species": "turkey",
+    "seasonName": "Turkey (Spring 2027, bearded only)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-04-17",
+        "close": "2027-04-18",
+        "note": "youth season"
+      },
+      {
+        "open": "2027-04-19",
+        "close": "2027-05-23",
+        "note": "spring season"
+      }
+    ],
+    "bagLimit": "1 daily",
+    "possessionLimit": "2 possession (season limit 2)",
+    "agency": "WVDNR",
+    "sourceTitle": "West Virginia 2026-2027 Hunting Season Dates (WVDNR)",
+    "sourceUrl": "https://wvdnr.gov/hunting/hunting-seasons/",
+    "sourceQuote": "*Turkey (Spring 2027 – Bearded Only) April 19 May 23 1 2 2 | *Turkey (Spring 2027 – Youth Season) April 17 April 18",
+    "checkedDate": "2026-11-23",
+    "notes": "Years from the 'Spring 2027' label. Fall turkey is a split season in select counties only (not recorded)."
+  },
+  {
+    "id": "wv-grouse-statewide-2026",
+    "state": "WV",
+    "species": "grouse",
+    "seasonName": "Ruffed Grouse",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2027-02-28",
+        "note": null
+      }
+    ],
+    "bagLimit": "4",
+    "possessionLimit": "16",
+    "agency": "WVDNR",
+    "sourceTitle": "West Virginia 2026-2027 Hunting Season Dates (WVDNR)",
+    "sourceUrl": "https://wvdnr.gov/hunting/hunting-seasons/",
+    "sourceQuote": "Ruffed Grouse October 17 February 28 4 16 None",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). WVDNR prints month and day only under the 2026-2027 heading. Season limit: none."
+  },
+  {
+    "id": "wv-quail-statewide-2026",
+    "state": "WV",
+    "species": "quail",
+    "seasonName": "Bobwhite Quail",
+    "zone": "Statewide (closed on Tomblin WMA)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2027-01-02",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "WVDNR",
+    "sourceTitle": "West Virginia 2026-2027 Hunting Season Dates (WVDNR)",
+    "sourceUrl": "https://wvdnr.gov/hunting/hunting-seasons/",
+    "sourceQuote": "Bobwhite Quail (Closed on Tomblin WMA) November 7 January 2 3 9 None",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). WVDNR prints month and day only under the 2026-2027 heading."
+  },
+  {
+    "id": "wv-pheasant-statewide-2026",
+    "state": "WV",
+    "species": "pheasant",
+    "seasonName": "Ring-necked Pheasant (cock birds only)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2027-01-02",
+        "note": null
+      }
+    ],
+    "bagLimit": "2",
+    "possessionLimit": "2",
+    "agency": "WVDNR",
+    "sourceTitle": "West Virginia 2026-2027 Hunting Season Dates (WVDNR)",
+    "sourceUrl": "https://wvdnr.gov/hunting/hunting-seasons/",
+    "sourceQuote": "Ring-necked Pheasant (Cock Birds Only) November 7 January 2 2 2 None",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). WVDNR prints month and day only under the 2026-2027 heading. Hillcrest WMA has its own season (Nov. 14-Dec. 5, 1 daily), not recorded."
+  },
+  {
+    "id": "wv-dove-statewide-2026",
+    "state": "WV",
+    "species": "dove",
+    "seasonName": "Mourning Dove (3-way split)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-10-11",
+        "note": null
+      },
+      {
+        "open": "2026-11-02",
+        "close": "2026-11-15",
+        "note": null
+      },
+      {
+        "open": "2026-12-07",
+        "close": "2027-01-10",
+        "note": null
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": "45",
+    "agency": "WVDNR",
+    "sourceTitle": "Migratory Game Bird Seasons, September 2026 - January 2027 (WVDNR migratory bird regulations)",
+    "sourceUrl": "https://wvdnr.gov/wp-content/uploads/2026/08/Pub_Regs_MigBird2026_DNR_WILD_Rdr_Sprds_ADA.pdf",
+    "sourceQuote": "SEPTEMBER 2026 - JANUARY 2027 | Sept. 1 - Oct. 11 Mourning Dove Nov. 2 - Nov. 15 15 45 3-way Split Season Dec. 7 - Jan. 10",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Dove shooting hours are noon to sunset on opening day (per WVDNR)."
+  },
+  {
+    "id": "wv-snipe-statewide-2026",
+    "state": "WV",
+    "species": "snipe",
+    "seasonName": "Wilson's Snipe",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-12-16",
+        "note": null
+      }
+    ],
+    "bagLimit": "8",
+    "possessionLimit": "24",
+    "agency": "WVDNR",
+    "sourceTitle": "Migratory Game Bird Seasons, September 2026 - January 2027 (WVDNR migratory bird regulations)",
+    "sourceUrl": "https://wvdnr.gov/wp-content/uploads/2026/08/Pub_Regs_MigBird2026_DNR_WILD_Rdr_Sprds_ADA.pdf",
+    "sourceQuote": "Wilson’s Snipe Sept. 1 - Dec. 16 8 24",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "wv-woodcock-statewide-2026",
+    "state": "WV",
+    "species": "woodcock",
+    "seasonName": "Woodcock",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2026-11-21",
+        "note": null
+      },
+      {
+        "open": "2026-11-30",
+        "close": "2026-12-08",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "WVDNR",
+    "sourceTitle": "Migratory Game Bird Seasons, September 2026 - January 2027 (WVDNR migratory bird regulations)",
+    "sourceUrl": "https://wvdnr.gov/wp-content/uploads/2026/08/Pub_Regs_MigBird2026_DNR_WILD_Rdr_Sprds_ADA.pdf",
+    "sourceQuote": "Oct. 17 - Nov. 21 Woodcock 3 9 Nov. 30 - Dec. 8",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "wv-duck-statewide-2026",
+    "state": "WV",
+    "species": "duck",
+    "seasonName": "Ducks (3-way split)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-19",
+        "note": "youth waterfowl day"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-11",
+        "note": null
+      },
+      {
+        "open": "2026-10-31",
+        "close": "2026-10-31",
+        "note": "youth waterfowl day"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-15",
+        "note": null
+      },
+      {
+        "open": "2026-12-21",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "6 (no more than 4 mallards (2 female), 2 black ducks, 3 pintails, 3 wood ducks, 2 redheads, 2 canvasbacks, 4 sea ducks; scaup 1, or 2 from Jan. 12-31)",
+    "possessionLimit": "18 (three times the daily bag)",
+    "agency": "WVDNR",
+    "sourceTitle": "Migratory Game Bird Seasons, September 2026 - January 2027 (WVDNR migratory bird regulations)",
+    "sourceUrl": "https://wvdnr.gov/wp-content/uploads/2026/08/Pub_Regs_MigBird2026_DNR_WILD_Rdr_Sprds_ADA.pdf",
+    "sourceQuote": "Youth Waterfowl Sept. 19 (b) (b) (2 Single Days) Oct. 31 | Oct. 3 - Oct. 11 Ducks Nov. 7 - Nov. 15 6(c)(d) 3-way Split Season Dec. 21 - Jan. 31 Oct. 3 - Oct. 11 18(c)(d) | (c) The daily bag limit is six (6) ducks, including no more than four (4) mallards [no more than two (2) of which can be female], two (2)",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Coots (15) and mergansers (5) same dates as ducks."
+  },
+  {
+    "id": "wv-goose-statewide-2026",
+    "state": "WV",
+    "species": "goose",
+    "seasonName": "Canada Geese/White-fronted Geese (early season and 3-way split)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-13",
+        "note": "early Canada geese"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-18",
+        "note": null
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-15",
+        "note": null
+      },
+      {
+        "open": "2026-12-08",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 (aggregate)",
+    "possessionLimit": "15 (aggregate)",
+    "agency": "WVDNR",
+    "sourceTitle": "Migratory Game Bird Seasons, September 2026 - January 2027 (WVDNR migratory bird regulations)",
+    "sourceUrl": "https://wvdnr.gov/wp-content/uploads/2026/08/Pub_Regs_MigBird2026_DNR_WILD_Rdr_Sprds_ADA.pdf",
+    "sourceQuote": "Early Canada Geese Sept. 1 - Sept. 13 | Oct. 3 - Oct. 18 Canada Geese/White-fronted Geese 5(d) 15(d) Nov. 7 - Nov. 15 3-way Split Season Dec. 8 - Jan. 31",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). The early Canada goose row shows no separate bag in the table. Snow/blue geese share the split dates; brant Jan. 2-31 (1 daily). Not recorded separately."
+  }
+]

@@ -1,0 +1,497 @@
+[
+  {
+    "id": "pa-grouse-statewide-2026",
+    "state": "PA",
+    "species": "grouse",
+    "seasonName": "Ruffed Grouse",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2026-12-24",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 daily",
+    "possessionLimit": "6 possession",
+    "agency": "Pennsylvania Game Commission",
+    "sourceTitle": "Seasons and Bag Limits, 2026-27 (Pennsylvania Game Commission)",
+    "sourceUrl": "https://www.pgc.pa.gov/HuntTrap/Law/Pages/SeasonsandBagLimits.aspx",
+    "sourceQuote": "2026-27 Seasons and Bag Limits | RUFFED GROUSE Oct. 17-Dec. 24 (2 daily, 6 possession)",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Falconry season Sept. 1-March 31, 2027 not recorded."
+  },
+  {
+    "id": "pa-pheasant-statewide-2026",
+    "state": "PA",
+    "species": "pheasant",
+    "seasonName": "Ring-necked Pheasant (male or female)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-18",
+        "note": "junior hunters and all mentored hunters"
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2026-12-24",
+        "note": null
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2027-02-28",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 daily",
+    "possessionLimit": "6 possession",
+    "agency": "Pennsylvania Game Commission",
+    "sourceTitle": "Seasons and Bag Limits, 2026-27 (Pennsylvania Game Commission)",
+    "sourceUrl": "https://www.pgc.pa.gov/HuntTrap/Law/Pages/SeasonsandBagLimits.aspx",
+    "sourceQuote": "RING-NECKED PHEASANT Oct. 24-Dec. 24 and Dec. 26-Feb. 28, 2027 (2 daily, 6 possession) | Special season for eligible junior hunters, with or without required license, and all mentored hunters, regardless of age Oct. 10-18 | Male and female pheasants may be taken in all WMUs. There is no open season for taking pheasants in Wild Pheasant Recovery Areas, except as authorized by executive order.",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). No open season in Wild Pheasant Recovery Areas."
+  },
+  {
+    "id": "pa-quail-statewide-2026",
+    "state": "PA",
+    "species": "quail",
+    "seasonName": "Bobwhite Quail",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-12-24",
+        "note": null
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2027-03-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "No limit",
+    "possessionLimit": null,
+    "agency": "Pennsylvania Game Commission",
+    "sourceTitle": "Seasons and Bag Limits, 2026-27 (Pennsylvania Game Commission)",
+    "sourceUrl": "https://www.pgc.pa.gov/HuntTrap/Law/Pages/SeasonsandBagLimits.aspx",
+    "sourceQuote": "BOBWHITE QUAIL Sept. 1-Dec. 24 and Dec. 26-March 31, 2027. No limit. | There is no open season for the taking of bobwhite quail in the Letterkenny Army Depot Bobwhite Quail Recovery Area.",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "pa-turkey-spring-2027",
+    "state": "PA",
+    "species": "turkey",
+    "seasonName": "Spring Gobbler (bearded bird only)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-04-24",
+        "close": "2027-04-25",
+        "note": "junior hunters and mentored hunters 16 and under; hours end at noon"
+      },
+      {
+        "open": "2027-05-01",
+        "close": "2027-05-15",
+        "note": "1/2 hour before sunrise to 12 noon"
+      },
+      {
+        "open": "2027-05-16",
+        "close": "2027-05-31",
+        "note": "1/2 hour before sunrise to 1/2 hour after sunset"
+      }
+    ],
+    "bagLimit": "Season limit 1",
+    "possessionLimit": null,
+    "agency": "Pennsylvania Game Commission",
+    "sourceTitle": "Seasons and Bag Limits, 2026-27 (Pennsylvania Game Commission)",
+    "sourceUrl": "https://www.pgc.pa.gov/HuntTrap/Law/Pages/SeasonsandBagLimits.aspx",
+    "sourceQuote": "SPRING GOBBLER (Bearded bird only) | May 1 - May 15, 2027; May be hunted ½ hour before sunrise to 12 noon | May 16 - May 31, 2027; May be hunted ½ hour before sunrise to ½ hour after sunset | Season limit 1 | April 24-25, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Fall turkey seasons are set by WMU groups (WMUs 5C and 5D closed) and are not recorded."
+  },
+  {
+    "id": "pa-deer-statewide-2026",
+    "state": "PA",
+    "species": "deer",
+    "seasonName": "Deer (archery, muzzleloader, regular firearms, flintlock)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-11-20",
+        "note": "archery (antlered and antlerless)"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-25",
+        "note": "antlerless muzzleloader"
+      },
+      {
+        "open": "2026-10-22",
+        "close": "2026-10-25",
+        "note": "antlerless special firearms (junior, senior, disabled-permit and active-duty hunters only)"
+      },
+      {
+        "open": "2026-11-28",
+        "close": "2026-12-13",
+        "note": "regular firearms (antlered and antlerless)"
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2027-01-24",
+        "note": "archery; also antlered or antlerless flintlock"
+      }
+    ],
+    "bagLimit": "One antlered deer per hunting license year; an antlerless deer with each required antlerless license",
+    "possessionLimit": null,
+    "agency": "Pennsylvania Game Commission",
+    "sourceTitle": "Seasons and Bag Limits, 2026-27 (Pennsylvania Game Commission)",
+    "sourceUrl": "https://www.pgc.pa.gov/HuntTrap/Law/Pages/SeasonsandBagLimits.aspx",
+    "sourceQuote": "DEER, ARCHERY (Antlered and Antlerless) | Statewide: Oct. 3 - Nov. 20 and Dec. 26-Jan. 24, 2027. | One antlered deer per hunting license year. | DEER, ANTLERLESS MUZZLELOADER - ANTLERLESS Oct. 17-25. | DEER, ANTLERLESS SPECIAL FIREARMS (Statewide) Oct. 22-25. | DEER, REGULAR FIREARMS (Antlered and Antlerless) Statewide Nov. 28-Dec. 13. | DEER, ANTLERED OR ANTLERLESS FLINTLOCK (Statewide): Dec. 26-Jan. 24, 2027.",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). WMUs 2B, 5C and 5D have a longer archery season (Sept. 19-Nov. 27 and Dec. 26-Jan. 24, 2027) and an extended antlerless firearms season; WMUs 4A, 4C, 4D and 5A have an extended antlerless season (printed by PGC as 'Dec. 26-Jan. 18, 2026'). Those WMU-set seasons are not recorded."
+  },
+  {
+    "id": "pa-duck-north-2026",
+    "state": "PA",
+    "species": "duck",
+    "seasonName": "Ducks, sea ducks, coots and mergansers",
+    "zone": "North Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-19",
+        "note": "junior day (statewide)"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-24",
+        "note": null
+      },
+      {
+        "open": "2026-10-31",
+        "close": "2026-10-31",
+        "note": "junior, veteran and active duty military day"
+      },
+      {
+        "open": "2026-11-17",
+        "close": "2027-01-09",
+        "note": null
+      },
+      {
+        "open": "2027-01-16",
+        "close": "2027-01-16",
+        "note": "veteran and active duty military day"
+      }
+    ],
+    "bagLimit": "6 daily, 18 in possession (no more than 4 mallards incl. 2 hens, 2 black ducks, 3 wood ducks, 2 redheads, 2 canvasbacks, 3 pintails, 4 sea ducks; scaup varies by zone and date); mergansers 5; coots 15",
+    "possessionLimit": "Three times the daily limits",
+    "agency": "Pennsylvania Game Commission",
+    "sourceTitle": "Seasons and Bag Limits, 2026-27 (Pennsylvania Game Commission)",
+    "sourceUrl": "https://www.pgc.pa.gov/HuntTrap/Law/Pages/SeasonsandBagLimits.aspx",
+    "sourceQuote": "DUCKS | North Zone: Ducks, sea ducks, coots and mergansers, Oct. 10-24, and Nov. 17-Jan. 9. | Total Duck Bag Limits : 6 daily, 18 in possession of any species | Junior Days: Sept. 19; | North Zone - Oct. 31 | North Zone - Jan. 16",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Sunday hunting is prohibited for migratory game birds."
+  },
+  {
+    "id": "pa-duck-south-2026",
+    "state": "PA",
+    "species": "duck",
+    "seasonName": "Ducks, sea ducks, coots and mergansers",
+    "zone": "South Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-19",
+        "note": "junior day (statewide)"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-17",
+        "note": null
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-07",
+        "note": "junior, veteran and active duty military day"
+      },
+      {
+        "open": "2026-11-18",
+        "close": "2027-01-18",
+        "note": null
+      },
+      {
+        "open": "2027-01-23",
+        "close": "2027-01-23",
+        "note": "veteran and active duty military day"
+      }
+    ],
+    "bagLimit": "6 daily, 18 in possession (no more than 4 mallards incl. 2 hens, 2 black ducks, 3 wood ducks, 2 redheads, 2 canvasbacks, 3 pintails, 4 sea ducks; scaup varies by zone and date); mergansers 5; coots 15",
+    "possessionLimit": "Three times the daily limits",
+    "agency": "Pennsylvania Game Commission",
+    "sourceTitle": "Seasons and Bag Limits, 2026-27 (Pennsylvania Game Commission)",
+    "sourceUrl": "https://www.pgc.pa.gov/HuntTrap/Law/Pages/SeasonsandBagLimits.aspx",
+    "sourceQuote": "DUCKS | South Zone: Ducks, sea ducks, coots and mergansers, Oct. 10-17, and Nov. 18-Jan. 18. | Total Duck Bag Limits : 6 daily, 18 in possession of any species | Junior Days: Sept. 19; | South Zone - Nov. 7 | South Zone - Jan. 23",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Sunday hunting is prohibited for migratory game birds."
+  },
+  {
+    "id": "pa-duck-northwest-2026",
+    "state": "PA",
+    "species": "duck",
+    "seasonName": "Ducks, sea ducks, coots and mergansers",
+    "zone": "Northwest Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-19",
+        "note": "junior day (statewide)"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-26",
+        "note": "junior, veteran and active duty military day"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-11-27",
+        "note": null
+      },
+      {
+        "open": "2026-12-21",
+        "close": "2027-01-09",
+        "note": null
+      },
+      {
+        "open": "2027-01-16",
+        "close": "2027-01-16",
+        "note": "veteran and active duty military day"
+      }
+    ],
+    "bagLimit": "6 daily, 18 in possession (no more than 4 mallards incl. 2 hens, 2 black ducks, 3 wood ducks, 2 redheads, 2 canvasbacks, 3 pintails, 4 sea ducks; scaup varies by zone and date); mergansers 5; coots 15",
+    "possessionLimit": "Three times the daily limits",
+    "agency": "Pennsylvania Game Commission",
+    "sourceTitle": "Seasons and Bag Limits, 2026-27 (Pennsylvania Game Commission)",
+    "sourceUrl": "https://www.pgc.pa.gov/HuntTrap/Law/Pages/SeasonsandBagLimits.aspx",
+    "sourceQuote": "DUCKS | Northwest Zone: Ducks, sea ducks, coots and mergansers, Oct. 10-Nov. 27, and Dec. 21-Jan. 9. | Total Duck Bag Limits : 6 daily, 18 in possession of any species | Junior Days: Sept. 19; | Northwest Zone - Sept. 26 | Northwest Zone - Jan. 16",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Sunday hunting is prohibited for migratory game birds."
+  },
+  {
+    "id": "pa-duck-lake-erie-2026",
+    "state": "PA",
+    "species": "duck",
+    "seasonName": "Ducks, sea ducks, coots and mergansers",
+    "zone": "Lake Erie Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-19",
+        "note": "junior day (statewide)"
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2026-10-24",
+        "note": "junior, veteran and active duty military day"
+      },
+      {
+        "open": "2026-11-02",
+        "close": "2027-01-09",
+        "note": null
+      },
+      {
+        "open": "2027-01-16",
+        "close": "2027-01-16",
+        "note": "veteran and active duty military day"
+      }
+    ],
+    "bagLimit": "6 daily, 18 in possession (no more than 4 mallards incl. 2 hens, 2 black ducks, 3 wood ducks, 2 redheads, 2 canvasbacks, 3 pintails, 4 sea ducks; scaup varies by zone and date); mergansers 5; coots 15",
+    "possessionLimit": "Three times the daily limits",
+    "agency": "Pennsylvania Game Commission",
+    "sourceTitle": "Seasons and Bag Limits, 2026-27 (Pennsylvania Game Commission)",
+    "sourceUrl": "https://www.pgc.pa.gov/HuntTrap/Law/Pages/SeasonsandBagLimits.aspx",
+    "sourceQuote": "DUCKS | Lake Erie Zone: Ducks, sea ducks, coots and mergansers, Nov. 2-Jan. 9. | Total Duck Bag Limits : 6 daily, 18 in possession of any species | Junior Days: Sept. 19; | Lake Erie Zone - Oct. 24 | Lake Erie Zone - Jan. 16",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Sunday hunting is prohibited for migratory game birds."
+  },
+  {
+    "id": "pa-goose-resident-population-2026",
+    "state": "PA",
+    "species": "goose",
+    "seasonName": "Canada Geese (includes white-fronted geese)",
+    "zone": "Resident Population Goose Zone (RP)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-25",
+        "note": "8-goose daily bag"
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2026-11-27",
+        "note": "5-goose daily bag"
+      },
+      {
+        "open": "2026-12-15",
+        "close": "2027-01-18",
+        "note": "5-goose daily bag"
+      },
+      {
+        "open": "2027-01-29",
+        "close": "2027-02-20",
+        "note": "5-goose daily bag"
+      }
+    ],
+    "bagLimit": "8 daily (Sept. 1-25); 5 daily (later segments)",
+    "possessionLimit": null,
+    "agency": "Pennsylvania Game Commission",
+    "sourceTitle": "Seasons and Bag Limits, 2026-27 (Pennsylvania Game Commission)",
+    "sourceUrl": "https://www.pgc.pa.gov/HuntTrap/Law/Pages/SeasonsandBagLimits.aspx",
+    "sourceQuote": "CANADA GEESE (includes WHITE-FRONTED GEESE) | All of Pennsylvania except for the Atlantic Population zone. Sept. 1-25 (8-goose daily bag limit); and Oct. 24-Nov. 27, Dec. 15-Jan. 18, and Jan. 29-Feb. 20 (5-goose daily bag limit in latter 3 segments).",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Sunday hunting is prohibited for migratory game birds. Exceptions are in the PGC digest. Junior and military days as for ducks."
+  },
+  {
+    "id": "pa-goose-atlantic-population-2026",
+    "state": "PA",
+    "species": "goose",
+    "seasonName": "Canada Geese (includes white-fronted geese)",
+    "zone": "Atlantic Population Zone (AP)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-25",
+        "note": "8-goose daily bag"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-27",
+        "note": "3-goose daily bag"
+      },
+      {
+        "open": "2026-12-04",
+        "close": "2027-01-18",
+        "note": "3-goose daily bag"
+      }
+    ],
+    "bagLimit": "8 daily (Sept. 1-25); 3 daily (later segments)",
+    "possessionLimit": null,
+    "agency": "Pennsylvania Game Commission",
+    "sourceTitle": "Seasons and Bag Limits, 2026-27 (Pennsylvania Game Commission)",
+    "sourceUrl": "https://www.pgc.pa.gov/HuntTrap/Law/Pages/SeasonsandBagLimits.aspx",
+    "sourceQuote": "Atlantic Population Zone (AP) | south of I-80 to New Jersey state line. Sept. 1-25 (8-goose daily bag limit); and Nov. 21-27 and Dec. 4-Jan. 18 (3-goose daily bag limit in latter two segments).",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Sunday hunting is prohibited for migratory game birds."
+  },
+  {
+    "id": "pa-goose-brant-2026",
+    "state": "PA",
+    "species": "goose",
+    "seasonName": "Brant",
+    "zone": "All Zones",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2026-11-13",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 daily",
+    "possessionLimit": "3 in possession",
+    "agency": "Pennsylvania Game Commission",
+    "sourceTitle": "Seasons and Bag Limits, 2026-27 (Pennsylvania Game Commission)",
+    "sourceUrl": "https://www.pgc.pa.gov/HuntTrap/Law/Pages/SeasonsandBagLimits.aspx",
+    "sourceQuote": "BRANT (All Zones) | Oct. 10-Nov. 13. ( 1 daily, 3 in possession )",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Sunday hunting is prohibited for migratory game birds."
+  },
+  {
+    "id": "pa-dove-statewide-2026",
+    "state": "PA",
+    "species": "dove",
+    "seasonName": "Doves",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-11-27",
+        "note": null
+      },
+      {
+        "open": "2026-12-18",
+        "close": "2027-01-02",
+        "note": null
+      }
+    ],
+    "bagLimit": "15 daily",
+    "possessionLimit": "45 in possession",
+    "agency": "Pennsylvania Game Commission",
+    "sourceTitle": "Seasons and Bag Limits, 2026-27 (Pennsylvania Game Commission)",
+    "sourceUrl": "https://www.pgc.pa.gov/HuntTrap/Law/Pages/SeasonsandBagLimits.aspx",
+    "sourceQuote": "DOVES | Sept. 1-Nov. 27, and Dec. 18-Jan. 2. ( 15 daily, 45 in possession )",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Sunday hunting is prohibited for migratory game birds."
+  },
+  {
+    "id": "pa-woodcock-statewide-2026",
+    "state": "PA",
+    "species": "woodcock",
+    "seasonName": "Woodcock",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2026-12-08",
+        "note": null
+      }
+    ],
+    "bagLimit": "3 daily",
+    "possessionLimit": "9 in possession",
+    "agency": "Pennsylvania Game Commission",
+    "sourceTitle": "Seasons and Bag Limits, 2026-27 (Pennsylvania Game Commission)",
+    "sourceUrl": "https://www.pgc.pa.gov/HuntTrap/Law/Pages/SeasonsandBagLimits.aspx",
+    "sourceQuote": "WOODCOCK | Oct. 17- Dec. 8. ( 3 daily, 9 in possession )",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Sunday hunting is prohibited for migratory game birds."
+  },
+  {
+    "id": "pa-snipe-statewide-2026",
+    "state": "PA",
+    "species": "snipe",
+    "seasonName": "Wilson's Snipe",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2026-12-08",
+        "note": null
+      }
+    ],
+    "bagLimit": "8 daily",
+    "possessionLimit": "24 in possession",
+    "agency": "Pennsylvania Game Commission",
+    "sourceTitle": "Seasons and Bag Limits, 2026-27 (Pennsylvania Game Commission)",
+    "sourceUrl": "https://www.pgc.pa.gov/HuntTrap/Law/Pages/SeasonsandBagLimits.aspx",
+    "sourceQuote": "WILSON’S SNIPE | Oct. 17- Dec. 8. ( 8 daily, 24 in possession )",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Sunday hunting is prohibited for migratory game birds."
+  }
+]

@@ -1,0 +1,536 @@
+[
+  {
+    "id": "md-deer-statewide-2026",
+    "state": "MD",
+    "species": "deer",
+    "seasonName": "White-tailed and Sika Deer (antlered)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-11",
+        "close": "2026-10-21",
+        "note": "archery"
+      },
+      {
+        "open": "2026-10-22",
+        "close": "2026-10-24",
+        "note": "muzzleloader"
+      },
+      {
+        "open": "2026-10-25",
+        "close": "2026-11-27",
+        "note": "archery"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-11-15",
+        "note": "junior deer hunt days"
+      },
+      {
+        "open": "2026-11-28",
+        "close": "2026-12-12",
+        "note": "firearms"
+      },
+      {
+        "open": "2026-12-14",
+        "close": "2026-12-18",
+        "note": "archery"
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2027-01-02",
+        "note": "muzzleloader"
+      },
+      {
+        "open": "2027-01-03",
+        "close": "2027-01-07",
+        "note": "archery"
+      },
+      {
+        "open": "2027-01-08",
+        "close": "2027-01-10",
+        "note": "archery in Region A only; firearms in Region B only"
+      },
+      {
+        "open": "2027-01-11",
+        "close": "2027-01-31",
+        "note": "archery"
+      },
+      {
+        "open": "2027-02-01",
+        "close": "2027-02-03",
+        "note": "primitive deer hunt days (longbow, recurve, flintlock/sidelock only)"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Maryland DNR",
+    "sourceTitle": "Maryland Hunting Seasons Calendar for 2026-2027 (Maryland DNR)",
+    "sourceUrl": "https://dnr.maryland.gov/wildlife/Documents/Hunting-Seasons-Calendar.pdf",
+    "sourceQuote": "Maryland Hunting Seasons Calendar for 2026-2027 | White-tailed Deer, Antlered, 9/11-- 10/21 10/25-- 11/27 12/14- 1/3-1/7 | *Archery also open 1/8-1/10 in Region A only | Archery 2 12/18 1/11-1/31 | White-tailed Deer, Antlered, 10/22 - 12/19- Muzzleloader 2 10/24 1/2 | 11/28-12/12 *Firearms open 1/8-1/10 in Region B only | Junior Deer Hunt Days 2 11/14-11/15 | Primitive Deer Hunt Days 6 2/1-2/3",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Maryland's calendar prints numeric month/day only. Antlered seasons shown. Antlerless dates differ by Deer Management Region A (Allegany, Garrett, western Washington) and Region B (rest of state); sika deer follow similar dates. Sunday hunting is county-set. Bag limits are in the 2026-2027 Maryland Guide to Hunting and Trapping, not on this calendar."
+  },
+  {
+    "id": "md-turkey-fall-2026",
+    "state": "MD",
+    "species": "turkey",
+    "seasonName": "Wild Turkey, Fall Season",
+    "zone": "Fall Season hunting area (Allegany, Garrett and Washington counties)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-31",
+        "close": "2026-11-08",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Maryland DNR",
+    "sourceTitle": "Maryland Hunting Seasons Calendar for 2026-2027 (Maryland DNR)",
+    "sourceUrl": "https://dnr.maryland.gov/wildlife/Documents/Hunting-Seasons-Calendar.pdf",
+    "sourceQuote": "10/31- Wild Turkey, Fall Season7 11/8 | The Fall Season hunting area includes Allegany, Garrett and Washington counties only.",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Maryland's calendar prints numeric month/day only. Bag limit not on the calendar."
+  },
+  {
+    "id": "md-turkey-winter-2027",
+    "state": "MD",
+    "species": "turkey",
+    "seasonName": "Wild Turkey, Winter Season",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-01-21",
+        "close": "2027-01-23",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Maryland DNR",
+    "sourceTitle": "Maryland Hunting Seasons Calendar for 2026-2027 (Maryland DNR)",
+    "sourceUrl": "https://dnr.maryland.gov/wildlife/Documents/Hunting-Seasons-Calendar.pdf",
+    "sourceQuote": "1/21- Wild Turkey, Winter Season7 1/23 | The Winter Season is open statewide.",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Maryland's calendar prints numeric month/day only. Bag limit not on the calendar."
+  },
+  {
+    "id": "md-turkey-spring-2027",
+    "state": "MD",
+    "species": "turkey",
+    "seasonName": "Wild Turkey, Spring Season",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-04-17",
+        "close": "2027-04-18",
+        "note": "junior turkey hunt (Sunday Apr. 18 in certain counties only)"
+      },
+      {
+        "open": "2027-04-19",
+        "close": "2027-05-10",
+        "note": "shooting hours one-half hour before sunrise to noon"
+      },
+      {
+        "open": "2027-05-11",
+        "close": "2027-05-24",
+        "note": "shooting hours one-half hour before sunrise to sunset"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Maryland DNR",
+    "sourceTitle": "Maryland Hunting Seasons Calendar for 2026-2027 (Maryland DNR)",
+    "sourceUrl": "https://dnr.maryland.gov/wildlife/Documents/Hunting-Seasons-Calendar.pdf",
+    "sourceQuote": "Wild Turkey, 4/19--5/24 Spring Season7 | 7 Wild Turkey The Spring Season is open statewide. Daily shooting hours for April 19 through May 10 are one-half hour before sunrise to noon. | Daily shooting hours for May 11 through May 24 are one-half hour before sunrise to sunset. | The Junior Turkey Hunt Season is open statewide on Saturday, April 17, 2027 in all counties and Sunday, April 18, 2027 in certain counties",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Maryland's calendar prints numeric month/day only. Bag limit not on the calendar."
+  },
+  {
+    "id": "md-duck-eastern-2026",
+    "state": "MD",
+    "species": "duck",
+    "seasonName": "Ducks",
+    "zone": "Eastern Duck Season Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-17",
+        "note": "black duck closed"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-11-27",
+        "note": null
+      },
+      {
+        "open": "2026-12-15",
+        "close": "2027-01-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "6 ducks (including mergansers) per day; no more than 4 sea ducks, 4 mallards (2 hens), 3 wood ducks, 2 black ducks (during black duck season), 2 canvasbacks, 2 redheads, scaup 1 (2 from Jan. 8-30), 1 fulvous tree duck, 1 mottled duck, 3 pintails",
+    "possessionLimit": null,
+    "agency": "Maryland DNR",
+    "sourceTitle": "Pocket Guide to the 2026-2027 Waterfowl Hunting Seasons and Dates (Maryland DNR)",
+    "sourceUrl": "https://dnr.maryland.gov/wildlife/Documents/Waterfowl_Pocket_Guide.pdf",
+    "sourceQuote": "2026-2027 Hunting Season Dates for Ducks In Maryland | Ducks Eastern Oct. 10–Oct. 17 | Zone (except Black Nov. 14–Nov. 27 | Duck) Dec. 15–Jan. 30 | Black Duck Eastern Nov. 14–Nov. 27 | Duck Daily Bag Limit: 6 ducks (including mergansers) per",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Black duck season (2 per day) runs only during the November and December-January segments. Coots 15 per day. Possession limit not printed on the pocket guide."
+  },
+  {
+    "id": "md-duck-western-2026",
+    "state": "MD",
+    "species": "duck",
+    "seasonName": "Ducks",
+    "zone": "Western Duck Season Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-17",
+        "note": "black duck closed"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-27",
+        "note": null
+      },
+      {
+        "open": "2026-12-15",
+        "close": "2027-01-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "6 ducks (including mergansers) per day; no more than 4 sea ducks, 4 mallards (2 hens), 3 wood ducks, 2 black ducks (during black duck season), 2 canvasbacks, 2 redheads, scaup 1 (2 from Jan. 8-30), 1 fulvous tree duck, 1 mottled duck, 3 pintails",
+    "possessionLimit": null,
+    "agency": "Maryland DNR",
+    "sourceTitle": "Pocket Guide to the 2026-2027 Waterfowl Hunting Seasons and Dates (Maryland DNR)",
+    "sourceUrl": "https://dnr.maryland.gov/wildlife/Documents/Waterfowl_Pocket_Guide.pdf",
+    "sourceQuote": "2026-2027 Hunting Season Dates for Ducks In Maryland | Ducks Western Oct. 3 – Oct. 17 | Zone (except Black Nov. 21 – Nov. 27 | Duck) Dec. 15 – Jan. 30 | Black Duck Nov. 21 – Nov. 27 | Duck Daily Bag Limit: 6 ducks (including mergansers) per",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Black duck season (2 per day) runs only during the November and December-January segments. Coots 15 per day. Possession limit not printed on the pocket guide."
+  },
+  {
+    "id": "md-duck-teal-2026",
+    "state": "MD",
+    "species": "duck",
+    "seasonName": "Teal, September Season",
+    "zone": "September Teal Hunt Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-17",
+        "close": "2026-09-26",
+        "note": "teal only"
+      }
+    ],
+    "bagLimit": "6 teal",
+    "possessionLimit": null,
+    "agency": "Maryland DNR",
+    "sourceTitle": "Maryland Migratory Game Bird Hunting Seasons Begin for 2026-2027 (Maryland DNR news, Aug. 31, 2026)",
+    "sourceUrl": "https://news.maryland.gov/dnr/2026/08/31/maryland-migratory-game-bird-hunting-seasons-begin-for-2026-2027/",
+    "sourceQuote": "Teal, September Season | Sept. 17–26 | The daily bag limit is six teal.",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Zone covers the Eastern Shore and nearby counties listed in the DNR calendar footnotes."
+  },
+  {
+    "id": "md-goose-early-resident-eastern-2026",
+    "state": "MD",
+    "species": "goose",
+    "seasonName": "Early Resident Canada Goose Season",
+    "zone": "Eastern Hunt Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-15",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Maryland DNR",
+    "sourceTitle": "Maryland Migratory Game Bird Hunting Seasons Begin for 2026-2027 (Maryland DNR news, Aug. 31, 2026)",
+    "sourceUrl": "https://news.maryland.gov/dnr/2026/08/31/maryland-migratory-game-bird-hunting-seasons-begin-for-2026-2027/",
+    "sourceQuote": "Early resident Canada Goose Season | Eastern zone: Sept. 1–15",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Bag limit not stated in the release."
+  },
+  {
+    "id": "md-goose-early-resident-western-2026",
+    "state": "MD",
+    "species": "goose",
+    "seasonName": "Early Resident Canada Goose Season",
+    "zone": "Western Hunt Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-25",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Maryland DNR",
+    "sourceTitle": "Maryland Migratory Game Bird Hunting Seasons Begin for 2026-2027 (Maryland DNR news, Aug. 31, 2026)",
+    "sourceUrl": "https://news.maryland.gov/dnr/2026/08/31/maryland-migratory-game-bird-hunting-seasons-begin-for-2026-2027/",
+    "sourceQuote": "Early resident Canada Goose Season | Western zone: Sept. 1–25",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Bag limit not stated in the release."
+  },
+  {
+    "id": "md-goose-ap-2026",
+    "state": "MD",
+    "species": "goose",
+    "seasonName": "Canada Goose, Migratory Atlantic Population",
+    "zone": "AP Hunt Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-24",
+        "close": "2026-11-27",
+        "note": null
+      },
+      {
+        "open": "2026-12-15",
+        "close": "2027-01-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 per day",
+    "possessionLimit": null,
+    "agency": "Maryland DNR",
+    "sourceTitle": "Pocket Guide to the 2026-2027 Waterfowl Hunting Seasons and Dates (Maryland DNR)",
+    "sourceUrl": "https://dnr.maryland.gov/wildlife/Documents/Waterfowl_Pocket_Guide.pdf",
+    "sourceQuote": "2026-2027 Hunting Season Dates for Geese and Brant In | Canada Goose Nov. 24 – Nov. 27 Migratory Atlantic 1 per day Dec. 15 – Jan. 30 Population",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Brant Dec. 28-Jan. 30 (1 per day) and light goose seasons are on the same guide, not recorded here."
+  },
+  {
+    "id": "md-goose-late-southern-2026",
+    "state": "MD",
+    "species": "goose",
+    "seasonName": "Late Resident Canada Goose",
+    "zone": "Late Resident Southern Maryland Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-23",
+        "note": "5 per day"
+      },
+      {
+        "open": "2026-11-24",
+        "close": "2026-11-27",
+        "note": "2 per day"
+      },
+      {
+        "open": "2026-12-15",
+        "close": "2027-01-30",
+        "note": "2 per day"
+      },
+      {
+        "open": "2027-02-01",
+        "close": "2027-03-10",
+        "note": "5 per day"
+      }
+    ],
+    "bagLimit": "5 per day (Nov. 21-23 and Feb. 1-Mar. 10); 2 per day (Nov. 24-27 and Dec. 15-Jan. 30)",
+    "possessionLimit": null,
+    "agency": "Maryland DNR",
+    "sourceTitle": "Pocket Guide to the 2026-2027 Waterfowl Hunting Seasons and Dates (Maryland DNR)",
+    "sourceUrl": "https://dnr.maryland.gov/wildlife/Documents/Waterfowl_Pocket_Guide.pdf",
+    "sourceQuote": "Nov. 21 – Nov. 23 5 per day Late Southern Nov. 24 – Nov. 27 2 per day Maryland Resident Canada Goose Zone Dec. 15 – Jan. 30 2 per day Feb. 1 – Mar. 10 5 per day",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "md-goose-late-western-2026",
+    "state": "MD",
+    "species": "goose",
+    "seasonName": "Late Resident Canada Goose",
+    "zone": "Late Western Maryland Canada Goose Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-27",
+        "note": null
+      },
+      {
+        "open": "2026-12-15",
+        "close": "2027-03-10",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 per day",
+    "possessionLimit": null,
+    "agency": "Maryland DNR",
+    "sourceTitle": "Pocket Guide to the 2026-2027 Waterfowl Hunting Seasons and Dates (Maryland DNR)",
+    "sourceUrl": "https://dnr.maryland.gov/wildlife/Documents/Waterfowl_Pocket_Guide.pdf",
+    "sourceQuote": "Late Western Nov. 21 – Nov. 27 Maryland Canada 5 per day Dec. 15 – Mar. 10 Goose Zone",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "md-dove-statewide-2026",
+    "state": "MD",
+    "species": "dove",
+    "seasonName": "Dove, split season",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-10-17",
+        "note": "noon to sunset"
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2026-11-27",
+        "note": null
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2027-01-09",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Maryland DNR",
+    "sourceTitle": "Maryland Migratory Game Bird Hunting Seasons Begin for 2026-2027 (Maryland DNR news, Aug. 31, 2026)",
+    "sourceUrl": "https://news.maryland.gov/dnr/2026/08/31/maryland-migratory-game-bird-hunting-seasons-begin-for-2026-2027/",
+    "sourceQuote": "Dove, split season | First Season: Sept. 1 – Oct. 17 (note: shooting hours for this segment are noon to sunset) | Second Season: Oct. 24 – Nov. 27 | Third Season: Dec. 19 – Jan. 9, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Bag limit not stated in the release."
+  },
+  {
+    "id": "md-woodcock-statewide-2026",
+    "state": "MD",
+    "species": "woodcock",
+    "seasonName": "Woodcock, split season",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2026-11-27",
+        "note": null
+      },
+      {
+        "open": "2027-01-11",
+        "close": "2027-01-27",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Maryland DNR",
+    "sourceTitle": "Maryland Migratory Game Bird Hunting Seasons Begin for 2026-2027 (Maryland DNR news, Aug. 31, 2026)",
+    "sourceUrl": "https://news.maryland.gov/dnr/2026/08/31/maryland-migratory-game-bird-hunting-seasons-begin-for-2026-2027/",
+    "sourceQuote": "Woodcock, split season | First Season: Oct. 24 – Nov. 27 | Second Season: Jan. 11 – 27, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Bag limit not stated in the release."
+  },
+  {
+    "id": "md-snipe-statewide-2026",
+    "state": "MD",
+    "species": "snipe",
+    "seasonName": "Common Snipe",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2027-01-28",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Maryland DNR",
+    "sourceTitle": "Maryland Hunting Seasons Calendar for 2026-2027 (Maryland DNR)",
+    "sourceUrl": "https://dnr.maryland.gov/wildlife/Documents/Hunting-Seasons-Calendar.pdf",
+    "sourceQuote": "Maryland Hunting Seasons Calendar for 2026-2027 | Common Snipe 9/26--1/28",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Maryland's calendar prints numeric month/day only. Bag limit not on the calendar."
+  },
+  {
+    "id": "md-quail-2026",
+    "state": "MD",
+    "species": "quail",
+    "seasonName": "Quail",
+    "zone": "Statewide except Allegany and Garrett counties and DNR lands east of the Susquehanna River",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2027-01-15",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Maryland DNR",
+    "sourceTitle": "Maryland Hunting Seasons Calendar for 2026-2027 (Maryland DNR)",
+    "sourceUrl": "https://dnr.maryland.gov/wildlife/Documents/Hunting-Seasons-Calendar.pdf",
+    "sourceQuote": "Quail16, 17 11/7--1/15 | 16 Quail - Allegany and Garrett counties are closed to quail hunting. Lands owned or managed by the Department of Natural Resources east of the Susquehanna River are closed to quail hunting.",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Maryland's calendar prints numeric month/day only. Bag limit not on the calendar."
+  },
+  {
+    "id": "md-pheasant-2026",
+    "state": "MD",
+    "species": "pheasant",
+    "seasonName": "Pheasant",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2027-02-28",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Maryland DNR",
+    "sourceTitle": "Maryland Hunting Seasons Calendar for 2026-2027 (Maryland DNR)",
+    "sourceUrl": "https://dnr.maryland.gov/wildlife/Documents/Hunting-Seasons-Calendar.pdf",
+    "sourceQuote": "Pheasant 17 11/7--2/28",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Maryland's calendar prints numeric month/day only. Bag limit not on the calendar."
+  },
+  {
+    "id": "md-grouse-2026",
+    "state": "MD",
+    "species": "grouse",
+    "seasonName": "Ruffed Grouse",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Maryland DNR",
+    "sourceTitle": "Maryland Hunting Seasons Calendar for 2026-2027 (Maryland DNR)",
+    "sourceUrl": "https://dnr.maryland.gov/wildlife/Documents/Hunting-Seasons-Calendar.pdf",
+    "sourceQuote": "Ruffed Grouse17 10/3-- 12/31",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Maryland's calendar prints numeric month/day only. Bag limit not on the calendar."
+  }
+]

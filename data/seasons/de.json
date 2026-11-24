@@ -1,0 +1,63 @@
+[
+  {
+    "id": "de-deer-statewide-2026",
+    "state": "DE",
+    "species": "deer",
+    "seasonName": "Deer (statewide season span and November general firearms season)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2027-01-31",
+        "note": "overall statewide deer season span"
+      },
+      {
+        "open": "2026-11-13",
+        "close": "2026-11-22",
+        "note": "November general firearms season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "DNREC",
+    "sourceTitle": "Delaware's General Firearms Deer Hunting Season To Open 10-Day Run Friday, Nov. 13 (DNREC news release, Nov. 5, 2026)",
+    "sourceUrl": "https://news.delaware.gov/2026/11/05/delawares-general-firearms-deer-hunting-season-to-open-10-day-run-friday-nov-13/",
+    "sourceQuote": "The November general firearms season, Delaware’s most popular and bountiful deer hunting season, opens this year on Friday, Nov. 13 and runs through Sunday, Nov. 22. | While Delaware’s statewide deer hunting season spans five months, from Sept. 1 through Jan. 31",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Only the season span and the November general firearms season are recorded: DNREC's own pages and releases do not list the other deer segments (muzzleloader, January firearms, special antlerless, handgun, youth), which appear only in the guide hosted off the agency domain. CWD Management Zone (Wildlife Management Zones 11, 14 and 16) has mandatory check during the November firearms season."
+  },
+  {
+    "id": "de-turkey-spring-2027",
+    "state": "DE",
+    "species": "turkey",
+    "seasonName": "Spring Wild Turkey",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-04-03",
+        "close": "2027-04-03",
+        "note": "special youth and non-ambulatory hunt"
+      },
+      {
+        "open": "2027-04-05",
+        "close": "2027-04-05",
+        "note": "special youth and non-ambulatory hunt"
+      },
+      {
+        "open": "2027-04-10",
+        "close": "2027-05-09",
+        "note": "spring season"
+      }
+    ],
+    "bagLimit": "One turkey per year; bearded turkeys only",
+    "possessionLimit": null,
+    "agency": "DNREC",
+    "sourceTitle": "Wild Turkey Hunting (DNREC Division of Fish and Wildlife)",
+    "sourceUrl": "https://dnrec.delaware.gov/fish-wildlife/hunting/wild-turkeys/hunting/",
+    "sourceQuote": "The 2027 spring wild turkey hunting season will run from April 10 through May 9, 2027. A special two-day hunt for youth and non-ambulatory hunters is set for April 3 and 5, 2027. | The bag limit is one turkey per year. Bearded turkeys only.",
+    "checkedDate": "2026-11-23",
+    "notes": "DNREC prints the youth and non-ambulatory hunt as 'April 3 and 5, 2027' (recorded as printed). Public-land hunting is by preseason lottery for week-long segments (per DNREC's 2026 season summary); private land is open every day of the season."
+  }
+]

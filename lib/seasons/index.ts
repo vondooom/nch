@@ -80,6 +80,14 @@ export function stateHasVisibleSeasons(state: string) {
   return visibleSeasonsForState(state).length > 0;
 }
 
+/** States with a first batch of seasons, not a full set. */
+const partialSeasonStates = new Set(["delaware"]);
+
+export function regionSeasonStatus(state: string) {
+  if (partialSeasonStates.has(state)) return "Some season dates are posted.";
+  return stateHasVisibleSeasons(state) ? "Season dates are posted." : "Season dates are coming.";
+}
+
 export function openNowForState(state: string, timeZone: string, now = new Date()) {
   const today = calendarDateInTimeZone(timeZone, now);
   return visibleSeasonsForState(state).filter((record) => isOpenNow(record, today));
