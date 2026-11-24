@@ -302,8 +302,8 @@ export const unlistedBigGame: Record<string, { species: string; line: string; li
   ],
   delaware: [
     {
-      species: "Other seasons",
-      line: "Waterfowl, dove, and upland dates are coming soon.",
+      species: "Permits",
+      line: "Tundra swan is permit only, and pen-raised quail is by permit, so those seasons are not listed here.",
     },
   ],
   maryland: [

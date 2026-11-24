@@ -3,29 +3,79 @@
     "id": "de-deer-statewide-2026",
     "state": "DE",
     "species": "deer",
-    "seasonName": "Deer (statewide season span and November general firearms season)",
+    "seasonName": "Deer (statewide seasons)",
     "zone": "Statewide",
     "seasonYear": "2026-27",
     "periods": [
       {
         "open": "2026-09-01",
         "close": "2027-01-31",
-        "note": "overall statewide deer season span"
+        "note": "archery and crossbow"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-27",
+        "note": "youth and non-ambulatory hunt"
+      },
+      {
+        "open": "2026-10-02",
+        "close": "2026-10-04",
+        "note": "special antlerless (archery and crossbow hunters may take antlered deer)"
+      },
+      {
+        "open": "2026-10-09",
+        "close": "2026-10-18",
+        "note": "muzzleloader"
+      },
+      {
+        "open": "2026-10-23",
+        "close": "2026-10-25",
+        "note": "special antlerless"
+      },
+      {
+        "open": "2026-10-30",
+        "close": "2026-10-31",
+        "note": "special antlerless"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-08",
+        "note": "youth and non-ambulatory hunt"
       },
       {
         "open": "2026-11-13",
         "close": "2026-11-22",
-        "note": "November general firearms season"
+        "note": "general firearm"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2026-12-20",
+        "note": "special antlerless"
+      },
+      {
+        "open": "2027-01-02",
+        "close": "2027-01-10",
+        "note": "handgun and straight-walled pistol-caliber rifle; closed in Wildlife Management Zones 1A and 1B"
+      },
+      {
+        "open": "2027-01-16",
+        "close": "2027-01-24",
+        "note": "general firearm"
+      },
+      {
+        "open": "2027-01-25",
+        "close": "2027-01-31",
+        "note": "muzzleloader"
       }
     ],
-    "bagLimit": null,
+    "bagLimit": "2 antlered deer per license year (July 1 to June 30), all methods and seasons combined; no limit on antlerless deer with an antlerless tag",
     "possessionLimit": null,
     "agency": "DNREC",
-    "sourceTitle": "Delaware's General Firearms Deer Hunting Season To Open 10-Day Run Friday, Nov. 13 (DNREC news release, Nov. 5, 2026)",
-    "sourceUrl": "https://news.delaware.gov/2026/11/05/delawares-general-firearms-deer-hunting-season-to-open-10-day-run-friday-nov-13/",
-    "sourceQuote": "The November general firearms season, Delaware’s most popular and bountiful deer hunting season, opens this year on Friday, Nov. 13 and runs through Sunday, Nov. 22. | While Delaware’s statewide deer hunting season spans five months, from Sept. 1 through Jan. 31",
+    "sourceTitle": "Deer Seasons, Delaware Hunting Guide on eRegulations (DNREC; last updated June 25, 2026)",
+    "sourceUrl": "https://www.eregulations.com/delaware/hunting/deer-seasons",
+    "sourceQuote": "Archery Statewide Sept. 1–Jan. 31 | Crossbow Statewide Sept. 1–Jan. 31 | Muzzleloader Statewide Oct. 9–18 Jan. 25–Jan. 31 | General Firearm Statewide Nov. 13–22 Jan. 16–24 | Special Antlerless* Statewide Oct. 2–4, 23–25 and 30–31 Dec. 12–20 | Season closed in Wildlife Management Zones 1A and 1B Jan. 2–10 | Youth and Non-amb ulatory Hunt Statewide Sept. 26 and 27 and Nov. 7–8 | Only 2 antlered deer may be taken during any license year (July 1 – June 30) by all methods and seasons combined. There is no limit on antlerless deer provided a hunter has an antlerless deer tag in their possession before harvesting additional antlerless deer.",
     "checkedDate": "2026-11-23",
-    "notes": "Source prints month and day only for some dates; years assigned from the 2026-27 season heading (Jul-Dec = 2026, Jan-Jun = 2027). Only the season span and the November general firearms season are recorded: DNREC's own pages and releases do not list the other deer segments (muzzleloader, January firearms, special antlerless, handgun, youth), which appear only in the guide hosted off the agency domain. CWD Management Zone (Wildlife Management Zones 11, 14 and 16) has mandatory check during the November firearms season."
+    "notes": "The eRegulations pages print month and day only and no season heading; years assigned for 2026-27 (Jul-Dec = 2026, Jan-Jun = 2027). The 2026-27 reading is confirmed by the page update dates and by matching DNREC releases. The November general firearm dates (Nov. 13-22) match DNREC's Nov. 5, 2026 news release. CWD Management Zone (Wildlife Management Zones 11, 14 and 16) has mandatory check during the November firearms season (per that release)."
   },
   {
     "id": "de-turkey-spring-2027",
@@ -35,16 +85,6 @@
     "zone": "Statewide",
     "seasonYear": "2026-27",
     "periods": [
-      {
-        "open": "2027-04-03",
-        "close": "2027-04-03",
-        "note": "special youth and non-ambulatory hunt"
-      },
-      {
-        "open": "2027-04-05",
-        "close": "2027-04-05",
-        "note": "special youth and non-ambulatory hunt"
-      },
       {
         "open": "2027-04-10",
         "close": "2027-05-09",
@@ -58,6 +98,313 @@
     "sourceUrl": "https://dnrec.delaware.gov/fish-wildlife/hunting/wild-turkeys/hunting/",
     "sourceQuote": "The 2027 spring wild turkey hunting season will run from April 10 through May 9, 2027. A special two-day hunt for youth and non-ambulatory hunters is set for April 3 and 5, 2027. | The bag limit is one turkey per year. Bearded turkeys only.",
     "checkedDate": "2026-11-23",
-    "notes": "DNREC prints the youth and non-ambulatory hunt as 'April 3 and 5, 2027' (recorded as printed). Public-land hunting is by preseason lottery for week-long segments (per DNREC's 2026 season summary); private land is open every day of the season."
+    "notes": "The special youth and non-ambulatory hunt is not listed here because two DNREC sources disagree on its dates: DNREC's turkey page prints 'April 3 and 5, 2027', while the DNREC guide on eRegulations says 'Saturday April 3rd and Sunday April 4th'. Check with DNREC before that hunt. Public-land hunting is by preseason lottery for week-long segments; private land is open every day of the season."
+  },
+  {
+    "id": "de-duck-statewide-2026",
+    "state": "DE",
+    "species": "duck",
+    "seasonName": "Ducks (regular season)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2026-10-24",
+        "note": "youth, veteran's and active military waterfowl hunt"
+      },
+      {
+        "open": "2026-10-31",
+        "close": "2026-11-07",
+        "note": null
+      },
+      {
+        "open": "2026-11-25",
+        "close": "2026-11-29",
+        "note": null
+      },
+      {
+        "open": "2026-12-16",
+        "close": "2027-01-31",
+        "note": null
+      },
+      {
+        "open": "2027-02-07",
+        "close": "2027-02-07",
+        "note": "youth, veteran's and active military waterfowl hunt"
+      }
+    ],
+    "bagLimit": "6 (up to 4 mallards (2 hens), 2 black ducks, 3 pintail, 2 canvasback, 3 wood ducks, 2 redheads, 1 scaup (2 from Jan. 12-31), 4 sea ducks)",
+    "possessionLimit": "18",
+    "agency": "DNREC",
+    "sourceTitle": "Migratory Bird Seasons & Bag Limits, Delaware Hunting Guide on eRegulations (DNREC; last updated November 20, 2026)",
+    "sourceUrl": "https://www.eregulations.com/delaware/hunting/migratory-bird-seasons-bag-limits",
+    "sourceQuote": "Ducks (Regular Season) Oct. 31–Nov. 7 6 18 Nov. 25–Nov. 29 Dec. 16–Jan. 31 | Youth, Veteran’s, Active Military Waterfowl Hunt Youth must be under age 16. Oct. 24 and February 7 | The daily limit of 6 ducks (excluding mergansers and coots) may include, in any combination, up to: 4 mallards (2 hens); 2 black ducks; 3 pintail; 2 canvasback, 3 wood ducks; 2 redheads; 1 scaup (2 per day from Jan. 12–Jan. 31) | 4 total sea ducks | The possession limit is 3 times the daily limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "The eRegulations pages print month and day only and no season heading; years assigned for 2026-27 (Jul-Dec = 2026, Jan-Jun = 2027). The 2026-27 reading is confirmed by the page update dates and by matching DNREC releases. DNREC notes the migratory dates are contingent on US Fish and Wildlife Service approval; the page was last updated November 20, 2026. Sea ducks have the same dates and are counted in the duck bag. Coots (15 daily) and mergansers (5 daily) have the same dates as ducks. Harlequin duck closed. The Oct. 31-Nov. 7 opener and Nov. 25 reopening match a DNREC release."
+  },
+  {
+    "id": "de-teal-september-2026",
+    "state": "DE",
+    "species": "duck",
+    "seasonName": "September Teal",
+    "zone": "Special Teal Zone (south of the C&D Canal to north of Route 9 in Lewes, east of Routes 13, 113/113A and 1)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-13",
+        "note": "blue-winged and/or green-winged teal"
+      }
+    ],
+    "bagLimit": "6",
+    "possessionLimit": "18",
+    "agency": "DNREC",
+    "sourceTitle": "Migratory Bird Seasons & Bag Limits, Delaware Hunting Guide on eRegulations (DNREC; last updated November 20, 2026)",
+    "sourceUrl": "https://www.eregulations.com/delaware/hunting/migratory-bird-seasons-bag-limits",
+    "sourceQuote": "September Teal Sept. 5–Sept. 13 6 18 Limited to the designated teal zone south of the C&D Canal to north of Route 9 in Lewes, and east of Routes 13, 113/113A, and 1.",
+    "checkedDate": "2026-11-23",
+    "notes": "The eRegulations pages print month and day only and no season heading; years assigned for 2026-27 (Jul-Dec = 2026, Jan-Jun = 2027). The 2026-27 reading is confirmed by the page update dates and by matching DNREC releases. DNREC notes the migratory dates are contingent on US Fish and Wildlife Service approval; the page was last updated November 20, 2026."
+  },
+  {
+    "id": "de-goose-resident-sept-outside-2026",
+    "state": "DE",
+    "species": "goose",
+    "seasonName": "September Resident Canada Goose",
+    "zone": "Outside the September Teal Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-25",
+        "note": null
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": "45",
+    "agency": "DNREC",
+    "sourceTitle": "Migratory Bird Seasons & Bag Limits, Delaware Hunting Guide on eRegulations (DNREC; last updated November 20, 2026)",
+    "sourceUrl": "https://www.eregulations.com/delaware/hunting/migratory-bird-seasons-bag-limits",
+    "sourceQuote": "Canada Goose (Resident) | Outside the September Teal Zone Sept. 1–Sept. 25 15 45",
+    "checkedDate": "2026-11-23",
+    "notes": "The eRegulations pages print month and day only and no season heading; years assigned for 2026-27 (Jul-Dec = 2026, Jan-Jun = 2027). The 2026-27 reading is confirmed by the page update dates and by matching DNREC releases. DNREC notes the migratory dates are contingent on US Fish and Wildlife Service approval; the page was last updated November 20, 2026."
+  },
+  {
+    "id": "de-goose-resident-sept-inside-2026",
+    "state": "DE",
+    "species": "goose",
+    "seasonName": "September Resident Canada Goose",
+    "zone": "Inside the September Teal Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-04",
+        "note": "special hunting methods allowed"
+      },
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-13",
+        "note": "special hunting methods not allowed"
+      },
+      {
+        "open": "2026-09-14",
+        "close": "2026-09-25",
+        "note": "special hunting methods allowed"
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": "15",
+    "agency": "DNREC",
+    "sourceTitle": "Migratory Bird Seasons & Bag Limits, Delaware Hunting Guide on eRegulations (DNREC; last updated November 20, 2026)",
+    "sourceUrl": "https://www.eregulations.com/delaware/hunting/migratory-bird-seasons-bag-limits",
+    "sourceQuote": "Inside the September Teal Zone Sept. 1–Sept. 4 1 15 15 Sept. 5–Sept. 13 2 Sept. 14–Sept. 25 1 | 1 Inside the September Teal Zone during these dates, special hunting methods allowed. | 2 Inside the September Teal Zone during these dates, special hunting methods are NOT allowed.",
+    "checkedDate": "2026-11-23",
+    "notes": "The eRegulations pages print month and day only and no season heading; years assigned for 2026-27 (Jul-Dec = 2026, Jan-Jun = 2027). The 2026-27 reading is confirmed by the page update dates and by matching DNREC releases. DNREC notes the migratory dates are contingent on US Fish and Wildlife Service approval; the page was last updated November 20, 2026. Possession limit printed as 15 for this zone."
+  },
+  {
+    "id": "de-goose-canada-migratory-2026",
+    "state": "DE",
+    "species": "goose",
+    "seasonName": "Canada Goose (migratory, including white-fronted geese)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-25",
+        "close": "2026-11-29",
+        "note": null
+      },
+      {
+        "open": "2026-12-23",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "2",
+    "possessionLimit": "6",
+    "agency": "DNREC",
+    "sourceTitle": "Migratory Bird Seasons & Bag Limits, Delaware Hunting Guide on eRegulations (DNREC; last updated November 20, 2026)",
+    "sourceUrl": "https://www.eregulations.com/delaware/hunting/migratory-bird-seasons-bag-limits",
+    "sourceQuote": "Canada Goose (Migratory) Including White-fronted geese Nov. 25–Nov. 29 2 6 Dec. 23–Jan. 31 2 6",
+    "checkedDate": "2026-11-23",
+    "notes": "The eRegulations pages print month and day only and no season heading; years assigned for 2026-27 (Jul-Dec = 2026, Jan-Jun = 2027). The 2026-27 reading is confirmed by the page update dates and by matching DNREC releases. DNREC notes the migratory dates are contingent on US Fish and Wildlife Service approval; the page was last updated November 20, 2026."
+  },
+  {
+    "id": "de-brant-2026",
+    "state": "DE",
+    "species": "goose",
+    "seasonName": "Brant",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-19",
+        "close": "2027-01-02",
+        "note": null
+      },
+      {
+        "open": "2027-01-16",
+        "close": "2027-01-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "1",
+    "possessionLimit": "3",
+    "agency": "DNREC",
+    "sourceTitle": "Migratory Bird Seasons & Bag Limits, Delaware Hunting Guide on eRegulations (DNREC; last updated November 20, 2026)",
+    "sourceUrl": "https://www.eregulations.com/delaware/hunting/migratory-bird-seasons-bag-limits",
+    "sourceQuote": "Brant Dec. 19–Jan. 2 1 3 Jan. 16–Jan. 30 1 3",
+    "checkedDate": "2026-11-23",
+    "notes": "The eRegulations pages print month and day only and no season heading; years assigned for 2026-27 (Jul-Dec = 2026, Jan-Jun = 2027). The 2026-27 reading is confirmed by the page update dates and by matching DNREC releases. DNREC notes the migratory dates are contingent on US Fish and Wildlife Service approval; the page was last updated November 20, 2026."
+  },
+  {
+    "id": "de-dove-2026",
+    "state": "DE",
+    "species": "dove",
+    "seasonName": "Mourning Dove",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-27",
+        "note": "non-toxic shot required on State Wildlife Areas in September"
+      },
+      {
+        "open": "2026-11-23",
+        "close": "2026-11-29",
+        "note": null
+      },
+      {
+        "open": "2026-12-07",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": "45",
+    "agency": "DNREC",
+    "sourceTitle": "Migratory Bird Seasons & Bag Limits, Delaware Hunting Guide on eRegulations (DNREC; last updated November 20, 2026)",
+    "sourceUrl": "https://www.eregulations.com/delaware/hunting/migratory-bird-seasons-bag-limits",
+    "sourceQuote": "Mourning Dove Sept. 1–Sept. 27 1 15 45 Nov. 23–Nov. 29 Dec. 7–Jan. 31 | During the month of September, all hunters must use non-toxic shot when dove hunting on State Wildlife Areas.",
+    "checkedDate": "2026-11-23",
+    "notes": "The eRegulations pages print month and day only and no season heading; years assigned for 2026-27 (Jul-Dec = 2026, Jan-Jun = 2027). The 2026-27 reading is confirmed by the page update dates and by matching DNREC releases. DNREC notes the migratory dates are contingent on US Fish and Wildlife Service approval; the page was last updated November 20, 2026."
+  },
+  {
+    "id": "de-woodcock-2026",
+    "state": "DE",
+    "species": "woodcock",
+    "seasonName": "Woodcock",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-23",
+        "close": "2026-12-06",
+        "note": null
+      },
+      {
+        "open": "2026-12-25",
+        "close": "2027-01-24",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "DNREC",
+    "sourceTitle": "Migratory Bird Seasons & Bag Limits, Delaware Hunting Guide on eRegulations (DNREC; last updated November 20, 2026)",
+    "sourceUrl": "https://www.eregulations.com/delaware/hunting/migratory-bird-seasons-bag-limits",
+    "sourceQuote": "Woodcock Nov. 23–Dec. 6 3 9 Dec. 25–Jan. 24",
+    "checkedDate": "2026-11-23",
+    "notes": "The eRegulations pages print month and day only and no season heading; years assigned for 2026-27 (Jul-Dec = 2026, Jan-Jun = 2027). The 2026-27 reading is confirmed by the page update dates and by matching DNREC releases. DNREC notes the migratory dates are contingent on US Fish and Wildlife Service approval; the page was last updated November 20, 2026."
+  },
+  {
+    "id": "de-snipe-2026",
+    "state": "DE",
+    "species": "snipe",
+    "seasonName": "Common Snipe",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-29",
+        "close": "2026-12-06",
+        "note": null
+      },
+      {
+        "open": "2026-12-25",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "8",
+    "possessionLimit": "24",
+    "agency": "DNREC",
+    "sourceTitle": "Migratory Bird Seasons & Bag Limits, Delaware Hunting Guide on eRegulations (DNREC; last updated November 20, 2026)",
+    "sourceUrl": "https://www.eregulations.com/delaware/hunting/migratory-bird-seasons-bag-limits",
+    "sourceQuote": "Common Snipe Sept. 29–Dec. 6 8 24 Dec. 25–Jan. 31",
+    "checkedDate": "2026-11-23",
+    "notes": "The eRegulations pages print month and day only and no season heading; years assigned for 2026-27 (Jul-Dec = 2026, Jan-Jun = 2027). The 2026-27 reading is confirmed by the page update dates and by matching DNREC releases. DNREC notes the migratory dates are contingent on US Fish and Wildlife Service approval; the page was last updated November 20, 2026."
+  },
+  {
+    "id": "de-pheasant-2026",
+    "state": "DE",
+    "species": "pheasant",
+    "seasonName": "Ring-necked Pheasant (male only)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-23",
+        "close": "2027-02-28",
+        "note": "male only"
+      }
+    ],
+    "bagLimit": "2",
+    "possessionLimit": "4",
+    "agency": "DNREC",
+    "sourceTitle": "Small Game Hunting, Delaware Hunting Guide on eRegulations (DNREC; last updated June 25, 2026)",
+    "sourceUrl": "https://www.eregulations.com/delaware/hunting/small-game-hunting",
+    "sourceQuote": "Ring-necked Pheasant (Male Only) Nov. 23–Feb. 28 Daily 2 | Possession 4",
+    "checkedDate": "2026-11-23",
+    "notes": "The eRegulations pages print month and day only and no season heading; years assigned for 2026-27 (Jul-Dec = 2026, Jan-Jun = 2027). The 2026-27 reading is confirmed by the page update dates and by matching DNREC releases. Hunter orange required during any deer firearms season. Private shooting preserve season is October 15 to March 31 (not recorded)."
+  },
+  {
+    "id": "de-quail-wild-closed-2026",
+    "state": "DE",
+    "species": "quail",
+    "seasonName": "Bobwhite Quail, wild (closed)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "DNREC",
+    "sourceTitle": "Small Game Hunting, Delaware Hunting Guide on eRegulations (DNREC; last updated June 25, 2026)",
+    "sourceUrl": "https://www.eregulations.com/delaware/hunting/small-game-hunting",
+    "sourceQuote": "Bobwhite Quail (Pen-raised and released birds only) Nov. 23–Feb. 28 Season closed for wild quail No limit | It is unlawful to hunt wild quail. Quail may not be hunted without a permit from the Division and only pen-raised and released birds may be hunted.",
+    "checkedDate": "2026-11-23",
+    "notes": "Closed for 2026-27; no season dates. Do not display as an open season. Wild quail closed. Pen-raised and released quail may be hunted Nov. 23, 2026 to Feb. 28, 2027 with a Division permit only; not recorded as an open season."
   }
 ]
