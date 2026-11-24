@@ -1,0 +1,502 @@
+[
+  {
+    "id": "il-teal-2026",
+    "state": "IL",
+    "species": "duck",
+    "seasonName": "Teal (early season)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-13",
+        "note": "teal only; sunrise to sunset"
+      }
+    ],
+    "bagLimit": "6 (teal combined)",
+    "possessionLimit": "18",
+    "agency": "IDNR (Illinois)",
+    "sourceTitle": "Illinois DNR, 2026-2027 Illinois Digest of Hunting and Trapping Regulations",
+    "sourceUrl": "https://v3-wp.huntillinois.org/wp-content/uploads/2026/08/HuntTrapDigest.pdf",
+    "sourceQuote": "Teal (Early season) Statewide 5—13 Sept 2026 | Sunrise to Sunset 6 18",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed in the source."
+  },
+  {
+    "id": "il-duck-north-2026",
+    "state": "IL",
+    "species": "duck",
+    "seasonName": "Ducks, North Zone",
+    "zone": "North Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2026-10-25",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-10-31",
+        "close": "2026-12-27",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 mallards (2 hens), 3 wood ducks, 2 redheads, 2 canvasback, 2 black ducks, 3 pintails, 1 mottled duck; scaup 1 for first 15 days, 2 for last 45); mergansers 5 (2 hooded); coots 15",
+    "possessionLimit": "18 (three times the daily limit by species and sex)",
+    "agency": "IDNR (Illinois)",
+    "sourceTitle": "Illinois DNR, 2026-2027 Illinois Digest of Hunting and Trapping Regulations",
+    "sourceUrl": "https://v3-wp.huntillinois.org/wp-content/uploads/2026/08/HuntTrapDigest.pdf",
+    "sourceQuote": "North 24—25 Oct 2026 and 31 Oct—27 Dec 2026 | Basic daily limit is 6 ducks of any species. However, daily limit can consist of no more than the following: 4 mallards (of which no more than 2 can be hen mallards), 3 wood ducks, 1 scaup for the first 15 days in each zone, 2 scaup for the last 45 days in each zone, 2 redheads, 2 canvasback, 2 black ducks, 3 pintails and 1 mottled duck. | Possession limit for ducks is three times the daily limit by species and sex. | Mergansers Same as ducks Same as ducks 5 15 | Coots Same as ducks Same as ducks 15 45",
+    "checkedDate": "2026-11-23",
+    "notes": "Youth waterfowl days are listed separately in the digest (not recorded as periods). Years as printed in the source."
+  },
+  {
+    "id": "il-duck-central-2026",
+    "state": "IL",
+    "species": "duck",
+    "seasonName": "Ducks, Central Zone",
+    "zone": "Central Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-31",
+        "close": "2026-12-13",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2027-01-03",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 mallards (2 hens), 3 wood ducks, 2 redheads, 2 canvasback, 2 black ducks, 3 pintails, 1 mottled duck; scaup 1 for first 15 days, 2 for last 45); mergansers 5 (2 hooded); coots 15",
+    "possessionLimit": "18 (three times the daily limit by species and sex)",
+    "agency": "IDNR (Illinois)",
+    "sourceTitle": "Illinois DNR, 2026-2027 Illinois Digest of Hunting and Trapping Regulations",
+    "sourceUrl": "https://v3-wp.huntillinois.org/wp-content/uploads/2026/08/HuntTrapDigest.pdf",
+    "sourceQuote": "Central 31 Oct—13 Dec 2026 and 19 Dec 2026—3 Jan 2027 | Basic daily limit is 6 ducks of any species. However, daily limit can consist of no more than the following: 4 mallards (of which no more than 2 can be hen mallards), 3 wood ducks, 1 scaup for the first 15 days in each zone, 2 scaup for the last 45 days in each zone, 2 redheads, 2 canvasback, 2 black ducks, 3 pintails and 1 mottled duck. | Possession limit for ducks is three times the daily limit by species and sex. | Mergansers Same as ducks Same as ducks 5 15 | Coots Same as ducks Same as ducks 15 45",
+    "checkedDate": "2026-11-23",
+    "notes": "Youth waterfowl days are listed separately in the digest (not recorded as periods). Years as printed in the source."
+  },
+  {
+    "id": "il-duck-south-2026",
+    "state": "IL",
+    "species": "duck",
+    "seasonName": "Ducks, South Zone",
+    "zone": "South Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-14",
+        "close": "2026-12-06",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2027-01-24",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 mallards (2 hens), 3 wood ducks, 2 redheads, 2 canvasback, 2 black ducks, 3 pintails, 1 mottled duck; scaup 1 for first 15 days, 2 for last 45); mergansers 5 (2 hooded); coots 15",
+    "possessionLimit": "18 (three times the daily limit by species and sex)",
+    "agency": "IDNR (Illinois)",
+    "sourceTitle": "Illinois DNR, 2026-2027 Illinois Digest of Hunting and Trapping Regulations",
+    "sourceUrl": "https://v3-wp.huntillinois.org/wp-content/uploads/2026/08/HuntTrapDigest.pdf",
+    "sourceQuote": "South 14 Nov—6 Dec 2026 and 19 Dec 2026—24 Jan 2027 | Basic daily limit is 6 ducks of any species. However, daily limit can consist of no more than the following: 4 mallards (of which no more than 2 can be hen mallards), 3 wood ducks, 1 scaup for the first 15 days in each zone, 2 scaup for the last 45 days in each zone, 2 redheads, 2 canvasback, 2 black ducks, 3 pintails and 1 mottled duck. | Possession limit for ducks is three times the daily limit by species and sex. | Mergansers Same as ducks Same as ducks 5 15 | Coots Same as ducks Same as ducks 15 45",
+    "checkedDate": "2026-11-23",
+    "notes": "Youth waterfowl days are listed separately in the digest (not recorded as periods). Years as printed in the source."
+  },
+  {
+    "id": "il-goose-canada-north-2026",
+    "state": "IL",
+    "species": "goose",
+    "seasonName": "Canada Geese, North Zone",
+    "zone": "North Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2026-10-25",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-10-31",
+        "close": "2027-01-26",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "IDNR (Illinois)",
+    "sourceTitle": "Illinois DNR, 2026-2027 Illinois Digest of Hunting and Trapping Regulations",
+    "sourceUrl": "https://v3-wp.huntillinois.org/wp-content/uploads/2026/08/HuntTrapDigest.pdf",
+    "sourceQuote": "Canada Geese | North 24–25 Oct 2026 and 31 Oct 2026– 26 Jan 2027 | 3 9",
+    "checkedDate": "2026-11-23",
+    "notes": "Light geese (20 daily, unlimited possession), brant (1/3) and white-fronted geese (2/6) are printed with the same zone dates (white-fronted North opens Oct. 31). Years as printed in the source."
+  },
+  {
+    "id": "il-goose-canada-central-2026",
+    "state": "IL",
+    "species": "goose",
+    "seasonName": "Canada Geese, Central Zone",
+    "zone": "Central Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-31",
+        "close": "2026-12-13",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2027-01-31",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "IDNR (Illinois)",
+    "sourceTitle": "Illinois DNR, 2026-2027 Illinois Digest of Hunting and Trapping Regulations",
+    "sourceUrl": "https://v3-wp.huntillinois.org/wp-content/uploads/2026/08/HuntTrapDigest.pdf",
+    "sourceQuote": "Canada Geese | Central 31 Oct–13 Dec 2026 and 19 Dec 2026– 31 Jan 2027 | 3 9",
+    "checkedDate": "2026-11-23",
+    "notes": "Light geese (20 daily, unlimited possession), brant (1/3) and white-fronted geese (2/6) are printed with the same zone dates (white-fronted North opens Oct. 31). Years as printed in the source."
+  },
+  {
+    "id": "il-goose-canada-south-2026",
+    "state": "IL",
+    "species": "goose",
+    "seasonName": "Canada Geese, South Zone",
+    "zone": "South Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-14",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "IDNR (Illinois)",
+    "sourceTitle": "Illinois DNR, 2026-2027 Illinois Digest of Hunting and Trapping Regulations",
+    "sourceUrl": "https://v3-wp.huntillinois.org/wp-content/uploads/2026/08/HuntTrapDigest.pdf",
+    "sourceQuote": "Canada Geese | South 14 Nov 2026– 31 Jan 2027 | 3 9",
+    "checkedDate": "2026-11-23",
+    "notes": "Light geese (20 daily, unlimited possession), brant (1/3) and white-fronted geese (2/6) are printed with the same zone dates (white-fronted North opens Oct. 31). Years as printed in the source."
+  },
+  {
+    "id": "il-goose-canada-early-nc-2026",
+    "state": "IL",
+    "species": "goose",
+    "seasonName": "Canada Geese (early season), North & Central",
+    "zone": "North & Central zones",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "5",
+    "possessionLimit": "15",
+    "agency": "IDNR (Illinois)",
+    "sourceTitle": "Illinois DNR, 2026-2027 Illinois Digest of Hunting and Trapping Regulations",
+    "sourceUrl": "https://v3-wp.huntillinois.org/wp-content/uploads/2026/08/HuntTrapDigest.pdf",
+    "sourceQuote": "Canada Geese (Early season) North & Central South 1–15 Sept 2026 | 5 2 15 6",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed in the source."
+  },
+  {
+    "id": "il-goose-canada-early-south-2026",
+    "state": "IL",
+    "species": "goose",
+    "seasonName": "Canada Geese (early season), South",
+    "zone": "South Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "2",
+    "possessionLimit": "6",
+    "agency": "IDNR (Illinois)",
+    "sourceTitle": "Illinois DNR, 2026-2027 Illinois Digest of Hunting and Trapping Regulations",
+    "sourceUrl": "https://v3-wp.huntillinois.org/wp-content/uploads/2026/08/HuntTrapDigest.pdf",
+    "sourceQuote": "Canada Geese (Early season) North & Central South 1–15 Sept 2026 | 5 2 15 6",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed in the source."
+  },
+  {
+    "id": "il-dove-2026",
+    "state": "IL",
+    "species": "dove",
+    "seasonName": "Doves (mourning and white-winged)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-11-14",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2027-01-09",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": "45",
+    "agency": "IDNR (Illinois)",
+    "sourceTitle": "Illinois DNR, 2026-2027 Illinois Digest of Hunting and Trapping Regulations",
+    "sourceUrl": "https://v3-wp.huntillinois.org/wp-content/uploads/2026/08/HuntTrapDigest.pdf",
+    "sourceQuote": "1 Sept - 14 Nov 2026 | Statewide | 26 Dec 2026 - 9 Jan 2027 | 15 45",
+    "checkedDate": "2026-11-23",
+    "notes": "Eurasian collared-doves, ringed turtle doves and pigeons may be taken year-round with no limits. Years as printed in the source."
+  },
+  {
+    "id": "il-pheasant-north-2026",
+    "state": "IL",
+    "species": "pheasant",
+    "seasonName": "Pheasants (roosters only), North Zone",
+    "zone": "North Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2027-01-08",
+        "note": null
+      }
+    ],
+    "bagLimit": "2",
+    "possessionLimit": "6",
+    "agency": "IDNR (Illinois)",
+    "sourceTitle": "Illinois DNR, 2026-2027 Illinois Digest of Hunting and Trapping Regulations",
+    "sourceUrl": "https://v3-wp.huntillinois.org/wp-content/uploads/2026/08/HuntTrapDigest.pdf",
+    "sourceQuote": "7 Nov 2026 - 8 Jan 2027 (North Zone) | 2 6 | Until the 3rd day of the hunting season, you may not possess more than twice the daily limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zones are on the digest's upland zones map. Upland Game Permits by lottery apply on some IDNR sites. Years as printed in the source."
+  },
+  {
+    "id": "il-pheasant-south-2026",
+    "state": "IL",
+    "species": "pheasant",
+    "seasonName": "Pheasants (roosters only), South Zone",
+    "zone": "South Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2027-01-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "2",
+    "possessionLimit": "6",
+    "agency": "IDNR (Illinois)",
+    "sourceTitle": "Illinois DNR, 2026-2027 Illinois Digest of Hunting and Trapping Regulations",
+    "sourceUrl": "https://v3-wp.huntillinois.org/wp-content/uploads/2026/08/HuntTrapDigest.pdf",
+    "sourceQuote": "7 Nov 2026 - 15 Jan 2027 (South Zone) | 2 6 | Until the 3rd day of the hunting season, you may not possess more than twice the daily limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zones are on the digest's upland zones map. Upland Game Permits by lottery apply on some IDNR sites. Years as printed in the source."
+  },
+  {
+    "id": "il-quail-north-2026",
+    "state": "IL",
+    "species": "quail",
+    "seasonName": "Quail (Bobwhite), North Zone",
+    "zone": "North Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2027-01-08",
+        "note": null
+      }
+    ],
+    "bagLimit": "8",
+    "possessionLimit": "20",
+    "agency": "IDNR (Illinois)",
+    "sourceTitle": "Illinois DNR, 2026-2027 Illinois Digest of Hunting and Trapping Regulations",
+    "sourceUrl": "https://v3-wp.huntillinois.org/wp-content/uploads/2026/08/HuntTrapDigest.pdf",
+    "sourceQuote": "7 Nov 2026 - 8 Jan 2027 (North Zone) | 8 20 | Until the 3rd day of the hunting season, you may not possess more than twice the daily limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zones are on the digest's upland zones map. Upland Game Permits by lottery apply on some IDNR sites. Years as printed in the source."
+  },
+  {
+    "id": "il-quail-south-2026",
+    "state": "IL",
+    "species": "quail",
+    "seasonName": "Quail (Bobwhite), South Zone",
+    "zone": "South Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2027-01-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "8",
+    "possessionLimit": "20",
+    "agency": "IDNR (Illinois)",
+    "sourceTitle": "Illinois DNR, 2026-2027 Illinois Digest of Hunting and Trapping Regulations",
+    "sourceUrl": "https://v3-wp.huntillinois.org/wp-content/uploads/2026/08/HuntTrapDigest.pdf",
+    "sourceQuote": "7 Nov 2026 - 15 Jan 2027 (South Zone) | 8 20 | Until the 3rd day of the hunting season, you may not possess more than twice the daily limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zones are on the digest's upland zones map. Upland Game Permits by lottery apply on some IDNR sites. Years as printed in the source."
+  },
+  {
+    "id": "il-partridge-north-2026",
+    "state": "IL",
+    "species": "partridge",
+    "seasonName": "Hungarian Partridge, North Zone",
+    "zone": "North Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2027-01-08",
+        "note": null
+      }
+    ],
+    "bagLimit": "2",
+    "possessionLimit": "6",
+    "agency": "IDNR (Illinois)",
+    "sourceTitle": "Illinois DNR, 2026-2027 Illinois Digest of Hunting and Trapping Regulations",
+    "sourceUrl": "https://v3-wp.huntillinois.org/wp-content/uploads/2026/08/HuntTrapDigest.pdf",
+    "sourceQuote": "7 Nov 2026 - 8 Jan 2027 (North Zone) | 2 6 | Until the 3rd day of the hunting season, you may not possess more than twice the daily limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zones are on the digest's upland zones map. Upland Game Permits by lottery apply on some IDNR sites. Years as printed in the source."
+  },
+  {
+    "id": "il-partridge-south-2026",
+    "state": "IL",
+    "species": "partridge",
+    "seasonName": "Hungarian Partridge, South Zone",
+    "zone": "South Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2027-01-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "2",
+    "possessionLimit": "6",
+    "agency": "IDNR (Illinois)",
+    "sourceTitle": "Illinois DNR, 2026-2027 Illinois Digest of Hunting and Trapping Regulations",
+    "sourceUrl": "https://v3-wp.huntillinois.org/wp-content/uploads/2026/08/HuntTrapDigest.pdf",
+    "sourceQuote": "7 Nov 2026 - 15 Jan 2027 (South Zone) | 2 6 | Until the 3rd day of the hunting season, you may not possess more than twice the daily limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zones are on the digest's upland zones map. Upland Game Permits by lottery apply on some IDNR sites. Years as printed in the source."
+  },
+  {
+    "id": "il-woodcock-2026",
+    "state": "IL",
+    "species": "woodcock",
+    "seasonName": "Woodcock",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2026-11-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "IDNR (Illinois)",
+    "sourceTitle": "Illinois DNR, 2026-2027 Illinois Digest of Hunting and Trapping Regulations",
+    "sourceUrl": "https://v3-wp.huntillinois.org/wp-content/uploads/2026/08/HuntTrapDigest.pdf",
+    "sourceQuote": "Woodcock Statewide 17 Oct - 30 Nov 2026 3 9",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed in the source."
+  },
+  {
+    "id": "il-deer-archery-2026",
+    "state": "IL",
+    "species": "deer",
+    "seasonName": "Archery Deer (counties with a firearm season and west of Route 47 in Kane County)",
+    "zone": "Counties with a firearm season, and Kane County west of Route 47",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2026-11-19",
+        "note": null
+      },
+      {
+        "open": "2026-11-23",
+        "close": "2026-12-02",
+        "note": null
+      },
+      {
+        "open": "2026-12-07",
+        "close": "2027-01-17",
+        "note": null
+      }
+    ],
+    "bagLimit": "One deer per archery permit (no more than 2 antlered deer per year)",
+    "possessionLimit": null,
+    "agency": "IDNR (Illinois)",
+    "sourceTitle": "Illinois DNR, 2026-2027 Illinois Digest of Hunting and Trapping Regulations",
+    "sourceUrl": "https://v3-wp.huntillinois.org/wp-content/uploads/2026/08/HuntTrapDigest.pdf",
+    "sourceQuote": "(Counties with a firearm season and | 1 Oct–19 Nov and | 23 Nov–2 Dec 2026 and | 7 Dec 2026–17 Jan 2027 | One deer per | archery permit | **No hunter, regardless of the quantity or type of permits in his/her possession, may harvest more than two antlered deer during a year",
+    "checkedDate": "2026-11-23",
+    "notes": "Archery is closed during the firearm deer seasons in these counties. Years as printed in the source."
+  },
+  {
+    "id": "il-deer-archery-chicago-2026",
+    "state": "IL",
+    "species": "deer",
+    "seasonName": "Archery Deer (Cook, DuPage, Lake and Kane east of Route 47)",
+    "zone": "Cook, DuPage, Lake and Kane (east of Route 47) counties",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2027-01-17",
+        "note": null
+      }
+    ],
+    "bagLimit": "One deer per archery permit (no more than 2 antlered deer per year)",
+    "possessionLimit": null,
+    "agency": "IDNR (Illinois)",
+    "sourceTitle": "Illinois DNR, 2026-2027 Illinois Digest of Hunting and Trapping Regulations",
+    "sourceUrl": "https://v3-wp.huntillinois.org/wp-content/uploads/2026/08/HuntTrapDigest.pdf",
+    "sourceQuote": "(Cook, DuPage, Lake and Kane | 1 Oct 2026–17 Jan 2027 | [east of route 47] Counties) | **No hunter, regardless of the quantity or type of permits in his/her possession, may harvest more than two antlered deer during a year",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed in the source."
+  },
+  {
+    "id": "il-turkey-fall-archery-2026",
+    "state": "IL",
+    "species": "turkey",
+    "seasonName": "Fall Turkey (archery)",
+    "zone": "Statewide (all counties)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2027-01-17",
+        "note": null
+      }
+    ],
+    "bagLimit": "One either-sex turkey per permit, maximum of 2 Fall Turkey Archery permits",
+    "possessionLimit": null,
+    "agency": "IDNR (Illinois)",
+    "sourceTitle": "Illinois DNR, 2026-2027 Illinois Digest of Hunting and Trapping Regulations",
+    "sourceUrl": "https://v3-wp.huntillinois.org/wp-content/uploads/2026/08/HuntTrapDigest.pdf",
+    "sourceQuote": "1 Oct 2026–17 Jan 2027 | counties, statewide. | Closed during firearm | deer season in counties | open to firearm deer | Turkey Archery permits",
+    "checkedDate": "2026-11-23",
+    "notes": "Closed during firearm deer season in counties open to firearm deer hunting. Years as printed in the source."
+  }
+]

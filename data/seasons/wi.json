@@ -1,0 +1,520 @@
+[
+  {
+    "id": "wi-teal-early-2026",
+    "state": "WI",
+    "species": "duck",
+    "seasonName": "Early Teal",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-09",
+        "note": "teal only"
+      }
+    ],
+    "bagLimit": "6",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "Wisconsin DNR",
+    "sourceTitle": "Wisconsin DNR, Fall 2026-Spring 2027 Wisconsin Hunting Regulations (WM-685-2026)",
+    "sourceUrl": "https://widnr.widen.net/s/cjb8ps98rq/fall-2026-spring-2027-wisconsin-hunting-regulations_pdf",
+    "sourceQuote": "Early Teal Sept. 1–9 6 | Early Teal Statewide Sept. 1–9 | Possess more than 3 times the daily",
+    "checkedDate": "2026-11-23",
+    "notes": "The 2026-27 regulations prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "wi-duck-northern-2026",
+    "state": "WI",
+    "species": "duck",
+    "seasonName": "Regular Duck Season, Northern Duck Zone",
+    "zone": "Northern Duck Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-20",
+        "note": "youth waterfowl (statewide)"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-11-24",
+        "note": null
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 mallards (2 hens), 2 black ducks, 3 pintail, 2 canvasbacks, 2 redheads, 3 wood ducks; scaup 1 or 2 by date); 5 mergansers (no more than 2 hooded); coot 15",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "Wisconsin DNR",
+    "sourceTitle": "Wisconsin DNR, Fall 2026-Spring 2027 Wisconsin Hunting Regulations (WM-685-2026)",
+    "sourceUrl": "https://widnr.widen.net/s/cjb8ps98rq/fall-2026-spring-2027-wisconsin-hunting-regulations_pdf",
+    "sourceQuote": "Northern Duck Zone Sept. 26–Nov. 24 2 scaup/day: Sept. 26–Nov. 9 1 scaup/day: Nov. 10-24 | Regular Duck Season Bag Limits: 6 ducks, to include not more than 4 mallards (2 hens), 2 black ducks, 3 pintail, 2 canvasbacks, 2 redheads, 3 wood ducks and scaup | mergansers to include not more than 2 hooded mergansers. | Youth Waterfowl Sept. 19-20 Same as regular duck season | Possess more than 3 times the daily",
+    "checkedDate": "2026-11-23",
+    "notes": "The 2026-27 regulations prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "wi-duck-southern-2026",
+    "state": "WI",
+    "species": "duck",
+    "seasonName": "Regular Duck Season, Southern Duck Zone",
+    "zone": "Southern Duck Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-20",
+        "note": "youth waterfowl (statewide)"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-11",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-12-06",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 mallards (2 hens), 2 black ducks, 3 pintail, 2 canvasbacks, 2 redheads, 3 wood ducks; scaup 1 or 2 by date); 5 mergansers (no more than 2 hooded); coot 15",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "Wisconsin DNR",
+    "sourceTitle": "Wisconsin DNR, Fall 2026-Spring 2027 Wisconsin Hunting Regulations (WM-685-2026)",
+    "sourceUrl": "https://widnr.widen.net/s/cjb8ps98rq/fall-2026-spring-2027-wisconsin-hunting-regulations_pdf",
+    "sourceQuote": "Southern Duck Zone Oct. 3-11; Oct. 17-Dec. 6 1 scaup/day: Oct. 3-11 and Oct. 17-22 2 scaup/day: Oct. 23-Dec. 6 | Regular Duck Season Bag Limits: 6 ducks, to include not more than 4 mallards (2 hens), 2 black ducks, 3 pintail, 2 canvasbacks, 2 redheads, 3 wood ducks and scaup | mergansers to include not more than 2 hooded mergansers. | Youth Waterfowl Sept. 19-20 Same as regular duck season | Possess more than 3 times the daily",
+    "checkedDate": "2026-11-23",
+    "notes": "The 2026-27 regulations prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "wi-duck-open-water-2026",
+    "state": "WI",
+    "species": "duck",
+    "seasonName": "Regular Duck Season, Open Water Duck Zone",
+    "zone": "Open Water Duck Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-20",
+        "note": "youth waterfowl (statewide)"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-12-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 mallards (2 hens), 2 black ducks, 3 pintail, 2 canvasbacks, 2 redheads, 3 wood ducks; scaup 1 or 2 by date); 5 mergansers (no more than 2 hooded); coot 15",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "Wisconsin DNR",
+    "sourceTitle": "Wisconsin DNR, Fall 2026-Spring 2027 Wisconsin Hunting Regulations (WM-685-2026)",
+    "sourceUrl": "https://widnr.widen.net/s/cjb8ps98rq/fall-2026-spring-2027-wisconsin-hunting-regulations_pdf",
+    "sourceQuote": "Open Water Duck Zone Oct. 17–Dec. 15 2 scaup/day: Oct. 17–Nov. 30 1 scaup/day: Dec. 1- 15 | Regular Duck Season Bag Limits: 6 ducks, to include not more than 4 mallards (2 hens), 2 black ducks, 3 pintail, 2 canvasbacks, 2 redheads, 3 wood ducks and scaup | mergansers to include not more than 2 hooded mergansers. | Youth Waterfowl Sept. 19-20 Same as regular duck season | Possess more than 3 times the daily",
+    "checkedDate": "2026-11-23",
+    "notes": "The 2026-27 regulations prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "wi-goose-early-2026",
+    "state": "WI",
+    "species": "goose",
+    "seasonName": "Early Canada Goose",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 Canada; 20 snow, blue or Ross",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "Wisconsin DNR",
+    "sourceTitle": "Wisconsin DNR, Fall 2026-Spring 2027 Wisconsin Hunting Regulations (WM-685-2026)",
+    "sourceUrl": "https://widnr.widen.net/s/cjb8ps98rq/fall-2026-spring-2027-wisconsin-hunting-regulations_pdf",
+    "sourceQuote": "Early Goose Sept. 1–15 5 Canada, 20 snow, blue or Ross | Early Canada Goose Statewide Sept. 1–15 | Possess more than 3 times the daily",
+    "checkedDate": "2026-11-23",
+    "notes": "A Canada Goose Permit is required. The 2026-27 regulations prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "wi-goose-northern-2026",
+    "state": "WI",
+    "species": "goose",
+    "seasonName": "Regular Goose Season, Northern Goose Zone",
+    "zone": "Northern Goose Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-16",
+        "close": "2026-12-16",
+        "note": null
+      }
+    ],
+    "bagLimit": "3 Canada geese, 20 white geese, 1 brant, 1 greater white-fronted goose",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "Wisconsin DNR",
+    "sourceTitle": "Wisconsin DNR, Fall 2026-Spring 2027 Wisconsin Hunting Regulations (WM-685-2026)",
+    "sourceUrl": "https://widnr.widen.net/s/cjb8ps98rq/fall-2026-spring-2027-wisconsin-hunting-regulations_pdf",
+    "sourceQuote": "Northern Goose Zone Sept. 16–Dec. 16 | Regular Goose Season Daily Bag Limits | 3 Canada geese | 20 white geese (snow/blue geese and | 1 Brant | 1 greater white-fronted goose | Possess more than 3 times the daily",
+    "checkedDate": "2026-11-23",
+    "notes": "The 2026-27 regulations prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "wi-goose-southern-2026",
+    "state": "WI",
+    "species": "goose",
+    "seasonName": "Regular Goose Season, Southern Goose Zone",
+    "zone": "Southern Goose Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-16",
+        "close": "2026-10-11",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-12-06",
+        "note": "second segment"
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2027-01-02",
+        "note": "holiday hunt (5 Canada geese/day)"
+      }
+    ],
+    "bagLimit": "3 Canada geese (5 during the Southern Zone holiday hunt Dec. 19-Jan. 2), 20 white geese, 1 brant, 1 greater white-fronted goose",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "Wisconsin DNR",
+    "sourceTitle": "Wisconsin DNR, Fall 2026-Spring 2027 Wisconsin Hunting Regulations (WM-685-2026)",
+    "sourceUrl": "https://widnr.widen.net/s/cjb8ps98rq/fall-2026-spring-2027-wisconsin-hunting-regulations_pdf",
+    "sourceQuote": "Southern Goose Zone Sept. 16–Oct. 11; Oct. 17–Dec. 6; Dec. 19–Jan. 2, 2027 | 5 Canada geese/day for holiday hunt portion of season in Southern Zone only (Dec. 19–Jan. 2, 2027) | Regular Goose Season Daily Bag Limits | 3 Canada geese | 20 white geese (snow/blue geese and | 1 Brant | 1 greater white-fronted goose | Possess more than 3 times the daily",
+    "checkedDate": "2026-11-23",
+    "notes": "The 2026-27 regulations prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "wi-goose-mississippi-2026",
+    "state": "WI",
+    "species": "goose",
+    "seasonName": "Regular Goose Season, Mississippi River Goose Zone",
+    "zone": "Mississippi River Goose Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-11",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2027-01-05",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "3 Canada geese, 20 white geese, 1 brant, 1 greater white-fronted goose",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "Wisconsin DNR",
+    "sourceTitle": "Wisconsin DNR, Fall 2026-Spring 2027 Wisconsin Hunting Regulations (WM-685-2026)",
+    "sourceUrl": "https://widnr.widen.net/s/cjb8ps98rq/fall-2026-spring-2027-wisconsin-hunting-regulations_pdf",
+    "sourceQuote": "Mississippi River Goose Zone Oct. 3–Oct. 11; Oct. 17–Jan. 5, 2027 | Regular Goose Season Daily Bag Limits | 3 Canada geese | 20 white geese (snow/blue geese and | 1 Brant | 1 greater white-fronted goose | Possess more than 3 times the daily",
+    "checkedDate": "2026-11-23",
+    "notes": "The 2026-27 regulations prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "wi-dove-2026",
+    "state": "WI",
+    "species": "dove",
+    "seasonName": "Mourning Dove",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-11-29",
+        "note": null
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "Wisconsin DNR",
+    "sourceTitle": "Wisconsin DNR, Fall 2026-Spring 2027 Wisconsin Hunting Regulations (WM-685-2026)",
+    "sourceUrl": "https://widnr.widen.net/s/cjb8ps98rq/fall-2026-spring-2027-wisconsin-hunting-regulations_pdf",
+    "sourceQuote": "Mourning Dove Sept. 1–Nov. 29 15 | Mourning Dove Statewide Sept. 1–Nov. 29 | Possess more than 3 times the daily",
+    "checkedDate": "2026-11-23",
+    "notes": "The 2026-27 regulations prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "wi-woodcock-2026",
+    "state": "WI",
+    "species": "woodcock",
+    "seasonName": "Woodcock",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-11-02",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "Wisconsin DNR",
+    "sourceTitle": "Wisconsin DNR, Fall 2026-Spring 2027 Wisconsin Hunting Regulations (WM-685-2026)",
+    "sourceUrl": "https://widnr.widen.net/s/cjb8ps98rq/fall-2026-spring-2027-wisconsin-hunting-regulations_pdf",
+    "sourceQuote": "Woodcock Sept. 19–Nov. 2 3 | Woodcock Statewide Sept. 19–Nov. 2 | Possess more than 3 times the daily",
+    "checkedDate": "2026-11-23",
+    "notes": "The 2026-27 regulations prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "wi-pheasant-2026",
+    "state": "WI",
+    "species": "pheasant",
+    "seasonName": "Pheasant",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2027-01-03",
+        "note": "opens 9 a.m. Oct. 17"
+      }
+    ],
+    "bagLimit": "1 rooster daily on opening weekend; 2 roosters daily for remainder of season",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "Wisconsin DNR",
+    "sourceTitle": "Wisconsin DNR, Fall 2026-Spring 2027 Wisconsin Hunting Regulations (WM-685-2026)",
+    "sourceUrl": "https://widnr.widen.net/s/cjb8ps98rq/fall-2026-spring-2027-wisconsin-hunting-regulations_pdf",
+    "sourceQuote": "Pheasant See below* Statewide Oct. 17 (9 a.m.)–Jan. 3 2027 | * Pheasant: One rooster daily on opening weekend; two roosters daily for remainder of | Possession limit is equal to three times the daily bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Hen and rooster hunting areas allow one pheasant (either sex) daily on opening weekend and two daily after. The 2026-27 regulations prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "wi-quail-2026",
+    "state": "WI",
+    "species": "quail",
+    "seasonName": "Bobwhite Quail",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2026-12-09",
+        "note": "opens 9 a.m. Oct. 17"
+      }
+    ],
+    "bagLimit": "5",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "Wisconsin DNR",
+    "sourceTitle": "Wisconsin DNR, Fall 2026-Spring 2027 Wisconsin Hunting Regulations (WM-685-2026)",
+    "sourceUrl": "https://widnr.widen.net/s/cjb8ps98rq/fall-2026-spring-2027-wisconsin-hunting-regulations_pdf",
+    "sourceQuote": "Bobwhite Quail 5 Statewide Oct. 17 (9 a.m.)–Dec. 9 | Possession limit is equal to three times the daily bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "The 2026-27 regulations prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "wi-grouse-ruffed-zone-a-2026",
+    "state": "WI",
+    "species": "grouse",
+    "seasonName": "Ruffed Grouse, Zone A",
+    "zone": "Zone A",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2027-01-03",
+        "note": null
+      }
+    ],
+    "bagLimit": "5",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "Wisconsin DNR",
+    "sourceTitle": "Wisconsin DNR, Fall 2026-Spring 2027 Wisconsin Hunting Regulations (WM-685-2026)",
+    "sourceUrl": "https://widnr.widen.net/s/cjb8ps98rq/fall-2026-spring-2027-wisconsin-hunting-regulations_pdf",
+    "sourceQuote": "Ruffed Grouse | 5 Zone A Sept. 12–Jan. 3, 2027 | Possession limit is equal to three times the daily bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "The 2026-27 regulations prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "wi-grouse-ruffed-zone-b-2026",
+    "state": "WI",
+    "species": "grouse",
+    "seasonName": "Ruffed Grouse, Zone B",
+    "zone": "Zone B",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2026-12-08",
+        "note": null
+      }
+    ],
+    "bagLimit": "2",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "Wisconsin DNR",
+    "sourceTitle": "Wisconsin DNR, Fall 2026-Spring 2027 Wisconsin Hunting Regulations (WM-685-2026)",
+    "sourceUrl": "https://widnr.widen.net/s/cjb8ps98rq/fall-2026-spring-2027-wisconsin-hunting-regulations_pdf",
+    "sourceQuote": "Ruffed Grouse | 2 Zone B Oct. 17–Dec. 8 | Possession limit is equal to three times the daily bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "The 2026-27 regulations prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "wi-partridge-2026",
+    "state": "WI",
+    "species": "partridge",
+    "seasonName": "Gray (Hungarian) Partridge",
+    "zone": "Statewide (closed in Clark, Marathon and Taylor counties)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2027-01-03",
+        "note": "opens 9 a.m. Oct. 17"
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "Wisconsin DNR",
+    "sourceTitle": "Wisconsin DNR, Fall 2026-Spring 2027 Wisconsin Hunting Regulations (WM-685-2026)",
+    "sourceUrl": "https://widnr.widen.net/s/cjb8ps98rq/fall-2026-spring-2027-wisconsin-hunting-regulations_pdf",
+    "sourceQuote": "3 Statewide** Oct. 17 (9 a.m.)–Jan. 3, 2027 | **Gray (Hungarian) partridge season CLOSED in Clark, Marathon and Taylor counties. | Possession limit is equal to three times the daily bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "The 2026-27 regulations prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "wi-turkey-fall-2026",
+    "state": "WI",
+    "species": "turkey",
+    "seasonName": "Fall 2026 Turkey",
+    "zone": "Statewide (harvest authorizations are zone-specific)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2027-01-03",
+        "note": null
+      }
+    ],
+    "bagLimit": "One turkey of any age or sex per harvest authorization",
+    "possessionLimit": null,
+    "agency": "Wisconsin DNR",
+    "sourceTitle": "Wisconsin DNR, Fall 2026-Spring 2027 Wisconsin Hunting Regulations (WM-685-2026)",
+    "sourceUrl": "https://widnr.widen.net/s/cjb8ps98rq/fall-2026-spring-2027-wisconsin-hunting-regulations_pdf",
+    "sourceQuote": "Fall 2026 Statewide Sept. 12-Jan. 3, 2027 One turkey of any age or sex | The fall turkey season in zones 6 | and 7 will now close on the same | date as zones 1-5 (Jan. 3, 2027).",
+    "checkedDate": "2026-11-23",
+    "notes": "Hunters need a fall turkey license, wild turkey stamp and a harvest authorization valid for the zone. Possession limit not stated. The 2026-27 regulations prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "wi-deer-archery-2026",
+    "state": "WI",
+    "species": "deer",
+    "seasonName": "Deer, Archery & Crossbow",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2027-01-03",
+        "note": null
+      }
+    ],
+    "bagLimit": "One buck per buck harvest authorization; one antlerless deer per antlerless harvest authorization (zone, DMU and land type)",
+    "possessionLimit": null,
+    "agency": "Wisconsin DNR",
+    "sourceTitle": "Wisconsin DNR, Fall 2026-Spring 2027 Wisconsin Hunting Regulations (WM-685-2026)",
+    "sourceUrl": "https://widnr.widen.net/s/cjb8ps98rq/fall-2026-spring-2027-wisconsin-hunting-regulations_pdf",
+    "sourceQuote": "Archery & Crossbow* Sept. 12–Jan. 3, 2027 | *Archery/crossbow season closes on Jan. 31, 2027 in metro sub- | the bag limit for all seasons | is one buck deer per unused buck deer harvest authorization valid statewide and one",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag limit is one buck per unused buck harvest authorization (statewide) and one antlerless deer per antlerless harvest authorization valid for the specified zone, DMU and land type; antlerless availability is set by DMU. Closes Jan. 31, 2027 in metro sub-units and select DMUs (county list in the regulations). No area is printed with the season line, so zone is null. The 2026-27 regulations prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "wi-deer-youth-disabled-2026",
+    "state": "WI",
+    "species": "deer",
+    "seasonName": "Deer, Youth and Disabled Deer Hunt",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-11",
+        "note": null
+      }
+    ],
+    "bagLimit": "One buck per buck harvest authorization; one antlerless deer per antlerless harvest authorization (zone, DMU and land type)",
+    "possessionLimit": null,
+    "agency": "Wisconsin DNR",
+    "sourceTitle": "Wisconsin DNR, Fall 2026-Spring 2027 Wisconsin Hunting Regulations (WM-685-2026)",
+    "sourceUrl": "https://widnr.widen.net/s/cjb8ps98rq/fall-2026-spring-2027-wisconsin-hunting-regulations_pdf",
+    "sourceQuote": "Youth and Disabled Deer Hunt Oct. 10–11 | The statewide Youth Deer Hunt (Oct. | the bag limit for all seasons | is one buck deer per unused buck deer harvest authorization valid statewide and one",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag limit is one buck per unused buck harvest authorization (statewide) and one antlerless deer per antlerless harvest authorization valid for the specified zone, DMU and land type; antlerless availability is set by DMU. Zone 'Statewide' from the What's New note ('The statewide Youth Deer Hunt'). The 2026-27 regulations prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "wi-deer-gun-2026",
+    "state": "WI",
+    "species": "deer",
+    "seasonName": "Deer, Gun",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-29",
+        "note": null
+      }
+    ],
+    "bagLimit": "One buck per buck harvest authorization; one antlerless deer per antlerless harvest authorization (zone, DMU and land type)",
+    "possessionLimit": null,
+    "agency": "Wisconsin DNR",
+    "sourceTitle": "Wisconsin DNR, Fall 2026-Spring 2027 Wisconsin Hunting Regulations (WM-685-2026)",
+    "sourceUrl": "https://widnr.widen.net/s/cjb8ps98rq/fall-2026-spring-2027-wisconsin-hunting-regulations_pdf",
+    "sourceQuote": "Gun Nov. 21-29 | the bag limit for all seasons | is one buck deer per unused buck deer harvest authorization valid statewide and one",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag limit is one buck per unused buck harvest authorization (statewide) and one antlerless deer per antlerless harvest authorization valid for the specified zone, DMU and land type; antlerless availability is set by DMU. No area printed with the season line, so zone is null. Metro sub-unit gun season runs Nov. 21-Dec. 9 (not recorded). The 2026-27 regulations prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "wi-deer-muzzleloader-2026",
+    "state": "WI",
+    "species": "deer",
+    "seasonName": "Deer, Muzzleloader",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-30",
+        "close": "2026-12-09",
+        "note": null
+      }
+    ],
+    "bagLimit": "One buck per buck harvest authorization; one antlerless deer per antlerless harvest authorization (zone, DMU and land type)",
+    "possessionLimit": null,
+    "agency": "Wisconsin DNR",
+    "sourceTitle": "Wisconsin DNR, Fall 2026-Spring 2027 Wisconsin Hunting Regulations (WM-685-2026)",
+    "sourceUrl": "https://widnr.widen.net/s/cjb8ps98rq/fall-2026-spring-2027-wisconsin-hunting-regulations_pdf",
+    "sourceQuote": "Muzzleloader Nov. 30-Dec. 9 | the bag limit for all seasons | is one buck deer per unused buck deer harvest authorization valid statewide and one",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag limit is one buck per unused buck harvest authorization (statewide) and one antlerless deer per antlerless harvest authorization valid for the specified zone, DMU and land type; antlerless availability is set by DMU. No area printed with the season line, so zone is null. The 2026-27 regulations prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "wi-deer-statewide-antlerless-2026",
+    "state": "WI",
+    "species": "deer",
+    "seasonName": "Deer, Statewide Antlerless Hunt",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-10",
+        "close": "2026-12-13",
+        "note": "antlerless only"
+      }
+    ],
+    "bagLimit": "One buck per buck harvest authorization; one antlerless deer per antlerless harvest authorization (zone, DMU and land type)",
+    "possessionLimit": null,
+    "agency": "Wisconsin DNR",
+    "sourceTitle": "Wisconsin DNR, Fall 2026-Spring 2027 Wisconsin Hunting Regulations (WM-685-2026)",
+    "sourceUrl": "https://widnr.widen.net/s/cjb8ps98rq/fall-2026-spring-2027-wisconsin-hunting-regulations_pdf",
+    "sourceQuote": "Statewide Antlerless Hunt Dec. 10-13 | the bag limit for all seasons | is one buck deer per unused buck deer harvest authorization valid statewide and one",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag limit is one buck per unused buck harvest authorization (statewide) and one antlerless deer per antlerless harvest authorization valid for the specified zone, DMU and land type; antlerless availability is set by DMU. Antlerless harvest authorizations are DMU-specific. The 2026-27 regulations prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  }
+]

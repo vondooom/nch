@@ -1,0 +1,473 @@
+[
+  {
+    "id": "in-teal-2026",
+    "state": "IN",
+    "species": "duck",
+    "seasonName": "Special teal season",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-13",
+        "note": "teal only; sunrise to sunset"
+      }
+    ],
+    "bagLimit": "6 (blue-winged and green-winged teal)",
+    "possessionLimit": "18",
+    "agency": "IDNR (Indiana)",
+    "sourceTitle": "Indiana DNR, Migratory Game Bird Seasons and Regulations page",
+    "sourceUrl": "https://www.in.gov/dnr/fish-and-wildlife/hunting-and-trapping/waterfowl-and-migratory-game-birds/migratory-gamebird-seasons-and-regulations",
+    "sourceQuote": "Teal Sept. 5 – 13, 2026 Six, any combination of blue-winged and green-winged teal. Possession limit: 18.",
+    "checkedDate": "2026-11-23",
+    "notes": "No teal hunting on Kankakee FWA. Years as printed in the source."
+  },
+  {
+    "id": "in-duck-north-2026",
+    "state": "IN",
+    "species": "duck",
+    "seasonName": "Ducks, coots and mergansers, North Zone",
+    "zone": "North Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-18",
+        "note": "youth waterfowl weekend; veterans and active-duty military days"
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2026-12-13",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2026-12-27",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 2 black ducks, 2 canvasbacks, 4 mallards (2 females), 1 mottled duck, 3 pintails, 2 redheads, 3 wood ducks; scaup 1 then 2 by date); mergansers 5 (no more than 2 hooded); coots 15",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "IDNR (Indiana)",
+    "sourceTitle": "Indiana DNR, Migratory Game Bird Seasons and Regulations page",
+    "sourceUrl": "https://www.in.gov/dnr/fish-and-wildlife/hunting-and-trapping/waterfowl-and-migratory-game-birds/migratory-gamebird-seasons-and-regulations",
+    "sourceQuote": "Regular duck seasons Zone Dates | North Zone Oct. 24 – Dec. 13, 2026 Dec. 19 – 27, 2026 | The daily bag limit for ducks is six. | Only four mallards may be taken daily, including not more than two females. | The daily bag for mergansers (which is separate from the duck limit) is five, including not more than two hooded mergansers. The daily bag limit for coots is 15. | Possession limit for ducks, coots, and mergansers is three times the daily bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Youth and veteran/active-duty days share the same dates on the DNR season card. Years as printed in the source."
+  },
+  {
+    "id": "in-duck-central-2026",
+    "state": "IN",
+    "species": "duck",
+    "seasonName": "Ducks, coots and mergansers, Central Zone",
+    "zone": "Central Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2026-10-25",
+        "note": "youth waterfowl weekend; veterans and active-duty military days"
+      },
+      {
+        "open": "2026-10-31",
+        "close": "2026-11-08",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2027-01-10",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 2 black ducks, 2 canvasbacks, 4 mallards (2 females), 1 mottled duck, 3 pintails, 2 redheads, 3 wood ducks; scaup 1 then 2 by date); mergansers 5 (no more than 2 hooded); coots 15",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "IDNR (Indiana)",
+    "sourceTitle": "Indiana DNR, Migratory Game Bird Seasons and Regulations page",
+    "sourceUrl": "https://www.in.gov/dnr/fish-and-wildlife/hunting-and-trapping/waterfowl-and-migratory-game-birds/migratory-gamebird-seasons-and-regulations",
+    "sourceQuote": "Regular duck seasons Zone Dates | Central Zone Oct. 31 - Nov. 8, 2026 Nov. 21, 2026 – Jan. 10, 2027 | The daily bag limit for ducks is six. | Only four mallards may be taken daily, including not more than two females. | The daily bag for mergansers (which is separate from the duck limit) is five, including not more than two hooded mergansers. The daily bag limit for coots is 15. | Possession limit for ducks, coots, and mergansers is three times the daily bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Youth and veteran/active-duty days share the same dates on the DNR season card. Years as printed in the source."
+  },
+  {
+    "id": "in-duck-south-2026",
+    "state": "IN",
+    "species": "duck",
+    "seasonName": "Ducks, coots and mergansers, South Zone",
+    "zone": "South Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-31",
+        "close": "2026-11-01",
+        "note": "youth waterfowl weekend; veterans and active-duty military days"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-08",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-11-28",
+        "close": "2027-01-24",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 2 black ducks, 2 canvasbacks, 4 mallards (2 females), 1 mottled duck, 3 pintails, 2 redheads, 3 wood ducks; scaup 1 then 2 by date); mergansers 5 (no more than 2 hooded); coots 15",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "IDNR (Indiana)",
+    "sourceTitle": "Indiana DNR, Migratory Game Bird Seasons and Regulations page",
+    "sourceUrl": "https://www.in.gov/dnr/fish-and-wildlife/hunting-and-trapping/waterfowl-and-migratory-game-birds/migratory-gamebird-seasons-and-regulations",
+    "sourceQuote": "Regular duck seasons Zone Dates | South Zone Nov. 7 - 8, 2026 Nov. 28, 2026 – Jan. 24, 2027 | The daily bag limit for ducks is six. | Only four mallards may be taken daily, including not more than two females. | The daily bag for mergansers (which is separate from the duck limit) is five, including not more than two hooded mergansers. The daily bag limit for coots is 15. | Possession limit for ducks, coots, and mergansers is three times the daily bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Youth and veteran/active-duty days share the same dates on the DNR season card. Years as printed in the source."
+  },
+  {
+    "id": "in-goose-north-2026",
+    "state": "IN",
+    "species": "goose",
+    "seasonName": "Canada geese, light geese, and brant, North Zone",
+    "zone": "North Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-13",
+        "note": "early segment"
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2026-11-01",
+        "note": null
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2027-02-14",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 Canada geese and brant (aggregate); 20 light geese",
+    "possessionLimit": "Three times the daily bag limit (Canada geese and brant); no possession limit for light geese",
+    "agency": "IDNR (Indiana)",
+    "sourceTitle": "Indiana DNR, Migratory Game Bird Seasons and Regulations page",
+    "sourceUrl": "https://www.in.gov/dnr/fish-and-wildlife/hunting-and-trapping/waterfowl-and-migratory-game-birds/migratory-gamebird-seasons-and-regulations",
+    "sourceQuote": "Canada geese, light geese, and brant Zone Dates | North Zone Sept. 5 – 13, 2026 Oct. 24 – Nov. 1, 2026 Nov. 21, 2026 – Feb. 14, 2027 | The bag limit for Canada geese and brant is five geese in the aggregate. The possession limit is three times the daily bag limit. | The daily bag limit for light geese (snow, blue, and/or Ross’ geese) is 20, with no possession limit for light geese.",
+    "checkedDate": "2026-11-23",
+    "notes": "White-fronted geese: Nov. 21, 2026-Feb. 14, 2027 in all three zones, 2 daily (not recorded separately). Years as printed in the source."
+  },
+  {
+    "id": "in-goose-central-2026",
+    "state": "IN",
+    "species": "goose",
+    "seasonName": "Canada geese, light geese, and brant, Central Zone",
+    "zone": "Central Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-13",
+        "note": "early segment"
+      },
+      {
+        "open": "2026-10-31",
+        "close": "2026-11-08",
+        "note": null
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2027-02-14",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 Canada geese and brant (aggregate); 20 light geese",
+    "possessionLimit": "Three times the daily bag limit (Canada geese and brant); no possession limit for light geese",
+    "agency": "IDNR (Indiana)",
+    "sourceTitle": "Indiana DNR, Migratory Game Bird Seasons and Regulations page",
+    "sourceUrl": "https://www.in.gov/dnr/fish-and-wildlife/hunting-and-trapping/waterfowl-and-migratory-game-birds/migratory-gamebird-seasons-and-regulations",
+    "sourceQuote": "Canada geese, light geese, and brant Zone Dates | Central Zone Sept. 5 – 13, 2026 Oct. 31 - Nov. 8, 2026 Nov. 21, 2026 – Feb. 14, 2027 | The bag limit for Canada geese and brant is five geese in the aggregate. The possession limit is three times the daily bag limit. | The daily bag limit for light geese (snow, blue, and/or Ross’ geese) is 20, with no possession limit for light geese.",
+    "checkedDate": "2026-11-23",
+    "notes": "White-fronted geese: Nov. 21, 2026-Feb. 14, 2027 in all three zones, 2 daily (not recorded separately). Years as printed in the source."
+  },
+  {
+    "id": "in-goose-south-2026",
+    "state": "IN",
+    "species": "goose",
+    "seasonName": "Canada geese, light geese, and brant, South Zone",
+    "zone": "South Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-13",
+        "note": "early segment"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-11",
+        "note": null
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2027-02-14",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 Canada geese and brant (aggregate); 20 light geese",
+    "possessionLimit": "Three times the daily bag limit (Canada geese and brant); no possession limit for light geese",
+    "agency": "IDNR (Indiana)",
+    "sourceTitle": "Indiana DNR, Migratory Game Bird Seasons and Regulations page",
+    "sourceUrl": "https://www.in.gov/dnr/fish-and-wildlife/hunting-and-trapping/waterfowl-and-migratory-game-birds/migratory-gamebird-seasons-and-regulations",
+    "sourceQuote": "Canada geese, light geese, and brant Zone Dates | South Zone Sept. 1 – 13, 2026 Nov. 7 - 11, 2026 Nov. 21, 2026 – Feb. 14, 2027 | The bag limit for Canada geese and brant is five geese in the aggregate. The possession limit is three times the daily bag limit. | The daily bag limit for light geese (snow, blue, and/or Ross’ geese) is 20, with no possession limit for light geese.",
+    "checkedDate": "2026-11-23",
+    "notes": "White-fronted geese: Nov. 21, 2026-Feb. 14, 2027 in all three zones, 2 daily (not recorded separately). Years as printed in the source."
+  },
+  {
+    "id": "in-dove-2026",
+    "state": "IN",
+    "species": "dove",
+    "seasonName": "Mourning Doves",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-10-18",
+        "note": null
+      },
+      {
+        "open": "2026-11-01",
+        "close": "2026-11-29",
+        "note": null
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": "45",
+    "agency": "IDNR (Indiana)",
+    "sourceTitle": "Indiana DNR, Migratory Game Bird Seasons and Regulations page",
+    "sourceUrl": "https://www.in.gov/dnr/fish-and-wildlife/hunting-and-trapping/waterfowl-and-migratory-game-birds/migratory-gamebird-seasons-and-regulations",
+    "sourceQuote": "Mourning Doves Sept. 1 - Oct. 18, Nov. 1-29, Dec. 19 – 31, 2026 15. Possession limit: 45.",
+    "checkedDate": "2026-11-23",
+    "notes": "Statewide per the DNR season card (no zones). Years as printed in the source."
+  },
+  {
+    "id": "in-woodcock-2026",
+    "state": "IN",
+    "species": "woodcock",
+    "seasonName": "Woodcock",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-15",
+        "close": "2026-11-28",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "IDNR (Indiana)",
+    "sourceTitle": "Indiana DNR, Migratory Game Bird Seasons and Regulations page",
+    "sourceUrl": "https://www.in.gov/dnr/fish-and-wildlife/hunting-and-trapping/waterfowl-and-migratory-game-birds/migratory-gamebird-seasons-and-regulations",
+    "sourceQuote": "Woodcock Oct. 15 - Nov. 28, 2026 3. Possession limit: 9.",
+    "checkedDate": "2026-11-23",
+    "notes": "Hunter orange required. Statewide per the DNR season card (no zones). Years as printed in the source."
+  },
+  {
+    "id": "in-pheasant-2026",
+    "state": "IN",
+    "species": "pheasant",
+    "seasonName": "Pheasant (statewide-cock only)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-01",
+        "close": "2026-12-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "2",
+    "possessionLimit": "Two times the daily bag limit",
+    "agency": "IDNR (Indiana)",
+    "sourceTitle": "Indiana DNR, Hunting & Trapping Seasons (April 2026-March 2027)",
+    "sourceUrl": "https://www.in.gov/dnr/fish-and-wildlife/files/fw-hunting_trapping_seasons.pdf",
+    "sourceQuote": "Pheasant (statewide-cock only) Nov. 1 – Dec. 15, 2026 2 | * The possession limit on pheasants, quail, rabbits, squirrels, frogs, and turtles is two times the daily bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed in the source."
+  },
+  {
+    "id": "in-quail-north-2026",
+    "state": "IN",
+    "species": "quail",
+    "seasonName": "Quail (North of I-74)",
+    "zone": "North of I-74",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-01",
+        "close": "2026-12-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "4",
+    "possessionLimit": "Two times the daily bag limit",
+    "agency": "IDNR (Indiana)",
+    "sourceTitle": "Indiana DNR, Hunting & Trapping Seasons (April 2026-March 2027)",
+    "sourceUrl": "https://www.in.gov/dnr/fish-and-wildlife/files/fw-hunting_trapping_seasons.pdf",
+    "sourceQuote": "Quail (North of I-74)** Nov. 1 – Dec. 15, 2026 4 | * The possession limit on pheasants, quail, rabbits, squirrels, frogs, and turtles is two times the daily bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Quail limits vary on some DNR properties. Years as printed in the source."
+  },
+  {
+    "id": "in-quail-south-2026",
+    "state": "IN",
+    "species": "quail",
+    "seasonName": "Quail (South of I-74)",
+    "zone": "South of I-74",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-01",
+        "close": "2027-01-10",
+        "note": null
+      }
+    ],
+    "bagLimit": "8",
+    "possessionLimit": "Two times the daily bag limit",
+    "agency": "IDNR (Indiana)",
+    "sourceTitle": "Indiana DNR, Hunting & Trapping Seasons (April 2026-March 2027)",
+    "sourceUrl": "https://www.in.gov/dnr/fish-and-wildlife/files/fw-hunting_trapping_seasons.pdf",
+    "sourceQuote": "Quail (South of I-74)** Nov. 1, 2026 – Jan. 10, 2027 8 | * The possession limit on pheasants, quail, rabbits, squirrels, frogs, and turtles is two times the daily bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Quail limits vary on some DNR properties. Years as printed in the source."
+  },
+  {
+    "id": "in-turkey-fall-2026",
+    "state": "IN",
+    "species": "turkey",
+    "seasonName": "Wild Turkey, Fall (archery and firearms)",
+    "zone": "Counties open to fall turkey hunting (listed in the Hunting & Trapping Guide)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2026-11-01",
+        "note": "fall archery"
+      },
+      {
+        "open": "2026-12-05",
+        "close": "2027-01-03",
+        "note": "fall archery"
+      },
+      {
+        "open": "2026-10-21",
+        "close": "2026-11-01",
+        "note": "fall firearms"
+      }
+    ],
+    "bagLimit": "1 bird of either sex per hunter each fall",
+    "possessionLimit": null,
+    "agency": "IDNR (Indiana)",
+    "sourceTitle": "Indiana DNR, Hunting & Trapping Seasons (April 2026-March 2027)",
+    "sourceUrl": "https://www.in.gov/dnr/fish-and-wildlife/files/fw-hunting_trapping_seasons.pdf",
+    "sourceQuote": "Oct.1 – Nov. 1, 2026 | Fall-Archery* | Dec. 5, 2026 – Jan. 3, 2027 | Fall-Firearms* Oct. 21 – Nov. 1, 2026 | * See Hunting and Trapping Guide for counties open to fall turkey hunting. No more than one bird of either sex may be taken in the fall",
+    "checkedDate": "2026-11-23",
+    "notes": "Open counties are listed in the guide, not recorded here. Years as printed in the source."
+  },
+  {
+    "id": "in-deer-youth-2026",
+    "state": "IN",
+    "species": "deer",
+    "seasonName": "Deer, Youth",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-27",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "IDNR (Indiana)",
+    "sourceTitle": "Indiana DNR, Hunting & Trapping Seasons (April 2026-March 2027)",
+    "sourceUrl": "https://www.in.gov/dnr/fish-and-wildlife/files/fw-hunting_trapping_seasons.pdf",
+    "sourceQuote": "Youth Sept. 26 & 27, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag limits are in the current Hunting & Trapping Guide (not recorded); the season card prints no area. Deer Reduction Zones (Sept. 15, 2026-Jan. 31, 2027) are designated locations only (not recorded). Years as printed in the source."
+  },
+  {
+    "id": "in-deer-archery-2026",
+    "state": "IN",
+    "species": "deer",
+    "seasonName": "Deer, Archery",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2027-01-03",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "IDNR (Indiana)",
+    "sourceTitle": "Indiana DNR, Hunting & Trapping Seasons (April 2026-March 2027)",
+    "sourceUrl": "https://www.in.gov/dnr/fish-and-wildlife/files/fw-hunting_trapping_seasons.pdf",
+    "sourceQuote": "Archery Oct. 1, 2026 – Jan. 3, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag limits are in the current Hunting & Trapping Guide (not recorded); the season card prints no area. Deer Reduction Zones (Sept. 15, 2026-Jan. 31, 2027) are designated locations only (not recorded). Years as printed in the source."
+  },
+  {
+    "id": "in-deer-firearms-2026",
+    "state": "IN",
+    "species": "deer",
+    "seasonName": "Deer, Firearms",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-14",
+        "close": "2026-11-29",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "IDNR (Indiana)",
+    "sourceTitle": "Indiana DNR, Hunting & Trapping Seasons (April 2026-March 2027)",
+    "sourceUrl": "https://www.in.gov/dnr/fish-and-wildlife/files/fw-hunting_trapping_seasons.pdf",
+    "sourceQuote": "Firearms Nov. 14 – Nov. 29, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag limits are in the current Hunting & Trapping Guide (not recorded); the season card prints no area. Deer Reduction Zones (Sept. 15, 2026-Jan. 31, 2027) are designated locations only (not recorded). Years as printed in the source."
+  },
+  {
+    "id": "in-deer-muzzleloader-2026",
+    "state": "IN",
+    "species": "deer",
+    "seasonName": "Deer, Muzzleloader",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-05",
+        "close": "2026-12-20",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "IDNR (Indiana)",
+    "sourceTitle": "Indiana DNR, Hunting & Trapping Seasons (April 2026-March 2027)",
+    "sourceUrl": "https://www.in.gov/dnr/fish-and-wildlife/files/fw-hunting_trapping_seasons.pdf",
+    "sourceQuote": "Muzzleloader Dec. 5 – 20, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag limits are in the current Hunting & Trapping Guide (not recorded); the season card prints no area. Deer Reduction Zones (Sept. 15, 2026-Jan. 31, 2027) are designated locations only (not recorded). Years as printed in the source."
+  }
+]

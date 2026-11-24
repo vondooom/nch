@@ -467,5 +467,917 @@
     "sourceQuote": "Combined Season Limit Six: no more than two may be antlered. | Holiday Antlerless Deer Gun Dec 18, 2026 - Dec 31, 2026 Two : antlerless only. Harvest of antlerless mule deer is prohibited. Deer taken during the holiday antlerless deer gun season do not count toward the hunter’s combined season limit of six deer.",
     "checkedDate": "2026-11-23",
     "notes": "Combined season limit is six deer, no more than two antlered (archery, youth gun, muzzleloader and gun). Antlerless harvest during firearm seasons is limited to the Antlerless Deer Zones (map). Listed for all antlerless zones, including Zone 1, on the deer page. The page prints the same dates under every antlerless deer zone (1-10); it does not use the word statewide. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-panhandle-archery-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Elk Archery, Panhandle Zone",
+    "zone": "Panhandle Zone (All private lands in Beaver, Cimarron, and Texas counties)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2027-01-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "Two (2) elk, one of which must be antlerless",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Elk Archery Oct 1, 2026 - Jan 15, 2027 (only in open zones) | Panhandle Zone : All private lands in Beaver, Cimarron, and Texas counties. | Zone bag limit: Two (2) elk, one of which must be antlerless. | Zone harvest quota: Eighty (80) elk, no more than Sixty (60) may be antlered.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 80 elk, no more than 60 antlered. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-panhandle-youth-gun-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Youth Elk Gun, Panhandle Zone",
+    "zone": "Panhandle Zone (All private lands in Beaver, Cimarron, and Texas counties)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-16",
+        "close": "2026-10-18",
+        "note": null
+      }
+    ],
+    "bagLimit": "Two (2) elk, one of which must be antlerless",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Youth Elk Gun Oct 16, 2026 - Oct 18, 2026 (only in open zones) | Panhandle Zone : All private lands in Beaver, Cimarron, and Texas counties. | Zone bag limit: Two (2) elk, one of which must be antlerless. | Zone harvest quota: Eighty (80) elk, no more than Sixty (60) may be antlered.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 80 elk, no more than 60 antlered. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-panhandle-muzzleloader-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Elk Muzzleloader, Panhandle Zone",
+    "zone": "Panhandle Zone (All private lands in Beaver, Cimarron, and Texas counties)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2026-11-01",
+        "note": null
+      }
+    ],
+    "bagLimit": "Two (2) elk, one of which must be antlerless",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Elk Muzzleloader Oct 24, 2026 - Nov 1, 2026 (only in open zones) | Panhandle Zone : All private lands in Beaver, Cimarron, and Texas counties. | Zone bag limit: Two (2) elk, one of which must be antlerless. | Zone harvest quota: Eighty (80) elk, no more than Sixty (60) may be antlered.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 80 elk, no more than 60 antlered. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-panhandle-gun-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Elk Gun, Panhandle Zone",
+    "zone": "Panhandle Zone (All private lands in Beaver, Cimarron, and Texas counties)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2026-12-06",
+        "note": null
+      }
+    ],
+    "bagLimit": "Two (2) elk, one of which must be antlerless",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Elk Gun Nov 21, 2026 - Dec 6, 2026 (only in open zones) | Panhandle Zone : All private lands in Beaver, Cimarron, and Texas counties. | Zone bag limit: Two (2) elk, one of which must be antlerless. | Zone harvest quota: Eighty (80) elk, no more than Sixty (60) may be antlered.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 80 elk, no more than 60 antlered. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-panhandle-holiday-antlerless-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Holiday Antlerless Elk Gun, Panhandle Zone",
+    "zone": "Panhandle Zone (All private lands in Beaver, Cimarron, and Texas counties)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-18",
+        "close": "2026-12-31",
+        "note": "antlerless only"
+      }
+    ],
+    "bagLimit": "Two (2) elk, one of which must be antlerless",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Holiday Antlerless Elk Gun Dec 18, 2026 - Dec 31, 2026 (only in open zones) | Panhandle Zone : All private lands in Beaver, Cimarron, and Texas counties. | Zone bag limit: Two (2) elk, one of which must be antlerless. | Zone harvest quota: Eighty (80) elk, no more than Sixty (60) may be antlered.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 80 elk, no more than 60 antlered. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-special-northwest-archery-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Elk Archery, Special Northwest Zone",
+    "zone": "Special Northwest Zone (All private lands in Woodward, Dewey and Ellis counties, and the portion of Roger Mills County north of State Highways 33 and 47)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2027-01-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "One (1) elk, regardless of sex",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Elk Archery Oct 1, 2026 - Jan 15, 2027 (only in open zones) | Special Northwest Zone : All private lands in Woodward, Dewey and Ellis counties, and a portion of Roger Mills County north of State Highways 33 and 47 | Zone bag limit: One (1) elk, regardless of sex. | Zone harvest quota: Eight (8) elk, no more than 3 of which may be antlered.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 8 elk, no more than 3 antlered. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-special-northwest-youth-gun-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Youth Elk Gun, Special Northwest Zone",
+    "zone": "Special Northwest Zone (All private lands in Woodward, Dewey and Ellis counties, and the portion of Roger Mills County north of State Highways 33 and 47)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-16",
+        "close": "2026-10-18",
+        "note": null
+      }
+    ],
+    "bagLimit": "One (1) elk, regardless of sex",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Youth Elk Gun Oct 16, 2026 - Oct 18, 2026 (only in open zones) | Special Northwest Zone : All private lands in Woodward, Dewey and Ellis counties, and a portion of Roger Mills County north of State Highways 33 and 47 | Zone bag limit: One (1) elk, regardless of sex. | Zone harvest quota: Eight (8) elk, no more than 3 of which may be antlered.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 8 elk, no more than 3 antlered. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-special-northwest-muzzleloader-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Elk Muzzleloader, Special Northwest Zone",
+    "zone": "Special Northwest Zone (All private lands in Woodward, Dewey and Ellis counties, and the portion of Roger Mills County north of State Highways 33 and 47)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2026-11-01",
+        "note": null
+      }
+    ],
+    "bagLimit": "One (1) elk, regardless of sex",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Elk Muzzleloader Oct 24, 2026 - Nov 1, 2026 (only in open zones) | Special Northwest Zone : All private lands in Woodward, Dewey and Ellis counties, and a portion of Roger Mills County north of State Highways 33 and 47 | Zone bag limit: One (1) elk, regardless of sex. | Zone harvest quota: Eight (8) elk, no more than 3 of which may be antlered.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 8 elk, no more than 3 antlered. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-special-northwest-gun-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Elk Gun, Special Northwest Zone",
+    "zone": "Special Northwest Zone (All private lands in Woodward, Dewey and Ellis counties, and the portion of Roger Mills County north of State Highways 33 and 47)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2026-12-06",
+        "note": null
+      }
+    ],
+    "bagLimit": "One (1) elk, regardless of sex",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Elk Gun Nov 21, 2026 - Dec 6, 2026 (only in open zones) | Special Northwest Zone : All private lands in Woodward, Dewey and Ellis counties, and a portion of Roger Mills County north of State Highways 33 and 47 | Zone bag limit: One (1) elk, regardless of sex. | Zone harvest quota: Eight (8) elk, no more than 3 of which may be antlered.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 8 elk, no more than 3 antlered. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-special-northwest-holiday-antlerless-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Holiday Antlerless Elk Gun, Special Northwest Zone",
+    "zone": "Special Northwest Zone (All private lands in Woodward, Dewey and Ellis counties, and the portion of Roger Mills County north of State Highways 33 and 47)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-18",
+        "close": "2026-12-31",
+        "note": "antlerless only"
+      }
+    ],
+    "bagLimit": "One (1) elk, regardless of sex",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Holiday Antlerless Elk Gun Dec 18, 2026 - Dec 31, 2026 (only in open zones) | Special Northwest Zone : All private lands in Woodward, Dewey and Ellis counties, and a portion of Roger Mills County north of State Highways 33 and 47 | Zone bag limit: One (1) elk, regardless of sex. | Zone harvest quota: Eight (8) elk, no more than 3 of which may be antlered.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 8 elk, no more than 3 antlered. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-northwest-archery-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Elk Archery, Northwest Zone",
+    "zone": "Northwest Zone (All private lands north of I-40 and west of I-35, excluding the Panhandle and Special Northwest zones)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2027-01-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "One (1) elk, regardless of sex",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Elk Archery Oct 1, 2026 - Jan 15, 2027 (only in open zones) | Northwest Zone : All private lands north of Interstate 40 and west of Interstate 35, excluding the counties in the Panhandle Zone and counties or parts thereof in the Special Northwest Zone. | Zone harvest quota: Eight (8) elk.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 8 elk. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-northwest-youth-gun-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Youth Elk Gun, Northwest Zone",
+    "zone": "Northwest Zone (All private lands north of I-40 and west of I-35, excluding the Panhandle and Special Northwest zones)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-16",
+        "close": "2026-10-18",
+        "note": null
+      }
+    ],
+    "bagLimit": "One (1) elk, regardless of sex",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Youth Elk Gun Oct 16, 2026 - Oct 18, 2026 (only in open zones) | Northwest Zone : All private lands north of Interstate 40 and west of Interstate 35, excluding the counties in the Panhandle Zone and counties or parts thereof in the Special Northwest Zone. | Zone harvest quota: Eight (8) elk.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 8 elk. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-northwest-muzzleloader-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Elk Muzzleloader, Northwest Zone",
+    "zone": "Northwest Zone (All private lands north of I-40 and west of I-35, excluding the Panhandle and Special Northwest zones)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2026-11-01",
+        "note": null
+      }
+    ],
+    "bagLimit": "One (1) elk, regardless of sex",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Elk Muzzleloader Oct 24, 2026 - Nov 1, 2026 (only in open zones) | Northwest Zone : All private lands north of Interstate 40 and west of Interstate 35, excluding the counties in the Panhandle Zone and counties or parts thereof in the Special Northwest Zone. | Zone harvest quota: Eight (8) elk.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 8 elk. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-northwest-gun-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Elk Gun, Northwest Zone",
+    "zone": "Northwest Zone (All private lands north of I-40 and west of I-35, excluding the Panhandle and Special Northwest zones)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2026-12-06",
+        "note": null
+      }
+    ],
+    "bagLimit": "One (1) elk, regardless of sex",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Elk Gun Nov 21, 2026 - Dec 6, 2026 (only in open zones) | Northwest Zone : All private lands north of Interstate 40 and west of Interstate 35, excluding the counties in the Panhandle Zone and counties or parts thereof in the Special Northwest Zone. | Zone harvest quota: Eight (8) elk.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 8 elk. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-northwest-holiday-antlerless-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Holiday Antlerless Elk Gun, Northwest Zone",
+    "zone": "Northwest Zone (All private lands north of I-40 and west of I-35, excluding the Panhandle and Special Northwest zones)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-18",
+        "close": "2026-12-31",
+        "note": "antlerless only"
+      }
+    ],
+    "bagLimit": "One (1) elk, regardless of sex",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Holiday Antlerless Elk Gun Dec 18, 2026 - Dec 31, 2026 (only in open zones) | Northwest Zone : All private lands north of Interstate 40 and west of Interstate 35, excluding the counties in the Panhandle Zone and counties or parts thereof in the Special Northwest Zone. | Zone harvest quota: Eight (8) elk.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 8 elk. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-northeast-archery-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Elk Archery, Northeast Zone",
+    "zone": "Northeast Zone (All private lands north of I-40 and east of I-35)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2027-01-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "One (1) elk, regardless of sex",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Elk Archery Oct 1, 2026 - Jan 15, 2027 (only in open zones) | Northeast Zone : All private lands north of Interstate 40 and east of Interstate 35. | Zone harvest quota: Twenty (20) elk.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 20 elk. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-northeast-youth-gun-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Youth Elk Gun, Northeast Zone",
+    "zone": "Northeast Zone (All private lands north of I-40 and east of I-35)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-16",
+        "close": "2026-10-18",
+        "note": null
+      }
+    ],
+    "bagLimit": "One (1) elk, regardless of sex",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Youth Elk Gun Oct 16, 2026 - Oct 18, 2026 (only in open zones) | Northeast Zone : All private lands north of Interstate 40 and east of Interstate 35. | Zone harvest quota: Twenty (20) elk.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 20 elk. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-northeast-muzzleloader-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Elk Muzzleloader, Northeast Zone",
+    "zone": "Northeast Zone (All private lands north of I-40 and east of I-35)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2026-11-01",
+        "note": null
+      }
+    ],
+    "bagLimit": "One (1) elk, regardless of sex",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Elk Muzzleloader Oct 24, 2026 - Nov 1, 2026 (only in open zones) | Northeast Zone : All private lands north of Interstate 40 and east of Interstate 35. | Zone harvest quota: Twenty (20) elk.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 20 elk. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-northeast-gun-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Elk Gun, Northeast Zone",
+    "zone": "Northeast Zone (All private lands north of I-40 and east of I-35)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2026-12-06",
+        "note": null
+      }
+    ],
+    "bagLimit": "One (1) elk, regardless of sex",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Elk Gun Nov 21, 2026 - Dec 6, 2026 (only in open zones) | Northeast Zone : All private lands north of Interstate 40 and east of Interstate 35. | Zone harvest quota: Twenty (20) elk.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 20 elk. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-northeast-holiday-antlerless-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Holiday Antlerless Elk Gun, Northeast Zone",
+    "zone": "Northeast Zone (All private lands north of I-40 and east of I-35)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-18",
+        "close": "2026-12-31",
+        "note": "antlerless only"
+      }
+    ],
+    "bagLimit": "One (1) elk, regardless of sex",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Holiday Antlerless Elk Gun Dec 18, 2026 - Dec 31, 2026 (only in open zones) | Northeast Zone : All private lands north of Interstate 40 and east of Interstate 35. | Zone harvest quota: Twenty (20) elk.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 20 elk. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-southeast-archery-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Elk Archery, Southeast Zone",
+    "zone": "Southeast Zone (All private lands south of I-40 and east of I-35)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2027-01-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "One (1) elk, regardless of sex",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Elk Archery Oct 1, 2026 - Jan 15, 2027 (only in open zones) | Southeast Zone : All private lands south of Interstate 40 and east of Interstate 35. | Zone harvest quota: Five (5) elk.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 5 elk. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-southeast-youth-gun-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Youth Elk Gun, Southeast Zone",
+    "zone": "Southeast Zone (All private lands south of I-40 and east of I-35)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-16",
+        "close": "2026-10-18",
+        "note": null
+      }
+    ],
+    "bagLimit": "One (1) elk, regardless of sex",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Youth Elk Gun Oct 16, 2026 - Oct 18, 2026 (only in open zones) | Southeast Zone : All private lands south of Interstate 40 and east of Interstate 35. | Zone harvest quota: Five (5) elk.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 5 elk. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-southeast-muzzleloader-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Elk Muzzleloader, Southeast Zone",
+    "zone": "Southeast Zone (All private lands south of I-40 and east of I-35)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2026-11-01",
+        "note": null
+      }
+    ],
+    "bagLimit": "One (1) elk, regardless of sex",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Elk Muzzleloader Oct 24, 2026 - Nov 1, 2026 (only in open zones) | Southeast Zone : All private lands south of Interstate 40 and east of Interstate 35. | Zone harvest quota: Five (5) elk.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 5 elk. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-southeast-gun-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Elk Gun, Southeast Zone",
+    "zone": "Southeast Zone (All private lands south of I-40 and east of I-35)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2026-12-06",
+        "note": null
+      }
+    ],
+    "bagLimit": "One (1) elk, regardless of sex",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Elk Gun Nov 21, 2026 - Dec 6, 2026 (only in open zones) | Southeast Zone : All private lands south of Interstate 40 and east of Interstate 35. | Zone harvest quota: Five (5) elk.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 5 elk. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-southeast-holiday-antlerless-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Holiday Antlerless Elk Gun, Southeast Zone",
+    "zone": "Southeast Zone (All private lands south of I-40 and east of I-35)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-18",
+        "close": "2026-12-31",
+        "note": "antlerless only"
+      }
+    ],
+    "bagLimit": "One (1) elk, regardless of sex",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Holiday Antlerless Elk Gun Dec 18, 2026 - Dec 31, 2026 (only in open zones) | Southeast Zone : All private lands south of Interstate 40 and east of Interstate 35. | Zone harvest quota: Five (5) elk.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 5 elk. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-southwest-archery-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Elk Archery, Southwest Zone",
+    "zone": "Southwest Zone (All private lands south of I-40 and west of I-35, excluding the Special Southwest Zone)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2027-01-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "One (1) elk, regardless of sex",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Elk Archery Oct 1, 2026 - Jan 15, 2027 (only in open zones) | Southwest Zone : All private lands south of Interstate 40 and west of Interstate 35, excluding the counties in the Special Southwest Zone. | Zone harvest quota: Thirty (30) elk.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 30 elk. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-southwest-youth-gun-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Youth Elk Gun, Southwest Zone",
+    "zone": "Southwest Zone (All private lands south of I-40 and west of I-35, excluding the Special Southwest Zone)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-16",
+        "close": "2026-10-18",
+        "note": null
+      }
+    ],
+    "bagLimit": "One (1) elk, regardless of sex",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Youth Elk Gun Oct 16, 2026 - Oct 18, 2026 (only in open zones) | Southwest Zone : All private lands south of Interstate 40 and west of Interstate 35, excluding the counties in the Special Southwest Zone. | Zone harvest quota: Thirty (30) elk.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 30 elk. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-southwest-muzzleloader-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Elk Muzzleloader, Southwest Zone",
+    "zone": "Southwest Zone (All private lands south of I-40 and west of I-35, excluding the Special Southwest Zone)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2026-11-01",
+        "note": null
+      }
+    ],
+    "bagLimit": "One (1) elk, regardless of sex",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Elk Muzzleloader Oct 24, 2026 - Nov 1, 2026 (only in open zones) | Southwest Zone : All private lands south of Interstate 40 and west of Interstate 35, excluding the counties in the Special Southwest Zone. | Zone harvest quota: Thirty (30) elk.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 30 elk. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-southwest-gun-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Elk Gun, Southwest Zone",
+    "zone": "Southwest Zone (All private lands south of I-40 and west of I-35, excluding the Special Southwest Zone)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2026-12-06",
+        "note": null
+      }
+    ],
+    "bagLimit": "One (1) elk, regardless of sex",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Elk Gun Nov 21, 2026 - Dec 6, 2026 (only in open zones) | Southwest Zone : All private lands south of Interstate 40 and west of Interstate 35, excluding the counties in the Special Southwest Zone. | Zone harvest quota: Thirty (30) elk.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 30 elk. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-southwest-holiday-antlerless-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Holiday Antlerless Elk Gun, Southwest Zone",
+    "zone": "Southwest Zone (All private lands south of I-40 and west of I-35, excluding the Special Southwest Zone)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-18",
+        "close": "2026-12-31",
+        "note": "antlerless only"
+      }
+    ],
+    "bagLimit": "One (1) elk, regardless of sex",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Holiday Antlerless Elk Gun Dec 18, 2026 - Dec 31, 2026 (only in open zones) | Southwest Zone : All private lands south of Interstate 40 and west of Interstate 35, excluding the counties in the Special Southwest Zone. | Zone harvest quota: Thirty (30) elk.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 30 elk. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-special-southeast-archery-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Elk Archery, Special Southeast Zone",
+    "zone": "Special Southeast Zone (All private lands east of I-35 in Carter and Murray counties)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2027-01-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "One (1) elk regardless of sex",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Elk Archery Oct 1, 2026 - Jan 15, 2027 (only in open zones) | Special Southeast Zone All privates lands east of Interstate 35 in the counties of Carter and Murray. | Same as statewide season dates for deer archery season, deer youth gun season, deer primitive firearms season, regular deer gun season and the holiday deer gun antlerless season where open. | Zone bag limit: One (1) elk regardless of sex. | Zone harvest quota: Eight (8) elk, no more than five (5) of which may be antlered.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 8 elk, no more than 5 antlered. The page sets this zone's dates as 'Same as statewide season dates for deer ... where open'; the statewide elk season lines (same dates as the deer seasons) are used. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-special-southeast-youth-gun-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Youth Elk Gun, Special Southeast Zone",
+    "zone": "Special Southeast Zone (All private lands east of I-35 in Carter and Murray counties)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-16",
+        "close": "2026-10-18",
+        "note": null
+      }
+    ],
+    "bagLimit": "One (1) elk regardless of sex",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Youth Elk Gun Oct 16, 2026 - Oct 18, 2026 (only in open zones) | Special Southeast Zone All privates lands east of Interstate 35 in the counties of Carter and Murray. | Same as statewide season dates for deer archery season, deer youth gun season, deer primitive firearms season, regular deer gun season and the holiday deer gun antlerless season where open. | Zone bag limit: One (1) elk regardless of sex. | Zone harvest quota: Eight (8) elk, no more than five (5) of which may be antlered.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 8 elk, no more than 5 antlered. The page sets this zone's dates as 'Same as statewide season dates for deer ... where open'; the statewide elk season lines (same dates as the deer seasons) are used. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-special-southeast-muzzleloader-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Elk Muzzleloader, Special Southeast Zone",
+    "zone": "Special Southeast Zone (All private lands east of I-35 in Carter and Murray counties)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2026-11-01",
+        "note": null
+      }
+    ],
+    "bagLimit": "One (1) elk regardless of sex",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Elk Muzzleloader Oct 24, 2026 - Nov 1, 2026 (only in open zones) | Special Southeast Zone All privates lands east of Interstate 35 in the counties of Carter and Murray. | Same as statewide season dates for deer archery season, deer youth gun season, deer primitive firearms season, regular deer gun season and the holiday deer gun antlerless season where open. | Zone bag limit: One (1) elk regardless of sex. | Zone harvest quota: Eight (8) elk, no more than five (5) of which may be antlered.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 8 elk, no more than 5 antlered. The page sets this zone's dates as 'Same as statewide season dates for deer ... where open'; the statewide elk season lines (same dates as the deer seasons) are used. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-special-southeast-gun-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Elk Gun, Special Southeast Zone",
+    "zone": "Special Southeast Zone (All private lands east of I-35 in Carter and Murray counties)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2026-12-06",
+        "note": null
+      }
+    ],
+    "bagLimit": "One (1) elk regardless of sex",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Elk Gun Nov 21, 2026 - Dec 6, 2026 (only in open zones) | Special Southeast Zone All privates lands east of Interstate 35 in the counties of Carter and Murray. | Same as statewide season dates for deer archery season, deer youth gun season, deer primitive firearms season, regular deer gun season and the holiday deer gun antlerless season where open. | Zone bag limit: One (1) elk regardless of sex. | Zone harvest quota: Eight (8) elk, no more than five (5) of which may be antlered.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 8 elk, no more than 5 antlered. The page sets this zone's dates as 'Same as statewide season dates for deer ... where open'; the statewide elk season lines (same dates as the deer seasons) are used. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-special-southeast-holiday-antlerless-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Holiday Antlerless Elk Gun, Special Southeast Zone",
+    "zone": "Special Southeast Zone (All private lands east of I-35 in Carter and Murray counties)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-18",
+        "close": "2026-12-31",
+        "note": "antlerless only"
+      }
+    ],
+    "bagLimit": "One (1) elk regardless of sex",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Holiday Antlerless Elk Gun Dec 18, 2026 - Dec 31, 2026 (only in open zones) | Special Southeast Zone All privates lands east of Interstate 35 in the counties of Carter and Murray. | Same as statewide season dates for deer archery season, deer youth gun season, deer primitive firearms season, regular deer gun season and the holiday deer gun antlerless season where open. | Zone bag limit: One (1) elk regardless of sex. | Zone harvest quota: Eight (8) elk, no more than five (5) of which may be antlered.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone harvest quota: 8 elk, no more than 5 antlered. The page sets this zone's dates as 'Same as statewide season dates for deer ... where open'; the statewide elk season lines (same dates as the deer seasons) are used. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Once a zone quota is met, the season closes; hunters must check quota status online before hunting. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-special-southwest-archery-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Elk Archery, Special Southwest Zone",
+    "zone": "Special Southwest Zone (all private lands in Caddo, Comanche and Kiowa counties)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2026-10-07",
+        "note": null
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2026-12-16",
+        "note": null
+      }
+    ],
+    "bagLimit": "Two (2) elk, regardless of sex, one of which must be antlerless",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Special Southwest Zone | These season dates are not in addition to the season dates in Open Zones. | These season dates include all private lands in Caddo, Comanche and Kiowa counties. | Archery: Oct. 1-7 and Dec. 12-16. | Zone bag limit: Two (2) elk, regardless of sex, one of which must be antlerless. | Zone harvest quota: There is no quota in this zone.",
+    "checkedDate": "2026-11-23",
+    "notes": "No quota in this zone. A legal bull here must have at least five points on at least one side. Muzzleloader season is closed in this zone. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Years as printed on the page. The page prints month and day only for this line; year 2026 assigned for the 2026-27 season."
+  },
+  {
+    "id": "ok-elk-special-southwest-gun-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Elk Gun, Special Southwest Zone",
+    "zone": "Special Southwest Zone (all private lands in Caddo, Comanche and Kiowa counties)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-08",
+        "close": "2026-10-14",
+        "note": null
+      },
+      {
+        "open": "2026-12-17",
+        "close": "2026-12-20",
+        "note": null
+      }
+    ],
+    "bagLimit": "Two (2) elk, regardless of sex, one of which must be antlerless",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Special Southwest Zone | These season dates are not in addition to the season dates in Open Zones. | These season dates include all private lands in Caddo, Comanche and Kiowa counties. | Gun : Oct. 8-14 and Dec. 17-20, 2026. | Zone bag limit: Two (2) elk, regardless of sex, one of which must be antlerless. | Zone harvest quota: There is no quota in this zone.",
+    "checkedDate": "2026-11-23",
+    "notes": "No quota in this zone. A legal bull here must have at least five points on at least one side. Muzzleloader season is closed in this zone. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Years as printed on the page."
+  },
+  {
+    "id": "ok-elk-special-southwest-youth-gun-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Elk Youth Elk Gun, Special Southwest Zone",
+    "zone": "Special Southwest Zone (all private lands in Caddo, Comanche and Kiowa counties)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-16",
+        "close": "2026-10-18",
+        "note": null
+      }
+    ],
+    "bagLimit": "Two (2) elk, regardless of sex, one of which must be antlerless",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Special Southwest Zone | These season dates are not in addition to the season dates in Open Zones. | These season dates include all private lands in Caddo, Comanche and Kiowa counties. | Youth Elk Gun : Oct. 16-18 | Zone bag limit: Two (2) elk, regardless of sex, one of which must be antlerless. | Zone harvest quota: There is no quota in this zone.",
+    "checkedDate": "2026-11-23",
+    "notes": "No quota in this zone. A legal bull here must have at least five points on at least one side. Muzzleloader season is closed in this zone. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Years as printed on the page. The page prints month and day only for this line; year 2026 assigned for the 2026-27 season."
+  },
+  {
+    "id": "ok-elk-special-southwest-additional-antlerless-gun-2026",
+    "state": "OK",
+    "species": "elk",
+    "seasonName": "Elk Additional Antlerless Gun Season, Special Southwest Zone",
+    "zone": "Special Southwest Zone (all private lands in Caddo, Comanche and Kiowa counties)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2026-12-06",
+        "note": "antlerless only"
+      },
+      {
+        "open": "2027-01-01",
+        "close": "2027-01-31",
+        "note": "antlerless only"
+      }
+    ],
+    "bagLimit": "Two (2) elk, regardless of sex, one of which must be antlerless",
+    "possessionLimit": null,
+    "agency": "ODWC",
+    "sourceTitle": "ODWC, Elk - Big Game Season (hunting regulations page)",
+    "sourceUrl": "https://www.wildlifedepartment.com/hunting/regs/elk-big-game-season",
+    "sourceQuote": "Special Southwest Zone | These season dates are not in addition to the season dates in Open Zones. | These season dates include all private lands in Caddo, Comanche and Kiowa counties. | Additional Antlerless Gun Season : Nov. 21 - Dec. 6, 2026 and Jan. 1-31, 2027; antlerless only. | Zone bag limit: Two (2) elk, regardless of sex, one of which must be antlerless. | Zone harvest quota: There is no quota in this zone.",
+    "checkedDate": "2026-11-23",
+    "notes": "No quota in this zone. A legal bull here must have at least five points on at least one side. Muzzleloader season is closed in this zone. Combined season limit is two elk, either sex; hunters must check the zone bag limit. Written landowner permission required; elk hunting is closed on Department-owned or managed lands except controlled hunts. Years as printed on the page."
   }
 ]

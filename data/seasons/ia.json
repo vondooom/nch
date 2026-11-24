@@ -1,0 +1,577 @@
+[
+  {
+    "id": "ia-teal-2026",
+    "state": "IA",
+    "species": "duck",
+    "seasonName": "Special September Teal",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-13",
+        "note": "teal only; sunrise to sunset"
+      }
+    ],
+    "bagLimit": "6 (blue-wing, green-wing and cinnamon teal only)",
+    "possessionLimit": "3 times the daily limit",
+    "agency": "Iowa DNR",
+    "sourceTitle": "Iowa DNR, 2026-27 Iowa Migratory Game Bird Hunting Seasons & Limits card",
+    "sourceUrl": "https://www.iowadnr.gov/media/1702/download?inline",
+    "sourceQuote": "TEAL SEASON: Daily limit 6; blue-wing, green-wing & cinnamon teal only | Teal Sept. 5-13 | POSSESSION LIMITS | 3 times the daily limit. Exception: light geese has no possession limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "The 2026-27 card prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ia-duck-north-2026",
+    "state": "IA",
+    "species": "duck",
+    "seasonName": "Ducks, Coots, Mergansers, North Zone",
+    "zone": "North Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-27",
+        "note": "youth waterfowl"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-09",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-12-08",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 mallards (2 female), 3 wood ducks, 3 pintail, 2 redheads, 2 black ducks, 2 canvasbacks; scaup 1 for first 15 days, 2 after); mergansers 5 (no more than 2 hooded); coots 15",
+    "possessionLimit": "3 times the daily limit",
+    "agency": "Iowa DNR",
+    "sourceTitle": "Iowa DNR, 2026-27 Iowa Migratory Game Bird Hunting Seasons & Limits card",
+    "sourceUrl": "https://www.iowadnr.gov/media/1702/download?inline",
+    "sourceQuote": "SEASON DATES NORTH ZONE CENTRAL ZONE SOUTH ZONE | Youth Waterfowl Sept. 26-27 Oct. 3-4 Oct. 10-11 | Ducks, Coots, Mergansers Oct. 3-9 & Oct. 10-16 & Oct. 17-23 & | Oct. 17-Dec. 8 Oct. 24-Dec. 15 Oct. 31-Dec. 22 | DUCKS: Daily limit 6; no more than 4 mallards (2 female), 3 wood ducks, 3 | pintail, 2 redheads, 2 black ducks & 2 canvasbacks. Scaup bag limit: 1 for | MERGANSERS: Daily limit 5; no more than 2 hooded mergansers. | COOTS: Daily limit 15 | POSSESSION LIMITS | 3 times the daily limit. Exception: light geese has no possession limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "The card prints the three zones in columns (North, Central, South); this record takes the North Zone column. The 2026-27 card prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ia-goose-north-2026",
+    "state": "IA",
+    "species": "goose",
+    "seasonName": "Dark & Light Geese, North Zone",
+    "zone": "North Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-10-11",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-12-08",
+        "note": "second segment"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-01-09",
+        "note": "third segment"
+      }
+    ],
+    "bagLimit": "5 dark geese (no more than 2 Canada geese in the first segment, 3 from the second segment on); 20 light geese",
+    "possessionLimit": "3 times the daily limit (no possession limit for light geese)",
+    "agency": "Iowa DNR",
+    "sourceTitle": "Iowa DNR, 2026-27 Iowa Migratory Game Bird Hunting Seasons & Limits card",
+    "sourceUrl": "https://www.iowadnr.gov/media/1702/download?inline",
+    "sourceQuote": "Dark & Light Geese Sept. 26-Oct. 11 & Oct. 3-18 & Oct. 10-25 & | Oct. 17-Dec. 8 & Oct. 24-Dec. 15 & Oct. 31-Dec. 22 & | Dec. 12-Jan. 9, 2027 Dec. 19-Jan. 16, 2027 Dec. 26-Jan. 23, 2027 | Dark goose daily limit is 5 | and may include no more than 2 Canada geese the first segment of the | daily limit for light geese is 20. | POSSESSION LIMITS | 3 times the daily limit. Exception: light geese has no possession limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Column for North Zone. Includes Canada, brant, white-fronted, snow and Ross' geese. Metro Canada goose season (Sept. 12-20) and the light goose conservation order (Jan. 24-May 1, 2027) are listed on the DNR seasons page (not recorded). The 2026-27 card prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ia-duck-central-2026",
+    "state": "IA",
+    "species": "duck",
+    "seasonName": "Ducks, Coots, Mergansers, Central Zone",
+    "zone": "Central Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-04",
+        "note": "youth waterfowl"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2026-12-15",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 mallards (2 female), 3 wood ducks, 3 pintail, 2 redheads, 2 black ducks, 2 canvasbacks; scaup 1 for first 15 days, 2 after); mergansers 5 (no more than 2 hooded); coots 15",
+    "possessionLimit": "3 times the daily limit",
+    "agency": "Iowa DNR",
+    "sourceTitle": "Iowa DNR, 2026-27 Iowa Migratory Game Bird Hunting Seasons & Limits card",
+    "sourceUrl": "https://www.iowadnr.gov/media/1702/download?inline",
+    "sourceQuote": "SEASON DATES NORTH ZONE CENTRAL ZONE SOUTH ZONE | Youth Waterfowl Sept. 26-27 Oct. 3-4 Oct. 10-11 | Ducks, Coots, Mergansers Oct. 3-9 & Oct. 10-16 & Oct. 17-23 & | Oct. 17-Dec. 8 Oct. 24-Dec. 15 Oct. 31-Dec. 22 | DUCKS: Daily limit 6; no more than 4 mallards (2 female), 3 wood ducks, 3 | pintail, 2 redheads, 2 black ducks & 2 canvasbacks. Scaup bag limit: 1 for | MERGANSERS: Daily limit 5; no more than 2 hooded mergansers. | COOTS: Daily limit 15 | POSSESSION LIMITS | 3 times the daily limit. Exception: light geese has no possession limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "The card prints the three zones in columns (North, Central, South); this record takes the Central Zone column. The 2026-27 card prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ia-goose-central-2026",
+    "state": "IA",
+    "species": "goose",
+    "seasonName": "Dark & Light Geese, Central Zone",
+    "zone": "Central Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-18",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2026-12-15",
+        "note": "second segment"
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2027-01-16",
+        "note": "third segment"
+      }
+    ],
+    "bagLimit": "5 dark geese (no more than 2 Canada geese in the first segment, 3 from the second segment on); 20 light geese",
+    "possessionLimit": "3 times the daily limit (no possession limit for light geese)",
+    "agency": "Iowa DNR",
+    "sourceTitle": "Iowa DNR, 2026-27 Iowa Migratory Game Bird Hunting Seasons & Limits card",
+    "sourceUrl": "https://www.iowadnr.gov/media/1702/download?inline",
+    "sourceQuote": "Dark & Light Geese Sept. 26-Oct. 11 & Oct. 3-18 & Oct. 10-25 & | Oct. 17-Dec. 8 & Oct. 24-Dec. 15 & Oct. 31-Dec. 22 & | Dec. 12-Jan. 9, 2027 Dec. 19-Jan. 16, 2027 Dec. 26-Jan. 23, 2027 | Dark goose daily limit is 5 | and may include no more than 2 Canada geese the first segment of the | daily limit for light geese is 20. | POSSESSION LIMITS | 3 times the daily limit. Exception: light geese has no possession limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Column for Central Zone. Includes Canada, brant, white-fronted, snow and Ross' geese. Metro Canada goose season (Sept. 12-20) and the light goose conservation order (Jan. 24-May 1, 2027) are listed on the DNR seasons page (not recorded). The 2026-27 card prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ia-duck-south-2026",
+    "state": "IA",
+    "species": "duck",
+    "seasonName": "Ducks, Coots, Mergansers, South Zone",
+    "zone": "South Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-11",
+        "note": "youth waterfowl"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-23",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-10-31",
+        "close": "2026-12-22",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 mallards (2 female), 3 wood ducks, 3 pintail, 2 redheads, 2 black ducks, 2 canvasbacks; scaup 1 for first 15 days, 2 after); mergansers 5 (no more than 2 hooded); coots 15",
+    "possessionLimit": "3 times the daily limit",
+    "agency": "Iowa DNR",
+    "sourceTitle": "Iowa DNR, 2026-27 Iowa Migratory Game Bird Hunting Seasons & Limits card",
+    "sourceUrl": "https://www.iowadnr.gov/media/1702/download?inline",
+    "sourceQuote": "SEASON DATES NORTH ZONE CENTRAL ZONE SOUTH ZONE | Youth Waterfowl Sept. 26-27 Oct. 3-4 Oct. 10-11 | Ducks, Coots, Mergansers Oct. 3-9 & Oct. 10-16 & Oct. 17-23 & | Oct. 17-Dec. 8 Oct. 24-Dec. 15 Oct. 31-Dec. 22 | DUCKS: Daily limit 6; no more than 4 mallards (2 female), 3 wood ducks, 3 | pintail, 2 redheads, 2 black ducks & 2 canvasbacks. Scaup bag limit: 1 for | MERGANSERS: Daily limit 5; no more than 2 hooded mergansers. | COOTS: Daily limit 15 | POSSESSION LIMITS | 3 times the daily limit. Exception: light geese has no possession limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "The card prints the three zones in columns (North, Central, South); this record takes the South Zone column. The 2026-27 card prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ia-goose-south-2026",
+    "state": "IA",
+    "species": "goose",
+    "seasonName": "Dark & Light Geese, South Zone",
+    "zone": "South Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-25",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-10-31",
+        "close": "2026-12-22",
+        "note": "second segment"
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2027-01-23",
+        "note": "third segment"
+      }
+    ],
+    "bagLimit": "5 dark geese (no more than 2 Canada geese in the first segment, 3 from the second segment on); 20 light geese",
+    "possessionLimit": "3 times the daily limit (no possession limit for light geese)",
+    "agency": "Iowa DNR",
+    "sourceTitle": "Iowa DNR, 2026-27 Iowa Migratory Game Bird Hunting Seasons & Limits card",
+    "sourceUrl": "https://www.iowadnr.gov/media/1702/download?inline",
+    "sourceQuote": "Dark & Light Geese Sept. 26-Oct. 11 & Oct. 3-18 & Oct. 10-25 & | Oct. 17-Dec. 8 & Oct. 24-Dec. 15 & Oct. 31-Dec. 22 & | Dec. 12-Jan. 9, 2027 Dec. 19-Jan. 16, 2027 Dec. 26-Jan. 23, 2027 | Dark goose daily limit is 5 | and may include no more than 2 Canada geese the first segment of the | daily limit for light geese is 20. | POSSESSION LIMITS | 3 times the daily limit. Exception: light geese has no possession limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Column for South Zone. Includes Canada, brant, white-fronted, snow and Ross' geese. Metro Canada goose season (Sept. 12-20) and the light goose conservation order (Jan. 24-May 1, 2027) are listed on the DNR seasons page (not recorded). The 2026-27 card prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ia-dove-2026",
+    "state": "IA",
+    "species": "dove",
+    "seasonName": "Doves",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-11-29",
+        "note": null
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": "3 times the daily limit",
+    "agency": "Iowa DNR",
+    "sourceTitle": "Iowa DNR, 2026-27 Iowa Migratory Game Bird Hunting Seasons & Limits card",
+    "sourceUrl": "https://www.iowadnr.gov/media/1702/download?inline",
+    "sourceQuote": "DOVES: Daily limit 15 | Doves Sept. 1-Nov. 29 | POSSESSION LIMITS | 3 times the daily limit. Exception: light geese has no possession limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "The 2026-27 card prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ia-woodcock-2026",
+    "state": "IA",
+    "species": "woodcock",
+    "seasonName": "Woodcock",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-11-16",
+        "note": "sunrise to sunset"
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "3 times the daily limit",
+    "agency": "Iowa DNR",
+    "sourceTitle": "Iowa DNR, 2026-27 Iowa Migratory Game Bird Hunting Seasons & Limits card",
+    "sourceUrl": "https://www.iowadnr.gov/media/1702/download?inline",
+    "sourceQuote": "WOODCOCK: Daily limit 3 | Woodcock Oct. 3-Nov. 16 | POSSESSION LIMITS | 3 times the daily limit. Exception: light geese has no possession limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "The 2026-27 card prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ia-pheasant-2026",
+    "state": "IA",
+    "species": "pheasant",
+    "seasonName": "Rooster Pheasant",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2026-10-25",
+        "note": "youth (daily 1, possession 2)"
+      },
+      {
+        "open": "2026-10-31",
+        "close": "2027-01-10",
+        "note": "regular"
+      }
+    ],
+    "bagLimit": "3 (youth season: 1)",
+    "possessionLimit": "12 (youth season: 2)",
+    "agency": "Iowa DNR",
+    "sourceTitle": "Iowa DNR, 2026-27 Iowa Hunting Seasons & Limits card",
+    "sourceUrl": "https://www.iowadnr.gov/media/1701/download?inline",
+    "sourceQuote": "Rooster Pheasant (Youth) Oct. 24-25 8 a.m. to 4:30 p.m. 1 2 | Rooster Pheasant Oct. 31 - Jan. 10, 2027 8 a.m. to 4:30 p.m. 3 12",
+    "checkedDate": "2026-11-23",
+    "notes": "The card prints no area; zone null. Shooting hours 8 a.m. to 4:30 p.m. The 2026-27 card prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ia-quail-2026",
+    "state": "IA",
+    "species": "quail",
+    "seasonName": "Bobwhite Quail",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-31",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "8",
+    "possessionLimit": "16",
+    "agency": "Iowa DNR",
+    "sourceTitle": "Iowa DNR, 2026-27 Iowa Hunting Seasons & Limits card",
+    "sourceUrl": "https://www.iowadnr.gov/media/1701/download?inline",
+    "sourceQuote": "Bobwhite Quail Oct. 31 - Jan. 31, 2027 8 a.m. to 4:30 p.m. 8 16",
+    "checkedDate": "2026-11-23",
+    "notes": "The card prints no area; zone null. Years as printed in the source."
+  },
+  {
+    "id": "ia-partridge-2026",
+    "state": "IA",
+    "species": "partridge",
+    "seasonName": "Gray Partridge",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "8",
+    "possessionLimit": "16",
+    "agency": "Iowa DNR",
+    "sourceTitle": "Iowa DNR, 2026-27 Iowa Hunting Seasons & Limits card",
+    "sourceUrl": "https://www.iowadnr.gov/media/1701/download?inline",
+    "sourceQuote": "Gray Partridge Oct. 10 - Jan. 31, 2027 8 a.m. to 4:30 p.m. 8 16",
+    "checkedDate": "2026-11-23",
+    "notes": "The card prints no area; zone null. The 2026-27 card prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ia-grouse-ruffed-2026",
+    "state": "IA",
+    "species": "grouse",
+    "seasonName": "Ruffed Grouse",
+    "zone": "Ruffed Grouse hunting zone (northeast Iowa)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "6",
+    "agency": "Iowa DNR",
+    "sourceTitle": "Iowa DNR, 2026-27 Iowa Hunting Seasons & Limits card",
+    "sourceUrl": "https://www.iowadnr.gov/media/1701/download?inline",
+    "sourceQuote": "Ruffed Grouse Oct. 3 - Jan. 31, 2027 Sunrise to Sunset 3 6",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone from the 2026-27 regulations book: 'The Ruffed Grouse hunting zone is that portion of northeast Iowa bordered by U.S. Highways 63, 20 and 151, and Iowa Highways 13 and 64.' The 2026-27 card prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ia-deer-youth-2026",
+    "state": "IA",
+    "species": "deer",
+    "seasonName": "Deer, Youth",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-10-04",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Iowa DNR",
+    "sourceTitle": "Iowa DNR, 2026-27 Iowa Hunting Seasons & Limits card",
+    "sourceUrl": "https://www.iowadnr.gov/media/1701/download?inline",
+    "sourceQuote": "2026-27 Iowa Deer | Hunting Seasons | Youth Sept. 19 - Oct. 4",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag and license rules (resident any-sex and antlerless licenses, county antlerless quotas) are in the regulations and are not recorded; the card prints no area. Nonresident deer licenses are by application (draw). The 2026-27 card prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ia-deer-disabled-2026",
+    "state": "IA",
+    "species": "deer",
+    "seasonName": "Deer, Disabled Hunter",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-10-04",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Iowa DNR",
+    "sourceTitle": "Iowa DNR, 2026-27 Iowa Hunting Seasons & Limits card",
+    "sourceUrl": "https://www.iowadnr.gov/media/1701/download?inline",
+    "sourceQuote": "2026-27 Iowa Deer | Hunting Seasons | Disabled Hunter Sept. 19 - Oct. 4",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag and license rules (resident any-sex and antlerless licenses, county antlerless quotas) are in the regulations and are not recorded; the card prints no area. Nonresident deer licenses are by application (draw). The 2026-27 card prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ia-deer-archery-2026",
+    "state": "IA",
+    "species": "deer",
+    "seasonName": "Deer, Archery",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2026-12-04",
+        "note": "early split"
+      },
+      {
+        "open": "2026-12-21",
+        "close": "2027-01-10",
+        "note": "late split"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Iowa DNR",
+    "sourceTitle": "Iowa DNR, 2026-27 Iowa Hunting Seasons & Limits card",
+    "sourceUrl": "https://www.iowadnr.gov/media/1701/download?inline",
+    "sourceQuote": "2026-27 Iowa Deer | Hunting Seasons | Archery Oct. 1 - Dec. 4 AND | Dec. 21 - Jan. 10, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag and license rules (resident any-sex and antlerless licenses, county antlerless quotas) are in the regulations and are not recorded; the card prints no area. Nonresident deer licenses are by application (draw). The 2026-27 card prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ia-deer-muzzleloader-2026",
+    "state": "IA",
+    "species": "deer",
+    "seasonName": "Deer, Muzzleloader",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-25",
+        "note": "early"
+      },
+      {
+        "open": "2026-12-21",
+        "close": "2027-01-10",
+        "note": "late"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Iowa DNR",
+    "sourceTitle": "Iowa DNR, 2026-27 Iowa Hunting Seasons & Limits card",
+    "sourceUrl": "https://www.iowadnr.gov/media/1701/download?inline",
+    "sourceQuote": "2026-27 Iowa Deer | Hunting Seasons | Early: Oct. 17-25 | Late: Dec. 21 - Jan. 10, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag and license rules (resident any-sex and antlerless licenses, county antlerless quotas) are in the regulations and are not recorded; the card prints no area. Nonresident deer licenses are by application (draw). The 2026-27 card prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ia-deer-shotgun-2026",
+    "state": "IA",
+    "species": "deer",
+    "seasonName": "Deer, Regular Gun",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-05",
+        "close": "2026-12-09",
+        "note": "first season"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2026-12-20",
+        "note": "second season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Iowa DNR",
+    "sourceTitle": "Iowa DNR, 2026-27 Iowa Hunting Seasons & Limits card",
+    "sourceUrl": "https://www.iowadnr.gov/media/1701/download?inline",
+    "sourceQuote": "2026-27 Iowa Deer | Hunting Seasons | Regular Gun | First: Dec. 5-9 | Second: Dec. 12-20",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag and license rules (resident any-sex and antlerless licenses, county antlerless quotas) are in the regulations and are not recorded; the card prints no area. Nonresident deer licenses are by application (draw). The 2026-27 card prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ia-turkey-fall-2026",
+    "state": "IA",
+    "species": "turkey",
+    "seasonName": "Fall Turkey",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-12",
+        "close": "2026-12-04",
+        "note": "gun/bow licenses"
+      },
+      {
+        "open": "2026-10-01",
+        "close": "2026-12-04",
+        "note": "archery-only licenses"
+      },
+      {
+        "open": "2026-12-21",
+        "close": "2027-01-10",
+        "note": "archery-only licenses"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Iowa DNR",
+    "sourceTitle": "Iowa DNR, 2026-27 Iowa Hunting Seasons & Limits card",
+    "sourceUrl": "https://www.iowadnr.gov/media/1701/download?inline",
+    "sourceQuote": "2026 Fall Turkey Hunting | Gun/Bow Oct. 12 - Dec. 4 | Archery Only Oct. 1 - Dec. 4 AND | Dec. 21 - Jan. 10, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "The card prints no area or fall bag limit; the DNR seasons page labels the archery-only license as resident. The 2026-27 card prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ia-turkey-spring-2027",
+    "state": "IA",
+    "species": "turkey",
+    "seasonName": "Spring 2027 Turkey",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-04-09",
+        "close": "2027-04-11",
+        "note": "youth (residents only)"
+      },
+      {
+        "open": "2027-04-12",
+        "close": "2027-04-15",
+        "note": "combination gun/bow season 1"
+      },
+      {
+        "open": "2027-04-16",
+        "close": "2027-04-20",
+        "note": "season 2"
+      },
+      {
+        "open": "2027-04-21",
+        "close": "2027-04-27",
+        "note": "season 3"
+      },
+      {
+        "open": "2027-04-28",
+        "close": "2027-05-16",
+        "note": "season 4"
+      },
+      {
+        "open": "2027-04-12",
+        "close": "2027-05-16",
+        "note": "resident archery-only"
+      }
+    ],
+    "bagLimit": "One bearded or male wild turkey per license and transportation tag",
+    "possessionLimit": "One per license (season possession limit)",
+    "agency": "Iowa DNR",
+    "sourceTitle": "Iowa DNR, Iowa Hunting Seasons page",
+    "sourceUrl": "https://www.iowadnr.gov/things-do/hunting-trapping/iowa-hunting-seasons",
+    "sourceQuote": "Spring 2027 Turkey Seasons | Youth Season (Residents Only) Apr 9 - 11, 2027 | Combination Gun/Bow, Season 1 Apr 12 - 15, 2027 | Combination Gun/Bow, Season 2 Apr 16 - 20, 2027 | Combination Gun/Bow, Season 3 Apr 21 - 27, 2027 | Combination Gun/Bow, Season 4 Apr 28 - May 16, 2027 | Resident Archery-only Licenses Apr 12 - May 16, 2027 | BAG LIMIT: Daily bag and season possession limit is one bearded or male wild turkey for each valid license and transportation tag issued to the hunter.",
+    "checkedDate": "2026-11-23",
+    "notes": "The page prints no area. Nonresident turkey licenses are by application. Years as printed in the source."
+  }
+]

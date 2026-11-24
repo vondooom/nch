@@ -106,4 +106,90 @@ export const unlistedBigGame: Record<string, { species: string; line: string; li
       line: "Antelope gun hunting is by draw or landowner permit, so those dates are not listed here.",
     },
   ],
+  illinois: [
+    {
+      species: "Deer",
+      line: "Bag limits are set by county or license and are not listed here. Firearm and muzzleloader permits are by lottery. Special CWD, Late Winter Antlerless, and youth firearm seasons are set by county and are not listed here.",
+    },
+    {
+      species: "Turkey",
+      line: "Spring and fall shotgun turkey permits are not listed here.",
+    },
+  ],
+  indiana: [
+    {
+      species: "Deer",
+      line: "Bag limits are set by county or license and are not listed here. Deer Reduction Zones cover designated locations only and are not listed here.",
+    },
+  ],
+  iowa: [
+    {
+      species: "Deer",
+      line: "Bag limits are set by county or license and are not listed here. January antlerless seasons are set by county quota and are not listed here. Nonresident deer licenses are by application.",
+    },
+    {
+      species: "Turkey",
+      line: "Nonresident turkey licenses are by application.",
+    },
+    {
+      species: "Goose",
+      line: "The metro Canada goose season is in mapped zones and is not listed here.",
+    },
+  ],
+  michigan: [
+    {
+      species: "Deer",
+      line: "Bag limits are set by unit and are not listed here. The Independence Hunt is by public-land permit and is not listed here.",
+    },
+    {
+      species: "Elk",
+      line: "Elk licenses are by lottery, so season dates are not listed here.",
+    },
+    {
+      species: "Turkey",
+      line: "Some spring turkey hunts are by drawing and are not listed here.",
+    },
+    {
+      species: "Goose",
+      line: "The Allegan County and Muskegon County wastewater goose units are not listed here.",
+    },
+  ],
+  minnesota: [
+    {
+      species: "Deer",
+      line: "Bag limits are set by permit area and are not listed here. The early antlerless season is set by permit area and is not listed here.",
+    },
+    {
+      species: "Elk",
+      line: "Elk licenses are by lottery, so season dates are not listed here.",
+    },
+    {
+      species: "Prairie chicken",
+      line: "Prairie chicken licenses are by lottery for residents, so season dates are not listed here.",
+    },
+  ],
+  ohio: [
+    {
+      species: "Deer",
+      line: "Bag limits are set by county or license and are not listed here. Disease Surveillance Area deer seasons are not listed here.",
+    },
+  ],
+  wisconsin: [
+    {
+      species: "Deer",
+      line: "Bag limits are set by unit and are not listed here. The metro sub-unit gun season, the antlerless holiday hunt, and the archery extension in some units are not listed here.",
+    },
+    {
+      species: "Elk",
+      line: "Elk licenses are by lottery, so season dates are not listed here.",
+    },
+    {
+      species: "Turkey",
+      line: "Spring turkey harvest authorizations are by preference drawing, so those dates are not listed here.",
+    },
+    {
+      species: "Sharp-tailed grouse",
+      line: "Sharp-tailed grouse permits are by zone, and there is no 2026 season.",
+    },
+  ],
 };

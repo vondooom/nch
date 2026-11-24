@@ -1,0 +1,524 @@
+[
+  {
+    "id": "oh-teal-early-2026",
+    "state": "OH",
+    "species": "duck",
+    "seasonName": "Early teal",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-13",
+        "note": "teal only"
+      }
+    ],
+    "bagLimit": "6",
+    "possessionLimit": null,
+    "agency": "ODNR",
+    "sourceTitle": "Ohio DNR, Ohio's 2026-27 Hunting and Trapping Season Dates",
+    "sourceUrl": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/news/2026-27_Hunting_Seasons.pdf",
+    "sourceQuote": "Early teal Sept. 5, 2026 Sept. 13, 2026 6 daily",
+    "checkedDate": "2026-11-23",
+    "notes": "Possession limit for migratory birds is three times the daily bag after the second day (regulations book). Years as printed in the source."
+  },
+  {
+    "id": "oh-duck-a-2026",
+    "state": "OH",
+    "species": "duck",
+    "seasonName": "Duck, coot and merganser, Duck Zone A",
+    "zone": "Duck Zone A",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-04",
+        "note": "youth, active military and veterans (statewide)"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-11-01",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-12-27",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 mallards (2 hens), 3 wood ducks, 3 pintails, 2 black ducks, 2 redheads, 2 canvasbacks, 1 mottled duck; scaup 1 for first 15 days, 2 for final 45)",
+    "possessionLimit": null,
+    "agency": "ODNR",
+    "sourceTitle": "Ohio DNR, Ohio's 2026-27 Hunting and Trapping Season Dates",
+    "sourceUrl": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/news/2026-27_Hunting_Seasons.pdf",
+    "sourceQuote": "Duck Zone A Oct. 17, 2026 Nov. 1, 2026 6 daily * | Nov. 14, 2026 Dec. 27, 2026 | * The daily bag limit is 6 ducks, not to include more than 4 mallards (only 2 of which may be hens), 3 | wood ducks, 3 pintails, 2 black ducks, 2 redheads, 2 canvasbacks, or 1 mottled duck. Scaup are | Waterfowl (youth, active military, Oct. 3, 2026 Oct. 4, 2026 Same as species in",
+    "checkedDate": "2026-11-23",
+    "notes": "Possession limit for migratory birds is three times the daily bag after the second day (regulations book). Years as printed in the source."
+  },
+  {
+    "id": "oh-duck-b-2026",
+    "state": "OH",
+    "species": "duck",
+    "seasonName": "Duck, coot and merganser, Duck Zone B",
+    "zone": "Duck Zone B",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-04",
+        "note": "youth, active military and veterans (statewide)"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-25",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2027-01-10",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 mallards (2 hens), 3 wood ducks, 3 pintails, 2 black ducks, 2 redheads, 2 canvasbacks, 1 mottled duck; scaup 1 for first 15 days, 2 for final 45)",
+    "possessionLimit": null,
+    "agency": "ODNR",
+    "sourceTitle": "Ohio DNR, Ohio's 2026-27 Hunting and Trapping Season Dates",
+    "sourceUrl": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/news/2026-27_Hunting_Seasons.pdf",
+    "sourceQuote": "Duck Zone B Oct. 17, 2026 Oct. 25, 2026 6 daily * | Nov. 21, 2026 Jan. 10, 2027 | * The daily bag limit is 6 ducks, not to include more than 4 mallards (only 2 of which may be hens), 3 | wood ducks, 3 pintails, 2 black ducks, 2 redheads, 2 canvasbacks, or 1 mottled duck. Scaup are | Waterfowl (youth, active military, Oct. 3, 2026 Oct. 4, 2026 Same as species in",
+    "checkedDate": "2026-11-23",
+    "notes": "Possession limit for migratory birds is three times the daily bag after the second day (regulations book). Years as printed in the source."
+  },
+  {
+    "id": "oh-duck-c-2026",
+    "state": "OH",
+    "species": "duck",
+    "seasonName": "Duck, coot and merganser, Duck Zone C",
+    "zone": "Duck Zone C",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-04",
+        "note": "youth, active military and veterans (statewide)"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-25",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-01-31",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 mallards (2 hens), 3 wood ducks, 3 pintails, 2 black ducks, 2 redheads, 2 canvasbacks, 1 mottled duck; scaup 1 for first 15 days, 2 for final 45)",
+    "possessionLimit": null,
+    "agency": "ODNR",
+    "sourceTitle": "Ohio DNR, Ohio's 2026-27 Hunting and Trapping Season Dates",
+    "sourceUrl": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/news/2026-27_Hunting_Seasons.pdf",
+    "sourceQuote": "Duck Zone C Oct. 17, 2026 Oct. 25, 2026 6 daily * | Dec. 12, 2026 Jan. 31, 2027 | * The daily bag limit is 6 ducks, not to include more than 4 mallards (only 2 of which may be hens), 3 | wood ducks, 3 pintails, 2 black ducks, 2 redheads, 2 canvasbacks, or 1 mottled duck. Scaup are | Waterfowl (youth, active military, Oct. 3, 2026 Oct. 4, 2026 Same as species in",
+    "checkedDate": "2026-11-23",
+    "notes": "Possession limit for migratory birds is three times the daily bag after the second day (regulations book). Years as printed in the source."
+  },
+  {
+    "id": "oh-goose-early-2026",
+    "state": "OH",
+    "species": "goose",
+    "seasonName": "Early goose",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-13",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 (Canada and cackling geese only)",
+    "possessionLimit": null,
+    "agency": "ODNR",
+    "sourceTitle": "Ohio DNR, Ohio's 2026-27 Hunting and Trapping Season Dates",
+    "sourceUrl": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/news/2026-27_Hunting_Seasons.pdf",
+    "sourceQuote": "Early goose, statewide Sept. 5, 2026 Sept. 13, 2026 5 daily, Canada and | cackling geese only",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed in the source."
+  },
+  {
+    "id": "oh-goose-a-2026",
+    "state": "OH",
+    "species": "goose",
+    "seasonName": "Goose, Goose Zone A",
+    "zone": "Goose Zone A",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2026-11-01",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2027-02-01",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "5 Canada, cackling and white-fronted geese (no more than 1 brant); 10 light geese",
+    "possessionLimit": null,
+    "agency": "ODNR",
+    "sourceTitle": "Ohio DNR, Ohio's 2026-27 Hunting and Trapping Season Dates",
+    "sourceUrl": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/news/2026-27_Hunting_Seasons.pdf",
+    "sourceQuote": "Goose Zone A Oct. 17, 2026 Nov. 1, 2026 5 daily: Canada, | Nov. 14, 2026 Feb. 1, 2027 | may include no more | than 1 brant | 10 daily: light geese",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed in the source."
+  },
+  {
+    "id": "oh-goose-b-2026",
+    "state": "OH",
+    "species": "goose",
+    "seasonName": "Goose, Goose Zone B",
+    "zone": "Goose Zone B",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-25",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2027-02-15",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "5 Canada, cackling and white-fronted geese (no more than 1 brant); 10 light geese",
+    "possessionLimit": null,
+    "agency": "ODNR",
+    "sourceTitle": "Ohio DNR, Ohio's 2026-27 Hunting and Trapping Season Dates",
+    "sourceUrl": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/news/2026-27_Hunting_Seasons.pdf",
+    "sourceQuote": "Goose Zone B Oct. 17, 2026 Oct. 25, 2026 5 daily: Canada, | Nov. 21, 2026 Feb. 15, 2027 | may include no more | than 1 brant | 10 daily: light geese",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed in the source."
+  },
+  {
+    "id": "oh-goose-c-2026",
+    "state": "OH",
+    "species": "goose",
+    "seasonName": "Goose, Goose Zone C",
+    "zone": "Goose Zone C",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-25",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2027-02-15",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "5 Canada, cackling and white-fronted geese (no more than 1 brant); 10 light geese",
+    "possessionLimit": null,
+    "agency": "ODNR",
+    "sourceTitle": "Ohio DNR, Ohio's 2026-27 Hunting and Trapping Season Dates",
+    "sourceUrl": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/news/2026-27_Hunting_Seasons.pdf",
+    "sourceQuote": "Goose Zone C Oct. 17, 2026 Oct. 25, 2026 5 daily: Canada, | Nov. 21, 2026 Feb. 15, 2027 | may include no more | than 1 brant | 10 daily: light geese",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed in the source."
+  },
+  {
+    "id": "oh-dove-2026",
+    "state": "OH",
+    "species": "dove",
+    "seasonName": "Mourning dove",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-11-08",
+        "note": null
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-01-01",
+        "note": null
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": null,
+    "agency": "ODNR",
+    "sourceTitle": "Ohio DNR, Ohio's 2026-27 Hunting and Trapping Season Dates",
+    "sourceUrl": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/news/2026-27_Hunting_Seasons.pdf",
+    "sourceQuote": "Mourning dove Sept. 1, 2026 Nov. 8, 2026 15 daily | Dec. 12, 2026 Jan. 1, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "No area printed; zone null. The regulations book lists the season as 'Dove (Mourning and Eurasian collared)'. Years as printed in the source."
+  },
+  {
+    "id": "oh-woodcock-2026",
+    "state": "OH",
+    "species": "woodcock",
+    "seasonName": "American woodcock",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-16",
+        "close": "2026-11-29",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": null,
+    "agency": "ODNR",
+    "sourceTitle": "Ohio DNR, Ohio's 2026-27 Hunting and Trapping Season Dates",
+    "sourceUrl": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/news/2026-27_Hunting_Seasons.pdf",
+    "sourceQuote": "American woodcock Oct. 16, 2026 Nov. 29, 2026 3 daily",
+    "checkedDate": "2026-11-23",
+    "notes": "No area printed; zone null. Years as printed in the source."
+  },
+  {
+    "id": "oh-pheasant-2026",
+    "state": "OH",
+    "species": "pheasant",
+    "seasonName": "Ring-necked pheasant (roosters only)",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2026-10-25",
+        "note": "youth small game"
+      },
+      {
+        "open": "2026-10-31",
+        "close": "2026-11-01",
+        "note": "youth small game"
+      },
+      {
+        "open": "2026-11-06",
+        "close": "2027-01-10",
+        "note": "regular"
+      }
+    ],
+    "bagLimit": "2 roosters",
+    "possessionLimit": null,
+    "agency": "ODNR",
+    "sourceTitle": "Ohio DNR, Ohio's 2026-27 Hunting and Trapping Season Dates",
+    "sourceUrl": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/news/2026-27_Hunting_Seasons.pdf",
+    "sourceQuote": "Ring-necked pheasant (roosters Nov. 6, 2026 Jan. 10, 2027 2 daily | Youth small game: cottontail Oct. 24, 2026 Oct. 25, 2026 Same as species in | rabbit, ring-necked pheasant, Oct. 31, 2026 Nov. 1, 2026 season",
+    "checkedDate": "2026-11-23",
+    "notes": "No area printed; zone null. Years as printed in the source."
+  },
+  {
+    "id": "oh-quail-2026",
+    "state": "OH",
+    "species": "quail",
+    "seasonName": "Bobwhite quail (16 counties and specific wildlife areas only)",
+    "zone": "16 counties and specific wildlife areas",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2026-10-25",
+        "note": "youth small game"
+      },
+      {
+        "open": "2026-10-31",
+        "close": "2026-11-01",
+        "note": "youth small game"
+      },
+      {
+        "open": "2026-11-06",
+        "close": "2026-11-29",
+        "note": "regular"
+      }
+    ],
+    "bagLimit": "2",
+    "possessionLimit": null,
+    "agency": "ODNR",
+    "sourceTitle": "Ohio DNR, Ohio's 2026-27 Hunting and Trapping Season Dates",
+    "sourceUrl": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/news/2026-27_Hunting_Seasons.pdf",
+    "sourceQuote": "Bobwhite quail (16 counties and Nov. 6, 2026 Nov. 29, 2026 2 daily | specific wildlife areas only) | rabbit, ring-necked pheasant, Oct. 31, 2026 Nov. 1, 2026 season | bobwhite quail",
+    "checkedDate": "2026-11-23",
+    "notes": "The county list is in the regulations book (not recorded). Years as printed in the source."
+  },
+  {
+    "id": "oh-deer-archery-2026",
+    "state": "OH",
+    "species": "deer",
+    "seasonName": "Deer archery, statewide",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2027-02-07",
+        "note": null
+      }
+    ],
+    "bagLimit": "See ODNR bag limit map (set by county)",
+    "possessionLimit": null,
+    "agency": "ODNR",
+    "sourceTitle": "Ohio DNR, Ohio's 2026-27 Hunting and Trapping Season Dates",
+    "sourceUrl": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/news/2026-27_Hunting_Seasons.pdf",
+    "sourceQuote": "• Statewide Sept. 26, 2026 Feb. 7, 2027 See bag limit map",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag limits are set by county (ODNR bag limit map) and are not recorded; Disease Surveillance Area seasons (archery from Sept. 12, early gun Oct. 10-12) are area-specific (not recorded). Years as printed in the source."
+  },
+  {
+    "id": "oh-deer-youth-gun-2026",
+    "state": "OH",
+    "species": "deer",
+    "seasonName": "Youth deer gun, statewide",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-22",
+        "note": null
+      }
+    ],
+    "bagLimit": "See ODNR bag limit map (set by county)",
+    "possessionLimit": null,
+    "agency": "ODNR",
+    "sourceTitle": "Ohio DNR, Ohio's 2026-27 Hunting and Trapping Season Dates",
+    "sourceUrl": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/news/2026-27_Hunting_Seasons.pdf",
+    "sourceQuote": "Youth deer gun, statewide Nov. 21, 2026 Nov. 22, 2026 See bag limit map",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag limits are set by county (ODNR bag limit map) and are not recorded; Disease Surveillance Area seasons (archery from Sept. 12, early gun Oct. 10-12) are area-specific (not recorded). Years as printed in the source."
+  },
+  {
+    "id": "oh-deer-gun-2026",
+    "state": "OH",
+    "species": "deer",
+    "seasonName": "Deer gun, statewide",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-30",
+        "close": "2026-12-06",
+        "note": null
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2026-12-20",
+        "note": "bonus gun weekend"
+      }
+    ],
+    "bagLimit": "See ODNR bag limit map (set by county)",
+    "possessionLimit": null,
+    "agency": "ODNR",
+    "sourceTitle": "Ohio DNR, Ohio's 2026-27 Hunting and Trapping Season Dates",
+    "sourceUrl": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/news/2026-27_Hunting_Seasons.pdf",
+    "sourceQuote": "Deer gun, statewide Nov. 30, 2026 Dec. 6, 2026 See bag limit map | Dec. 19, 2026 Dec. 20, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag limits are set by county (ODNR bag limit map) and are not recorded; Disease Surveillance Area seasons (archery from Sept. 12, early gun Oct. 10-12) are area-specific (not recorded). Years as printed in the source."
+  },
+  {
+    "id": "oh-deer-muzzleloader-2026",
+    "state": "OH",
+    "species": "deer",
+    "seasonName": "Deer muzzleloader, statewide",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-01-02",
+        "close": "2027-01-05",
+        "note": null
+      }
+    ],
+    "bagLimit": "See ODNR bag limit map (set by county)",
+    "possessionLimit": null,
+    "agency": "ODNR",
+    "sourceTitle": "Ohio DNR, Ohio's 2026-27 Hunting and Trapping Season Dates",
+    "sourceUrl": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/news/2026-27_Hunting_Seasons.pdf",
+    "sourceQuote": "Deer muzzleloader, statewide Jan. 2, 2027 Jan. 5, 2027 See bag limit map",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag limits are set by county (ODNR bag limit map) and are not recorded; Disease Surveillance Area seasons (archery from Sept. 12, early gun Oct. 10-12) are area-specific (not recorded). Years as printed in the source."
+  },
+  {
+    "id": "oh-turkey-fall-2026",
+    "state": "OH",
+    "species": "turkey",
+    "seasonName": "Wild turkey, fall (70 counties)",
+    "zone": "70 open counties (select counties)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2026-10-25",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 (season, either sex)",
+    "possessionLimit": null,
+    "agency": "ODNR",
+    "sourceTitle": "Ohio DNR, Ohio's 2026-27 Hunting and Trapping Season Dates",
+    "sourceUrl": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/news/2026-27_Hunting_Seasons.pdf",
+    "sourceQuote": "Wild turkey, fall (70 counties) Oct. 1, 2026 Oct. 25, 2026 1 (season)",
+    "checkedDate": "2026-11-23",
+    "notes": "The open counties are mapped in the regulations book (not recorded). Years as printed in the source."
+  },
+  {
+    "id": "oh-turkey-spring-south-2027",
+    "state": "OH",
+    "species": "turkey",
+    "seasonName": "Spring wild turkey, South Zone",
+    "zone": "South Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-04-17",
+        "close": "2027-04-18",
+        "note": "youth"
+      },
+      {
+        "open": "2027-04-24",
+        "close": "2027-05-23",
+        "note": "spring"
+      }
+    ],
+    "bagLimit": "1 bearded turkey",
+    "possessionLimit": null,
+    "agency": "ODNR",
+    "sourceTitle": "Ohio DNR, Ohio Hunting and Trapping Regulations 2026-27",
+    "sourceUrl": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/laws-regs-licenses/Ohio%20Hunting%20and%20Trapping%20Regulations%20ENGLISH.pdf",
+    "sourceQuote": "Youth Spring Wild Turkey: South Zone April 17, 2027 April 18, 2027 | Spring Wild Turkey: South Zone April 24, 2027 May 23, 2027 | 1 bearded",
+    "checkedDate": "2026-11-23",
+    "notes": "The season-dates news sheet still says spring turkey 'To be announced'; the regulations book prints these dates. Years as printed in the source."
+  },
+  {
+    "id": "oh-turkey-spring-northeast-2027",
+    "state": "OH",
+    "species": "turkey",
+    "seasonName": "Spring wild turkey, Northeast Zone",
+    "zone": "Northeast Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-04-24",
+        "close": "2027-04-25",
+        "note": "youth"
+      },
+      {
+        "open": "2027-05-01",
+        "close": "2027-05-30",
+        "note": "spring"
+      }
+    ],
+    "bagLimit": "1 bearded turkey",
+    "possessionLimit": null,
+    "agency": "ODNR",
+    "sourceTitle": "Ohio DNR, Ohio Hunting and Trapping Regulations 2026-27",
+    "sourceUrl": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/laws-regs-licenses/Ohio%20Hunting%20and%20Trapping%20Regulations%20ENGLISH.pdf",
+    "sourceQuote": "Youth Spring Wild Turkey: Northeast Zone April 24, 2027 April 25, 2027 1 bearded | Spring Wild Turkey: Northeast Zone May 1, 2027 May 30, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Northeast Zone counties are listed in the regulations book. Years as printed in the source."
+  }
+]
