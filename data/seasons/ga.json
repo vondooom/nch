@@ -1,0 +1,364 @@
+[
+  {
+    "id": "ga-duck-2026",
+    "state": "GA",
+    "species": "duck",
+    "seasonName": "Ducks",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-29",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-01-31",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "6 per day, no more than 4 sea ducks (black or mottled 1, canvasback 2, fulvous whistling 1, mallard 2 (only 1 hen), pintail 1, redhead 2, scaup 1, wood duck 3); mergansers 5; coot 15",
+    "possessionLimit": "3 times the daily bag limit",
+    "agency": "Georgia DNR WRD",
+    "sourceTitle": "Georgia DNR WRD, 2026-2027 Season Dates: Migratory Birds flyer (linked from GeorgiaWildlife.com/migratory-bird-info)",
+    "sourceUrl": "https://publuu.com/flip-book/1025508/2541036",
+    "sourceQuote": "Nov. 21   Nov. 29   6 per day; no more | Statewide   than 4 may be sea | Black or Mottled 1per day | Canvasback   2 per day | Mallard   2 per day (only 1may be | Pintail   1per day | Redhead   2 per day | Scaup   1per day | Wood Duck   3 per day | Mergansers   Statewide   5 per day | *Possession limits are 3 times the daily bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Youth, veteran and active-duty military waterfowl days Nov. 14-15, 2026 (GA DNR press release; not recorded as periods). The duck row's dates are read with the flyer layout (Nov. 21-Nov. 29 and Dec. 12-Jan. 31, 2027), matching the WRD press release 'Hunting season for ducks is Nov. 21-29 and Dec. 12-Jan. 31.' Text taken from the flyer's embedded text layer; the flyer is a Publuu flip-book linked from GeorgiaWildlife.com. Word spacing in the extracted text is approximate. The flyer prints years only on dates in 2027; 2026 assigned to the other dates."
+  },
+  {
+    "id": "ga-duck-teal-2026",
+    "state": "GA",
+    "species": "duck",
+    "seasonName": "September teal season",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-09-20",
+        "note": "teal only"
+      }
+    ],
+    "bagLimit": "6 per day",
+    "possessionLimit": "3 times the daily bag limit",
+    "agency": "Georgia DNR WRD",
+    "sourceTitle": "Georgia DNR WRD, 2026-2027 Season Dates: Migratory Birds flyer (linked from GeorgiaWildlife.com/migratory-bird-info)",
+    "sourceUrl": "https://publuu.com/flip-book/1025508/2541036",
+    "sourceQuote": "Teal   Statewide   Sept. 12   Sept. 20   6 per day | *Possession limits are 3 times the daily bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Text taken from the flyer's embedded text layer; the flyer is a Publuu flip-book linked from GeorgiaWildlife.com. Word spacing in the extracted text is approximate. The flyer prints years only on dates in 2027; 2026 assigned to the other dates."
+  },
+  {
+    "id": "ga-goose-canada-2026",
+    "state": "GA",
+    "species": "goose",
+    "seasonName": "Canada goose",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-27",
+        "note": "early season"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-25",
+        "note": null
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-29",
+        "note": null
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 per day, combined",
+    "possessionLimit": "3 times the daily bag limit",
+    "agency": "Georgia DNR WRD",
+    "sourceTitle": "Georgia DNR WRD, 2026-2027 Season Dates: Migratory Birds flyer (linked from GeorgiaWildlife.com/migratory-bird-info)",
+    "sourceUrl": "https://publuu.com/flip-book/1025508/2541036",
+    "sourceQuote": "CanadaGoose   Statewide   5 per day, combined | Sept. 5   Sept. 27 | Oct. 10   Oct. 25 | *Possession limits are 3 times the daily bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "The four Canada goose segments match the WRD June 9, 2026 press release: early season Sept. 5-27, then Oct. 10-25, Nov. 21-29, and Dec. 12 - Jan. 31. Brant season is closed. Text taken from the flyer's embedded text layer; the flyer is a Publuu flip-book linked from GeorgiaWildlife.com. Word spacing in the extracted text is approximate. The flyer prints years only on dates in 2027; 2026 assigned to the other dates."
+  },
+  {
+    "id": "ga-goose-snow-whitefront-2026",
+    "state": "GA",
+    "species": "goose",
+    "seasonName": "Snow goose and white-fronted goose",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-25",
+        "note": null
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-29",
+        "note": null
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 per day",
+    "possessionLimit": "3 times the daily bag limit",
+    "agency": "Georgia DNR WRD",
+    "sourceTitle": "Georgia DNR WRD, 2026-2027 Season Dates: Migratory Birds flyer (linked from GeorgiaWildlife.com/migratory-bird-info)",
+    "sourceUrl": "https://publuu.com/flip-book/1025508/2541036",
+    "sourceQuote": "Snow Goose & | Statewide   Nov. 21   Nov. 29   5 per day | White-fronted Goose | *Possession limits are 3 times the daily bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Third segment Dec. 12 - Jan. 31, 2027 and first segment Oct. 10-25 read from the flyer rows beside this species. Text taken from the flyer's embedded text layer; the flyer is a Publuu flip-book linked from GeorgiaWildlife.com. Word spacing in the extracted text is approximate. The flyer prints years only on dates in 2027; 2026 assigned to the other dates."
+  },
+  {
+    "id": "ga-dove-2026",
+    "state": "GA",
+    "species": "dove",
+    "seasonName": "Mourning doves",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-10-11",
+        "note": null
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-29",
+        "note": null
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "15 per day",
+    "possessionLimit": "3 times the daily bag limit",
+    "agency": "Georgia DNR WRD",
+    "sourceTitle": "Georgia DNR WRD, 2026-2027 Season Dates: Migratory Birds flyer (linked from GeorgiaWildlife.com/migratory-bird-info)",
+    "sourceUrl": "https://publuu.com/flip-book/1025508/2541036",
+    "sourceQuote": "Sept. 5   Oct. 11 | Mourning Doves   Statewide   Nov. 21   Nov. 29   15 per day | Dec. 19   Jan. 31, 2027 | *Possession limits are 3 times the daily bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Dates match the WRD Aug. 25, 2026 press release ('Sept. 5-Oct. 11, Nov. 21-Nov. 29, Dec. 19-Jan. 31'). Text taken from the flyer's embedded text layer; the flyer is a Publuu flip-book linked from GeorgiaWildlife.com. Word spacing in the extracted text is approximate. The flyer prints years only on dates in 2027; 2026 assigned to the other dates."
+  },
+  {
+    "id": "ga-woodcock-2026",
+    "state": "GA",
+    "species": "woodcock",
+    "seasonName": "Woodcock",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-05",
+        "close": "2027-01-18",
+        "note": null
+      }
+    ],
+    "bagLimit": "3 per day",
+    "possessionLimit": "3 times the daily bag limit",
+    "agency": "Georgia DNR WRD",
+    "sourceTitle": "Georgia DNR WRD, 2026-2027 Season Dates: Migratory Birds flyer (linked from GeorgiaWildlife.com/migratory-bird-info)",
+    "sourceUrl": "https://publuu.com/flip-book/1025508/2541036",
+    "sourceQuote": "Woodcock   Statewide   Dec. 5   Jan. 18, 2027   3 per day | *Possession limits are 3 times the daily bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Text taken from the flyer's embedded text layer; the flyer is a Publuu flip-book linked from GeorgiaWildlife.com. Word spacing in the extracted text is approximate. The flyer prints years only on dates in 2027; 2026 assigned to the other dates."
+  },
+  {
+    "id": "ga-snipe-2026",
+    "state": "GA",
+    "species": "snipe",
+    "seasonName": "Common (Wilson's) snipe",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-15",
+        "close": "2027-02-28",
+        "note": null
+      }
+    ],
+    "bagLimit": "8 per day",
+    "possessionLimit": "3 times the daily bag limit",
+    "agency": "Georgia DNR WRD",
+    "sourceTitle": "Georgia DNR WRD, 2026-2027 Season Dates: Migratory Birds flyer (linked from GeorgiaWildlife.com/migratory-bird-info)",
+    "sourceUrl": "https://publuu.com/flip-book/1025508/2541036",
+    "sourceQuote": "Common (Wilson’s) | Statewide   Nov. 15   Feb. 28, 2027   8 per day | Snipe | *Possession limits are 3 times the daily bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Text taken from the flyer's embedded text layer; the flyer is a Publuu flip-book linked from GeorgiaWildlife.com. Word spacing in the extracted text is approximate. The flyer prints years only on dates in 2027; 2026 assigned to the other dates."
+  },
+  {
+    "id": "ga-quail-2026",
+    "state": "GA",
+    "species": "quail",
+    "seasonName": "Quail",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-14",
+        "close": "2027-02-28",
+        "note": null
+      }
+    ],
+    "bagLimit": "12 per day",
+    "possessionLimit": null,
+    "agency": "Georgia DNR WRD",
+    "sourceTitle": "Georgia DNR WRD, 2026-2027 Season Dates: Big and Small Game flyer (linked from GeorgiaWildlife.com/hunting/hunter-resources)",
+    "sourceUrl": "https://publuu.com/flip-book/1025508/2541034",
+    "sourceQuote": "Statewide   Nov. 14   Feb. 28, 2027 | Quail | Falconry   Oct. 1   Mar. 15, 2027   12 per day",
+    "checkedDate": "2026-11-23",
+    "notes": "Falconry season Oct. 1, 2026 - Mar. 15, 2027 (not recorded). The flyer row layout places the statewide Nov. 14 - Feb. 28 dates beside Quail; Rabbit shares the same dates. Text taken from the flyer's embedded text layer; the flyer is a Publuu flip-book linked from GeorgiaWildlife.com. Word spacing in the extracted text is approximate. The flyer prints years only on dates in 2027; 2026 assigned to the other dates."
+  },
+  {
+    "id": "ga-grouse-2026",
+    "state": "GA",
+    "species": "grouse",
+    "seasonName": "Grouse",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-15",
+        "close": "2027-02-28",
+        "note": null
+      }
+    ],
+    "bagLimit": "3 per day",
+    "possessionLimit": null,
+    "agency": "Georgia DNR WRD",
+    "sourceTitle": "Georgia DNR WRD, 2026-2027 Season Dates: Big and Small Game flyer (linked from GeorgiaWildlife.com/hunting/hunter-resources)",
+    "sourceUrl": "https://publuu.com/flip-book/1025508/2541034",
+    "sourceQuote": "Statewide   Oct. 15   Feb. 28, 2027 | Grouse   3 per day | Falconry   Oct. 1   Mar. 15, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Falconry Oct. 1, 2026 - Mar. 15, 2027 (not recorded). Text taken from the flyer's embedded text layer; the flyer is a Publuu flip-book linked from GeorgiaWildlife.com. Word spacing in the extracted text is approximate. The flyer prints years only on dates in 2027; 2026 assigned to the other dates."
+  },
+  {
+    "id": "ga-turkey-spring-public-2027",
+    "state": "GA",
+    "species": "turkey",
+    "seasonName": "Spring turkey, public lands",
+    "zone": "Statewide (public lands)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-04-03",
+        "close": "2027-05-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 gobblers per season, 1 per day; public lands 1 gobbler per season per area",
+    "possessionLimit": null,
+    "agency": "Georgia DNR WRD",
+    "sourceTitle": "Georgia DNR WRD, 2026-2027 Season Dates: Big and Small Game flyer (linked from GeorgiaWildlife.com/hunting/hunter-resources)",
+    "sourceUrl": "https://publuu.com/flip-book/1025508/2541034",
+    "sourceQuote": "Public Lands (Statewide)   Apr. 3, 2027   May 15, 2027* | 2 gobblers per season. Daily bag of 1 | *Publiclandsarerestrictedtoonegobbler per seasonper area.",
+    "checkedDate": "2026-11-23",
+    "notes": "The flyer's Private Lands (Statewide) row prints Mar. 20, 2027 - Mar. 21, 2027, the same as the youth/mobility-impaired row, which looks like a flyer error; the private-lands season is not recorded (see SUMMARY). Text taken from the flyer's embedded text layer; the flyer is a Publuu flip-book linked from GeorgiaWildlife.com. Word spacing in the extracted text is approximate. Years as printed in the source."
+  },
+  {
+    "id": "ga-turkey-youth-mobility-2027",
+    "state": "GA",
+    "species": "turkey",
+    "seasonName": "Special Opportunity Youth/Mobility-Impaired turkey season",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-03-20",
+        "close": "2027-03-21",
+        "note": "youth under 16 and mobility-impaired persons only"
+      }
+    ],
+    "bagLimit": "2 gobblers per season, 1 per day",
+    "possessionLimit": null,
+    "agency": "Georgia DNR WRD",
+    "sourceTitle": "Georgia DNR WRD, 2026-2027 Season Dates: Big and Small Game flyer (linked from GeorgiaWildlife.com/hunting/hunter-resources)",
+    "sourceUrl": "https://publuu.com/flip-book/1025508/2541034",
+    "sourceQuote": "Special Opportunity Youth/   • Only for youth under 16 years of age and mobility-impaired persons. This season does | Mar. 20, 2027   Mar. 21, 2027 | Mobility-Impaired   not apply to public lands unless otherwise",
+    "checkedDate": "2026-11-23",
+    "notes": "Does not apply to public lands unless otherwise specified. Text taken from the flyer's embedded text layer; the flyer is a Publuu flip-book linked from GeorgiaWildlife.com. Word spacing in the extracted text is approximate. Years as printed in the source."
+  },
+  {
+    "id": "ga-deer-archery-2026",
+    "state": "GA",
+    "species": "deer",
+    "seasonName": "Archery deer season",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2027-01-10",
+        "note": null
+      }
+    ],
+    "bagLimit": "12 per season (no more than 10 antlerless, 2 antlered)",
+    "possessionLimit": null,
+    "agency": "Georgia DNR WRD",
+    "sourceTitle": "Georgia DNR WRD, 2026-2027 Season Dates: Big and Small Game flyer (linked from GeorgiaWildlife.com/hunting/hunter-resources)",
+    "sourceUrl": "https://publuu.com/flip-book/1025508/2541034",
+    "sourceQuote": "Archery | Sept. 12–Jan. 10 | 12 per season, statewide. No more than 10 may be antlerless and no more than 2 may be | antlered. One of the 2 antlered deer must have at least 4 points, one inch or longer, on one",
+    "checkedDate": "2026-11-23",
+    "notes": "Statewide summary dates from the flyer's bag-limit box. Many counties follow a color-group schedule with buck-only and either-sex windows, extended archery (to Jan. 31, 2027) or extended firearms (to Jan. 15, 2027) seasons; those are county-set and described in SUMMARY.md. Firearms deer hunting is not allowed in Clayton, Cobb, DeKalb, north Fulton and Jekyll Island. Archery equipment may be used during primitive weapons and firearms seasons; the archery-only window is Sept. 12 - Oct. 9 in most color groups. Text taken from the flyer's embedded text layer; the flyer is a Publuu flip-book linked from GeorgiaWildlife.com. Word spacing in the extracted text is approximate. The flyer prints years only on dates in 2027; 2026 assigned to the other dates."
+  },
+  {
+    "id": "ga-deer-primitive-2026",
+    "state": "GA",
+    "species": "deer",
+    "seasonName": "Primitive weapons deer season",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2027-01-10",
+        "note": null
+      }
+    ],
+    "bagLimit": "12 per season (no more than 10 antlerless, 2 antlered)",
+    "possessionLimit": null,
+    "agency": "Georgia DNR WRD",
+    "sourceTitle": "Georgia DNR WRD, 2026-2027 Season Dates: Big and Small Game flyer (linked from GeorgiaWildlife.com/hunting/hunter-resources)",
+    "sourceUrl": "https://publuu.com/flip-book/1025508/2541034",
+    "sourceQuote": "PrimitiveWeapons | Oct. 10–Jan. 10 | 12 per season, statewide. No more than 10 may be antlerless and no more than 2 may be | antlered. One of the 2 antlered deer must have at least 4 points, one inch or longer, on one",
+    "checkedDate": "2026-11-23",
+    "notes": "Statewide summary dates from the flyer's bag-limit box. Many counties follow a color-group schedule with buck-only and either-sex windows, extended archery (to Jan. 31, 2027) or extended firearms (to Jan. 15, 2027) seasons; those are county-set and described in SUMMARY.md. Firearms deer hunting is not allowed in Clayton, Cobb, DeKalb, north Fulton and Jekyll Island. The primitive-weapons-only window is Oct. 10-16 in the color-group tables. The WRD Oct. 6, 2026 press release says the season ends Jan. 11 for most hunters; the flyer and the Oct. 13 release say Jan. 10. Text taken from the flyer's embedded text layer; the flyer is a Publuu flip-book linked from GeorgiaWildlife.com. Word spacing in the extracted text is approximate. The flyer prints years only on dates in 2027; 2026 assigned to the other dates."
+  },
+  {
+    "id": "ga-deer-firearms-2026",
+    "state": "GA",
+    "species": "deer",
+    "seasonName": "Firearms deer season",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2027-01-10",
+        "note": null
+      }
+    ],
+    "bagLimit": "12 per season (no more than 10 antlerless, 2 antlered)",
+    "possessionLimit": null,
+    "agency": "Georgia DNR WRD",
+    "sourceTitle": "Georgia DNR WRD, 2026-2027 Season Dates: Big and Small Game flyer (linked from GeorgiaWildlife.com/hunting/hunter-resources)",
+    "sourceUrl": "https://publuu.com/flip-book/1025508/2541034",
+    "sourceQuote": "Firearms | Oct. 17–Jan. 10 | 12 per season, statewide. No more than 10 may be antlerless and no more than 2 may be | antlered. One of the 2 antlered deer must have at least 4 points, one inch or longer, on one",
+    "checkedDate": "2026-11-23",
+    "notes": "Statewide summary dates from the flyer's bag-limit box. Many counties follow a color-group schedule with buck-only and either-sex windows, extended archery (to Jan. 31, 2027) or extended firearms (to Jan. 15, 2027) seasons; those are county-set and described in SUMMARY.md. Firearms deer hunting is not allowed in Clayton, Cobb, DeKalb, north Fulton and Jekyll Island. Either-sex days vary by color group. Text taken from the flyer's embedded text layer; the flyer is a Publuu flip-book linked from GeorgiaWildlife.com. Word spacing in the extracted text is approximate. The flyer prints years only on dates in 2027; 2026 assigned to the other dates."
+  }
+]

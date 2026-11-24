@@ -256,6 +256,50 @@ export const unlistedBigGame: Record<string, { species: string; line: string; li
       line: "WMA blind hunts are by application and are not listed here.",
     },
   ],
+  florida: [
+    {
+      species: "Deer",
+      line: "Antlerless windows are set by management unit and are not listed here.",
+    },
+    {
+      species: "Public land",
+      line: "WMA, waterfowl area, and public dove field schedules are not listed here.",
+    },
+  ],
+  georgia: [
+    {
+      species: "Deer",
+      line: "Deer dates vary by county. The color-group schedule, and extended archery and firearms seasons in some counties, are not listed here.",
+    },
+    {
+      species: "Public land",
+      line: "WMA, waterfowl area, and public dove field schedules are not listed here.",
+    },
+  ],
+  "north-carolina": [
+    {
+      species: "Deer",
+      line: "CWD-area and Western county-group antlerless dates are set by county and are not listed here.",
+    },
+    {
+      species: "Tundra swan",
+      line: "Tundra swan hunting is by permit draw, so season dates are not listed here.",
+    },
+    {
+      species: "Public land",
+      line: "WMA, waterfowl area, and public dove field schedules are not listed here.",
+    },
+  ],
+  "south-carolina": [
+    {
+      species: "Deer",
+      line: "WMA seasons differ from these private-land dates and are not listed here.",
+    },
+    {
+      species: "Public land",
+      line: "WMA, waterfowl area, and public dove field schedules are not listed here.",
+    },
+  ],
   wisconsin: [
     {
       species: "Deer",
