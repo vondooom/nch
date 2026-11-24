@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import { formatIsoDate, isOpenNow, type SeasonRecord } from "@/lib/seasons";
 import { calendarDateInTimeZone } from "@/lib/seasons/open";
 
@@ -9,7 +10,10 @@ const speciesLabels: Record<string, string> = {
   pig: "Wild pig",
   partridge: "Gray partridge",
   sharptail: "Sharp-tailed grouse",
+  "prairie-chicken": "Prairie chicken",
 };
+
+export type SpeciesNote = { species: string; content: ReactNode };
 
 function speciesHeading(species: string) {
   const key = species.toLowerCase();
@@ -39,7 +43,15 @@ function sourceFragments(quote: string) {
   return quote.includes(" | ") ? quote.split(" | ") : [quote];
 }
 
-export function SeasonList({ records, timeZone }: { records: SeasonRecord[]; timeZone: string }) {
+export function SeasonList({
+  records,
+  timeZone,
+  notes = [],
+}: {
+  records: SeasonRecord[];
+  timeZone: string;
+  notes?: SpeciesNote[];
+}) {
   const today = calendarDateInTimeZone(timeZone);
   if (records.length === 0) return null;
   return (
@@ -112,6 +124,13 @@ export function SeasonList({ records, timeZone }: { records: SeasonRecord[]; tim
               );
             })}
           </div>
+          {notes
+            .filter((note) => note.species.toLowerCase() === group.species.toLowerCase())
+            .map((note) => (
+              <div key={note.species} className="mt-4 font-serif text-[16px] leading-relaxed text-[#3B3526]">
+                {note.content}
+              </div>
+            ))}
         </section>
       ))}
     </div>

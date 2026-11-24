@@ -1,0 +1,656 @@
+[
+  {
+    "id": "ks-duck-highplains-2026",
+    "state": "KS",
+    "species": "duck",
+    "seasonName": "Duck (including Merganser & Coot), High Plains Unit",
+    "zone": "High Plains Unit",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-27",
+        "note": "teal only (6 teal, any combination)"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-04",
+        "note": "youth, veteran and active military"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2027-01-03",
+        "note": "first segment"
+      },
+      {
+        "open": "2027-01-22",
+        "close": "2027-01-31",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "6 ducks and mergansers (no more than 5 mallards, of which no more than 2 female; 3 wood ducks, 3 pintails, 2 redheads, 2 canvasbacks, 1 scaup); coots 15",
+    "possessionLimit": null,
+    "agency": "KDWP",
+    "sourceTitle": "KDWP, Ducks (species page, 2026-2027 seasons)",
+    "sourceUrl": "https://www.ksoutdoors.gov/outdoor-activities/hunting-in-kansas/what-to-hunt/migratory-birds/ducks",
+    "sourceQuote": "DUCK (including Merganser & Coot) | Ducks and Mergansers: any combination of 6 ducks and/or mergansers, with species and sex restrictions as follows - 5 mallards (no more than 2 of which may be female mallards), 3 wood ducks, 3 pintails, 2 redheads, 2 canvasbacks, and 1 scaup. | Coots: 15 coots | High Plains Unit: October 10, 2026-January 3, 2027 and January 22-31, 2027 | Youth, Veteran & Active Military: October 3-4, 2026 | High Plains Unit: September 19-27, 2026 | Teal: 6 teal, any combination",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag uses the KDWP Ducks page (1 scaup); the When to Hunt page prints 2 scaup. Possession limit not stated on these pages. Nonresidents on KDWP-managed public lands and waters must stop hunting before noon."
+  },
+  {
+    "id": "ks-duck-lowplains-early-2026",
+    "state": "KS",
+    "species": "duck",
+    "seasonName": "Duck (including Merganser & Coot), Low Plains Unit, Early Zone",
+    "zone": "Low Plains Unit, Early Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-09-20",
+        "note": "teal only (6 teal, any combination)"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-27",
+        "note": "youth, veteran and active military"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-12-06",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2027-01-03",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "6 ducks and mergansers (no more than 5 mallards, of which no more than 2 female; 3 wood ducks, 3 pintails, 2 redheads, 2 canvasbacks, 1 scaup); coots 15",
+    "possessionLimit": null,
+    "agency": "KDWP",
+    "sourceTitle": "KDWP, Ducks (species page, 2026-2027 seasons)",
+    "sourceUrl": "https://www.ksoutdoors.gov/outdoor-activities/hunting-in-kansas/what-to-hunt/migratory-birds/ducks",
+    "sourceQuote": "DUCK (including Merganser & Coot) | Ducks and Mergansers: any combination of 6 ducks and/or mergansers, with species and sex restrictions as follows - 5 mallards (no more than 2 of which may be female mallards), 3 wood ducks, 3 pintails, 2 redheads, 2 canvasbacks, and 1 scaup. | Coots: 15 coots | Low Plains Unit, Early Zone: October 10-December 6, 2026 and December 19, 2026-January 3, 2027 | Youth, Veteran & Active Military: September26-27, 2026 | Low Plains Unit, all Zones: September 12-20, 2026 | Teal: 6 teal, any combination",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag uses the KDWP Ducks page (1 scaup); the When to Hunt page prints 2 scaup. Possession limit not stated on these pages. Nonresidents on KDWP-managed public lands and waters must stop hunting before noon. Extended falconry waterfowl season Feb. 24 to Mar. 10, 2027 (falconry only)."
+  },
+  {
+    "id": "ks-duck-lowplains-late-2026",
+    "state": "KS",
+    "species": "duck",
+    "seasonName": "Duck (including Merganser & Coot), Low Plains Unit, Late Zone",
+    "zone": "Low Plains Unit, Late Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-09-20",
+        "note": "teal only (6 teal, any combination)"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-18",
+        "note": "youth, veteran and active military"
+      },
+      {
+        "open": "2026-10-31",
+        "close": "2027-01-03",
+        "note": "first segment"
+      },
+      {
+        "open": "2027-01-23",
+        "close": "2027-01-31",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "6 ducks and mergansers (no more than 5 mallards, of which no more than 2 female; 3 wood ducks, 3 pintails, 2 redheads, 2 canvasbacks, 1 scaup); coots 15",
+    "possessionLimit": null,
+    "agency": "KDWP",
+    "sourceTitle": "KDWP, Ducks (species page, 2026-2027 seasons)",
+    "sourceUrl": "https://www.ksoutdoors.gov/outdoor-activities/hunting-in-kansas/what-to-hunt/migratory-birds/ducks",
+    "sourceQuote": "DUCK (including Merganser & Coot) | Ducks and Mergansers: any combination of 6 ducks and/or mergansers, with species and sex restrictions as follows - 5 mallards (no more than 2 of which may be female mallards), 3 wood ducks, 3 pintails, 2 redheads, 2 canvasbacks, and 1 scaup. | Coots: 15 coots | Low Plains Unit, Late Zone: October 31, 2026-January 3, 2027 and January 23-31, 2027 | Youth, Veteran & Active Military: October 17-18, 2026 | Low Plains Unit, all Zones: September 12-20, 2026 | Teal: 6 teal, any combination",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag uses the KDWP Ducks page (1 scaup); the When to Hunt page prints 2 scaup. Possession limit not stated on these pages. Nonresidents on KDWP-managed public lands and waters must stop hunting before noon. Extended falconry waterfowl season Feb. 24 to Mar. 10, 2027 (falconry only)."
+  },
+  {
+    "id": "ks-duck-lowplains-southeast-2026",
+    "state": "KS",
+    "species": "duck",
+    "seasonName": "Duck (including Merganser & Coot), Low Plains Unit, Southeast Zone",
+    "zone": "Low Plains Unit, Southeast Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-09-20",
+        "note": "teal only (6 teal, any combination)"
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2026-10-25",
+        "note": "youth, veteran and active military"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2027-01-03",
+        "note": "first segment"
+      },
+      {
+        "open": "2027-01-16",
+        "close": "2027-01-31",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "6 ducks and mergansers (no more than 5 mallards, of which no more than 2 female; 3 wood ducks, 3 pintails, 2 redheads, 2 canvasbacks, 1 scaup); coots 15",
+    "possessionLimit": null,
+    "agency": "KDWP",
+    "sourceTitle": "KDWP, Ducks (species page, 2026-2027 seasons)",
+    "sourceUrl": "https://www.ksoutdoors.gov/outdoor-activities/hunting-in-kansas/what-to-hunt/migratory-birds/ducks",
+    "sourceQuote": "DUCK (including Merganser & Coot) | Ducks and Mergansers: any combination of 6 ducks and/or mergansers, with species and sex restrictions as follows - 5 mallards (no more than 2 of which may be female mallards), 3 wood ducks, 3 pintails, 2 redheads, 2 canvasbacks, and 1 scaup. | Coots: 15 coots | Low Plains Unit, Southeast Zone: November 7, 2026-January 3, 2027 and January 16-31, 2027 | Youth, Veteran & Active Military: October 24-25, 2026 | Low Plains Unit, all Zones: September 12-20, 2026 | Teal: 6 teal, any combination",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag uses the KDWP Ducks page (1 scaup); the When to Hunt page prints 2 scaup. Possession limit not stated on these pages. Nonresidents on KDWP-managed public lands and waters must stop hunting before noon. Extended falconry waterfowl season Feb. 24 to Mar. 10, 2027 (falconry only)."
+  },
+  {
+    "id": "ks-goose-dark-statewide-2026",
+    "state": "KS",
+    "species": "goose",
+    "seasonName": "Canada and Cackling Goose (Dark Goose)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-31",
+        "close": "2026-11-01",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-11-04",
+        "close": "2027-02-14",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "6 dark geese (any dark goose species except white-fronted)",
+    "possessionLimit": null,
+    "agency": "KDWP",
+    "sourceTitle": "KDWP, Geese (species page, 2026-2027 seasons)",
+    "sourceUrl": "https://ksoutdoors.gov/outdoor-activities/hunting-in-kansas/what-to-hunt/migratory-birds/geese",
+    "sourceQuote": "Canada and Cackling Goose (Dark Goose) | First Segment: October 31-November 1, 2026 | Second Segment: November 4, 2026-February 14, 2027 | Canada and Cackling Goose (Dark Goose): 6 per day of any dark goose species except white-fronted",
+    "checkedDate": "2026-11-23",
+    "notes": "Possession limit not stated on the page. Closed Nov. 2-3, 2026."
+  },
+  {
+    "id": "ks-goose-white-fronted-statewide-2026",
+    "state": "KS",
+    "species": "goose",
+    "seasonName": "White-fronted Goose",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-31",
+        "close": "2027-01-03",
+        "note": "first segment"
+      },
+      {
+        "open": "2027-01-23",
+        "close": "2027-02-14",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "2",
+    "possessionLimit": null,
+    "agency": "KDWP",
+    "sourceTitle": "KDWP, Geese (species page, 2026-2027 seasons)",
+    "sourceUrl": "https://ksoutdoors.gov/outdoor-activities/hunting-in-kansas/what-to-hunt/migratory-birds/geese",
+    "sourceQuote": "White Fronted Goose | First Segment: October 31, 2026- January 3, 2027 | Second Segment: January 23-February 14, 2027 | White-fronted Goose: 2 per day",
+    "checkedDate": "2026-11-23",
+    "notes": "Possession limit not stated on the page."
+  },
+  {
+    "id": "ks-goose-light-statewide-2026",
+    "state": "KS",
+    "species": "goose",
+    "seasonName": "Light Goose",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-31",
+        "close": "2026-11-01",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-11-04",
+        "close": "2027-02-14",
+        "note": "second segment"
+      },
+      {
+        "open": "2027-02-15",
+        "close": "2027-04-30",
+        "note": "Light Goose Conservation Order (unlimited)"
+      }
+    ],
+    "bagLimit": "50 (regular season); unlimited (Conservation Order)",
+    "possessionLimit": null,
+    "agency": "KDWP",
+    "sourceTitle": "KDWP, Geese (species page, 2026-2027 seasons)",
+    "sourceUrl": "https://ksoutdoors.gov/outdoor-activities/hunting-in-kansas/what-to-hunt/migratory-birds/geese",
+    "sourceQuote": "Light Goose | First Segment: October 31-November 1, 2026 | Second Segment: November 4, 2026-February 14, 2027 | Conservation Order: February 15-April 30, 2027 | Light Goose: 50 per day | Light Geese - Conservation Order | unlimited",
+    "checkedDate": "2026-11-23",
+    "notes": "Possession limit not stated on the page."
+  },
+  {
+    "id": "ks-dove-statewide-2026",
+    "state": "KS",
+    "species": "dove",
+    "seasonName": "Mourning & Whitewing Dove",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-11-29",
+        "note": null
+      }
+    ],
+    "bagLimit": "15 total (any combination)",
+    "possessionLimit": "45 total (any combination)",
+    "agency": "KDWP",
+    "sourceTitle": "KDWP, Dove (species page)",
+    "sourceUrl": "https://www.ksoutdoors.gov/outdoor-activities/hunting-in-kansas/what-to-hunt/migratory-birds/dove",
+    "sourceQuote": "Mourning & Whitewing Dove: September 1-November 29 each year; daily bag limit 15 total (any combination); possession limit 45 total (any combination)",
+    "checkedDate": "2026-11-23",
+    "notes": "The page prints 'each year' with no year; 2026 assigned for the 2026-27 season. Eurasian collared and ringed turtledoves are open January 1 to December 31 with no daily bag or possession limit."
+  },
+  {
+    "id": "ks-pheasant-statewide-2026",
+    "state": "KS",
+    "species": "pheasant",
+    "seasonName": "Pheasant (Pheasant and Quail seasons)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-08",
+        "note": "youth only (17 or younger, supervised by a non-hunting adult)"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2027-01-31",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "KDWP",
+    "sourceTitle": "KDWP, When to Hunt (season dates page)",
+    "sourceUrl": "https://ksoutdoors.gov/outdoor-activities/hunting-in-kansas/when-to-hunt",
+    "sourceQuote": "Pheasant and Quail - Youth | Only hunters aged 17 or younger may hunt on these days. Youth must be supervised by an adult (age 18 or older) and the adult may not hunt. | 2026: November 7-8, 2026 | Pheasant and Quail - Regular | 2026-2027: November 14, 2026-January 31, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag and possession limits are not on the When to Hunt page, and the KDWP pheasant and quail species pages blocked our fetch (HTTP 403), so they are null."
+  },
+  {
+    "id": "ks-quail-statewide-2026",
+    "state": "KS",
+    "species": "quail",
+    "seasonName": "Quail (Pheasant and Quail seasons)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-08",
+        "note": "youth only (17 or younger, supervised by a non-hunting adult)"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2027-01-31",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "KDWP",
+    "sourceTitle": "KDWP, When to Hunt (season dates page)",
+    "sourceUrl": "https://ksoutdoors.gov/outdoor-activities/hunting-in-kansas/when-to-hunt",
+    "sourceQuote": "Pheasant and Quail - Youth | Only hunters aged 17 or younger may hunt on these days. Youth must be supervised by an adult (age 18 or older) and the adult may not hunt. | 2026: November 7-8, 2026 | Pheasant and Quail - Regular | 2026-2027: November 14, 2026-January 31, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag and possession limits are not on the When to Hunt page, and the KDWP pheasant and quail species pages blocked our fetch (HTTP 403), so they are null."
+  },
+  {
+    "id": "ks-turkey-fall-2026",
+    "state": "KS",
+    "species": "turkey",
+    "seasonName": "Fall Turkey (residents only)",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-31",
+        "close": "2026-12-01",
+        "note": null
+      },
+      {
+        "open": "2026-12-14",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "KDWP",
+    "sourceTitle": "KDWP, When to Hunt (season dates page)",
+    "sourceUrl": "https://ksoutdoors.gov/outdoor-activities/hunting-in-kansas/when-to-hunt",
+    "sourceQuote": "Fall Turkey - Residents Only | October 31 through January 31, excluding 12-day period beginning the Wednesday after Thanksgiving (deer - firearm season) | 2026: October 31-December 1, 2026 and December 14, 2026-January 31, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Residents only. Closed during the firearm deer season. Units and bag limit are not stated on the When to Hunt page."
+  },
+  {
+    "id": "ks-turkey-spring-2027",
+    "state": "KS",
+    "species": "turkey",
+    "seasonName": "Spring Turkey (2027)",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-04-01",
+        "close": "2027-04-13",
+        "note": "youth and disability"
+      },
+      {
+        "open": "2027-04-05",
+        "close": "2027-04-13",
+        "note": "archery only"
+      },
+      {
+        "open": "2027-04-14",
+        "close": "2027-05-31",
+        "note": "regular (firearms and archery)"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "KDWP",
+    "sourceTitle": "KDWP, When to Hunt (season dates page)",
+    "sourceUrl": "https://ksoutdoors.gov/outdoor-activities/hunting-in-kansas/when-to-hunt",
+    "sourceQuote": "Spring Turkey - Youth and Disability | 2027: April 1-13, 2027 | Spring Turkey - Archery Only | 2027: April 5-13, 2027 | Spring Turkey - Regular (Firearms & Archery) | 2027: April 14-May 31, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Spring 2027 dates as printed on the When to Hunt page. Units, permits and bag limit are not stated there."
+  },
+  {
+    "id": "ks-deer-youth-disability-2026",
+    "state": "KS",
+    "species": "deer",
+    "seasonName": "Deer, Youth and Disability",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-13",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 deer per permit (type set by permit)",
+    "possessionLimit": null,
+    "agency": "KDWP",
+    "sourceTitle": "KDWP, When to Hunt (season dates page)",
+    "sourceUrl": "https://ksoutdoors.gov/outdoor-activities/hunting-in-kansas/when-to-hunt",
+    "sourceQuote": "Deer - Youth and Disability | 2026: September 5-13, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "Per the KDWP Deer page: Resident Any-Season White-tailed Deer permits are valid statewide in any season with that season's legal equipment and are sold over the counter (Aug. 5 to Dec. 31); the Resident Any-Deer Firearms permit and all nonresident permits are draw only."
+  },
+  {
+    "id": "ks-deer-muzzleloader-2026",
+    "state": "KS",
+    "species": "deer",
+    "seasonName": "Deer, Muzzleloader Only",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-14",
+        "close": "2026-09-27",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 deer per permit (type set by permit)",
+    "possessionLimit": null,
+    "agency": "KDWP",
+    "sourceTitle": "KDWP, When to Hunt (season dates page)",
+    "sourceUrl": "https://ksoutdoors.gov/outdoor-activities/hunting-in-kansas/when-to-hunt",
+    "sourceQuote": "Deer - Muzzleloader Only | 2026: September 14-27, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "Per the KDWP Deer page: Resident Any-Season White-tailed Deer permits are valid statewide in any season with that season's legal equipment and are sold over the counter (Aug. 5 to Dec. 31); the Resident Any-Deer Firearms permit and all nonresident permits are draw only."
+  },
+  {
+    "id": "ks-deer-archery-2026",
+    "state": "KS",
+    "species": "deer",
+    "seasonName": "Deer, Regular Archery",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-14",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 deer per permit (type set by permit)",
+    "possessionLimit": null,
+    "agency": "KDWP",
+    "sourceTitle": "KDWP, When to Hunt (season dates page)",
+    "sourceUrl": "https://ksoutdoors.gov/outdoor-activities/hunting-in-kansas/when-to-hunt",
+    "sourceQuote": "Regular Archery | 2026: September 14-December 31, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "Per the KDWP Deer page: Resident Any-Season White-tailed Deer permits are valid statewide in any season with that season's legal equipment and are sold over the counter (Aug. 5 to Dec. 31); the Resident Any-Deer Firearms permit and all nonresident permits are draw only."
+  },
+  {
+    "id": "ks-deer-prerut-wao-2026",
+    "state": "KS",
+    "species": "deer",
+    "seasonName": "Deer, Pre-Rut Whitetail Antlerless Only (WAO)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-12",
+        "note": "whitetail antlerless only"
+      }
+    ],
+    "bagLimit": "1 deer per permit (type set by permit)",
+    "possessionLimit": null,
+    "agency": "KDWP",
+    "sourceTitle": "KDWP, When to Hunt (season dates page)",
+    "sourceUrl": "https://ksoutdoors.gov/outdoor-activities/hunting-in-kansas/when-to-hunt",
+    "sourceQuote": "Pre-Rut, Whitetail Antlerless Only (WAO) | 2026: October 10-12, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "Per the KDWP Deer page: Resident Any-Season White-tailed Deer permits are valid statewide in any season with that season's legal equipment and are sold over the counter (Aug. 5 to Dec. 31); the Resident Any-Deer Firearms permit and all nonresident permits are draw only."
+  },
+  {
+    "id": "ks-deer-prerut-wao-ext-unit12-2026",
+    "state": "KS",
+    "species": "deer",
+    "seasonName": "Deer, Extended Pre-Rut Whitetail Antlerless Only (WAO)",
+    "zone": "Unit 12",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-13",
+        "close": "2026-10-18",
+        "note": "whitetail antlerless only"
+      }
+    ],
+    "bagLimit": "1 deer per permit (type set by permit)",
+    "possessionLimit": null,
+    "agency": "KDWP",
+    "sourceTitle": "KDWP, When to Hunt (season dates page)",
+    "sourceUrl": "https://ksoutdoors.gov/outdoor-activities/hunting-in-kansas/when-to-hunt",
+    "sourceQuote": "Extended Pre-Rut, Whitetail Antlerless Only (WAO) - Unit 12 Only | 2026: October 13-18, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "Per the KDWP Deer page: Resident Any-Season White-tailed Deer permits are valid statewide in any season with that season's legal equipment and are sold over the counter (Aug. 5 to Dec. 31); the Resident Any-Deer Firearms permit and all nonresident permits are draw only."
+  },
+  {
+    "id": "ks-deer-firearm-2026",
+    "state": "KS",
+    "species": "deer",
+    "seasonName": "Deer, Regular Firearms",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-02",
+        "close": "2026-12-13",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 deer per permit (type set by permit)",
+    "possessionLimit": null,
+    "agency": "KDWP",
+    "sourceTitle": "KDWP, When to Hunt (season dates page)",
+    "sourceUrl": "https://ksoutdoors.gov/outdoor-activities/hunting-in-kansas/when-to-hunt",
+    "sourceQuote": "Regular Firearms | Wednesday following Thanksgiving and continuing a total of 12 days | 2026: December 2-13, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "Fort Riley (Subunit 8A), Fort Leavenworth (Subunit 10A) and Smoky Hill ANG Range (Subunit 4A) have their own dates; not recorded. Per the KDWP Deer page: Resident Any-Season White-tailed Deer permits are valid statewide in any season with that season's legal equipment and are sold over the counter (Aug. 5 to Dec. 31); the Resident Any-Deer Firearms permit and all nonresident permits are draw only."
+  },
+  {
+    "id": "ks-deer-ext-wao-unit3-2026",
+    "state": "KS",
+    "species": "deer",
+    "seasonName": "Deer, Extended Whitetail Antlerless Only (WAO), 1st Segment",
+    "zone": "Unit 3",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-01-01",
+        "close": "2027-01-10",
+        "note": "whitetail antlerless only"
+      }
+    ],
+    "bagLimit": "1 deer per permit (type set by permit)",
+    "possessionLimit": null,
+    "agency": "KDWP",
+    "sourceTitle": "KDWP, When to Hunt (season dates page)",
+    "sourceUrl": "https://ksoutdoors.gov/outdoor-activities/hunting-in-kansas/when-to-hunt",
+    "sourceQuote": "1st Segment, Unit 3 Only: January 1 through the first Sunday after January 3 | 2027: January 1-10, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Per the KDWP Deer page: Resident Any-Season White-tailed Deer permits are valid statewide in any season with that season's legal equipment and are sold over the counter (Aug. 5 to Dec. 31); the Resident Any-Deer Firearms permit and all nonresident permits are draw only."
+  },
+  {
+    "id": "ks-deer-ext-wao-seg2-2026",
+    "state": "KS",
+    "species": "deer",
+    "seasonName": "Deer, Extended Whitetail Antlerless Only (WAO), 2nd Segment",
+    "zone": "Units 4, 5, 6, 7, 8, 9, 10, 16",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-01-01",
+        "close": "2027-01-17",
+        "note": "whitetail antlerless only"
+      }
+    ],
+    "bagLimit": "1 deer per permit (type set by permit)",
+    "possessionLimit": null,
+    "agency": "KDWP",
+    "sourceTitle": "KDWP, When to Hunt (season dates page)",
+    "sourceUrl": "https://ksoutdoors.gov/outdoor-activities/hunting-in-kansas/when-to-hunt",
+    "sourceQuote": "2nd Segment, Units 4, 5, 6, 7, 8, 9, 10, and 16: January 1 through the second Sunday after January 3 | 2027: January 1-17, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Per the KDWP Deer page: Resident Any-Season White-tailed Deer permits are valid statewide in any season with that season's legal equipment and are sold over the counter (Aug. 5 to Dec. 31); the Resident Any-Deer Firearms permit and all nonresident permits are draw only."
+  },
+  {
+    "id": "ks-deer-ext-wao-seg3-2026",
+    "state": "KS",
+    "species": "deer",
+    "seasonName": "Deer, Extended Whitetail Antlerless Only (WAO), 3rd Segment",
+    "zone": "Units 11, 12, 13, 14, 15, 19",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-01-01",
+        "close": "2027-01-24",
+        "note": "whitetail antlerless only"
+      }
+    ],
+    "bagLimit": "1 deer per permit (type set by permit)",
+    "possessionLimit": null,
+    "agency": "KDWP",
+    "sourceTitle": "KDWP, When to Hunt (season dates page)",
+    "sourceUrl": "https://ksoutdoors.gov/outdoor-activities/hunting-in-kansas/when-to-hunt",
+    "sourceQuote": "3rd Segment, Units 11, 12, 13, 14, 15, and 19: January 1 through the third Sunday after January 3 | 2026: January 1-24, 2027 | No extended WAO in Units 1, 2, 17, and 18",
+    "checkedDate": "2026-11-23",
+    "notes": "The page labels this line '2026: January 1-24, 2027'; recorded as Jan. 1-24, 2027. Per the KDWP Deer page: Resident Any-Season White-tailed Deer permits are valid statewide in any season with that season's legal equipment and are sold over the counter (Aug. 5 to Dec. 31); the Resident Any-Deer Firearms permit and all nonresident permits are draw only."
+  },
+  {
+    "id": "ks-deer-ext-archery-wao-unit19-2026",
+    "state": "KS",
+    "species": "deer",
+    "seasonName": "Deer, Extended Archery Whitetail Antlerless Only (WAO)",
+    "zone": "Unit 19",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-01-25",
+        "close": "2027-01-31",
+        "note": "whitetail antlerless only, archery"
+      }
+    ],
+    "bagLimit": "1 deer per permit (type set by permit)",
+    "possessionLimit": null,
+    "agency": "KDWP",
+    "sourceTitle": "KDWP, When to Hunt (season dates page)",
+    "sourceUrl": "https://ksoutdoors.gov/outdoor-activities/hunting-in-kansas/when-to-hunt",
+    "sourceQuote": "Extended Archery Whitetail Antlerless Only (WAO), Unit 19 Only | 2027: January 25-31, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Per the KDWP Deer page: Resident Any-Season White-tailed Deer permits are valid statewide in any season with that season's legal equipment and are sold over the counter (Aug. 5 to Dec. 31); the Resident Any-Deer Firearms permit and all nonresident permits are draw only."
+  },
+  {
+    "id": "ks-elk-units2-3-2026",
+    "state": "KS",
+    "species": "elk",
+    "seasonName": "Elk, outside Fort Riley",
+    "zone": "Units 2 and 3 (outside Fort Riley)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-01",
+        "close": "2026-08-31",
+        "note": "firearms, first segment"
+      },
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-30",
+        "note": "muzzleloader"
+      },
+      {
+        "open": "2026-09-14",
+        "close": "2026-12-31",
+        "note": "archery"
+      },
+      {
+        "open": "2026-12-02",
+        "close": "2026-12-13",
+        "note": "firearms, second segment"
+      },
+      {
+        "open": "2027-01-01",
+        "close": "2027-03-15",
+        "note": "firearms, third segment"
+      }
+    ],
+    "bagLimit": "1 elk per permit (any elk or antlerless, by permit)",
+    "possessionLimit": null,
+    "agency": "KDWP",
+    "sourceTitle": "KDWP, Elk (species page)",
+    "sourceUrl": "https://www.ksoutdoors.gov/outdoor-activities/hunting-in-kansas/what-to-hunt/big-game/elk",
+    "sourceQuote": "Outside of Fort Riley (Units 2 and 3) | September 14 - December 31, 2026 | First Segment: August 1-31 each year | December 2-13, 2026 | Third Segment: January 1-March 15 each year | Muzzleloader: Sept. 1-30, 2026 | Elk permits for Unit 3 are available over the counter, with no draw required. | Over‑the‑counter elk permits (no draw required) are also available in Unit 2, but only for resident landowners and nonresident tenants.",
+    "checkedDate": "2026-11-23",
+    "notes": "Residents and qualifying nonresident tenants only. Unit 3 permits over the counter; Unit 2 draw except resident landowners and nonresident tenants. Segments printed 'each year' assigned to Aug. 2026 and Jan. to Mar. 15, 2027. Fort Riley (Subunit 2a) is draw only and not recorded; Unit 1 (Morton County) is closed."
+  }
+]

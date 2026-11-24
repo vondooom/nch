@@ -1,0 +1,433 @@
+[
+  {
+    "id": "sd-pheasant-statewide-2026",
+    "state": "SD",
+    "species": "pheasant",
+    "seasonName": "Ring-necked Pheasant",
+    "zone": "Statewide (with listed refuge exceptions)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-10-04",
+        "note": "youth only"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-12",
+        "note": "resident only, public lands (possession limit 9)"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2027-01-31",
+        "note": "traditional season"
+      }
+    ],
+    "bagLimit": "3 rooster pheasants",
+    "possessionLimit": "15 rooster pheasants (accrues 3 per day)",
+    "agency": "SDGFP",
+    "sourceTitle": "South Dakota Game, Fish and Parks, 2026 Hunting and Trapping Handbook",
+    "sourceUrl": "https://gfp.sd.gov/UserDocs/docs/huntingandtrappinghandbook.pdf",
+    "sourceQuote": "RING-NECKED PHEASANT | DATES: October 17 - January 31 | DAILY LIMIT: 3 rooster pheasants | POSSESSION LIMIT: 15 rooster pheasants, taken according to the daily limit. The limit | YOUTH RING-NECKED PHEASANT | DATES: September 26 - October 4 | RESIDENT-ONLY RING-NECKED PHEASANT | DATES: October 10-12 | OPEN AREA: Public lands, statewide, which include the following:",
+    "checkedDate": "2026-11-23",
+    "notes": "Shooting hours 10 a.m. Central Time to sunset. Some game bird refuges open Dec. 1 and Sand Lake NWR opens Dec. 14. The handbook prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "sd-prairie-chicken-statewide-2026",
+    "state": "SD",
+    "species": "prairie-chicken",
+    "seasonName": "Prairie Chicken (Prairie Chicken and Sharp-tailed Grouse season)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "3 (any combination)",
+    "possessionLimit": "15 (any combination)",
+    "agency": "SDGFP",
+    "sourceTitle": "South Dakota Game, Fish and Parks, 2026 Hunting and Trapping Handbook",
+    "sourceUrl": "https://gfp.sd.gov/UserDocs/docs/huntingandtrappinghandbook.pdf",
+    "sourceQuote": "PRAIRIE CHICKEN AND SHARP-TAILED GROUSE | Includes ruffed grouse. | DATES: September 19 - January 31 | OPEN AREA: Statewide | DAILY LIMIT: 3 (any combination) | POSSESSION LIMIT: 15 (any combination) taken according to the daily limit. Limit",
+    "checkedDate": "2026-11-23",
+    "notes": "Prairie chicken, sharp-tailed grouse and ruffed grouse share one season and limit. Greater sage grouse season closed. The handbook prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "sd-sharptail-statewide-2026",
+    "state": "SD",
+    "species": "sharptail",
+    "seasonName": "Sharp-tailed Grouse (Prairie Chicken and Sharp-tailed Grouse season)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "3 (any combination)",
+    "possessionLimit": "15 (any combination)",
+    "agency": "SDGFP",
+    "sourceTitle": "South Dakota Game, Fish and Parks, 2026 Hunting and Trapping Handbook",
+    "sourceUrl": "https://gfp.sd.gov/UserDocs/docs/huntingandtrappinghandbook.pdf",
+    "sourceQuote": "PRAIRIE CHICKEN AND SHARP-TAILED GROUSE | Includes ruffed grouse. | DATES: September 19 - January 31 | OPEN AREA: Statewide | DAILY LIMIT: 3 (any combination) | POSSESSION LIMIT: 15 (any combination) taken according to the daily limit. Limit",
+    "checkedDate": "2026-11-23",
+    "notes": "Prairie chicken, sharp-tailed grouse and ruffed grouse share one season and limit. Greater sage grouse season closed. The handbook prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "sd-grouse-statewide-2026",
+    "state": "SD",
+    "species": "grouse",
+    "seasonName": "Ruffed Grouse (Prairie Chicken and Sharp-tailed Grouse season)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "3 (any combination)",
+    "possessionLimit": "15 (any combination)",
+    "agency": "SDGFP",
+    "sourceTitle": "South Dakota Game, Fish and Parks, 2026 Hunting and Trapping Handbook",
+    "sourceUrl": "https://gfp.sd.gov/UserDocs/docs/huntingandtrappinghandbook.pdf",
+    "sourceQuote": "PRAIRIE CHICKEN AND SHARP-TAILED GROUSE | Includes ruffed grouse. | DATES: September 19 - January 31 | OPEN AREA: Statewide | DAILY LIMIT: 3 (any combination) | POSSESSION LIMIT: 15 (any combination) taken according to the daily limit. Limit",
+    "checkedDate": "2026-11-23",
+    "notes": "Prairie chicken, sharp-tailed grouse and ruffed grouse share one season and limit. Greater sage grouse season closed. The handbook prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "sd-partridge-statewide-2026",
+    "state": "SD",
+    "species": "partridge",
+    "seasonName": "Partridge and Chukar",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 (any combination)",
+    "possessionLimit": "15 (any combination)",
+    "agency": "SDGFP",
+    "sourceTitle": "South Dakota Game, Fish and Parks, 2026 Hunting and Trapping Handbook",
+    "sourceUrl": "https://gfp.sd.gov/UserDocs/docs/huntingandtrappinghandbook.pdf",
+    "sourceQuote": "PARTRIDGE AND CHUKAR | DATES: September 19 - January 31 | OPEN AREA: Statewide | DAILY LIMIT: 5 (any combination) | POSSESSION LIMIT: 15 (any combination) taken according to the daily limit. Limit",
+    "checkedDate": "2026-11-23",
+    "notes": "Limits shared with chukar. The handbook prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "sd-quail-statewide-2026",
+    "state": "SD",
+    "species": "quail",
+    "seasonName": "Quail",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 (any combination)",
+    "possessionLimit": "15 (any combination)",
+    "agency": "SDGFP",
+    "sourceTitle": "South Dakota Game, Fish and Parks, 2026 Hunting and Trapping Handbook",
+    "sourceUrl": "https://gfp.sd.gov/UserDocs/docs/huntingandtrappinghandbook.pdf",
+    "sourceQuote": "QUAIL | DATES: October 17 - January 31 | OPEN AREA: Statewide | DAILY LIMIT: 5 (any combination)",
+    "checkedDate": "2026-11-23",
+    "notes": "The handbook prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "sd-dove-statewide-2026",
+    "state": "SD",
+    "species": "dove",
+    "seasonName": "Mourning Dove",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-11-09",
+        "note": null
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": "45",
+    "agency": "SDGFP",
+    "sourceTitle": "South Dakota Game, Fish and Parks, 2026 Hunting and Trapping Handbook",
+    "sourceUrl": "https://gfp.sd.gov/UserDocs/docs/huntingandtrappinghandbook.pdf",
+    "sourceQuote": "OTHER | SEASONS | Species Dates Daily Limit Possession Limit | * Mourning Dove | Sept. 1-Nov. 9 15 45 Statewide",
+    "checkedDate": "2026-11-23",
+    "notes": "The handbook prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "sd-duck-high-plains-2026",
+    "state": "SD",
+    "species": "duck",
+    "seasonName": "Duck, High Plains",
+    "zone": "High Plains",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-09-13",
+        "note": "youth waterfowl, statewide"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2027-01-14",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": "Traditional option: 6 (no more than 5 mallards with no more than 2 hens, 3 wood ducks, 1 scaup, 2 redheads, 2 canvasback, 3 pintail) plus 2 bonus blue-winged teal in the first 9 days; or three-duck option: 3 of any species or sex. Coots 15.",
+    "possessionLimit": "Three times the daily limit",
+    "agency": "SDGFP",
+    "sourceTitle": "South Dakota Game, Fish and Parks, 2026 Hunting and Trapping Handbook",
+    "sourceUrl": "https://gfp.sd.gov/UserDocs/docs/huntingandtrappinghandbook.pdf",
+    "sourceQuote": "HIGH PLAINS: | Oct. 10 - Jan. 14 | TRADITIONAL DAILY LIMIT | Ducks: 6 - The daily duck (including mergansers) limit may be comprised of no more | » 2 - bonus blue-winged teal (first 9 days of the zone-specific season only) | THREE-DUCK DAILY LIMIT | 3 ducks of any species or sex (includes mergansers) | POSSESSION LIMIT: Three times the daily limit; taken according to the daily limit | YOUTH WATERFOWL | SEASON DATES: Sept. 12 - 13",
+    "checkedDate": "2026-11-23",
+    "notes": "Hunters pick the traditional or three-duck option when buying the State Migratory Bird Certificate. Nonresident waterfowl licenses are issued by lottery. The handbook prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "sd-duck-low-plains-north-2026",
+    "state": "SD",
+    "species": "duck",
+    "seasonName": "Duck, Low Plains North Zone",
+    "zone": "Low Plains North Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-09-13",
+        "note": "youth waterfowl, statewide"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-12-08",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": "Traditional option: 6 (no more than 5 mallards with no more than 2 hens, 3 wood ducks, 1 scaup, 2 redheads, 2 canvasback, 3 pintail) plus 2 bonus blue-winged teal in the first 9 days; or three-duck option: 3 of any species or sex. Coots 15.",
+    "possessionLimit": "Three times the daily limit",
+    "agency": "SDGFP",
+    "sourceTitle": "South Dakota Game, Fish and Parks, 2026 Hunting and Trapping Handbook",
+    "sourceUrl": "https://gfp.sd.gov/UserDocs/docs/huntingandtrappinghandbook.pdf",
+    "sourceQuote": "LOW PLAINS - NORTH | Sept. 26 - Dec. 8 | TRADITIONAL DAILY LIMIT | Ducks: 6 - The daily duck (including mergansers) limit may be comprised of no more | » 2 - bonus blue-winged teal (first 9 days of the zone-specific season only) | THREE-DUCK DAILY LIMIT | 3 ducks of any species or sex (includes mergansers) | POSSESSION LIMIT: Three times the daily limit; taken according to the daily limit | YOUTH WATERFOWL | SEASON DATES: Sept. 12 - 13",
+    "checkedDate": "2026-11-23",
+    "notes": "Hunters pick the traditional or three-duck option when buying the State Migratory Bird Certificate. Nonresident waterfowl licenses are issued by lottery. The handbook prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "sd-duck-low-plains-middle-2026",
+    "state": "SD",
+    "species": "duck",
+    "seasonName": "Duck, Low Plains Middle Zone",
+    "zone": "Low Plains Middle Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-09-13",
+        "note": "youth waterfowl, statewide"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-12-08",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": "Traditional option: 6 (no more than 5 mallards with no more than 2 hens, 3 wood ducks, 1 scaup, 2 redheads, 2 canvasback, 3 pintail) plus 2 bonus blue-winged teal in the first 9 days; or three-duck option: 3 of any species or sex. Coots 15.",
+    "possessionLimit": "Three times the daily limit",
+    "agency": "SDGFP",
+    "sourceTitle": "South Dakota Game, Fish and Parks, 2026 Hunting and Trapping Handbook",
+    "sourceUrl": "https://gfp.sd.gov/UserDocs/docs/huntingandtrappinghandbook.pdf",
+    "sourceQuote": "LOW PLAINS - MIDDLE ZONE: | Sept. 26 - Dec. 8 | TRADITIONAL DAILY LIMIT | Ducks: 6 - The daily duck (including mergansers) limit may be comprised of no more | » 2 - bonus blue-winged teal (first 9 days of the zone-specific season only) | THREE-DUCK DAILY LIMIT | 3 ducks of any species or sex (includes mergansers) | POSSESSION LIMIT: Three times the daily limit; taken according to the daily limit | YOUTH WATERFOWL | SEASON DATES: Sept. 12 - 13",
+    "checkedDate": "2026-11-23",
+    "notes": "Hunters pick the traditional or three-duck option when buying the State Migratory Bird Certificate. Nonresident waterfowl licenses are issued by lottery. The handbook prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "sd-duck-low-plains-south-2026",
+    "state": "SD",
+    "species": "duck",
+    "seasonName": "Duck, Low Plains South Zone",
+    "zone": "Low Plains South Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-09-13",
+        "note": "youth waterfowl, statewide"
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2027-01-05",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": "Traditional option: 6 (no more than 5 mallards with no more than 2 hens, 3 wood ducks, 1 scaup, 2 redheads, 2 canvasback, 3 pintail) plus 2 bonus blue-winged teal in the first 9 days; or three-duck option: 3 of any species or sex. Coots 15.",
+    "possessionLimit": "Three times the daily limit",
+    "agency": "SDGFP",
+    "sourceTitle": "South Dakota Game, Fish and Parks, 2026 Hunting and Trapping Handbook",
+    "sourceUrl": "https://gfp.sd.gov/UserDocs/docs/huntingandtrappinghandbook.pdf",
+    "sourceQuote": "LOW PLAINS - SOUTH ZONE: | Oct. 24 - Jan. 5 | TRADITIONAL DAILY LIMIT | Ducks: 6 - The daily duck (including mergansers) limit may be comprised of no more | » 2 - bonus blue-winged teal (first 9 days of the zone-specific season only) | THREE-DUCK DAILY LIMIT | 3 ducks of any species or sex (includes mergansers) | POSSESSION LIMIT: Three times the daily limit; taken according to the daily limit | YOUTH WATERFOWL | SEASON DATES: Sept. 12 - 13",
+    "checkedDate": "2026-11-23",
+    "notes": "Hunters pick the traditional or three-duck option when buying the State Migratory Bird Certificate. Nonresident waterfowl licenses are issued by lottery. The handbook prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "sd-goose-canada-amt-2026",
+    "state": "SD",
+    "species": "goose",
+    "seasonName": "Canada Goose, August Management Take (resident only)",
+    "zone": "Meade County south of SD Highway 34, Pennington County west of the Cheyenne River, and Clark, Codington, Day, Deuel, Hamlin, Grant, Marshall and Roberts counties",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-08-31",
+        "note": "resident only"
+      }
+    ],
+    "bagLimit": "8 geese",
+    "possessionLimit": "Unlimited",
+    "agency": "SDGFP",
+    "sourceTitle": "South Dakota Game, Fish and Parks, 2026 Hunting and Trapping Handbook",
+    "sourceUrl": "https://gfp.sd.gov/UserDocs/docs/huntingandtrappinghandbook.pdf",
+    "sourceQuote": "AUGUST MANAGEMENT TAKE (RESIDENT ONLY): Aug. 15 - 31 | DAILY LIMIT: 8 geese | POSSESSION LIMIT: Unlimited | OPEN AREA: The counties of Meade County south of South Dakota Highway 34, | Pennington County west of the Cheyenne River, and the counties of Clark, Codington, | Day, Deuel, Hamlin, Grant, Marshall, and Roberts.",
+    "checkedDate": "2026-11-23",
+    "notes": "Includes brant and cackling geese. The handbook prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "sd-goose-canada-unit1-2026",
+    "state": "SD",
+    "species": "goose",
+    "seasonName": "Canada Goose, Unit 1",
+    "zone": "Unit 1",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-09-13",
+        "note": "youth waterfowl, statewide"
+      },
+      {
+        "open": "2026-09-01",
+        "close": "2026-12-16",
+        "note": null
+      }
+    ],
+    "bagLimit": "8 geese",
+    "possessionLimit": "Three times the daily limit",
+    "agency": "SDGFP",
+    "sourceTitle": "South Dakota Game, Fish and Parks, 2026 Hunting and Trapping Handbook",
+    "sourceUrl": "https://gfp.sd.gov/UserDocs/docs/huntingandtrappinghandbook.pdf",
+    "sourceQuote": "CANADA GOOSE | Includes brant and cackling geese. | UNIT 1: Sept. 1 - Dec. 16 | DAILY LIMIT: 8 geese | POSSESSION LIMIT: Three times the daily limit, taken according to daily limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Unit 1 counties are listed in the handbook. The handbook prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "sd-goose-canada-unit2-2026",
+    "state": "SD",
+    "species": "goose",
+    "seasonName": "Canada Goose, Unit 2",
+    "zone": "Unit 2 (areas not in Unit 1)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-09-13",
+        "note": "youth waterfowl, statewide"
+      },
+      {
+        "open": "2026-11-02",
+        "close": "2027-02-14",
+        "note": null
+      }
+    ],
+    "bagLimit": "4",
+    "possessionLimit": "Three times the daily limit",
+    "agency": "SDGFP",
+    "sourceTitle": "South Dakota Game, Fish and Parks, 2026 Hunting and Trapping Handbook",
+    "sourceUrl": "https://gfp.sd.gov/UserDocs/docs/huntingandtrappinghandbook.pdf",
+    "sourceQuote": "CANADA GOOSE | UNIT 2: Nov. 2 - Feb. 14. Those areas not included in Unit 1. | DAILY LIMIT: 4 | POSSESSION LIMIT: Three times the daily limit, taken according to daily limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Youth season Canada goose limit is 4 in Unit 2 (8 in Unit 1). The handbook prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "sd-goose-white-fronted-2026",
+    "state": "SD",
+    "species": "goose",
+    "seasonName": "White-fronted Goose",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-12-08",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "Three times the daily limit",
+    "agency": "SDGFP",
+    "sourceTitle": "South Dakota Game, Fish and Parks, 2026 Hunting and Trapping Handbook",
+    "sourceUrl": "https://gfp.sd.gov/UserDocs/docs/huntingandtrappinghandbook.pdf",
+    "sourceQuote": "WHITE-FRONTED GOOSE | SEASON DATES: Sept. 26 - Dec. 8, statewide | UNIT: Statewide. | DAILY LIMIT: 3 | POSSESSION LIMIT: Three times the daily limit, taken according to daily limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "The handbook prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "sd-goose-light-2026",
+    "state": "SD",
+    "species": "goose",
+    "seasonName": "Light Goose",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2027-01-08",
+        "note": null
+      }
+    ],
+    "bagLimit": "50",
+    "possessionLimit": "Unlimited",
+    "agency": "SDGFP",
+    "sourceTitle": "South Dakota Game, Fish and Parks, 2026 Hunting and Trapping Handbook",
+    "sourceUrl": "https://gfp.sd.gov/UserDocs/docs/huntingandtrappinghandbook.pdf",
+    "sourceQuote": "LIGHT GOOSE | SEASON DATES: Sept. 26 - Jan. 8, statewide | UNIT: Statewide | DAILY LIMIT: 50 | POSSESSION LIMIT: Unlimited",
+    "checkedDate": "2026-11-23",
+    "notes": "The handbook prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "sd-elk-east-river-2026",
+    "state": "SD",
+    "species": "elk",
+    "seasonName": "Elk, East River unit (resident only, over the counter)",
+    "zone": "East River prairie elk unit (east of the Missouri River, excluding Crow Creek Reservation and tribal land)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "Any elk (per license)",
+    "possessionLimit": null,
+    "agency": "SDGFP",
+    "sourceTitle": "South Dakota Game, Fish and Parks, 2026 Hunting and Trapping Handbook",
+    "sourceUrl": "https://gfp.sd.gov/UserDocs/docs/huntingandtrappinghandbook.pdf",
+    "sourceQuote": "What is the East River Elk season? | the creation of a new prairie elk hunting unit east of the Missouri River, | excluding the interior boundary of Crow Creek Reservation or tribal | framework and will offer resident-only, over-the-counter “any elk” licenses, | with season dates running September 1 through December 31.",
+    "checkedDate": "2026-11-23",
+    "notes": "New for 2026. Resident only. Other SD elk seasons (Black Hills, Custer State Park, other prairie units) are lottery. The handbook prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  }
+]
