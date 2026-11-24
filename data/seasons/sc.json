@@ -1,0 +1,456 @@
+[
+  {
+    "id": "sc-dove-2026",
+    "state": "SC",
+    "species": "dove",
+    "seasonName": "Mourning doves",
+    "zone": "All Game Zones",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-10-03",
+        "note": null
+      },
+      {
+        "open": "2026-11-13",
+        "close": "2026-11-28",
+        "note": null
+      },
+      {
+        "open": "2026-12-18",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": "3 times the daily bag",
+    "agency": "SCDNR",
+    "sourceTitle": "SCDNR, 2026-2027 South Carolina Hunting & Fishing Laws and Regulations Guide",
+    "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+    "sourceQuote": "September 5, 2026 - October 3, 2026 Mourning Doves 15 Total | November 13, 2026 - November 28, 2026 | December 18, 2026 - January 31, 2027 | The possession limit is three times the daily bag for each group or | individual species as listed above except there is no possession limit for | snow geese.",
+    "checkedDate": "2026-11-23",
+    "notes": "WMA dove fields have separate schedules (public dove field list). Years as printed in the source."
+  },
+  {
+    "id": "sc-duck-teal-early-2026",
+    "state": "SC",
+    "species": "duck",
+    "seasonName": "Early teal (blue- and green-winged)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-27",
+        "note": "teal only; sunrise to sunset"
+      }
+    ],
+    "bagLimit": "6",
+    "possessionLimit": "3 times the daily bag",
+    "agency": "SCDNR",
+    "sourceTitle": "SCDNR, 2026-2027 South Carolina Hunting & Fishing Laws and Regulations Guide",
+    "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+    "sourceQuote": "September 19, 2026 - September 27, 2026 | Early Teal (Blue & Green-winged) 6 Total | Early Teal Sunrise until Sunset | The possession limit is three times the daily bag for each group or | individual species as listed above except there is no possession limit for | snow geese.",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed in the source."
+  },
+  {
+    "id": "sc-duck-2026",
+    "state": "SC",
+    "species": "duck",
+    "seasonName": "Ducks (including sea ducks) and American coots",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-28",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-01-31",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 5 black-bellied whistling ducks; 4 mallards (2 hens); 3 pintails, 3 wood ducks; 2 redheads, 2 canvasbacks; scaup 2 or 1 by date; 1 fulvous whistling duck; 4 sea ducks); coots 15; mergansers 5 (1 hooded)",
+    "possessionLimit": "3 times the daily bag",
+    "agency": "SCDNR",
+    "sourceTitle": "SCDNR, 2026-2027 South Carolina Hunting & Fishing Laws and Regulations Guide",
+    "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+    "sourceQuote": "November 21, 2026 - November 28, 2026 | December 12, 2026 - January 31, 2027 | 6 Total including those species not | Including no more than 5 Black- | » Mallards (no more than 2 hens), | American Coots 15 Total | The possession limit is three times the daily bag for each group or | individual species as listed above except there is no possession limit for | snow geese.",
+    "checkedDate": "2026-11-23",
+    "notes": "Black duck and mottled duck limits differ east/south vs west/north of I-95. State Youth Day Nov. 14, 2026; Federal Youth and Veteran/Active Military Days Feb. 6 and 13, 2027 (not recorded as periods). No open season on harlequin ducks. Years as printed in the source."
+  },
+  {
+    "id": "sc-goose-canada-2026",
+    "state": "SC",
+    "species": "goose",
+    "seasonName": "Canada geese",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-30",
+        "note": "15 per day"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-28",
+        "note": null
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-01-31",
+        "note": null
+      },
+      {
+        "open": "2027-02-15",
+        "close": "2027-03-01",
+        "note": null
+      }
+    ],
+    "bagLimit": "15 (Sept. 1-30); 5 Canada and white-fronted geese, no more than 2 white-fronted (remainder of season)",
+    "possessionLimit": "3 times the daily bag",
+    "agency": "SCDNR",
+    "sourceTitle": "SCDNR, 2026-2027 South Carolina Hunting & Fishing Laws and Regulations Guide",
+    "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+    "sourceQuote": "September 1, 2026- September 30, 2026 | Canada Geese | February 15, 2027 - March 1, 2027 | 15 Total | (September 1—September 30) | Canada Geese & White-Fronted 5 Total, No more than 2 | The possession limit is three times the daily bag for each group or | individual species as listed above except there is no possession limit for | snow geese.",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed in the source."
+  },
+  {
+    "id": "sc-goose-whitefront-snow-2026",
+    "state": "SC",
+    "species": "goose",
+    "seasonName": "White-fronted geese and snow geese",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-28",
+        "note": null
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-01-31",
+        "note": null
+      },
+      {
+        "open": "2027-02-15",
+        "close": "2027-03-01",
+        "note": null
+      }
+    ],
+    "bagLimit": "Snow geese 25; white-fronted counted in the 5-goose Canada/white-fronted limit (no more than 2 white-fronted)",
+    "possessionLimit": "3 times the daily bag (no possession limit for snow geese)",
+    "agency": "SCDNR",
+    "sourceTitle": "SCDNR, 2026-2027 South Carolina Hunting & Fishing Laws and Regulations Guide",
+    "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+    "sourceQuote": "White-fronted Geese & | Snow Geese | Snow Geese 25 Total | The possession limit is three times the daily bag for each group or | individual species as listed above except there is no possession limit for | snow geese.",
+    "checkedDate": "2026-11-23",
+    "notes": "Dates from the same table rows as Canada geese (Nov. 21-28, Dec. 12 - Jan. 31, Feb. 15 - Mar. 1); spot-check row alignment. Brant Jan. 2-31, 2027, bag 1 (not recorded). Years as printed in the source."
+  },
+  {
+    "id": "sc-snipe-2026",
+    "state": "SC",
+    "species": "snipe",
+    "seasonName": "Common snipe",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-14",
+        "close": "2027-02-28",
+        "note": null
+      }
+    ],
+    "bagLimit": "8",
+    "possessionLimit": "3 times the daily bag",
+    "agency": "SCDNR",
+    "sourceTitle": "SCDNR, 2026-2027 South Carolina Hunting & Fishing Laws and Regulations Guide",
+    "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+    "sourceQuote": "Common Snipe November 14, 2026 - February 28, 2027 | Common Snipe 8 Total | The possession limit is three times the daily bag for each group or | individual species as listed above except there is no possession limit for | snow geese.",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed in the source."
+  },
+  {
+    "id": "sc-woodcock-2026",
+    "state": "SC",
+    "species": "woodcock",
+    "seasonName": "Woodcock",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-18",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "3 times the daily bag",
+    "agency": "SCDNR",
+    "sourceTitle": "SCDNR, 2026-2027 South Carolina Hunting & Fishing Laws and Regulations Guide",
+    "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+    "sourceQuote": "Woodcock December 18, 2026- January 31, 2027 | Woodcock 3 Total | The possession limit is three times the daily bag for each group or | individual species as listed above except there is no possession limit for | snow geese.",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed in the source."
+  },
+  {
+    "id": "sc-quail-2026",
+    "state": "SC",
+    "species": "quail",
+    "seasonName": "Quail (guns and dogs), private lands",
+    "zone": "All Game Zones",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-23",
+        "close": "2027-03-01",
+        "note": null
+      }
+    ],
+    "bagLimit": "12 per day",
+    "possessionLimit": null,
+    "agency": "SCDNR",
+    "sourceTitle": "SCDNR, 2026-2027 South Carolina Hunting & Fishing Laws and Regulations Guide",
+    "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+    "sourceQuote": "SMALL GAME SEASONS — Check individual WMAs for additional restrictions. | Quail All Game Zones Nov. 23-Mar. 1 (guns & dogs) 12 per day",
+    "checkedDate": "2026-11-23",
+    "notes": "WMA season also Nov. 23 - Mar. 1 (guns and dogs). Statewide private-land youth quail day Nov. 21, 2026 (12 per day). Dogs-only training periods outside the season are not recorded. The small game table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "sc-grouse-zone1-2026",
+    "state": "SC",
+    "species": "grouse",
+    "seasonName": "Grouse",
+    "zone": "Game Zone 1",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-26",
+        "close": "2027-03-01",
+        "note": null
+      }
+    ],
+    "bagLimit": "3 per day",
+    "possessionLimit": null,
+    "agency": "SCDNR",
+    "sourceTitle": "SCDNR, 2026-2027 South Carolina Hunting & Fishing Laws and Regulations Guide",
+    "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+    "sourceQuote": "Grouse Game Zone 1 only Nov. 26-Mar. 1 Nov. 26-Mar. 1 3 per day",
+    "checkedDate": "2026-11-23",
+    "notes": "Private land and WMA seasons are the same. The small game table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "sc-turkey-spring-2027",
+    "state": "SC",
+    "species": "turkey",
+    "seasonName": "Spring turkey season",
+    "zone": "Statewide (private and WMA lands)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-04-03",
+        "close": "2027-05-03",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 gobblers per season, no more than 1 per day, no more than 1 prior to April 10",
+    "possessionLimit": null,
+    "agency": "SCDNR",
+    "sourceTitle": "SCDNR, 2026-2027 South Carolina Hunting & Fishing Laws and Regulations Guide",
+    "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+    "sourceQuote": "Seasons & Limits — Spring 2027 | • Private lands statewide: April 3 – May 3 | • WMA lands statewide: April 3– May 3 | » Residents and Nonresidents: 2 gob- | blers per season, no more than one | per day, no more than one (1) prior to",
+    "checkedDate": "2026-11-23",
+    "notes": "Youth weekends on private lands March 27-28 and May 8-9, 2027 (one gobbler total for both weekends). Some WMAs are more restrictive. Year 2027 from the section heading."
+  },
+  {
+    "id": "sc-deer-zone1-primitive-2026",
+    "state": "SC",
+    "species": "deer",
+    "seasonName": "Primitive weapons, Game Zone 1 (private lands)",
+    "zone": "Game Zone 1",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2026-10-10",
+        "note": null
+      }
+    ],
+    "bagLimit": "Antlered: statewide limit (residents 2 per day, 5 total); antlerless 2 per day, 3 total",
+    "possessionLimit": null,
+    "agency": "SCDNR",
+    "sourceTitle": "SCDNR, 2026-2027 South Carolina Hunting & Fishing Laws and Regulations Guide",
+    "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+    "sourceQuote": "Deer Seasons on Private Lands | Game Zone 1 | (Private Lands) | Primitive Weapons: Oct. 1-10 | » Residents - 2 per day, 5 total all seasons and methods combined.",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlered deer statewide limit: residents 2 per day, 5 total; nonresidents 2 per day, 4 total. Private lands; WMA seasons differ. Youth deer hunt days listed for each zone are not recorded as periods. The deer season table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "sc-deer-zone1-gun-2026",
+    "state": "SC",
+    "species": "deer",
+    "seasonName": "Gun hunts, Game Zone 1 (private lands)",
+    "zone": "Game Zone 1",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-11",
+        "close": "2027-01-01",
+        "note": null
+      }
+    ],
+    "bagLimit": "Antlered: statewide limit (residents 2 per day, 5 total); antlerless 2 per day, 3 total",
+    "possessionLimit": null,
+    "agency": "SCDNR",
+    "sourceTitle": "SCDNR, 2026-2027 South Carolina Hunting & Fishing Laws and Regulations Guide",
+    "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+    "sourceQuote": "Deer Seasons on Private Lands | Game Zone 1 | (Private Lands) | Gun Hunts: Oct. 11-Jan. 1 | » Residents - 2 per day, 5 total all seasons and methods combined.",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlered deer statewide limit: residents 2 per day, 5 total; nonresidents 2 per day, 4 total. Private lands; WMA seasons differ. Youth deer hunt days listed for each zone are not recorded as periods. Game Zone 1 has no separate archery-only season in the table. The deer season table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "sc-deer-zone2-archery-2026",
+    "state": "SC",
+    "species": "deer",
+    "seasonName": "Archery only, Game Zone 2 (private lands)",
+    "zone": "Game Zone 2",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-15",
+        "close": "2026-09-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "Antlered: statewide limit (residents 2 per day, 5 total); antlerless 2 per day, 9 total",
+    "possessionLimit": null,
+    "agency": "SCDNR",
+    "sourceTitle": "SCDNR, 2026-2027 South Carolina Hunting & Fishing Laws and Regulations Guide",
+    "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+    "sourceQuote": "Deer Seasons on Private Lands | Game Zone 2 | (Private Lands) | Archery Only: Sept. 15-30 | » Residents - 2 per day, 5 total all seasons and methods combined.",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlered deer statewide limit: residents 2 per day, 5 total; nonresidents 2 per day, 4 total. Private lands; WMA seasons differ. Youth deer hunt days listed for each zone are not recorded as periods. The deer season table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "sc-deer-zone2-primitive-2026",
+    "state": "SC",
+    "species": "deer",
+    "seasonName": "Primitive weapons, Game Zone 2 (private lands)",
+    "zone": "Game Zone 2",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2026-10-10",
+        "note": null
+      }
+    ],
+    "bagLimit": "Antlered: statewide limit (residents 2 per day, 5 total); antlerless 2 per day, 9 total",
+    "possessionLimit": null,
+    "agency": "SCDNR",
+    "sourceTitle": "SCDNR, 2026-2027 South Carolina Hunting & Fishing Laws and Regulations Guide",
+    "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+    "sourceQuote": "Deer Seasons on Private Lands | Game Zone 2 | (Private Lands) | Archery Only: Sept. 15-30 | Primitive Weapons: Oct. 1-10 | » Residents - 2 per day, 5 total all seasons and methods combined.",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlered deer statewide limit: residents 2 per day, 5 total; nonresidents 2 per day, 4 total. Private lands; WMA seasons differ. Youth deer hunt days listed for each zone are not recorded as periods. The deer season table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "sc-deer-zone2-gun-2026",
+    "state": "SC",
+    "species": "deer",
+    "seasonName": "Gun hunts, Game Zone 2 (private lands)",
+    "zone": "Game Zone 2",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-11",
+        "close": "2027-01-01",
+        "note": null
+      }
+    ],
+    "bagLimit": "Antlered: statewide limit (residents 2 per day, 5 total); antlerless 2 per day, 9 total",
+    "possessionLimit": null,
+    "agency": "SCDNR",
+    "sourceTitle": "SCDNR, 2026-2027 South Carolina Hunting & Fishing Laws and Regulations Guide",
+    "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+    "sourceQuote": "Deer Seasons on Private Lands | Game Zone 2 | (Private Lands) | Primitive Weapons: Oct. 1-10 | Gun Hunts: Oct. 11-Jan. 1 | Youth Deer Hunt Days: Septem- | ber 12, Antlered deer only, limit 1. | » Residents - 2 per day, 5 total all seasons and methods combined.",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlered deer statewide limit: residents 2 per day, 5 total; nonresidents 2 per day, 4 total. Private lands; WMA seasons differ. Youth deer hunt days listed for each zone are not recorded as periods. The deer season table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "sc-deer-zone3-archery-gun-2026",
+    "state": "SC",
+    "species": "deer",
+    "seasonName": "Archery and gun hunts, Game Zone 3 (private lands)",
+    "zone": "Game Zone 3",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2027-01-01",
+        "note": "Aug. 15 - Sept. 14 buck only"
+      }
+    ],
+    "bagLimit": "Antlered: statewide limit (residents 2 per day, 5 total); antlerless 2 per day, 9 total",
+    "possessionLimit": null,
+    "agency": "SCDNR",
+    "sourceTitle": "SCDNR, 2026-2027 South Carolina Hunting & Fishing Laws and Regulations Guide",
+    "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+    "sourceQuote": "Deer Seasons on Private Lands | Game Zone 3 | (Private Lands) | Archery & Gun Hunts: Aug. 15- | Jan. 1 (Aug. 15-Sept. 14 buck only) | » Residents - 2 per day, 5 total all seasons and methods combined.",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlered deer statewide limit: residents 2 per day, 5 total; nonresidents 2 per day, 4 total. Private lands; WMA seasons differ. Youth deer hunt days listed for each zone are not recorded as periods. The deer season table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "sc-deer-zone4-archery-2026",
+    "state": "SC",
+    "species": "deer",
+    "seasonName": "Archery only, Game Zone 4 (private lands)",
+    "zone": "Game Zone 4",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-08-31",
+        "note": "buck only"
+      }
+    ],
+    "bagLimit": "Antlered: statewide limit (residents 2 per day, 5 total); antlerless 2 per day, 9 total",
+    "possessionLimit": null,
+    "agency": "SCDNR",
+    "sourceTitle": "SCDNR, 2026-2027 South Carolina Hunting & Fishing Laws and Regulations Guide",
+    "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+    "sourceQuote": "Deer Seasons on Private Lands | Game Zone 4 | (Private Lands) | Archery Only: Aug. 15-31 (Aug. 15- | Sept. 14 buck only) | » Residents - 2 per day, 5 total all seasons and methods combined.",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlered deer statewide limit: residents 2 per day, 5 total; nonresidents 2 per day, 4 total. Private lands; WMA seasons differ. Youth deer hunt days listed for each zone are not recorded as periods. The deer season table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "sc-deer-zone4-gun-2026",
+    "state": "SC",
+    "species": "deer",
+    "seasonName": "Gun hunts, Game Zone 4 (private lands)",
+    "zone": "Game Zone 4",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2027-01-01",
+        "note": "Sept. 1-14 buck only"
+      }
+    ],
+    "bagLimit": "Antlered: statewide limit (residents 2 per day, 5 total); antlerless 2 per day, 9 total",
+    "possessionLimit": null,
+    "agency": "SCDNR",
+    "sourceTitle": "SCDNR, 2026-2027 South Carolina Hunting & Fishing Laws and Regulations Guide",
+    "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+    "sourceQuote": "Deer Seasons on Private Lands | Game Zone 4 | (Private Lands) | Gun Hunts: Sept. 1-Jan. 1 (Sept. | 1-14 buck only) | » Residents - 2 per day, 5 total all seasons and methods combined.",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlered deer statewide limit: residents 2 per day, 5 total; nonresidents 2 per day, 4 total. Private lands; WMA seasons differ. Youth deer hunt days listed for each zone are not recorded as periods. The deer season table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  }
+]

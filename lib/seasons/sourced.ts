@@ -3,6 +3,8 @@ import ar from "@/data/seasons/ar.json";
 import az from "@/data/seasons/az.json";
 import ca from "@/data/seasons/ca.json";
 import co from "@/data/seasons/co.json";
+import fl from "@/data/seasons/fl.json";
+import ga from "@/data/seasons/ga.json";
 import ia from "@/data/seasons/ia.json";
 import idRecords from "@/data/seasons/id.json";
 import il from "@/data/seasons/il.json";
@@ -15,6 +17,7 @@ import mo from "@/data/seasons/mo.json";
 import ms from "@/data/seasons/ms.json";
 import mn from "@/data/seasons/mn.json";
 import mt from "@/data/seasons/mt.json";
+import nc from "@/data/seasons/nc.json";
 import nd from "@/data/seasons/nd.json";
 import ne from "@/data/seasons/ne.json";
 import nm from "@/data/seasons/nm.json";
@@ -22,6 +25,7 @@ import nv from "@/data/seasons/nv.json";
 import oh from "@/data/seasons/oh.json";
 import ok from "@/data/seasons/ok.json";
 import orRecords from "@/data/seasons/or.json";
+import sc from "@/data/seasons/sc.json";
 import sd from "@/data/seasons/sd.json";
 import tn from "@/data/seasons/tn.json";
 import tx from "@/data/seasons/tx.json";
@@ -64,6 +68,10 @@ const files = [
   ["ms.json", ms],
   ["mo.json", mo],
   ["tn.json", tn],
+  ["fl.json", fl],
+  ["ga.json", ga],
+  ["nc.json", nc],
+  ["sc.json", sc],
 ] as const;
 
 const loaded = files.map(([file, rows]) => validateSeasonFile(rows, file));
@@ -104,4 +112,8 @@ export const seasonStateCode: Record<string, string> = {
   mississippi: "MS",
   missouri: "MO",
   tennessee: "TN",
+  florida: "FL",
+  georgia: "GA",
+  "north-carolina": "NC",
+  "south-carolina": "SC",
 };

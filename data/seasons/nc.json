@@ -1,0 +1,755 @@
+[
+  {
+    "id": "nc-dove-2026",
+    "state": "NC",
+    "species": "dove",
+    "seasonName": "Mourning dove and white-winged dove",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-10-10",
+        "note": null
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-28",
+        "note": null
+      },
+      {
+        "open": "2026-12-16",
+        "close": "2027-01-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": null,
+    "agency": "NCWRC",
+    "sourceTitle": "NCWRC, Proclamation: 2026-2027 Migratory Game Bird Hunting Seasons",
+    "sourceUrl": "https://www.ncwildlife.gov/media/5176/download",
+    "sourceQuote": "Mourning Dove & White-winged | September 5 – October 10, | November 7 – November 28, and | December 16 – January 30",
+    "checkedDate": "2026-11-23",
+    "notes": "Shooting hours ½ hour before sunrise until sunset unless noted. The proclamation prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Mar = 2027)."
+  },
+  {
+    "id": "nc-woodcock-2026",
+    "state": "NC",
+    "species": "woodcock",
+    "seasonName": "Woodcock",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-10",
+        "close": "2027-01-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": null,
+    "agency": "NCWRC",
+    "sourceTitle": "NCWRC, Proclamation: 2026-2027 Migratory Game Bird Hunting Seasons",
+    "sourceUrl": "https://www.ncwildlife.gov/media/5176/download",
+    "sourceQuote": "Woodcock December 10 – January 30 3",
+    "checkedDate": "2026-11-23",
+    "notes": "Shooting hours ½ hour before sunrise until sunset unless noted. The proclamation prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Mar = 2027)."
+  },
+  {
+    "id": "nc-snipe-2026",
+    "state": "NC",
+    "species": "snipe",
+    "seasonName": "Common snipe",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-27",
+        "close": "2027-02-27",
+        "note": null
+      }
+    ],
+    "bagLimit": "8",
+    "possessionLimit": null,
+    "agency": "NCWRC",
+    "sourceTitle": "NCWRC, Proclamation: 2026-2027 Migratory Game Bird Hunting Seasons",
+    "sourceUrl": "https://www.ncwildlife.gov/media/5176/download",
+    "sourceQuote": "Common Snipe October 27 – February 27 8",
+    "checkedDate": "2026-11-23",
+    "notes": "Shooting hours ½ hour before sunrise until sunset unless noted. The proclamation prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Mar = 2027)."
+  },
+  {
+    "id": "nc-goose-canada-september-2026",
+    "state": "NC",
+    "species": "goose",
+    "seasonName": "September Canada goose season",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": null,
+    "agency": "NCWRC",
+    "sourceTitle": "NCWRC, Proclamation: 2026-2027 Migratory Game Bird Hunting Seasons",
+    "sourceUrl": "https://www.ncwildlife.gov/media/5176/download",
+    "sourceQuote": "September 1 – September 30 (statewide) | Allow the following west of U.S. 17 only: | Canada Goose 1. extend shooting hours to ½ hour after sunset 15",
+    "checkedDate": "2026-11-23",
+    "notes": "West of U.S. 17 only: extended shooting hours, unplugged guns and electronic calls allowed. Shooting hours ½ hour before sunrise until sunset unless noted. The proclamation prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Mar = 2027)."
+  },
+  {
+    "id": "nc-duck-teal-september-2026",
+    "state": "NC",
+    "species": "duck",
+    "seasonName": "September teal season",
+    "zone": "East of U.S. 17",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-10",
+        "close": "2026-09-19",
+        "note": "teal only"
+      }
+    ],
+    "bagLimit": "6",
+    "possessionLimit": null,
+    "agency": "NCWRC",
+    "sourceTitle": "NCWRC, Proclamation: 2026-2027 Migratory Game Bird Hunting Seasons",
+    "sourceUrl": "https://www.ncwildlife.gov/media/5176/download",
+    "sourceQuote": "September 10 – September 19 | September Teal 6 | (East of U.S. 17 only)",
+    "checkedDate": "2026-11-23",
+    "notes": "Shooting hours ½ hour before sunrise until sunset unless noted. The proclamation prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Mar = 2027)."
+  },
+  {
+    "id": "nc-duck-inland-2026",
+    "state": "NC",
+    "species": "duck",
+    "seasonName": "Ducks, mergansers and coots, Inland Duck Zone",
+    "zone": "Inland Duck Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-15",
+        "close": "2026-10-17",
+        "note": null
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-28",
+        "note": null
+      },
+      {
+        "open": "2026-12-18",
+        "close": "2027-01-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 sea ducks, 4 mallards (2 hens), 3 wood ducks, 3 pintails, 2 redheads, 2 canvasbacks, 2 black ducks, 1 mottled duck, 1 fulvous whistling duck; scaup 1 before Jan. 8, then 2); 5 mergansers (2 hooded); 15 coots",
+    "possessionLimit": null,
+    "agency": "NCWRC",
+    "sourceTitle": "NCWRC, Proclamation: 2026-2027 Migratory Game Bird Hunting Seasons",
+    "sourceUrl": "https://www.ncwildlife.gov/media/5176/download",
+    "sourceQuote": "Inland Duck Zone: | October 15 – October 17, | November 7 – November 28, and | December 18 – January 30 | The season on black ducks and mottled ducks is | closed until November 21 | Includes a total of 6 ducks | with no more than 4 total | 4 mallards with no | more than 2 hen mallards, | 3 wood ducks, 3 pintails, 2 | redheads, 2 canvasbacks, 2 | black ducks, 1 mottled | January 8 the scaup bag | (no more than 2 hooded | mergansers), and 15 coots. | [Bag limits are the same in each duck zone]",
+    "checkedDate": "2026-11-23",
+    "notes": "Black duck and mottled duck season closed until Nov. 21. Youth Waterfowl Days and Veterans/Military Waterfowl Days Dec. 5, 2026 and Feb. 6, 2027 statewide (not recorded as periods). Harlequin closed. Shooting hours ½ hour before sunrise until sunset unless noted. The proclamation prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Mar = 2027)."
+  },
+  {
+    "id": "nc-duck-coastal-2026",
+    "state": "NC",
+    "species": "duck",
+    "seasonName": "Ducks, mergansers and coots, Coastal Duck Zone",
+    "zone": "Coastal Duck Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-23",
+        "close": "2026-10-24",
+        "note": null
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-28",
+        "note": null
+      },
+      {
+        "open": "2026-12-17",
+        "close": "2027-01-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 sea ducks, 4 mallards (2 hens), 3 wood ducks, 3 pintails, 2 redheads, 2 canvasbacks, 2 black ducks, 1 mottled duck, 1 fulvous whistling duck; scaup 1 before Jan. 8, then 2); 5 mergansers (2 hooded); 15 coots",
+    "possessionLimit": null,
+    "agency": "NCWRC",
+    "sourceTitle": "NCWRC, Proclamation: 2026-2027 Migratory Game Bird Hunting Seasons",
+    "sourceUrl": "https://www.ncwildlife.gov/media/5176/download",
+    "sourceQuote": "Coastal Duck Zone: | October 23 – October 24, | November 7 – November 28, and | December 17 – January 30 | Includes a total of 6 ducks | with no more than 4 total | 4 mallards with no | more than 2 hen mallards, | 3 wood ducks, 3 pintails, 2 | redheads, 2 canvasbacks, 2 | black ducks, 1 mottled | January 8 the scaup bag | (no more than 2 hooded | mergansers), and 15 coots. | [Bag limits are the same in each duck zone]",
+    "checkedDate": "2026-11-23",
+    "notes": "Black duck and mottled duck season closed until Nov. 21. Sea duck season matches the Coastal Duck Zone dates (4 sea ducks, no more than 3 scoters, 3 eiders (1 hen) or 3 long-tailed ducks). Youth and Veterans/Military days Dec. 5, 2026 and Feb. 6, 2027 (not recorded). Shooting hours ½ hour before sunrise until sunset unless noted. The proclamation prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Mar = 2027)."
+  },
+  {
+    "id": "nc-goose-canada-rphz-2026",
+    "state": "NC",
+    "species": "goose",
+    "seasonName": "Canada geese (includes white-fronted geese), Resident Population Hunt Zone",
+    "zone": "Resident Population Hunt Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-15",
+        "close": "2026-10-24",
+        "note": null
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-12-05",
+        "note": null
+      },
+      {
+        "open": "2026-12-17",
+        "close": "2027-02-06",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 (Canada and white-fronted geese, singly or in the aggregate)",
+    "possessionLimit": null,
+    "agency": "NCWRC",
+    "sourceTitle": "NCWRC, Proclamation: 2026-2027 Migratory Game Bird Hunting Seasons",
+    "sourceUrl": "https://www.ncwildlife.gov/media/5176/download",
+    "sourceQuote": "Resident Population Hunt Zone: | October 15 – October 24, | November 7 – December 5, and | December 17 – February 6 | 5 in the Resident | Population Hunt Zone",
+    "checkedDate": "2026-11-23",
+    "notes": "Shooting hours ½ hour before sunrise until sunset unless noted. The proclamation prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Mar = 2027)."
+  },
+  {
+    "id": "nc-goose-canada-northeast-2026",
+    "state": "NC",
+    "species": "goose",
+    "seasonName": "Canada geese (includes white-fronted geese), Northeast Hunt Zone",
+    "zone": "Northeast Hunt Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-28",
+        "close": "2027-01-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 (Canada or white-fronted geese, singly or in the aggregate)",
+    "possessionLimit": null,
+    "agency": "NCWRC",
+    "sourceTitle": "NCWRC, Proclamation: 2026-2027 Migratory Game Bird Hunting Seasons",
+    "sourceUrl": "https://www.ncwildlife.gov/media/5176/download",
+    "sourceQuote": "Northeast Hunt Zone: December 28 – January 30 | 2 in the Northeast Hunt | Zone (includes Canada",
+    "checkedDate": "2026-11-23",
+    "notes": "Shooting hours ½ hour before sunrise until sunset unless noted. The proclamation prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Mar = 2027)."
+  },
+  {
+    "id": "nc-goose-light-2026",
+    "state": "NC",
+    "species": "goose",
+    "seasonName": "Light geese (snow and Ross's geese)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2027-03-10",
+        "note": null
+      }
+    ],
+    "bagLimit": "25",
+    "possessionLimit": "No possession limit",
+    "agency": "NCWRC",
+    "sourceTitle": "NCWRC, Proclamation: 2026-2027 Migratory Game Bird Hunting Seasons",
+    "sourceUrl": "https://www.ncwildlife.gov/media/5176/download",
+    "sourceQuote": "Light Geese (Includes Snow | November 7 – March 10 | 25, no possession limit",
+    "checkedDate": "2026-11-23",
+    "notes": "After all other waterfowl seasons close Feb. 6, unplugged guns and electronic calls are allowed for light geese. Brant Dec. 28 - Jan. 30, bag 1 (not a separate key). Shooting hours ½ hour before sunrise until sunset unless noted. The proclamation prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Mar = 2027)."
+  },
+  {
+    "id": "nc-quail-2026",
+    "state": "NC",
+    "species": "quail",
+    "seasonName": "Quail",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2027-02-28",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NCWRC",
+    "sourceTitle": "NCWRC, Hunting and Trapping Season Dates for July 1, 2026, through June 30, 2027 (2026-2027 Season Dates at a Glance)",
+    "sourceUrl": "https://www.ncwildlife.gov/regulations/2026-2027-season-dates-glance/download?attachment=",
+    "sourceQuote": "Small Game Seasons | Quail: Nov. 21, 2026 – Feb. 28, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "From the NCWRC season-dates-at-a-glance sheet (the PDF's document title reads 'Cheatsheet Tentative'; the page was last updated July 1, 2026). Bag limits are not printed on the sheet; null. Years as printed in the source."
+  },
+  {
+    "id": "nc-grouse-2026",
+    "state": "NC",
+    "species": "grouse",
+    "seasonName": "Grouse",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-12",
+        "close": "2027-02-28",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NCWRC",
+    "sourceTitle": "NCWRC, Hunting and Trapping Season Dates for July 1, 2026, through June 30, 2027 (2026-2027 Season Dates at a Glance)",
+    "sourceUrl": "https://www.ncwildlife.gov/regulations/2026-2027-season-dates-glance/download?attachment=",
+    "sourceQuote": "Grouse: Oct. 12, 2026 – Feb. 28, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "From the NCWRC season-dates-at-a-glance sheet (the PDF's document title reads 'Cheatsheet Tentative'; the page was last updated July 1, 2026). Bag limits are not printed on the sheet; null. Years as printed in the source."
+  },
+  {
+    "id": "nc-pheasant-remainder-2026",
+    "state": "NC",
+    "species": "pheasant",
+    "seasonName": "Pheasant (either sex), remainder of state",
+    "zone": "Remainder of State (outside the Carteret, Dare and Hyde barrier islands)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2027-02-28",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NCWRC",
+    "sourceTitle": "NCWRC, Hunting and Trapping Season Dates for July 1, 2026, through June 30, 2027 (2026-2027 Season Dates at a Glance)",
+    "sourceUrl": "https://www.ncwildlife.gov/regulations/2026-2027-season-dates-glance/download?attachment=",
+    "sourceQuote": "Remainder of State: Sept. 5, 2026 – Feb. 28, 2027 (pheasants of either sex)",
+    "checkedDate": "2026-11-23",
+    "notes": "From the NCWRC season-dates-at-a-glance sheet (the PDF's document title reads 'Cheatsheet Tentative'; the page was last updated July 1, 2026). Bag limits are not printed on the sheet; null. Years as printed in the source."
+  },
+  {
+    "id": "nc-pheasant-barrier-islands-2026",
+    "state": "NC",
+    "species": "pheasant",
+    "seasonName": "Pheasant (males only), barrier islands",
+    "zone": "Barrier Islands of Carteret, Dare, and Hyde Counties",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2027-02-28",
+        "note": "male pheasants only"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NCWRC",
+    "sourceTitle": "NCWRC, Hunting and Trapping Season Dates for July 1, 2026, through June 30, 2027 (2026-2027 Season Dates at a Glance)",
+    "sourceUrl": "https://www.ncwildlife.gov/regulations/2026-2027-season-dates-glance/download?attachment=",
+    "sourceQuote": "Pheasant: Barrier Islands of Carteret, Dare, and Hyde Counties: Nov. 21, 2026 – Feb. 28, 2027 (male pheasants only)",
+    "checkedDate": "2026-11-23",
+    "notes": "From the NCWRC season-dates-at-a-glance sheet (the PDF's document title reads 'Cheatsheet Tentative'; the page was last updated July 1, 2026). Bag limits are not printed on the sheet; null. Years as printed in the source."
+  },
+  {
+    "id": "nc-turkey-spring-2027",
+    "state": "NC",
+    "species": "turkey",
+    "seasonName": "Statewide spring turkey season (male or bearded turkey only)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-04-17",
+        "close": "2027-05-15",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NCWRC",
+    "sourceTitle": "NCWRC, Hunting and Trapping Season Dates for July 1, 2026, through June 30, 2027 (2026-2027 Season Dates at a Glance)",
+    "sourceUrl": "https://www.ncwildlife.gov/regulations/2026-2027-season-dates-glance/download?attachment=",
+    "sourceQuote": "Wild Turkey Seasons | Statewide Spring Season (Male or Bearded Turkey Only): April 17 - May 15, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "From the NCWRC season-dates-at-a-glance sheet (the PDF's document title reads 'Cheatsheet Tentative'; the page was last updated July 1, 2026). Bag limits are not printed on the sheet; null. Years as printed in the source."
+  },
+  {
+    "id": "nc-turkey-youth-2027",
+    "state": "NC",
+    "species": "turkey",
+    "seasonName": "Youth turkey season (male or bearded turkey only)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-04-10",
+        "close": "2027-04-11",
+        "note": "youth only"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NCWRC",
+    "sourceTitle": "NCWRC, Hunting and Trapping Season Dates for July 1, 2026, through June 30, 2027 (2026-2027 Season Dates at a Glance)",
+    "sourceUrl": "https://www.ncwildlife.gov/regulations/2026-2027-season-dates-glance/download?attachment=",
+    "sourceQuote": "Youth Season (Male or Bearded Turkey Only): April 10 - 11, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "From the NCWRC season-dates-at-a-glance sheet (the PDF's document title reads 'Cheatsheet Tentative'; the page was last updated July 1, 2026). Bag limits are not printed on the sheet; null. Years as printed in the source."
+  },
+  {
+    "id": "nc-deer-northeastern-archery-2026",
+    "state": "NC",
+    "species": "deer",
+    "seasonName": "Archery deer season (antlered), Northeastern Zone",
+    "zone": "Northeastern Deer Season Zone (Bertie, Camden, Chowan, Currituck, Edgecombe, Franklin, Gates, Greene, Halifax, Hertford, Johnston, Martin, Nash, Northampton, Pasquotank, Perquimans, Pitt, Vance, Wake, Warren, Wayne, Wilson)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-10-02",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NCWRC",
+    "sourceTitle": "NCWRC, Hunting and Trapping Season Dates for July 1, 2026, through June 30, 2027 (2026-2027 Season Dates at a Glance)",
+    "sourceUrl": "https://www.ncwildlife.gov/regulations/2026-2027-season-dates-glance/download?attachment=",
+    "sourceQuote": "Deer Seasons | NORTHEASTERN Bertie, Camden, Chowan, Currituck, | Archery Sept. 12 - Oct. 2, 2026 Same as antlered archery",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless season is the same as each antlered season. Deer bag limits are not printed on the sheet; null. From the NCWRC season-dates-at-a-glance sheet (the PDF's document title reads 'Cheatsheet Tentative'; the page was last updated July 1, 2026). Years as printed in the source."
+  },
+  {
+    "id": "nc-deer-northeastern-blackpowder-2026",
+    "state": "NC",
+    "species": "deer",
+    "seasonName": "Blackpowder deer season (antlered), Northeastern Zone",
+    "zone": "Northeastern Deer Season Zone (Bertie, Camden, Chowan, Currituck, Edgecombe, Franklin, Gates, Greene, Halifax, Hertford, Johnston, Martin, Nash, Northampton, Pasquotank, Perquimans, Pitt, Vance, Wake, Warren, Wayne, Wilson)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-16",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NCWRC",
+    "sourceTitle": "NCWRC, Hunting and Trapping Season Dates for July 1, 2026, through June 30, 2027 (2026-2027 Season Dates at a Glance)",
+    "sourceUrl": "https://www.ncwildlife.gov/regulations/2026-2027-season-dates-glance/download?attachment=",
+    "sourceQuote": "Deer Seasons | NORTHEASTERN Bertie, Camden, Chowan, Currituck, | Blackpowder Oct. 3 - Oct. 16, 2026 Same as antlered blackpowder",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless season is the same as each antlered season. Deer bag limits are not printed on the sheet; null. From the NCWRC season-dates-at-a-glance sheet (the PDF's document title reads 'Cheatsheet Tentative'; the page was last updated July 1, 2026). Years as printed in the source."
+  },
+  {
+    "id": "nc-deer-northeastern-gun-2026",
+    "state": "NC",
+    "species": "deer",
+    "seasonName": "Gun deer season (antlered), Northeastern Zone",
+    "zone": "Northeastern Deer Season Zone (Bertie, Camden, Chowan, Currituck, Edgecombe, Franklin, Gates, Greene, Halifax, Hertford, Johnston, Martin, Nash, Northampton, Pasquotank, Perquimans, Pitt, Vance, Wake, Warren, Wayne, Wilson)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2027-01-01",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NCWRC",
+    "sourceTitle": "NCWRC, Hunting and Trapping Season Dates for July 1, 2026, through June 30, 2027 (2026-2027 Season Dates at a Glance)",
+    "sourceUrl": "https://www.ncwildlife.gov/regulations/2026-2027-season-dates-glance/download?attachment=",
+    "sourceQuote": "Deer Seasons | NORTHEASTERN Bertie, Camden, Chowan, Currituck, | Gun Oct. 17, 2026 - Jan. 1, 2027 Same as antlered gun",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless season is the same as each antlered season. Deer bag limits are not printed on the sheet; null. From the NCWRC season-dates-at-a-glance sheet (the PDF's document title reads 'Cheatsheet Tentative'; the page was last updated July 1, 2026). Years as printed in the source."
+  },
+  {
+    "id": "nc-deer-southeastern-archery-2026",
+    "state": "NC",
+    "species": "deer",
+    "seasonName": "Archery deer season (antlered), Southeastern Zone",
+    "zone": "Southeastern Deer Season Zone (Beaufort, Bladen, Brunswick, Carteret, Columbus, Craven, Dare, Duplin, Harnett, Hoke, Hyde, Jones, Lenoir, Moore, New Hanover, Onslow, Pamlico, Pender, Richmond, Robeson, Scotland, Tyrrell, Washington)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-10-02",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NCWRC",
+    "sourceTitle": "NCWRC, Hunting and Trapping Season Dates for July 1, 2026, through June 30, 2027 (2026-2027 Season Dates at a Glance)",
+    "sourceUrl": "https://www.ncwildlife.gov/regulations/2026-2027-season-dates-glance/download?attachment=",
+    "sourceQuote": "Deer Seasons | SOUTHEASTERN Beaufort, Bladen, Brunswick, Carteret, | Archery Sept. 12 - Oct. 2, 2026 Same as antlered archery",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless season is the same as each antlered season. Cumberland and Sampson are a separate Southeastern CWD Management Area row (same antlered dates; special early season Aug. 22-23, 2026). Deer bag limits are not printed on the sheet; null. From the NCWRC season-dates-at-a-glance sheet (the PDF's document title reads 'Cheatsheet Tentative'; the page was last updated July 1, 2026). Years as printed in the source."
+  },
+  {
+    "id": "nc-deer-southeastern-blackpowder-2026",
+    "state": "NC",
+    "species": "deer",
+    "seasonName": "Blackpowder deer season (antlered), Southeastern Zone",
+    "zone": "Southeastern Deer Season Zone (Beaufort, Bladen, Brunswick, Carteret, Columbus, Craven, Dare, Duplin, Harnett, Hoke, Hyde, Jones, Lenoir, Moore, New Hanover, Onslow, Pamlico, Pender, Richmond, Robeson, Scotland, Tyrrell, Washington)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-16",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NCWRC",
+    "sourceTitle": "NCWRC, Hunting and Trapping Season Dates for July 1, 2026, through June 30, 2027 (2026-2027 Season Dates at a Glance)",
+    "sourceUrl": "https://www.ncwildlife.gov/regulations/2026-2027-season-dates-glance/download?attachment=",
+    "sourceQuote": "Deer Seasons | SOUTHEASTERN Beaufort, Bladen, Brunswick, Carteret, | Blackpowder Oct. 3 - Oct. 16, 2026 Same as antlered blackpowder",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless season is the same as each antlered season. Cumberland and Sampson are a separate Southeastern CWD Management Area row (same antlered dates; special early season Aug. 22-23, 2026). Deer bag limits are not printed on the sheet; null. From the NCWRC season-dates-at-a-glance sheet (the PDF's document title reads 'Cheatsheet Tentative'; the page was last updated July 1, 2026). Years as printed in the source."
+  },
+  {
+    "id": "nc-deer-southeastern-gun-2026",
+    "state": "NC",
+    "species": "deer",
+    "seasonName": "Gun deer season (antlered), Southeastern Zone",
+    "zone": "Southeastern Deer Season Zone (Beaufort, Bladen, Brunswick, Carteret, Columbus, Craven, Dare, Duplin, Harnett, Hoke, Hyde, Jones, Lenoir, Moore, New Hanover, Onslow, Pamlico, Pender, Richmond, Robeson, Scotland, Tyrrell, Washington)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2027-01-01",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NCWRC",
+    "sourceTitle": "NCWRC, Hunting and Trapping Season Dates for July 1, 2026, through June 30, 2027 (2026-2027 Season Dates at a Glance)",
+    "sourceUrl": "https://www.ncwildlife.gov/regulations/2026-2027-season-dates-glance/download?attachment=",
+    "sourceQuote": "Deer Seasons | SOUTHEASTERN Beaufort, Bladen, Brunswick, Carteret, | Gun Oct. 17, 2026 - Jan. 1, 2027 Same as antlered gun",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless season is the same as each antlered season. Cumberland and Sampson are a separate Southeastern CWD Management Area row (same antlered dates; special early season Aug. 22-23, 2026). Deer bag limits are not printed on the sheet; null. From the NCWRC season-dates-at-a-glance sheet (the PDF's document title reads 'Cheatsheet Tentative'; the page was last updated July 1, 2026). Years as printed in the source."
+  },
+  {
+    "id": "nc-deer-central-archery-2026",
+    "state": "NC",
+    "species": "deer",
+    "seasonName": "Archery deer season (antlered), Central Zone",
+    "zone": "Central Deer Season Zone (Alamance, Anson, Cabarrus, Caswell, Chatham, Davidson, Durham, Granville, Guilford, Lee, Mecklenburg, Montgomery, Orange, Person, Randolph, Rockingham, Rowan, Stanly, Union)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-10-30",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NCWRC",
+    "sourceTitle": "NCWRC, Hunting and Trapping Season Dates for July 1, 2026, through June 30, 2027 (2026-2027 Season Dates at a Glance)",
+    "sourceUrl": "https://www.ncwildlife.gov/regulations/2026-2027-season-dates-glance/download?attachment=",
+    "sourceQuote": "Deer Seasons | CENTRAL Alamance, Anson, Cabarrus, Caswell, | Archery Sept. 12 - Oct. 30, 2026 Same as antlered archery",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless season is the same as each antlered season. Deer bag limits are not printed on the sheet; null. From the NCWRC season-dates-at-a-glance sheet (the PDF's document title reads 'Cheatsheet Tentative'; the page was last updated July 1, 2026). Years as printed in the source."
+  },
+  {
+    "id": "nc-deer-central-blackpowder-2026",
+    "state": "NC",
+    "species": "deer",
+    "seasonName": "Blackpowder deer season (antlered), Central Zone",
+    "zone": "Central Deer Season Zone (Alamance, Anson, Cabarrus, Caswell, Chatham, Davidson, Durham, Granville, Guilford, Lee, Mecklenburg, Montgomery, Orange, Person, Randolph, Rockingham, Rowan, Stanly, Union)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-31",
+        "close": "2026-11-13",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NCWRC",
+    "sourceTitle": "NCWRC, Hunting and Trapping Season Dates for July 1, 2026, through June 30, 2027 (2026-2027 Season Dates at a Glance)",
+    "sourceUrl": "https://www.ncwildlife.gov/regulations/2026-2027-season-dates-glance/download?attachment=",
+    "sourceQuote": "Deer Seasons | CENTRAL Alamance, Anson, Cabarrus, Caswell, | Blackpowder Oct. 31 - Nov. 13, 2026 Same as antlered blackpowder",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless season is the same as each antlered season. Deer bag limits are not printed on the sheet; null. From the NCWRC season-dates-at-a-glance sheet (the PDF's document title reads 'Cheatsheet Tentative'; the page was last updated July 1, 2026). Years as printed in the source."
+  },
+  {
+    "id": "nc-deer-central-gun-2026",
+    "state": "NC",
+    "species": "deer",
+    "seasonName": "Gun deer season (antlered), Central Zone",
+    "zone": "Central Deer Season Zone (Alamance, Anson, Cabarrus, Caswell, Chatham, Davidson, Durham, Granville, Guilford, Lee, Mecklenburg, Montgomery, Orange, Person, Randolph, Rockingham, Rowan, Stanly, Union)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-14",
+        "close": "2027-01-01",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NCWRC",
+    "sourceTitle": "NCWRC, Hunting and Trapping Season Dates for July 1, 2026, through June 30, 2027 (2026-2027 Season Dates at a Glance)",
+    "sourceUrl": "https://www.ncwildlife.gov/regulations/2026-2027-season-dates-glance/download?attachment=",
+    "sourceQuote": "Deer Seasons | CENTRAL Alamance, Anson, Cabarrus, Caswell, | Gun Nov. 14, 2026 - Jan. 1, 2027 Same as antlered gun",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless season is the same as each antlered season. Deer bag limits are not printed on the sheet; null. From the NCWRC season-dates-at-a-glance sheet (the PDF's document title reads 'Cheatsheet Tentative'; the page was last updated July 1, 2026). Years as printed in the source."
+  },
+  {
+    "id": "nc-deer-northwestern-archery-2026",
+    "state": "NC",
+    "species": "deer",
+    "seasonName": "Archery deer season (antlered), Northwestern Zone",
+    "zone": "Northwestern Deer Season Zone (Alexander, Alleghany, Ashe, Catawba, Cleveland, Davie, Gaston, Iredell, Lincoln, Polk, Rutherford, Watauga)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-11-06",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NCWRC",
+    "sourceTitle": "NCWRC, Hunting and Trapping Season Dates for July 1, 2026, through June 30, 2027 (2026-2027 Season Dates at a Glance)",
+    "sourceUrl": "https://www.ncwildlife.gov/regulations/2026-2027-season-dates-glance/download?attachment=",
+    "sourceQuote": "Deer Seasons | NORTHWESTERN Alexander, Alleghany, Ashe, Catawba, | Archery Sept. 12 - Nov. 6, 2026 Same as antlered archery",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless season is the same as each antlered season. Forsyth, Stokes, Surry, Wilkes and Yadkin are a separate Northwestern CWD Management Area row with Central-zone dates (archery Sept. 12 - Oct. 30, blackpowder Oct. 31 - Nov. 13, gun Nov. 14 - Jan. 1) and a special early season Aug. 22-23, 2026; not recorded. Deer bag limits are not printed on the sheet; null. From the NCWRC season-dates-at-a-glance sheet (the PDF's document title reads 'Cheatsheet Tentative'; the page was last updated July 1, 2026). Years as printed in the source."
+  },
+  {
+    "id": "nc-deer-northwestern-blackpowder-2026",
+    "state": "NC",
+    "species": "deer",
+    "seasonName": "Blackpowder deer season (antlered), Northwestern Zone",
+    "zone": "Northwestern Deer Season Zone (Alexander, Alleghany, Ashe, Catawba, Cleveland, Davie, Gaston, Iredell, Lincoln, Polk, Rutherford, Watauga)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-20",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NCWRC",
+    "sourceTitle": "NCWRC, Hunting and Trapping Season Dates for July 1, 2026, through June 30, 2027 (2026-2027 Season Dates at a Glance)",
+    "sourceUrl": "https://www.ncwildlife.gov/regulations/2026-2027-season-dates-glance/download?attachment=",
+    "sourceQuote": "Deer Seasons | NORTHWESTERN Alexander, Alleghany, Ashe, Catawba, | Blackpowder Nov. 7 - Nov. 20, 2026 Same as antlered blackpowder",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless season is the same as each antlered season. Forsyth, Stokes, Surry, Wilkes and Yadkin are a separate Northwestern CWD Management Area row with Central-zone dates (archery Sept. 12 - Oct. 30, blackpowder Oct. 31 - Nov. 13, gun Nov. 14 - Jan. 1) and a special early season Aug. 22-23, 2026; not recorded. Deer bag limits are not printed on the sheet; null. From the NCWRC season-dates-at-a-glance sheet (the PDF's document title reads 'Cheatsheet Tentative'; the page was last updated July 1, 2026). Years as printed in the source."
+  },
+  {
+    "id": "nc-deer-northwestern-gun-2026",
+    "state": "NC",
+    "species": "deer",
+    "seasonName": "Gun deer season (antlered), Northwestern Zone",
+    "zone": "Northwestern Deer Season Zone (Alexander, Alleghany, Ashe, Catawba, Cleveland, Davie, Gaston, Iredell, Lincoln, Polk, Rutherford, Watauga)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2027-01-01",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NCWRC",
+    "sourceTitle": "NCWRC, Hunting and Trapping Season Dates for July 1, 2026, through June 30, 2027 (2026-2027 Season Dates at a Glance)",
+    "sourceUrl": "https://www.ncwildlife.gov/regulations/2026-2027-season-dates-glance/download?attachment=",
+    "sourceQuote": "Deer Seasons | NORTHWESTERN Alexander, Alleghany, Ashe, Catawba, | Gun Nov. 21, 2026 - Jan. 1, 2027 Same as antlered gun",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless season is the same as each antlered season. Forsyth, Stokes, Surry, Wilkes and Yadkin are a separate Northwestern CWD Management Area row with Central-zone dates (archery Sept. 12 - Oct. 30, blackpowder Oct. 31 - Nov. 13, gun Nov. 14 - Jan. 1) and a special early season Aug. 22-23, 2026; not recorded. Deer bag limits are not printed on the sheet; null. From the NCWRC season-dates-at-a-glance sheet (the PDF's document title reads 'Cheatsheet Tentative'; the page was last updated July 1, 2026). Years as printed in the source."
+  },
+  {
+    "id": "nc-deer-western-archery-2026",
+    "state": "NC",
+    "species": "deer",
+    "seasonName": "Archery deer season (antlered), Western Zone",
+    "zone": "Western Deer Season Zone (Avery, Burke, Caldwell, Madison, Mitchell, Yancey, Buncombe, Henderson, McDowell, Cherokee, Clay, Haywood, Jackson, Macon, Swain, Transylvania, Graham)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-11-13",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NCWRC",
+    "sourceTitle": "NCWRC, Hunting and Trapping Season Dates for July 1, 2026, through June 30, 2027 (2026-2027 Season Dates at a Glance)",
+    "sourceUrl": "https://www.ncwildlife.gov/regulations/2026-2027-season-dates-glance/download?attachment=",
+    "sourceQuote": "Deer Seasons | WESTERN Avery, Burke, Caldwell, Madison, | Archery Sept. 12 - Nov. 13, 2026 Same as antlered archery",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlered dates are the same in every Western county group. Antlerless seasons vary by county group: Avery, Burke, Caldwell, Madison, Mitchell, Yancey same as antlered; Buncombe, Henderson, McDowell gun antlerless Nov. 28 - Dec. 5 (all days in parts of Buncombe and Henderson); Cherokee, Clay, Haywood, Jackson, Macon, Swain, Transylvania blackpowder antlerless Nov. 21-27 and gun Nov. 28 only; Graham blackpowder antlerless Nov. 21 only and no gun antlerless. Deer bag limits are not printed on the sheet; null. From the NCWRC season-dates-at-a-glance sheet (the PDF's document title reads 'Cheatsheet Tentative'; the page was last updated July 1, 2026). Years as printed in the source."
+  },
+  {
+    "id": "nc-deer-western-blackpowder-2026",
+    "state": "NC",
+    "species": "deer",
+    "seasonName": "Blackpowder deer season (antlered), Western Zone",
+    "zone": "Western Deer Season Zone (Avery, Burke, Caldwell, Madison, Mitchell, Yancey, Buncombe, Henderson, McDowell, Cherokee, Clay, Haywood, Jackson, Macon, Swain, Transylvania, Graham)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-14",
+        "close": "2026-11-27",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NCWRC",
+    "sourceTitle": "NCWRC, Hunting and Trapping Season Dates for July 1, 2026, through June 30, 2027 (2026-2027 Season Dates at a Glance)",
+    "sourceUrl": "https://www.ncwildlife.gov/regulations/2026-2027-season-dates-glance/download?attachment=",
+    "sourceQuote": "Deer Seasons | WESTERN Avery, Burke, Caldwell, Madison, | Blackpowder Nov. 14 - Nov. 27, 2026 Same as antlered blackpowder",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlered dates are the same in every Western county group. Antlerless seasons vary by county group: Avery, Burke, Caldwell, Madison, Mitchell, Yancey same as antlered; Buncombe, Henderson, McDowell gun antlerless Nov. 28 - Dec. 5 (all days in parts of Buncombe and Henderson); Cherokee, Clay, Haywood, Jackson, Macon, Swain, Transylvania blackpowder antlerless Nov. 21-27 and gun Nov. 28 only; Graham blackpowder antlerless Nov. 21 only and no gun antlerless. Deer bag limits are not printed on the sheet; null. From the NCWRC season-dates-at-a-glance sheet (the PDF's document title reads 'Cheatsheet Tentative'; the page was last updated July 1, 2026). Years as printed in the source."
+  },
+  {
+    "id": "nc-deer-western-gun-2026",
+    "state": "NC",
+    "species": "deer",
+    "seasonName": "Gun deer season (antlered), Western Zone",
+    "zone": "Western Deer Season Zone (Avery, Burke, Caldwell, Madison, Mitchell, Yancey, Buncombe, Henderson, McDowell, Cherokee, Clay, Haywood, Jackson, Macon, Swain, Transylvania, Graham)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-28",
+        "close": "2027-01-01",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "NCWRC",
+    "sourceTitle": "NCWRC, Hunting and Trapping Season Dates for July 1, 2026, through June 30, 2027 (2026-2027 Season Dates at a Glance)",
+    "sourceUrl": "https://www.ncwildlife.gov/regulations/2026-2027-season-dates-glance/download?attachment=",
+    "sourceQuote": "Deer Seasons | WESTERN Avery, Burke, Caldwell, Madison, | Gun Nov. 28, 2026 - Jan. 1, 2027 Same as antlered gun",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlered dates are the same in every Western county group. Antlerless seasons vary by county group: Avery, Burke, Caldwell, Madison, Mitchell, Yancey same as antlered; Buncombe, Henderson, McDowell gun antlerless Nov. 28 - Dec. 5 (all days in parts of Buncombe and Henderson); Cherokee, Clay, Haywood, Jackson, Macon, Swain, Transylvania blackpowder antlerless Nov. 21-27 and gun Nov. 28 only; Graham blackpowder antlerless Nov. 21 only and no gun antlerless. Deer bag limits are not printed on the sheet; null. From the NCWRC season-dates-at-a-glance sheet (the PDF's document title reads 'Cheatsheet Tentative'; the page was last updated July 1, 2026). Years as printed in the source."
+  }
+]

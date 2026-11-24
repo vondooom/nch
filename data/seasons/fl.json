@@ -1,0 +1,844 @@
+[
+  {
+    "id": "fl-deer-zonea-archery-2026",
+    "state": "FL",
+    "species": "deer",
+    "seasonName": "Archery season (antlered deer), Zone A",
+    "zone": "Zone A",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-01",
+        "close": "2026-08-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 deer daily (annual limit 5, only 2 antlerless; 3 of 5 may be antlerless in DMU D2)",
+    "possessionLimit": "4 deer",
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Resident Game and Furbearer Hunting Season Dates and Bag Limits (Season Dates and Species page)",
+    "sourceUrl": "https://myfwc.com/hunting/season-dates/",
+    "sourceQuote": "ANTLERED DEER - antler regulations vary by deer management unit. | Zone A | Archery season: Aug. 1-30 | Daily bag limit : 2 deer | Possession limit : 4 deer | Annual bag limit : 5 deer of which only 2 can be antlerless. However, in DMU D2, 3 of the 5 deer may be antlerless.",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless deer in Zone A only in DMU A2 and A3: archery and crossbow Aug. 1-9 (A2) and Aug. 1-16 (A3); youth weekend Sept. 12-13; general gun Nov. 21-22 (A2) and Nov. 21-24 (A3). Antler point rules vary by DMU. Private lands; Seasons, dates and bag limits do not apply to wildlife management areas. The FWC season dates page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-deer-zonea-crossbow-2026",
+    "state": "FL",
+    "species": "deer",
+    "seasonName": "Crossbow season (antlered deer), Zone A",
+    "zone": "Zone A",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-01",
+        "close": "2026-09-04",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 deer daily (annual limit 5, only 2 antlerless; 3 of 5 may be antlerless in DMU D2)",
+    "possessionLimit": "4 deer",
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Resident Game and Furbearer Hunting Season Dates and Bag Limits (Season Dates and Species page)",
+    "sourceUrl": "https://myfwc.com/hunting/season-dates/",
+    "sourceQuote": "ANTLERED DEER - antler regulations vary by deer management unit. | Zone A | Crossbow season: Aug. 1 – Sept. 4 | Daily bag limit : 2 deer | Possession limit : 4 deer | Annual bag limit : 5 deer of which only 2 can be antlerless. However, in DMU D2, 3 of the 5 deer may be antlerless.",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless deer in Zone A only in DMU A2 and A3: archery and crossbow Aug. 1-9 (A2) and Aug. 1-16 (A3); youth weekend Sept. 12-13; general gun Nov. 21-22 (A2) and Nov. 21-24 (A3). Antler point rules vary by DMU. Private lands; Seasons, dates and bag limits do not apply to wildlife management areas. The FWC season dates page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-deer-zonea-muzzleloading-2026",
+    "state": "FL",
+    "species": "deer",
+    "seasonName": "Muzzleloading gun season (antlered deer), Zone A",
+    "zone": "Zone A",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-18",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 deer daily (annual limit 5, only 2 antlerless; 3 of 5 may be antlerless in DMU D2)",
+    "possessionLimit": "4 deer",
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Resident Game and Furbearer Hunting Season Dates and Bag Limits (Season Dates and Species page)",
+    "sourceUrl": "https://myfwc.com/hunting/season-dates/",
+    "sourceQuote": "ANTLERED DEER - antler regulations vary by deer management unit. | Zone A | Muzzleloading gun season: Sept. 5-18 | Daily bag limit : 2 deer | Possession limit : 4 deer | Annual bag limit : 5 deer of which only 2 can be antlerless. However, in DMU D2, 3 of the 5 deer may be antlerless.",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless deer in Zone A only in DMU A2 and A3: archery and crossbow Aug. 1-9 (A2) and Aug. 1-16 (A3); youth weekend Sept. 12-13; general gun Nov. 21-22 (A2) and Nov. 21-24 (A3). Antler point rules vary by DMU. Private lands; Seasons, dates and bag limits do not apply to wildlife management areas. The FWC season dates page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-deer-zonea-youth-2026",
+    "state": "FL",
+    "species": "deer",
+    "seasonName": "Youth deer hunt weekend season (antlered deer), Zone A",
+    "zone": "Zone A",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-09-13",
+        "note": "youth 15 and younger; 1 deer for the weekend"
+      }
+    ],
+    "bagLimit": "1 deer for the weekend (youth)",
+    "possessionLimit": null,
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Resident Game and Furbearer Hunting Season Dates and Bag Limits (Season Dates and Species page)",
+    "sourceUrl": "https://myfwc.com/hunting/season-dates/",
+    "sourceQuote": "ANTLERED DEER - antler regulations vary by deer management unit. | Zone A | Youth deer hunt weekend : Sept. 12-13 | with a limit of 1 deer for the weekend that counts towards the youth’s annual statewide bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless deer in Zone A only in DMU A2 and A3: archery and crossbow Aug. 1-9 (A2) and Aug. 1-16 (A3); youth weekend Sept. 12-13; general gun Nov. 21-22 (A2) and Nov. 21-24 (A3). Antler point rules vary by DMU. Private lands; Seasons, dates and bag limits do not apply to wildlife management areas. The FWC season dates page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-deer-zonea-gun-2026",
+    "state": "FL",
+    "species": "deer",
+    "seasonName": "General gun season (antlered deer), Zone A",
+    "zone": "Zone A",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-10-18",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2027-01-03",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "2 deer daily (annual limit 5, only 2 antlerless; 3 of 5 may be antlerless in DMU D2)",
+    "possessionLimit": "4 deer",
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Resident Game and Furbearer Hunting Season Dates and Bag Limits (Season Dates and Species page)",
+    "sourceUrl": "https://myfwc.com/hunting/season-dates/",
+    "sourceQuote": "ANTLERED DEER - antler regulations vary by deer management unit. | Zone A | General gun season: Sept. 19 – Oct. 18, Nov. 21 – Jan. 3 | Daily bag limit : 2 deer | Possession limit : 4 deer | Annual bag limit : 5 deer of which only 2 can be antlerless. However, in DMU D2, 3 of the 5 deer may be antlerless.",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless deer in Zone A only in DMU A2 and A3: archery and crossbow Aug. 1-9 (A2) and Aug. 1-16 (A3); youth weekend Sept. 12-13; general gun Nov. 21-22 (A2) and Nov. 21-24 (A3). Antler point rules vary by DMU. Private lands; Seasons, dates and bag limits do not apply to wildlife management areas. The FWC season dates page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-deer-zoneb-archery-2026",
+    "state": "FL",
+    "species": "deer",
+    "seasonName": "Archery season (antlered deer), Zone B",
+    "zone": "Zone B",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2026-11-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 deer daily (annual limit 5, only 2 antlerless; 3 of 5 may be antlerless in DMU D2)",
+    "possessionLimit": "4 deer",
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Resident Game and Furbearer Hunting Season Dates and Bag Limits (Season Dates and Species page)",
+    "sourceUrl": "https://myfwc.com/hunting/season-dates/",
+    "sourceQuote": "ANTLERED DEER - antler regulations vary by deer management unit. | Zone B | Archery season: Oct. 17 – Nov. 15 | Daily bag limit : 2 deer | Possession limit : 4 deer | Annual bag limit : 5 deer of which only 2 can be antlerless. However, in DMU D2, 3 of the 5 deer may be antlerless.",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless deer in Zone B: same archery, crossbow, muzzleloading and youth dates; general gun antlerless only Dec. 26 - Jan. 3. Antler point rules vary by DMU. Private lands; Seasons, dates and bag limits do not apply to wildlife management areas. The FWC season dates page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-deer-zoneb-crossbow-2026",
+    "state": "FL",
+    "species": "deer",
+    "seasonName": "Crossbow season (antlered deer), Zone B",
+    "zone": "Zone B",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2026-11-20",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 deer daily (annual limit 5, only 2 antlerless; 3 of 5 may be antlerless in DMU D2)",
+    "possessionLimit": "4 deer",
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Resident Game and Furbearer Hunting Season Dates and Bag Limits (Season Dates and Species page)",
+    "sourceUrl": "https://myfwc.com/hunting/season-dates/",
+    "sourceQuote": "ANTLERED DEER - antler regulations vary by deer management unit. | Zone B | Crossbow season: Oct. 17 – Nov. 20 | Daily bag limit : 2 deer | Possession limit : 4 deer | Annual bag limit : 5 deer of which only 2 can be antlerless. However, in DMU D2, 3 of the 5 deer may be antlerless.",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless deer in Zone B: same archery, crossbow, muzzleloading and youth dates; general gun antlerless only Dec. 26 - Jan. 3. Antler point rules vary by DMU. Private lands; Seasons, dates and bag limits do not apply to wildlife management areas. The FWC season dates page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-deer-zoneb-muzzleloading-2026",
+    "state": "FL",
+    "species": "deer",
+    "seasonName": "Muzzleloading gun season (antlered deer), Zone B",
+    "zone": "Zone B",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2026-12-04",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 deer daily (annual limit 5, only 2 antlerless; 3 of 5 may be antlerless in DMU D2)",
+    "possessionLimit": "4 deer",
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Resident Game and Furbearer Hunting Season Dates and Bag Limits (Season Dates and Species page)",
+    "sourceUrl": "https://myfwc.com/hunting/season-dates/",
+    "sourceQuote": "ANTLERED DEER - antler regulations vary by deer management unit. | Zone B | Muzzleloading gun season: Nov. 21 – Dec. 4 | Daily bag limit : 2 deer | Possession limit : 4 deer | Annual bag limit : 5 deer of which only 2 can be antlerless. However, in DMU D2, 3 of the 5 deer may be antlerless.",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless deer in Zone B: same archery, crossbow, muzzleloading and youth dates; general gun antlerless only Dec. 26 - Jan. 3. Antler point rules vary by DMU. Private lands; Seasons, dates and bag limits do not apply to wildlife management areas. The FWC season dates page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-deer-zoneb-youth-2026",
+    "state": "FL",
+    "species": "deer",
+    "seasonName": "Youth deer hunt weekend season (antlered deer), Zone B",
+    "zone": "Zone B",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-28",
+        "close": "2026-11-29",
+        "note": "youth 15 and younger; 1 deer for the weekend"
+      }
+    ],
+    "bagLimit": "1 deer for the weekend (youth)",
+    "possessionLimit": null,
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Resident Game and Furbearer Hunting Season Dates and Bag Limits (Season Dates and Species page)",
+    "sourceUrl": "https://myfwc.com/hunting/season-dates/",
+    "sourceQuote": "ANTLERED DEER - antler regulations vary by deer management unit. | Zone B | Youth deer hunt weekend : Nov. 28-29 | with a limit of 1 deer for the weekend that counts towards the youth’s annual statewide bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless deer in Zone B: same archery, crossbow, muzzleloading and youth dates; general gun antlerless only Dec. 26 - Jan. 3. Antler point rules vary by DMU. Private lands; Seasons, dates and bag limits do not apply to wildlife management areas. The FWC season dates page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-deer-zoneb-gun-2026",
+    "state": "FL",
+    "species": "deer",
+    "seasonName": "General gun season (antlered deer), Zone B",
+    "zone": "Zone B",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-05",
+        "close": "2027-02-21",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 deer daily (annual limit 5, only 2 antlerless; 3 of 5 may be antlerless in DMU D2)",
+    "possessionLimit": "4 deer",
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Resident Game and Furbearer Hunting Season Dates and Bag Limits (Season Dates and Species page)",
+    "sourceUrl": "https://myfwc.com/hunting/season-dates/",
+    "sourceQuote": "ANTLERED DEER - antler regulations vary by deer management unit. | Zone B | General gun season: Dec. 5 – Feb. 21 | Daily bag limit : 2 deer | Possession limit : 4 deer | Annual bag limit : 5 deer of which only 2 can be antlerless. However, in DMU D2, 3 of the 5 deer may be antlerless.",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless deer in Zone B: same archery, crossbow, muzzleloading and youth dates; general gun antlerless only Dec. 26 - Jan. 3. Antler point rules vary by DMU. Private lands; Seasons, dates and bag limits do not apply to wildlife management areas. The FWC season dates page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-deer-zonec-archery-2026",
+    "state": "FL",
+    "species": "deer",
+    "seasonName": "Archery season (antlered deer), Zone C",
+    "zone": "Zone C",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-10-18",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 deer daily (annual limit 5, only 2 antlerless; 3 of 5 may be antlerless in DMU D2)",
+    "possessionLimit": "4 deer",
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Resident Game and Furbearer Hunting Season Dates and Bag Limits (Season Dates and Species page)",
+    "sourceUrl": "https://myfwc.com/hunting/season-dates/",
+    "sourceQuote": "ANTLERED DEER - antler regulations vary by deer management unit. | Zone C | Archery season: Sept. 19 – Oct. 18 | Daily bag limit : 2 deer | Possession limit : 4 deer | Annual bag limit : 5 deer of which only 2 can be antlerless. However, in DMU D2, 3 of the 5 deer may be antlerless.",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless deer in Zone C: same archery, crossbow, muzzleloading and youth dates; general gun antlerless Nov. 21-29 in DMUs C1-C4 and C6, Nov. 7 - Dec. 6 in DMU C5. Antler point rules vary by DMU. Private lands; Seasons, dates and bag limits do not apply to wildlife management areas. The FWC season dates page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-deer-zonec-crossbow-2026",
+    "state": "FL",
+    "species": "deer",
+    "seasonName": "Crossbow season (antlered deer), Zone C",
+    "zone": "Zone C",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-10-23",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 deer daily (annual limit 5, only 2 antlerless; 3 of 5 may be antlerless in DMU D2)",
+    "possessionLimit": "4 deer",
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Resident Game and Furbearer Hunting Season Dates and Bag Limits (Season Dates and Species page)",
+    "sourceUrl": "https://myfwc.com/hunting/season-dates/",
+    "sourceQuote": "ANTLERED DEER - antler regulations vary by deer management unit. | Zone C | Crossbow season: Sept. 19 – Oct. 23 | Daily bag limit : 2 deer | Possession limit : 4 deer | Annual bag limit : 5 deer of which only 2 can be antlerless. However, in DMU D2, 3 of the 5 deer may be antlerless.",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless deer in Zone C: same archery, crossbow, muzzleloading and youth dates; general gun antlerless Nov. 21-29 in DMUs C1-C4 and C6, Nov. 7 - Dec. 6 in DMU C5. Antler point rules vary by DMU. Private lands; Seasons, dates and bag limits do not apply to wildlife management areas. The FWC season dates page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-deer-zonec-muzzleloading-2026",
+    "state": "FL",
+    "species": "deer",
+    "seasonName": "Muzzleloading gun season (antlered deer), Zone C",
+    "zone": "Zone C",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2026-11-06",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 deer daily (annual limit 5, only 2 antlerless; 3 of 5 may be antlerless in DMU D2)",
+    "possessionLimit": "4 deer",
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Resident Game and Furbearer Hunting Season Dates and Bag Limits (Season Dates and Species page)",
+    "sourceUrl": "https://myfwc.com/hunting/season-dates/",
+    "sourceQuote": "ANTLERED DEER - antler regulations vary by deer management unit. | Zone C | Muzzleloading gun season: Oct. 24 - Nov. 6 | Daily bag limit : 2 deer | Possession limit : 4 deer | Annual bag limit : 5 deer of which only 2 can be antlerless. However, in DMU D2, 3 of the 5 deer may be antlerless.",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless deer in Zone C: same archery, crossbow, muzzleloading and youth dates; general gun antlerless Nov. 21-29 in DMUs C1-C4 and C6, Nov. 7 - Dec. 6 in DMU C5. Antler point rules vary by DMU. Private lands; Seasons, dates and bag limits do not apply to wildlife management areas. The FWC season dates page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-deer-zonec-youth-2026",
+    "state": "FL",
+    "species": "deer",
+    "seasonName": "Youth deer hunt weekend season (antlered deer), Zone C",
+    "zone": "Zone C",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-31",
+        "close": "2026-11-01",
+        "note": "youth 15 and younger; 1 deer for the weekend"
+      }
+    ],
+    "bagLimit": "1 deer for the weekend (youth)",
+    "possessionLimit": null,
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Resident Game and Furbearer Hunting Season Dates and Bag Limits (Season Dates and Species page)",
+    "sourceUrl": "https://myfwc.com/hunting/season-dates/",
+    "sourceQuote": "ANTLERED DEER - antler regulations vary by deer management unit. | Zone C | Youth deer hunt weekend : Oct. 31- Nov. 1 | with a limit of 1 deer for the weekend that counts towards the youth’s annual statewide bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless deer in Zone C: same archery, crossbow, muzzleloading and youth dates; general gun antlerless Nov. 21-29 in DMUs C1-C4 and C6, Nov. 7 - Dec. 6 in DMU C5. Antler point rules vary by DMU. Private lands; Seasons, dates and bag limits do not apply to wildlife management areas. The FWC season dates page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-deer-zonec-gun-2026",
+    "state": "FL",
+    "species": "deer",
+    "seasonName": "General gun season (antlered deer), Zone C",
+    "zone": "Zone C",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2027-01-24",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 deer daily (annual limit 5, only 2 antlerless; 3 of 5 may be antlerless in DMU D2)",
+    "possessionLimit": "4 deer",
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Resident Game and Furbearer Hunting Season Dates and Bag Limits (Season Dates and Species page)",
+    "sourceUrl": "https://myfwc.com/hunting/season-dates/",
+    "sourceQuote": "ANTLERED DEER - antler regulations vary by deer management unit. | Zone C | General gun season: Nov. 7 – Jan. 24 | Daily bag limit : 2 deer | Possession limit : 4 deer | Annual bag limit : 5 deer of which only 2 can be antlerless. However, in DMU D2, 3 of the 5 deer may be antlerless.",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless deer in Zone C: same archery, crossbow, muzzleloading and youth dates; general gun antlerless Nov. 21-29 in DMUs C1-C4 and C6, Nov. 7 - Dec. 6 in DMU C5. Antler point rules vary by DMU. Private lands; Seasons, dates and bag limits do not apply to wildlife management areas. The FWC season dates page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-deer-zoned-archery-2026",
+    "state": "FL",
+    "species": "deer",
+    "seasonName": "Archery season (antlered deer), Zone D",
+    "zone": "Zone D",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2026-11-25",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 deer daily (annual limit 5, only 2 antlerless; 3 of 5 may be antlerless in DMU D2)",
+    "possessionLimit": "4 deer",
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Resident Game and Furbearer Hunting Season Dates and Bag Limits (Season Dates and Species page)",
+    "sourceUrl": "https://myfwc.com/hunting/season-dates/",
+    "sourceQuote": "ANTLERED DEER - antler regulations vary by deer management unit. | Zone D | Archery season: Oct. 24 – Nov. 25 | Daily bag limit : 2 deer | Possession limit : 4 deer | Annual bag limit : 5 deer of which only 2 can be antlerless. However, in DMU D2, 3 of the 5 deer may be antlerless.",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless deer in Zone D: same dates as antlered deer for all seasons. Antler point rules vary by DMU. Private lands; Seasons, dates and bag limits do not apply to wildlife management areas. The FWC season dates page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-deer-zoned-crossbow-2026",
+    "state": "FL",
+    "species": "deer",
+    "seasonName": "Crossbow season (antlered deer), Zone D",
+    "zone": "Zone D",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2026-11-25",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-11-30",
+        "close": "2026-12-04",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "2 deer daily (annual limit 5, only 2 antlerless; 3 of 5 may be antlerless in DMU D2)",
+    "possessionLimit": "4 deer",
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Resident Game and Furbearer Hunting Season Dates and Bag Limits (Season Dates and Species page)",
+    "sourceUrl": "https://myfwc.com/hunting/season-dates/",
+    "sourceQuote": "ANTLERED DEER - antler regulations vary by deer management unit. | Zone D | Crossbow season: Oct. 24 – Nov. 25, Nov. 30 - Dec. 4 | Daily bag limit : 2 deer | Possession limit : 4 deer | Annual bag limit : 5 deer of which only 2 can be antlerless. However, in DMU D2, 3 of the 5 deer may be antlerless.",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless deer in Zone D: same dates as antlered deer for all seasons. Antler point rules vary by DMU. Private lands; Seasons, dates and bag limits do not apply to wildlife management areas. The FWC season dates page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-deer-zoned-muzzleloading-2026",
+    "state": "FL",
+    "species": "deer",
+    "seasonName": "Muzzleloading gun season (antlered deer), Zone D",
+    "zone": "Zone D",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-05",
+        "close": "2026-12-11",
+        "note": "first segment"
+      },
+      {
+        "open": "2027-02-22",
+        "close": "2027-02-28",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "2 deer daily (annual limit 5, only 2 antlerless; 3 of 5 may be antlerless in DMU D2)",
+    "possessionLimit": "4 deer",
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Resident Game and Furbearer Hunting Season Dates and Bag Limits (Season Dates and Species page)",
+    "sourceUrl": "https://myfwc.com/hunting/season-dates/",
+    "sourceQuote": "ANTLERED DEER - antler regulations vary by deer management unit. | Zone D | Muzzleloading gun season: Dec. 5-11, Feb. 22-28 | Daily bag limit : 2 deer | Possession limit : 4 deer | Annual bag limit : 5 deer of which only 2 can be antlerless. However, in DMU D2, 3 of the 5 deer may be antlerless.",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless deer in Zone D: same dates as antlered deer for all seasons. Antler point rules vary by DMU. Private lands; Seasons, dates and bag limits do not apply to wildlife management areas. The FWC season dates page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-deer-zoned-youth-2026",
+    "state": "FL",
+    "species": "deer",
+    "seasonName": "Youth deer hunt weekend season (antlered deer), Zone D",
+    "zone": "Zone D",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-05",
+        "close": "2026-12-06",
+        "note": "youth 15 and younger; 1 deer for the weekend"
+      }
+    ],
+    "bagLimit": "1 deer for the weekend (youth)",
+    "possessionLimit": null,
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Resident Game and Furbearer Hunting Season Dates and Bag Limits (Season Dates and Species page)",
+    "sourceUrl": "https://myfwc.com/hunting/season-dates/",
+    "sourceQuote": "ANTLERED DEER - antler regulations vary by deer management unit. | Zone D | Youth deer hunt weekend : Dec. 5-6 | with a limit of 1 deer for the weekend that counts towards the youth’s annual statewide bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless deer in Zone D: same dates as antlered deer for all seasons. Antler point rules vary by DMU. Private lands; Seasons, dates and bag limits do not apply to wildlife management areas. The FWC season dates page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-deer-zoned-gun-2026",
+    "state": "FL",
+    "species": "deer",
+    "seasonName": "General gun season (antlered deer), Zone D",
+    "zone": "Zone D",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-26",
+        "close": "2026-11-29",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-02-21",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "2 deer daily (annual limit 5, only 2 antlerless; 3 of 5 may be antlerless in DMU D2)",
+    "possessionLimit": "4 deer",
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Resident Game and Furbearer Hunting Season Dates and Bag Limits (Season Dates and Species page)",
+    "sourceUrl": "https://myfwc.com/hunting/season-dates/",
+    "sourceQuote": "ANTLERED DEER - antler regulations vary by deer management unit. | Zone D | General gun season: Nov. 26-29, Dec. 12 – Feb. 21 | Daily bag limit : 2 deer | Possession limit : 4 deer | Annual bag limit : 5 deer of which only 2 can be antlerless. However, in DMU D2, 3 of the 5 deer may be antlerless.",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless deer in Zone D: same dates as antlered deer for all seasons. Antler point rules vary by DMU. Private lands; Seasons, dates and bag limits do not apply to wildlife management areas. The FWC season dates page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-turkey-fall-zonea-2026",
+    "state": "FL",
+    "species": "turkey",
+    "seasonName": "Fall turkey season, Zone A",
+    "zone": "Zone A",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-05",
+        "close": "2026-10-18",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2027-01-03",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "2 turkeys (gobblers and bearded turkeys only)",
+    "possessionLimit": "2 for all fall seasons combined",
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Resident Game and Furbearer Hunting Season Dates and Bag Limits (Season Dates and Species page)",
+    "sourceUrl": "https://myfwc.com/hunting/season-dates/",
+    "sourceQuote": "TURKEY (gobblers and bearded turkeys only) | Daily bag limit: 2 turkeys | Season and possession limit: 2 for all fall seasons combined | Zone A | Fall turkey season: Oct. 5-18, Nov. 21 – Jan. 3",
+    "checkedDate": "2026-11-23",
+    "notes": "Turkeys may also be taken in the zone's archery, crossbow and muzzleloading gun seasons (listed under Fall Seasons on the page). Seasons, dates and bag limits do not apply to wildlife management areas. The FWC season dates page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-turkey-fall-zoneb-2026",
+    "state": "FL",
+    "species": "turkey",
+    "seasonName": "Fall turkey season, Zone B",
+    "zone": "Zone B",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-05",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 turkeys (gobblers and bearded turkeys only)",
+    "possessionLimit": "2 for all fall seasons combined",
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Resident Game and Furbearer Hunting Season Dates and Bag Limits (Season Dates and Species page)",
+    "sourceUrl": "https://myfwc.com/hunting/season-dates/",
+    "sourceQuote": "TURKEY (gobblers and bearded turkeys only) | Daily bag limit: 2 turkeys | Season and possession limit: 2 for all fall seasons combined | Zone B | Fall turkey season: Dec. 5 – Jan. 31",
+    "checkedDate": "2026-11-23",
+    "notes": "Turkeys may also be taken in the zone's archery, crossbow and muzzleloading gun seasons (listed under Fall Seasons on the page). Seasons, dates and bag limits do not apply to wildlife management areas. The FWC season dates page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-turkey-fall-zonec-2026",
+    "state": "FL",
+    "species": "turkey",
+    "seasonName": "Fall turkey season, Zone C",
+    "zone": "Zone C",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2027-01-03",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 turkeys (gobblers and bearded turkeys only)",
+    "possessionLimit": "2 for all fall seasons combined",
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Resident Game and Furbearer Hunting Season Dates and Bag Limits (Season Dates and Species page)",
+    "sourceUrl": "https://myfwc.com/hunting/season-dates/",
+    "sourceQuote": "TURKEY (gobblers and bearded turkeys only) | Daily bag limit: 2 turkeys | Season and possession limit: 2 for all fall seasons combined | Zone C | Fall turkey season: Nov. 7 – Jan. 3",
+    "checkedDate": "2026-11-23",
+    "notes": "Turkeys may also be taken in the zone's archery, crossbow and muzzleloading gun seasons (listed under Fall Seasons on the page). Seasons, dates and bag limits do not apply to wildlife management areas. The FWC season dates page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-turkey-fall-zoned-2026",
+    "state": "FL",
+    "species": "turkey",
+    "seasonName": "Fall turkey season, Zone D",
+    "zone": "Zone D",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-26",
+        "close": "2026-11-29",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-01-17",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "2 turkeys (gobblers and bearded turkeys only)",
+    "possessionLimit": "2 for all fall seasons combined",
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Resident Game and Furbearer Hunting Season Dates and Bag Limits (Season Dates and Species page)",
+    "sourceUrl": "https://myfwc.com/hunting/season-dates/",
+    "sourceQuote": "TURKEY (gobblers and bearded turkeys only) | Daily bag limit: 2 turkeys | Season and possession limit: 2 for all fall seasons combined | Zone D | Fall turkey season: Nov. 26-29, Dec. 12 – Jan. 17",
+    "checkedDate": "2026-11-23",
+    "notes": "Turkeys may also be taken in the zone's archery, crossbow and muzzleloading gun seasons (listed under Fall Seasons on the page). Seasons, dates and bag limits do not apply to wildlife management areas. The FWC season dates page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-turkey-spring-north-sr70-2027",
+    "state": "FL",
+    "species": "turkey",
+    "seasonName": "Spring turkey season, north of State Road 70",
+    "zone": "North of State Road 70",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-03-20",
+        "close": "2027-04-25",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 turkeys",
+    "possessionLimit": "2 for all spring seasons",
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Resident Game and Furbearer Hunting Season Dates and Bag Limits (Season Dates and Species page)",
+    "sourceUrl": "https://myfwc.com/hunting/season-dates/",
+    "sourceQuote": "Spring seasons | Daily bag limit : 2 turkeys | Season and possession limit : 2 for all spring seasons | North of State Road 70 | Youth turkey hunt : March 12-15 | Spring turkey season: March 20 – April 25",
+    "checkedDate": "2026-11-23",
+    "notes": "Youth turkey hunt (15 and younger) March 12-15, 2027 north of SR 70 (not recorded as a period). Seasons, dates and bag limits do not apply to wildlife management areas. The FWC season dates page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-turkey-spring-south-sr70-2027",
+    "state": "FL",
+    "species": "turkey",
+    "seasonName": "Spring turkey season, south of State Road 70",
+    "zone": "South of State Road 70",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-03-06",
+        "close": "2027-04-11",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 turkeys",
+    "possessionLimit": "2 for all spring seasons",
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Resident Game and Furbearer Hunting Season Dates and Bag Limits (Season Dates and Species page)",
+    "sourceUrl": "https://myfwc.com/hunting/season-dates/",
+    "sourceQuote": "Spring seasons | Daily bag limit : 2 turkeys | South of State Road 70 | Youth turkey hunt : Feb. 26 – March 1 | Spring turkey season: March 6 – April 11",
+    "checkedDate": "2026-11-23",
+    "notes": "Youth turkey hunt (15 and younger) Feb. 26 - March 1, 2027 south of SR 70 (not recorded as a period). Seasons, dates and bag limits do not apply to wildlife management areas. The FWC season dates page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-quail-2026",
+    "state": "FL",
+    "species": "quail",
+    "seasonName": "Quail",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-14",
+        "close": "2027-03-07",
+        "note": null
+      }
+    ],
+    "bagLimit": "12",
+    "possessionLimit": "24",
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Resident Game and Furbearer Hunting Season Dates and Bag Limits (Season Dates and Species page)",
+    "sourceUrl": "https://myfwc.com/hunting/season-dates/",
+    "sourceQuote": "QUAIL Statewide Nov. 14 – March 7 | Daily bag limit : 12 | Possession limit : 24",
+    "checkedDate": "2026-11-23",
+    "notes": "Seasons, dates and bag limits do not apply to wildlife management areas. The FWC season dates page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-duck-teal-wood-early-2026",
+    "state": "FL",
+    "species": "duck",
+    "seasonName": "Early teal and wood duck season",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-23",
+        "note": "teal and wood duck only"
+      }
+    ],
+    "bagLimit": "6 (teal and wood duck; only 2 wood ducks)",
+    "possessionLimit": "3 times the daily bag limit",
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Migratory Bird Hunting Season Dates and Bag Limits (Migratory Bird Hunting Regulations page)",
+    "sourceUrl": "https://myfwc.com/hunting/regulations/birds/",
+    "sourceQuote": "Duck (W) Sept. 19-23 (teal and wood duck only) | 3 times the daily bag limit | early season: (September 19-23), 6-duck | bag limit [single species or combination (aggregate)] of which only 2 can be wood ducks.",
+    "checkedDate": "2026-11-23",
+    "notes": "Florida waterfowl permit and federal duck stamp required. Seasons and dates may not apply to wildlife management areas. The FWC migratory bird table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-duck-regular-2026",
+    "state": "FL",
+    "species": "duck",
+    "seasonName": "General duck season",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-29",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-01-31",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 mallards (2 female), 1 mottled duck, 4 sea ducks, 3 wood ducks, 2 redheads, 2 black ducks, 2 canvasbacks, 3 pintails, 1 fulvous whistling-duck; scaup 1, then 2 from Jan. 12); coot 15; mergansers 5",
+    "possessionLimit": "3 times the daily bag limit",
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Migratory Bird Hunting Season Dates and Bag Limits (Migratory Bird Hunting Regulations page)",
+    "sourceUrl": "https://myfwc.com/hunting/regulations/birds/",
+    "sourceQuote": "Duck (W) | Nov. 21-29 | Dec. 12 – Jan. 31 | General Duck Season: (November 21-29, December 12-January 31) | bag limit: 6-duck single species or aggregate. | 4 mallards (of which only 2 can be female) | 1 mottled duck (Florida duck) | 1 scaup from Nov. 21-29 and Dec. 12 – Jan. 11 | Coot Nov. 21-29 Dec. 12 – Jan. 31 15 45 | Merganser (Common, red-breasted, hooded) (W) Nov. 21-29 Dec. 12 – Jan. 31 5 15",
+    "checkedDate": "2026-11-23",
+    "notes": "Youth Waterfowl Hunting Days Nov. 14, 2026 and Feb. 13, 2027; Veterans and Active Military Waterfowl Days Feb. 6-7, 2027 (not recorded as periods). Leon County and Lake Miccosukee are limited to Wednesdays, Saturdays and Sundays plus listed holidays. Seasons and dates may not apply to wildlife management areas. The FWC migratory bird table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-goose-canada-2026",
+    "state": "FL",
+    "species": "goose",
+    "seasonName": "Canada goose",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-27",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-29",
+        "note": "second segment"
+      },
+      {
+        "open": "2026-12-01",
+        "close": "2027-01-30",
+        "note": "third segment"
+      }
+    ],
+    "bagLimit": "5",
+    "possessionLimit": "15",
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Migratory Bird Hunting Season Dates and Bag Limits (Migratory Bird Hunting Regulations page)",
+    "sourceUrl": "https://myfwc.com/hunting/regulations/birds/",
+    "sourceQuote": "Canada goose (W) Sept. 5-27 Nov. 21-29, Dec. 1 – Jan. 30 5 15",
+    "checkedDate": "2026-11-23",
+    "notes": "Taking white-fronted geese and brant is prohibited. Seasons and dates may not apply to wildlife management areas. The FWC migratory bird table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-goose-light-2026",
+    "state": "FL",
+    "species": "goose",
+    "seasonName": "Light geese (snow, blue and Ross')",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-29",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-01-31",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": "No limit",
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Migratory Bird Hunting Season Dates and Bag Limits (Migratory Bird Hunting Regulations page)",
+    "sourceUrl": "https://myfwc.com/hunting/regulations/birds/",
+    "sourceQuote": "Light Geese (Snow, blue and Ross') (W) Nov. 21-29 Dec. 12 – Jan. 31 15 No Limit",
+    "checkedDate": "2026-11-23",
+    "notes": "Seasons and dates may not apply to wildlife management areas. The FWC migratory bird table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-dove-2026",
+    "state": "FL",
+    "species": "dove",
+    "seasonName": "Dove (mourning and white-winged)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-10-18",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-12-06",
+        "note": "second segment"
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2027-01-31",
+        "note": "third segment"
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": "45",
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Migratory Bird Hunting Season Dates and Bag Limits (Migratory Bird Hunting Regulations page)",
+    "sourceUrl": "https://myfwc.com/hunting/regulations/birds/",
+    "sourceQuote": "Dove (Mourning and white-winged) Sept. 26 – Oct. 18 Nov. 14 - Dec. 6 Dec. 19 – Jan. 31 15 45",
+    "checkedDate": "2026-11-23",
+    "notes": "Seasons and dates may not apply to wildlife management areas. The FWC migratory bird table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-snipe-2026",
+    "state": "FL",
+    "species": "snipe",
+    "seasonName": "Snipe",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-01",
+        "close": "2027-02-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "8",
+    "possessionLimit": "24",
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Migratory Bird Hunting Season Dates and Bag Limits (Migratory Bird Hunting Regulations page)",
+    "sourceUrl": "https://myfwc.com/hunting/regulations/birds/",
+    "sourceQuote": "Snipe Nov. 1 – Feb. 15 8 24",
+    "checkedDate": "2026-11-23",
+    "notes": "Seasons and dates may not apply to wildlife management areas. The FWC migratory bird table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "fl-woodcock-2026",
+    "state": "FL",
+    "species": "woodcock",
+    "seasonName": "Woodcock",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-18",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "FWC",
+    "sourceTitle": "FWC, 2026-2027 Florida Migratory Bird Hunting Season Dates and Bag Limits (Migratory Bird Hunting Regulations page)",
+    "sourceUrl": "https://myfwc.com/hunting/regulations/birds/",
+    "sourceQuote": "Woodcock Dec. 18 – Jan. 31 3 9",
+    "checkedDate": "2026-11-23",
+    "notes": "Seasons and dates may not apply to wildlife management areas. The FWC migratory bird table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  }
+]
