@@ -1,0 +1,524 @@
+[
+  {
+    "id": "wy-duck-pacific-2026",
+    "state": "WY",
+    "species": "duck",
+    "seasonName": "Ducks and Mergansers, Pacific Flyway",
+    "zone": "Pacific Flyway",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-20",
+        "note": "youth, veterans and active military only"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2027-01-08",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": "7 (no more than 2 hen mallards, 3 pintail, 2 canvasbacks, 2 redheads, 2 scaup; no scaup after Dec. 20)",
+    "possessionLimit": "21",
+    "agency": "WGFD",
+    "sourceTitle": "Wyoming Game and Fish Commission Chapter 14, Migratory Game Bird Hunting Seasons and Light Goose Conservation Order (final April 2026)",
+    "sourceUrl": "https://wgfd.wyo.gov/media/33699/download?inline=",
+    "sourceQuote": "PACIFIC FLYWAY | Ducks and Mergansers Sep. 26 Jan. 8 d, e 7* 21* | no more than two (2) scaup. No scaup shall be taken after December 20. | and in Zone C2 of the Central Flyway, the special hunting days for youths, veterans and active | military personnel shall be September 19-20, 2026.",
+    "checkedDate": "2026-11-23",
+    "notes": "Commission regulation prints month and day only; years assigned for the 2026-27 season (youth waterfowl days are printed as 2026)."
+  },
+  {
+    "id": "wy-duck-c1-2026",
+    "state": "WY",
+    "species": "duck",
+    "seasonName": "Ducks and Mergansers, Central Flyway Zone C1",
+    "zone": "Central Flyway Zone C1",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-27",
+        "note": "youth, veterans and active military only"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-20",
+        "note": "split 1"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2027-01-31",
+        "note": "split 2"
+      }
+    ],
+    "bagLimit": "6 (no more than 5 mallards with 2 hens, 3 pintail, 3 wood ducks, 2 canvasbacks, 2 redheads, 1 scaup)",
+    "possessionLimit": "18",
+    "agency": "WGFD",
+    "sourceTitle": "Wyoming Game and Fish Commission Chapter 14, Migratory Game Bird Hunting Seasons and Light Goose Conservation Order (final April 2026)",
+    "sourceUrl": "https://wgfd.wyo.gov/media/33699/download?inline=",
+    "sourceQuote": "CENTRAL FLYWAY - ZONE C1 | Ducks and Oct. 3 Oct. 20 6** 18** | Mergansers Nov. 14 Jan. 31 c - after Nov. 14 6** 18** | ZONE C1 shall include Big Horn, Converse, Hot Springs, Natrona, | Flyway, the special hunting days for youths, veterans and active military personnel shall be | September 26-27, 2026.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone C1 is Big Horn, Converse, Hot Springs, Natrona, Park and Washakie counties and Fremont County outside the parts south or west of the Continental Divide. 2 extra blue-winged teal Oct. 3 to 11. Commission regulation prints month and day only; years assigned for the 2026-27 season (youth waterfowl days are printed as 2026)."
+  },
+  {
+    "id": "wy-duck-c1a-2026",
+    "state": "WY",
+    "species": "duck",
+    "seasonName": "Ducks and Mergansers, Central Flyway Zone C1A",
+    "zone": "Central Flyway Zone C1A",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-27",
+        "note": "youth, veterans and active military only"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-20",
+        "note": "split 1"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2027-01-31",
+        "note": "split 2"
+      }
+    ],
+    "bagLimit": "6 (no more than 5 mallards with 2 hens, 3 pintail, 3 wood ducks, 2 canvasbacks, 2 redheads, 1 scaup)",
+    "possessionLimit": "18",
+    "agency": "WGFD",
+    "sourceTitle": "Wyoming Game and Fish Commission Chapter 14, Migratory Game Bird Hunting Seasons and Light Goose Conservation Order (final April 2026)",
+    "sourceUrl": "https://wgfd.wyo.gov/media/33699/download?inline=",
+    "sourceQuote": "CENTRAL FLYWAY – ZONE C1A | Ducks and Mergansers Oct. 3 Oct. 20 b 6** 18** | Nov. 14 Jan. 31 b 6** 18** | ZONE C1A shall include Goshen and Platte counties. | Flyway, the special hunting days for youths, veterans and active military personnel shall be | September 26-27, 2026.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone C1A is Goshen and Platte counties. 2 extra blue-winged teal Oct. 3 to 11. Commission regulation prints month and day only; years assigned for the 2026-27 season (youth waterfowl days are printed as 2026)."
+  },
+  {
+    "id": "wy-duck-c2-2026",
+    "state": "WY",
+    "species": "duck",
+    "seasonName": "Ducks and Mergansers, Central Flyway Zone C2",
+    "zone": "Central Flyway Zone C2",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-20",
+        "note": "youth, veterans and active military only"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-11-29",
+        "note": "split 1"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-01-12",
+        "note": "split 2"
+      }
+    ],
+    "bagLimit": "6 (no more than 5 mallards with 2 hens, 3 pintail, 3 wood ducks, 2 canvasbacks, 2 redheads, 1 scaup)",
+    "possessionLimit": "18",
+    "agency": "WGFD",
+    "sourceTitle": "Wyoming Game and Fish Commission Chapter 14, Migratory Game Bird Hunting Seasons and Light Goose Conservation Order (final April 2026)",
+    "sourceUrl": "https://wgfd.wyo.gov/media/33699/download?inline=",
+    "sourceQuote": "CENTRAL FLYWAY - ZONE C2 | Ducks and Mergansers Sep. 26 Nov. 29 6** 18** | Dec. 12 Jan. 12 6** 18** | ZONE C2 shall include Albany, Campbell, Crook, Johnson, | and in Zone C2 of the Central Flyway, the special hunting days for youths, veterans and active | military personnel shall be September 19-20, 2026.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone C2 is Albany, Campbell, Crook, Johnson, Laramie, Niobrara, Sheridan and Weston counties and Carbon County east of the Continental Divide. 2 extra blue-winged teal Sep. 26 to Oct. 4. Commission regulation prints month and day only; years assigned for the 2026-27 season (youth waterfowl days are printed as 2026)."
+  },
+  {
+    "id": "wy-goose-pacific-2026",
+    "state": "WY",
+    "species": "goose",
+    "seasonName": "Geese, Pacific Flyway",
+    "zone": "Pacific Flyway",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-08",
+        "note": "early Canada goose"
+      },
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-20",
+        "note": "youth, veterans and active military only"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-12-31",
+        "note": "dark and light geese"
+      }
+    ],
+    "bagLimit": "5 dark geese; 10 light geese (5 Canada geese in the early season)",
+    "possessionLimit": "15 dark geese; 30 light geese",
+    "agency": "WGFD",
+    "sourceTitle": "Wyoming Game and Fish Commission Chapter 14, Migratory Game Bird Hunting Seasons and Light Goose Conservation Order (final April 2026)",
+    "sourceUrl": "https://wgfd.wyo.gov/media/33699/download?inline=",
+    "sourceQuote": "Early Canada Goose Sep. 1 Sep. 8 d, e 5 15 | Dark Geese Sep. 26 Dec. 31 d, e 5 15 | Light Geese Sep. 26 Dec. 31 d, e 10 30 | and in Zone C2 of the Central Flyway, the special hunting days for youths, veterans and active | military personnel shall be September 19-20, 2026.",
+    "checkedDate": "2026-11-23",
+    "notes": "Commission regulation prints month and day only; years assigned for the 2026-27 season (youth waterfowl days are printed as 2026)."
+  },
+  {
+    "id": "wy-goose-c1-2026",
+    "state": "WY",
+    "species": "goose",
+    "seasonName": "Dark Geese, Central Flyway Zone C1",
+    "zone": "Central Flyway Zone C1",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-27",
+        "note": "youth, veterans and active military only"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-20",
+        "note": "dark geese, split 1"
+      },
+      {
+        "open": "2026-11-20",
+        "close": "2027-02-14",
+        "note": "dark geese, split 2"
+      }
+    ],
+    "bagLimit": "5 dark geese",
+    "possessionLimit": "15 dark geese",
+    "agency": "WGFD",
+    "sourceTitle": "Wyoming Game and Fish Commission Chapter 14, Migratory Game Bird Hunting Seasons and Light Goose Conservation Order (final April 2026)",
+    "sourceUrl": "https://wgfd.wyo.gov/media/33699/download?inline=",
+    "sourceQuote": "CENTRAL FLYWAY - ZONE C1 | Dark Geese Oct. 3 Oct. 20 5 15 | Nov. 20 Feb. 14 c 5 15 | Light Geese Oct. 3 Dec. 30 b 20 60 | Jan. 30 Feb. 14 a, b, c 20 60 | Flyway, the special hunting days for youths, veterans and active military personnel shall be | September 26-27, 2026.",
+    "checkedDate": "2026-11-23",
+    "notes": "Central Flyway light geese (all zones): Oct. 3 to Dec. 30, 2026 and Jan. 30 to Feb. 14, 2027, 20 daily, 60 possession. Commission regulation prints month and day only; years assigned for the 2026-27 season (youth waterfowl days are printed as 2026)."
+  },
+  {
+    "id": "wy-goose-c1a-2026",
+    "state": "WY",
+    "species": "goose",
+    "seasonName": "Dark Geese, Central Flyway Zone C1A",
+    "zone": "Central Flyway Zone C1A",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-27",
+        "note": "youth, veterans and active military only"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-14",
+        "note": "dark geese, split 1 (2 daily)"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2027-02-14",
+        "note": "dark geese, split 2"
+      }
+    ],
+    "bagLimit": "2 dark geese Oct. 3 to 14; 5 dark geese Nov. 14 to Feb. 14",
+    "possessionLimit": "6 dark geese Oct. 3 to 14; 15 dark geese Nov. 14 to Feb. 14",
+    "agency": "WGFD",
+    "sourceTitle": "Wyoming Game and Fish Commission Chapter 14, Migratory Game Bird Hunting Seasons and Light Goose Conservation Order (final April 2026)",
+    "sourceUrl": "https://wgfd.wyo.gov/media/33699/download?inline=",
+    "sourceQuote": "CENTRAL FLYWAY – ZONE C1A | Dark Geese* Oct. 3 Oct. 14 b 2 6 | Nov. 14 Feb. 14 a, b 5 15 | *For Bump-Sullivan Managed Goose Hunt information, see Section 6. | Flyway, the special hunting days for youths, veterans and active military personnel shall be | September 26-27, 2026.",
+    "checkedDate": "2026-11-23",
+    "notes": "Bump-Sullivan Managed Goose Hunt has its own rules. Central Flyway light geese (all zones): Oct. 3 to Dec. 30, 2026 and Jan. 30 to Feb. 14, 2027, 20 daily, 60 possession. Commission regulation prints month and day only; years assigned for the 2026-27 season (youth waterfowl days are printed as 2026)."
+  },
+  {
+    "id": "wy-goose-c2-2026",
+    "state": "WY",
+    "species": "goose",
+    "seasonName": "Geese, Central Flyway Zone C2",
+    "zone": "Central Flyway Zone C2",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-08",
+        "note": "early Canada goose"
+      },
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-20",
+        "note": "youth, veterans and active military only"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-11-29",
+        "note": "dark geese, split 1"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-01-12",
+        "note": "dark geese, split 2"
+      }
+    ],
+    "bagLimit": "5 dark geese",
+    "possessionLimit": "15 dark geese",
+    "agency": "WGFD",
+    "sourceTitle": "Wyoming Game and Fish Commission Chapter 14, Migratory Game Bird Hunting Seasons and Light Goose Conservation Order (final April 2026)",
+    "sourceUrl": "https://wgfd.wyo.gov/media/33699/download?inline=",
+    "sourceQuote": "CENTRAL FLYWAY - ZONE C2 | Early Canada Goose Sep. 1 Sep. 8 5 15 | Dark Geese Sep. 26 Nov. 29 5 15 | Dec. 12 Jan. 12 5 15 | and in Zone C2 of the Central Flyway, the special hunting days for youths, veterans and active | military personnel shall be September 19-20, 2026.",
+    "checkedDate": "2026-11-23",
+    "notes": "Central Flyway light geese (all zones): Oct. 3 to Dec. 30, 2026 and Jan. 30 to Feb. 14, 2027, 20 daily, 60 possession. Commission regulation prints month and day only; years assigned for the 2026-27 season (youth waterfowl days are printed as 2026)."
+  },
+  {
+    "id": "wy-dove-statewide-2026",
+    "state": "WY",
+    "species": "dove",
+    "seasonName": "Mourning Dove",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-11-29",
+        "note": null
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": "45",
+    "agency": "WGFD",
+    "sourceTitle": "Wyoming Game and Fish Commission Chapter 14, Migratory Game Bird Hunting Seasons and Light Goose Conservation Order (final April 2026)",
+    "sourceUrl": "https://wgfd.wyo.gov/media/33699/download?inline=",
+    "sourceQuote": "MOURNING DOVE, RAIL AND SNIPE - STATEWIDE | Mourning Dove Sep. 1 Nov. 29 b, d, e 15 45",
+    "checkedDate": "2026-11-23",
+    "notes": "Commission regulation prints month and day only; years assigned for the 2026-27 season (youth waterfowl days are printed as 2026)."
+  },
+  {
+    "id": "wy-grouse-blue-2026",
+    "state": "WY",
+    "species": "grouse",
+    "seasonName": "Blue (Dusky) Grouse",
+    "zone": "Area 1: the entire state",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "WGFD",
+    "sourceTitle": "Wyoming Game and Fish Commission Chapter 11, Upland Game Bird and Small Game Hunting Seasons (final April 2026)",
+    "sourceUrl": "https://wgfd.wyo.gov/media/33698/download?inline=",
+    "sourceQuote": "BLUE (DUSKY) GROUSE | 1 Sep. 1 Dec. 31 3 9 Any blue (dusky) grouse | Area 1. The entire state of Wyoming.",
+    "checkedDate": "2026-11-23",
+    "notes": "Ruffed grouse has the same dates and limits (separate record). Commission regulation prints month and day only; years assigned for the 2026-27 season (youth waterfowl days are printed as 2026)."
+  },
+  {
+    "id": "wy-grouse-ruffed-2026",
+    "state": "WY",
+    "species": "grouse",
+    "seasonName": "Ruffed Grouse",
+    "zone": "Area 1: the entire state",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "WGFD",
+    "sourceTitle": "Wyoming Game and Fish Commission Chapter 11, Upland Game Bird and Small Game Hunting Seasons (final April 2026)",
+    "sourceUrl": "https://wgfd.wyo.gov/media/33698/download?inline=",
+    "sourceQuote": "RUFFED GROUSE | 1 Sep. 1 Dec. 31 3 9 Any ruffed grouse | Area 1. The entire state of Wyoming.",
+    "checkedDate": "2026-11-23",
+    "notes": "Commission regulation prints month and day only; years assigned for the 2026-27 season (youth waterfowl days are printed as 2026)."
+  },
+  {
+    "id": "wy-chukar-statewide-2026",
+    "state": "WY",
+    "species": "chukar",
+    "seasonName": "Chukar Partridge",
+    "zone": "Area 1: the entire state",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-15",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "5",
+    "possessionLimit": "15",
+    "agency": "WGFD",
+    "sourceTitle": "Wyoming Game and Fish Commission Chapter 11, Upland Game Bird and Small Game Hunting Seasons (final April 2026)",
+    "sourceUrl": "https://wgfd.wyo.gov/media/33698/download?inline=",
+    "sourceQuote": "CHUKAR PARTRIDGE | 1 Sep. 15 Jan. 31 5 15 Any chukar partridge | Area 1. The entire state of Wyoming.",
+    "checkedDate": "2026-11-23",
+    "notes": "Commission regulation prints month and day only; years assigned for the 2026-27 season (youth waterfowl days are printed as 2026)."
+  },
+  {
+    "id": "wy-partridge-statewide-2026",
+    "state": "WY",
+    "species": "partridge",
+    "seasonName": "Gray Partridge",
+    "zone": "Area 1: the entire state",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-15",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "5",
+    "possessionLimit": "15",
+    "agency": "WGFD",
+    "sourceTitle": "Wyoming Game and Fish Commission Chapter 11, Upland Game Bird and Small Game Hunting Seasons (final April 2026)",
+    "sourceUrl": "https://wgfd.wyo.gov/media/33698/download?inline=",
+    "sourceQuote": "GRAY PARTRIDGE | 1 Sep. 15 Jan. 31 5 15 Any gray partridge | Area 1. The entire state of Wyoming.",
+    "checkedDate": "2026-11-23",
+    "notes": "Commission regulation prints month and day only; years assigned for the 2026-27 season (youth waterfowl days are printed as 2026)."
+  },
+  {
+    "id": "wy-sharptail-east-2026",
+    "state": "WY",
+    "species": "sharptail",
+    "seasonName": "Sharp-tailed Grouse",
+    "zone": "Area 1: east of the Continental Divide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "WGFD",
+    "sourceTitle": "Wyoming Game and Fish Commission Chapter 11, Upland Game Bird and Small Game Hunting Seasons (final April 2026)",
+    "sourceUrl": "https://wgfd.wyo.gov/media/33698/download?inline=",
+    "sourceQuote": "SHARP-TAILED GROUSE | 1 Sep. 1 Dec. 31 3 9 Any sharp-tailed grouse | Area 1. That portion of Wyoming east of the Continental Divide.",
+    "checkedDate": "2026-11-23",
+    "notes": "Commission regulation prints month and day only; years assigned for the 2026-27 season (youth waterfowl days are printed as 2026)."
+  },
+  {
+    "id": "wy-pheasant-area11-2026",
+    "state": "WY",
+    "species": "pheasant",
+    "seasonName": "Pheasant, Hunt Area 11",
+    "zone": "Area 11: the entire state except Areas 1, 2, 5, 7, 8 and 9",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-01",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "WGFD",
+    "sourceTitle": "Wyoming Game and Fish Commission Chapter 11, Upland Game Bird and Small Game Hunting Seasons (final April 2026)",
+    "sourceUrl": "https://wgfd.wyo.gov/media/33698/download?inline=",
+    "sourceQuote": "11 Nov. 1 Dec. 31 3 9 Any pheasant | Area 11. The entire State of Wyoming excluding the lands described in Areas 1, | 2, 5, 7, 8 and 9.",
+    "checkedDate": "2026-11-23",
+    "notes": "Any pheasant in Area 11. Commission regulation prints month and day only; years assigned for the 2026-27 season (youth waterfowl days are printed as 2026)."
+  },
+  {
+    "id": "wy-pheasant-area1-2026",
+    "state": "WY",
+    "species": "pheasant",
+    "seasonName": "Pheasant, Hunt Area 1",
+    "zone": "Area 1: Fremont, Sheridan, Johnson, Park, Washakie, Hot Springs and most of Big Horn counties",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-01",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "WGFD",
+    "sourceTitle": "Wyoming Game and Fish Commission Chapter 11, Upland Game Bird and Small Game Hunting Seasons (final April 2026)",
+    "sourceUrl": "https://wgfd.wyo.gov/media/33698/download?inline=",
+    "sourceQuote": "1 Nov. 1 Dec. 31 3 9 Male pheasant only | Area 1. All of Fremont County, excluding those lands described in pheasant | Hunt Area 2. All of Sheridan, Johnson, Park, Washakie and Hot Springs counties, and all of Big",
+    "checkedDate": "2026-11-23",
+    "notes": "Male pheasant only, except Pheasant Special Management Permit areas in Sheridan and Johnson counties (any pheasant). Areas 2, 5, 7, 8 and 9 are small WHMA and public-land units with their own dates and hours. Commission regulation prints month and day only; years assigned for the 2026-27 season (youth waterfowl days are printed as 2026)."
+  },
+  {
+    "id": "wy-pheasant-area7-2026",
+    "state": "WY",
+    "species": "pheasant",
+    "seasonName": "Pheasant, Hunt Area 7",
+    "zone": "Area 7: Goshen County except Area 8",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-01",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "WGFD",
+    "sourceTitle": "Wyoming Game and Fish Commission Chapter 11, Upland Game Bird and Small Game Hunting Seasons (final April 2026)",
+    "sourceUrl": "https://wgfd.wyo.gov/media/33698/download?inline=",
+    "sourceQuote": "7 Nov. 1 Dec. 31 3 9 Male pheasant only | Area 7. All of Goshen County excluding Hunt Area 8.",
+    "checkedDate": "2026-11-23",
+    "notes": "Male pheasant only, except Table Mountain WHMA (any pheasant, 8 a.m. to 4 p.m.). Commission regulation prints month and day only; years assigned for the 2026-27 season (youth waterfowl days are printed as 2026)."
+  },
+  {
+    "id": "wy-turkey-fall-2026",
+    "state": "WY",
+    "species": "turkey",
+    "seasonName": "Fall Wild Turkey, General License",
+    "zone": "Area 1: the entire state",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-30",
+        "note": "archery only"
+      },
+      {
+        "open": "2026-10-01",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 wild turkey per license",
+    "possessionLimit": null,
+    "agency": "WGFD",
+    "sourceTitle": "Wyoming Game and Fish Commission Chapter 20, Wild Turkey Hunting Seasons (dated April 22, 2026)",
+    "sourceUrl": "https://wgfd.wyo.gov/media/33701/download?inline=",
+    "sourceQuote": "2026 Fall Season. Hunt Areas, Season Dates and Limitations. | 1 Gen Sep. 1 Sep. 30 Any wild turkey, archery only | 1 Gen Oct. 1 Jan. 31 Any wild turkey | Area 1. The entire State of Wyoming.",
+    "checkedDate": "2026-11-23",
+    "notes": "Any wild turkey. Limited quota Type 3 licenses also exist for parts of the state. Commission regulation prints month and day only; years assigned for the 2026-27 season (youth waterfowl days are printed as 2026)."
+  },
+  {
+    "id": "wy-turkey-spring-2027",
+    "state": "WY",
+    "species": "turkey",
+    "seasonName": "Spring Wild Turkey, General License",
+    "zone": "Area 1: the entire state",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-04-20",
+        "close": "2027-05-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 male or bearded wild turkey per license",
+    "possessionLimit": null,
+    "agency": "WGFD",
+    "sourceTitle": "Wyoming Game and Fish Commission Chapter 20, Wild Turkey Hunting Seasons (dated April 22, 2026)",
+    "sourceUrl": "https://wgfd.wyo.gov/media/33701/download?inline=",
+    "sourceQuote": "2027 Spring Season. Hunt Areas, Season Dates and Limitations. | 1 Gen Apr. 20 May 31 Any male wild turkey or any wild turkey with a | Area 1. The entire State of Wyoming.",
+    "checkedDate": "2026-11-23",
+    "notes": "Yellowtail WHMA needs a Hunter Management Area permission slip. Limited quota Type 3 licenses open Apr. 1."
+  }
+]

@@ -10,6 +10,7 @@ import { findRegion } from "@/lib/geo/regions";
 import { findState, states } from "@/lib/geo/states";
 import { species, zones } from "@/lib/guides";
 import { huntUnitMaps } from "@/lib/maps/unit-maps";
+import { unlistedBigGame } from "@/lib/seasons/gaps";
 import { pageMeta } from "@/lib/site";
 import { visibleSeasonsForState } from "@/lib/seasons";
 
@@ -130,7 +131,24 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
         <div className="mb-8">
           <h2 className="mb-3 font-heading text-[28px] font-bold uppercase">Seasons</h2>
           {seasons.length > 0 ? (
-            <SeasonList records={seasons} timeZone={item.timeZone} />
+            <>
+              <SeasonList records={seasons} timeZone={item.timeZone} />
+              {unlistedBigGame[item.slug]?.map((gap) => (
+                <section key={gap.species} className="mt-10">
+                  <h3 className="mb-3 border-b-2 border-[#211D14] pb-2 font-heading text-[26px] font-bold uppercase">
+                    {gap.species}
+                  </h3>
+                  <p className="font-serif text-[16px] leading-relaxed text-[#3B3526]">
+                    {gap.line}{" "}
+                    {item.regulationsUrl ? (
+                      <a className="text-[#C75B12] underline" href={item.regulationsUrl}>
+                        {item.agency} regulations
+                      </a>
+                    ) : null}
+                  </p>
+                </section>
+              ))}
+            </>
           ) : (
             <div className="border border-[#D8CDB4] bg-[#FBF8F0] p-6">
               <p className="font-serif text-[17px] leading-relaxed text-[#3B3526]">

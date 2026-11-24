@@ -1,0 +1,331 @@
+[
+  {
+    "id": "nm-duck-central-north-2026",
+    "state": "NM",
+    "species": "duck",
+    "seasonName": "Ducks, Central Flyway North Zone",
+    "zone": "Central Flyway North Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-04",
+        "note": "youth only"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2027-01-13",
+        "note": null
+      }
+    ],
+    "bagLimit": "6 (no more than 5 mallards with 2 female, 1 scaup, 3 wood ducks, 2 redhead, 2 hooded merganser, 3 pintail, 2 canvasback)",
+    "possessionLimit": "3 times daily bag",
+    "agency": "NMDOW",
+    "sourceTitle": "2026-2027 New Mexico Migratory Game Bird Hunting Rules and Information",
+    "sourceUrl": "https://wildlife.dgf.nm.gov/download/2026-2027-new-mexico-migratory-game-bird-hunting-rules-and-info/?wpdmdl=55779",
+    "sourceQuote": "CENTRAL FLYWAY SEASONS | (East of the Continental Divide | and north of I-40 and U.S. Hwy. | Oct. 10– | Jan. 13, ’27 | 6 ducks singly or in aggregate1 | Central North Oct. 3–4",
+    "checkedDate": "2026-11-23",
+    "notes": "East of the Continental Divide and north of I-40 and U.S. 54 at Tucumcari. September teal season Sept. 12 to 20, 2026."
+  },
+  {
+    "id": "nm-duck-central-south-2026",
+    "state": "NM",
+    "species": "duck",
+    "seasonName": "Ducks, Central Flyway South Zone",
+    "zone": "Central Flyway South Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2026-10-25",
+        "note": "youth only"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "6 (same as North Zone)",
+    "possessionLimit": "3 times daily bag",
+    "agency": "NMDOW",
+    "sourceTitle": "2026-2027 New Mexico Migratory Game Bird Hunting Rules and Information",
+    "sourceUrl": "https://wildlife.dgf.nm.gov/download/2026-2027-new-mexico-migratory-game-bird-hunting-rules-and-info/?wpdmdl=55779",
+    "sourceQuote": "South Zone Ducks and Oct. 28– Same as North Zone / | (East of the Continental Divide American Jan. 31, ’27 3 times daily bag | South Oct. 24–25",
+    "checkedDate": "2026-11-23",
+    "notes": "East of the Continental Divide and south of I-40 and U.S. 54 at Tucumcari. September teal season Sept. 12 to 20, 2026."
+  },
+  {
+    "id": "nm-duck-pacific-2026",
+    "state": "NM",
+    "species": "duck",
+    "seasonName": "Ducks, Pacific Flyway (North and South Zones)",
+    "zone": "Pacific Flyway (west of the Continental Divide)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-11",
+        "note": "youth only"
+      },
+      {
+        "open": "2026-10-19",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "7 in aggregate (no more than 2 female mallards, 2 redheads, 3 pintail, 2 canvasback; 2 scaup)",
+    "possessionLimit": "3 times daily bag",
+    "agency": "NMDOW",
+    "sourceTitle": "2026-2027 New Mexico Migratory Game Bird Hunting Rules and Information",
+    "sourceUrl": "https://wildlife.dgf.nm.gov/download/2026-2027-new-mexico-migratory-game-bird-hunting-rules-and-info/?wpdmdl=55779",
+    "sourceQuote": "PACIFIC FLY WAY SEASONS | North and South Ducks Oct. 19– 7 ducks in aggregate(1) / | Zones Jan. 31, ’27 3 times daily bag | Paciﬁc North Oct. 10–11 See page 8",
+    "checkedDate": "2026-11-23",
+    "notes": "Scaup Oct. 19, 2026 to Jan. 12, 2027 only."
+  },
+  {
+    "id": "nm-goose-central-2026",
+    "state": "NM",
+    "species": "goose",
+    "seasonName": "Geese, Central Flyway (North and South Zones)",
+    "zone": "Central Flyway (east of the Continental Divide)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2027-01-31",
+        "note": "dark and light geese"
+      }
+    ],
+    "bagLimit": "5 dark geese (Canada and white-fronted); 50 light geese",
+    "possessionLimit": "15 dark geese; no possession limit for light geese",
+    "agency": "NMDOW",
+    "sourceTitle": "2026-2027 New Mexico Migratory Game Bird Hunting Rules and Information",
+    "sourceUrl": "https://wildlife.dgf.nm.gov/download/2026-2027-new-mexico-migratory-game-bird-hunting-rules-and-info/?wpdmdl=55779",
+    "sourceQuote": "Zones (cont.) Dark Oct. 17– 5 daily / 15 in possession | Light Goose Oct. 17– 50 daily / No possession limit | MRGV (Valencia, Socorro and Sierra counties) is closed to dark",
+    "checkedDate": "2026-11-23",
+    "notes": "Middle Rio Grande Valley (Valencia, Socorro, Sierra counties) is closed to dark geese in the regular season; its own dark goose season is Dec. 19, 2026 to Jan. 31, 2027 (2 per day, 2 per season). Light goose conservation order Feb. 1 to Mar. 10, 2027."
+  },
+  {
+    "id": "nm-goose-pacific-north-2026",
+    "state": "NM",
+    "species": "goose",
+    "seasonName": "Geese, Pacific Flyway North Zone",
+    "zone": "Pacific Flyway North Zone (west of the Continental Divide, north of I-40)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-10-11",
+        "note": "split 1"
+      },
+      {
+        "open": "2026-11-02",
+        "close": "2027-01-31",
+        "note": "split 2"
+      }
+    ],
+    "bagLimit": "5 Canada and brant; 10 white-fronted; 20 light",
+    "possessionLimit": "15 Canada and brant; 30 white-fronted; 60 light",
+    "agency": "NMDOW",
+    "sourceTitle": "2026-2027 New Mexico Migratory Game Bird Hunting Rules and Information",
+    "sourceUrl": "https://wildlife.dgf.nm.gov/download/2026-2027-new-mexico-migratory-game-bird-hunting-rules-and-info/?wpdmdl=55779",
+    "sourceQuote": "PACIFIC FLY WAY SEASONS | (West of the Continental Divide Goose Sept. 26– 5 Canada and brant / 15 | and north of I-40) Oct. 11; | Nov. 2–",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "nm-goose-pacific-south-2026",
+    "state": "NM",
+    "species": "goose",
+    "seasonName": "Geese, Pacific Flyway South Zone",
+    "zone": "Pacific Flyway South Zone (west of the Continental Divide, south of I-40)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 Canada and brant; 10 white-fronted; 20 light",
+    "possessionLimit": "15 Canada and brant; 30 white-fronted; 60 light",
+    "agency": "NMDOW",
+    "sourceTitle": "2026-2027 New Mexico Migratory Game Bird Hunting Rules and Information",
+    "sourceUrl": "https://wildlife.dgf.nm.gov/download/2026-2027-new-mexico-migratory-game-bird-hunting-rules-and-info/?wpdmdl=55779",
+    "sourceQuote": "South Zone Goose Oct. 17– 5 Canada and brant / 15 | (West of the Continental Divide Jan. 31, ‘27 in possession, 10 white- | and south of I-40) fronted/ 30 in possession,",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "nm-dove-north-2026",
+    "state": "NM",
+    "species": "dove",
+    "seasonName": "Mourning and White-winged Dove, North Zone",
+    "zone": "North Zone (north of I-40 and U.S. 54 at Tucumcari)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-11-29",
+        "note": null
+      }
+    ],
+    "bagLimit": "15 singly or aggregate",
+    "possessionLimit": "45",
+    "agency": "NMDOW",
+    "sourceTitle": "2026-2027 New Mexico Migratory Game Bird Hunting Rules and Information",
+    "sourceUrl": "https://wildlife.dgf.nm.gov/download/2026-2027-new-mexico-migratory-game-bird-hunting-rules-and-info/?wpdmdl=55779",
+    "sourceQuote": "Mourning and White-winged Dove | North Zone Sept. 1 – Nov. 29 15 singly or aggregate | / 45 in possession",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "nm-dove-south-2026",
+    "state": "NM",
+    "species": "dove",
+    "seasonName": "Mourning and White-winged Dove, South Zone",
+    "zone": "South Zone (south of I-40 and U.S. 54 at Tucumcari)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-10-28",
+        "note": "split 1"
+      },
+      {
+        "open": "2026-12-01",
+        "close": "2027-01-01",
+        "note": "split 2"
+      }
+    ],
+    "bagLimit": "15 singly or aggregate",
+    "possessionLimit": "45",
+    "agency": "NMDOW",
+    "sourceTitle": "2026-2027 New Mexico Migratory Game Bird Hunting Rules and Information",
+    "sourceUrl": "https://wildlife.dgf.nm.gov/download/2026-2027-new-mexico-migratory-game-bird-hunting-rules-and-info/?wpdmdl=55779",
+    "sourceQuote": "Mourning and White-winged Dove | South Zone Sept. 1 – Oct. 28 and 15 singly or aggregate | Dec. 1 – Jan. 1, '27 / 45 in possession",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "nm-quail-statewide-2026",
+    "state": "NM",
+    "species": "quail",
+    "seasonName": "Quail (Scaled, Gambel's, Bobwhite, Montezuma), Over-the-Counter",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-15",
+        "close": "2027-02-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "15 singly or in aggregate (no more than 5 Montezuma)",
+    "possessionLimit": "30 (no more than 10 Montezuma)",
+    "agency": "NMDOW",
+    "sourceTitle": "2026-2027 New Mexico Hunting Rules and Information (v08.11.26)",
+    "sourceUrl": "https://wildlife.dgf.nm.gov/download/2026-2027-new-mexico-hunting-rules-and-info/?wpdmdl=52826",
+    "sourceQuote": "Over-the-Counter Seasons | Quail Statewide Nov. 15, '26–Feb. 15 per day, Singly or in aggregate | (Scaled, Gambel’s, 15, '27 (no more than 5 Montezuma",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "nm-grouse-north-2026",
+    "state": "NM",
+    "species": "grouse",
+    "seasonName": "Dusky (Blue) Grouse, North Zone",
+    "zone": "North Zone (north of I-40)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "6",
+    "agency": "NMDOW",
+    "sourceTitle": "2026-2027 New Mexico Hunting Rules and Information (v08.11.26)",
+    "sourceUrl": "https://wildlife.dgf.nm.gov/download/2026-2027-new-mexico-hunting-rules-and-info/?wpdmdl=52826",
+    "sourceQuote": "Dusky (Blue) Grouse NORTH ZONE Sept. 1–Dec. 31 3 per day / 6 in possession | (North of I-40)",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "nm-grouse-south-2026",
+    "state": "NM",
+    "species": "grouse",
+    "seasonName": "Dusky (Blue) Grouse, South Zone",
+    "zone": "South Zone (south of I-40)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "1",
+    "possessionLimit": "2",
+    "agency": "NMDOW",
+    "sourceTitle": "2026-2027 New Mexico Hunting Rules and Information (v08.11.26)",
+    "sourceUrl": "https://wildlife.dgf.nm.gov/download/2026-2027-new-mexico-hunting-rules-and-info/?wpdmdl=52826",
+    "sourceQuote": "SOUTH ZONE Sept. 1-Dec. 31 1 per day / 2 in possession | (South of I-40)",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "nm-pheasant-statewide-2026",
+    "state": "NM",
+    "species": "pheasant",
+    "seasonName": "Pheasant, Over-the-Counter",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-10",
+        "close": "2026-12-13",
+        "note": null
+      }
+    ],
+    "bagLimit": "3 males",
+    "possessionLimit": "6",
+    "agency": "NMDOW",
+    "sourceTitle": "2026-2027 New Mexico Hunting Rules and Information (v08.11.26)",
+    "sourceUrl": "https://wildlife.dgf.nm.gov/download/2026-2027-new-mexico-hunting-rules-and-info/?wpdmdl=52826",
+    "sourceQuote": "Over-the-Counter Seasons | Pheasant Statewide Dec. 10-13 3 males per day / 6 in possession",
+    "checkedDate": "2026-11-23",
+    "notes": "Pheasant hunts on W.S. Huey WMA and youth hunts on Bernardo and Jackson Lake WMAs are by draw permit."
+  },
+  {
+    "id": "nm-turkey-fall-otc-2026",
+    "state": "NM",
+    "species": "turkey",
+    "seasonName": "Fall Turkey, Over-the-Counter",
+    "zone": "Statewide except listed closed units and areas",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-30",
+        "note": "bow only"
+      },
+      {
+        "open": "2026-11-01",
+        "close": "2026-11-30",
+        "note": "shotgun, bow or crossbow"
+      }
+    ],
+    "bagLimit": "1 turkey (any)",
+    "possessionLimit": null,
+    "agency": "NMDOW",
+    "sourceTitle": "2026-2027 New Mexico Hunting Rules and Information (v08.11.26)",
+    "sourceUrl": "https://wildlife.dgf.nm.gov/download/2026-2027-new-mexico-hunting-rules-and-info/?wpdmdl=52826",
+    "sourceQuote": "Fall OTC License Hunts | Sept. 1–30 (bow only) and Nov. 1–30 (shotgun, bow or crossbow) | STATEWIDE: Except the closed areas listed below. | The bag limit is any one turkey.",
+    "checkedDate": "2026-11-23",
+    "notes": "Closed: parts of Units 2A, 2B, 2C; Units 6B, 8, 14, 18, 19, 25, 26, 27, 28, 30, 31, 33, 38, 49, 50, 53; and several WMAs, Sugarite Canyon State Park and Valle Vidal. Booklet's spring OTC dates (Apr 15 to May 15) are spring 2026; spring 2027 not published yet."
+  }
+]
