@@ -174,6 +174,88 @@ export const unlistedBigGame: Record<string, { species: string; line: string; li
       line: "Bag limits are set by county or license and are not listed here. Disease Surveillance Area deer seasons are not listed here.",
     },
   ],
+  alabama: [
+    {
+      species: "Deer",
+      line: "Open-permit public land, dog-deer hunting, and WMA seasons are not listed here.",
+    },
+    {
+      species: "Turkey",
+      line: "WMA and national forest turkey dates are not listed here.",
+    },
+  ],
+  arkansas: [
+    {
+      species: "Deer",
+      line: "WMA and refuge deer seasons are not listed here.",
+    },
+    {
+      species: "Turkey",
+      line: "WMA and refuge turkey seasons are not listed here.",
+    },
+  ],
+  kentucky: [
+    {
+      species: "Deer",
+      line: "Antlerless limits are set by county zone. The CWD antlerless season applies only in surveillance-zone counties and is not listed as its own season.",
+    },
+    {
+      species: "Turkey",
+      line: "Spring turkey 2027 is not published yet, so it is not listed here.",
+    },
+    {
+      species: "Elk",
+      line: "Elk permits are by quota, so season dates are not listed here.",
+    },
+  ],
+  louisiana: [
+    {
+      species: "Deer",
+      line: "WMA, refuge, and federal-land deer seasons are not listed here.",
+    },
+    {
+      species: "Turkey",
+      line: "WMA, refuge, and federal-land turkey seasons are not listed here.",
+    },
+  ],
+  mississippi: [
+    {
+      species: "Turkey",
+      line: "Nonresident public-land turkey is by draw and is not listed here. Fall turkey is not in the season summary used here.",
+    },
+  ],
+  missouri: [
+    {
+      species: "Deer",
+      line: "Antlerless portions are open only in select counties, and antlerless permit limits are set by county, so those portions are not listed here.",
+    },
+    {
+      species: "Turkey",
+      line: "Fall firearms turkey is closed in some counties. Spring turkey 2027 is not published yet, so it is not listed here.",
+    },
+    {
+      species: "Elk",
+      line: "Elk permits are by draw, so season dates are not listed here.",
+    },
+  ],
+  tennessee: [
+    {
+      species: "Deer",
+      line: "Antlerless limits differ by unit and are not listed as separate seasons.",
+    },
+    {
+      species: "Turkey",
+      line: "Fall turkey is closed in some counties. WMA and public-land exceptions are not listed here.",
+    },
+    {
+      species: "Elk",
+      line: "Elk permits are by quota, so season dates are not listed here.",
+    },
+    {
+      species: "Duck",
+      line: "WMA blind hunts are by application and are not listed here.",
+    },
+  ],
   wisconsin: [
     {
       species: "Deer",

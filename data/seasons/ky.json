@@ -1,0 +1,398 @@
+[
+  {
+    "id": "ky-deer-statewide-2026",
+    "state": "KY",
+    "species": "deer",
+    "seasonName": "Deer (statewide seasons)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2027-01-18",
+        "note": "archery; youth/senior crossbow"
+      },
+      {
+        "open": "2026-09-19",
+        "close": "2027-01-18",
+        "note": "crossbow"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-18",
+        "note": "youth-only gun"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-18",
+        "note": "muzzleloader, early"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-11-29",
+        "note": "modern gun"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2026-12-20",
+        "note": "muzzleloader, late"
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2026-12-27",
+        "note": "free youth weekend"
+      }
+    ],
+    "bagLimit": "One antlered deer per hunter statewide; zone limits apply to antlerless",
+    "possessionLimit": null,
+    "agency": "KDFWR",
+    "sourceTitle": "Deer Hunting (KDFWR)",
+    "sourceUrl": "https://fw.ky.gov/Hunt/Pages/deer.aspx",
+    "sourceQuote": "Archery Sept. 5, 2026 - Jan. 18, 2027 Youth/Senior Crossbow Crossbow Sept. 19, 2026 - Jan. 18, 2027 | Youth-only Gun Oct. 10 - 18, 2026 Muzzleloader Oct. 17 - 18, 2026 Dec. 12 - 20, 2026 Modern Gun Nov. 14 - 29, 2026 Free Youth Weekend Dec. 26 - 27, 2026 | Only one antlered deer per hunter may be harvested statewide, regardless of zone, method or season.",
+    "checkedDate": "2026-11-23",
+    "notes": "Season dates are statewide. County-based deer zones 1 to 4 set antlerless limits only. CWD antlerless season Sept. 25-28, 2026 applies only in CWD Surveillance Zone counties (not recorded as a period)."
+  },
+  {
+    "id": "ky-turkey-fall-2026",
+    "state": "KY",
+    "species": "turkey",
+    "seasonName": "Fall Turkey",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2027-01-18",
+        "note": "archery"
+      },
+      {
+        "open": "2026-10-01",
+        "close": "2026-10-18",
+        "note": "crossbow"
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2026-10-30",
+        "note": "shotgun"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-12-31",
+        "note": "crossbow"
+      },
+      {
+        "open": "2026-12-05",
+        "close": "2026-12-11",
+        "note": "shotgun"
+      }
+    ],
+    "bagLimit": "Up to two turkeys during the fall season (only one a day); only one may have a beard 3 inches or longer and only one may have no beard or a beard under 3 inches",
+    "possessionLimit": null,
+    "agency": "KDFWR",
+    "sourceTitle": "Fall Turkey Hunting (KDFWR)",
+    "sourceUrl": "https://fw.ky.gov/Hunt/Pages/Fall-Turkey-Regs.aspx",
+    "sourceQuote": "FALL TURKEY SHOTGUN ARCHERY CROSSBOW Oct. 24 - Oct. 30 and Dec. 5 - 11, 2026 Sept. 5, 2026 - Jan. 18, 2027 Oct. 1 - 18 and Nov. 14 - Dec. 31, 2026 | Properly licensed hunters can take up to two turkeys during the fall season (but only one a day)",
+    "checkedDate": "2026-11-23",
+    "notes": "Column order on the page is Shotgun, Archery, Crossbow."
+  },
+  {
+    "id": "ky-duck-statewide-2026",
+    "state": "KY",
+    "species": "duck",
+    "seasonName": "Duck",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-21",
+        "note": "youth-only"
+      },
+      {
+        "open": "2026-11-22",
+        "close": "2026-11-22",
+        "note": "military/veteran-only"
+      },
+      {
+        "open": "2026-11-26",
+        "close": "2026-11-29",
+        "note": "Thanksgiving segment"
+      },
+      {
+        "open": "2026-12-07",
+        "close": "2027-01-31",
+        "note": "second segment"
+      },
+      {
+        "open": "2027-02-13",
+        "close": "2027-02-13",
+        "note": "youth-only"
+      },
+      {
+        "open": "2027-02-14",
+        "close": "2027-02-14",
+        "note": "military/veteran-only"
+      }
+    ],
+    "bagLimit": "6; may include no more than 4 mallards (only 2 hens), 3 wood ducks, 2 redheads, 3 pintails, 2 black ducks, 2 canvasbacks; 1 scaup Nov. 26-29 and Dec. 7-17, 2 scaup Dec. 18-Jan. 31",
+    "possessionLimit": "Triple the daily bag limit",
+    "agency": "KDFWR",
+    "sourceTitle": "Waterfowl Hunting (KDFWR)",
+    "sourceUrl": "https://fw.ky.gov/Hunt/Pages/Waterfowl-Hunting.aspx",
+    "sourceQuote": "Duck Nov. 26–29, 2026; Dec. 7, 2026–Jan. 31, 2027 6; may include no more than 4 mallards (only 2 hens), 3 wood ducks, 2 redheads, 3 pintails, 2 black ducks, 2 canvasbacks. 1 scaup Nov. 26–29 and Dec. 7-17; and 2 scaup Dec. 18–Jan. 31. Triple the daily bag limit | Youth-Only Waterfowl Nov. 21, 2026 and Feb. 13, 2027 | Military/Veteran-Only Waterfowl Nov. 22, 2026 and Feb. 14, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Coot 15 daily; merganser 5 daily (only 2 hooded)."
+  },
+  {
+    "id": "ky-duck-teal-wood-duck-2026",
+    "state": "KY",
+    "species": "duck",
+    "seasonName": "Teal & Wood Duck (September)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-23",
+        "note": null
+      }
+    ],
+    "bagLimit": "6; may include no more than 2 wood ducks",
+    "possessionLimit": "18; may include no more than 6 wood ducks",
+    "agency": "KDFWR",
+    "sourceTitle": "Waterfowl Hunting (KDFWR)",
+    "sourceUrl": "https://fw.ky.gov/Hunt/Pages/Waterfowl-Hunting.aspx",
+    "sourceQuote": "Teal & Wood Duck Sept. 19–23, 2026 6; may include no more than 2 wood ducks 18; may include no more than 6 wood ducks",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "ky-goose-september-western-2026",
+    "state": "KY",
+    "species": "goose",
+    "seasonName": "September Canada Goose, Western Zone",
+    "zone": "Western Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "5",
+    "possessionLimit": "15",
+    "agency": "KDFWR",
+    "sourceTitle": "Waterfowl Hunting (KDFWR)",
+    "sourceUrl": "https://fw.ky.gov/Hunt/Pages/Waterfowl-Hunting.aspx",
+    "sourceQuote": "September Canada Goose, Western Zone Sept. 1–15, 2026 (Western) 5 15",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "ky-goose-september-eastern-2026",
+    "state": "KY",
+    "species": "goose",
+    "seasonName": "September Canada Goose, Eastern Zone",
+    "zone": "Eastern Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-16",
+        "close": "2026-09-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "5",
+    "possessionLimit": "15",
+    "agency": "KDFWR",
+    "sourceTitle": "Waterfowl Hunting (KDFWR)",
+    "sourceUrl": "https://fw.ky.gov/Hunt/Pages/Waterfowl-Hunting.aspx",
+    "sourceQuote": "September Canada Goose, Eastern Zone Sept. 16–30, 2026 (Eastern) 5 15",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "ky-goose-regular-2026",
+    "state": "KY",
+    "species": "goose",
+    "seasonName": "Canada/Cackling Goose, White-fronted Goose & Brant; Snow Goose",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-21",
+        "note": "youth-only"
+      },
+      {
+        "open": "2026-11-22",
+        "close": "2026-11-22",
+        "note": "military/veteran-only"
+      },
+      {
+        "open": "2026-11-26",
+        "close": "2027-02-15",
+        "note": "regular season"
+      },
+      {
+        "open": "2027-02-13",
+        "close": "2027-02-13",
+        "note": "youth-only"
+      },
+      {
+        "open": "2027-02-14",
+        "close": "2027-02-14",
+        "note": "military/veteran-only"
+      }
+    ],
+    "bagLimit": "5 combined (3 Canada geese, 2 white-fronted geese, 1 brant); snow goose (including Ross's) 20",
+    "possessionLimit": "Triple the daily bag limit; snow goose 60",
+    "agency": "KDFWR",
+    "sourceTitle": "Waterfowl Hunting (KDFWR)",
+    "sourceUrl": "https://fw.ky.gov/Hunt/Pages/Waterfowl-Hunting.aspx",
+    "sourceQuote": "Canada/Cackling Goose, White-fronted Goose & Brant Nov. 26, 2026–Feb. 15, 2027 5 combined; 3 Canada geese, 2 white-fronted geese, and 1 brant Triple the daily bag limit Snow Goose (including Ross's Goose) 20 60",
+    "checkedDate": "2026-11-23",
+    "notes": "Light Goose Conservation Order Feb. 16 to Mar. 31, 2027 not recorded. Youth and military days overlap the regular season."
+  },
+  {
+    "id": "ky-dove-statewide-2026",
+    "state": "KY",
+    "species": "dove",
+    "seasonName": "Dove (mourning and white-winged)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-10-26",
+        "note": null
+      },
+      {
+        "open": "2026-11-26",
+        "close": "2026-12-06",
+        "note": null
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2027-01-10",
+        "note": null
+      }
+    ],
+    "bagLimit": "15 (including white-winged dove)",
+    "possessionLimit": "45",
+    "agency": "KDFWR",
+    "sourceTitle": "Migratory Bird Hunting (KDFWR)",
+    "sourceUrl": "https://fw.ky.gov/Hunt/Pages/Migratory-Bird-Hunting.aspx",
+    "sourceQuote": "Dove Sept. 1 - Oct. 26, Nov. 26 - Dec. 6, 2026 and Dec. 19, 2026 - Jan. 10, 2027 15 (including white-winged dove) 45",
+    "checkedDate": "2026-11-23",
+    "notes": "Sept. 1 shooting starts at 11 a.m."
+  },
+  {
+    "id": "ky-woodcock-statewide-2026",
+    "state": "KY",
+    "species": "woodcock",
+    "seasonName": "American Woodcock",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2026-11-13",
+        "note": null
+      },
+      {
+        "open": "2026-11-16",
+        "close": "2026-12-09",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "KDFWR",
+    "sourceTitle": "Migratory Bird Hunting (KDFWR)",
+    "sourceUrl": "https://fw.ky.gov/Hunt/Pages/Migratory-Bird-Hunting.aspx",
+    "sourceQuote": "American Woodcock Oct. 24 - Nov. 13 and Nov. 16 - Dec. 9, 2026 3 9",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "ky-snipe-statewide-2026",
+    "state": "KY",
+    "species": "snipe",
+    "seasonName": "Wilson's Snipe",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-16",
+        "close": "2026-10-25",
+        "note": null
+      },
+      {
+        "open": "2026-11-26",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "8",
+    "possessionLimit": "24",
+    "agency": "KDFWR",
+    "sourceTitle": "Migratory Bird Hunting (KDFWR)",
+    "sourceUrl": "https://fw.ky.gov/Hunt/Pages/Migratory-Bird-Hunting.aspx",
+    "sourceQuote": "Wilson's Snipe Sept. 16 - Oct. 25, 2026 and Nov. 26, 2026 - Jan. 31, 2027 8 24",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "ky-quail-eastern-2026",
+    "state": "KY",
+    "species": "quail",
+    "seasonName": "Bobwhite Quail, Eastern Zone",
+    "zone": "Eastern Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-01",
+        "close": "2026-11-13",
+        "note": null
+      },
+      {
+        "open": "2026-11-16",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "8",
+    "possessionLimit": "16",
+    "agency": "KDFWR",
+    "sourceTitle": "Bobwhite Quail (KDFWR)",
+    "sourceUrl": "https://fw.ky.gov/Hunt/Pages/Bobwhite-Quail.aspx",
+    "sourceQuote": "Eastern Zone Nov. 1-13 and Nov. 16, 2026 - Jan. 31, 2027 | Daily limit: 8 Possession Limit: 16",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ky-quail-western-2026",
+    "state": "KY",
+    "species": "quail",
+    "seasonName": "Bobwhite Quail, Western Zone",
+    "zone": "Western Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-16",
+        "close": "2027-02-10",
+        "note": null
+      }
+    ],
+    "bagLimit": "8",
+    "possessionLimit": "16",
+    "agency": "KDFWR",
+    "sourceTitle": "Bobwhite Quail (KDFWR)",
+    "sourceUrl": "https://fw.ky.gov/Hunt/Pages/Bobwhite-Quail.aspx",
+    "sourceQuote": "Western Zone Nov. 16, 2026 - Feb. 10, 2027 | Daily limit: 8 Possession Limit: 16",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  }
+]

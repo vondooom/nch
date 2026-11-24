@@ -1,0 +1,343 @@
+[
+  {
+    "id": "mo-duck-north-2026",
+    "state": "MO",
+    "species": "duck",
+    "seasonName": "Ducks and Coots, North Zone",
+    "zone": "North Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2026-10-25",
+        "note": "youth"
+      },
+      {
+        "open": "2026-10-31",
+        "close": "2026-12-29",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": "6 (mallards 4, no more than 2 females; scaup 2 for first 45 days and 1 for last 15 days; wood ducks 3; hooded mergansers 2; redheads 2; canvasback 2; black duck 2; mottled duck 1; pintails 3)",
+    "possessionLimit": "18",
+    "agency": "MDC",
+    "sourceTitle": "Hunting Seasons (at a Glance) (MDC)",
+    "sourceUrl": "https://mdc.mo.gov/hunting-trapping/seasons",
+    "sourceQuote": "Ducks and Coots Hunting: North Zone Oct 31, 2026 - Dec 29, 2026 | Ducks, Coots, and Geese Hunting: Youth: North Zone Oct 24, 2026 - Oct 25, 2026 | Ducks: Daily limit of 6 with species restrictions below, possession limit of 18 | Scaup: 2 scaup for first 45 days and 1 scaup for last 15 days",
+    "checkedDate": "2026-11-23",
+    "notes": "Coots: daily 15, possession 45. Youth days include geese."
+  },
+  {
+    "id": "mo-duck-middle-2026",
+    "state": "MO",
+    "species": "duck",
+    "seasonName": "Ducks and Coots, Middle Zone",
+    "zone": "Middle Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-31",
+        "close": "2026-11-01",
+        "note": "youth"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-12-13",
+        "note": "regular season"
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2027-01-10",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": "6 (mallards 4, no more than 2 females; scaup 2 for first 45 days and 1 for last 15 days; wood ducks 3; hooded mergansers 2; redheads 2; canvasback 2; black duck 2; mottled duck 1; pintails 3)",
+    "possessionLimit": "18",
+    "agency": "MDC",
+    "sourceTitle": "Hunting Seasons (at a Glance) (MDC)",
+    "sourceUrl": "https://mdc.mo.gov/hunting-trapping/seasons",
+    "sourceQuote": "Ducks and Coots Hunting: Middle Zone Nov 07, 2026 - Dec 13, 2026 Dec 19, 2026 - Jan 10, 2027 | Ducks, Coots, and Geese Hunting: Youth: Middle Zone Oct 31, 2026 - Nov 01, 2026 | Ducks: Daily limit of 6 with species restrictions below, possession limit of 18 | Scaup: 2 scaup for first 45 days and 1 scaup for last 15 days",
+    "checkedDate": "2026-11-23",
+    "notes": "Coots: daily 15, possession 45. Youth days include geese."
+  },
+  {
+    "id": "mo-duck-south-2026",
+    "state": "MO",
+    "species": "duck",
+    "seasonName": "Ducks and Coots, South Zone",
+    "zone": "South Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-22",
+        "note": "youth"
+      },
+      {
+        "open": "2026-11-26",
+        "close": "2026-11-29",
+        "note": "regular season"
+      },
+      {
+        "open": "2026-12-07",
+        "close": "2027-01-31",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": "6 (mallards 4, no more than 2 females; scaup 2 for first 45 days and 1 for last 15 days; wood ducks 3; hooded mergansers 2; redheads 2; canvasback 2; black duck 2; mottled duck 1; pintails 3)",
+    "possessionLimit": "18",
+    "agency": "MDC",
+    "sourceTitle": "Hunting Seasons (at a Glance) (MDC)",
+    "sourceUrl": "https://mdc.mo.gov/hunting-trapping/seasons",
+    "sourceQuote": "Ducks and Coots Hunting: South Zone Nov 26, 2026 - Nov 29, 2026 Dec 07, 2026 - Jan 31, 2027 | Ducks, Coots, and Geese Hunting: Youth: South Zone Nov 21, 2026 - Nov 22, 2026 | Ducks: Daily limit of 6 with species restrictions below, possession limit of 18 | Scaup: 2 scaup for first 45 days and 1 scaup for last 15 days",
+    "checkedDate": "2026-11-23",
+    "notes": "Coots: daily 15, possession 45. Youth days include geese."
+  },
+  {
+    "id": "mo-duck-teal-2026",
+    "state": "MO",
+    "species": "duck",
+    "seasonName": "Teal",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-09-20",
+        "note": "teal only; sunrise to sunset"
+      }
+    ],
+    "bagLimit": "6",
+    "possessionLimit": "18",
+    "agency": "MDC",
+    "sourceTitle": "Hunting Seasons (at a Glance), page 2 (MDC)",
+    "sourceUrl": "https://mdc.mo.gov/hunting-trapping/seasons?page=1",
+    "sourceQuote": "Teal: Hunting Sep 12, 2026 - Sep 20, 2026 Sunrise to sunset Daily bag limit: 6 Possession limit: 18",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "mo-goose-early-canada-brant-2026",
+    "state": "MO",
+    "species": "goose",
+    "seasonName": "Early Canada Goose and Brant",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-11",
+        "note": null
+      }
+    ],
+    "bagLimit": "3 (brant and Canada geese combined)",
+    "possessionLimit": "9",
+    "agency": "MDC",
+    "sourceTitle": "Hunting Seasons (at a Glance) (MDC)",
+    "sourceUrl": "https://mdc.mo.gov/hunting-trapping/seasons",
+    "sourceQuote": "Early Canada Goose and Brant: Hunting Oct 03, 2026 - Oct 11, 2026 One-half hour before sunrise to sunset Daily limit: 3 Possession limit: 9 Daily and possession limits are brant and Canada geese combined.",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "mo-goose-statewide-2026",
+    "state": "MO",
+    "species": "goose",
+    "seasonName": "Goose (Canada, Brant, White-Fronted, Snow, Ross's)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-11",
+        "close": "2027-02-06",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": "Canada geese and brant 3 combined; white-fronted 2; light geese 20",
+    "possessionLimit": "Canada geese and brant 9; white-fronted 6; light geese none",
+    "agency": "MDC",
+    "sourceTitle": "Hunting Seasons (at a Glance), page 2 (MDC)",
+    "sourceUrl": "https://mdc.mo.gov/hunting-trapping/seasons?page=1",
+    "sourceQuote": "Goose (Canada, Brant, White-Fronted, Snow, Ross's): Hunting Nov 11, 2026 - Feb 06, 2027 | Canada geese and brant Daily limit: 3 Possession limit: 9 | White-fronted geese Daily limit: 2 Possession limit: 6 | Light geese Daily limit: 20 Possession limit: none",
+    "checkedDate": "2026-11-23",
+    "notes": "Early Canada goose and brant season is a separate record. Youth days are on the duck zone records. Light Goose Conservation Order not recorded."
+  },
+  {
+    "id": "mo-dove-statewide-2026",
+    "state": "MO",
+    "species": "dove",
+    "seasonName": "Dove",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-11-29",
+        "note": null
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": "45",
+    "agency": "MDC",
+    "sourceTitle": "Hunting Seasons (at a Glance) (MDC)",
+    "sourceUrl": "https://mdc.mo.gov/hunting-trapping/seasons",
+    "sourceQuote": "Dove: Hunting Sep 01, 2026 - Nov 29, 2026 One-half hour before sunrise to sunset Daily limit: 15 Possession limit: 45 Combined total of all dove species",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "mo-quail-statewide-2026",
+    "state": "MO",
+    "species": "quail",
+    "seasonName": "Quail",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2026-10-25",
+        "note": "youth (ages 6-15)"
+      },
+      {
+        "open": "2026-11-01",
+        "close": "2027-01-15",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": "8",
+    "possessionLimit": "16",
+    "agency": "MDC",
+    "sourceTitle": "Hunting Seasons (at a Glance), page 2 (MDC)",
+    "sourceUrl": "https://mdc.mo.gov/hunting-trapping/seasons?page=1",
+    "sourceQuote": "Quail: Hunting Nov 01, 2026 - Jan 15, 2027 Daily limit: 8 Possession limit: 16 Quail: Hunting: Youth Oct 24, 2026 - Oct 25, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "mo-woodcock-statewide-2026",
+    "state": "MO",
+    "species": "woodcock",
+    "seasonName": "Woodcock",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-18",
+        "close": "2026-12-01",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "MDC",
+    "sourceTitle": "Hunting Seasons (at a Glance), page 2 (MDC)",
+    "sourceUrl": "https://mdc.mo.gov/hunting-trapping/seasons?page=1",
+    "sourceQuote": "Woodcock: Hunting Oct 18, 2026 - Dec 01, 2026 One half hour before sunrise to sunset Daily limit: 3 Possession limit: 9",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "mo-snipe-statewide-2026",
+    "state": "MO",
+    "species": "snipe",
+    "seasonName": "Common Snipe",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-12-16",
+        "note": null
+      }
+    ],
+    "bagLimit": "8",
+    "possessionLimit": "24",
+    "agency": "MDC",
+    "sourceTitle": "Hunting Seasons (at a Glance) (MDC)",
+    "sourceUrl": "https://mdc.mo.gov/hunting-trapping/seasons",
+    "sourceQuote": "Common Snipe: Hunting Sep 01, 2026 - Dec 16, 2026 One-half hour before sunrise to sunset Daily limit: 8 Possession limit: 24",
+    "checkedDate": "2026-11-23",
+    "notes": "MDC labels this season \"Common Snipe\" (Wilson's snipe)."
+  },
+  {
+    "id": "mo-turkey-fall-2026",
+    "state": "MO",
+    "species": "turkey",
+    "seasonName": "Fall Turkey (archery and firearms)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-15",
+        "close": "2026-11-13",
+        "note": "archery"
+      },
+      {
+        "open": "2026-10-01",
+        "close": "2026-10-31",
+        "note": "fall firearms"
+      },
+      {
+        "open": "2026-11-25",
+        "close": "2027-01-15",
+        "note": "archery"
+      }
+    ],
+    "bagLimit": "Two turkeys of either sex (archery and firearms portions combined), both may be taken on the same day",
+    "possessionLimit": null,
+    "agency": "MDC",
+    "sourceTitle": "Hunting Seasons (at a Glance), page 2 (MDC)",
+    "sourceUrl": "https://mdc.mo.gov/hunting-trapping/seasons?page=1",
+    "sourceQuote": "Turkey: Archery | Sep 15, 2026 - Nov 13, 2026 Nov 25, 2026 - Jan 15, 2027 | Turkey: Fall Firearms Oct 01, 2026 - Oct 31, 2026 | Two turkeys of either sex (archery and firearms portions combined), both may be taken on the same day | Fall firearms turkey hunting is not permitted in Dunklin, McDonald, Mississippi, New Madrid, Newton, Pemiscot, and Scott counties.",
+    "checkedDate": "2026-11-23",
+    "notes": "Fall firearms closed in Dunklin, McDonald, Mississippi, New Madrid, Newton, Pemiscot, and Scott counties."
+  },
+  {
+    "id": "mo-deer-statewide-2026",
+    "state": "MO",
+    "species": "deer",
+    "seasonName": "Deer (statewide archery and firearms portions)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-15",
+        "close": "2026-11-13",
+        "note": "archery"
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2026-10-25",
+        "note": "firearms early youth portion"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-11-24",
+        "note": "firearms November portion"
+      },
+      {
+        "open": "2026-11-25",
+        "close": "2027-01-15",
+        "note": "archery"
+      },
+      {
+        "open": "2026-11-27",
+        "close": "2026-11-29",
+        "note": "firearms late youth portion"
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2027-01-05",
+        "note": "firearms alternative methods portion"
+      }
+    ],
+    "bagLimit": "Residents: two antlered deer during archery and firearms seasons combined; only one antlered deer during firearms season (all portions combined)",
+    "possessionLimit": null,
+    "agency": "MDC",
+    "sourceTitle": "Hunting Seasons (at a Glance) (MDC)",
+    "sourceUrl": "https://mdc.mo.gov/hunting-trapping/seasons",
+    "sourceQuote": "Deer: Archery Sep 15, 2026 - Nov 13, 2026 Nov 25, 2026 - Jan 15, 2027 | You may take two antlered deer during the archery and firearms deer seasons combined. | Deer: Firearms: Alternative Methods Dec 26, 2026 - Jan 05, 2027 | Deer: Firearms: November Portion Nov 14, 2026 - Nov 24, 2026 | Deer: Firearms: Youth Portions Oct 24, 2026 - Oct 25, 2026 Nov 27, 2026 - Nov 29, 2026 | Only one antlered deer may be taken during firearms deer season (all portions combined).",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless portions (Oct. 9-11 and Dec. 5-13, 2026) are open only in select counties, and antlerless permit limits are set by county (not recorded). Nonresident antlered limit is one."
+  }
+]

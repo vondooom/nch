@@ -1,0 +1,332 @@
+[
+  {
+    "id": "tn-deer-statewide-2026",
+    "state": "TN",
+    "species": "deer",
+    "seasonName": "Deer (statewide)",
+    "zone": "Statewide (Units 1-6)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-28",
+        "close": "2026-08-30",
+        "note": "August archery; private lands and select Unit 1 WMAs only"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-10-30",
+        "note": "archery"
+      },
+      {
+        "open": "2026-10-31",
+        "close": "2026-11-01",
+        "note": "young sportsman (G/M/A)"
+      },
+      {
+        "open": "2026-11-02",
+        "close": "2026-11-06",
+        "note": "archery"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-20",
+        "note": "muzzleloader/archery"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2027-01-03",
+        "note": "gun/muzzleloader/archery"
+      },
+      {
+        "open": "2027-01-09",
+        "close": "2027-01-10",
+        "note": "young sportsman (G/M/A)"
+      }
+    ],
+    "bagLimit": "Statewide antlered: 2 (1/day)",
+    "possessionLimit": null,
+    "agency": "TWRA",
+    "sourceTitle": "Summary of Tennessee Hunting and Trapping Seasons Dates (TWRA)",
+    "sourceUrl": "https://www.tn.gov/twra/hunting/tennessee-hunting-seasons-summary.html",
+    "sourceQuote": "August (A) * Aug. 28 - Aug. 30, 2026 2 (1/day)*** | Young Sportsman (G/M/A) ** Oct. 31 - Nov 1, 2026 Jan. 9 - 10, 2027 | Archery (A) Sept. 26 - Oct 30, 2026 Nov. 2 - Nov 6, 2026 | Muzzleloader/Archery (M/A)**** Nov. 7 - Nov. 20, 2026 | Gun/Muzzleloader/Archery (G/M/A) Nov. 21, 2026 - Jan. 3, 2027 | *Archery only. Private lands and select Unit 1 WMAs only.",
+    "checkedDate": "2026-11-23",
+    "notes": "Seasons are statewide; antlerless bag limits differ between Units 1-3 and Units 4-6. Single-shot straight-walled cartridge rifles legal on private lands only Nov. 14-20, 2026. The antlered limit is read from the August row of the TWRA table."
+  },
+  {
+    "id": "tn-turkey-fall-2026",
+    "state": "TN",
+    "species": "turkey",
+    "seasonName": "Fall Turkey",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-10-30",
+        "note": "archery only"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-30",
+        "note": "shotgun/archery"
+      },
+      {
+        "open": "2026-11-02",
+        "close": "2026-11-06",
+        "note": "archery only"
+      }
+    ],
+    "bagLimit": "One (1) male turkey. No bearded hens allowed.",
+    "possessionLimit": null,
+    "agency": "TWRA",
+    "sourceTitle": "Summary of Tennessee Hunting and Trapping Seasons Dates (TWRA)",
+    "sourceUrl": "https://www.tn.gov/twra/hunting/tennessee-hunting-seasons-summary.html",
+    "sourceQuote": "Fall Turkey Season Dates and Bag Limits Statewide Season Dates Bag Limit Archery Only Sept. 26 - Oct. 30, 2026 Nov. 2 - Nov. 6, 2026 One (1) male turkey. No bearded hens allowed. Shotgun/Archery Oct. 17 - 30, 2026 | Open in all counties, except closed in Crockett, Dyer, Giles, Haywood, Lake, Lauderdale, Lawrence, Lincoln, Shelby, Tipton, and Wayne counties.",
+    "checkedDate": "2026-11-23",
+    "notes": "Shotgun/archery closed in Crockett, Dyer, Giles, Haywood, Lake, Lauderdale, Lawrence, Lincoln, Shelby, Tipton, and Wayne counties."
+  },
+  {
+    "id": "tn-turkey-spring-2027",
+    "state": "TN",
+    "species": "turkey",
+    "seasonName": "Spring Turkey",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-03-27",
+        "close": "2027-03-28",
+        "note": "young sportsman"
+      },
+      {
+        "open": "2027-04-03",
+        "close": "2027-05-16",
+        "note": "general season"
+      }
+    ],
+    "bagLimit": "Spring season bag of two (2) male turkeys; young sportsman one per day, only one can be a jake",
+    "possessionLimit": null,
+    "agency": "TWRA",
+    "sourceTitle": "Summary of Tennessee Hunting and Trapping Seasons Dates (TWRA)",
+    "sourceUrl": "https://www.tn.gov/twra/hunting/tennessee-hunting-seasons-summary.html",
+    "sourceQuote": "Young Sportsman* March 27 - 28, 2027 One (1) male turkey per day, counts toward spring season bag of two (2), only one can be a jake. | General Season April 3 - May 16, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Some WMA and public-land exceptions."
+  },
+  {
+    "id": "tn-quail-statewide-2026",
+    "state": "TN",
+    "species": "quail",
+    "seasonName": "Quail",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2027-02-28",
+        "note": null
+      }
+    ],
+    "bagLimit": "6",
+    "possessionLimit": null,
+    "agency": "TWRA",
+    "sourceTitle": "Summary of Tennessee Hunting and Trapping Seasons Dates (TWRA)",
+    "sourceUrl": "https://www.tn.gov/twra/hunting/tennessee-hunting-seasons-summary.html",
+    "sourceQuote": "Quail Nov. 7, 2026 - Feb. 28, 2027 6",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "tn-dove-statewide-2026",
+    "state": "TN",
+    "species": "dove",
+    "seasonName": "Dove",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-28",
+        "note": "Sept. 1 opens at noon"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-11-01",
+        "note": null
+      },
+      {
+        "open": "2026-12-08",
+        "close": "2027-01-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "15 (no limit on Eurasian collared doves)",
+    "possessionLimit": "Three times the daily limit (except opening and second day)",
+    "agency": "TWRA",
+    "sourceTitle": "Summary of Tennessee Hunting and Trapping Seasons Dates (TWRA)",
+    "sourceUrl": "https://www.tn.gov/twra/hunting/tennessee-hunting-seasons-summary.html",
+    "sourceQuote": "Dove* Sept. 1, opens at noon - Sept. 28, 2026 Oct. 10 - Nov. 1, 2026 Dec. 8, 2026 - Jan. 15, 2027 15** | ** No limit on Eurasian collared doves",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "tn-woodcock-statewide-2026",
+    "state": "TN",
+    "species": "woodcock",
+    "seasonName": "Woodcock",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-14",
+        "close": "2026-12-06",
+        "note": null
+      },
+      {
+        "open": "2027-01-10",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "Three times the daily limit (except opening and second day)",
+    "agency": "TWRA",
+    "sourceTitle": "Summary of Tennessee Hunting and Trapping Seasons Dates (TWRA)",
+    "sourceUrl": "https://www.tn.gov/twra/hunting/tennessee-hunting-seasons-summary.html",
+    "sourceQuote": "Woodcock* Nov. 14 - Dec. 6, 2026 Jan. 10 - Jan. 31, 2027 3",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "tn-snipe-statewide-2026",
+    "state": "TN",
+    "species": "snipe",
+    "seasonName": "Snipe",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-14",
+        "close": "2027-02-28",
+        "note": null
+      }
+    ],
+    "bagLimit": "8",
+    "possessionLimit": "Three times the daily limit (except opening and second day)",
+    "agency": "TWRA",
+    "sourceTitle": "Summary of Tennessee Hunting and Trapping Seasons Dates (TWRA)",
+    "sourceUrl": "https://www.tn.gov/twra/hunting/tennessee-hunting-seasons-summary.html",
+    "sourceQuote": "Snipe * Nov. 14, 2026 - Feb. 28, 2027 8",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "tn-duck-teal-wood-duck-2026",
+    "state": "TN",
+    "species": "duck",
+    "seasonName": "Wood Duck & Teal",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-09-16",
+        "note": null
+      }
+    ],
+    "bagLimit": "6, no more than 2 wood ducks",
+    "possessionLimit": "Three times the daily bag limit (except opening and second day)",
+    "agency": "TWRA",
+    "sourceTitle": "Summary of Tennessee Hunting and Trapping Seasons Dates (TWRA)",
+    "sourceUrl": "https://www.tn.gov/twra/hunting/tennessee-hunting-seasons-summary.html",
+    "sourceQuote": "Wood Duck & Teal Sept. 12 –16, 2026 The daily bag limit of ducks is 6 birds/day, which may include no more than 2 wood ducks.",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "tn-duck-statewide-2026",
+    "state": "TN",
+    "species": "duck",
+    "seasonName": "Ducks, Coot & Mergansers",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-28",
+        "close": "2026-11-29",
+        "note": null
+      },
+      {
+        "open": "2026-12-05",
+        "close": "2027-01-31",
+        "note": null
+      },
+      {
+        "open": "2027-02-06",
+        "close": "2027-02-06",
+        "note": "youth"
+      },
+      {
+        "open": "2027-02-07",
+        "close": "2027-02-07",
+        "note": "veterans and active military"
+      },
+      {
+        "open": "2027-02-13",
+        "close": "2027-02-13",
+        "note": "youth"
+      },
+      {
+        "open": "2027-02-14",
+        "close": "2027-02-14",
+        "note": "veterans and active military"
+      }
+    ],
+    "bagLimit": "6 (no more than 4 mallards (no more than 2 female), 3 wood ducks, 2 canvasbacks, 2 redheads, 2 black ducks, 3 pintails, 1 mottled duck); scaup 1 then 2 from Dec. 18",
+    "possessionLimit": "Three times the daily bag limit (except opening and second day)",
+    "agency": "TWRA",
+    "sourceTitle": "Summary of Tennessee Hunting and Trapping Seasons Dates (TWRA)",
+    "sourceUrl": "https://www.tn.gov/twra/hunting/tennessee-hunting-seasons-summary.html",
+    "sourceQuote": "Ducks, Coot & Mergansers Nov. 28 – 29, 2026 Dec. 5, 2026 –Jan. 31, 2027 | Ducks: The daily bag limit of ducks is 6 birds/day which may include no more than 4 mallards (no more than 2 of which may be a female), 3 wood ducks, 2 canvasbacks, 2 redheads, 2 black ducks, 3 pintails, and 1 mottled duck. | Youth Sportsman Waterfowl Hunting Season* Feb. 6 and 13, 2027 | Veterans and Active Military Personnel** Feb. 7 and 14, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Coot 15; mergansers 5 (2 hooded). Some WMA blinds are by application (not recorded)."
+  },
+  {
+    "id": "tn-goose-statewide-2026",
+    "state": "TN",
+    "species": "goose",
+    "seasonName": "Canada Goose, White-fronted Goose, Brant, Light Geese",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-20",
+        "note": "Canada goose (daily 5), brant, light geese"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-22",
+        "note": "Canada goose, brant, light geese"
+      },
+      {
+        "open": "2026-11-28",
+        "close": "2026-11-29",
+        "note": "all geese"
+      },
+      {
+        "open": "2026-12-05",
+        "close": "2027-02-14",
+        "note": "all geese"
+      }
+    ],
+    "bagLimit": "Canada goose 5 (Sept. 1-20) then 3; white-fronted 3; brant 1; light geese 20",
+    "possessionLimit": "Three times the daily bag limit for Canada, white-fronted and brant; no possession limit for light geese (opening and second-day exceptions)",
+    "agency": "TWRA",
+    "sourceTitle": "Summary of Tennessee Hunting and Trapping Seasons Dates (TWRA)",
+    "sourceUrl": "https://www.tn.gov/twra/hunting/tennessee-hunting-seasons-summary.html",
+    "sourceQuote": "Canada Goose Sept. 1 – 20, 2026 5 | Oct. 10 – 22, 2026 Nov. 28 – 29, 2026 Dec. 5, 2026 – Feb. 14, 2027 3 White-Fronted Goose Nov. 28 – 29, 2026 Dec. 5, 2026 – Feb. 14, 2027 3 | Brant Sept. 1–20, 2026 Oct. 10–22, 2026 Nov. 28–29, 2026 Dec. 5, 2026 – Feb. 14, 2027 1 | Sept. 1–20, 2026 Oct. 10–22, 2026 Nov. 28–29, 2026 Dec. 5, 2026 – Feb. 14, 2027 20",
+    "checkedDate": "2026-11-23",
+    "notes": "White-fronted geese open only Nov. 28-29 and Dec. 5-Feb. 14. Light Goose Conservation Season Feb. 15-Mar. 31, 2027 not recorded."
+  }
+]

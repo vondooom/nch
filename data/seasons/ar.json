@@ -1,0 +1,1471 @@
+[
+  {
+    "id": "ar-duck-statewide-2026",
+    "state": "AR",
+    "species": "duck",
+    "seasonName": "Duck, Coot and Merganser",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-29",
+        "note": "split 1"
+      },
+      {
+        "open": "2026-12-10",
+        "close": "2026-12-23",
+        "note": "split 2"
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2027-01-31",
+        "note": "split 3"
+      },
+      {
+        "open": "2027-02-06",
+        "close": "2027-02-07",
+        "note": "special youth hunt; special active duty military and veteran hunt"
+      }
+    ],
+    "bagLimit": "6 (no more than 4 mallards (2 hens), 1 scaup, 3 wood ducks, 3 pintails, 2 redheads, 2 canvasbacks, 2 black ducks, 1 mottled duck)",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "AGFC",
+    "sourceTitle": "Waterfowl Season Dates, Rules & Regulations (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/waterfowl/waterfowl-dates-rules-regulations/",
+    "sourceQuote": "Duck, Coot and Merganser Nov. 21-29, 2026; Dec. 10-23, 2026; Dec. 26, 2026-Jan. 31, 2027 Duck daily bag limit – 6, which may include no more than: | 4 mallards (2 hens), 1 scaup, 3 wood ducks, 3 pintails, 2 redheads, 2 canvasbacks, 2 black ducks, 1 mottled duck. | Possession limit for ducks, coots and mergansers is three times the daily bag limit. | Special Youth Waterfowl Hunt Feb. 6-7, 2027 | Special Active Duty Military and Veteran Hunt Feb. 6-7, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Coot 15 daily; merganser 5 daily (no more than 2 hooded). WMAs have noon shooting closures during regular duck season."
+  },
+  {
+    "id": "ar-duck-teal-2026",
+    "state": "AR",
+    "species": "duck",
+    "seasonName": "Special Early Teal Season",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-27",
+        "note": "teal only; shooting hours begin at sunrise"
+      }
+    ],
+    "bagLimit": "6 (blue-winged, green-winged and cinnamon teal combined)",
+    "possessionLimit": "18",
+    "agency": "AGFC",
+    "sourceTitle": "Waterfowl Season Dates, Rules & Regulations (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/waterfowl/waterfowl-dates-rules-regulations/",
+    "sourceQuote": "Special Early Teal Season Sept. 19-27, 2026* | Daily Limit – 6 (blue-winged, green-winged and cinnamon teal combined) | Possession Limit – 18",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "ar-goose-canada-2026",
+    "state": "AR",
+    "species": "goose",
+    "seasonName": "Canada Goose",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-10-15",
+        "note": "early season, daily 5"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-29",
+        "note": null
+      },
+      {
+        "open": "2026-12-10",
+        "close": "2026-12-23",
+        "note": null
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2027-01-31",
+        "note": null
+      },
+      {
+        "open": "2027-02-06",
+        "close": "2027-02-07",
+        "note": "youth and military/veteran hunts"
+      }
+    ],
+    "bagLimit": "5 (Sept. 1-Oct. 15); 2 during regular season dates",
+    "possessionLimit": "15 (Sept. 1-Oct. 15); 6 during regular season dates",
+    "agency": "AGFC",
+    "sourceTitle": "Waterfowl Season Dates, Rules & Regulations (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/waterfowl/waterfowl-dates-rules-regulations/",
+    "sourceQuote": "Canada Goose Sept. 1-Oct. 15, 2026 Daily bag limit – 5 Possession limit – 15 Nov. 21-29, 2026; Dec. 10-23, 2026; Dec. 26, 2026-Jan. 31, 2027 Daily bag limit – 2 Possession limit – 6 | Special Youth Waterfowl Hunt Feb. 6-7, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Youth and military/veteran hunts (Feb. 6-7, 2027) include geese."
+  },
+  {
+    "id": "ar-goose-white-fronted-light-2026",
+    "state": "AR",
+    "species": "goose",
+    "seasonName": "White-fronted Goose; Snow, Blue and Ross's Goose",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-31",
+        "close": "2026-11-08",
+        "note": null
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-29",
+        "note": null
+      },
+      {
+        "open": "2026-12-10",
+        "close": "2026-12-23",
+        "note": null
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "White-fronted: 2; snow, blue and Ross's: 20",
+    "possessionLimit": "White-fronted: 6; snow, blue and Ross's: no possession limit",
+    "agency": "AGFC",
+    "sourceTitle": "Waterfowl Season Dates, Rules & Regulations (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/waterfowl/waterfowl-dates-rules-regulations/",
+    "sourceQuote": "White-fronted Goose Oct. 31-Nov. 8, 2026; Nov. 21-29, 2026; Dec. 10-23, 2026; Dec. 26, 2026-Jan. 31, 2027 Daily bag limit – 2 Possession limit – 6 | Snow, Blue and Ross’s Goose Oct. 31-Nov. 8, 2026; Nov. 21-29, 2026; Dec. 10-23, 2026; Dec. 26, 2026-Jan. 31, 2027 Daily bag limit – 20 No possession limit",
+    "checkedDate": "2026-11-23",
+    "notes": "Light Goose Conservation Order not recorded."
+  },
+  {
+    "id": "ar-dove-statewide-2026",
+    "state": "AR",
+    "species": "dove",
+    "seasonName": "Mourning, White-winged and Eurasian Collared Dove",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-10-25",
+        "note": null
+      },
+      {
+        "open": "2026-12-08",
+        "close": "2027-01-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "15 mourning and white-winged doves; no limit on Eurasian collared-doves",
+    "possessionLimit": "45 mourning and white-winged doves; no limit on Eurasian collared-doves",
+    "agency": "AGFC",
+    "sourceTitle": "Dove Season Dates and Bag Limits (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/more-game/dove/season-dates-and-bag-limits/",
+    "sourceQuote": "2026-27 Dove Season Statewide: Sept. 5-Oct. 25, 2026 Dec. 8, 2026-Jan. 15, 2027 | Mourning Dove and White-Winged Dove Daily Bag Limit – 15 Possession Limit – 45 | Eurasian Collared-Dove Daily Bag Limit – No limit Possession Limit – No limit",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "ar-quail-statewide-2026",
+    "state": "AR",
+    "species": "quail",
+    "seasonName": "Northern Bobwhite",
+    "zone": "Statewide (private land)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-01",
+        "close": "2027-02-07",
+        "note": null
+      }
+    ],
+    "bagLimit": "6",
+    "possessionLimit": null,
+    "agency": "AGFC",
+    "sourceTitle": "Quail Season Dates and Bag Limits (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/more-game/quail/season-dates-and-bag-limits/",
+    "sourceQuote": "2026-27 Northern Bobwhite Season Statewide: Nov. 1, 2026-Feb. 7, 2027* | *Statewide season dates apply to private land. | Daily limit – 6",
+    "checkedDate": "2026-11-23",
+    "notes": "WMAs may have different regulations."
+  },
+  {
+    "id": "ar-woodcock-statewide-2026",
+    "state": "AR",
+    "species": "woodcock",
+    "seasonName": "Woodcock",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2026-12-21",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "AGFC",
+    "sourceTitle": "Early Migratory Birds, 2026-27 Early Migratory Bird Seasons (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/more-game/early-migratory-birds/",
+    "sourceQuote": "2026-27 Early Migratory Bird Seasons | Woodcock Woodcock Nov. 7-Dec. 21 Daily Limit – 3 Possession Limit – 9",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ar-snipe-statewide-2026",
+    "state": "AR",
+    "species": "snipe",
+    "seasonName": "Wilson's Snipe",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-01",
+        "close": "2027-02-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "8",
+    "possessionLimit": "24",
+    "agency": "AGFC",
+    "sourceTitle": "Early Migratory Birds, 2026-27 Early Migratory Bird Seasons (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/more-game/early-migratory-birds/",
+    "sourceQuote": "2026-27 Early Migratory Bird Seasons | Wilson’s Snipe Wilson’s Snipe Nov. 1-Feb. 15 Daily Limit – 8 Possession Limit – 24",
+    "checkedDate": "2026-11-23",
+    "notes": "Source prints month and day only for some dates; years assigned from the 2026-2027 season heading (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ar-turkey-zone1-2027",
+    "state": "AR",
+    "species": "turkey",
+    "seasonName": "Spring Turkey, Zone 1",
+    "zone": "Zone 1 (private land)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-04-10",
+        "close": "2027-04-11",
+        "note": "youth turkey hunt (ages 6-15), one legal turkey"
+      },
+      {
+        "open": "2027-04-19",
+        "close": "2027-05-09",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": "Two legal turkeys",
+    "possessionLimit": null,
+    "agency": "AGFC",
+    "sourceTitle": "Turkey Dates, Rules & Regulations (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/turkey/turkey-dates-rules-regulations/",
+    "sourceQuote": "2027 Regular Turkey Season Dates & Bag Limits | Zone 1 April 19-May 9, 2027 | Two legal turkeys | Zones 1, 1A, 2 and 2A: April 10-11, 2027, One legal turkey.",
+    "checkedDate": "2026-11-23",
+    "notes": "Statewide bag limit is two legal turkeys; one per day; no more than one in the first seven days of the regular season. Each WMA is its own zone (not recorded). AGFC proposed on Nov. 5, 2026 (news release dated 11-06-2026) to move 2027 turkey dates about one week earlier; not adopted as of 2026-11-23. Re-check before publishing."
+  },
+  {
+    "id": "ar-turkey-zone1a-2027",
+    "state": "AR",
+    "species": "turkey",
+    "seasonName": "Spring Turkey, Zone 1A",
+    "zone": "Zone 1A (private land)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-04-10",
+        "close": "2027-04-11",
+        "note": "youth turkey hunt (ages 6-15), one legal turkey"
+      },
+      {
+        "open": "2027-04-19",
+        "close": "2027-04-27",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": "One legal turkey",
+    "possessionLimit": null,
+    "agency": "AGFC",
+    "sourceTitle": "Turkey Dates, Rules & Regulations (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/turkey/turkey-dates-rules-regulations/",
+    "sourceQuote": "2027 Regular Turkey Season Dates & Bag Limits | Zone 1A April 19-27, 2027 | One legal turkey | Zones 1, 1A, 2 and 2A: April 10-11, 2027, One legal turkey.",
+    "checkedDate": "2026-11-23",
+    "notes": "Statewide bag limit is two legal turkeys; one per day; no more than one in the first seven days of the regular season. Each WMA is its own zone (not recorded). AGFC proposed on Nov. 5, 2026 (news release dated 11-06-2026) to move 2027 turkey dates about one week earlier; not adopted as of 2026-11-23. Re-check before publishing."
+  },
+  {
+    "id": "ar-turkey-zone2-2027",
+    "state": "AR",
+    "species": "turkey",
+    "seasonName": "Spring Turkey, Zone 2",
+    "zone": "Zone 2 (private land)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-04-10",
+        "close": "2027-04-11",
+        "note": "youth turkey hunt (ages 6-15), one legal turkey"
+      },
+      {
+        "open": "2027-04-12",
+        "close": "2027-05-02",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": "Two legal turkeys",
+    "possessionLimit": null,
+    "agency": "AGFC",
+    "sourceTitle": "Turkey Dates, Rules & Regulations (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/turkey/turkey-dates-rules-regulations/",
+    "sourceQuote": "2027 Regular Turkey Season Dates & Bag Limits | Zone 2 April 12-May 2, 2027 | Two legal turkeys | Zones 1, 1A, 2 and 2A: April 10-11, 2027, One legal turkey.",
+    "checkedDate": "2026-11-23",
+    "notes": "Statewide bag limit is two legal turkeys; one per day; no more than one in the first seven days of the regular season. Each WMA is its own zone (not recorded). AGFC proposed on Nov. 5, 2026 (news release dated 11-06-2026) to move 2027 turkey dates about one week earlier; not adopted as of 2026-11-23. Re-check before publishing."
+  },
+  {
+    "id": "ar-turkey-zone2a-2027",
+    "state": "AR",
+    "species": "turkey",
+    "seasonName": "Spring Turkey, Zone 2A",
+    "zone": "Zone 2A (private land)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-04-10",
+        "close": "2027-04-11",
+        "note": "youth turkey hunt (ages 6-15), one legal turkey"
+      },
+      {
+        "open": "2027-04-12",
+        "close": "2027-04-20",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": "One legal turkey",
+    "possessionLimit": null,
+    "agency": "AGFC",
+    "sourceTitle": "Turkey Dates, Rules & Regulations (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/turkey/turkey-dates-rules-regulations/",
+    "sourceQuote": "2027 Regular Turkey Season Dates & Bag Limits | Zone 2A April 12-20, 2027 | One legal turkey | Zones 1, 1A, 2 and 2A: April 10-11, 2027, One legal turkey.",
+    "checkedDate": "2026-11-23",
+    "notes": "Statewide bag limit is two legal turkeys; one per day; no more than one in the first seven days of the regular season. Each WMA is its own zone (not recorded). AGFC proposed on Nov. 5, 2026 (news release dated 11-06-2026) to move 2027 turkey dates about one week earlier; not adopted as of 2026-11-23. Re-check before publishing."
+  },
+  {
+    "id": "ar-turkey-zone3-2027",
+    "state": "AR",
+    "species": "turkey",
+    "seasonName": "Spring Turkey, Zone 3",
+    "zone": "Zone 3 (private land)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-04-05",
+        "close": "2027-04-25",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": "Two legal turkeys",
+    "possessionLimit": null,
+    "agency": "AGFC",
+    "sourceTitle": "Turkey Dates, Rules & Regulations (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/turkey/turkey-dates-rules-regulations/",
+    "sourceQuote": "2027 Regular Turkey Season Dates & Bag Limits | Zone 3 April 5-25, 2027 | Two legal turkeys",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone 3 has no youth hunt listed. Statewide bag limit is two legal turkeys; one per day; no more than one in the first seven days of the regular season. Each WMA is its own zone (not recorded). AGFC proposed on Nov. 5, 2026 (news release dated 11-06-2026) to move 2027 turkey dates about one week earlier; not adopted as of 2026-11-23. Re-check before publishing."
+  },
+  {
+    "id": "ar-deer-zone1-2026",
+    "state": "AR",
+    "species": "deer",
+    "seasonName": "Deer Zone 1",
+    "zone": "Deer Zone 1 (private land and non-WMA public land)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-29",
+        "close": "2026-08-31",
+        "note": "early buck-only archery"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2027-02-28",
+        "note": "archery"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-25",
+        "note": "alternative firearms"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2026-12-14",
+        "note": "alternative firearms"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-08",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2027-01-02",
+        "close": "2027-01-03",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-12-06",
+        "note": "modern gun"
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2026-12-28",
+        "note": "modern gun"
+      }
+    ],
+    "bagLimit": "Four deer, no more than two antlered bucks, which may include:",
+    "possessionLimit": null,
+    "agency": "AGFC",
+    "sourceTitle": "Deer Seasons and Limits by Zone (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/deer/deer-seasons-and-limits-by-zone/",
+    "sourceQuote": "Deer Zone 1 Season Details | 2026-27 Deer Season Dates | Early Buck-only Archery: Aug. 29-31, 2026 | Archery: Sept. 26, 2026-Feb. 28, 2027 | Alternative Firearms: Oct. 17-25 and Dec. 12-14, 2026 | Youth Modern Gun Hunt: Nov. 7-8, 2026 and Jan. 2-3, 2027 (public land youth hunters, check WMA for exceptions) | Modern Gun: Nov. 14-Dec. 6 and Dec. 26-28, 2026 | Zone Bag Limit Four deer, no more than two antlered bucks, which may include:",
+    "checkedDate": "2026-11-23",
+    "notes": "Each WMA and National Wildlife Refuge is its own zone (not recorded). Full bag breakdown on the AGFC page."
+  },
+  {
+    "id": "ar-deer-zone2-2026",
+    "state": "AR",
+    "species": "deer",
+    "seasonName": "Deer Zone 2",
+    "zone": "Deer Zone 2 (private land and non-WMA public land)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-29",
+        "close": "2026-08-31",
+        "note": "early buck-only archery"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2027-02-28",
+        "note": "archery"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-25",
+        "note": "alternative firearms"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2026-12-14",
+        "note": "alternative firearms"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-08",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2027-01-02",
+        "close": "2027-01-03",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-12-06",
+        "note": "modern gun"
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2026-12-28",
+        "note": "modern gun"
+      }
+    ],
+    "bagLimit": "Four deer, no more than two antlered bucks, which may include:",
+    "possessionLimit": null,
+    "agency": "AGFC",
+    "sourceTitle": "Deer Seasons and Limits by Zone (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/deer/deer-seasons-and-limits-by-zone/",
+    "sourceQuote": "Deer Zone 2 Season Details | 2026-27 Deer Season Dates | Early Buck-only Archery: Aug. 29-31, 2026 | Archery: Sept. 26, 2026-Feb. 28, 2027 | Alternative Firearms: Oct. 17-25 and Dec. 12-14, 2026 | Youth Modern Gun Hunt: Nov. 7-8, 2026 and Jan. 2-3, 2027 | Modern Gun: Nov. 14-Dec. 6 and Dec. 26-28, 2026 | Zone Bag Limit Four deer, no more than two antlered bucks, which may include:",
+    "checkedDate": "2026-11-23",
+    "notes": "Each WMA and National Wildlife Refuge is its own zone (not recorded). Full bag breakdown on the AGFC page."
+  },
+  {
+    "id": "ar-deer-zone3-2026",
+    "state": "AR",
+    "species": "deer",
+    "seasonName": "Deer Zone 3",
+    "zone": "Deer Zone 3 (private land and non-WMA public land)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-29",
+        "close": "2026-08-31",
+        "note": "early buck-only archery"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2027-02-28",
+        "note": "archery"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-25",
+        "note": "alternative firearms"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2026-12-14",
+        "note": "alternative firearms"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-08",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2027-01-02",
+        "close": "2027-01-03",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-12-06",
+        "note": "modern gun"
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2026-12-28",
+        "note": "modern gun"
+      }
+    ],
+    "bagLimit": "Four deer, no more than two antlered bucks, which may include:",
+    "possessionLimit": null,
+    "agency": "AGFC",
+    "sourceTitle": "Deer Seasons and Limits by Zone (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/deer/deer-seasons-and-limits-by-zone/",
+    "sourceQuote": "Deer Zone 3 Season Details | 2026-27 Deer Season Dates | Early Buck-only Archery: Aug. 29-31, 2026 | Archery: Sept. 26, 2026-Feb. 28, 2027 | Alternative Firearms: Oct. 17-25 and Dec. 12-14, 2026 | Youth Modern Gun Hunt: Nov. 7-8, 2026 and Jan. 2-3, 2027 | Modern Gun: Nov. 14-Dec. 6 and Dec. 26-28, 2026 | Zone Bag Limit Four deer, no more than two antlered bucks, which may include:",
+    "checkedDate": "2026-11-23",
+    "notes": "Each WMA and National Wildlife Refuge is its own zone (not recorded). Full bag breakdown on the AGFC page."
+  },
+  {
+    "id": "ar-deer-zone4-2026",
+    "state": "AR",
+    "species": "deer",
+    "seasonName": "Deer Zone 4",
+    "zone": "Deer Zone 4 (private land and non-WMA public land)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-29",
+        "close": "2026-08-31",
+        "note": "early buck-only archery"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2027-02-28",
+        "note": "archery"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-08",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2027-01-02",
+        "close": "2027-01-03",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-11-22",
+        "note": "modern gun"
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2026-12-28",
+        "note": "modern gun"
+      }
+    ],
+    "bagLimit": "Four deer, no more than two antlered bucks, which may include:",
+    "possessionLimit": null,
+    "agency": "AGFC",
+    "sourceTitle": "Deer Seasons and Limits by Zone (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/deer/deer-seasons-and-limits-by-zone/",
+    "sourceQuote": "Deer Zone 4 Season Details | 2026-27 Deer Season Dates | Early Buck-only Archery: Aug. 29-31, 2026 | Archery: Sept. 26, 2026-Feb. 28, 2027 | Alternative Firearms: Closed | Youth Modern Gun Hunt: Nov. 7-8, 2026 and Jan. 2-3, 2027 | Modern Gun: Nov. 14-22 and Dec. 26-28, 2026 | Zone Bag Limit Four deer, no more than two antlered bucks, which may include:",
+    "checkedDate": "2026-11-23",
+    "notes": "Alternative firearms closed in this zone. Each WMA and National Wildlife Refuge is its own zone (not recorded). Full bag breakdown on the AGFC page."
+  },
+  {
+    "id": "ar-deer-zone4a-2026",
+    "state": "AR",
+    "species": "deer",
+    "seasonName": "Deer Zone 4A",
+    "zone": "Deer Zone 4A (private land and non-WMA public land)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-29",
+        "close": "2026-08-31",
+        "note": "early buck-only archery"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2027-02-28",
+        "note": "archery"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-25",
+        "note": "alternative firearms"
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2026-12-21",
+        "note": "alternative firearms"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-08",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2027-01-02",
+        "close": "2027-01-03",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-12-13",
+        "note": "modern gun"
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2026-12-28",
+        "note": "modern gun"
+      }
+    ],
+    "bagLimit": "Four deer, no more than two antlered bucks, which may include:",
+    "possessionLimit": null,
+    "agency": "AGFC",
+    "sourceTitle": "Deer Seasons and Limits by Zone (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/deer/deer-seasons-and-limits-by-zone/",
+    "sourceQuote": "Deer Zone 4A Season Details | 2026-27 Deer Season Dates | Early Buck-only Archery: Aug. 29-31, 2026 | Archery: Sept. 26, 2026-Feb. 28, 2027 | Alternative Firearms: Oct. 17-25 and Dec. 19-21, 2026 | Youth Modern Gun Hunt: Nov. 7-8, 2026 and Jan. 2-3, 2027 | Modern Gun: Nov. 14-Dec. 13 and Dec. 26-28, 2026 | Zone Bag Limit Four deer, no more than two antlered bucks, which may include:",
+    "checkedDate": "2026-11-23",
+    "notes": "Each WMA and National Wildlife Refuge is its own zone (not recorded). Full bag breakdown on the AGFC page."
+  },
+  {
+    "id": "ar-deer-zone5-2026",
+    "state": "AR",
+    "species": "deer",
+    "seasonName": "Deer Zone 5",
+    "zone": "Deer Zone 5 (private land and non-WMA public land)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-29",
+        "close": "2026-08-31",
+        "note": "early buck-only archery"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2027-02-28",
+        "note": "archery"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-08",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2027-01-02",
+        "close": "2027-01-03",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-11-22",
+        "note": "modern gun"
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2026-12-28",
+        "note": "modern gun"
+      }
+    ],
+    "bagLimit": "Four deer, no more than two antlered bucks, which may include:",
+    "possessionLimit": null,
+    "agency": "AGFC",
+    "sourceTitle": "Deer Seasons and Limits by Zone (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/deer/deer-seasons-and-limits-by-zone/",
+    "sourceQuote": "Deer Zone 5 Season Details | 2026-27 Deer Season Dates | Early Buck-only Archery: Aug. 29-31, 2026 | Archery: Sept. 26, 2026-Feb. 28, 2027 | Alternative Firearms: Closed | Youth Modern Gun Hunt: Nov. 7-8, 2026 and Jan. 2-3, 2027 | Modern Gun: Nov. 14-22 and Dec. 26-28, 2026 | Zone Bag Limit Four deer, no more than two antlered bucks, which may include:",
+    "checkedDate": "2026-11-23",
+    "notes": "Alternative firearms closed in this zone. Each WMA and National Wildlife Refuge is its own zone (not recorded). Full bag breakdown on the AGFC page."
+  },
+  {
+    "id": "ar-deer-zone5a-2026",
+    "state": "AR",
+    "species": "deer",
+    "seasonName": "Deer Zone 5A",
+    "zone": "Deer Zone 5A (private land and non-WMA public land)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-29",
+        "close": "2026-08-31",
+        "note": "early buck-only archery"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2027-02-28",
+        "note": "archery"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-25",
+        "note": "alternative firearms"
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2026-12-21",
+        "note": "alternative firearms"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-08",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2027-01-02",
+        "close": "2027-01-03",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-12-13",
+        "note": "modern gun"
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2026-12-28",
+        "note": "modern gun"
+      }
+    ],
+    "bagLimit": "Four deer, no more than two antlered bucks, which may include:",
+    "possessionLimit": null,
+    "agency": "AGFC",
+    "sourceTitle": "Deer Seasons and Limits by Zone (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/deer/deer-seasons-and-limits-by-zone/",
+    "sourceQuote": "Deer Zone 5A Season Details | 2026-27 Deer Season Dates | Early Buck-only Archery: Aug. 29-31, 2026 | Archery: Sept. 26, 2026-Feb. 28, 2027 | Alternative Firearms: Oct. 17-25 and Dec. 19-21, 2026 | Youth Modern Gun Hunt: Nov. 7-8, 2026 and Jan. 2-3, 2027 | Modern Gun: Nov. 14-Dec. 13 and Dec. 26-28, 2026 | Zone Bag Limit Four deer, no more than two antlered bucks, which may include:",
+    "checkedDate": "2026-11-23",
+    "notes": "Each WMA and National Wildlife Refuge is its own zone (not recorded). Full bag breakdown on the AGFC page."
+  },
+  {
+    "id": "ar-deer-zone6-2026",
+    "state": "AR",
+    "species": "deer",
+    "seasonName": "Deer Zone 6",
+    "zone": "Deer Zone 6 (private land and non-WMA public land)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-29",
+        "close": "2026-08-31",
+        "note": "early buck-only archery"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2027-02-28",
+        "note": "archery"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-25",
+        "note": "alternative firearms"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2026-12-14",
+        "note": "alternative firearms"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-08",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2027-01-02",
+        "close": "2027-01-03",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-12-06",
+        "note": "modern gun"
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2026-12-28",
+        "note": "modern gun"
+      }
+    ],
+    "bagLimit": "Four deer, no more than two antlered bucks, which may include:",
+    "possessionLimit": null,
+    "agency": "AGFC",
+    "sourceTitle": "Deer Seasons and Limits by Zone (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/deer/deer-seasons-and-limits-by-zone/",
+    "sourceQuote": "Deer Zone 6 Season Details | 2026-27 Deer Season Dates | Early Buck-only Archery: Aug. 29-31, 2026 | Archery: Sept. 26, 2026-Feb. 28, 2027 | Alternative Firearms: Oct. 17-25 and Dec. 12-14, 2026 | Youth Modern Gun Hunt: Nov. 7-8, 2026 and Jan. 2-3, 2027 | Modern Gun: Nov. 14-Dec. 6 and Dec. 26-28, 2026 | Zone Bag Limit Four deer, no more than two antlered bucks, which may include:",
+    "checkedDate": "2026-11-23",
+    "notes": "Each WMA and National Wildlife Refuge is its own zone (not recorded). Full bag breakdown on the AGFC page."
+  },
+  {
+    "id": "ar-deer-zone7-2026",
+    "state": "AR",
+    "species": "deer",
+    "seasonName": "Deer Zone 7",
+    "zone": "Deer Zone 7 (private land and non-WMA public land)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-29",
+        "close": "2026-08-31",
+        "note": "early buck-only archery"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2027-02-28",
+        "note": "archery"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-25",
+        "note": "alternative firearms"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2026-12-14",
+        "note": "alternative firearms"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-08",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2027-01-02",
+        "close": "2027-01-03",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-12-06",
+        "note": "modern gun"
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2026-12-28",
+        "note": "modern gun"
+      }
+    ],
+    "bagLimit": "Four deer, no more than two antlered bucks, which may include:",
+    "possessionLimit": null,
+    "agency": "AGFC",
+    "sourceTitle": "Deer Seasons and Limits by Zone (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/deer/deer-seasons-and-limits-by-zone/",
+    "sourceQuote": "Deer Zone 7 Season Details | 2026-27 Deer Season Dates | Early Buck-only Archery: Aug. 29-31, 2026 | Archery: Sept. 26, 2026-Feb. 28, 2027 | Alternative Firearms: Oct. 17-25 and Dec. 12-14, 2026 | Youth Modern Gun Hunt: Nov. 7-8, 2026 and Jan. 2-3, 2027 | Modern Gun: Nov. 14-Dec. 6 and Dec. 26-28, 2026 | Zone Bag Limit Four deer, no more than two antlered bucks, which may include:",
+    "checkedDate": "2026-11-23",
+    "notes": "Each WMA and National Wildlife Refuge is its own zone (not recorded). Full bag breakdown on the AGFC page."
+  },
+  {
+    "id": "ar-deer-zone8-2026",
+    "state": "AR",
+    "species": "deer",
+    "seasonName": "Deer Zone 8",
+    "zone": "Deer Zone 8 (private land and non-WMA public land)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-29",
+        "close": "2026-08-31",
+        "note": "early buck-only archery"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2027-02-28",
+        "note": "archery"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-25",
+        "note": "alternative firearms"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2026-12-14",
+        "note": "alternative firearms"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-08",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2027-01-02",
+        "close": "2027-01-03",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-12-06",
+        "note": "modern gun"
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2026-12-28",
+        "note": "modern gun"
+      }
+    ],
+    "bagLimit": "Four deer, no more than two antlered bucks, which may include:",
+    "possessionLimit": null,
+    "agency": "AGFC",
+    "sourceTitle": "Deer Seasons and Limits by Zone (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/deer/deer-seasons-and-limits-by-zone/",
+    "sourceQuote": "Deer Zone 8 Season Details | 2026-27 Deer Season Dates | Early Buck-only Archery: Aug. 29-31, 2026 | Archery: Sept. 26, 2026-Feb. 28, 2027 | Alternative Firearms: Oct. 17-25 and Dec. 12-14, 2026 | Youth Modern Gun Hunt: Nov. 7-8, 2026 and Jan. 2-3, 2027 | Modern Gun: Nov. 14-Dec. 6 and Dec. 26-28, 2026 | Zone Bag Limit Four deer, no more than two antlered bucks, which may include:",
+    "checkedDate": "2026-11-23",
+    "notes": "Each WMA and National Wildlife Refuge is its own zone (not recorded). Full bag breakdown on the AGFC page."
+  },
+  {
+    "id": "ar-deer-zone9-2026",
+    "state": "AR",
+    "species": "deer",
+    "seasonName": "Deer Zone 9",
+    "zone": "Deer Zone 9 (private land and non-WMA public land)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-29",
+        "close": "2026-08-31",
+        "note": "early buck-only archery"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2027-02-28",
+        "note": "archery"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-25",
+        "note": "alternative firearms"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-08",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2027-01-02",
+        "close": "2027-01-03",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-12-20",
+        "note": "modern gun"
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2026-12-28",
+        "note": "modern gun"
+      }
+    ],
+    "bagLimit": "Four deer, no more than two antlered bucks, which may include:",
+    "possessionLimit": null,
+    "agency": "AGFC",
+    "sourceTitle": "Deer Seasons and Limits by Zone (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/deer/deer-seasons-and-limits-by-zone/",
+    "sourceQuote": "Deer Zone 9 Season Details | 2026-27 Deer Season Dates | Early Buck-only Archery: Aug. 29-31, 2026 | Archery: Sept. 26, 2026-Feb. 28, 2027 | Alternative Firearms: Oct. 17-25, 2026 | Youth Modern Gun Hunt: Nov. 7-8, 2026 and Jan. 2-3, 2027 | Modern Gun: Nov. 14-Dec. 20 and Dec. 26-28, 2026 | Zone Bag Limit Four deer, no more than two antlered bucks, which may include:",
+    "checkedDate": "2026-11-23",
+    "notes": "Each WMA and National Wildlife Refuge is its own zone (not recorded). Full bag breakdown on the AGFC page."
+  },
+  {
+    "id": "ar-deer-zone10-2026",
+    "state": "AR",
+    "species": "deer",
+    "seasonName": "Deer Zone 10",
+    "zone": "Deer Zone 10 (private land and non-WMA public land)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-29",
+        "close": "2026-08-31",
+        "note": "early buck-only archery"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2027-02-28",
+        "note": "archery"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-25",
+        "note": "alternative firearms"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2026-12-14",
+        "note": "alternative firearms"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-08",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2027-01-02",
+        "close": "2027-01-03",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-12-06",
+        "note": "modern gun"
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2026-12-28",
+        "note": "modern gun"
+      }
+    ],
+    "bagLimit": "Four deer, no more than two antlered bucks, which may include:",
+    "possessionLimit": null,
+    "agency": "AGFC",
+    "sourceTitle": "Deer Seasons and Limits by Zone (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/deer/deer-seasons-and-limits-by-zone/",
+    "sourceQuote": "Deer Zone 10 Season Details | 2026-27 Deer Season Dates | Early Buck-only Archery: Aug. 29-31, 2026 | Archery: Sept. 26, 2026-Feb. 28, 2027 | Alternative Firearms: Oct. 17-25 and Dec. 12-14, 2026 | Youth Modern Gun Hunt: Nov. 7-8, 2026 and Jan. 2-3, 2027 | Modern Gun: Nov. 14-Dec. 6 and Dec. 26-28, 2026 | Zone Bag Limit Four deer, no more than two antlered bucks, which may include:",
+    "checkedDate": "2026-11-23",
+    "notes": "Each WMA and National Wildlife Refuge is its own zone (not recorded). Full bag breakdown on the AGFC page."
+  },
+  {
+    "id": "ar-deer-zone11-2026",
+    "state": "AR",
+    "species": "deer",
+    "seasonName": "Deer Zone 11",
+    "zone": "Deer Zone 11 (private land and non-WMA public land)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-29",
+        "close": "2026-08-31",
+        "note": "early buck-only archery"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2027-02-28",
+        "note": "archery"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-25",
+        "note": "alternative firearms"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2026-12-14",
+        "note": "alternative firearms"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-08",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2027-01-02",
+        "close": "2027-01-03",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-12-06",
+        "note": "modern gun"
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2026-12-28",
+        "note": "modern gun"
+      }
+    ],
+    "bagLimit": "Four deer, no more than two antlered bucks, which may include:",
+    "possessionLimit": null,
+    "agency": "AGFC",
+    "sourceTitle": "Deer Seasons and Limits by Zone (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/deer/deer-seasons-and-limits-by-zone/",
+    "sourceQuote": "Deer Zone 11 Season Details | 2026-27 Deer Season Dates | Early Buck-only Archery: Aug. 29-31, 2026 | Archery: Sept. 26, 2026-Feb. 28, 2027 | Alternative Firearms: Oct. 17-25 and Dec. 12-14, 2026 | Youth Modern Gun Hunt: Nov. 7-8, 2026 and Jan. 2-3, 2027 | Modern Gun: Nov. 14-Dec. 6 and Dec. 26-28, 2026 | Zone Bag Limit Four deer, no more than two antlered bucks, which may include:",
+    "checkedDate": "2026-11-23",
+    "notes": "Each WMA and National Wildlife Refuge is its own zone (not recorded). Full bag breakdown on the AGFC page."
+  },
+  {
+    "id": "ar-deer-zone12-2026",
+    "state": "AR",
+    "species": "deer",
+    "seasonName": "Deer Zone 12",
+    "zone": "Deer Zone 12 (private land and non-WMA public land)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-29",
+        "close": "2026-08-31",
+        "note": "early buck-only archery"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2027-02-28",
+        "note": "archery"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-25",
+        "note": "alternative firearms"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-08",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2027-01-02",
+        "close": "2027-01-03",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-12-20",
+        "note": "modern gun"
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2026-12-28",
+        "note": "modern gun"
+      }
+    ],
+    "bagLimit": "Four deer, no more than two antlered bucks, which may include:",
+    "possessionLimit": null,
+    "agency": "AGFC",
+    "sourceTitle": "Deer Seasons and Limits by Zone (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/deer/deer-seasons-and-limits-by-zone/",
+    "sourceQuote": "Deer Zone 12 Season Details | 2026-27 Deer Season Dates | Early Buck-only Archery: Aug. 29-31, 2026 | Archery: Sept. 26, 2026-Feb. 28, 2027 | Alternative Firearms: Oct. 17-25, 2026 | Youth Modern Gun Hunt: Nov. 7-8, 2026 and Jan. 2-3, 2027 | Modern Gun: Nov. 14-Dec. 20 and Dec. 26-28, 2026 | Zone Bag Limit Four deer, no more than two antlered bucks, which may include:",
+    "checkedDate": "2026-11-23",
+    "notes": "Each WMA and National Wildlife Refuge is its own zone (not recorded). Full bag breakdown on the AGFC page."
+  },
+  {
+    "id": "ar-deer-zone13-2026",
+    "state": "AR",
+    "species": "deer",
+    "seasonName": "Deer Zone 13",
+    "zone": "Deer Zone 13 (private land and non-WMA public land)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-29",
+        "close": "2026-08-31",
+        "note": "early buck-only archery"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2027-02-28",
+        "note": "archery"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-25",
+        "note": "alternative firearms"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-08",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2027-01-02",
+        "close": "2027-01-03",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-12-20",
+        "note": "modern gun"
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2026-12-28",
+        "note": "modern gun"
+      }
+    ],
+    "bagLimit": "Four deer, no more than two antlered bucks, which may include:",
+    "possessionLimit": null,
+    "agency": "AGFC",
+    "sourceTitle": "Deer Seasons and Limits by Zone (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/deer/deer-seasons-and-limits-by-zone/",
+    "sourceQuote": "Deer Zone 13 Season Details | 2026-27 Deer Season Dates | Early Buck-only Archery: Aug. 29-31, 2026 | Archery: Sept. 26, 2026-Feb. 28, 2027 | Alternative Firearms: Oct. 17-25, 2026 | Youth Modern Gun Hunt: Nov. 7-8, 2026 and Jan. 2-3, 2027 | Modern Gun: Nov. 14-Dec. 20 and Dec. 26-28, 2026 | Zone Bag Limit Four deer, no more than two antlered bucks, which may include:",
+    "checkedDate": "2026-11-23",
+    "notes": "Each WMA and National Wildlife Refuge is its own zone (not recorded). Full bag breakdown on the AGFC page."
+  },
+  {
+    "id": "ar-deer-zone14-2026",
+    "state": "AR",
+    "species": "deer",
+    "seasonName": "Deer Zone 14",
+    "zone": "Deer Zone 14 (private land and non-WMA public land)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-29",
+        "close": "2026-08-31",
+        "note": "early buck-only archery"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2027-02-28",
+        "note": "archery"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-25",
+        "note": "alternative firearms"
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2026-12-21",
+        "note": "alternative firearms"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-08",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2027-01-02",
+        "close": "2027-01-03",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-12-13",
+        "note": "modern gun"
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2026-12-28",
+        "note": "modern gun"
+      }
+    ],
+    "bagLimit": "Four deer, no more than two antlered bucks, which may include:",
+    "possessionLimit": null,
+    "agency": "AGFC",
+    "sourceTitle": "Deer Seasons and Limits by Zone (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/deer/deer-seasons-and-limits-by-zone/",
+    "sourceQuote": "Deer Zone 14 Season Details | 2026-27 Deer Season Dates | Early Buck-only Archery: Aug. 29-31, 2026 | Archery: Sept. 26, 2026-Feb. 28, 2027 | Alternative Firearms: Oct. 17-25 and Dec. 19-21, 2026 | Youth Modern Gun Hunt: Nov. 7-8, 2026 and Jan. 2-3, 2027 | Modern Gun: Nov. 14-Dec. 13 and Dec. 26-28, 2026 | Zone Bag Limit Four deer, no more than two antlered bucks, which may include:",
+    "checkedDate": "2026-11-23",
+    "notes": "Each WMA and National Wildlife Refuge is its own zone (not recorded). Full bag breakdown on the AGFC page."
+  },
+  {
+    "id": "ar-deer-zone15-2026",
+    "state": "AR",
+    "species": "deer",
+    "seasonName": "Deer Zone 15",
+    "zone": "Deer Zone 15 (private land and non-WMA public land)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-29",
+        "close": "2026-08-31",
+        "note": "early buck-only archery"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2027-02-28",
+        "note": "archery"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-25",
+        "note": "alternative firearms"
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2026-12-21",
+        "note": "alternative firearms"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-08",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2027-01-02",
+        "close": "2027-01-03",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-12-13",
+        "note": "modern gun"
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2026-12-28",
+        "note": "modern gun"
+      }
+    ],
+    "bagLimit": "Four deer, no more than two antlered bucks, which may include:",
+    "possessionLimit": null,
+    "agency": "AGFC",
+    "sourceTitle": "Deer Seasons and Limits by Zone (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/deer/deer-seasons-and-limits-by-zone/",
+    "sourceQuote": "Deer Zone 15 Season Details | 2026-27 Deer Season Dates | Early Buck-only Archery: Aug. 29-31, 2026 | Archery: Sept. 26, 2026-Feb. 28, 2027 | Alternative Firearms: Oct. 17-25 and Dec. 19-21, 2026 | Youth Modern Gun Hunt: Nov. 7-8, 2026 and Jan. 2-3, 2027 | Modern Gun: Nov. 14-Dec. 13 and Dec. 26-28, 2026 | Zone Bag Limit Four deer, no more than two antlered bucks, which may include:",
+    "checkedDate": "2026-11-23",
+    "notes": "Each WMA and National Wildlife Refuge is its own zone (not recorded). Full bag breakdown on the AGFC page."
+  },
+  {
+    "id": "ar-deer-zone16-2026",
+    "state": "AR",
+    "species": "deer",
+    "seasonName": "Deer Zone 16",
+    "zone": "Deer Zone 16 (private land and non-WMA public land)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-29",
+        "close": "2026-08-31",
+        "note": "early buck-only archery"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2027-02-28",
+        "note": "archery"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-25",
+        "note": "alternative firearms"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-08",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2027-01-02",
+        "close": "2027-01-03",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-12-28",
+        "note": "modern gun"
+      }
+    ],
+    "bagLimit": "Four deer, no more than two antlered bucks, which may include:",
+    "possessionLimit": null,
+    "agency": "AGFC",
+    "sourceTitle": "Deer Seasons and Limits by Zone (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/deer/deer-seasons-and-limits-by-zone/",
+    "sourceQuote": "Deer Zone 16 Season Details | 2026-27 Deer Season Dates | Early Buck-only Archery: Aug. 29-31, 2026 | Archery: Sept. 26, 2026-Feb. 28, 2027 | Alternative Firearms: Oct. 17-25, 2026 | Youth Modern Gun Hunt: Nov. 7-8, 2026 and Jan. 2-3, 2027 | Modern Gun: Nov. 14-Dec. 28, 2026 | Zone Bag Limit Four deer, no more than two antlered bucks, which may include:",
+    "checkedDate": "2026-11-23",
+    "notes": "Each WMA and National Wildlife Refuge is its own zone (not recorded). Full bag breakdown on the AGFC page."
+  },
+  {
+    "id": "ar-deer-zone16a-2026",
+    "state": "AR",
+    "species": "deer",
+    "seasonName": "Deer Zone 16A",
+    "zone": "Deer Zone 16A (private land and non-WMA public land)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-29",
+        "close": "2026-08-31",
+        "note": "early buck-only archery"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2027-02-28",
+        "note": "archery"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-25",
+        "note": "alternative firearms"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-08",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2027-01-02",
+        "close": "2027-01-03",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-12-28",
+        "note": "modern gun"
+      }
+    ],
+    "bagLimit": "Four deer, no more than two antlered bucks, which may include:",
+    "possessionLimit": null,
+    "agency": "AGFC",
+    "sourceTitle": "Deer Seasons and Limits by Zone (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/deer/deer-seasons-and-limits-by-zone/",
+    "sourceQuote": "Deer Zone 16A Season Details | 2026-27 Deer Season Dates | Early Buck-only Archery: Aug. 29-31, 2026 | Archery: Sept. 26, 2026-Feb. 28, 2027 | Alternative Firearms: Oct. 17-25, 2026 | Youth Modern Gun Hunt: Nov. 7-8, 2026 and Jan. 2-3, 2027 | Modern Gun: Nov. 14-Dec. 28, 2026 | Zone Bag Limit Four deer, no more than two antlered bucks, which may include:",
+    "checkedDate": "2026-11-23",
+    "notes": "Each WMA and National Wildlife Refuge is its own zone (not recorded). Full bag breakdown on the AGFC page."
+  },
+  {
+    "id": "ar-deer-zone17-2026",
+    "state": "AR",
+    "species": "deer",
+    "seasonName": "Deer Zone 17",
+    "zone": "Deer Zone 17 (private land and non-WMA public land)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-29",
+        "close": "2026-08-31",
+        "note": "early buck-only archery"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2027-02-28",
+        "note": "archery"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-25",
+        "note": "alternative firearms"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-08",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2027-01-02",
+        "close": "2027-01-03",
+        "note": "youth modern gun hunt"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-12-28",
+        "note": "modern gun"
+      }
+    ],
+    "bagLimit": "Four deer, no more than two antlered bucks, which may include:",
+    "possessionLimit": null,
+    "agency": "AGFC",
+    "sourceTitle": "Deer Seasons and Limits by Zone (AGFC)",
+    "sourceUrl": "https://www.agfc.com/hunting/deer/deer-seasons-and-limits-by-zone/",
+    "sourceQuote": "Deer Zone 17 Season Details | 2026-27 Deer Season Dates | Early Buck-only Archery: Aug. 29-31, 2026 | Archery: Sept. 26, 2026-Feb. 28, 2027 | Alternative Firearms: Oct. 17-25, 2026 | Youth Modern Gun Hunt: Nov. 7-8, 2026 and Jan. 2-3, 2027 | Modern Gun: Nov. 14-Dec. 28, 2026 | Zone Bag Limit Four deer, no more than two antlered bucks, which may include:",
+    "checkedDate": "2026-11-23",
+    "notes": "Each WMA and National Wildlife Refuge is its own zone (not recorded). Full bag breakdown on the AGFC page."
+  }
+]

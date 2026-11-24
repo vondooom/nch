@@ -1,7 +1,7 @@
 import type { SeasonRecord } from "./types";
 
 const DATE = /^\d{4}-\d{2}-\d{2}$/;
-const CODES = new Set(["CA", "OR", "WA", "NV", "UT", "AZ", "ID", "MT", "WY", "CO", "NM", "KS", "NE", "ND", "SD", "TX", "OK", "IL", "IN", "IA", "MI", "MN", "OH", "WI"]);
+const CODES = new Set(["CA", "OR", "WA", "NV", "UT", "AZ", "ID", "MT", "WY", "CO", "NM", "KS", "NE", "ND", "SD", "TX", "OK", "IL", "IN", "IA", "MI", "MN", "OH", "WI", "AL", "AR", "KY", "LA", "MS", "MO", "TN"]);
 
 export type DroppedSeason = { id: string; file: string; reason: string };
 
