@@ -1,0 +1,489 @@
+[
+  {
+    "id": "vt-duck-lake-champlain-2026",
+    "state": "VT",
+    "species": "duck",
+    "seasonName": "Ducks, coots and mergansers",
+    "zone": "Lake Champlain Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2026-11-01",
+        "note": null
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2026-12-27",
+        "note": null
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 mallards (2 hens), 2 black ducks, 3 wood ducks, 3 pintail, 2 canvasbacks, 2 redheads, 2 or 1 scaup, 4 sea ducks); mergansers 5; coot 15",
+    "possessionLimit": "18 ducks",
+    "agency": "Vermont Fish and Wildlife",
+    "sourceTitle": "Vermont Fish and Wildlife, 2026-2027 Syllabus of State and Federal Hunting Regulations for Migratory Birds in Vermont",
+    "sourceUrl": "https://www.vtfishandwildlife.com/sites/fishandwildlife/files/documents/Hunt/waterfowl/migratory-bird-syllabus-2026-WEB-v2.pdf",
+    "sourceQuote": "Oct. 10 - Nov. 1 Oct. 13 - Nov. 11 | Ducks, Coots and Mergansers Oct. 10 - Dec. 8 | Nov. 21 - Dec. 27 Nov. 25 - Dec. 24 | Ducks * 6 18 | Mergansers 5 15 | Coot 15 45 | The daily limit of 6 ducks may include no harlequin, and no more than 4 mallards (2 of which may be hens), 2 black ducks,",
+    "checkedDate": "2026-11-23",
+    "notes": "Column alignment: Lake Champlain Oct. 10 - Nov. 1 and Nov. 21 - Dec. 27; Interior Oct. 10 - Dec. 8; CT River Oct. 13 - Nov. 11 and Nov. 25 - Dec. 24. Youth Waterfowl Weekend Sept. 26-27 (not recorded). The Vermont migratory bird syllabus table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "vt-duck-interior-2026",
+    "state": "VT",
+    "species": "duck",
+    "seasonName": "Ducks, coots and mergansers",
+    "zone": "Interior Vermont Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2026-12-08",
+        "note": null
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 mallards (2 hens), 2 black ducks, 3 wood ducks, 3 pintail, 2 canvasbacks, 2 redheads, 2 or 1 scaup, 4 sea ducks); mergansers 5; coot 15",
+    "possessionLimit": "18 ducks",
+    "agency": "Vermont Fish and Wildlife",
+    "sourceTitle": "Vermont Fish and Wildlife, 2026-2027 Syllabus of State and Federal Hunting Regulations for Migratory Birds in Vermont",
+    "sourceUrl": "https://www.vtfishandwildlife.com/sites/fishandwildlife/files/documents/Hunt/waterfowl/migratory-bird-syllabus-2026-WEB-v2.pdf",
+    "sourceQuote": "Ducks, Coots and Mergansers Oct. 10 - Dec. 8 | Ducks * 6 18 | Mergansers 5 15 | Coot 15 45 | The daily limit of 6 ducks may include no harlequin, and no more than 4 mallards (2 of which may be hens), 2 black ducks,",
+    "checkedDate": "2026-11-23",
+    "notes": "The Vermont migratory bird syllabus table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "vt-duck-ct-river-2026",
+    "state": "VT",
+    "species": "duck",
+    "seasonName": "Ducks, coots and mergansers",
+    "zone": "Connecticut River Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-13",
+        "close": "2026-11-11",
+        "note": null
+      },
+      {
+        "open": "2026-11-25",
+        "close": "2026-12-24",
+        "note": null
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 mallards (2 hens), 2 black ducks, 3 wood ducks, 3 pintail, 2 canvasbacks, 2 redheads, 2 or 1 scaup, 4 sea ducks); mergansers 5; coot 15",
+    "possessionLimit": "18 ducks",
+    "agency": "Vermont Fish and Wildlife",
+    "sourceTitle": "Vermont Fish and Wildlife, 2026-2027 Syllabus of State and Federal Hunting Regulations for Migratory Birds in Vermont",
+    "sourceUrl": "https://www.vtfishandwildlife.com/sites/fishandwildlife/files/documents/Hunt/waterfowl/migratory-bird-syllabus-2026-WEB-v2.pdf",
+    "sourceQuote": "Oct. 10 - Nov. 1 Oct. 13 - Nov. 11 | Nov. 21 - Dec. 27 Nov. 25 - Dec. 24 | Ducks * 6 18 | Mergansers 5 15 | Coot 15 45 | The daily limit of 6 ducks may include no harlequin, and no more than 4 mallards (2 of which may be hens), 2 black ducks,",
+    "checkedDate": "2026-11-23",
+    "notes": "CT River Zone seasons are set under New Hampshire's Inland Zone rules. The Vermont migratory bird syllabus table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "vt-goose-canada-lake-champlain-2026",
+    "state": "VT",
+    "species": "goose",
+    "seasonName": "Canada geese",
+    "zone": "Lake Champlain Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-25",
+        "note": "September season"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-11-23",
+        "note": null
+      },
+      {
+        "open": "2026-12-01",
+        "close": "2027-01-04",
+        "note": null
+      }
+    ],
+    "bagLimit": "8 (Sept.), 3 (Oct.-Nov.), 5 (Dec.-Jan.)",
+    "possessionLimit": "3 times the daily bag",
+    "agency": "Vermont Fish and Wildlife",
+    "sourceTitle": "Vermont Fish and Wildlife, 2026-2027 Syllabus of State and Federal Hunting Regulations for Migratory Birds in Vermont",
+    "sourceUrl": "https://www.vtfishandwildlife.com/sites/fishandwildlife/files/documents/Hunt/waterfowl/migratory-bird-syllabus-2026-WEB-v2.pdf",
+    "sourceQuote": "Sept. 1 - Sept. 25 Sept. 1 - Sept. 25 Oct. 13 - Nov. 11 | Canada Geese Oct. 10 - Nov. 23 Oct. 10 - Nov. 23 Nov. 25 - Dec. 24 | Dec. 1 - Jan. 4 Dec. 1 - Jan. 4 Dec. 25 - Jan. 4 (applies to land, | Canada Geese | September Season | The possession limit is three times the daily bag limit for all waterfowl species except snow geese.",
+    "checkedDate": "2026-11-23",
+    "notes": "White-fronted geese count in the Canada goose limits. Column alignment from the syllabus table; please spot-check. The Vermont migratory bird syllabus table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "vt-goose-canada-interior-2026",
+    "state": "VT",
+    "species": "goose",
+    "seasonName": "Canada geese",
+    "zone": "Interior Vermont Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-25",
+        "note": "September season"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-11-23",
+        "note": null
+      },
+      {
+        "open": "2026-12-01",
+        "close": "2027-01-04",
+        "note": null
+      }
+    ],
+    "bagLimit": "8 (Sept.), 3 (Oct.-Nov.), 5 (Dec.-Jan.)",
+    "possessionLimit": "3 times the daily bag",
+    "agency": "Vermont Fish and Wildlife",
+    "sourceTitle": "Vermont Fish and Wildlife, 2026-2027 Syllabus of State and Federal Hunting Regulations for Migratory Birds in Vermont",
+    "sourceUrl": "https://www.vtfishandwildlife.com/sites/fishandwildlife/files/documents/Hunt/waterfowl/migratory-bird-syllabus-2026-WEB-v2.pdf",
+    "sourceQuote": "Sept. 1 - Sept. 25 Sept. 1 - Sept. 25 Oct. 13 - Nov. 11 | Canada Geese Oct. 10 - Nov. 23 Oct. 10 - Nov. 23 Nov. 25 - Dec. 24 | Dec. 1 - Jan. 4 Dec. 1 - Jan. 4 Dec. 25 - Jan. 4 (applies to land, | Canada Geese | September Season | The possession limit is three times the daily bag limit for all waterfowl species except snow geese.",
+    "checkedDate": "2026-11-23",
+    "notes": "White-fronted geese count in the Canada goose limits. Column alignment from the syllabus table; please spot-check. The Vermont migratory bird syllabus table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "vt-goose-canada-ct-river-2026",
+    "state": "VT",
+    "species": "goose",
+    "seasonName": "Canada geese",
+    "zone": "Connecticut River Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-25",
+        "note": "September season"
+      },
+      {
+        "open": "2026-10-13",
+        "close": "2026-11-11",
+        "note": null
+      },
+      {
+        "open": "2026-11-25",
+        "close": "2026-12-24",
+        "note": null
+      },
+      {
+        "open": "2026-12-25",
+        "close": "2027-01-04",
+        "note": "land only, not CT River waters"
+      }
+    ],
+    "bagLimit": "5 (Sept.), 2 (Oct.-Dec. 24), 5 (Dec. 25-Jan. 4, land only)",
+    "possessionLimit": "3 times the daily bag",
+    "agency": "Vermont Fish and Wildlife",
+    "sourceTitle": "Vermont Fish and Wildlife, 2026-2027 Syllabus of State and Federal Hunting Regulations for Migratory Birds in Vermont",
+    "sourceUrl": "https://www.vtfishandwildlife.com/sites/fishandwildlife/files/documents/Hunt/waterfowl/migratory-bird-syllabus-2026-WEB-v2.pdf",
+    "sourceQuote": "Sept. 1 - Sept. 25 Sept. 1 - Sept. 25 Oct. 13 - Nov. 11 | Canada Geese Oct. 10 - Nov. 23 Oct. 10 - Nov. 23 Nov. 25 - Dec. 24 | Dec. 1 - Jan. 4 Dec. 1 - Jan. 4 Dec. 25 - Jan. 4 (applies to land, | Canada Geese | September Season | The possession limit is three times the daily bag limit for all waterfowl species except snow geese.",
+    "checkedDate": "2026-11-23",
+    "notes": "White-fronted geese count in the Canada goose limits. Column alignment from the syllabus table; please spot-check. The Vermont migratory bird syllabus table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "vt-goose-snow-lc-interior-2026",
+    "state": "VT",
+    "species": "goose",
+    "seasonName": "Snow geese (includes blue geese)",
+    "zone": "Lake Champlain and Interior Vermont Zones",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2026-12-31",
+        "note": null
+      },
+      {
+        "open": "2027-02-26",
+        "close": "2027-03-10",
+        "note": null
+      }
+    ],
+    "bagLimit": "25",
+    "possessionLimit": "No limit",
+    "agency": "Vermont Fish and Wildlife",
+    "sourceTitle": "Vermont Fish and Wildlife, 2026-2027 Syllabus of State and Federal Hunting Regulations for Migratory Birds in Vermont",
+    "sourceUrl": "https://www.vtfishandwildlife.com/sites/fishandwildlife/files/documents/Hunt/waterfowl/migratory-bird-syllabus-2026-WEB-v2.pdf",
+    "sourceQuote": "Oct. 1 - Dec. 31, 2026 Oct. 1 - Dec. 31, 2026 Oct. 13 - Nov. 11 | Snow Geese (includes blue geese) | Feb. 26 - Mar. 10, 2027 Feb. 26 - Mar 10, 2027 Nov. 25 - Dec. 24 | Snow Geese 25 No limit",
+    "checkedDate": "2026-11-23",
+    "notes": "The Vermont seasons page lists 'Snow Goose - permit required'. CT River Zone snow geese Oct. 13 - Nov. 11 and Nov. 25 - Dec. 24. Years as printed in the source."
+  },
+  {
+    "id": "vt-woodcock-2026",
+    "state": "VT",
+    "species": "woodcock",
+    "seasonName": "Woodcock",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-11-09",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "Vermont Fish and Wildlife",
+    "sourceTitle": "Vermont Fish and Wildlife, 2026-2027 Syllabus of State and Federal Hunting Regulations for Migratory Birds in Vermont",
+    "sourceUrl": "https://www.vtfishandwildlife.com/sites/fishandwildlife/files/documents/Hunt/waterfowl/migratory-bird-syllabus-2026-WEB-v2.pdf",
+    "sourceQuote": "Woodcock and Wilson’s Snipe Statewide Sept. 26 - Nov. 9 | Woodcock 3 9",
+    "checkedDate": "2026-11-23",
+    "notes": "The Vermont migratory bird syllabus table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "vt-snipe-2026",
+    "state": "VT",
+    "species": "snipe",
+    "seasonName": "Wilson's snipe",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-11-09",
+        "note": null
+      }
+    ],
+    "bagLimit": "8",
+    "possessionLimit": "24",
+    "agency": "Vermont Fish and Wildlife",
+    "sourceTitle": "Vermont Fish and Wildlife, 2026-2027 Syllabus of State and Federal Hunting Regulations for Migratory Birds in Vermont",
+    "sourceUrl": "https://www.vtfishandwildlife.com/sites/fishandwildlife/files/documents/Hunt/waterfowl/migratory-bird-syllabus-2026-WEB-v2.pdf",
+    "sourceQuote": "Woodcock and Wilson’s Snipe Statewide Sept. 26 - Nov. 9 | Wilson’s Snipe 8 24",
+    "checkedDate": "2026-11-23",
+    "notes": "The Vermont migratory bird syllabus table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "vt-grouse-2026",
+    "state": "VT",
+    "species": "grouse",
+    "seasonName": "Ruffed grouse (partridge)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Vermont Fish and Wildlife",
+    "sourceTitle": "Vermont Fish and Wildlife, Hunting and Trapping Seasons",
+    "sourceUrl": "https://www.vtfishandwildlife.com/hunt/hunting-and-trapping-seasons",
+    "sourceQuote": "Upland Birds | September 26 - December 31, 2026 | Ruffed Grouse (Partridge)",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag not printed on the seasons page; null. Vermont lists no pheasant or quail season on this page. Years as printed in the source."
+  },
+  {
+    "id": "vt-pheasant-2026",
+    "state": "VT",
+    "species": "pheasant",
+    "seasonName": "Pheasant",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "2",
+    "possessionLimit": "4",
+    "agency": "Vermont Fish and Wildlife",
+    "sourceTitle": "Vermont Fish and Wildlife, Vermont Hunting & Trapping Guide on eRegulations: Game Bird Hunting (linked from the VT Fish and Wildlife Upland Game Birds page)",
+    "sourceUrl": "https://www.eregulations.com/vermont/hunting/game-bird-hunting",
+    "sourceQuote": "Seasons & Bag Limits | Pheasant | Sept. 26 – Dec. 31, 2026 | 2 daily; | 4 possession | * Practically nonexistent except by private stocking.",
+    "checkedDate": "2026-11-23",
+    "notes": "Statewide season as printed; the guide notes pheasant are practically nonexistent except by private stocking (no state release program on the agency page). The VT Upland Game Birds page links to this eRegulations Game Bird Hunting page for seasons (page last updated Dec. 15, 2025). Years as printed in the source."
+  },
+  {
+    "id": "vt-turkey-fall-archery-2026",
+    "state": "VT",
+    "species": "turkey",
+    "seasonName": "Fall turkey, archery only",
+    "zone": "All WMUs statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2026-11-13",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 turkey of either sex (fall season)",
+    "possessionLimit": null,
+    "agency": "Vermont Fish and Wildlife",
+    "sourceTitle": "Vermont Fish and Wildlife, 2026 Vermont Spring and Fall Turkey Seasons",
+    "sourceUrl": "https://www.vtfishandwildlife.com/sites/fishandwildlife/files/documents/Hunt/turkey/2026-turkey-hunting-guide.pdf",
+    "sourceQuote": "2026 FALL TURKEY SEASONS | Limit: One turkey of either sex for the fall season. | Archery Only: October 1-November 13, 2026 in | all WMUs statewide.",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed in the source."
+  },
+  {
+    "id": "vt-turkey-fall-shotgun-a-2026",
+    "state": "VT",
+    "species": "turkey",
+    "seasonName": "Fall turkey, shotgun or archery",
+    "zone": "WMUs B, D, G, H, I, J, L, M, O, P, and Q",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2026-11-01",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 turkey of either sex (fall season)",
+    "possessionLimit": null,
+    "agency": "Vermont Fish and Wildlife",
+    "sourceTitle": "Vermont Fish and Wildlife, 2026 Vermont Spring and Fall Turkey Seasons",
+    "sourceUrl": "https://www.vtfishandwildlife.com/sites/fishandwildlife/files/documents/Hunt/turkey/2026-turkey-hunting-guide.pdf",
+    "sourceQuote": "Shotgun or Archery: October 24-November 1, | 2026 in WMUs B, D, G, H, I, J, L, M, O, P, and Q. | Limit: One turkey of either sex for the fall season.",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed in the source."
+  },
+  {
+    "id": "vt-turkey-fall-shotgun-b-2026",
+    "state": "VT",
+    "species": "turkey",
+    "seasonName": "Fall turkey, shotgun or archery",
+    "zone": "WMUs F, K, N",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2026-11-08",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 turkey of either sex (fall season)",
+    "possessionLimit": null,
+    "agency": "Vermont Fish and Wildlife",
+    "sourceTitle": "Vermont Fish and Wildlife, Hunting and Trapping Seasons",
+    "sourceUrl": "https://www.vtfishandwildlife.com/hunt/hunting-and-trapping-seasons",
+    "sourceQuote": "October 24 - November 8, 2026 | Turkey | : Shotgun or Archery only for | : F, K, N",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed in the source."
+  },
+  {
+    "id": "vt-deer-archery-2026",
+    "state": "VT",
+    "species": "deer",
+    "seasonName": "Archery deer season",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2026-12-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "No more than 4 deer per year, only 1 legal buck (exceptions apply)",
+    "possessionLimit": null,
+    "agency": "Vermont Fish and Wildlife",
+    "sourceTitle": "Vermont Fish and Wildlife, 2026 Vermont White-tailed Deer Seasons",
+    "sourceUrl": "https://www.vtfishandwildlife.com/sites/fishandwildlife/files/documents/Hunt/hunting%20guides/2026-deer-season-guide.pdf",
+    "sourceQuote": "2026 DEER SEASONS | ARCHERY | October 1-December 15, 2026 | One legal buck may be taken anywhere in the state. | No more than four deer per year, only one of which | may be a legal buck",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless deer may be taken with an archery tag anywhere in the state in 2026. Legal buck definition varies by WMU (antler point restriction in WMUs A, B, D1, F1, F2, H, J1, J2, K, N, O). Years as printed in the source."
+  },
+  {
+    "id": "vt-deer-youth-2026",
+    "state": "VT",
+    "species": "deer",
+    "seasonName": "Youth weekend deer season",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-08",
+        "note": "youth only"
+      }
+    ],
+    "bagLimit": "No more than 4 deer per year, only 1 legal buck (exceptions apply)",
+    "possessionLimit": null,
+    "agency": "Vermont Fish and Wildlife",
+    "sourceTitle": "Vermont Fish and Wildlife, 2026 Vermont White-tailed Deer Seasons",
+    "sourceUrl": "https://www.vtfishandwildlife.com/sites/fishandwildlife/files/documents/Hunt/hunting%20guides/2026-deer-season-guide.pdf",
+    "sourceQuote": "2026 DEER SEASONS | YOUTH WEEKEND | November 7-8, 2026 | One deer of either sex, no antler restriction. | No more than four deer per year, only one of which | may be a legal buck",
+    "checkedDate": "2026-11-23",
+    "notes": "Legal buck definition varies by WMU (antler point restriction in WMUs A, B, D1, F1, F2, H, J1, J2, K, N, O). Years as printed in the source."
+  },
+  {
+    "id": "vt-deer-novice-2026",
+    "state": "VT",
+    "species": "deer",
+    "seasonName": "Novice weekend deer season",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-08",
+        "note": "novice hunters only"
+      }
+    ],
+    "bagLimit": "No more than 4 deer per year, only 1 legal buck (exceptions apply)",
+    "possessionLimit": null,
+    "agency": "Vermont Fish and Wildlife",
+    "sourceTitle": "Vermont Fish and Wildlife, 2026 Vermont White-tailed Deer Seasons",
+    "sourceUrl": "https://www.vtfishandwildlife.com/sites/fishandwildlife/files/documents/Hunt/hunting%20guides/2026-deer-season-guide.pdf",
+    "sourceQuote": "2026 DEER SEASONS | NOVICE WEEKEND | November 7-8, 2026 | One deer of either sex, no antler restriction. | No more than four deer per year, only one of which | may be a legal buck",
+    "checkedDate": "2026-11-23",
+    "notes": "Legal buck definition varies by WMU (antler point restriction in WMUs A, B, D1, F1, F2, H, J1, J2, K, N, O). Years as printed in the source."
+  },
+  {
+    "id": "vt-deer-regular-2026",
+    "state": "VT",
+    "species": "deer",
+    "seasonName": "Regular (16-day) season deer season",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-14",
+        "close": "2026-11-29",
+        "note": null
+      }
+    ],
+    "bagLimit": "No more than 4 deer per year, only 1 legal buck (exceptions apply)",
+    "possessionLimit": null,
+    "agency": "Vermont Fish and Wildlife",
+    "sourceTitle": "Vermont Fish and Wildlife, 2026 Vermont White-tailed Deer Seasons",
+    "sourceUrl": "https://www.vtfishandwildlife.com/sites/fishandwildlife/files/documents/Hunt/hunting%20guides/2026-deer-season-guide.pdf",
+    "sourceQuote": "2026 DEER SEASONS | REGULAR | November 14-29, 2026 | One legal buck may be taken anywhere in the state. | No more than four deer per year, only one of which | may be a legal buck",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless deer only with an antlerless permit (lottery), in the WMU on the permit. Legal buck definition varies by WMU (antler point restriction in WMUs A, B, D1, F1, F2, H, J1, J2, K, N, O). Years as printed in the source."
+  },
+  {
+    "id": "vt-deer-december-muzzleloader-2026",
+    "state": "VT",
+    "species": "deer",
+    "seasonName": "December muzzleloader deer season",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-30",
+        "close": "2026-12-13",
+        "note": null
+      }
+    ],
+    "bagLimit": "No more than 4 deer per year, only 1 legal buck (exceptions apply)",
+    "possessionLimit": null,
+    "agency": "Vermont Fish and Wildlife",
+    "sourceTitle": "Vermont Fish and Wildlife, 2026 Vermont White-tailed Deer Seasons",
+    "sourceUrl": "https://www.vtfishandwildlife.com/sites/fishandwildlife/files/documents/Hunt/hunting%20guides/2026-deer-season-guide.pdf",
+    "sourceQuote": "2026 DEER SEASONS | DECEMBER MUZZLELOADER | November 30-December 13, 2026 | One legal buck may be taken anywhere in the state. | No more than four deer per year, only one of which | may be a legal buck",
+    "checkedDate": "2026-11-23",
+    "notes": "Antlerless deer only with an antlerless permit (lottery). Legal buck definition varies by WMU (antler point restriction in WMUs A, B, D1, F1, F2, H, J1, J2, K, N, O). Years as printed in the source."
+  }
+]

@@ -1,0 +1,390 @@
+[
+  {
+    "id": "ri-duck-2026",
+    "state": "RI",
+    "species": "duck",
+    "seasonName": "Ducks",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-09",
+        "close": "2026-10-12",
+        "note": null
+      },
+      {
+        "open": "2026-11-25",
+        "close": "2026-11-29",
+        "note": null
+      },
+      {
+        "open": "2026-12-05",
+        "close": "2027-01-24",
+        "note": null
+      }
+    ],
+    "bagLimit": "6 ducks (mallard 4 (2 hens), black duck 2, canvasback 2, pintail 3, redhead 2, wood duck 3, scaup 1 then 2 from Jan. 5, sea ducks 4); mergansers 5; coots 15",
+    "possessionLimit": null,
+    "agency": "RI DEM",
+    "sourceTitle": "RI DEM Division of Fish and Wildlife, Rhode Island Hunting & Trapping 2026-2027 Seasons and Bag Limits Summary (eRegulations bind-in)",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/RI/Rhode-Island-Hunting-Trapping-Seasons-2026-2027-Bind-in.pdf",
+    "sourceQuote": "October 9–12, November 25–29, | Ducks 6 | December 5–January 24, 2027 | Mallard 4 (2 hens) Black Duck 2 Canvasback 2 | Mergansers Same As Ducks 5 | Coots Same As Ducks 15",
+    "checkedDate": "2026-11-23",
+    "notes": "Youth Waterfowl Hunting Days Oct. 24-25 and Active Military and Veteran Waterfowl Nov. 10-11 (not recorded). Harlequin closed. The RI seasons summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ri-goose-canada-early-2026",
+    "state": "RI",
+    "species": "goose",
+    "seasonName": "Canada goose early season",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": null,
+    "agency": "RI DEM",
+    "sourceTitle": "RI DEM Division of Fish and Wildlife, Rhode Island Hunting & Trapping 2026-2027 Seasons and Bag Limits Summary (eRegulations bind-in)",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/RI/Rhode-Island-Hunting-Trapping-Seasons-2026-2027-Bind-in.pdf",
+    "sourceQuote": "Canada Goose Early Season* September 1–30 15 | * Daily bag limit includes white-fronted geese.",
+    "checkedDate": "2026-11-23",
+    "notes": "The RI seasons summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ri-goose-canada-regular-2026",
+    "state": "RI",
+    "species": "goose",
+    "seasonName": "Canada goose regular season",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-29",
+        "note": null
+      },
+      {
+        "open": "2026-12-05",
+        "close": "2027-01-24",
+        "note": null
+      }
+    ],
+    "bagLimit": "2",
+    "possessionLimit": null,
+    "agency": "RI DEM",
+    "sourceTitle": "RI DEM Division of Fish and Wildlife, Rhode Island Hunting & Trapping 2026-2027 Seasons and Bag Limits Summary (eRegulations bind-in)",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/RI/Rhode-Island-Hunting-Trapping-Seasons-2026-2027-Bind-in.pdf",
+    "sourceQuote": "November 21–29 and | Canada Goose Regular Season 2 | December 5–January 24, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "The RI seasons summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ri-goose-canada-late-2027",
+    "state": "RI",
+    "species": "goose",
+    "seasonName": "Canada goose late season",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-01-30",
+        "close": "2027-02-13",
+        "note": null
+      }
+    ],
+    "bagLimit": "5",
+    "possessionLimit": null,
+    "agency": "RI DEM",
+    "sourceTitle": "RI DEM Division of Fish and Wildlife, Rhode Island Hunting & Trapping 2026-2027 Seasons and Bag Limits Summary (eRegulations bind-in)",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/RI/Rhode-Island-Hunting-Trapping-Seasons-2026-2027-Bind-in.pdf",
+    "sourceQuote": "Canada Goose Late Season January 30–February 13, 2027 5",
+    "checkedDate": "2026-11-23",
+    "notes": "Years as printed in the source."
+  },
+  {
+    "id": "ri-goose-snow-2026",
+    "state": "RI",
+    "species": "goose",
+    "seasonName": "Snow goose (including blue goose)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-14",
+        "close": "2027-01-24",
+        "note": null
+      }
+    ],
+    "bagLimit": "25",
+    "possessionLimit": null,
+    "agency": "RI DEM",
+    "sourceTitle": "RI DEM Division of Fish and Wildlife, Rhode Island Hunting & Trapping 2026-2027 Seasons and Bag Limits Summary (eRegulations bind-in)",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/RI/Rhode-Island-Hunting-Trapping-Seasons-2026-2027-Bind-in.pdf",
+    "sourceQuote": "Snow Goose (Including Blue Goose) October 14–January 24, 2027 25",
+    "checkedDate": "2026-11-23",
+    "notes": "The RI seasons summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ri-dove-2026",
+    "state": "RI",
+    "species": "dove",
+    "seasonName": "Mourning dove",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-30",
+        "note": null
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-12-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": "3 times the daily bag",
+    "agency": "RI DEM",
+    "sourceTitle": "RI DEM Division of Fish and Wildlife, Rhode Island Hunting & Trapping 2026-2027 Seasons and Bag Limits Summary (eRegulations bind-in)",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/RI/Rhode-Island-Hunting-Trapping-Seasons-2026-2027-Bind-in.pdf",
+    "sourceQuote": "September 1–30 | Mourning Dove 15 | October 17–December 15 | The possession limit shall contain no more than three (3) times the daily bag limit listed above.",
+    "checkedDate": "2026-11-23",
+    "notes": "The RI seasons summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ri-woodcock-2026",
+    "state": "RI",
+    "species": "woodcock",
+    "seasonName": "Woodcock",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2026-11-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "3 times the daily bag",
+    "agency": "RI DEM",
+    "sourceTitle": "RI DEM Division of Fish and Wildlife, Rhode Island Hunting & Trapping 2026-2027 Seasons and Bag Limits Summary (eRegulations bind-in)",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/RI/Rhode-Island-Hunting-Trapping-Seasons-2026-2027-Bind-in.pdf",
+    "sourceQuote": "Woodcock October 17–November 30 3 | The possession limit shall contain no more than three (3) times the daily bag limit listed above.",
+    "checkedDate": "2026-11-23",
+    "notes": "The RI seasons summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ri-snipe-2026",
+    "state": "RI",
+    "species": "snipe",
+    "seasonName": "Snipe",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-11-09",
+        "note": null
+      }
+    ],
+    "bagLimit": "5",
+    "possessionLimit": "3 times the daily bag",
+    "agency": "RI DEM",
+    "sourceTitle": "RI DEM Division of Fish and Wildlife, Rhode Island Hunting & Trapping 2026-2027 Seasons and Bag Limits Summary (eRegulations bind-in)",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/RI/Rhode-Island-Hunting-Trapping-Seasons-2026-2027-Bind-in.pdf",
+    "sourceQuote": "Snipe September 1–November 9 5 | The possession limit shall contain no more than three (3) times the daily bag limit listed above.",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag 5 as printed in the summary. The RI seasons summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ri-pheasant-2026",
+    "state": "RI",
+    "species": "pheasant",
+    "seasonName": "Pheasant",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2027-02-28",
+        "note": null
+      }
+    ],
+    "bagLimit": "2",
+    "possessionLimit": null,
+    "agency": "RI DEM",
+    "sourceTitle": "RI DEM Division of Fish and Wildlife, Rhode Island Hunting & Trapping 2026-2027 Seasons and Bag Limits Summary (eRegulations bind-in)",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/RI/Rhode-Island-Hunting-Trapping-Seasons-2026-2027-Bind-in.pdf",
+    "sourceQuote": "Pheasant 2 | October 17–February 28, 2027 | Bobwhite Quail 3",
+    "checkedDate": "2026-11-23",
+    "notes": "Pheasant and bobwhite quail share the Oct. 17 - Feb. 28, 2027 dates in the table. Youth pheasant Oct. 10-12. The RI seasons summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ri-quail-2026",
+    "state": "RI",
+    "species": "quail",
+    "seasonName": "Bobwhite quail",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2027-02-28",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": null,
+    "agency": "RI DEM",
+    "sourceTitle": "RI DEM Division of Fish and Wildlife, Rhode Island Hunting & Trapping 2026-2027 Seasons and Bag Limits Summary (eRegulations bind-in)",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/RI/Rhode-Island-Hunting-Trapping-Seasons-2026-2027-Bind-in.pdf",
+    "sourceQuote": "Pheasant 2 | October 17–February 28, 2027 | Bobwhite Quail 3",
+    "checkedDate": "2026-11-23",
+    "notes": "Pheasant and bobwhite quail share the dates in the table. Ruffed grouse is CLOSED in RI. The RI seasons summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ri-turkey-fall-archery-2026",
+    "state": "RI",
+    "species": "turkey",
+    "seasonName": "Fall archery turkey",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2026-10-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 either sex bird (season)",
+    "possessionLimit": null,
+    "agency": "RI DEM",
+    "sourceTitle": "RI DEM Division of Fish and Wildlife, Rhode Island Hunting & Trapping 2026-2027 Seasons and Bag Limits Summary (eRegulations bind-in)",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/RI/Rhode-Island-Hunting-Trapping-Seasons-2026-2027-Bind-in.pdf",
+    "sourceQuote": "Fall Archery October 1–31 1 either sex bird",
+    "checkedDate": "2026-11-23",
+    "notes": "The RI seasons summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ri-turkey-spring-2027",
+    "state": "RI",
+    "species": "turkey",
+    "seasonName": "Spring turkey",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-04-29",
+        "close": "2027-05-23",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 bearded birds (season; no more than 1 on state lands)",
+    "possessionLimit": null,
+    "agency": "RI DEM",
+    "sourceTitle": "RI DEM Division of Fish and Wildlife, Rhode Island Hunting & Trapping 2026-2027 Seasons and Bag Limits Summary (eRegulations bind-in)",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/RI/Rhode-Island-Hunting-Trapping-Seasons-2026-2027-Bind-in.pdf",
+    "sourceQuote": "Spring April 29–May 23, 2027 | 2 bearded birds2 | No more than one (1) turkey may be taken on state lands during the spring season.",
+    "checkedDate": "2026-11-23",
+    "notes": "Youth Apr. 19-25, 2027 and Paraplegic Apr. 24-25, 2027 hunts (not recorded). Years as printed in the source."
+  },
+  {
+    "id": "ri-deer-archery-z1-2-2026",
+    "state": "RI",
+    "species": "deer",
+    "seasonName": "Archery deer",
+    "zone": "Zones 1 and 2",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-15",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 antlered statewide; antlerless 3 (Zone 1) or 2 (Zone 2)",
+    "possessionLimit": null,
+    "agency": "RI DEM",
+    "sourceTitle": "RI DEM Division of Fish and Wildlife, Rhode Island Hunting & Trapping 2026-2027 Seasons and Bag Limits Summary (eRegulations bind-in)",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/RI/Rhode-Island-Hunting-Trapping-Seasons-2026-2027-Bind-in.pdf",
+    "sourceQuote": "Deer | Archery (Zones 1 and 2) | September 15–January 31, 2027 | 2 Antlered Deer, | Statewide (all zones & methods combined)",
+    "checkedDate": "2026-11-23",
+    "notes": "Youth-only days: archery Sept. 12-13 (Zones 1-2), Oct. 17-18 (Zone 3), muzzleloader Oct. 31 - Nov. 1. Antlerless limits are per zone, cumulative across seasons. The RI seasons summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ri-deer-archery-z3-2026",
+    "state": "RI",
+    "species": "deer",
+    "seasonName": "Archery deer, Patience & Prudence Islands",
+    "zone": "Zone 3 (Patience & Prudence Islands)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-19",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 antlered (Zone 3); 2 antlerless",
+    "possessionLimit": null,
+    "agency": "RI DEM",
+    "sourceTitle": "RI DEM Division of Fish and Wildlife, Rhode Island Hunting & Trapping 2026-2027 Seasons and Bag Limits Summary (eRegulations bind-in)",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/RI/Rhode-Island-Hunting-Trapping-Seasons-2026-2027-Bind-in.pdf",
+    "sourceQuote": "Deer | Archery: Patience & Prudence Islands (Zone 3) | October 19–January 31, 2027 | 2 Antlered Deer, | Statewide (all zones & methods combined)",
+    "checkedDate": "2026-11-23",
+    "notes": "Youth-only days: archery Sept. 12-13 (Zones 1-2), Oct. 17-18 (Zone 3), muzzleloader Oct. 31 - Nov. 1. Antlerless limits are per zone, cumulative across seasons. The RI seasons summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ri-deer-muzzleloader-z1-2-2026",
+    "state": "RI",
+    "species": "deer",
+    "seasonName": "Muzzleloader deer",
+    "zone": "Zones 1 and 2",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2026-12-04",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 antlered statewide; antlerless 3 (Zone 1) or 2 (Zone 2)",
+    "possessionLimit": null,
+    "agency": "RI DEM",
+    "sourceTitle": "RI DEM Division of Fish and Wildlife, Rhode Island Hunting & Trapping 2026-2027 Seasons and Bag Limits Summary (eRegulations bind-in)",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/RI/Rhode-Island-Hunting-Trapping-Seasons-2026-2027-Bind-in.pdf",
+    "sourceQuote": "Deer | Muzzleloader (Zones 1 and 2) | November 7–December 4 | 2 Antlered Deer, | Statewide (all zones & methods combined)",
+    "checkedDate": "2026-11-23",
+    "notes": "Youth-only days: archery Sept. 12-13 (Zones 1-2), Oct. 17-18 (Zone 3), muzzleloader Oct. 31 - Nov. 1. Antlerless limits are per zone, cumulative across seasons. The RI seasons summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ri-deer-shotgun-z1-2-2026",
+    "state": "RI",
+    "species": "deer",
+    "seasonName": "Shotgun deer",
+    "zone": "Zones 1 and 2",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-05",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 antlered statewide; antlerless 3 (Zone 1) or 2 (Zone 2)",
+    "possessionLimit": null,
+    "agency": "RI DEM",
+    "sourceTitle": "RI DEM Division of Fish and Wildlife, Rhode Island Hunting & Trapping 2026-2027 Seasons and Bag Limits Summary (eRegulations bind-in)",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/RI/Rhode-Island-Hunting-Trapping-Seasons-2026-2027-Bind-in.pdf",
+    "sourceQuote": "Deer | Shotgun (Zones 1 and 2) December 5–31 | 2 Antlered Deer, | Statewide (all zones & methods combined)",
+    "checkedDate": "2026-11-23",
+    "notes": "Youth-only days: archery Sept. 12-13 (Zones 1-2), Oct. 17-18 (Zone 3), muzzleloader Oct. 31 - Nov. 1. Antlerless limits are per zone, cumulative across seasons. The RI seasons summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  }
+]

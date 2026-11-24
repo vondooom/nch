@@ -23,7 +23,7 @@ export default function HomePage() {
   const gear = published(data.gear).slice(0, 3);
   const pillars = [
     { title: "Weather Conditions", desc: "A National Weather Service forecast, sunrise, and sunset for one point in each state.", href: "/conditions", cta: "View conditions" },
-    { title: "Season Dates & Regulations", desc: "State hubs with the wildlife agency link. Season dates go up only when we can quote the agency.", href: "/hunt", cta: "Browse states" },
+    { title: "Season Dates & Regulations", desc: "State hubs for all 50 states, with the wildlife agency link. A date is posted only when we can quote the agency.", href: "/hunt", cta: "Browse states" },
     { title: "From Field to Table", desc: "Wild-game recipes worth the freezer space, now a standing section, not just a sidebar.", href: "/recipes", cta: "See recipes" },
     { title: "Gear Recommendations", desc: "Honest, field-tested gear and value picks. No junk, no hype.", href: "/gear", cta: "View gear" },
     { title: "Field Stories", desc: "Reader hunts, campfire tales, and lessons learned the hard way.", href: "/field-stories", cta: "Read stories" },

@@ -1,0 +1,637 @@
+[
+  {
+    "id": "ct-duck-north-2026",
+    "state": "CT",
+    "species": "duck",
+    "seasonName": "Ducks, mergansers and coots, North Zone",
+    "zone": "North Zone (north of Interstate 95)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-17",
+        "note": "early"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-11",
+        "note": null
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2027-01-09",
+        "note": null
+      }
+    ],
+    "bagLimit": "6 ducks (mergansers and sea ducks included; mallard 4 (2 hens), wood duck 3, black duck 2, redhead 2, pintail 3, canvasback 2, scaup 1 or 2 by date, sea ducks 4); coots 15",
+    "possessionLimit": "18 ducks; 45 coots",
+    "agency": "CT DEEP",
+    "sourceTitle": "CT DEEP, 2026-2027 Connecticut Migratory Bird Hunting Guide",
+    "sourceUrl": "https://portal.ct.gov/-/media/deep/hunting_trapping/pdf_files/mgbguide2026-2027.pdf",
+    "sourceQuote": "North Zone: The portion of the state north of Interstate 95; South Zone: The portion of the state south of Interstate 95. | Ducks, Mergansers, Early Oct. 10 - Oct. 17 Oct. 10 - Oct. 12 | and Coots Late Nov. 7 - Nov. 11 Nov. 11 - Nov. 11 | Nov. 14 - Jan. 9 Nov. 14 - Jan. 19 | Ducks 6 A,B,C 18 A,B,C | Coots 15 45 | Includes all species of ducks (including sea ducks), with the following restrictions: Scaup: see table. Mallard: daily limit 4 and may include only 2 hens. Wood Duck: daily limit 3. Black Duck: daily limit 2.",
+    "checkedDate": "2026-11-23",
+    "notes": "Scaup 1 per day except 2 per day Nov. 14 - Jan. 9 per the table. Junior waterfowl days are two Saturdays in fall (not recorded). Migratory bird hunting is prohibited on Sundays. The Migratory Bird Hunting Guide table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ct-duck-south-2026",
+    "state": "CT",
+    "species": "duck",
+    "seasonName": "Ducks, mergansers and coots, South Zone",
+    "zone": "South Zone (south of Interstate 95)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-12",
+        "note": "early"
+      },
+      {
+        "open": "2026-11-11",
+        "close": "2026-11-11",
+        "note": null
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2027-01-19",
+        "note": null
+      }
+    ],
+    "bagLimit": "6 ducks (mergansers and sea ducks included; mallard 4 (2 hens), wood duck 3, black duck 2, redhead 2, pintail 3, canvasback 2, scaup 1 or 2 by date, sea ducks 4); coots 15",
+    "possessionLimit": "18 ducks; 45 coots",
+    "agency": "CT DEEP",
+    "sourceTitle": "CT DEEP, 2026-2027 Connecticut Migratory Bird Hunting Guide",
+    "sourceUrl": "https://portal.ct.gov/-/media/deep/hunting_trapping/pdf_files/mgbguide2026-2027.pdf",
+    "sourceQuote": "Ducks, Mergansers, Early Oct. 10 - Oct. 17 Oct. 10 - Oct. 12 | and Coots Late Nov. 7 - Nov. 11 Nov. 11 - Nov. 11 | Nov. 14 - Jan. 9 Nov. 14 - Jan. 19 | Ducks 6 A,B,C 18 A,B,C | Coots 15 45 | Includes all species of ducks (including sea ducks), with the following restrictions: Scaup: see table. Mallard: daily limit 4 and may include only 2 hens. Wood Duck: daily limit 3. Black Duck: daily limit 2.",
+    "checkedDate": "2026-11-23",
+    "notes": "Scaup 1 per day Oct. 10-12, Nov. 11 and Nov. 14 - Dec. 25; 2 per day Dec. 26 - Jan. 19. Migratory bird hunting is prohibited on Sundays. The Migratory Bird Hunting Guide table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ct-goose-sept-north-2026",
+    "state": "CT",
+    "species": "goose",
+    "seasonName": "September early Canada goose season, North Zone",
+    "zone": "North Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": "45",
+    "agency": "CT DEEP",
+    "sourceTitle": "CT DEEP, 2026-2027 Connecticut Migratory Bird Hunting Guide",
+    "sourceUrl": "https://portal.ct.gov/-/media/deep/hunting_trapping/pdf_files/mgbguide2026-2027.pdf",
+    "sourceQuote": "Canada GeeseD September Early Season Sept. 1 - Sept. 30 Sept. 15 - Sept. 30 15 45 | Daily bag limit includes white-fronted geese.",
+    "checkedDate": "2026-11-23",
+    "notes": "Shooting hours end one-half hour past sunset; unplugged shotguns legal. Migratory bird hunting is prohibited on Sundays. The Migratory Bird Hunting Guide table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ct-goose-sept-south-2026",
+    "state": "CT",
+    "species": "goose",
+    "seasonName": "September early Canada goose season, South Zone",
+    "zone": "South Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-15",
+        "close": "2026-09-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": "45",
+    "agency": "CT DEEP",
+    "sourceTitle": "CT DEEP, 2026-2027 Connecticut Migratory Bird Hunting Guide",
+    "sourceUrl": "https://portal.ct.gov/-/media/deep/hunting_trapping/pdf_files/mgbguide2026-2027.pdf",
+    "sourceQuote": "Canada GeeseD September Early Season Sept. 1 - Sept. 30 Sept. 15 - Sept. 30 15 45 | Daily bag limit includes white-fronted geese.",
+    "checkedDate": "2026-11-23",
+    "notes": "Shooting hours end one-half hour past sunset; unplugged shotguns legal. Migratory bird hunting is prohibited on Sundays. The Migratory Bird Hunting Guide table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ct-goose-ap-regular-2026",
+    "state": "CT",
+    "species": "goose",
+    "seasonName": "Canada goose regular season, AP Unit",
+    "zone": "AP Unit (Litchfield County and western Hartford County)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-17",
+        "note": null
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2026-12-14",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "CT DEEP",
+    "sourceTitle": "CT DEEP, 2026-2027 Connecticut Migratory Bird Hunting Guide",
+    "sourceUrl": "https://portal.ct.gov/-/media/deep/hunting_trapping/pdf_files/mgbguide2026-2027.pdf",
+    "sourceQuote": "Regular AP Unit E Oct. 10 - Oct. 17 3 9 | Seasons Nov. 21 - Dec. 14 3 9 | Daily bag limit includes white-fronted geese.",
+    "checkedDate": "2026-11-23",
+    "notes": "AP bag increased from 1 to 3 for 2026-27 per the guide. Migratory bird hunting is prohibited on Sundays. The Migratory Bird Hunting Guide table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ct-goose-ap-late-2026",
+    "state": "CT",
+    "species": "goose",
+    "seasonName": "Canada goose late season, AP Unit",
+    "zone": "AP Unit (Litchfield County and western Hartford County)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-15",
+        "close": "2027-02-13",
+        "note": null
+      }
+    ],
+    "bagLimit": "5",
+    "possessionLimit": "15",
+    "agency": "CT DEEP",
+    "sourceTitle": "CT DEEP, 2026-2027 Connecticut Migratory Bird Hunting Guide",
+    "sourceUrl": "https://portal.ct.gov/-/media/deep/hunting_trapping/pdf_files/mgbguide2026-2027.pdf",
+    "sourceQuote": "AP Late Season E Dec. 15 - Feb. 13 5 15 | Daily bag limit includes white-fronted geese.",
+    "checkedDate": "2026-11-23",
+    "notes": "Migratory bird hunting is prohibited on Sundays. The Migratory Bird Hunting Guide table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ct-goose-afrp-2026",
+    "state": "CT",
+    "species": "goose",
+    "seasonName": "Canada goose regular season, AFRP Unit",
+    "zone": "AFRP Unit (rest of state not in AP or NAP units)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-17",
+        "note": null
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2027-02-13",
+        "note": null
+      }
+    ],
+    "bagLimit": "5",
+    "possessionLimit": "15",
+    "agency": "CT DEEP",
+    "sourceTitle": "CT DEEP, 2026-2027 Connecticut Migratory Bird Hunting Guide",
+    "sourceUrl": "https://portal.ct.gov/-/media/deep/hunting_trapping/pdf_files/mgbguide2026-2027.pdf",
+    "sourceQuote": "AFRP Unit F Oct. 10 - Oct. 17 Oct. 10 - Oct. 17 5 15 | Nov. 21 - Feb. 13 Nov. 21 - Feb. 13 | Daily bag limit includes white-fronted geese.",
+    "checkedDate": "2026-11-23",
+    "notes": "Same dates in North and South zones. Migratory bird hunting is prohibited on Sundays. The Migratory Bird Hunting Guide table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ct-goose-naph-north-2026",
+    "state": "CT",
+    "species": "goose",
+    "seasonName": "Canada goose regular season, NAP-H Unit, North Zone",
+    "zone": "NAP-H Unit, North Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-17",
+        "note": null
+      },
+      {
+        "open": "2026-11-10",
+        "close": "2027-01-09",
+        "note": null
+      }
+    ],
+    "bagLimit": "2",
+    "possessionLimit": "6",
+    "agency": "CT DEEP",
+    "sourceTitle": "CT DEEP, 2026-2027 Connecticut Migratory Bird Hunting Guide",
+    "sourceUrl": "https://portal.ct.gov/-/media/deep/hunting_trapping/pdf_files/mgbguide2026-2027.pdf",
+    "sourceQuote": "NAP-H Unit G Oct. 10 - Oct. 17 Oct. 10 - Oct. 12 2 6 | Nov. 10 - Jan. 9 Nov. 9 - Jan. 14 | Daily bag limit includes white-fronted geese.",
+    "checkedDate": "2026-11-23",
+    "notes": "Migratory bird hunting is prohibited on Sundays. The Migratory Bird Hunting Guide table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ct-goose-naph-south-2026",
+    "state": "CT",
+    "species": "goose",
+    "seasonName": "Canada goose regular season, NAP-H Unit, South Zone",
+    "zone": "NAP-H Unit, South Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-12",
+        "note": null
+      },
+      {
+        "open": "2026-11-09",
+        "close": "2027-01-14",
+        "note": null
+      }
+    ],
+    "bagLimit": "2",
+    "possessionLimit": "6",
+    "agency": "CT DEEP",
+    "sourceTitle": "CT DEEP, 2026-2027 Connecticut Migratory Bird Hunting Guide",
+    "sourceUrl": "https://portal.ct.gov/-/media/deep/hunting_trapping/pdf_files/mgbguide2026-2027.pdf",
+    "sourceQuote": "NAP-H Unit G Oct. 10 - Oct. 17 Oct. 10 - Oct. 12 2 6 | Nov. 10 - Jan. 9 Nov. 9 - Jan. 14 | Daily bag limit includes white-fronted geese.",
+    "checkedDate": "2026-11-23",
+    "notes": "Migratory bird hunting is prohibited on Sundays. The Migratory Bird Hunting Guide table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ct-goose-naph-late-2026",
+    "state": "CT",
+    "species": "goose",
+    "seasonName": "Canada goose late season, NAP-H (South Zone east of the Quinnipiac River)",
+    "zone": "South Zone east of the Quinnipiac River",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-01-15",
+        "close": "2027-02-13",
+        "note": null
+      }
+    ],
+    "bagLimit": "5",
+    "possessionLimit": "15",
+    "agency": "CT DEEP",
+    "sourceTitle": "CT DEEP, 2026-2027 Connecticut Migratory Bird Hunting Guide",
+    "sourceUrl": "https://portal.ct.gov/-/media/deep/hunting_trapping/pdf_files/mgbguide2026-2027.pdf",
+    "sourceQuote": "NAP-H Late Season H Jan. 15 - Feb. 13 5 15 | The portion of the South Zone east of the Quinnipiac River.",
+    "checkedDate": "2026-11-23",
+    "notes": "2027 hunting license and stamp required (calendar-year license). Migratory bird hunting is prohibited on Sundays. The Migratory Bird Hunting Guide table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ct-goose-snow-2026",
+    "state": "CT",
+    "species": "goose",
+    "seasonName": "Snow geese (includes blue geese)",
+    "zone": "Statewide (North and South zones)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2027-01-09",
+        "note": null
+      },
+      {
+        "open": "2027-02-16",
+        "close": "2027-03-10",
+        "note": null
+      }
+    ],
+    "bagLimit": "25",
+    "possessionLimit": "No limit",
+    "agency": "CT DEEP",
+    "sourceTitle": "CT DEEP, 2026-2027 Connecticut Migratory Bird Hunting Guide",
+    "sourceUrl": "https://portal.ct.gov/-/media/deep/hunting_trapping/pdf_files/mgbguide2026-2027.pdf",
+    "sourceQuote": "Snow Geese (includes Blue Geese) Oct. 1 - Jan. 9 Oct. 1 - Jan. 9 25 No limit | Feb. 16 - Mar. 10 Feb. 16 - Mar. 10",
+    "checkedDate": "2026-11-23",
+    "notes": "Migratory bird hunting is prohibited on Sundays. The Migratory Bird Hunting Guide table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "ct-snipe-2026",
+    "state": "CT",
+    "species": "snipe",
+    "seasonName": "Common snipe",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-10-10",
+        "note": null
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2027-01-08",
+        "note": null
+      }
+    ],
+    "bagLimit": "8",
+    "possessionLimit": "24",
+    "agency": "CT DEEP",
+    "sourceTitle": "CT DEEP, 2026-2027 Connecticut Migratory Bird Hunting Guide",
+    "sourceUrl": "https://portal.ct.gov/-/media/deep/hunting_trapping/pdf_files/mgbguide2026-2027.pdf",
+    "sourceQuote": "Common Snipe Season | Sept. 1 – Oct. 10, 2026 and Oct. 17, 2026 – Jan. 8, 2027 | Snipe 8 24",
+    "checkedDate": "2026-11-23",
+    "notes": "Migratory bird hunting is prohibited on Sundays. Years as printed in the source."
+  },
+  {
+    "id": "ct-woodcock-2026",
+    "state": "CT",
+    "species": "woodcock",
+    "seasonName": "American woodcock",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-22",
+        "close": "2026-12-12",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "CT DEEP",
+    "sourceTitle": "CT DEEP, 2026-2027 Connecticut Migratory Bird Hunting Guide",
+    "sourceUrl": "https://portal.ct.gov/-/media/deep/hunting_trapping/pdf_files/mgbguide2026-2027.pdf",
+    "sourceQuote": "Woodcock Season | October 22 – December 12, 2026 | American Woodcock 3 9",
+    "checkedDate": "2026-11-23",
+    "notes": "Migratory bird hunting is prohibited on Sundays. Years as printed in the source."
+  },
+  {
+    "id": "ct-pheasant-2026",
+    "state": "CT",
+    "species": "pheasant",
+    "seasonName": "Pheasant",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "CT DEEP",
+    "sourceTitle": "CT DEEP, 2026 CT Hunting Season Summary (from the 2026 Connecticut Hunting and Trapping Guide)",
+    "sourceUrl": "https://portal.ct.gov/-/media/deep/hunting_trapping/pdf_files/seasonsummary2026.pdf",
+    "sourceQuote": "Pheasant A | January 1 – February 28 and October 17 – December 31 | Connecticut Resident Game Bird Conservation Stamp required.",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag limits are on a linked page, not in the summary; null. Junior Pheasant day Oct. 10, 2026. The 2026 season summary prints month and day only; year 2026 from the 2026 guide. The Jan. 1 - Feb. 28 segment printed in the 2026 summary is January-February 2026 (2025-26 season), so only the fall 2026 segment is recorded; the Jan.-Feb. 2027 segment will be in the 2027 guide. "
+  },
+  {
+    "id": "ct-grouse-2026",
+    "state": "CT",
+    "species": "grouse",
+    "seasonName": "Ruffed grouse",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2026-11-30",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "CT DEEP",
+    "sourceTitle": "CT DEEP, 2026 CT Hunting Season Summary (from the 2026 Connecticut Hunting and Trapping Guide)",
+    "sourceUrl": "https://portal.ct.gov/-/media/deep/hunting_trapping/pdf_files/seasonsummary2026.pdf",
+    "sourceQuote": "Ruffed Grouse A | October 17 – November 30",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag limits on a linked page; null. The 2026 season summary prints month and day only; year 2026 from the 2026 guide."
+  },
+  {
+    "id": "ct-quail-2026",
+    "state": "CT",
+    "species": "quail",
+    "seasonName": "Quail",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-31",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "CT DEEP",
+    "sourceTitle": "CT DEEP, 2026 CT Hunting Season Summary (from the 2026 Connecticut Hunting and Trapping Guide)",
+    "sourceUrl": "https://portal.ct.gov/-/media/deep/hunting_trapping/pdf_files/seasonsummary2026.pdf",
+    "sourceQuote": "Quail A Extended season in some areas | October 17 – 31",
+    "checkedDate": "2026-11-23",
+    "notes": "Extended season in some areas (not recorded). Bag limits on a linked page; null. The 2026 season summary prints month and day only; year 2026 from the 2026 guide."
+  },
+  {
+    "id": "ct-turkey-fall-archery-private-2026",
+    "state": "CT",
+    "species": "turkey",
+    "seasonName": "Fall archery turkey season, private land (all zones)",
+    "zone": "Statewide private land (all zones)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-15",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 either sex",
+    "possessionLimit": null,
+    "agency": "CT DEEP",
+    "sourceTitle": "CT DEEP, 2026 Connecticut Hunting and Trapping Guide: Wild Turkey Hunting",
+    "sourceUrl": "https://portal.ct.gov/deep/hunting/2026-connecticut-hunting-and-trapping-guide/wild-turkey-hunting",
+    "sourceQuote": "Fall Archery Turkey Seasons | Sept. 15 - Dec. 31 Private Land (All Zones; | 2 either sex (on private land, state land, or a combination of both).",
+    "checkedDate": "2026-11-23",
+    "notes": "A Jan. 1-31 extension applies on private land in Zones 11 and 12 (the January 2027 dates are not in the 2026 guide). The 2026 guide page prints month and day only; year 2026 from the 2026 guide. "
+  },
+  {
+    "id": "ct-turkey-fall-archery-state-2026",
+    "state": "CT",
+    "species": "turkey",
+    "seasonName": "Fall archery turkey season, state land",
+    "zone": "State land",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-15",
+        "close": "2026-11-17",
+        "note": null
+      },
+      {
+        "open": "2026-12-23",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 either sex",
+    "possessionLimit": null,
+    "agency": "CT DEEP",
+    "sourceTitle": "CT DEEP, 2026 Connecticut Hunting and Trapping Guide: Wild Turkey Hunting",
+    "sourceUrl": "https://portal.ct.gov/deep/hunting/2026-connecticut-hunting-and-trapping-guide/wild-turkey-hunting",
+    "sourceQuote": "Sept. 15 - Nov. 17 and Dec. 23 - Dec. 31 State Land | 2 either sex (on private land, state land, or a combination of both).",
+    "checkedDate": "2026-11-23",
+    "notes": "State land bowhunting-only areas are open Sept. 15 - Dec. 31. The 2026 guide page prints month and day only; year 2026 from the 2026 guide. "
+  },
+  {
+    "id": "ct-turkey-fall-firearms-2026",
+    "state": "CT",
+    "species": "turkey",
+    "seasonName": "Fall firearms turkey season",
+    "zone": "Statewide (state land, private land, and landowner)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "3 either sex",
+    "possessionLimit": null,
+    "agency": "CT DEEP",
+    "sourceTitle": "CT DEEP, 2026 Connecticut Hunting and Trapping Guide: Wild Turkey Hunting",
+    "sourceUrl": "https://portal.ct.gov/deep/hunting/2026-connecticut-hunting-and-trapping-guide/wild-turkey-hunting",
+    "sourceQuote": "Fall Firearms Turkey Seasons | Oct. 3 - Oct. 31 State Land, Private Land, and Landowner | Bag Limit 3 either sex (on private land, state land, or a combination of both).",
+    "checkedDate": "2026-11-23",
+    "notes": "Fall firearms bag is separate from the fall archery bag. The 2026 guide page prints month and day only; year 2026 from the 2026 guide. "
+  },
+  {
+    "id": "ct-deer-archery-private-2026",
+    "state": "CT",
+    "species": "deer",
+    "seasonName": "Archery deer season, private land (all zones)",
+    "zone": "Statewide private land (all zones)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-15",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 either sex and 2 antlerless (4 total)",
+    "possessionLimit": null,
+    "agency": "CT DEEP",
+    "sourceTitle": "CT DEEP, 2026 Connecticut Hunting and Trapping Guide: Deer Hunting",
+    "sourceUrl": "https://portal.ct.gov/deep/hunting/2026-connecticut-hunting-and-trapping-guide/deer-hunting",
+    "sourceQuote": "Sept. 15 - Dec. 31 | Private Land (All zones; | 2 either sex and 2 antlerless (4 total); additional bag of 1 either sex and 1 antlerless (2 total) during the Jan. 1-31 season on private lands in zones 11 and 12.",
+    "checkedDate": "2026-11-23",
+    "notes": "A Jan. 1-31 private-land extension applies in Zones 11 and 12 (January 2027 dates not in the 2026 guide). Sunday archery deer hunting allowed on private land. The 2026 guide deer page prints month and day only; year 2026 from the 2026 guide. "
+  },
+  {
+    "id": "ct-deer-archery-state-2026",
+    "state": "CT",
+    "species": "deer",
+    "seasonName": "Archery deer season, state land",
+    "zone": "State land",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-15",
+        "close": "2026-11-17",
+        "note": null
+      },
+      {
+        "open": "2026-12-23",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 either sex and 2 antlerless (4 total)",
+    "possessionLimit": null,
+    "agency": "CT DEEP",
+    "sourceTitle": "CT DEEP, 2026 Connecticut Hunting and Trapping Guide: Deer Hunting",
+    "sourceUrl": "https://portal.ct.gov/deep/hunting/2026-connecticut-hunting-and-trapping-guide/deer-hunting",
+    "sourceQuote": "Sept. 15 - Nov. 17 | Dec. 23 - Dec. 31 | State Land | 2 either sex and 2 antlerless (4 total); additional bag of 1 either sex and 1 antlerless (2 total) during the Jan. 1-31 season on private lands in zones 11 and 12.",
+    "checkedDate": "2026-11-23",
+    "notes": "State land bowhunting-only areas open Sept. 15 - Dec. 31. The 2026 guide deer page prints month and day only; year 2026 from the 2026 guide. "
+  },
+  {
+    "id": "ct-deer-firearms-private-2026",
+    "state": "CT",
+    "species": "deer",
+    "seasonName": "Private land shotgun/rifle/revolver deer season",
+    "zone": "Statewide private land",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-18",
+        "close": "2026-12-08",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 either sex and 1 antlerless (Zones 2 and 4A: 1 either sex; extra antlerless in Zones 7, 11, 12)",
+    "possessionLimit": null,
+    "agency": "CT DEEP",
+    "sourceTitle": "CT DEEP, 2026 Connecticut Hunting and Trapping Guide: Deer Hunting",
+    "sourceUrl": "https://portal.ct.gov/deep/hunting/2026-connecticut-hunting-and-trapping-guide/deer-hunting",
+    "sourceQuote": "Private Land Shotgun/Rifle/Revolver Deer Hunting | Season Dates: | Nov. 18 - Dec. 8 | Statewide (except Zones 2 and 4A): | 1 either sex and 1 antlerless | Zones 2 and 4A:",
+    "checkedDate": "2026-11-23",
+    "notes": "Junior Deer Hunter Training Days Nov. 7-14, 2026. Landowner deer season Nov. 1 - Dec. 31 (landowners with 10+ acres; not recorded). The 2026 guide deer page prints month and day only; year 2026 from the 2026 guide. "
+  },
+  {
+    "id": "ct-deer-shotgun-state-nolottery-2026",
+    "state": "CT",
+    "species": "deer",
+    "seasonName": "State land no-lottery shotgun deer season",
+    "zone": "State land (no-lottery areas)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-18",
+        "close": "2026-12-08",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 either sex",
+    "possessionLimit": null,
+    "agency": "CT DEEP",
+    "sourceTitle": "CT DEEP, 2026 Connecticut Hunting and Trapping Guide: Deer Hunting",
+    "sourceUrl": "https://portal.ct.gov/deep/hunting/2026-connecticut-hunting-and-trapping-guide/deer-hunting",
+    "sourceQuote": "State Land No-Lottery Deer Hunting | Season Dates: | Nov. 18 - Dec. 8 | Bag Limit: | 1 either sex",
+    "checkedDate": "2026-11-23",
+    "notes": "State land lottery seasons are described in the summary, not recorded. The 2026 guide deer page prints month and day only; year 2026 from the 2026 guide. "
+  },
+  {
+    "id": "ct-deer-muzzleloader-private-2026",
+    "state": "CT",
+    "species": "deer",
+    "seasonName": "Private land muzzleloader deer season",
+    "zone": "Statewide private land",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-09",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 either sex and 1 antlerless (Zones 2 and 4A: 1 either sex; extra antlerless in Zones 7, 11, 12)",
+    "possessionLimit": null,
+    "agency": "CT DEEP",
+    "sourceTitle": "CT DEEP, 2026 Connecticut Hunting and Trapping Guide: Deer Hunting",
+    "sourceUrl": "https://portal.ct.gov/deep/hunting/2026-connecticut-hunting-and-trapping-guide/deer-hunting",
+    "sourceQuote": "Private Land Deer Muzzleloader Hunting | Season Dates: | Dec. 9 - Dec. 31 | Statewide (except Zones 2 and 4A): | 1 either sex and 1 antlerless | Zones 2 and 4A:",
+    "checkedDate": "2026-11-23",
+    "notes": "The 2026 guide deer page prints month and day only; year 2026 from the 2026 guide. "
+  },
+  {
+    "id": "ct-deer-muzzleloader-state-2026",
+    "state": "CT",
+    "species": "deer",
+    "seasonName": "State land muzzleloader deer season",
+    "zone": "State land",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-09",
+        "close": "2026-12-22",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 either sex",
+    "possessionLimit": null,
+    "agency": "CT DEEP",
+    "sourceTitle": "CT DEEP, 2026 Connecticut Hunting and Trapping Guide: Deer Hunting",
+    "sourceUrl": "https://portal.ct.gov/deep/hunting/2026-connecticut-hunting-and-trapping-guide/deer-hunting",
+    "sourceQuote": "State Land Deer Muzzleloader Hunting | Season Dates: | Dec. 9 - Dec. 22 | Bag Limit: | 1 either sex",
+    "checkedDate": "2026-11-23",
+    "notes": "The 2026 guide deer page prints month and day only; year 2026 from the 2026 guide. "
+  }
+]

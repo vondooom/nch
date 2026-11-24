@@ -1,0 +1,620 @@
+[
+  {
+    "id": "me-deer-archery-2026",
+    "state": "ME",
+    "species": "deer",
+    "seasonName": "Regular archery deer season",
+    "zone": "All WMDs",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 antlered deer annually (additional antlerless by permit)",
+    "possessionLimit": null,
+    "agency": "Maine IFW",
+    "sourceTitle": "Maine IFW, Season Dates and Bag Limits",
+    "sourceUrl": "https://www.maine.gov/ifw/hunting-trapping/hunting/laws-rules/season-dates-bag-limits.html",
+    "sourceQuote": "Deer | Regular Archery All October 3, 2026 October 30, 2026 | Only 1 antlered deer may be taken annually.",
+    "checkedDate": "2026-11-23",
+    "notes": "Additional (antlerless) deer require antlerless deer permits, issued by lottery by WMD (not recorded). For 2026, one deer of either sex may be taken on the big game license statewide during regular archery and youth seasons, and in WMDs 21-25 and 29 during firearms and muzzleloader seasons. All dates are inclusive except that hunting is prohibited on Sunday. Years as printed in the source."
+  },
+  {
+    "id": "me-deer-youth-2026",
+    "state": "ME",
+    "species": "deer",
+    "seasonName": "Youth deer hunt",
+    "zone": "All WMDs",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-23",
+        "close": "2026-10-24",
+        "note": "youth only"
+      }
+    ],
+    "bagLimit": "1 antlered deer annually (additional antlerless by permit)",
+    "possessionLimit": null,
+    "agency": "Maine IFW",
+    "sourceTitle": "Maine IFW, Season Dates and Bag Limits",
+    "sourceUrl": "https://www.maine.gov/ifw/hunting-trapping/hunting/laws-rules/season-dates-bag-limits.html",
+    "sourceQuote": "Deer | Youth Deer Hunt All October 23, 2026 October 24, 2026 | Only 1 antlered deer may be taken annually.",
+    "checkedDate": "2026-11-23",
+    "notes": "Additional (antlerless) deer require antlerless deer permits, issued by lottery by WMD (not recorded). For 2026, one deer of either sex may be taken on the big game license statewide during regular archery and youth seasons, and in WMDs 21-25 and 29 during firearms and muzzleloader seasons. All dates are inclusive except that hunting is prohibited on Sunday. Years as printed in the source."
+  },
+  {
+    "id": "me-deer-firearms-2026",
+    "state": "ME",
+    "species": "deer",
+    "seasonName": "Firearms deer season",
+    "zone": "All WMDs",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-02",
+        "close": "2026-11-28",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 antlered deer annually (additional antlerless by permit)",
+    "possessionLimit": null,
+    "agency": "Maine IFW",
+    "sourceTitle": "Maine IFW, Season Dates and Bag Limits",
+    "sourceUrl": "https://www.maine.gov/ifw/hunting-trapping/hunting/laws-rules/season-dates-bag-limits.html",
+    "sourceQuote": "Deer | Firearms Season All November 2, 2026 November 28, 2026 | Only 1 antlered deer may be taken annually.",
+    "checkedDate": "2026-11-23",
+    "notes": "Additional (antlerless) deer require antlerless deer permits, issued by lottery by WMD (not recorded). For 2026, one deer of either sex may be taken on the big game license statewide during regular archery and youth seasons, and in WMDs 21-25 and 29 during firearms and muzzleloader seasons. Maine Resident Only Day Oct. 31, 2026 (residents and qualifying nonresident landowners; not recorded as a period). All dates are inclusive except that hunting is prohibited on Sunday. Years as printed in the source."
+  },
+  {
+    "id": "me-deer-muzzleloader-2026",
+    "state": "ME",
+    "species": "deer",
+    "seasonName": "Muzzleloader deer season (statewide)",
+    "zone": "All WMDs",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-30",
+        "close": "2026-12-05",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 antlered deer annually (additional antlerless by permit)",
+    "possessionLimit": null,
+    "agency": "Maine IFW",
+    "sourceTitle": "Maine IFW, Season Dates and Bag Limits",
+    "sourceUrl": "https://www.maine.gov/ifw/hunting-trapping/hunting/laws-rules/season-dates-bag-limits.html",
+    "sourceQuote": "Deer | Muzzleloader Statewide All November 30, 2026 December 5, 2026 | Only 1 antlered deer may be taken annually.",
+    "checkedDate": "2026-11-23",
+    "notes": "Additional (antlerless) deer require antlerless deer permits, issued by lottery by WMD (not recorded). For 2026, one deer of either sex may be taken on the big game license statewide during regular archery and youth seasons, and in WMDs 21-25 and 29 during firearms and muzzleloader seasons. All dates are inclusive except that hunting is prohibited on Sunday. Years as printed in the source."
+  },
+  {
+    "id": "me-deer-muzzleloader-ext-2026",
+    "state": "ME",
+    "species": "deer",
+    "seasonName": "Muzzleloader deer season extension",
+    "zone": "WMDs 12-18 and 20-29",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-07",
+        "close": "2026-12-12",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 antlered deer annually (additional antlerless by permit)",
+    "possessionLimit": null,
+    "agency": "Maine IFW",
+    "sourceTitle": "Maine IFW, Season Dates and Bag Limits",
+    "sourceUrl": "https://www.maine.gov/ifw/hunting-trapping/hunting/laws-rules/season-dates-bag-limits.html",
+    "sourceQuote": "Deer | Muzzleloader 12-18 and 20-29 December 7, 2026 December 12, 2026 | Only 1 antlered deer may be taken annually.",
+    "checkedDate": "2026-11-23",
+    "notes": "Additional (antlerless) deer require antlerless deer permits, issued by lottery by WMD (not recorded). For 2026, one deer of either sex may be taken on the big game license statewide during regular archery and youth seasons, and in WMDs 21-25 and 29 during firearms and muzzleloader seasons. All dates are inclusive except that hunting is prohibited on Sunday. Years as printed in the source."
+  },
+  {
+    "id": "me-turkey-fall-wmd15-17-20-25-2026",
+    "state": "ME",
+    "species": "turkey",
+    "seasonName": "Fall wild turkey season (archery equipment or shotgun)",
+    "zone": "WMDs 15-17, 20-25",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-14",
+        "close": "2026-11-07",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 Wild Turkeys (seasonal, either sex; no more than 2 per day; fall total up to 5 across WMDs)",
+    "possessionLimit": null,
+    "agency": "Maine IFW",
+    "sourceTitle": "Maine IFW, Season Dates and Bag Limits",
+    "sourceUrl": "https://www.maine.gov/ifw/hunting-trapping/hunting/laws-rules/season-dates-bag-limits.html",
+    "sourceQuote": "Fall Wild Turkey | General Hunting Season 15-17, 20-25 September 14, 2026 November 7, 2026 5 Wild Turkeys | No more than two wild turkeys (either-sex, any age) may be harvested per permit holder per day, but cannot exceed the WMD bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "WMDs 1, 2, 4, 5 and 9 are closed to fall turkey. Youth Fall Wild Turkey Day Sept. 12, 2026 (not recorded). All dates are inclusive except that hunting is prohibited on Sunday. Years as printed in the source."
+  },
+  {
+    "id": "me-turkey-fall-wmd26-2026",
+    "state": "ME",
+    "species": "turkey",
+    "seasonName": "Fall wild turkey season (archery equipment or shotgun)",
+    "zone": "WMD 26",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-14",
+        "close": "2026-11-07",
+        "note": null
+      }
+    ],
+    "bagLimit": "3 Wild Turkeys (seasonal, either sex; no more than 2 per day; fall total up to 5 across WMDs)",
+    "possessionLimit": null,
+    "agency": "Maine IFW",
+    "sourceTitle": "Maine IFW, Season Dates and Bag Limits",
+    "sourceUrl": "https://www.maine.gov/ifw/hunting-trapping/hunting/laws-rules/season-dates-bag-limits.html",
+    "sourceQuote": "Fall Wild Turkey | 26 September 14, 2026 November 7, 2026 3 Wild Turkeys | No more than two wild turkeys (either-sex, any age) may be harvested per permit holder per day, but cannot exceed the WMD bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "WMDs 1, 2, 4, 5 and 9 are closed to fall turkey. Youth Fall Wild Turkey Day Sept. 12, 2026 (not recorded). All dates are inclusive except that hunting is prohibited on Sunday. Years as printed in the source."
+  },
+  {
+    "id": "me-turkey-fall-wmd28-2026",
+    "state": "ME",
+    "species": "turkey",
+    "seasonName": "Fall wild turkey season (archery equipment or shotgun)",
+    "zone": "WMD 28",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-14",
+        "close": "2026-11-07",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 Wild Turkeys (seasonal, either sex; no more than 2 per day; fall total up to 5 across WMDs)",
+    "possessionLimit": null,
+    "agency": "Maine IFW",
+    "sourceTitle": "Maine IFW, Season Dates and Bag Limits",
+    "sourceUrl": "https://www.maine.gov/ifw/hunting-trapping/hunting/laws-rules/season-dates-bag-limits.html",
+    "sourceQuote": "Fall Wild Turkey | 28 September 14, 2026 November 7, 2026 2 Wild Turkeys | No more than two wild turkeys (either-sex, any age) may be harvested per permit holder per day, but cannot exceed the WMD bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "WMDs 1, 2, 4, 5 and 9 are closed to fall turkey. Youth Fall Wild Turkey Day Sept. 12, 2026 (not recorded). All dates are inclusive except that hunting is prohibited on Sunday. Years as printed in the source."
+  },
+  {
+    "id": "me-turkey-fall-wmd-1bird-2026",
+    "state": "ME",
+    "species": "turkey",
+    "seasonName": "Fall wild turkey season (archery equipment or shotgun)",
+    "zone": "WMDs 3, 6-8, 10-14, 18, 19, 27 & 29",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-14",
+        "close": "2026-11-07",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 Wild Turkey (seasonal, either sex; no more than 2 per day; fall total up to 5 across WMDs)",
+    "possessionLimit": null,
+    "agency": "Maine IFW",
+    "sourceTitle": "Maine IFW, Season Dates and Bag Limits",
+    "sourceUrl": "https://www.maine.gov/ifw/hunting-trapping/hunting/laws-rules/season-dates-bag-limits.html",
+    "sourceQuote": "Fall Wild Turkey | 3, 6-8, 10-14, 18, 19, 27 & 29 September 14, 2026 November 7, 2026 1 Wild Turkey | No more than two wild turkeys (either-sex, any age) may be harvested per permit holder per day, but cannot exceed the WMD bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "WMDs 1, 2, 4, 5 and 9 are closed to fall turkey. Youth Fall Wild Turkey Day Sept. 12, 2026 (not recorded). All dates are inclusive except that hunting is prohibited on Sunday. Years as printed in the source."
+  },
+  {
+    "id": "me-turkey-spring-wmd7-9-29-2027",
+    "state": "ME",
+    "species": "turkey",
+    "seasonName": "Spring wild turkey season (archery equipment or shotgun)",
+    "zone": "WMDs 7 and 9-29",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-05-03",
+        "close": "2027-06-05",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 bearded Wild Turkeys (seasonal; spring total up to 2)",
+    "possessionLimit": null,
+    "agency": "Maine IFW",
+    "sourceTitle": "Maine IFW, Season Dates and Bag Limits",
+    "sourceUrl": "https://www.maine.gov/ifw/hunting-trapping/hunting/laws-rules/season-dates-bag-limits.html",
+    "sourceQuote": "Spring Wild Turkey | All Hunters 7 and 9-29 May 3, 2027 June 5, 2027 2 bearded Wild Turkeys",
+    "checkedDate": "2026-11-23",
+    "notes": "Youth Spring Wild Turkey Days Apr. 30 - May 1, 2027 (not recorded as a period). All dates are inclusive except that hunting is prohibited on Sunday. Years as printed in the source."
+  },
+  {
+    "id": "me-turkey-spring-wmd1-6-8-2027",
+    "state": "ME",
+    "species": "turkey",
+    "seasonName": "Spring wild turkey season (archery equipment or shotgun)",
+    "zone": "WMDs 1-6 and 8",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-05-03",
+        "close": "2027-06-05",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 bearded Wild Turkey (seasonal; spring total up to 2)",
+    "possessionLimit": null,
+    "agency": "Maine IFW",
+    "sourceTitle": "Maine IFW, Season Dates and Bag Limits",
+    "sourceUrl": "https://www.maine.gov/ifw/hunting-trapping/hunting/laws-rules/season-dates-bag-limits.html",
+    "sourceQuote": "Spring Wild Turkey | 1-6 and 8 May 3, 2027 June 5, 2027 1 bearded Wild Turkey",
+    "checkedDate": "2026-11-23",
+    "notes": "Youth Spring Wild Turkey Days Apr. 30 - May 1, 2027 (not recorded as a period). All dates are inclusive except that hunting is prohibited on Sunday. Years as printed in the source."
+  },
+  {
+    "id": "me-grouse-2026",
+    "state": "ME",
+    "species": "grouse",
+    "seasonName": "Ruffed grouse",
+    "zone": "All WMDs",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "4",
+    "possessionLimit": "8",
+    "agency": "Maine IFW",
+    "sourceTitle": "Maine IFW, Season Dates and Bag Limits",
+    "sourceUrl": "https://www.maine.gov/ifw/hunting-trapping/hunting/laws-rules/season-dates-bag-limits.html",
+    "sourceQuote": "Upland Birds | Ruffed Grouse & Bobwhite Quail All September 26, 2026 December 31, 2026 4 8",
+    "checkedDate": "2026-11-23",
+    "notes": "Grouse and bobwhite quail share one table row. All dates are inclusive except that hunting is prohibited on Sunday. Years as printed in the source."
+  },
+  {
+    "id": "me-quail-2026",
+    "state": "ME",
+    "species": "quail",
+    "seasonName": "Bobwhite quail",
+    "zone": "All WMDs",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "4",
+    "possessionLimit": "8",
+    "agency": "Maine IFW",
+    "sourceTitle": "Maine IFW, Season Dates and Bag Limits",
+    "sourceUrl": "https://www.maine.gov/ifw/hunting-trapping/hunting/laws-rules/season-dates-bag-limits.html",
+    "sourceQuote": "Upland Birds | Ruffed Grouse & Bobwhite Quail All September 26, 2026 December 31, 2026 4 8",
+    "checkedDate": "2026-11-23",
+    "notes": "Grouse and bobwhite quail share one table row (bag 4 daily, 8 possession, as printed). All dates are inclusive except that hunting is prohibited on Sunday. Years as printed in the source."
+  },
+  {
+    "id": "me-pheasant-2026",
+    "state": "ME",
+    "species": "pheasant",
+    "seasonName": "Pheasant",
+    "zone": "All WMDs",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "2",
+    "possessionLimit": "4",
+    "agency": "Maine IFW",
+    "sourceTitle": "Maine IFW, Season Dates and Bag Limits",
+    "sourceUrl": "https://www.maine.gov/ifw/hunting-trapping/hunting/laws-rules/season-dates-bag-limits.html",
+    "sourceQuote": "Pheasant All September 26, 2026 December 31, 2026 2 4",
+    "checkedDate": "2026-11-23",
+    "notes": "All dates are inclusive except that hunting is prohibited on Sunday. Years as printed in the source."
+  },
+  {
+    "id": "me-snipe-2026",
+    "state": "ME",
+    "species": "snipe",
+    "seasonName": "Common snipe",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2027-01-02",
+        "note": null
+      }
+    ],
+    "bagLimit": "8",
+    "possessionLimit": "24",
+    "agency": "Maine IFW",
+    "sourceTitle": "Maine IFW, Season Dates and Bag Limits",
+    "sourceUrl": "https://www.maine.gov/ifw/hunting-trapping/hunting/laws-rules/season-dates-bag-limits.html",
+    "sourceQuote": "Common Snipe** September 1, 2026 January 2, 2027 8 24",
+    "checkedDate": "2026-11-23",
+    "notes": "All dates are inclusive except that hunting is prohibited on Sunday. Years as printed in the source."
+  },
+  {
+    "id": "me-woodcock-2026",
+    "state": "ME",
+    "species": "woodcock",
+    "seasonName": "Woodcock",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-11-17",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "Maine IFW",
+    "sourceTitle": "Maine IFW, Season Dates and Bag Limits",
+    "sourceUrl": "https://www.maine.gov/ifw/hunting-trapping/hunting/laws-rules/season-dates-bag-limits.html",
+    "sourceQuote": "Woodcock** September 26, 2026 November 17, 2026 3 9",
+    "checkedDate": "2026-11-23",
+    "notes": "All dates are inclusive except that hunting is prohibited on Sunday. Years as printed in the source."
+  },
+  {
+    "id": "me-goose-early-north-2026",
+    "state": "ME",
+    "species": "goose",
+    "seasonName": "Early Canada goose season",
+    "zone": "North Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-25",
+        "note": null
+      }
+    ],
+    "bagLimit": "8",
+    "possessionLimit": "24",
+    "agency": "Maine IFW",
+    "sourceTitle": "Maine IFW, Season Dates and Bag Limits",
+    "sourceUrl": "https://www.maine.gov/ifw/hunting-trapping/hunting/laws-rules/season-dates-bag-limits.html",
+    "sourceQuote": "Canada Goose (Early) | North Zone September 1, 2026 September 25, 2026 8 24",
+    "checkedDate": "2026-11-23",
+    "notes": "All dates are inclusive except that hunting is prohibited on Sunday. Years as printed in the source."
+  },
+  {
+    "id": "me-goose-early-south-2026",
+    "state": "ME",
+    "species": "goose",
+    "seasonName": "Early Canada goose season",
+    "zone": "South Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-25",
+        "note": null
+      }
+    ],
+    "bagLimit": "10",
+    "possessionLimit": "30",
+    "agency": "Maine IFW",
+    "sourceTitle": "Maine IFW, Season Dates and Bag Limits",
+    "sourceUrl": "https://www.maine.gov/ifw/hunting-trapping/hunting/laws-rules/season-dates-bag-limits.html",
+    "sourceQuote": "Canada Goose (Early) | South Zone September 1, 2026 September 25, 2026 10 30",
+    "checkedDate": "2026-11-23",
+    "notes": "All dates are inclusive except that hunting is prohibited on Sunday. Years as printed in the source."
+  },
+  {
+    "id": "me-goose-early-coastal-2026",
+    "state": "ME",
+    "species": "goose",
+    "seasonName": "Early Canada goose season",
+    "zone": "Coastal Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-25",
+        "note": null
+      }
+    ],
+    "bagLimit": "10",
+    "possessionLimit": "30",
+    "agency": "Maine IFW",
+    "sourceTitle": "Maine IFW, Season Dates and Bag Limits",
+    "sourceUrl": "https://www.maine.gov/ifw/hunting-trapping/hunting/laws-rules/season-dates-bag-limits.html",
+    "sourceQuote": "Canada Goose (Early) | Coastal Zone September 1, 2026 September 25, 2026 10 30",
+    "checkedDate": "2026-11-23",
+    "notes": "All dates are inclusive except that hunting is prohibited on Sunday. Years as printed in the source."
+  },
+  {
+    "id": "me-goose-regular-north-2026",
+    "state": "ME",
+    "species": "goose",
+    "seasonName": "Canada goose regular season and white-fronted geese",
+    "zone": "North Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2026-12-09",
+        "note": null
+      }
+    ],
+    "bagLimit": "2",
+    "possessionLimit": "6",
+    "agency": "Maine IFW",
+    "sourceTitle": "Maine IFW, Season Dates and Bag Limits",
+    "sourceUrl": "https://www.maine.gov/ifw/hunting-trapping/hunting/laws-rules/season-dates-bag-limits.html",
+    "sourceQuote": "Canada Goose Regular, White-Fronted Geese North Zone October 1, 2026 December 9, 2026 2 6",
+    "checkedDate": "2026-11-23",
+    "notes": "All dates are inclusive except that hunting is prohibited on Sunday. Years as printed in the source."
+  },
+  {
+    "id": "me-goose-regular-south-2026",
+    "state": "ME",
+    "species": "goose",
+    "seasonName": "Canada goose regular season and white-fronted geese",
+    "zone": "South Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2026-10-10",
+        "note": null
+      },
+      {
+        "open": "2026-10-29",
+        "close": "2026-12-26",
+        "note": null
+      }
+    ],
+    "bagLimit": "2",
+    "possessionLimit": "6",
+    "agency": "Maine IFW",
+    "sourceTitle": "Maine IFW, Season Dates and Bag Limits",
+    "sourceUrl": "https://www.maine.gov/ifw/hunting-trapping/hunting/laws-rules/season-dates-bag-limits.html",
+    "sourceQuote": "Canada Goose Regular, White-Fronted Geese North Zone October 1, 2026 December 9, 2026 2 6 South Zone October 1, 2026 October 10, 2026 October 29, 2026 December 26, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "South Zone limit is read from the table row shared with the North Zone (2 daily, 6 possession). All dates are inclusive except that hunting is prohibited on Sunday. Years as printed in the source."
+  },
+  {
+    "id": "me-goose-regular-coastal-2026",
+    "state": "ME",
+    "species": "goose",
+    "seasonName": "Canada goose regular season and white-fronted geese",
+    "zone": "Coastal Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-10",
+        "note": null
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2027-01-05",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "Maine IFW",
+    "sourceTitle": "Maine IFW, Season Dates and Bag Limits",
+    "sourceUrl": "https://www.maine.gov/ifw/hunting-trapping/hunting/laws-rules/season-dates-bag-limits.html",
+    "sourceQuote": "Coastal Zone October 3, 2026 October 10, 2026 3 9 October 24, 2026 January 5, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "All dates are inclusive except that hunting is prohibited on Sunday. Years as printed in the source."
+  },
+  {
+    "id": "me-goose-snow-2026",
+    "state": "ME",
+    "species": "goose",
+    "seasonName": "Snow geese including blue geese",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2027-01-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "25",
+    "possessionLimit": null,
+    "agency": "Maine IFW",
+    "sourceTitle": "Maine IFW, Season Dates and Bag Limits",
+    "sourceUrl": "https://www.maine.gov/ifw/hunting-trapping/hunting/laws-rules/season-dates-bag-limits.html",
+    "sourceQuote": "Snow Geese Including Blue Geese October 1, 2026 January 30, 2027 25",
+    "checkedDate": "2026-11-23",
+    "notes": "All dates are inclusive except that hunting is prohibited on Sunday. Years as printed in the source."
+  },
+  {
+    "id": "me-duck-north-2026",
+    "state": "ME",
+    "species": "duck",
+    "seasonName": "Ducks, mergansers and American coots",
+    "zone": "North Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-28",
+        "close": "2026-12-05",
+        "note": null
+      }
+    ],
+    "bagLimit": "6 ducks (species limits apply; mergansers 5 and coots 5 in addition)",
+    "possessionLimit": "18 ducks",
+    "agency": "Maine IFW",
+    "sourceTitle": "Maine IFW, Season Dates and Bag Limits",
+    "sourceUrl": "https://www.maine.gov/ifw/hunting-trapping/hunting/laws-rules/season-dates-bag-limits.html",
+    "sourceQuote": "Ducks Including all duck species unless listed in exceptions, Mergansers, and American Coots | North Zone September 28, 2026 December 5, 2026 6 | In addition to the 6 duck daily bag limit, hunters may take 5 coots. | In addition to the 6 duck daily bag limit, hunters may take 5 mergansers in the aggregate",
+    "checkedDate": "2026-11-23",
+    "notes": "Species-specific limits: scaup, mottled, fulvous and hen eider 1; black duck, redhead, hen mallard, canvasback, eider 2; mallard 4 (2 hens); pintail and wood duck 3; sea ducks 4. Special youth waterfowl days not recorded. All dates are inclusive except that hunting is prohibited on Sunday. Years as printed in the source."
+  },
+  {
+    "id": "me-duck-south-2026",
+    "state": "ME",
+    "species": "duck",
+    "seasonName": "Ducks, mergansers and American coots",
+    "zone": "South Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2026-10-10",
+        "note": null
+      },
+      {
+        "open": "2026-10-29",
+        "close": "2026-12-26",
+        "note": null
+      }
+    ],
+    "bagLimit": "6 ducks (species limits apply; mergansers 5 and coots 5 in addition)",
+    "possessionLimit": "18 ducks",
+    "agency": "Maine IFW",
+    "sourceTitle": "Maine IFW, Season Dates and Bag Limits",
+    "sourceUrl": "https://www.maine.gov/ifw/hunting-trapping/hunting/laws-rules/season-dates-bag-limits.html",
+    "sourceQuote": "Ducks Including all duck species unless listed in exceptions, Mergansers, and American Coots | South Zone October 1, 2026 October 10, 2026 October 29, 2026 December 26, 2026 Coastal Zone | In addition to the 6 duck daily bag limit, hunters may take 5 coots. | In addition to the 6 duck daily bag limit, hunters may take 5 mergansers in the aggregate",
+    "checkedDate": "2026-11-23",
+    "notes": "Species-specific limits: scaup, mottled, fulvous and hen eider 1; black duck, redhead, hen mallard, canvasback, eider 2; mallard 4 (2 hens); pintail and wood duck 3; sea ducks 4. Special youth waterfowl days not recorded. All dates are inclusive except that hunting is prohibited on Sunday. Years as printed in the source."
+  },
+  {
+    "id": "me-duck-coastal-2026",
+    "state": "ME",
+    "species": "duck",
+    "seasonName": "Ducks, mergansers and American coots",
+    "zone": "Coastal Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-10",
+        "note": null
+      },
+      {
+        "open": "2026-11-05",
+        "close": "2027-01-05",
+        "note": null
+      }
+    ],
+    "bagLimit": "6 ducks (species limits apply; mergansers 5 and coots 5 in addition)",
+    "possessionLimit": "18 ducks",
+    "agency": "Maine IFW",
+    "sourceTitle": "Maine IFW, Season Dates and Bag Limits",
+    "sourceUrl": "https://www.maine.gov/ifw/hunting-trapping/hunting/laws-rules/season-dates-bag-limits.html",
+    "sourceQuote": "Ducks Including all duck species unless listed in exceptions, Mergansers, and American Coots | Coastal Zone October 3, 2026 October 10, 2026 November 5, 2026 January 5, 2027 Brant | In addition to the 6 duck daily bag limit, hunters may take 5 coots. | In addition to the 6 duck daily bag limit, hunters may take 5 mergansers in the aggregate",
+    "checkedDate": "2026-11-23",
+    "notes": "Species-specific limits: scaup, mottled, fulvous and hen eider 1; black duck, redhead, hen mallard, canvasback, eider 2; mallard 4 (2 hens); pintail and wood duck 3; sea ducks 4. Special youth waterfowl days not recorded. All dates are inclusive except that hunting is prohibited on Sunday. Years as printed in the source."
+  }
+]

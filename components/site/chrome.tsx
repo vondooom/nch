@@ -115,8 +115,8 @@ export function SiteFooter({ compact = false }: { compact?: boolean }) {
               The network
             </div>
             <p className="mb-2.5 font-serif text-[15px] leading-relaxed">
-              Local Hunts covers all 50 states. California is where the archive started. Season dates go up state by
-              state, only when we can quote the agency.
+              Local Hunts covers all 50 states. California is where the archive started. Season dates are posted for
+              every state, and only from an agency quote.
             </p>
             <p className="text-[13px] font-medium text-[#7E7660]">
               <Link href="/hunt" className="text-[#D9D2BA] hover:text-[#C75B12]">
