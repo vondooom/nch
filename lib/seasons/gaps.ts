@@ -38,4 +38,48 @@ export const unlistedBigGame: Record<string, { species: string; line: string; li
       line: "Elk licenses are by draw only, so general season dates are not listed here.",
     },
   ],
+  kansas: [
+    {
+      species: "Deer",
+      line: "The Resident Any-Deer Firearms permit and nonresident deer permits are by draw only. Fort Riley, Fort Leavenworth, and Smoky Hill subunit seasons are not listed here.",
+    },
+    {
+      species: "Elk",
+      line: "Fort Riley elk is by draw only, and Unit 1 is closed, so those seasons are not listed here.",
+    },
+  ],
+  nebraska: [
+    {
+      species: "Deer",
+      line: "Firearm, River Antlerless, landowner, and late antlerless deer seasons are set by unit, so those dates are not listed here.",
+    },
+    {
+      species: "Elk",
+      line: "Elk permits are by draw only, so season dates are not listed here.",
+    },
+  ],
+  "north-dakota": [
+    {
+      species: "Deer",
+      line: "Deer gun, muzzleloader, and youth seasons are by lottery, so those dates are not listed here.",
+    },
+    {
+      species: "Turkey",
+      line: "Fall turkey licenses are by lottery, so season dates are not listed here.",
+    },
+  ],
+  "south-dakota": [
+    {
+      species: "Deer",
+      line: "Deer licenses are issued by lottery, so season dates are not listed here.",
+    },
+    {
+      species: "Elk",
+      line: "Black Hills, Custer State Park, and the other prairie elk units are by lottery, so those dates are not listed here.",
+    },
+    {
+      species: "Turkey",
+      line: "Turkey licenses are issued by lottery, so season dates are not listed here.",
+    },
+  ],
 };

@@ -12491,6 +12491,75 @@
     "notes": "Quota: 20 licenses as printed. Commission regulation prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
   },
   {
+    "id": "wy-elk-ha77-ner-1-2026",
+    "state": "WY",
+    "species": "elk",
+    "seasonName": "Elk, National Elk Refuge",
+    "zone": "Hunt Area 77",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-01",
+        "close": "2026-11-25",
+        "note": "General license and unused limited quota licenses; antlerless elk"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "WGFD",
+    "sourceTitle": "Wyoming Game and Fish Commission Chapter 7, Elk Hunting Seasons (final April 2026)",
+    "sourceUrl": "https://wgfd.wyo.gov/media/33695/download?inline=",
+    "sourceQuote": "77                              Nov. 1     Nov. 25            General license and | unused limited quota | licenses; antlerless elk | Area 77. National Elk Refuge.",
+    "checkedDate": "2026-11-23",
+    "notes": "The regulation prints no license type for this row. Hunt Area 77 is the National Elk Refuge per the Chapter 7 hunt area descriptions. Commission regulation prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "wy-elk-ha77-ner-2-2026",
+    "state": "WY",
+    "species": "elk",
+    "seasonName": "Elk, National Elk Refuge, youth only (as printed)",
+    "zone": "Hunt Area 77",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-26",
+        "close": "2026-11-29",
+        "note": "National Elk Refuge permits shall be issued only for those in possession of a full price youth elk license, any elk; youth only"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "WGFD",
+    "sourceTitle": "Wyoming Game and Fish Commission Chapter 7, Elk Hunting Seasons (final April 2026)",
+    "sourceUrl": "https://wgfd.wyo.gov/media/33695/download?inline=",
+    "sourceQuote": "77   Youth                      Nov. 26 Nov. 29               National Elk Refuge | only                                                     permits shall be issued | only for those in | possession of a full | price youth elk | license, any elk; youth | only | Area 77. National Elk Refuge.",
+    "checkedDate": "2026-11-23",
+    "notes": "The regulation prints no license type for this row (the type column reads only 'Youth only'). Hunt Area 77 is the National Elk Refuge per the Chapter 7 hunt area descriptions. Commission regulation prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "wy-elk-ha77-ner-3-2026",
+    "state": "WY",
+    "species": "elk",
+    "seasonName": "Elk, National Elk Refuge",
+    "zone": "Hunt Area 77",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-30",
+        "close": "2026-12-06",
+        "note": "General license and unused limited quota licenses, antlerless elk"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "WGFD",
+    "sourceTitle": "Wyoming Game and Fish Commission Chapter 7, Elk Hunting Seasons (final April 2026)",
+    "sourceUrl": "https://wgfd.wyo.gov/media/33695/download?inline=",
+    "sourceQuote": "77                              Nov. 30 Dec. 6                General license and | unused limited quota | licenses, antlerless elk | Area 77. National Elk Refuge.",
+    "checkedDate": "2026-11-23",
+    "notes": "The regulation prints no license type for this row. Hunt Area 77 is the National Elk Refuge per the Chapter 7 hunt area descriptions. Commission regulation prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
     "id": "wy-elk-ha77-type6-2026",
     "state": "WY",
     "species": "elk",

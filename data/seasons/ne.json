@@ -1,0 +1,509 @@
+[
+  {
+    "id": "ne-duck-zone1-2026",
+    "state": "NE",
+    "species": "duck",
+    "seasonName": "Duck and Coot, Zone 1",
+    "zone": "Zone 1",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-13",
+        "note": "early teal season (blue-winged, green-winged and cinnamon teal only; 6 daily)"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-18",
+        "note": "youth, veteran and active-duty military"
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2026-12-06",
+        "note": "segment 1"
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2027-01-17",
+        "note": "segment 2"
+      }
+    ],
+    "bagLimit": "Tier I: 6 ducks including mergansers (no more than 5 mallards, of which no more than 2 hens; 3 wood ducks, 1 scaup, 2 redheads, 3 pintails, 2 canvasbacks). Tier II: 3 ducks of any species or sex. Coots 15.",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "NGPC",
+    "sourceTitle": "Nebraska Game and Parks, Small Game & Waterfowl Guide page (2026-27)",
+    "sourceUrl": "https://outdoornebraska.gov/guides-maps/hunting-guides/small-game-waterfowl-guide/",
+    "sourceQuote": "Zone 1 — Oct. 24-Dec. 6, 2026, and Dec. 19, 2026-Jan. 17, 2027 | Zone 1 — Oct. 17-18, 2026 | Low Plains — Sept. 5-13, 2026 High Plains — Sept. 5-13, 2026 Daily Bag Limit: Six in aggregate (Blue-, Green-winged and Cinnamon Teal) Possession Bag Limit: 18 | Tier I – Bag limit is six ducks (including mergansers). | May include no more than five mallards, of which no more than two may be hens, three wood ducks, one scaup, two redheads, three pintails and two canvasbacks. | Tier II – Bag limit is three ducks. | The possession limit is three times the daily bag limit. | The daily bag for coots is 15.",
+    "checkedDate": "2026-11-23",
+    "notes": "Hunters use either the Tier I or Tier II bag. Duck zones changed for 2026 (three zones instead of four). Early teal possession limit 18."
+  },
+  {
+    "id": "ne-duck-zone2-2026",
+    "state": "NE",
+    "species": "duck",
+    "seasonName": "Duck and Coot, Zone 2",
+    "zone": "Zone 2",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-13",
+        "note": "early teal season (blue-winged, green-winged and cinnamon teal only; 6 daily)"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-27",
+        "note": "youth, veteran and active-duty military"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-12-15",
+        "note": "segment 1"
+      },
+      {
+        "open": "2027-01-06",
+        "close": "2027-01-27",
+        "note": "segment 2 (High Plains portion)"
+      }
+    ],
+    "bagLimit": "Tier I: 6 ducks including mergansers (no more than 5 mallards, of which no more than 2 hens; 3 wood ducks, 1 scaup, 2 redheads, 3 pintails, 2 canvasbacks). Tier II: 3 ducks of any species or sex. Coots 15.",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "NGPC",
+    "sourceTitle": "Nebraska Game and Parks, Small Game & Waterfowl Guide page (2026-27)",
+    "sourceUrl": "https://outdoornebraska.gov/guides-maps/hunting-guides/small-game-waterfowl-guide/",
+    "sourceQuote": "Zone 2 — Oct. 3-Dec. 15, 2026, and Jan. 6-27, 2027 (High Plains) | Zone 2 — Sept. 26-27, 2026 | Low Plains — Sept. 5-13, 2026 High Plains — Sept. 5-13, 2026 Daily Bag Limit: Six in aggregate (Blue-, Green-winged and Cinnamon Teal) Possession Bag Limit: 18 | Tier I – Bag limit is six ducks (including mergansers). | May include no more than five mallards, of which no more than two may be hens, three wood ducks, one scaup, two redheads, three pintails and two canvasbacks. | Tier II – Bag limit is three ducks. | The possession limit is three times the daily bag limit. | The daily bag for coots is 15.",
+    "checkedDate": "2026-11-23",
+    "notes": "Hunters use either the Tier I or Tier II bag. Duck zones changed for 2026 (three zones instead of four). Early teal possession limit 18. The second segment applies in the High Plains portion of the zone as printed."
+  },
+  {
+    "id": "ne-duck-zone3-2026",
+    "state": "NE",
+    "species": "duck",
+    "seasonName": "Duck and Coot, Zone 3",
+    "zone": "Zone 3",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-13",
+        "note": "early teal season (blue-winged, green-winged and cinnamon teal only; 6 daily)"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-18",
+        "note": "youth, veteran and active-duty military"
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2027-01-05",
+        "note": "segment 1"
+      },
+      {
+        "open": "2027-01-06",
+        "close": "2027-01-27",
+        "note": "segment 2 (High Plains portion)"
+      }
+    ],
+    "bagLimit": "Tier I: 6 ducks including mergansers (no more than 5 mallards, of which no more than 2 hens; 3 wood ducks, 1 scaup, 2 redheads, 3 pintails, 2 canvasbacks). Tier II: 3 ducks of any species or sex. Coots 15.",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "NGPC",
+    "sourceTitle": "Nebraska Game and Parks, Small Game & Waterfowl Guide page (2026-27)",
+    "sourceUrl": "https://outdoornebraska.gov/guides-maps/hunting-guides/small-game-waterfowl-guide/",
+    "sourceQuote": "Zone 3 — Oct. 24, 2026-Jan. 5, 2027, and Jan. 6-27, 2027 (High Plains) | Zone 3 — Oct. 17-18, 2026 | Low Plains — Sept. 5-13, 2026 High Plains — Sept. 5-13, 2026 Daily Bag Limit: Six in aggregate (Blue-, Green-winged and Cinnamon Teal) Possession Bag Limit: 18 | Tier I – Bag limit is six ducks (including mergansers). | May include no more than five mallards, of which no more than two may be hens, three wood ducks, one scaup, two redheads, three pintails and two canvasbacks. | Tier II – Bag limit is three ducks. | The possession limit is three times the daily bag limit. | The daily bag for coots is 15.",
+    "checkedDate": "2026-11-23",
+    "notes": "Hunters use either the Tier I or Tier II bag. Duck zones changed for 2026 (three zones instead of four). Early teal possession limit 18. The second segment applies in the High Plains portion of the zone as printed."
+  },
+  {
+    "id": "ne-goose-dark-north-central-2026",
+    "state": "NE",
+    "species": "goose",
+    "seasonName": "Dark Goose, North Central Unit",
+    "zone": "North Central Unit",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2027-01-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "5",
+    "possessionLimit": "15",
+    "agency": "NGPC",
+    "sourceTitle": "Nebraska Game and Parks, Hunting Seasons page",
+    "sourceUrl": "https://outdoornebraska.gov/hunt/hunting-seasons/",
+    "sourceQuote": "- Dark goose | - North Central unit: Oct. 3, 2026-Jan. 15, 2027 | - Daily bag limit: 5; possession limit: 15",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "ne-goose-dark-platte-river-2026",
+    "state": "NE",
+    "species": "goose",
+    "seasonName": "Dark Goose, Platte River Unit",
+    "zone": "Platte River Unit",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-28",
+        "close": "2027-02-09",
+        "note": null
+      }
+    ],
+    "bagLimit": "5",
+    "possessionLimit": "15",
+    "agency": "NGPC",
+    "sourceTitle": "Nebraska Game and Parks, Hunting Seasons page",
+    "sourceUrl": "https://outdoornebraska.gov/hunt/hunting-seasons/",
+    "sourceQuote": "- Dark goose | - Platte River unit: Oct. 28, 2026-Feb. 9, 2027 | - Daily bag limit: 5; possession limit: 15",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "ne-goose-dark-niobrara-2026",
+    "state": "NE",
+    "species": "goose",
+    "seasonName": "Dark Goose, Niobrara Unit",
+    "zone": "Niobrara Unit",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-28",
+        "close": "2027-02-09",
+        "note": null
+      }
+    ],
+    "bagLimit": "5",
+    "possessionLimit": "15",
+    "agency": "NGPC",
+    "sourceTitle": "Nebraska Game and Parks, Hunting Seasons page",
+    "sourceUrl": "https://outdoornebraska.gov/hunt/hunting-seasons/",
+    "sourceQuote": "- Dark goose | - Niobrara unit: Oct. 28, 2026-Feb. 9, 2027 | - Daily bag limit: 5; possession limit: 15",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "ne-goose-white-fronted-statewide-2026",
+    "state": "NE",
+    "species": "goose",
+    "seasonName": "White-fronted Goose",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2026-12-27",
+        "note": "segment 1"
+      },
+      {
+        "open": "2027-01-25",
+        "close": "2027-02-09",
+        "note": "segment 2"
+      }
+    ],
+    "bagLimit": "2",
+    "possessionLimit": "6",
+    "agency": "NGPC",
+    "sourceTitle": "Nebraska Game and Parks, Small Game & Waterfowl Guide page (2026-27)",
+    "sourceUrl": "https://outdoornebraska.gov/guides-maps/hunting-guides/small-game-waterfowl-guide/",
+    "sourceQuote": "White-fronted goose season | Statewide season: Oct. 17-Dec. 27, 2026, and Jan. 25-Feb. 9, 2027 Daily bag limit: Two Possession limit: Six",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "ne-goose-light-statewide-2026",
+    "state": "NE",
+    "species": "goose",
+    "seasonName": "Light Goose, regular season",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-12-30",
+        "note": "segment 1"
+      },
+      {
+        "open": "2027-01-25",
+        "close": "2027-02-09",
+        "note": "segment 2"
+      }
+    ],
+    "bagLimit": "50",
+    "possessionLimit": "No limit",
+    "agency": "NGPC",
+    "sourceTitle": "Nebraska Game and Parks, Small Game & Waterfowl Guide page (2026-27)",
+    "sourceUrl": "https://outdoornebraska.gov/guides-maps/hunting-guides/small-game-waterfowl-guide/",
+    "sourceQuote": "Light goose regular season | Species: White and blue-phase snow geese and Ross’s geese Statewide season: Oct. 3-Dec. 30, 2026, and Jan. 25-Feb. 9, 2027 Daily bag limit: 50 Possession limit: No limit | Rainwater Basin Zone: Feb. 10-April 5, 2027 East Zone: Feb. 10-April 15, 2027 West Zone: Feb. 10-April 5, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Light Goose Conservation Order follows: Rainwater Basin and West zones Feb. 10 to Apr. 5, 2027; East Zone Feb. 10 to Apr. 15, 2027 (no limits; special zone rules)."
+  },
+  {
+    "id": "ne-pheasant-statewide-2026",
+    "state": "NE",
+    "species": "pheasant",
+    "seasonName": "Pheasant",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2026-10-25",
+        "note": "youth only (15 or younger; youth bag 2 daily, 4 possession)"
+      },
+      {
+        "open": "2026-10-31",
+        "close": "2027-01-31",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": "3 roosters",
+    "possessionLimit": "12",
+    "agency": "NGPC",
+    "sourceTitle": "Nebraska Game and Parks, Small Game & Waterfowl Guide page (2026-27)",
+    "sourceUrl": "https://outdoornebraska.gov/guides-maps/hunting-guides/small-game-waterfowl-guide/",
+    "sourceQuote": "Pheasant | Season dates – Oct. 31, 2026-Jan. 31, 2027 Daily bag/possession limits – 3/12 Regulation notes – Only rooster pheasants may be harvested. | Season dates – Oct. 24-25, 2026 Youth hunter daily bag/possession limits – 2/4 rooster pheasants, 2/4 quail, 2/4 partridge",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "ne-quail-statewide-2026",
+    "state": "NE",
+    "species": "quail",
+    "seasonName": "Quail",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2026-10-25",
+        "note": "youth only (15 or younger; youth bag 2 daily, 4 possession)"
+      },
+      {
+        "open": "2026-10-31",
+        "close": "2027-01-31",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": "6",
+    "possessionLimit": "24",
+    "agency": "NGPC",
+    "sourceTitle": "Nebraska Game and Parks, Small Game & Waterfowl Guide page (2026-27)",
+    "sourceUrl": "https://outdoornebraska.gov/guides-maps/hunting-guides/small-game-waterfowl-guide/",
+    "sourceQuote": "Quail | Season dates – Oct. 31, 2026-Jan. 31, 2027 Daily bag/possession limits – 6/24 Regulation notes – Quail must be shot while in flight. | Season dates – Oct. 24-25, 2026 Youth hunter daily bag/possession limits – 2/4 rooster pheasants, 2/4 quail, 2/4 partridge",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "ne-partridge-statewide-2026",
+    "state": "NE",
+    "species": "partridge",
+    "seasonName": "Partridge (Hungarian/gray and chukar)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2026-10-25",
+        "note": "youth only (15 or younger; youth bag 2 daily, 4 possession)"
+      },
+      {
+        "open": "2026-10-31",
+        "close": "2027-01-31",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": "3 in aggregate",
+    "possessionLimit": "12 in aggregate",
+    "agency": "NGPC",
+    "sourceTitle": "Nebraska Game and Parks, Small Game & Waterfowl Guide page (2026-27)",
+    "sourceUrl": "https://outdoornebraska.gov/guides-maps/hunting-guides/small-game-waterfowl-guide/",
+    "sourceQuote": "Includes Hungarian/gray and chukar partridges. | Season dates – Oct. 31, 2026-Jan. 31, 2027 Daily bag/possession limits – 3/12 in aggregate | Season dates – Oct. 24-25, 2026 Youth hunter daily bag/possession limits – 2/4 rooster pheasants, 2/4 quail, 2/4 partridge",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "ne-prairie-chicken-east-2026",
+    "state": "NE",
+    "species": "prairie-chicken",
+    "seasonName": "Greater Prairie-Chicken (Prairie Grouse), East Zone",
+    "zone": "East Zone (east of U.S. Highway 81)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "3 in aggregate (prairie grouse)",
+    "possessionLimit": "3 in aggregate",
+    "agency": "NGPC",
+    "sourceTitle": "Nebraska Game and Parks, Small Game & Waterfowl Guide page (2026-27)",
+    "sourceUrl": "https://outdoornebraska.gov/guides-maps/hunting-guides/small-game-waterfowl-guide/",
+    "sourceQuote": "Includes greater prairie-chickens and sharp-tailed grouse. | East zone season dates – Sept. 1, 2026-Jan. 31, 2027 Daily bag/possession limits – 3/3 in aggregate Open area – east of U.S. Highway 81 Special grouse permits – Required, along with a hunting permit, for hunting prairie grouse east of U.S. Highway 81; also: | They are free of charge, limited in number to 400 and limited to one per hunter.",
+    "checkedDate": "2026-11-23",
+    "notes": "Free special grouse permit required east of U.S. 81 (400 available, first come)."
+  },
+  {
+    "id": "ne-prairie-chicken-west-2026",
+    "state": "NE",
+    "species": "prairie-chicken",
+    "seasonName": "Greater Prairie-Chicken (Prairie Grouse), West Zone",
+    "zone": "West Zone (west of U.S. Highway 81)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "3 in aggregate (prairie grouse)",
+    "possessionLimit": "12 in aggregate",
+    "agency": "NGPC",
+    "sourceTitle": "Nebraska Game and Parks, Small Game & Waterfowl Guide page (2026-27)",
+    "sourceUrl": "https://outdoornebraska.gov/guides-maps/hunting-guides/small-game-waterfowl-guide/",
+    "sourceQuote": "Includes greater prairie-chickens and sharp-tailed grouse. | West Zone season dates – Sept. 1, 2026-Jan. 31, 2027 Daily bag/possession limits – 3/12 in aggregate Open area – west of U.S. Highway 81 Regulation notes – No special permit required.",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "ne-sharptail-east-2026",
+    "state": "NE",
+    "species": "sharptail",
+    "seasonName": "Sharp-tailed Grouse (Prairie Grouse), East Zone",
+    "zone": "East Zone (east of U.S. Highway 81)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "3 in aggregate (prairie grouse)",
+    "possessionLimit": "3 in aggregate",
+    "agency": "NGPC",
+    "sourceTitle": "Nebraska Game and Parks, Small Game & Waterfowl Guide page (2026-27)",
+    "sourceUrl": "https://outdoornebraska.gov/guides-maps/hunting-guides/small-game-waterfowl-guide/",
+    "sourceQuote": "Includes greater prairie-chickens and sharp-tailed grouse. | East zone season dates – Sept. 1, 2026-Jan. 31, 2027 Daily bag/possession limits – 3/3 in aggregate Open area – east of U.S. Highway 81 Special grouse permits – Required, along with a hunting permit, for hunting prairie grouse east of U.S. Highway 81; also: | They are free of charge, limited in number to 400 and limited to one per hunter.",
+    "checkedDate": "2026-11-23",
+    "notes": "Free special grouse permit required east of U.S. 81 (400 available, first come)."
+  },
+  {
+    "id": "ne-sharptail-west-2026",
+    "state": "NE",
+    "species": "sharptail",
+    "seasonName": "Sharp-tailed Grouse (Prairie Grouse), West Zone",
+    "zone": "West Zone (west of U.S. Highway 81)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "3 in aggregate (prairie grouse)",
+    "possessionLimit": "12 in aggregate",
+    "agency": "NGPC",
+    "sourceTitle": "Nebraska Game and Parks, Small Game & Waterfowl Guide page (2026-27)",
+    "sourceUrl": "https://outdoornebraska.gov/guides-maps/hunting-guides/small-game-waterfowl-guide/",
+    "sourceQuote": "Includes greater prairie-chickens and sharp-tailed grouse. | West Zone season dates – Sept. 1, 2026-Jan. 31, 2027 Daily bag/possession limits – 3/12 in aggregate Open area – west of U.S. Highway 81 Regulation notes – No special permit required.",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "ne-dove-statewide-2026",
+    "state": "NE",
+    "species": "dove",
+    "seasonName": "Dove (mourning, white-winged and Eurasian collared-doves)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-10-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "15 in aggregate",
+    "possessionLimit": "45 in aggregate",
+    "agency": "NGPC",
+    "sourceTitle": "Nebraska Game and Parks, Small Game & Waterfowl Guide page (2026-27)",
+    "sourceUrl": "https://outdoornebraska.gov/guides-maps/hunting-guides/small-game-waterfowl-guide/",
+    "sourceQuote": "Includes mourning, white-winged and Eurasian collared-doves. | Season dates – Sept. 1-Oct. 30, 2026 Daily bag/possession limits – 15/45 in aggregate",
+    "checkedDate": "2026-11-23",
+    "notes": "Eurasian collared-doves alone stay open Oct. 31, 2026 to Aug. 31, 2027 (15 daily, 45 possession)."
+  },
+  {
+    "id": "ne-turkey-fall-2026",
+    "state": "NE",
+    "species": "turkey",
+    "seasonName": "Fall Turkey (archery and shotgun)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2026-11-30",
+        "note": "fall archery and shotgun, including youth"
+      }
+    ],
+    "bagLimit": "1 turkey of either sex per fall permit (1 fall permit per person)",
+    "possessionLimit": null,
+    "agency": "NGPC",
+    "sourceTitle": "Nebraska Game and Parks, Hunting Seasons page",
+    "sourceUrl": "https://outdoornebraska.gov/hunt/hunting-seasons/",
+    "sourceQuote": "- Fall youth archery and shotgun: Oct. 1-Nov. 30, 2026 | - Fall archery and shotgun: Oct. 1-Nov. 30, 2026 | - Hunters may purchase up to one fall permit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Fall turkey permits are valid statewide for one turkey of either sex; resident permits are unlimited and there is no limit on nonresident fall permits (Turkey Guide). Spring 2027 dates are not yet published (the pages show spring 2026)."
+  },
+  {
+    "id": "ne-deer-archery-statewide-2026",
+    "state": "NE",
+    "species": "deer",
+    "seasonName": "Deer, Statewide Archery",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 any deer except antlerless mule deer (per permit)",
+    "possessionLimit": null,
+    "agency": "NGPC",
+    "sourceTitle": "Nebraska Game and Parks, Hunting Seasons page",
+    "sourceUrl": "https://outdoornebraska.gov/hunt/hunting-seasons/",
+    "sourceQuote": "- Deer | - Archery: Sept. 1-Dec. 31, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "Resident Statewide Archery permits are unlimited; nonresident Statewide Archery is a draw permit (3,000) (Big Game Guide). Special unit restrictions apply."
+  },
+  {
+    "id": "ne-deer-muzzleloader-statewide-2026",
+    "state": "NE",
+    "species": "deer",
+    "seasonName": "Deer, Statewide Muzzleloader",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-01",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 any deer except antlerless mule deer (per permit)",
+    "possessionLimit": null,
+    "agency": "NGPC",
+    "sourceTitle": "Nebraska Game and Parks, Hunting Seasons page",
+    "sourceUrl": "https://outdoornebraska.gov/hunt/hunting-seasons/",
+    "sourceQuote": "- Deer | - Muzzleloader: Dec. 1-31, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "Resident Statewide Muzzleloader permits are unlimited; nonresident Statewide Muzzleloader is a draw permit (1,000) (Big Game Guide). Special unit restrictions apply."
+  }
+]

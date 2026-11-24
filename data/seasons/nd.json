@@ -1,0 +1,396 @@
+[
+  {
+    "id": "nd-sharptail-statewide-2026",
+    "state": "ND",
+    "species": "sharptail",
+    "seasonName": "Sharp-tailed Grouse",
+    "zone": "Statewide (see exception)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2027-01-03",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "12",
+    "agency": "NDGF",
+    "sourceTitle": "North Dakota Game and Fish, 2026-27 Hunting and Trapping Guide (Upland Game, Migratory Game Birds and Furbearer)",
+    "sourceUrl": "https://gf.nd.gov/gnf/regulations/docs/combination/Combo-Hunting-Trapping-Guide26.pdf",
+    "sourceQuote": "SHARP-TAILED GROUSE | Open Area: Statewide (see exception) | Opens: Sept. 12 Closes: Jan. 3 | Daily Limit: 3 | Possession Limit: 12 | EXCEPTION – That portion of North Dakota bordered on the west by ND | Highway 32, on the north by the Sheyenne River, on the south by ND Highway | 11 and on the east by the Red and Bois de Sioux rivers.",
+    "checkedDate": "2026-11-23",
+    "notes": "Closed in the area bounded by ND Highway 32, the Sheyenne River, ND Highway 11 and the Red and Bois de Sioux rivers. Nonresidents may not hunt PLOTS or state WMAs Oct. 10-16, 2026. The guide prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "nd-grouse-ruffed-2026",
+    "state": "ND",
+    "species": "grouse",
+    "seasonName": "Ruffed Grouse",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2027-01-03",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "12",
+    "agency": "NDGF",
+    "sourceTitle": "North Dakota Game and Fish, 2026-27 Hunting and Trapping Guide (Upland Game, Migratory Game Birds and Furbearer)",
+    "sourceUrl": "https://gf.nd.gov/gnf/regulations/docs/combination/Combo-Hunting-Trapping-Guide26.pdf",
+    "sourceQuote": "RUFFED GROUSE | Opens: Sept. 12 Closes: Jan. 3 | Daily Limit: 3 | Possession Limit: 12",
+    "checkedDate": "2026-11-23",
+    "notes": "The guide prints no open area for ruffed grouse, so zone is null. The guide prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "nd-partridge-statewide-2026",
+    "state": "ND",
+    "species": "partridge",
+    "seasonName": "Hungarian Partridge",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2027-01-03",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "12",
+    "agency": "NDGF",
+    "sourceTitle": "North Dakota Game and Fish, 2026-27 Hunting and Trapping Guide (Upland Game, Migratory Game Birds and Furbearer)",
+    "sourceUrl": "https://gf.nd.gov/gnf/regulations/docs/combination/Combo-Hunting-Trapping-Guide26.pdf",
+    "sourceQuote": "HUNGARIAN PARTRIDGE | Open Area: Statewide | Opens: Sept. 12 Closes: Jan. 3 | Daily Limit: 3 | Possession Limit: 12",
+    "checkedDate": "2026-11-23",
+    "notes": "The guide prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "nd-pheasant-statewide-2026",
+    "state": "ND",
+    "species": "pheasant",
+    "seasonName": "Pheasant (male pheasants only)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-04",
+        "note": "youth only (15 and younger)"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2027-01-03",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "12",
+    "agency": "NDGF",
+    "sourceTitle": "North Dakota Game and Fish, 2026-27 Hunting and Trapping Guide (Upland Game, Migratory Game Birds and Furbearer)",
+    "sourceUrl": "https://gf.nd.gov/gnf/regulations/docs/combination/Combo-Hunting-Trapping-Guide26.pdf",
+    "sourceQuote": "PHEASANT (MALE PHEASANTS ONLY) | Open Area: Statewide | Opens: Oct. 10 Closes: Jan. 3 | Daily Limit: 3 | Possession Limit: 12 | Youth Pheasant Season – Legally licensed residents and nonresidents ages 15 | and younger may hunt pheasants statewide from Oct. 3-4.",
+    "checkedDate": "2026-11-23",
+    "notes": "Youth season possession limit is 6 per the season table. Nonresidents may not hunt PLOTS or state WMAs Oct. 10-16, 2026. The guide prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "nd-dove-statewide-2026",
+    "state": "ND",
+    "species": "dove",
+    "seasonName": "Doves (mourning and Eurasian collared)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-11-29",
+        "note": null
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": "45",
+    "agency": "NDGF",
+    "sourceTitle": "North Dakota Game and Fish, 2026-27 Hunting and Trapping Guide (Upland Game, Migratory Game Birds and Furbearer)",
+    "sourceUrl": "https://gf.nd.gov/gnf/regulations/docs/combination/Combo-Hunting-Trapping-Guide26.pdf",
+    "sourceQuote": "DOVES | Open Area: Statewide | Opens: Sept. 1 | Closes: Nov. 29 | Daily Limit: 15 | Possession Limit: 45 | The dove bag limit includes mourning doves and Eurasion collared doves.",
+    "checkedDate": "2026-11-23",
+    "notes": "The guide prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "nd-duck-lowplains-2026",
+    "state": "ND",
+    "species": "duck",
+    "seasonName": "Ducks, Mergansers and Coots, Low Plains Unit",
+    "zone": "Low Plains Unit",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-20",
+        "note": "youth (15 and younger) and veteran/active military days, statewide"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-12-06",
+        "note": "residents"
+      },
+      {
+        "open": "2026-10-05",
+        "close": "2026-12-06",
+        "note": "nonresidents"
+      }
+    ],
+    "bagLimit": "6 (no more than 5 mallards of which 2 hens, 3 pintail, 3 wood ducks, 2 redheads, 2 canvasbacks, 1 scaup); plus 2 bonus blue-winged teal Sept. 26 to Oct. 4",
+    "possessionLimit": "Three times the daily limit",
+    "agency": "NDGF",
+    "sourceTitle": "North Dakota Game and Fish, 2026-27 Hunting and Trapping Guide (Upland Game, Migratory Game Birds and Furbearer)",
+    "sourceUrl": "https://gf.nd.gov/gnf/regulations/docs/combination/Combo-Hunting-Trapping-Guide26.pdf",
+    "sourceQuote": "DUCKS AND MERGANSERS | Opens: Sept. 26 (residents only), Oct. 5 (nonresidents) | Closes: Dec. 6 | Daily Limit: 6 (see Ducks and Mergansers restrictions below) | Possession Limit: Three times the daily limit | restrictions as follows: 5 mallards of which only 2 may be hens, 3 pintail, 3 wood | ducks, 2 redheads, 2 canvasbacks, 1 scaup. Note: An additional 2 blue-winged | teal may be taken Sept. 26 through Oct. 4 only. | SPECIAL YOUTH WATERFOWL SEASON | Opens: Sept. 19 | Closes: Sept. 20 | LOW PLAINS UNIT (SEE MAP on page 14)",
+    "checkedDate": "2026-11-23",
+    "notes": "Coots 15 daily, 45 possession. Veteran/active military day is for resident license holders. Nonresidents hunt within nonresident waterfowl zones. The guide prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "nd-duck-highplains-2026",
+    "state": "ND",
+    "species": "duck",
+    "seasonName": "Ducks, Mergansers and Coots, High Plains Unit",
+    "zone": "High Plains Unit",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-20",
+        "note": "youth (15 and younger) and veteran/active military days, statewide"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-12-06",
+        "note": "residents"
+      },
+      {
+        "open": "2026-10-05",
+        "close": "2026-12-06",
+        "note": "nonresidents"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-01-03",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "6 (no more than 5 mallards of which 2 hens, 3 pintail, 3 wood ducks, 2 redheads, 2 canvasbacks, 1 scaup); plus 2 bonus blue-winged teal Sept. 26 to Oct. 4",
+    "possessionLimit": "Three times the daily limit",
+    "agency": "NDGF",
+    "sourceTitle": "North Dakota Game and Fish, 2026-27 Hunting and Trapping Guide (Upland Game, Migratory Game Birds and Furbearer)",
+    "sourceUrl": "https://gf.nd.gov/gnf/regulations/docs/combination/Combo-Hunting-Trapping-Guide26.pdf",
+    "sourceQuote": "DUCKS AND MERGANSERS | Opens: Sept. 26 (residents only), Oct. 5 (nonresidents) | Closes: Dec. 6 | Daily Limit: 6 (see Ducks and Mergansers restrictions below) | Possession Limit: Three times the daily limit | restrictions as follows: 5 mallards of which only 2 may be hens, 3 pintail, 3 wood | ducks, 2 redheads, 2 canvasbacks, 1 scaup. Note: An additional 2 blue-winged | teal may be taken Sept. 26 through Oct. 4 only. | SPECIAL YOUTH WATERFOWL SEASON | Opens: Sept. 19 | Closes: Sept. 20 | HIGH PLAINS UNIT (SEE MAP on page 14) | Opens: Dec. 12 | Closes: Jan. 3",
+    "checkedDate": "2026-11-23",
+    "notes": "Coots 15 daily, 45 possession. Veteran/active military day is for resident license holders. The guide prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "nd-goose-canada-missouri-river-2026",
+    "state": "ND",
+    "species": "goose",
+    "seasonName": "Canada Geese, Missouri River Zone",
+    "zone": "Missouri River Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-07",
+        "note": "August management take / early September season"
+      },
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-20",
+        "note": "youth (15 and younger) and veteran/active military days, statewide"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2027-01-01",
+        "note": "regular season, residents"
+      },
+      {
+        "open": "2026-10-05",
+        "close": "2027-01-01",
+        "note": "regular season, nonresidents"
+      }
+    ],
+    "bagLimit": "15 (early season); 5 (regular season)",
+    "possessionLimit": "45 (early season); 15 (regular season)",
+    "agency": "NDGF",
+    "sourceTitle": "North Dakota Game and Fish, 2026-27 Hunting and Trapping Guide (Upland Game, Migratory Game Birds and Furbearer)",
+    "sourceUrl": "https://gf.nd.gov/gnf/regulations/docs/combination/Combo-Hunting-Trapping-Guide26.pdf",
+    "sourceQuote": "CANADA GEESE | AUGUST MANAGEMENT TAKE/EARLY SEPTEMBER SEASON | Missouri River Zone Opens: Aug. 15 Closes: Sept. 7 | Daily Limit: 15 | Possession Limit: 45 | REGULAR SEASON | Missouri River Zone Opens: Sept. 26 (residents), | Oct. 5 (nonresidents) | Closes: Jan. 1 | Daily Limit: 8 (Western, Eastern); 5 (Missouri River) | Possession Limit: 24 (Western, Eastern); 15 (Missouri River)",
+    "checkedDate": "2026-11-23",
+    "notes": "Regular-season shooting hours end at 2 p.m. except extended days as printed. The guide prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "nd-goose-canada-western-2026",
+    "state": "ND",
+    "species": "goose",
+    "seasonName": "Canada Geese, Western Zone",
+    "zone": "Western Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-15",
+        "note": "August management take / early September season"
+      },
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-20",
+        "note": "youth (15 and younger) and veteran/active military days, statewide"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-12-24",
+        "note": "regular season, residents"
+      },
+      {
+        "open": "2026-10-05",
+        "close": "2026-12-24",
+        "note": "regular season, nonresidents"
+      }
+    ],
+    "bagLimit": "15 (early season); 8 (regular season)",
+    "possessionLimit": "45 (early season); 24 (regular season)",
+    "agency": "NDGF",
+    "sourceTitle": "North Dakota Game and Fish, 2026-27 Hunting and Trapping Guide (Upland Game, Migratory Game Birds and Furbearer)",
+    "sourceUrl": "https://gf.nd.gov/gnf/regulations/docs/combination/Combo-Hunting-Trapping-Guide26.pdf",
+    "sourceQuote": "CANADA GEESE | AUGUST MANAGEMENT TAKE/EARLY SEPTEMBER SEASON | Western Zone Opens: Aug. 15 Closes: Sept. 15 | Daily Limit: 15 | Possession Limit: 45 | REGULAR SEASON | Western Zone Opens: Sept. 26 (residents), | Oct. 5 (nonresidents) | Closes: Dec. 24 | Daily Limit: 8 (Western, Eastern); 5 (Missouri River) | Possession Limit: 24 (Western, Eastern); 15 (Missouri River)",
+    "checkedDate": "2026-11-23",
+    "notes": "Regular-season shooting hours end at 2 p.m. except extended days as printed. The guide prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "nd-goose-canada-eastern-2026",
+    "state": "ND",
+    "species": "goose",
+    "seasonName": "Canada Geese, Eastern Zone",
+    "zone": "Eastern Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-22",
+        "note": "August management take / early September season"
+      },
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-20",
+        "note": "youth (15 and younger) and veteran/active military days, statewide"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-12-19",
+        "note": "regular season, residents"
+      },
+      {
+        "open": "2026-10-05",
+        "close": "2026-12-19",
+        "note": "regular season, nonresidents"
+      }
+    ],
+    "bagLimit": "15 (early season); 8 (regular season)",
+    "possessionLimit": "45 (early season); 24 (regular season)",
+    "agency": "NDGF",
+    "sourceTitle": "North Dakota Game and Fish, 2026-27 Hunting and Trapping Guide (Upland Game, Migratory Game Birds and Furbearer)",
+    "sourceUrl": "https://gf.nd.gov/gnf/regulations/docs/combination/Combo-Hunting-Trapping-Guide26.pdf",
+    "sourceQuote": "CANADA GEESE | AUGUST MANAGEMENT TAKE/EARLY SEPTEMBER SEASON | Eastern Zone Opens: Aug. 15 Closes: Sept. 22 | Daily Limit: 15 | Possession Limit: 45 | REGULAR SEASON | Eastern Zone Opens: Sept. 26 (residents), | Oct. 5 (nonresidents) | Closes: Dec. 19 | Daily Limit: 8 (Western, Eastern); 5 (Missouri River) | Possession Limit: 24 (Western, Eastern); 15 (Missouri River)",
+    "checkedDate": "2026-11-23",
+    "notes": "Regular-season shooting hours end at 2 p.m. except extended days as printed. The guide prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "nd-goose-white-fronted-2026",
+    "state": "ND",
+    "species": "goose",
+    "seasonName": "White-fronted Geese",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-20",
+        "note": "youth (15 and younger) and veteran/active military days, statewide"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-12-06",
+        "note": "residents"
+      },
+      {
+        "open": "2026-10-05",
+        "close": "2026-12-06",
+        "note": "nonresidents"
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "NDGF",
+    "sourceTitle": "North Dakota Game and Fish, 2026-27 Hunting and Trapping Guide (Upland Game, Migratory Game Birds and Furbearer)",
+    "sourceUrl": "https://gf.nd.gov/gnf/regulations/docs/combination/Combo-Hunting-Trapping-Guide26.pdf",
+    "sourceQuote": "WHITE-FRONTED GEESE | Open Area: Statewide | Opens: Sept. 26 (residents only), Oct. 5 (nonresidents) | Closes: Dec. 6 | Daily Limit: 3 | Possession Limit: 9",
+    "checkedDate": "2026-11-23",
+    "notes": "The guide prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "nd-goose-light-2026",
+    "state": "ND",
+    "species": "goose",
+    "seasonName": "Light Geese",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-20",
+        "note": "youth (15 and younger) and veteran/active military days, statewide"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2027-01-03",
+        "note": "residents"
+      },
+      {
+        "open": "2026-10-05",
+        "close": "2027-01-03",
+        "note": "nonresidents"
+      }
+    ],
+    "bagLimit": "50",
+    "possessionLimit": "No limit",
+    "agency": "NDGF",
+    "sourceTitle": "North Dakota Game and Fish, 2026-27 Hunting and Trapping Guide (Upland Game, Migratory Game Birds and Furbearer)",
+    "sourceUrl": "https://gf.nd.gov/gnf/regulations/docs/combination/Combo-Hunting-Trapping-Guide26.pdf",
+    "sourceQuote": "LIGHT GEESE | Open Area: Statewide | Opens: Sept. 26 (residents only), Oct. 5 (nonresidents) | Closes: Jan. 3 | Daily Limit: 50 | Possession Limit: No limit",
+    "checkedDate": "2026-11-23",
+    "notes": "The guide prints month and day only; years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "nd-deer-bow-statewide-2026",
+    "state": "ND",
+    "species": "deer",
+    "seasonName": "Deer Bow",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-04",
+        "close": "2027-01-03",
+        "note": "opens 12 noon Central Time"
+      }
+    ],
+    "bagLimit": "Residents: any deer; nonresidents: type of deer on license",
+    "possessionLimit": null,
+    "agency": "NDGF",
+    "sourceTitle": "North Dakota Game and Fish, 2026 Deer Hunting Proclamation (web text)",
+    "sourceUrl": "https://gf.nd.gov/regulations/deer",
+    "sourceQuote": "Deer Bow | Statewide | Sept. 4 (12 noon) | Jan. 3 | – Any deer is legal. No unit restrictions. Orange clothing required of all bow hunters and those accompanying apprentice license holders during Deer Gun season. | – Restricted to type of deer described on license.",
+    "checkedDate": "2026-11-23",
+    "notes": "Nonresidents may hunt only on private land (excluding PLOTS) for the first 9 1/2 days; from Sept. 14 they may hunt public land too. Nonresident any-deer bow licenses are issued by lottery. The proclamation prints month and day only; years assigned for the 2026-27 season."
+  }
+]

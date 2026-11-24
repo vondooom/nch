@@ -7,12 +7,37 @@ import { HuntMap } from "@/components/site/hunt-map";
 import { SeasonList } from "@/components/site/season-list";
 import { SubscribeForm } from "@/components/site/subscribe-form";
 import { findRegion } from "@/lib/geo/regions";
-import { findState, states } from "@/lib/geo/states";
+import { findState, states, type HuntState } from "@/lib/geo/states";
 import { species, zones } from "@/lib/guides";
 import { huntUnitMaps } from "@/lib/maps/unit-maps";
 import { unlistedBigGame } from "@/lib/seasons/gaps";
 import { pageMeta } from "@/lib/site";
 import { visibleSeasonsForState } from "@/lib/seasons";
+
+function GapCopy({
+  gap,
+  item,
+}: {
+  gap: (typeof unlistedBigGame)[string][number];
+  item: HuntState;
+}) {
+  return (
+    <p>
+      {gap.line}{" "}
+      {gap.listHref ? (
+        <Link className="text-[#C75B12] underline" href={gap.listHref}>
+          {gap.listLabel}
+        </Link>
+      ) : null}
+      {gap.listHref && item.regulationsUrl ? " " : null}
+      {item.regulationsUrl ? (
+        <a className="text-[#C75B12] underline" href={item.regulationsUrl}>
+          {item.agency} regulations
+        </a>
+      ) : null}
+    </p>
+  );
+}
 
 export function generateStaticParams() {
   return states.map((item) => ({ state: item.slug }));
@@ -132,28 +157,25 @@ export default async function StateHubPage({ params }: { params: Promise<{ state
           <h2 className="mb-3 font-heading text-[28px] font-bold uppercase">Seasons</h2>
           {seasons.length > 0 ? (
             <>
-              <SeasonList records={seasons} timeZone={item.timeZone} />
-              {unlistedBigGame[item.slug]?.map((gap) => (
-                <section key={gap.species} className="mt-10">
-                  <h3 className="mb-3 border-b-2 border-[#211D14] pb-2 font-heading text-[26px] font-bold uppercase">
-                    {gap.species}
-                  </h3>
-                  <p className="font-serif text-[16px] leading-relaxed text-[#3B3526]">
-                    {gap.line}{" "}
-                    {gap.listHref ? (
-                      <Link className="text-[#C75B12] underline" href={gap.listHref}>
-                        {gap.listLabel}
-                      </Link>
-                    ) : null}
-                    {gap.listHref && item.regulationsUrl ? " " : null}
-                    {item.regulationsUrl ? (
-                      <a className="text-[#C75B12] underline" href={item.regulationsUrl}>
-                        {item.agency} regulations
-                      </a>
-                    ) : null}
-                  </p>
-                </section>
-              ))}
+              <SeasonList
+                records={seasons}
+                timeZone={item.timeZone}
+                notes={(unlistedBigGame[item.slug] ?? [])
+                  .filter((gap) => seasons.some((record) => record.species.toLowerCase() === gap.species.toLowerCase()))
+                  .map((gap) => ({ species: gap.species, content: <GapCopy gap={gap} item={item} /> }))}
+              />
+              {(unlistedBigGame[item.slug] ?? [])
+                .filter((gap) => !seasons.some((record) => record.species.toLowerCase() === gap.species.toLowerCase()))
+                .map((gap) => (
+                  <section key={gap.species} className="mt-10">
+                    <h3 className="mb-3 border-b-2 border-[#211D14] pb-2 font-heading text-[26px] font-bold uppercase">
+                      {gap.species}
+                    </h3>
+                    <div className="font-serif text-[16px] leading-relaxed text-[#3B3526]">
+                      <GapCopy gap={gap} item={item} />
+                    </div>
+                  </section>
+                ))}
             </>
           ) : (
             <div className="border border-[#D8CDB4] bg-[#FBF8F0] p-6">
