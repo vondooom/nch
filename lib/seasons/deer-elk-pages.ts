@@ -58,6 +58,25 @@ export const deerElkPages = {
     emptyLabel: "No unit matches that number.",
     groupLabel: "unit groups",
   },
+  washington: {
+    title: "Washington deer and elk by GMU",
+    lede: "These are Washington's general deer and elk seasons by GMU.",
+    drawLine:
+      "GMUs 157, 490, and 522 are closed to deer, and GMUs 290, 329, 371, and 485 are permit-only. Special-permit draw hunts, High Buck hunts, and Deer/Elk Area sub-areas are not listed.",
+    searchLabel: "GMU",
+    searchPlaceholder: "For example, 101",
+    emptyLabel: "No GMU matches that number.",
+    groupLabel: "GMU groups",
+  },
+  "new-mexico": {
+    title: "New Mexico deer by unit",
+    lede: "These are New Mexico's private-land-only deer licenses by unit.",
+    drawLine: "They need written landowner permission. All public-land deer and elk in New Mexico is by draw.",
+    searchLabel: "Unit",
+    searchPlaceholder: "For example, 8",
+    emptyLabel: "No unit matches that number.",
+    groupLabel: "unit groups",
+  },
 } as const;
 
 export type DeerElkState = keyof typeof deerElkPages;

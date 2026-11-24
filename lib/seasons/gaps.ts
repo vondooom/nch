@@ -84,14 +84,32 @@ export const unlistedBigGame: Record<string, { species: string; line: string; li
       listLabel: "Open the hunt area list",
     },
   ],
-  "new-mexico": [
+  washington: [
     {
       species: "Deer",
-      line: "Deer licenses are by draw only, so general season dates are not listed here.",
+      line: "General seasons are listed by GMU. GMUs 157, 490, and 522 are closed to deer, and GMUs 290, 329, 371, and 485 are permit-only.",
+      listHref: "/hunt/washington/deer-elk",
+      listLabel: "Open the GMU list",
     },
     {
       species: "Elk",
-      line: "Elk licenses are by draw only, so general season dates are not listed here.",
+      line: "General seasons are listed by GMU.",
+      listHref: "/hunt/washington/deer-elk",
+      listLabel: "Open the GMU list",
+    },
+  ],
+  "new-mexico": [
+    {
+      species: "Deer",
+      line: "Private-land licenses are listed by unit. Public-land deer is by draw.",
+      listHref: "/hunt/new-mexico/deer-elk",
+      listLabel: "Open the unit list",
+    },
+    {
+      species: "Elk",
+      line: "Public-land elk is by draw, so those dates are not listed here.",
+      listHref: "/hunt/new-mexico/deer-elk",
+      listLabel: "Open the unit list",
     },
   ],
   kansas: [
