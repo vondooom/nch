@@ -1,0 +1,494 @@
+[
+  {
+    "id": "id-duck-area1-2026",
+    "state": "ID",
+    "species": "duck",
+    "seasonName": "Duck (including Merganser), Duck Area 1",
+    "zone": "Duck Area 1",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-27",
+        "note": "youth and veterans/active military only, statewide"
+      },
+      {
+        "open": "2026-10-19",
+        "close": "2027-01-31",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": "7 of any kind (no more than 2 female mallard, 2 redhead, 3 pintail, 2 canvasback, 2 scaup)",
+    "possessionLimit": "3 times daily bag limit",
+    "agency": "IDFG",
+    "sourceTitle": "Idaho Migratory Game Bird 2026-2027 Seasons & Rules",
+    "sourceUrl": "https://idfg.idaho.gov/sites/default/files/seasons-rules-migratory-2026-27.pdf",
+    "sourceQuote": "Statewide Duck (Including Merganser), Wilson’s Snipe and | AREA 1 | October 19, 2026 – January 31, 2027 | November 7, 2026 – January 31, 2027 | Area 1 includes all parts of the state NOT included in | Duck, goose, and coot seasons are open for | two days only, on September 26–27, 2026. | Duck Bag Limit (Including mergansers) | 7 of any kind, except shall not include more than",
+    "checkedDate": "2026-11-23",
+    "notes": "Scaup open Nov. 7, 2026 to Jan. 31, 2027. Area 1 is all of Idaho not in Areas 2 and 3. All of Idaho is in the Pacific Flyway."
+  },
+  {
+    "id": "id-duck-area2-2026",
+    "state": "ID",
+    "species": "duck",
+    "seasonName": "Duck (including Merganser), Duck Area 2",
+    "zone": "Duck Area 2",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-27",
+        "note": "youth and veterans/active military only, statewide"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2027-01-15",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": "7 of any kind (no more than 2 female mallard, 2 redhead, 3 pintail, 2 canvasback, 2 scaup)",
+    "possessionLimit": "3 times daily bag limit",
+    "agency": "IDFG",
+    "sourceTitle": "Idaho Migratory Game Bird 2026-2027 Seasons & Rules",
+    "sourceUrl": "https://idfg.idaho.gov/sites/default/files/seasons-rules-migratory-2026-27.pdf",
+    "sourceQuote": "AREA 2 | October 3, 2026 – January 15, 2027 | October 3, 2026 – December 27, 2026 | Area 2 includes the following counties: Bear Lake, | Bonneville, Butte, Clark, Fremont, Jefferson, Madison, | two days only, on September 26–27, 2026. | Duck Bag Limit (Including mergansers) | 7 of any kind, except shall not include more than",
+    "checkedDate": "2026-11-23",
+    "notes": "Scaup open Oct. 3 to Dec. 27, 2026. Area 2 is Bear Lake, Bonneville, Butte, Clark, Fremont, Jefferson, Madison, Teton and Valley counties plus parts of Bingham and Caribou counties."
+  },
+  {
+    "id": "id-duck-area3-2026",
+    "state": "ID",
+    "species": "duck",
+    "seasonName": "Duck (including Merganser), Duck Area 3",
+    "zone": "Duck Area 3",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-27",
+        "note": "youth and veterans/active military only, statewide"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2027-01-22",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": "7 of any kind (no more than 2 female mallard, 2 redhead, 3 pintail, 2 canvasback, 2 scaup)",
+    "possessionLimit": "3 times daily bag limit",
+    "agency": "IDFG",
+    "sourceTitle": "Idaho Migratory Game Bird 2026-2027 Seasons & Rules",
+    "sourceUrl": "https://idfg.idaho.gov/sites/default/files/seasons-rules-migratory-2026-27.pdf",
+    "sourceQuote": "AREA 3 | October 10, 2026 – January 22, 2027 | October 29, 2026 – January 22, 2027 | Area 3 includes the following counties: Benewah, | Bonner, Boundary, Kootenai, and Shoshone counties | two days only, on September 26–27, 2026. | Duck Bag Limit (Including mergansers) | 7 of any kind, except shall not include more than",
+    "checkedDate": "2026-11-23",
+    "notes": "Scaup open Oct. 29, 2026 to Jan. 22, 2027. Area 3 is Benewah, Bonner, Boundary, Kootenai and Shoshone counties."
+  },
+  {
+    "id": "id-goose-area1-2026",
+    "state": "ID",
+    "species": "goose",
+    "seasonName": "Canada Goose, Canada Goose Area 1",
+    "zone": "Canada Goose Area 1",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-27",
+        "note": "youth and veterans/active military only, statewide"
+      },
+      {
+        "open": "2026-10-19",
+        "close": "2027-01-31",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": "5",
+    "possessionLimit": "15",
+    "agency": "IDFG",
+    "sourceTitle": "Idaho Migratory Game Bird 2026-2027 Seasons & Rules",
+    "sourceUrl": "https://idfg.idaho.gov/sites/default/files/seasons-rules-migratory-2026-27.pdf",
+    "sourceQuote": "Canada Goose Seasons, Limits & Hunt Area Descriptions | DAILY BAG LIMIT: 5 | POSSESSION LIMIT: 15 | ctober 19, 2026 – January 31, 2027 | Area 1 includes the following counties: Ada, Adams, | two days only, on September 26–27, 2026.",
+    "checkedDate": "2026-11-23",
+    "notes": "Area 1 is Ada, Adams, Boise, Camas, Canyon, Clearwater, Custer, Elmore, Gem, Idaho, Latah, Lemhi, Lewis, Nez Perce, Owyhee, Payette and Washington counties. White-fronted geese (6 daily, 18 possession) and light geese (20 daily) have their own hunt areas and dates in the booklet; they are not recorded here."
+  },
+  {
+    "id": "id-goose-area2-2026",
+    "state": "ID",
+    "species": "goose",
+    "seasonName": "Canada Goose, Canada Goose Area 2",
+    "zone": "Canada Goose Area 2",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-27",
+        "note": "youth and veterans/active military only, statewide"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2027-01-15",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": "5",
+    "possessionLimit": "15",
+    "agency": "IDFG",
+    "sourceTitle": "Idaho Migratory Game Bird 2026-2027 Seasons & Rules",
+    "sourceUrl": "https://idfg.idaho.gov/sites/default/files/seasons-rules-migratory-2026-27.pdf",
+    "sourceQuote": "Canada Goose Seasons, Limits & Hunt Area Descriptions | DAILY BAG LIMIT: 5 | POSSESSION LIMIT: 15 | ctober 3, 2026 – January 15, 2027 | Area 2 includes the following counties: Bonneville, | two days only, on September 26–27, 2026.",
+    "checkedDate": "2026-11-23",
+    "notes": "Area 2 is Bonneville, Butte, Clark, Fremont, Jefferson, Madison, Teton and Valley counties. White-fronted geese (6 daily, 18 possession) and light geese (20 daily) have their own hunt areas and dates in the booklet; they are not recorded here."
+  },
+  {
+    "id": "id-goose-area3-2026",
+    "state": "ID",
+    "species": "goose",
+    "seasonName": "Canada Goose, Canada Goose Area 3",
+    "zone": "Canada Goose Area 3",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-27",
+        "note": "youth and veterans/active military only, statewide"
+      },
+      {
+        "open": "2026-11-03",
+        "close": "2027-02-15",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": "5",
+    "possessionLimit": "15",
+    "agency": "IDFG",
+    "sourceTitle": "Idaho Migratory Game Bird 2026-2027 Seasons & Rules",
+    "sourceUrl": "https://idfg.idaho.gov/sites/default/files/seasons-rules-migratory-2026-27.pdf",
+    "sourceQuote": "Canada Goose Seasons, Limits & Hunt Area Descriptions | DAILY BAG LIMIT: 5 | POSSESSION LIMIT: 15 | ovember 3, 2026 – February 15, 2027 | Area 3 includes all parts of the state NOT included in | two days only, on September 26–27, 2026.",
+    "checkedDate": "2026-11-23",
+    "notes": "Area 3 is all of Idaho not in Canada Goose Areas 1, 2 and 4. White-fronted geese (6 daily, 18 possession) and light geese (20 daily) have their own hunt areas and dates in the booklet; they are not recorded here."
+  },
+  {
+    "id": "id-goose-area4-2026",
+    "state": "ID",
+    "species": "goose",
+    "seasonName": "Canada Goose, Canada Goose Area 4",
+    "zone": "Canada Goose Area 4",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-15",
+        "note": "early season"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-27",
+        "note": "youth and veterans/active military only, statewide"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-12-31",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": "5",
+    "possessionLimit": "15",
+    "agency": "IDFG",
+    "sourceTitle": "Idaho Migratory Game Bird 2026-2027 Seasons & Rules",
+    "sourceUrl": "https://idfg.idaho.gov/sites/default/files/seasons-rules-migratory-2026-27.pdf",
+    "sourceQuote": "Canada Goose Seasons, Limits & Hunt Area Descriptions | DAILY BAG LIMIT: 5 | POSSESSION LIMIT: 15 | eptember 1 – 15, 2026 | ctober 3, 2026 – December 31, 2026 | Area 4 includes the following counties: All of Bear | two days only, on September 26–27, 2026.",
+    "checkedDate": "2026-11-23",
+    "notes": "Area 4 is all of Bear Lake County plus parts of Bingham and Caribou counties. White-fronted geese (6 daily, 18 possession) and light geese (20 daily) have their own hunt areas and dates in the booklet; they are not recorded here."
+  },
+  {
+    "id": "id-dove-statewide-2026",
+    "state": "ID",
+    "species": "dove",
+    "seasonName": "Mourning and White-winged Dove, Regular Firearm Season",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-10-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": "45",
+    "agency": "IDFG",
+    "sourceTitle": "Idaho Migratory Game Bird 2026-2027 Seasons & Rules",
+    "sourceUrl": "https://idfg.idaho.gov/sites/default/files/seasons-rules-migratory-2026-27.pdf",
+    "sourceQuote": "Mourning and White-winged Dove Seasons and Limits | DAILY BAG LIMIT: 15 | POSSESSION LIMIT: 45 | Regular Firearm Season | • September 1, 2026 – October 30, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "Eurasian collared-doves do not count toward the limit."
+  },
+  {
+    "id": "id-grouse-area1-2026",
+    "state": "ID",
+    "species": "grouse",
+    "seasonName": "Forest Grouse (Dusky, Ruffed and Spruce), Area 1",
+    "zone": "Area 1",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-30",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "4 in the aggregate",
+    "possessionLimit": "12 in the aggregate",
+    "agency": "IDFG",
+    "sourceTitle": "Idaho Upland Game, Turkey & Furbearer 2026 & 2027 Seasons & Rules",
+    "sourceUrl": "https://idfg.idaho.gov/sites/default/files/seasons-rules-upland-game-2026-2027.pdf",
+    "sourceQuote": "FOREST GROUSE: DUSKY (BLUE), RUFFED, AND SPRUCE | Benewah, Bonner, Boundary, Clearwater, Kootenai, Latah, | 2026 – 2027: August 30, 2026 through January 31, 2027 | Daily Bag Limit. .........................................4 in the aggregate | Possession Limit ....................................... 12 in the aggregate",
+    "checkedDate": "2026-11-23",
+    "notes": "Area 1 is Benewah, Bonner, Boundary, Clearwater, Kootenai, Latah, Lewis, Nez Perce and Shoshone counties, and Adams and Idaho counties except the parts in units 19A, 20A, 22, 23 and 26."
+  },
+  {
+    "id": "id-grouse-area2-2026",
+    "state": "ID",
+    "species": "grouse",
+    "seasonName": "Forest Grouse (Dusky, Ruffed and Spruce), Area 2",
+    "zone": "Area 2 (remainder of the state)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-30",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "4 in the aggregate",
+    "possessionLimit": "12 in the aggregate",
+    "agency": "IDFG",
+    "sourceTitle": "Idaho Upland Game, Turkey & Furbearer 2026 & 2027 Seasons & Rules",
+    "sourceUrl": "https://idfg.idaho.gov/sites/default/files/seasons-rules-upland-game-2026-2027.pdf",
+    "sourceQuote": "FOREST GROUSE: DUSKY (BLUE), RUFFED, AND SPRUCE | Remainder of the state. | 2026: August 30, 2026 through December 31, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "id-quail-statewide-2026",
+    "state": "ID",
+    "species": "quail",
+    "seasonName": "California and Bobwhite Quail",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-15",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "10 in the aggregate",
+    "possessionLimit": "30 in the aggregate",
+    "agency": "IDFG",
+    "sourceTitle": "Idaho Upland Game, Turkey & Furbearer 2026 & 2027 Seasons & Rules",
+    "sourceUrl": "https://idfg.idaho.gov/sites/default/files/seasons-rules-upland-game-2026-2027.pdf",
+    "sourceQuote": "CALIFORNIA AND BOBWHITE QUAIL | NO SEASON ON GAMBEL’S AND MOUNTAIN QUAIL | 2026 – 2027: September 15, 2026 through January 31, 2027 | Daily Bag Limit. ....................................... 10 in the aggregate | Possession Limit ....................................... 30 in the aggregate",
+    "checkedDate": "2026-11-23",
+    "notes": "No season on Gambel's or mountain quail."
+  },
+  {
+    "id": "id-chukar-statewide-2026",
+    "state": "ID",
+    "species": "chukar",
+    "seasonName": "Chukar (Chukar and Gray Partridge season)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-15",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "8 chukar",
+    "possessionLimit": "24 chukar",
+    "agency": "IDFG",
+    "sourceTitle": "Idaho Upland Game, Turkey & Furbearer 2026 & 2027 Seasons & Rules",
+    "sourceUrl": "https://idfg.idaho.gov/sites/default/files/seasons-rules-upland-game-2026-2027.pdf",
+    "sourceQuote": "CHUKAR AND GRAY PARTRIDGE | ENTIRE STATE OPEN | 2026 – 2027: September 15, 2026 through January 31, 2027 | Daily Bag Limit. ...................... 8 Chukar & 8 Gray Partridge | Possession Limit ....................24 Chukar & 24 Gray Partridge",
+    "checkedDate": "2026-11-23",
+    "notes": "Separate limits: 8 chukar and 8 gray partridge daily."
+  },
+  {
+    "id": "id-partridge-statewide-2026",
+    "state": "ID",
+    "species": "partridge",
+    "seasonName": "Gray Partridge (Chukar and Gray Partridge season)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-15",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "8 gray partridge",
+    "possessionLimit": "24 gray partridge",
+    "agency": "IDFG",
+    "sourceTitle": "Idaho Upland Game, Turkey & Furbearer 2026 & 2027 Seasons & Rules",
+    "sourceUrl": "https://idfg.idaho.gov/sites/default/files/seasons-rules-upland-game-2026-2027.pdf",
+    "sourceQuote": "CHUKAR AND GRAY PARTRIDGE | ENTIRE STATE OPEN | 2026 – 2027: September 15, 2026 through January 31, 2027 | Daily Bag Limit. ...................... 8 Chukar & 8 Gray Partridge | Possession Limit ....................24 Chukar & 24 Gray Partridge",
+    "checkedDate": "2026-11-23",
+    "notes": "Separate limits: 8 chukar and 8 gray partridge daily."
+  },
+  {
+    "id": "id-sharptail-area1-2026",
+    "state": "ID",
+    "species": "sharptail",
+    "seasonName": "Sharp-tailed Grouse, Area 1",
+    "zone": "Area 1 (southeastern Idaho)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2026-11-08",
+        "note": null
+      }
+    ],
+    "bagLimit": "2",
+    "possessionLimit": "6",
+    "agency": "IDFG",
+    "sourceTitle": "Idaho Upland Game, Turkey & Furbearer 2026 & 2027 Seasons & Rules",
+    "sourceUrl": "https://idfg.idaho.gov/sites/default/files/seasons-rules-upland-game-2026-2027.pdf",
+    "sourceQuote": "SHARP-TAILED GROUSE | Bingham, Bonneville, Clark, and Jefferson counties east of | 2026: October 1, 2026 through November 8, 2026 | Possession Limit ................................................................. 6 | Remainder of the state: CLOSED.",
+    "checkedDate": "2026-11-23",
+    "notes": "Area 1 is Bingham, Bonneville, Clark and Jefferson counties east of I-15, parts of Power and Cassia counties, and Bannock, Bear Lake, Caribou, Franklin, Fremont, Madison, Oneida and Teton counties. Rest of state closed. Sharp-tailed grouse permit validation required. Daily bag 2 is from the Daily Bag Limit line on the same page."
+  },
+  {
+    "id": "id-pheasant-statewide-2026",
+    "state": "ID",
+    "species": "pheasant",
+    "seasonName": "Pheasants (all varieties), roosters only",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-08",
+        "close": "2026-10-14",
+        "note": "youth only, 17 and under"
+      },
+      {
+        "open": "2026-10-15",
+        "close": "2026-12-31",
+        "note": "residents"
+      },
+      {
+        "open": "2026-10-20",
+        "close": "2026-12-31",
+        "note": "nonresidents"
+      }
+    ],
+    "bagLimit": "3 roosters (only 2 on Upland Game Bird Permit Release Areas)",
+    "possessionLimit": "9 roosters",
+    "agency": "IDFG",
+    "sourceTitle": "Idaho Upland Game, Turkey & Furbearer 2026 & 2027 Seasons & Rules",
+    "sourceUrl": "https://idfg.idaho.gov/sites/default/files/seasons-rules-upland-game-2026-2027.pdf",
+    "sourceQuote": "PHEASANTS - ALL VARIETIES | NO SEASON ON HEN (FEMALE) PHEASANTS | Resident: October 15, 2026 through December 31, 2026 | Nonresident: October 20, 2026 through December 31, 2026 | Daily Bag Limit. .........................................................3 roosters* | Possession Limit .......................................................... 9 roosters | 2026 — October 8, 2026 through October 14, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "Upland Game Bird Permit needed on pheasant release areas."
+  },
+  {
+    "id": "id-turkey-fall-panhandle-2026",
+    "state": "ID",
+    "species": "turkey",
+    "seasonName": "Fall Turkey General Season, Either Sex",
+    "zone": "Units 1, 2 (except Farragut State Park and WMA), 3, 4, 4A, 5, 6, 7 and 9",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-30",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "Equal to the number of valid tags possessed",
+    "possessionLimit": null,
+    "agency": "IDFG",
+    "sourceTitle": "Idaho Upland Game, Turkey & Furbearer 2026 & 2027 Seasons & Rules",
+    "sourceUrl": "https://idfg.idaho.gov/sites/default/files/seasons-rules-upland-game-2026-2027.pdf",
+    "sourceQuote": "2026 & 2027 Fall Turkey - General Seasons | Fall Turkey - Either Sex Turkey | 1, 2 (except Farragut State Park and WMA), | August 30 - January 31 See note 2 | 3, 4, 4A, 5, 6, 7 & 9 | 2. These hunts overlap calendar years. Turkey tags expire on December 31 the year of purchase.",
+    "checkedDate": "2026-11-23",
+    "notes": "Season crosses into 2027; a 2027 license and tag are needed for January. Farragut is archery only Nov 1 to Dec 1 with a permit."
+  },
+  {
+    "id": "id-turkey-fall-dec31-2026",
+    "state": "ID",
+    "species": "turkey",
+    "seasonName": "Fall Turkey General Season, Either Sex",
+    "zone": "Units 8, 8A, 10A, 11, 11A, 13, 14, 15, 16, 18, 21, 21A, part of 28, 29, 30, 68A, 70 to 78",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-30",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "Equal to the number of valid tags possessed",
+    "possessionLimit": null,
+    "agency": "IDFG",
+    "sourceTitle": "Idaho Upland Game, Turkey & Furbearer 2026 & 2027 Seasons & Rules",
+    "sourceUrl": "https://idfg.idaho.gov/sites/default/files/seasons-rules-upland-game-2026-2027.pdf",
+    "sourceQuote": "8, 8A, 10A, 11, 11A, 13, 14, 15, 16, 18, 21, 21A, and that portion | of Unit 28 downstream from the Hat Creek drainage, August 30 - December 31 | 29, 30, 68A, 70, 71, 72, 73, 74, 75, 76, 77 & 78",
+    "checkedDate": "2026-11-23",
+    "notes": "Unit 28 only downstream from the Hat Creek drainage."
+  },
+  {
+    "id": "id-turkey-fall-oct9-2026",
+    "state": "ID",
+    "species": "turkey",
+    "seasonName": "Fall Turkey General Season, Either Sex",
+    "zone": "Units 10, 12, 16A, 17, 19, 20; outside National Forest in 22, 31, 32, 32A, 33, 39",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-30",
+        "close": "2026-10-09",
+        "note": null
+      }
+    ],
+    "bagLimit": "Equal to the number of valid tags possessed",
+    "possessionLimit": null,
+    "agency": "IDFG",
+    "sourceTitle": "Idaho Upland Game, Turkey & Furbearer 2026 & 2027 Seasons & Rules",
+    "sourceUrl": "https://idfg.idaho.gov/sites/default/files/seasons-rules-upland-game-2026-2027.pdf",
+    "sourceQuote": "10, 12, 16A, 17, 19 & 20 August 30 - October 9 | Outside the National Forest System boundary in Units 22, | 31, 32 (except that portion in Payette County), 32A, 33 & 39",
+    "checkedDate": "2026-11-23",
+    "notes": "In 22, 31, 32 (not the Payette County part), 32A, 33 and 39, only outside the National Forest System boundary."
+  },
+  {
+    "id": "id-turkey-spring-2027",
+    "state": "ID",
+    "species": "turkey",
+    "seasonName": "Spring Turkey General Season, Male or Bearded Turkey",
+    "zone": "Units 1 to 24, 31 to 33, 39, 40, 68A, 70 to 78 (see list)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-04-08",
+        "close": "2027-04-14",
+        "note": "youth only"
+      },
+      {
+        "open": "2027-04-15",
+        "close": "2027-05-25",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 male turkeys",
+    "possessionLimit": null,
+    "agency": "IDFG",
+    "sourceTitle": "Idaho Upland Game, Turkey & Furbearer 2026 & 2027 Seasons & Rules",
+    "sourceUrl": "https://idfg.idaho.gov/sites/default/files/seasons-rules-upland-game-2026-2027.pdf",
+    "sourceQuote": "2026 & 2027 Spring Turkey - General Seasons | Spring Turkey - Youth Only - Male or Bearded Turkey | April 8 - April 14 See note 1 | Spring Turkey - Male or Bearded Turkey | April 15 - May 25 | 8, 8A, 9, 10, 10A, 11, 11A, 12, 13, 14, 15, 16, 16A, 17, 18, 19, 19A, 20,",
+    "checkedDate": "2026-11-23",
+    "notes": "Same dates are printed for 2026 and 2027; recorded here for 2027. Units 21, 21A, 28, 29, 30, 36A, 36B, 37, 37A, 38 and Payette County part of 32 have youth-only spring hunts Apr 8 to May 25. Farragut is archery only Apr 15 to 30."
+  }
+]

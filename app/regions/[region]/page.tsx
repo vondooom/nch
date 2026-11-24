@@ -5,6 +5,7 @@ import { SiteBanner, SiteFooter, SiteHeader } from "@/components/site/chrome";
 import { findRegion, regions } from "@/lib/geo/regions";
 import { statesInRegion } from "@/lib/geo/states";
 import { pageMeta } from "@/lib/site";
+import { stateHasVisibleSeasons } from "@/lib/seasons";
 
 export function generateStaticParams() {
   return regions.map((region) => ({ region: region.slug }));
@@ -44,6 +45,9 @@ export default async function RegionPage({ params }: { params: Promise<{ region:
             <Link key={item.slug} href={`/hunt/${item.slug}`} className="block border border-[#D8CDB4] bg-[#FBF8F0] p-5 hover:bg-[#F2ECDB]">
               <div className="font-heading text-[24px] font-bold uppercase">{item.name}</div>
               <div className="mt-1 font-serif text-[15px] text-[#5C543F]">{item.agency}</div>
+              <div className="mt-2 font-serif text-[14px] text-[#8A8163]">
+                {stateHasVisibleSeasons(item.slug) ? "Season dates are posted." : "Season dates are coming."}
+              </div>
             </Link>
           ))}
         </div>

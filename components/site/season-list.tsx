@@ -4,9 +4,11 @@ import { calendarDateInTimeZone } from "@/lib/seasons/open";
 const speciesLabels: Record<string, string> = {
   snipe: "Wilson's snipe",
   pigeon: "Band-tailed pigeon",
-  grouse: "Sooty and ruffed grouse",
+  grouse: "Grouse",
   "sage-grouse": "Greater sage-grouse",
   pig: "Wild pig",
+  partridge: "Gray partridge",
+  sharptail: "Sharp-tailed grouse",
 };
 
 function speciesHeading(species: string) {

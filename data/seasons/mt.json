@@ -1,0 +1,432 @@
+[
+  {
+    "id": "mt-duck-pacific-2026",
+    "state": "MT",
+    "species": "duck",
+    "seasonName": "Ducks (including Mergansers), Pacific Flyway",
+    "zone": "Pacific Flyway",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-27",
+        "note": "youth only, ages 15 and under"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2027-01-15",
+        "note": "regular season; scaup closes Dec. 27"
+      }
+    ],
+    "bagLimit": "7 (no more than 2 hen mallards, 3 pintail, 2 redheads, 2 canvasbacks, 2 scaup)",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "Montana FWP",
+    "sourceTitle": "2026 Montana Waterfowl, Sandhill Cranes, Mourning Doves & Snipe Hunting Regulations",
+    "sourceUrl": "https://fwp.mt.gov/binaries/content/assets/fwp/hunt/regulations/2026/2026-mig-bird--webless-final-for-web.pdf",
+    "sourceQuote": "Pacific Flyway Duck, Coot, Geese, and Falconry Hunting Regulations | Daily bag limit shall be 7 ducks or mergansers. | Oct. 3 - Dec. 27 Standard bag limit. Please note Pacific Flyway exceptions. | Dec. 28 - Jan. 15 Standard bag limit excluding scaup. Please note Pacific Flyway exceptions. | The Pacific Flyway includes Hill, Chouteau, Cascade, Meagher and Park counties and all counties lying west of these.",
+    "checkedDate": "2026-11-23",
+    "notes": "Pacific Flyway is Hill, Chouteau, Cascade, Meagher and Park counties and all counties west of them. Canyon Ferry has noon closures early in the season."
+  },
+  {
+    "id": "mt-goose-pacific-2026",
+    "state": "MT",
+    "species": "goose",
+    "seasonName": "Geese, Pacific Flyway",
+    "zone": "Pacific Flyway",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-27",
+        "note": "youth only, ages 15 and under"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2027-01-15",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": "20 white geese and 5 dark geese",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "Montana FWP",
+    "sourceTitle": "2026 Montana Waterfowl, Sandhill Cranes, Mourning Doves & Snipe Hunting Regulations",
+    "sourceUrl": "https://fwp.mt.gov/binaries/content/assets/fwp/hunt/regulations/2026/2026-mig-bird--webless-final-for-web.pdf",
+    "sourceQuote": "Daily limit: 20 white geese (Snow, Blue, Ross’s) and 5 dark geese (all other geese). The possession limit is three times the daily bag limit. | Oct. 3 - Jan. 15 Please note Pacific Flyway exceptions. | The Pacific Flyway includes Hill, Chouteau, Cascade, Meagher and Park counties and all counties lying west of these.",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "mt-duck-central-zone1-2026",
+    "state": "MT",
+    "species": "duck",
+    "seasonName": "Ducks (including Mergansers), Central Flyway Zone 1",
+    "zone": "Central Flyway Zone 1",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-27",
+        "note": "youth only, ages 15 and under"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2027-01-07",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": "6 (no more than 5 mallards with 2 hens, 3 wood ducks, 2 redheads, 2 hooded mergansers, 3 pintail, 2 canvasbacks, 1 scaup; 2 extra blue-winged teal Oct 3 to 11)",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "Montana FWP",
+    "sourceTitle": "2026 Montana Waterfowl, Sandhill Cranes, Mourning Doves & Snipe Hunting Regulations",
+    "sourceUrl": "https://fwp.mt.gov/binaries/content/assets/fwp/hunt/regulations/2026/2026-mig-bird--webless-final-for-web.pdf",
+    "sourceQuote": "Central Flyway Duck, Coot, Geese, and Falconry Hunting Regulations | The daily bag limit is 6 ducks or mergansers. | Oct. 3 - Jan. 7 | Zone 1 includes all other counties in the Central Flyway portion of Montana.",
+    "checkedDate": "2026-11-23",
+    "notes": "Central Flyway is Blaine, Fergus, Judith Basin, Wheatland, Sweet Grass, Stillwater and Carbon counties and all counties east of them. Zone 1 is every Central Flyway county not in Zone 2."
+  },
+  {
+    "id": "mt-duck-central-zone2-2026",
+    "state": "MT",
+    "species": "duck",
+    "seasonName": "Ducks (including Mergansers), Central Flyway Zone 2",
+    "zone": "Central Flyway Zone 2",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-27",
+        "note": "youth only, ages 15 and under"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-11",
+        "note": "split 1"
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2027-01-19",
+        "note": "split 2"
+      }
+    ],
+    "bagLimit": "6 (no more than 5 mallards with 2 hens, 3 wood ducks, 2 redheads, 2 hooded mergansers, 3 pintail, 2 canvasbacks, 1 scaup; 2 extra blue-winged teal Oct 3 to 11)",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "Montana FWP",
+    "sourceTitle": "2026 Montana Waterfowl, Sandhill Cranes, Mourning Doves & Snipe Hunting Regulations",
+    "sourceUrl": "https://fwp.mt.gov/binaries/content/assets/fwp/hunt/regulations/2026/2026-mig-bird--webless-final-for-web.pdf",
+    "sourceQuote": "Central Flyway Duck, Coot, Geese, and Falconry Hunting Regulations | The daily bag limit is 6 ducks or mergansers. | Oct. 3 - Oct. 11 | Oct. 24 - Jan. 19 | Zone 2, includes Big Horn, Carbon, Custer, Prairie, | Rosebud, Stillwater, Sweetgrass, Treasure and Yellowstone counties.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone 2 is Big Horn, Carbon, Custer, Prairie, Rosebud, Stillwater, Sweet Grass, Treasure and Yellowstone counties."
+  },
+  {
+    "id": "mt-goose-central-zone1-2026",
+    "state": "MT",
+    "species": "goose",
+    "seasonName": "Geese, Central Flyway Zone 1",
+    "zone": "Central Flyway Zone 1",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-27",
+        "note": "youth only, ages 15 and under"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2027-01-15",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": "20 white geese and 5 dark geese",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "Montana FWP",
+    "sourceTitle": "2026 Montana Waterfowl, Sandhill Cranes, Mourning Doves & Snipe Hunting Regulations",
+    "sourceUrl": "https://fwp.mt.gov/binaries/content/assets/fwp/hunt/regulations/2026/2026-mig-bird--webless-final-for-web.pdf",
+    "sourceQuote": "Daily limit: 20 white geese (Snow, Blue, Ross’s) and 5 dark geese (all other geese). | Oct. 3 - Jan. 15 | Zone 1 includes all other counties in the Central Flyway portion of Montana.",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "mt-goose-central-zone2-2026",
+    "state": "MT",
+    "species": "goose",
+    "seasonName": "Geese, Central Flyway Zone 2",
+    "zone": "Central Flyway Zone 2",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-27",
+        "note": "youth only, ages 15 and under"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-11",
+        "note": "split 1"
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2027-01-27",
+        "note": "split 2"
+      }
+    ],
+    "bagLimit": "20 white geese and 5 dark geese",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "Montana FWP",
+    "sourceTitle": "2026 Montana Waterfowl, Sandhill Cranes, Mourning Doves & Snipe Hunting Regulations",
+    "sourceUrl": "https://fwp.mt.gov/binaries/content/assets/fwp/hunt/regulations/2026/2026-mig-bird--webless-final-for-web.pdf",
+    "sourceQuote": "Daily limit: 20 white geese (Snow, Blue, Ross’s) and 5 dark geese (all other geese). | Oct. 3 - Oct. 11 | Oct. 24 - Jan. 27 | Zone 2, includes Big Horn, Carbon, Custer, Prairie,",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "mt-dove-statewide-2026",
+    "state": "MT",
+    "species": "dove",
+    "seasonName": "Mourning Dove",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-10-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": "45",
+    "agency": "Montana FWP",
+    "sourceTitle": "2026 Montana Waterfowl, Sandhill Cranes, Mourning Doves & Snipe Hunting Regulations",
+    "sourceUrl": "https://fwp.mt.gov/binaries/content/assets/fwp/hunt/regulations/2026/2026-mig-bird--webless-final-for-web.pdf",
+    "sourceQuote": "Statewide Snipe, Mourning Dove, and Sandhill Crane Hunting Regulations | Mourning Dove | Sept. 1-Oct. 30 15 daily and 45 in possession",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "mt-pheasant-statewide-2026",
+    "state": "MT",
+    "species": "pheasant",
+    "seasonName": "Ring-necked Pheasant",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-20",
+        "note": "youth only, ages 15 and under"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2027-01-01",
+        "note": "residents; nonresidents on private land"
+      },
+      {
+        "open": "2026-10-20",
+        "close": "2027-01-01",
+        "note": "nonresidents on public land and hunting access program land"
+      }
+    ],
+    "bagLimit": "3 cock pheasants",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "Montana FWP",
+    "sourceTitle": "2026 Montana Upland Game Bird Hunting Regulations (valid March 1, 2026 through Feb. 28, 2027)",
+    "sourceUrl": "https://fwp.mt.gov/binaries/content/assets/fwp/hunt/regulations/2026/2026-upgbrd-final-for-web.pdf",
+    "sourceQuote": "Ring-necked Pheasant: Pheasants may be taken with a shotgun not larger than a 10 gauge; | Sep. 19 - Sep. 20 Sep. 19 - Sep. 20 Sep. 19 - Sep. 20 | Oct. 10 - Jan. 1 Oct. 10 - Jan. 1 Oct. 20 - Jan. 1 | Bag Limit: 3 cock pheas-",
+    "checkedDate": "2026-11-23",
+    "notes": "Nonresident 3-day license holders start Oct. 17 on private land."
+  },
+  {
+    "id": "mt-sharptail-east-2026",
+    "state": "MT",
+    "species": "sharptail",
+    "seasonName": "Sharp-tailed Grouse",
+    "zone": "East of the Continental Divide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2027-01-01",
+        "note": null
+      },
+      {
+        "open": "2026-09-11",
+        "close": "2027-01-01",
+        "note": "nonresidents on public land and hunting access program land"
+      }
+    ],
+    "bagLimit": "4",
+    "possessionLimit": "Four times the daily bag limit",
+    "agency": "Montana FWP",
+    "sourceTitle": "2026 Montana Upland Game Bird Hunting Regulations (valid March 1, 2026 through Feb. 28, 2027)",
+    "sourceUrl": "https://fwp.mt.gov/binaries/content/assets/fwp/hunt/regulations/2026/2026-upgbrd-final-for-web.pdf",
+    "sourceQuote": "Sharp-tailed Grouse: Sharp-tailed grouse may be taken with a shotgun not larger than a 10 gauge; | Sep. 01 - Jan. 01 Sep. 11 - Jan. 01 Bag Limit: 4 daily. Possession limit Closed West of the Continental Divide. | is four times the daily bag limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Closed west of the Continental Divide. Nonresidents hunting public land or hunting access program land start 10 days later (second period)."
+  },
+  {
+    "id": "mt-grouse-statewide-2026",
+    "state": "MT",
+    "species": "grouse",
+    "seasonName": "Mountain Grouse (Blue, Ruffed and Franklin's)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2027-01-01",
+        "note": null
+      }
+    ],
+    "bagLimit": "3 in aggregate",
+    "possessionLimit": "Four times the daily bag limit",
+    "agency": "Montana FWP",
+    "sourceTitle": "2026 Montana Upland Game Bird Hunting Regulations (valid March 1, 2026 through Feb. 28, 2027)",
+    "sourceUrl": "https://fwp.mt.gov/binaries/content/assets/fwp/hunt/regulations/2026/2026-upgbrd-final-for-web.pdf",
+    "sourceQuote": "Mountain Grouse: Blue, ruffed, and Franklin’s grouse may be taken with | Bag Limit: 3 in aggregate daily. | Sep. 01 - Jan. 01 Sep. 01 - Jan. 01 Possession limit is four times the -",
+    "checkedDate": "2026-11-23",
+    "notes": "Same dates for nonresidents (no 10-day delay for mountain grouse)."
+  },
+  {
+    "id": "mt-partridge-statewide-2026",
+    "state": "MT",
+    "species": "partridge",
+    "seasonName": "Hungarian Partridge (Partridge season)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2027-01-01",
+        "note": null
+      },
+      {
+        "open": "2026-09-11",
+        "close": "2027-01-01",
+        "note": "nonresidents on public land and hunting access program land"
+      }
+    ],
+    "bagLimit": "8 in aggregate (Hungarian and chukar)",
+    "possessionLimit": "Four times the daily bag limit",
+    "agency": "Montana FWP",
+    "sourceTitle": "2026 Montana Upland Game Bird Hunting Regulations (valid March 1, 2026 through Feb. 28, 2027)",
+    "sourceUrl": "https://fwp.mt.gov/binaries/content/assets/fwp/hunt/regulations/2026/2026-upgbrd-final-for-web.pdf",
+    "sourceQuote": "Partridge: Hungarian and chukar partridge may be taken with a shotgun not larger than a 10 gauge; | Bag Limit: 8 in aggregate daily. | Sep. 01 - Jan. 01 Sep. 11 - Jan. 01 Possession limit is four times the | Sep. 01 - Jan. 10 Sep. 11 - Jan. 10 Possession limit is four times the",
+    "checkedDate": "2026-11-23",
+    "notes": "Hungarian and chukar partridge share one 8-bird daily limit. A portion of Carbon County (Bridger, Edgar, Pryor Road area) stays open to Jan. 10, 2027. Nonresidents hunting public land or hunting access program land start 10 days later (second period)."
+  },
+  {
+    "id": "mt-chukar-statewide-2026",
+    "state": "MT",
+    "species": "chukar",
+    "seasonName": "Chukar Partridge (Partridge season)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2027-01-01",
+        "note": null
+      },
+      {
+        "open": "2026-09-11",
+        "close": "2027-01-01",
+        "note": "nonresidents on public land and hunting access program land"
+      }
+    ],
+    "bagLimit": "8 in aggregate (Hungarian and chukar)",
+    "possessionLimit": "Four times the daily bag limit",
+    "agency": "Montana FWP",
+    "sourceTitle": "2026 Montana Upland Game Bird Hunting Regulations (valid March 1, 2026 through Feb. 28, 2027)",
+    "sourceUrl": "https://fwp.mt.gov/binaries/content/assets/fwp/hunt/regulations/2026/2026-upgbrd-final-for-web.pdf",
+    "sourceQuote": "Partridge: Hungarian and chukar partridge may be taken with a shotgun not larger than a 10 gauge; | Bag Limit: 8 in aggregate daily. | Sep. 01 - Jan. 01 Sep. 11 - Jan. 01 Possession limit is four times the | Sep. 01 - Jan. 10 Sep. 11 - Jan. 10 Possession limit is four times the",
+    "checkedDate": "2026-11-23",
+    "notes": "Chukar occur primarily in Carbon County. Hungarian and chukar partridge share one 8-bird daily limit. A portion of Carbon County (Bridger, Edgar, Pryor Road area) stays open to Jan. 10, 2027. Nonresidents hunting public land or hunting access program land start 10 days later (second period)."
+  },
+  {
+    "id": "mt-turkey-fall-general-2026",
+    "state": "MT",
+    "species": "turkey",
+    "seasonName": "Fall Turkey, General Turkey License (over-the-counter)",
+    "zone": "General Hunting Areas (not valid in Region 4)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2027-01-01",
+        "note": null
+      },
+      {
+        "open": "2026-09-11",
+        "close": "2027-01-01",
+        "note": "nonresidents on public land and hunting access program land"
+      }
+    ],
+    "bagLimit": "1 either-sex wild turkey per license",
+    "possessionLimit": null,
+    "agency": "Montana FWP",
+    "sourceTitle": "2026 Montana Upland Game Bird Hunting Regulations (valid March 1, 2026 through Feb. 28, 2027)",
+    "sourceUrl": "https://fwp.mt.gov/binaries/content/assets/fwp/hunt/regulations/2026/2026-upgbrd-final-for-web.pdf",
+    "sourceQuote": "General Turkey License: Over-the-Counter valid in General Hunting Areas (see map). | License Sep. 01 - Jan. 01 Sep. 11 - Jan. 01 Either-sex Wild Turkey. Not valid in Region 4.",
+    "checkedDate": "2026-11-23",
+    "notes": "Regional over-the-counter turkey licenses (Regions 1, 2, 4, 6, 7) have the same fall dates. The 2026 booklet's spring season (Apr 15 to May 31) is spring 2026; spring 2027 is not published yet."
+  },
+  {
+    "id": "mt-deer-general-2026",
+    "state": "MT",
+    "species": "deer",
+    "seasonName": "Deer, General Season",
+    "zone": "Statewide (hunting district rules vary)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-10-18",
+        "note": "archery only"
+      },
+      {
+        "open": "2026-10-15",
+        "close": "2026-10-16",
+        "note": "youth two-day hunt, deer only"
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2026-11-29",
+        "note": "general season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Montana FWP",
+    "sourceTitle": "2026 Montana Deer, Elk & Antelope Hunting Regulations",
+    "sourceUrl": "https://fwp.mt.gov/binaries/content/assets/fwp/hunt/regulations/2026/2026-dea-regulations-final-with-low-resolution-maps-for-web.pdf",
+    "sourceQuote": "Deer & Elk | archery ................................Sep. 5–Oct. 18 | deer only........................Oct. 15–Oct. 16 | general ............................Oct. 24–Nov. 29",
+    "checkedDate": "2026-11-23",
+    "notes": "Legal deer and weapons vary by hunting district. Backcountry HDs 150, 280 and 316 open Sep. 15 to Nov. 29 (archery Sep. 5 to 14, none in HD 316). Nonresident general licenses go through a drawing."
+  },
+  {
+    "id": "mt-elk-general-2026",
+    "state": "MT",
+    "species": "elk",
+    "seasonName": "Elk, General Season",
+    "zone": "Statewide (hunting district rules vary)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-10-18",
+        "note": "archery only"
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2026-11-29",
+        "note": "general season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Montana FWP",
+    "sourceTitle": "2026 Montana Deer, Elk & Antelope Hunting Regulations",
+    "sourceUrl": "https://fwp.mt.gov/binaries/content/assets/fwp/hunt/regulations/2026/2026-dea-regulations-final-with-low-resolution-maps-for-web.pdf",
+    "sourceQuote": "Deer & Elk | archery ................................Sep. 5–Oct. 18 | general ............................Oct. 24–Nov. 29",
+    "checkedDate": "2026-11-23",
+    "notes": "Legal elk vary by hunting district; shoulder seasons are separate. Backcountry HDs 150, 280 and 316 open Sep. 15 to Nov. 29 (archery Sep. 5 to 14, none in HD 316). Nonresident general licenses go through a drawing."
+  }
+]

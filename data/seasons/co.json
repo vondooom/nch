@@ -1,0 +1,680 @@
+[
+  {
+    "id": "co-duck-northeast-2026",
+    "state": "CO",
+    "species": "duck",
+    "seasonName": "Ducks, Northeast Zone (Central Flyway)",
+    "zone": "Northeast Zone (Central Flyway)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-11",
+        "note": "youth, veteran and active military"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-11-29",
+        "note": "split 1"
+      },
+      {
+        "open": "2026-12-11",
+        "close": "2027-01-31",
+        "note": "split 2"
+      }
+    ],
+    "bagLimit": "6 (up to 5 mallards with no more than 2 female, 3 pintails, 2 canvasback, 2 redhead, 3 wood duck, 1 scaup)",
+    "possessionLimit": "3 daily bag limits",
+    "agency": "CPW",
+    "sourceTitle": "2026 Colorado Small Game & Waterfowl Hunting Brochure",
+    "sourceUrl": "https://cpw.widen.net/s/bklvf2bjmw/colorado-small-game--waterfowl-brochure",
+    "sourceQuote": "Waterfowl:Duck,Coot&Teal | Duck&Merganser: 6, in the aggregate. Up to 5 can be mallard, but no more | ■Northeast Zone | Area: East of I-25 and north of I-70. | Dates: Oct. 17–Nov. 29; Dec. 11–Jan. 31, 2027 | Area: East of I-25 and north of I-70 | Dates: Oct. 10−11, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "Area: east of I-25 and north of I-70. September teal season (Sept. 12 to 20, 2026) applies east of I-25 and in Lake and Chaffee counties."
+  },
+  {
+    "id": "co-duck-southeast-2026",
+    "state": "CO",
+    "species": "duck",
+    "seasonName": "Ducks, Southeast Zone (Central Flyway)",
+    "zone": "Southeast Zone (Central Flyway)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-18",
+        "note": "youth, veteran and active military"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "6 (up to 5 mallards with no more than 2 female, 3 pintails, 2 canvasback, 2 redhead, 3 wood duck, 1 scaup)",
+    "possessionLimit": "3 daily bag limits",
+    "agency": "CPW",
+    "sourceTitle": "2026 Colorado Small Game & Waterfowl Hunting Brochure",
+    "sourceUrl": "https://cpw.widen.net/s/bklvf2bjmw/colorado-small-game--waterfowl-brochure",
+    "sourceQuote": "Waterfowl:Duck,Coot&Teal | Duck&Merganser: 6, in the aggregate. Up to 5 can be mallard, but no more | ■Southeast Zone | Area: East of I-25 and south of I-70, and all of El Paso, Pueblo, Huerfano | Dates: Oct. 28–Jan. 31, 2027 | Dates: Oct. 17−18, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "Area: east of I-25 and south of I-70, plus all of El Paso, Pueblo, Huerfano and Las Animas counties. September teal season (Sept. 12 to 20, 2026) applies east of I-25 and in Lake and Chaffee counties."
+  },
+  {
+    "id": "co-duck-mountain-foothills-2026",
+    "state": "CO",
+    "species": "duck",
+    "seasonName": "Ducks, Mountain/Foothills Zone (Central Flyway)",
+    "zone": "Mountain/Foothills Zone (Central Flyway)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-27",
+        "note": "youth, veteran and active military"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-11-29",
+        "note": "split 1"
+      },
+      {
+        "open": "2026-12-25",
+        "close": "2027-01-31",
+        "note": "split 2"
+      }
+    ],
+    "bagLimit": "6 (up to 5 mallards with no more than 2 female, 3 pintails, 2 canvasback, 2 redhead, 3 wood duck, 1 scaup)",
+    "possessionLimit": "3 daily bag limits",
+    "agency": "CPW",
+    "sourceTitle": "2026 Colorado Small Game & Waterfowl Hunting Brochure",
+    "sourceUrl": "https://cpw.widen.net/s/bklvf2bjmw/colorado-small-game--waterfowl-brochure",
+    "sourceQuote": "Waterfowl:Duck,Coot&Teal | Duck&Merganser: 6, in the aggregate. Up to 5 can be mallard, but no more | ■Mountain/Foothills Zone | Area: West of I-25 and east of the Continental Divide, except El Paso, | Dates: Oct. 3–Nov. 29; Dec. 25–Jan. 31, 2027 | Dates:Sept. 26−27, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "Area: west of I-25 and east of the Continental Divide, except El Paso, Pueblo, Huerfano and Las Animas counties. September teal season (Sept. 12 to 20, 2026) applies east of I-25 and in Lake and Chaffee counties."
+  },
+  {
+    "id": "co-duck-western-2026",
+    "state": "CO",
+    "species": "duck",
+    "seasonName": "Ducks, Western Zone (Pacific Flyway)",
+    "zone": "Western Zone (Pacific Flyway)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-20",
+        "note": "split 1"
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2026-10-25",
+        "note": "youth, veteran and active military"
+      },
+      {
+        "open": "2026-11-06",
+        "close": "2027-01-31",
+        "note": "split 2"
+      }
+    ],
+    "bagLimit": "7 (no more than 2 female mallard, 3 pintails, 2 canvasback, 2 redhead, 2 scaup); no scaup after Jan. 12, 2027",
+    "possessionLimit": "3 daily bag limits",
+    "agency": "CPW",
+    "sourceTitle": "2026 Colorado Small Game & Waterfowl Hunting Brochure",
+    "sourceUrl": "https://cpw.widen.net/s/bklvf2bjmw/colorado-small-game--waterfowl-brochure",
+    "sourceQuote": "■Western Zone | Area: West of the Continental Divide not included in the Eastern Zone. | Dates: Oct. 3–20; Nov. 6–Jan. 31, 2027 | Duck&Merganser: 7 in aggregate. Of these, no more than 2 can be female | No scaup can be taken after Jan. 12, 2027. | Dates:Oct. 24−25, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "West of the Continental Divide except the Eastern Zone."
+  },
+  {
+    "id": "co-duck-eastern-2026",
+    "state": "CO",
+    "species": "duck",
+    "seasonName": "Ducks, Eastern Zone (Pacific Flyway)",
+    "zone": "Eastern Zone (Pacific Flyway)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-27",
+        "note": "youth, veteran and active military"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2027-01-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "7 (no more than 2 female mallard, 3 pintails, 2 canvasback, 2 redhead, 2 scaup); no scaup after Dec. 27, 2026",
+    "possessionLimit": "3 daily bag limits",
+    "agency": "CPW",
+    "sourceTitle": "2026 Colorado Small Game & Waterfowl Hunting Brochure",
+    "sourceUrl": "https://cpw.widen.net/s/bklvf2bjmw/colorado-small-game--waterfowl-brochure",
+    "sourceQuote": "■Eastern Zone | Area: Routt, Grand, Summit, Eagle and Pitkin counties, those parts of Sa- | Dates: Oct. 3–Jan. 15, 2027 | No scaup can be taken after Dec. 27, 2026. | Dates: Sept. 26−27, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "Routt, Grand, Summit, Eagle and Pitkin counties, parts of Saguache, San Juan, Hinsdale and Mineral counties west of the Divide, most of Gunnison County and part of Moffat County."
+  },
+  {
+    "id": "co-goose-central-regular-2026",
+    "state": "CO",
+    "species": "goose",
+    "seasonName": "Geese, Central Flyway Regular Season",
+    "zone": "Central Flyway Regular Season",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-02",
+        "close": "2027-02-14",
+        "note": "dark geese"
+      }
+    ],
+    "bagLimit": "5 dark geese; 50 light geese",
+    "possessionLimit": "15 dark geese; light geese unlimited",
+    "agency": "CPW",
+    "sourceTitle": "2026 Colorado Small Game & Waterfowl Hunting Brochure",
+    "sourceUrl": "https://cpw.widen.net/s/bklvf2bjmw/colorado-small-game--waterfowl-brochure",
+    "sourceQuote": "Waterfowl:Goose | DarkGoose: | Daily bag limit: 5 | ■Regular Season | Area: East of the Continental Divide, except areas designated as part | Dates: Nov. 2–Feb. 14, 2027 | Dates: Oct. 31–Feb. 14, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "East of the Continental Divide except North Park, San Luis Valley and South Park. Light geese Oct. 31, 2026 to Feb. 14, 2027 (50 daily, no possession limit). Light goose conservation order east of I-25 Feb. 15 to Apr. 30, 2027."
+  },
+  {
+    "id": "co-goose-north-park-2026",
+    "state": "CO",
+    "species": "goose",
+    "seasonName": "Geese, North Park (Central Flyway)",
+    "zone": "North Park (Central Flyway)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2027-01-15",
+        "note": "dark geese"
+      }
+    ],
+    "bagLimit": "5 dark geese; 50 light geese",
+    "possessionLimit": "15 dark geese; light geese unlimited",
+    "agency": "CPW",
+    "sourceTitle": "2026 Colorado Small Game & Waterfowl Hunting Brochure",
+    "sourceUrl": "https://cpw.widen.net/s/bklvf2bjmw/colorado-small-game--waterfowl-brochure",
+    "sourceQuote": "Waterfowl:Goose | DarkGoose: | Daily bag limit: 5 | ■North Park Season | Area: Jackson Co. | Dates: Oct. 3–Jan. 15, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Jackson County. Light geese Oct. 31, 2026 to Feb. 14, 2027 (50 daily, no possession limit)."
+  },
+  {
+    "id": "co-goose-san-luis-valley-2026",
+    "state": "CO",
+    "species": "goose",
+    "seasonName": "Geese, San Luis Valley (Central Flyway)",
+    "zone": "San Luis Valley (Central Flyway)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-21",
+        "note": "dark geese, split 1"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2027-02-14",
+        "note": "dark geese, split 2"
+      }
+    ],
+    "bagLimit": "5 dark geese; 50 light geese",
+    "possessionLimit": "15 dark geese; light geese unlimited",
+    "agency": "CPW",
+    "sourceTitle": "2026 Colorado Small Game & Waterfowl Hunting Brochure",
+    "sourceUrl": "https://cpw.widen.net/s/bklvf2bjmw/colorado-small-game--waterfowl-brochure",
+    "sourceQuote": "Waterfowl:Goose | DarkGoose: | Daily bag limit: 5 | ■San LuisValley Season | Area: Alamosa, Conejos, Costilla and Rio Grande counties, and | Dates: Oct. 3–21; Nov. 21–Feb. 14, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Alamosa, Conejos, Costilla and Rio Grande counties and the parts of Archuleta, Hinsdale, Mineral, Saguache and San Juan counties east of the Divide. Light geese Oct. 31, 2026 to Feb. 14, 2027 (50 daily, no possession limit)."
+  },
+  {
+    "id": "co-goose-south-park-2026",
+    "state": "CO",
+    "species": "goose",
+    "seasonName": "Geese, South Park (Central Flyway)",
+    "zone": "South Park (Central Flyway)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2027-01-15",
+        "note": "dark geese"
+      }
+    ],
+    "bagLimit": "5 dark geese; 50 light geese",
+    "possessionLimit": "15 dark geese; light geese unlimited",
+    "agency": "CPW",
+    "sourceTitle": "2026 Colorado Small Game & Waterfowl Hunting Brochure",
+    "sourceUrl": "https://cpw.widen.net/s/bklvf2bjmw/colorado-small-game--waterfowl-brochure",
+    "sourceQuote": "Waterfowl:Goose | DarkGoose: | Daily bag limit: 5 | ■South Park Season | Area: Chaffee, Custer, Fremont, Lake, Park and Teller counties. | Dates: Oct. 3–Jan. 15, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Chaffee, Custer, Fremont, Lake, Park and Teller counties. Light geese Oct. 31, 2026 to Feb. 14, 2027 (50 daily, no possession limit)."
+  },
+  {
+    "id": "co-goose-western-2026",
+    "state": "CO",
+    "species": "goose",
+    "seasonName": "Geese, Western Zone (Pacific Flyway)",
+    "zone": "Western Zone (Pacific Flyway)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-09",
+        "note": "early Canada goose, west of the Continental Divide"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-11",
+        "note": "split 1"
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2026-10-25",
+        "note": "youth, veteran and active military"
+      },
+      {
+        "open": "2026-11-06",
+        "close": "2027-01-31",
+        "note": "split 2"
+      }
+    ],
+    "bagLimit": "5 dark geese; 10 light geese",
+    "possessionLimit": "15 dark geese; 30 light geese",
+    "agency": "CPW",
+    "sourceTitle": "2026 Colorado Small Game & Waterfowl Hunting Brochure",
+    "sourceUrl": "https://cpw.widen.net/s/bklvf2bjmw/colorado-small-game--waterfowl-brochure",
+    "sourceQuote": "■Early Canada Goose Season | Area: West of the Continental Divide. | Dates: Sept. 1–9, annually | Area: West of the Continental Divide not included in Eastern Zone. | Dates: Oct. 3–11; Nov. 6–Jan. 31, 2027 | Dates:Oct. 24−25, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "co-goose-eastern-2026",
+    "state": "CO",
+    "species": "goose",
+    "seasonName": "Geese, Eastern Zone (Pacific Flyway)",
+    "zone": "Eastern Zone (Pacific Flyway)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-09",
+        "note": "early Canada goose, west of the Continental Divide"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-27",
+        "note": "youth, veteran and active military"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2027-01-06",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 dark geese; 10 light geese",
+    "possessionLimit": "15 dark geese; 30 light geese",
+    "agency": "CPW",
+    "sourceTitle": "2026 Colorado Small Game & Waterfowl Hunting Brochure",
+    "sourceUrl": "https://cpw.widen.net/s/bklvf2bjmw/colorado-small-game--waterfowl-brochure",
+    "sourceQuote": "■Early Canada Goose Season | Area: West of the Continental Divide. | Dates: Sept. 1–9, annually | Dates:Oct. 3–Jan. 6, 2027 | Dates: Sept. 26−27, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "co-dove-statewide-2026",
+    "state": "CO",
+    "species": "dove",
+    "seasonName": "Mourning and White-winged Dove",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-11-29",
+        "note": null
+      }
+    ],
+    "bagLimit": "15 singly or in aggregate",
+    "possessionLimit": "45 singly or in aggregate",
+    "agency": "CPW",
+    "sourceTitle": "2026 Colorado Small Game & Waterfowl Hunting Brochure",
+    "sourceUrl": "https://cpw.widen.net/s/bklvf2bjmw/colorado-small-game--waterfowl-brochure",
+    "sourceQuote": "■Dove: Mourning,White-Winged | Season: Sept. 1–Nov. 29, annually | Area: Statewide | Daily bag limit: 15 singly or in aggregate | Possession limit: 45 singly or in aggregate",
+    "checkedDate": "2026-11-23",
+    "notes": "Eurasian collared-doves open year-round with no limit. Year 2026 assigned; brochure says annually."
+  },
+  {
+    "id": "co-pheasant-east-2026",
+    "state": "CO",
+    "species": "pheasant",
+    "seasonName": "Pheasant, Season 1",
+    "zone": "East of I-25",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-14",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "3 cocks",
+    "possessionLimit": "9 cocks",
+    "agency": "CPW",
+    "sourceTitle": "2026 Colorado Small Game & Waterfowl Hunting Brochure",
+    "sourceUrl": "https://cpw.widen.net/s/bklvf2bjmw/colorado-small-game--waterfowl-brochure",
+    "sourceQuote": "■Pheasant | Season 1: Nov. 14–Jan. 31, 2027 | Area: East of I-25 | Daily bag limit: 3 cocks | Possession limit: 9 cocks",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "co-pheasant-west-2026",
+    "state": "CO",
+    "species": "pheasant",
+    "seasonName": "Pheasant, Season 2",
+    "zone": "West of I-25",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-14",
+        "close": "2027-01-03",
+        "note": null
+      }
+    ],
+    "bagLimit": "3 cocks",
+    "possessionLimit": "9 cocks",
+    "agency": "CPW",
+    "sourceTitle": "2026 Colorado Small Game & Waterfowl Hunting Brochure",
+    "sourceUrl": "https://cpw.widen.net/s/bklvf2bjmw/colorado-small-game--waterfowl-brochure",
+    "sourceQuote": "■Pheasant | Season 2: Nov. 14–Jan. 3, 2027 | Area: West of I-25 | Daily bag limit: 3 cocks | Possession limit: 9 cocks",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "co-quail-season1-2026",
+    "state": "CO",
+    "species": "quail",
+    "seasonName": "Quail (Northern Bobwhite, Scaled, Gambel's), Season 1",
+    "zone": "East of I-25 and south of I-70/Hwy. 36, plus parts of Pueblo, Fremont, Huerfano, El Paso and Las Animas counties west of I-25",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-14",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "8 of each species",
+    "possessionLimit": "24 of each species",
+    "agency": "CPW",
+    "sourceTitle": "2026 Colorado Small Game & Waterfowl Hunting Brochure",
+    "sourceUrl": "https://cpw.widen.net/s/bklvf2bjmw/colorado-small-game--waterfowl-brochure",
+    "sourceQuote": "Season 1: Nov. 14–Jan. 31, 2027 | Area: East of I-25 and south of I-70 from I-25 to | Byers and Hwy. 36 from Byers to Kansas, and the | Daily bag limit: 8 of each species | Possession limit: 24 of each species",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "co-quail-season2-2026",
+    "state": "CO",
+    "species": "quail",
+    "seasonName": "Quail (Northern Bobwhite, Scaled, Gambel's), Season 2",
+    "zone": "East of I-25 and north of I-70/Hwy. 36",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-14",
+        "close": "2027-01-03",
+        "note": null
+      }
+    ],
+    "bagLimit": "8 of each species",
+    "possessionLimit": "24 of each species",
+    "agency": "CPW",
+    "sourceTitle": "2026 Colorado Small Game & Waterfowl Hunting Brochure",
+    "sourceUrl": "https://cpw.widen.net/s/bklvf2bjmw/colorado-small-game--waterfowl-brochure",
+    "sourceQuote": "Season 2: Nov. 14–Jan. 3, 2027 | Area: East of I-25 and north of I-70 from I-25 east | to Byers and Hwy. 36 from Byers to Kansas. | Daily bag limit: 8 of each species",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "co-quail-season3-2026",
+    "state": "CO",
+    "species": "quail",
+    "seasonName": "Quail (Northern Bobwhite, Scaled, Gambel's), Season 3",
+    "zone": "West of I-25 (except the Season 1 counties)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-14",
+        "close": "2027-01-03",
+        "note": null
+      }
+    ],
+    "bagLimit": "8 of each species",
+    "possessionLimit": "24 of each species",
+    "agency": "CPW",
+    "sourceTitle": "2026 Colorado Small Game & Waterfowl Hunting Brochure",
+    "sourceUrl": "https://cpw.widen.net/s/bklvf2bjmw/colorado-small-game--waterfowl-brochure",
+    "sourceQuote": "Season 3: Nov. 14–Jan. 3, 2027 | Area: West of I-25 except those areas west of I-25 | Daily bag limit: 8 of each species",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "co-chukar-statewide-2026",
+    "state": "CO",
+    "species": "chukar",
+    "seasonName": "Chukar Partridge",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-11-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "4",
+    "possessionLimit": "12",
+    "agency": "CPW",
+    "sourceTitle": "2026 Colorado Small Game & Waterfowl Hunting Brochure",
+    "sourceUrl": "https://cpw.widen.net/s/bklvf2bjmw/colorado-small-game--waterfowl-brochure",
+    "sourceQuote": "■Chukar Partridge | Season: Sept. 1–Nov. 30, annually | Area: Statewide | Daily bag limit: 4 | Possession limit: 12",
+    "checkedDate": "2026-11-23",
+    "notes": "Year 2026 assigned; brochure says annually."
+  },
+  {
+    "id": "co-grouse-dusky-2026",
+    "state": "CO",
+    "species": "grouse",
+    "seasonName": "Dusky (Blue) Grouse",
+    "zone": "West of I-25",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-11-22",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "CPW",
+    "sourceTitle": "2026 Colorado Small Game & Waterfowl Hunting Brochure",
+    "sourceUrl": "https://cpw.widen.net/s/bklvf2bjmw/colorado-small-game--waterfowl-brochure",
+    "sourceQuote": "■Grouse: Dusky (Blue) | Season: Sept. 1–Nov. 22, 2026 | Area: West of I-25 | Daily bag limit: 3 | Possession limit: 9",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "co-sharptail-mountain-2026",
+    "state": "CO",
+    "species": "sharptail",
+    "seasonName": "Mountain Sharp-tailed Grouse",
+    "zone": "GMUs 4, 5, 12, 13, 14, 23, 131, 211, 214 and 441",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-20",
+        "note": null
+      }
+    ],
+    "bagLimit": "2",
+    "possessionLimit": "4",
+    "agency": "CPW",
+    "sourceTitle": "2026 Colorado Small Game & Waterfowl Hunting Brochure",
+    "sourceUrl": "https://cpw.widen.net/s/bklvf2bjmw/colorado-small-game--waterfowl-brochure",
+    "sourceQuote": "■Grouse: Mountain Sharp-Tailed | Season: Sept. 1–20, 2026 | Area: Only GMUs 4, 5, 12, 13, 14, 23, 131, 211, | 214 and 441. | Daily bag limit: 2 | Possession limit: 4",
+    "checkedDate": "2026-11-23",
+    "notes": "Needs the $5 white-tailed ptarmigan, greater sage-grouse and mountain sharp-tailed grouse permit."
+  },
+  {
+    "id": "co-turkey-fall-otc-2026",
+    "state": "CO",
+    "species": "turkey",
+    "seasonName": "Fall Turkey, Over-the-Counter (T-E-000-U2-R)",
+    "zone": "OTC units shown in the brochure (west of I-25 and GMU 140; east of I-25)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-10-04",
+        "note": "west of I-25 and GMU 140"
+      },
+      {
+        "open": "2026-09-01",
+        "close": "2026-10-23",
+        "note": "east of I-25, except GMU 140"
+      }
+    ],
+    "bagLimit": "1 either-sex turkey",
+    "possessionLimit": null,
+    "agency": "CPW",
+    "sourceTitle": "2026 Colorado Turkey Hunting Brochure",
+    "sourceUrl": "https://cpw.widen.net/s/wg99zczlrf/colorado-turkey-hunting-brochure",
+    "sourceQuote": "Season dates: Sept. 1–Oct. 4: west of I-25 and GMU 140 | Sept. 1–Oct. 23: east of I-25, except GMU 140 | Sales agents only: Use code T-E-000-U2-R | Fall and late OTC license sales begin: June 18 at 9 a.m. MT",
+    "checkedDate": "2026-11-23",
+    "notes": "Valid units are listed in the brochure. Youth with an unfilled fall license can also hunt Nov. 21 to 29, 2026. Spring 2027 turkey is in the 2027 brochure, not published yet."
+  },
+  {
+    "id": "co-deer-otc-whitetail-2026",
+    "state": "CO",
+    "species": "deer",
+    "seasonName": "Over-the-Counter White-tailed Deer, Rifle (D-E-048-U6-R)",
+    "zone": "GMUs 48, 49, 56, 57, 58, 59, 69, 84, 85, 86, 140, 481, 511, 512, 561, 581, 591, 691, 851 (except Bosque del Oso SWA), 861",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-01",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 either-sex white-tailed deer",
+    "possessionLimit": null,
+    "agency": "CPW",
+    "sourceTitle": "2026 Colorado Big Game Hunting Brochure",
+    "sourceUrl": "https://cpw.widen.net/s/wqclnnqtqg/biggame",
+    "sourceQuote": "Seasondates: Dec.1–31 | Licenses: Either Sex | License agents only: D-E-048-U6-R | Valid units: 48, 49, 56, 57, 58, 59, 69, 84, 85, 86, 140, | 481, 511, *512, 561, 581, 591, 691, 851 exceptBosque | Note: Most deer licenses are limited and available only through the draw(s).",
+    "checkedDate": "2026-11-23",
+    "notes": "White-tailed deer only. Sold only at CPW offices and state parks that sell licenses. All other Colorado deer licenses are limited (draw)."
+  },
+  {
+    "id": "co-elk-otc-archery-2026",
+    "state": "CO",
+    "species": "elk",
+    "seasonName": "Over-the-Counter Either-sex Elk, Archery (E-E-000-U1-A)",
+    "zone": "OTC archery units listed in the brochure (residents)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-02",
+        "close": "2026-09-30",
+        "note": "archery only"
+      }
+    ],
+    "bagLimit": "1 either-sex elk",
+    "possessionLimit": null,
+    "agency": "CPW",
+    "sourceTitle": "2026 Colorado Big Game Hunting Brochure",
+    "sourceUrl": "https://cpw.widen.net/s/wqclnnqtqg/biggame",
+    "sourceQuote": "Resident only | Season dates: Sept. 2–30 | Sex: Either | License agents only: | E-E-000-U1-A | Over-the-counter archery licenses for antlered and either-sex elk",
+    "checkedDate": "2026-11-23",
+    "notes": "Resident only for these units; nonresidents can buy OTC archery elk only east of I-25. Valid units are listed in the brochure (map, page 39)."
+  },
+  {
+    "id": "co-elk-otc-rifle-2026",
+    "state": "CO",
+    "species": "elk",
+    "seasonName": "Over-the-Counter Bull Elk, Second and Third Rifle (E-M-000-U2-R, E-M-000-U3-R)",
+    "zone": "OTC rifle units listed in the brochure (map, page 40)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2026-11-01",
+        "note": "second rifle season"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-15",
+        "note": "third rifle season"
+      }
+    ],
+    "bagLimit": "1 bull elk (List A; one season only)",
+    "possessionLimit": null,
+    "agency": "CPW",
+    "sourceTitle": "2026 Colorado Big Game Hunting Brochure",
+    "sourceUrl": "https://cpw.widen.net/s/wqclnnqtqg/biggame",
+    "sourceQuote": "■ Second season dates: | Oct. 24–Nov. 1 | License agents only: | E-M-000-U2-R | Sex: Bull | E-M-000-U3-R | ■ Third Rifle Nov. 7–15 | Over-the-counter rifle licenses for antlered elk (map, page 40)",
+    "checkedDate": "2026-11-23",
+    "notes": "List A: one license covers one season, not both. Antler point rules apply in most units. Units 54, 55 and 551 are no longer OTC in 2026."
+  },
+  {
+    "id": "co-elk-otc-plains-2026",
+    "state": "CO",
+    "species": "elk",
+    "seasonName": "Over-the-Counter Either-sex Elk, Plains Rifle (E-E-087-U5-R)",
+    "zone": "GMUs 87 to 147 and 951 (eastern plains; see list)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 either-sex elk (List C)",
+    "possessionLimit": null,
+    "agency": "CPW",
+    "sourceTitle": "2026 Colorado Big Game Hunting Brochure",
+    "sourceUrl": "https://cpw.widen.net/s/wqclnnqtqg/biggame",
+    "sourceQuote": "Plains Season ■ Dates: Sept. 1–Jan. 31, 2027 ■ Sex: Either ■ List: C | License agents only: E-E-087-U5-R | Valid units: 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 105, 106,",
+    "checkedDate": "2026-11-23",
+    "notes": "Mostly private land; get landowner permission."
+  },
+  {
+    "id": "co-elk-otc-unit128-2026",
+    "state": "CO",
+    "species": "elk",
+    "seasonName": "Over-the-Counter Bull Elk, Unit 128 Plains (E-M-128-U5-R)",
+    "zone": "GMU 128",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-14",
+        "close": "2026-11-22",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 bull elk (List A)",
+    "possessionLimit": null,
+    "agency": "CPW",
+    "sourceTitle": "2026 Colorado Big Game Hunting Brochure",
+    "sourceUrl": "https://cpw.widen.net/s/wqclnnqtqg/biggame",
+    "sourceQuote": "Unit 128 — Plains | Dates: Oct. 14–Nov. 22 | Sex: Bulls only | License agents only: E-M-128-U5-R | Unit 128 is OTC bull elk only Oct. 15-Nov. 23",
+    "checkedDate": "2026-11-23",
+    "notes": "The brochure text says Oct. 14 to Nov. 22 but the map label says Oct. 15 to Nov. 23; recorded the text dates. Most land is private."
+  }
+]
