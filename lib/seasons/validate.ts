@@ -38,7 +38,7 @@ export function validateSeasonRecord(value: unknown, file: string): { record?: S
   if (!text(value.checkedDate) || !DATE.test(String(value.checkedDate))) reasons.push("checkedDate");
   if (!optionalText(value.notes)) reasons.push("notes");
 
-  if (!Array.isArray(value.periods) || value.periods.length === 0) {
+  if (!Array.isArray(value.periods)) {
     reasons.push("periods");
   } else {
     value.periods.forEach((period, index) => {
