@@ -1,0 +1,687 @@
+[
+  {
+    "id": "wa-duck-statewide-2026",
+    "state": "WA",
+    "species": "duck",
+    "seasonName": "Duck",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-26",
+        "note": "youth only, Western Washington"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-03",
+        "note": "youth only, Eastern Washington"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-25",
+        "note": "split 1"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2027-01-31",
+        "note": "split 2"
+      },
+      {
+        "open": "2027-02-06",
+        "close": "2027-02-06",
+        "note": "youth, veterans and active military only"
+      }
+    ],
+    "bagLimit": "7 (not more than 2 hen mallard, 3 pintail, 2 scaup, 2 canvasback, 2 redhead statewide; in western Washington not more than 3 scoter, 2 long-tailed duck, 3 goldeneye)",
+    "possessionLimit": "21 (regular season)",
+    "agency": "WDFW",
+    "sourceTitle": "2026 Washington Game Bird and Small Game Hunting Regulations (effective July 1, 2026 to June 30, 2027)",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/WA/26WAGB-LR2.pdf",
+    "sourceQuote": "Duck W. Washington Youth Sept. 26 (Youth Only a) | E. Washington Youth Oct. 3 (Youth Only a) | Youth, Veterans & Active Military (Statewide) Feb. 6 a | Statewide Oct. 17-25 & Oct. 28 - Jan. 31, except Scaup season | closed Oct. 17 - Nov. 6",
+    "checkedDate": "2026-11-23",
+    "notes": "Scaup closed Oct. 17 to Nov. 6. Harlequin closed except by permit. Jan. 31 and Feb. 6 are 2027 (2026-2027 season table)."
+  },
+  {
+    "id": "wa-dove-statewide-2026",
+    "state": "WA",
+    "species": "dove",
+    "seasonName": "Mourning Dove",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-10-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": "45",
+    "agency": "WDFW",
+    "sourceTitle": "2026 Washington Game Bird and Small Game Hunting Regulations (effective July 1, 2026 to June 30, 2027)",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/WA/26WAGB-LR2.pdf",
+    "sourceQuote": "Mourning Dove Statewide Sept. 1 - Oct. 30 15 45",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "wa-goose-gma1-2026",
+    "state": "WA",
+    "species": "goose",
+    "seasonName": "Goose (except Brant), Goose Mgmt Area 1",
+    "zone": "Goose Mgmt Area 1",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-13",
+        "note": "September Canada goose season"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-26",
+        "note": "youth only, Canada and white-fronted geese"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-11-29",
+        "note": "regular season, split 1"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-01-31",
+        "note": "regular season, split 2"
+      },
+      {
+        "open": "2027-02-06",
+        "close": "2027-02-06",
+        "note": "youth, veterans and active military only"
+      },
+      {
+        "open": "2027-02-13",
+        "close": "2027-02-21",
+        "note": "late season, white geese only"
+      }
+    ],
+    "bagLimit": "3 Canada, 6 white-fronted, 6 white (regular season); 5 Canada (September season)",
+    "possessionLimit": "9 Canada, 18 white-fronted, 18 white (regular season); 15 (September season)",
+    "agency": "WDFW",
+    "sourceTitle": "2026 Washington Game Bird and Small Game Hunting Regulations (effective July 1, 2026 to June 30, 2027)",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/WA/26WAGB-LR2.pdf",
+    "sourceQuote": "Canada Goose Goose Mgmt Areas 1 & 3 Sept. 5-13 | Goose Mgmt Area 1e Regular Season: Oct. 17 - Nov. 29 and Dec. 12 - Jan. 31 | Late Season (white goose only): Feb. 13-21.",
+    "checkedDate": "2026-11-23",
+    "notes": "Snow goose authorization required in GMA 1."
+  },
+  {
+    "id": "wa-goose-gma2-coast-2026",
+    "state": "WA",
+    "species": "goose",
+    "seasonName": "Goose (except Brant), Goose Mgmt Area 2 - Coast",
+    "zone": "Goose Mgmt Area 2 - Coast",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-13",
+        "note": "September Canada goose season"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-26",
+        "note": "youth only, Canada and white-fronted geese"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-11-29",
+        "note": "Saturdays, Sundays and Wednesdays only, split 1"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2027-01-10",
+        "note": "Saturdays, Sundays and Wednesdays only, split 2"
+      },
+      {
+        "open": "2027-02-06",
+        "close": "2027-02-06",
+        "note": "youth, veterans and active military only"
+      }
+    ],
+    "bagLimit": "2 Canada, 6 white-fronted, 10 white (regular season); 5 Canada (September season, 15 in Pacific County)",
+    "possessionLimit": "6 Canada, 18 white-fronted, 30 white (regular season)",
+    "agency": "WDFW",
+    "sourceTitle": "2026 Washington Game Bird and Small Game Hunting Regulations (effective July 1, 2026 to June 30, 2027)",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/WA/26WAGB-LR2.pdf",
+    "sourceQuote": "Goose Mgmt Area 2 Sept. 5-13 | Goose Mgmt Area 2 - Coast f (includes Pacific Saturdays, Sundays, & Wednesdays only | County and that portion of Grays Harbor County Oct. 17 - Nov. 29 and Dec. 12 - Jan. 10",
+    "checkedDate": "2026-11-23",
+    "notes": "Dusky Canada goose closed. Authorization and goose ID requirements apply in GMA 2."
+  },
+  {
+    "id": "wa-goose-gma2-inland-2026",
+    "state": "WA",
+    "species": "goose",
+    "seasonName": "Goose (except Brant), Goose Mgmt Area 2 - Inland",
+    "zone": "Goose Mgmt Area 2 - Inland",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-13",
+        "note": "September Canada goose season"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-26",
+        "note": "youth only, Canada and white-fronted geese"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-11-01",
+        "note": "Saturdays, Sundays and Wednesdays only, split 1"
+      },
+      {
+        "open": "2026-11-25",
+        "close": "2027-01-10",
+        "note": "Saturdays, Sundays and Wednesdays only, split 2"
+      },
+      {
+        "open": "2027-02-06",
+        "close": "2027-02-06",
+        "note": "youth, veterans and active military only"
+      },
+      {
+        "open": "2027-02-07",
+        "close": "2027-02-15",
+        "note": "Saturdays, Sundays and Wednesdays only, split 3; refuges and WDFW wildlife areas closed"
+      }
+    ],
+    "bagLimit": "2 Canada, 6 white-fronted, 10 white (regular season); 5 Canada (September season)",
+    "possessionLimit": "6 Canada, 18 white-fronted, 30 white (regular season)",
+    "agency": "WDFW",
+    "sourceTitle": "2026 Washington Game Bird and Small Game Hunting Regulations (effective July 1, 2026 to June 30, 2027)",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/WA/26WAGB-LR2.pdf",
+    "sourceQuote": "Goose Mgmt Area 2 Sept. 5-13 | Saturdays, Sundays, & Wednesdays only | Oct. 17 - Nov. 1, Nov. 25 - Jan. 10, and Feb. 7-15",
+    "checkedDate": "2026-11-23",
+    "notes": "Ridgefield National Wildlife Refuge has different hunt days (Tuesdays, Thursdays, and Saturdays). Dusky Canada goose closed."
+  },
+  {
+    "id": "wa-goose-gma3-2026",
+    "state": "WA",
+    "species": "goose",
+    "seasonName": "Goose (except Brant), Goose Mgmt Area 3",
+    "zone": "Goose Mgmt Area 3",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-13",
+        "note": "September Canada goose season"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-26",
+        "note": "youth only, Canada and white-fronted geese"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-25",
+        "note": "regular season, split 1"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2027-01-31",
+        "note": "regular season, split 2"
+      },
+      {
+        "open": "2027-02-06",
+        "close": "2027-02-06",
+        "note": "youth, veterans and active military only"
+      }
+    ],
+    "bagLimit": "3 Canada, 6 white-fronted, 10 white (regular season); 5 Canada (September season)",
+    "possessionLimit": "9 Canada, 18 white-fronted, 30 white (regular season)",
+    "agency": "WDFW",
+    "sourceTitle": "2026 Washington Game Bird and Small Game Hunting Regulations (effective July 1, 2026 to June 30, 2027)",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/WA/26WAGB-LR2.pdf",
+    "sourceQuote": "Canada Goose Goose Mgmt Areas 1 & 3 Sept. 5-13 | Goose Mgmt Area 3 Oct. 17-25 and Nov. 7 - Jan. 31",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "wa-goose-gma4-2026",
+    "state": "WA",
+    "species": "goose",
+    "seasonName": "Goose (except Brant), Goose Management Area 4",
+    "zone": "Goose Management Area 4",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-06",
+        "note": "September Canada goose season"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-03",
+        "note": "youth only, Canada and white-fronted geese"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2027-01-24",
+        "note": "Saturdays, Sundays and Wednesdays only plus listed extra days; white geese closed Nov. 30 to Dec. 22"
+      },
+      {
+        "open": "2027-01-25",
+        "close": "2027-01-31",
+        "note": "every day"
+      },
+      {
+        "open": "2027-02-06",
+        "close": "2027-02-06",
+        "note": "youth, veterans and active military only"
+      },
+      {
+        "open": "2027-02-20",
+        "close": "2027-03-10",
+        "note": "late season, white geese only"
+      }
+    ],
+    "bagLimit": "3 Canada, 6 white-fronted, 10 white; 5 Canada (September season)",
+    "possessionLimit": "9 Canada, 18 white-fronted, 30 white",
+    "agency": "WDFW",
+    "sourceTitle": "2026 Washington Game Bird and Small Game Hunting Regulations (effective July 1, 2026 to June 30, 2027)",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/WA/26WAGB-LR2.pdf",
+    "sourceQuote": "Goose Management Areas 4 & 5 Sept. 5-6 | Goose Management Area 4 Saturdays, Sundays, & Wednesdays only during: | Nov. 30 - Dec. 22 White Goose Closure period. | Oct. 17 - Nov. 29, Dec. 23 - Jan. 24; Every day | Late Season (white goose only): Feb. 20 - Mar. 10",
+    "checkedDate": "2026-11-23",
+    "notes": "Additional hunt days: Nov. 26 and 27; Dec. 24, 25, 28, and 29; Jan. 1 and 18. Complex day-of-week rules; spot-check."
+  },
+  {
+    "id": "wa-goose-gma5-2026",
+    "state": "WA",
+    "species": "goose",
+    "seasonName": "Goose (except Brant), Goose Management Area 5",
+    "zone": "Goose Management Area 5",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-06",
+        "note": "September Canada goose season"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-03",
+        "note": "youth only, Canada and white-fronted geese"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-11-02",
+        "note": "regular season, split 1"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2027-01-31",
+        "note": "regular season, split 2"
+      },
+      {
+        "open": "2027-02-06",
+        "close": "2027-02-06",
+        "note": "youth, veterans and active military only"
+      }
+    ],
+    "bagLimit": "3 Canada, 6 white-fronted, 10 white; 5 Canada (September season)",
+    "possessionLimit": "9 Canada, 18 white-fronted, 30 white",
+    "agency": "WDFW",
+    "sourceTitle": "2026 Washington Game Bird and Small Game Hunting Regulations (effective July 1, 2026 to June 30, 2027)",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/WA/26WAGB-LR2.pdf",
+    "sourceQuote": "Goose Management Areas 4 & 5 Sept. 5-6 | Goose Management Area 5 Oct. 17 - Nov. 2 & Nov. 7 - Jan. 31",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "wa-pheasant-western-2026",
+    "state": "WA",
+    "species": "pheasant",
+    "seasonName": "Pheasant, Western Washington",
+    "zone": "Western Washington",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-09-13",
+        "note": "youth only"
+      },
+      {
+        "open": "2026-09-14",
+        "close": "2026-09-18",
+        "note": "hunters 65 or older and hunters with disabilities"
+      },
+      {
+        "open": "2026-09-19",
+        "close": "2026-11-30",
+        "note": "regular season, 8am to 4pm"
+      },
+      {
+        "open": "2026-12-01",
+        "close": "2026-12-15",
+        "note": "extended season at listed release sites only, no pheasants released"
+      }
+    ],
+    "bagLimit": "2 either sex",
+    "possessionLimit": "15 either sex (regular season)",
+    "agency": "WDFW",
+    "sourceTitle": "2026 Washington Game Bird and Small Game Hunting Regulations (effective July 1, 2026 to June 30, 2027)",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/WA/26WAGB-LR2.pdf",
+    "sourceQuote": "Pheasant Western Washington 8am to 4pm Sept. 12-13 (Youth Only) | Western Washington 8am to 4pm | Regular Season Sept. 19 - Nov. 30 | Western Washington 8am to 4pm Dec. 1-15",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "wa-pheasant-eastern-2026",
+    "state": "WA",
+    "species": "pheasant",
+    "seasonName": "Pheasant, Eastern Washington",
+    "zone": "Eastern Washington",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-09-13",
+        "note": "youth only"
+      },
+      {
+        "open": "2026-09-14",
+        "close": "2026-09-18",
+        "note": "hunters 65 or older and hunters with disabilities"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2027-01-18",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": "3 cocks only",
+    "possessionLimit": "15 cocks only (regular season)",
+    "agency": "WDFW",
+    "sourceTitle": "2026 Washington Game Bird and Small Game Hunting Regulations (effective July 1, 2026 to June 30, 2027)",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/WA/26WAGB-LR2.pdf",
+    "sourceQuote": "Eastern Washington Sept. 12-13 (Youth Only) 3 cocks only 6 cocks only | Eastern Washington Oct. 17 - Jan. 18 3 cocks only 15 cocks only",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "wa-quail-western-2026",
+    "state": "WA",
+    "species": "quail",
+    "seasonName": "California (Valley) Quail and Northern Bobwhite, Western Washington",
+    "zone": "Western Washington",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-11-30",
+        "note": "8am to 4pm"
+      }
+    ],
+    "bagLimit": "10 mixed bag",
+    "possessionLimit": "30 mixed bag",
+    "agency": "WDFW",
+    "sourceTitle": "2026 Washington Game Bird and Small Game Hunting Regulations (effective July 1, 2026 to June 30, 2027)",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/WA/26WAGB-LR2.pdf",
+    "sourceQuote": "California (Valley) Quail and Western Washington 8am to 4pm Sept. 19 - Nov. 30 10 mixed bag 30 mixed bag",
+    "checkedDate": "2026-11-23",
+    "notes": "Mountain quail open in Western Washington only, Sept. 19 to Nov. 30 (2 daily, 4 possession)."
+  },
+  {
+    "id": "wa-quail-eastern-2026",
+    "state": "WA",
+    "species": "quail",
+    "seasonName": "California (Valley) Quail and Northern Bobwhite, Eastern Washington",
+    "zone": "Eastern Washington",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-09-13",
+        "note": "youth only"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2027-01-18",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": "10 mixed bag",
+    "possessionLimit": "30 mixed bag (regular season)",
+    "agency": "WDFW",
+    "sourceTitle": "2026 Washington Game Bird and Small Game Hunting Regulations (effective July 1, 2026 to June 30, 2027)",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/WA/26WAGB-LR2.pdf",
+    "sourceQuote": "Northern Bobwhite Eastern Washington Sept. 12-13 (Youth Only) 10 mixed bag 20 mixed bag | Eastern Washington Oct. 3 - Jan. 18 10 mixed bag 30 mixed bag",
+    "checkedDate": "2026-11-23",
+    "notes": "Mountain quail closed throughout Eastern Washington."
+  },
+  {
+    "id": "wa-chukar-eastern-2026",
+    "state": "WA",
+    "species": "chukar",
+    "seasonName": "Chukar, Eastern Washington",
+    "zone": "Eastern Washington",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-09-13",
+        "note": "youth only"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2027-01-31",
+        "note": "regular season"
+      }
+    ],
+    "bagLimit": "6 either sex",
+    "possessionLimit": "18 either sex (regular season)",
+    "agency": "WDFW",
+    "sourceTitle": "2026 Washington Game Bird and Small Game Hunting Regulations (effective July 1, 2026 to June 30, 2027)",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/WA/26WAGB-LR2.pdf",
+    "sourceQuote": "Chukar Eastern Washington Sept. 12-13 (Youth Only) 6 either sex 12 either sex | Oct. 3 - Jan. 31 6 either sex 18 either sex",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "wa-turkey-fall-2026",
+    "state": "WA",
+    "species": "turkey",
+    "seasonName": "Fall General Season (Wild Turkey)",
+    "zone": "GMUs 101 through 154, 162 through 186, 203 through 290, 382, 388, 568 through 578",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "Two (2) beardless and two (2) either sex turkeys in GMUs 101-154 and 162-186; two (2) either sex in 382, 388, 568-578; one (1) either sex in 203-290",
+    "possessionLimit": null,
+    "agency": "WDFW",
+    "sourceTitle": "2026 Washington Game Bird and Small Game Hunting Regulations (effective July 1, 2026 to June 30, 2027)",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/WA/26WAGB-LR2.pdf",
+    "sourceQuote": "FALL GENERAL SEASONS (STATEWIDE* SEASONAL BAG LIMIT IS FOUR (4) TURKEYS WITH THE FOLLOWING AREA RESTRICTIONS) | Fall General Season Sept. 1 - Dec. 31 101 through 154, and 162 through 186 Two (2) beardless and two (2) either sex turkeys",
+    "checkedDate": "2026-11-23",
+    "notes": "Statewide seasonal bag limit is four turkeys. Closed GMUs: 157, 328-381, all 400s, 501-564, all 600s."
+  },
+  {
+    "id": "wa-turkey-spring-2027",
+    "state": "WA",
+    "species": "turkey",
+    "seasonName": "Spring General Season (Wild Turkey)",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-04-01",
+        "close": "2027-04-07",
+        "note": "youth only"
+      },
+      {
+        "open": "2027-04-15",
+        "close": "2027-05-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "Male turkeys and turkeys with visible beards only",
+    "possessionLimit": null,
+    "agency": "WDFW",
+    "sourceTitle": "2026 Washington Game Bird and Small Game Hunting Regulations (effective July 1, 2026 to June 30, 2027)",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/WA/26WAGB-LR2.pdf",
+    "sourceQuote": "Youth Only April 1-7, 2027 Statewide* The combined spring/youth season limit is three (3) turkeys statewide. | Spring General Season April 15 - May 31 Male turkeys and turkeys with visible beards only.",
+    "checkedDate": "2026-11-23",
+    "notes": "Spring season limit is three turkeys statewide, with county limits (for example Klickitat 2). May 31 year read as 2027 from the youth row; spot-check."
+  },
+  {
+    "id": "wa-deer-blacktail-2026",
+    "state": "WA",
+    "species": "deer",
+    "seasonName": "Modern Firearm General Deer Season, Black-tailed Deer",
+    "zone": "Black-tailed deer GMUs in the 400, 500 and 600 series (see pamphlet table for full GMU list)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2026-11-01",
+        "note": "general season"
+      },
+      {
+        "open": "2026-11-19",
+        "close": "2026-11-22",
+        "note": "late general season, fewer GMUs"
+      }
+    ],
+    "bagLimit": "One (1) deer per hunter during the license year",
+    "possessionLimit": null,
+    "agency": "WDFW",
+    "sourceTitle": "2026 Washington Big Game Hunting Regulations (effective April 1, 2026 to March 31, 2027)",
+    "sourceUrl": "https://wdfw.wa.gov/sites/default/files/publications/02706/wdfw02706.pdf",
+    "sourceQuote": "Modern Firearm General Deer Seasons | Black-tailed Deer Oct. 17-Nov. 1 407, 418, 426, 437, 448, 450, 454, 460, 466, 501 through 505, Any buck | Black-tailed Deer Nov. 19-22 407, 454, 466, 501 through 505, 506ad, 510 through 520, 524, Any buck",
+    "checkedDate": "2026-11-23",
+    "notes": "Legal deer varies by GMU (any buck, any deer, or 3 pt. min.). High buck wilderness hunt Sept. 15-25 not recorded. Archery and muzzleloader general seasons not recorded."
+  },
+  {
+    "id": "wa-deer-whitetail-2026",
+    "state": "WA",
+    "species": "deer",
+    "seasonName": "Modern Firearm General Deer Season, White-tailed Deer",
+    "zone": "White-tailed deer GMUs in the 100, 200 and 300 series (see pamphlet table for full GMU list)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-27",
+        "note": "general season, most GMUs"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-30",
+        "note": "general season, GMUs 101-124"
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2026-10-30",
+        "note": "youth only, GMU 124"
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2026-10-27",
+        "note": "youth only, GMUs 127-142"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-19",
+        "note": "late general season, GMUs 105-124"
+      }
+    ],
+    "bagLimit": "One (1) deer per hunter during the license year",
+    "possessionLimit": null,
+    "agency": "WDFW",
+    "sourceTitle": "2026 Washington Big Game Hunting Regulations (effective April 1, 2026 to March 31, 2027)",
+    "sourceUrl": "https://wdfw.wa.gov/sites/default/files/publications/02706/wdfw02706.pdf",
+    "sourceQuote": "White-tailed Deer Oct. 17-30 101, 105, 108, 111, 113, 117d, 121, 124 Any buck | Oct. 17-27 203 through 284 Any buck | White-tailed Deer Nov. 7-19 105, 108, 111, 113, 117d, 121, 124 Any buck | White-tailed Deer Oct. 24-30 124 Any deer",
+    "checkedDate": "2026-11-23",
+    "notes": "Legal deer varies by GMU."
+  },
+  {
+    "id": "wa-deer-mule-2026",
+    "state": "WA",
+    "species": "deer",
+    "seasonName": "Modern Firearm General Deer Season, Mule Deer",
+    "zone": "Mule deer GMUs in the 100, 200 and 300 series (see pamphlet table for full GMU list)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-27",
+        "note": "general season"
+      }
+    ],
+    "bagLimit": "One (1) deer per hunter during the license year",
+    "possessionLimit": null,
+    "agency": "WDFW",
+    "sourceTitle": "2026 Washington Big Game Hunting Regulations (effective April 1, 2026 to March 31, 2027)",
+    "sourceUrl": "https://wdfw.wa.gov/sites/default/files/publications/02706/wdfw02706.pdf",
+    "sourceQuote": "Mule Deer Oct. 17-27 101 through 145, 149d, 154, 162 through 186, 203 through 3 pt. min.",
+    "checkedDate": "2026-11-23",
+    "notes": "Legal deer: 3 pt. min."
+  },
+  {
+    "id": "wa-elk-eastern-2026",
+    "state": "WA",
+    "species": "elk",
+    "seasonName": "Modern Firearm General Elk Season, Eastern Washington",
+    "zone": "Eastern Washington",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-31",
+        "close": "2026-11-08",
+        "note": "most GMUs"
+      },
+      {
+        "open": "2026-10-31",
+        "close": "2026-11-15",
+        "note": "GMUs 203, 209-248, 250, 254-272, 278, 284, 290, 373, 379, 381"
+      }
+    ],
+    "bagLimit": "One elk per hunter during the hunting season",
+    "possessionLimit": null,
+    "agency": "WDFW",
+    "sourceTitle": "2026 Washington Big Game Hunting Regulations (effective April 1, 2026 to March 31, 2027)",
+    "sourceUrl": "https://wdfw.wa.gov/sites/default/files/publications/02706/wdfw02706.pdf",
+    "sourceQuote": "Modern Firearm General Elk Seasons | EASTERN WASHINGTON | Oct. 31-Nov. 8 101, 105, 108, 111, 113, 117d, 121, 204 Any bull | Oct. 31-Nov. 15 203, 209 through 248, 250, 254 through 272, 278d, 284, 290, Any elk",
+    "checkedDate": "2026-11-23",
+    "notes": "Legal elk varies by GMU (any bull, spike bull, true spike bull, any elk). Master Hunter and Elk Area hunts not recorded."
+  },
+  {
+    "id": "wa-elk-western-2026",
+    "state": "WA",
+    "species": "elk",
+    "seasonName": "Modern Firearm General Elk Season, Western Washington",
+    "zone": "Western Washington",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-18",
+        "note": null
+      }
+    ],
+    "bagLimit": "One elk per hunter during the hunting season",
+    "possessionLimit": null,
+    "agency": "WDFW",
+    "sourceTitle": "2026 Washington Big Game Hunting Regulations (effective April 1, 2026 to March 31, 2027)",
+    "sourceUrl": "https://wdfw.wa.gov/sites/default/files/publications/02706/wdfw02706.pdf",
+    "sourceQuote": "WESTERN WASHINGTON | Nov. 7-18 564*d, 666 Any elk | Nov. 7-18 454 Any bull",
+    "checkedDate": "2026-11-23",
+    "notes": "Legal elk varies by GMU (any elk, any bull, 3 pt. min., or 3 pt. min. or antlerless)."
+  }
+]

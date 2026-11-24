@@ -3,7 +3,8 @@ export type SeasonPeriod = {
   open: string;
   /** Inclusive close date, YYYY-MM-DD. */
   close: string;
-  note: string;
+  /** Null when the source row has no period note. */
+  note: string | null;
 };
 
 /**
@@ -19,8 +20,10 @@ export type SeasonRecord = {
   zone: string | null;
   seasonYear: string;
   periods: SeasonPeriod[];
-  bagLimit: string;
-  possessionLimit: string;
+  /** Null when the agency source did not print a bag limit for this row. */
+  bagLimit: string | null;
+  /** Null when the agency source did not print a possession limit for this row. */
+  possessionLimit: string | null;
   agency: string;
   sourceTitle: string;
   sourceUrl: string;
@@ -28,5 +31,6 @@ export type SeasonRecord = {
   sourceQuote: string;
   /** ISO date (YYYY-MM-DD) the quote was checked. */
   checkedDate: string;
-  notes: string;
+  /** Null when the source row has no extra note. */
+  notes: string | null;
 };

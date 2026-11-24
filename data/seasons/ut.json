@@ -1,0 +1,424 @@
+[
+  {
+    "id": "ut-duck-northern-2026",
+    "state": "UT",
+    "species": "duck",
+    "seasonName": "Duck, merganser, coot and snipe, Northern Zone",
+    "zone": "Northern Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-19",
+        "note": "youth only"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2027-01-16",
+        "note": null
+      }
+    ],
+    "bagLimit": "7 (not more than 2 canvasbacks, 2 hen mallards, 3 pintail, 2 redheads, 2 wood ducks, 2 scaup)",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah 2026-27 Waterfowl, Upland Game and Turkey Guidebook",
+    "sourceUrl": "https://wildlife.utah.gov/guidebooks/waterfowl-upland-game-turkey-guidebook.pdf",
+    "sourceQuote": "Duck, merganser, coot and snipe— | Oct. 3, 2026–Jan. 16, 2027 | Northern Zone* | Waterfowl: Northern Zone* Sept. 19, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "Scaup: Oct. 3 to Dec. 27, 2026."
+  },
+  {
+    "id": "ut-duck-southern-2026",
+    "state": "UT",
+    "species": "duck",
+    "seasonName": "Duck, merganser, coot and snipe, Southern Zone",
+    "zone": "Southern Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-26",
+        "note": "youth only"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2027-01-23",
+        "note": null
+      }
+    ],
+    "bagLimit": "7 (not more than 2 canvasbacks, 2 hen mallards, 3 pintail, 2 redheads, 2 wood ducks, 2 scaup)",
+    "possessionLimit": "Three times the daily bag limit",
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah 2026-27 Waterfowl, Upland Game and Turkey Guidebook",
+    "sourceUrl": "https://wildlife.utah.gov/guidebooks/waterfowl-upland-game-turkey-guidebook.pdf",
+    "sourceQuote": "Oct. 10, 2026–Jan. 23, 2027 | Southern Zone* | Waterfowl: Southern Zone* Sept. 26, 2026",
+    "checkedDate": "2026-11-23",
+    "notes": "Scaup: Oct. 30, 2026 to Jan. 23, 2027."
+  },
+  {
+    "id": "ut-goose-eastern-box-elder-2026",
+    "state": "UT",
+    "species": "goose",
+    "seasonName": "Dark and white-fronted geese, Eastern Box Elder goose area",
+    "zone": "Eastern Box Elder goose area",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-19",
+        "note": "youth only"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2027-01-16",
+        "note": null
+      }
+    ],
+    "bagLimit": "Dark geese: 5; white-fronted geese: 6",
+    "possessionLimit": "Dark geese: 15; white-fronted geese: 18",
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah 2026-27 Waterfowl, Upland Game and Turkey Guidebook",
+    "sourceUrl": "https://wildlife.utah.gov/guidebooks/waterfowl-upland-game-turkey-guidebook.pdf",
+    "sourceQuote": "Dark^ and white-fronted geese— | Oct. 3, 2026–Jan. 16, 2027 | Eastern Box Elder goose area",
+    "checkedDate": "2026-11-23",
+    "notes": "Dark geese are cackling, Canada or brant geese. Light geese (snow, blue, Ross's) have separate dates. Youth hunt date from the goose area list in the guidebook."
+  },
+  {
+    "id": "ut-goose-northern-2026",
+    "state": "UT",
+    "species": "goose",
+    "seasonName": "Dark and white-fronted geese, Northern goose area",
+    "zone": "Northern goose area",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-19",
+        "note": "youth only"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-10",
+        "note": "split 1"
+      },
+      {
+        "open": "2026-10-26",
+        "close": "2027-01-31",
+        "note": "split 2"
+      }
+    ],
+    "bagLimit": "Dark geese: 5; white-fronted geese: 6",
+    "possessionLimit": "Dark geese: 15; white-fronted geese: 18",
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah 2026-27 Waterfowl, Upland Game and Turkey Guidebook",
+    "sourceUrl": "https://wildlife.utah.gov/guidebooks/waterfowl-upland-game-turkey-guidebook.pdf",
+    "sourceQuote": "Dark^ and white-fronted geese— Oct. 3–10, 2026 and | Northern goose area Oct. 26, 2026–Jan. 31, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Dark geese are cackling, Canada or brant geese. Light geese (snow, blue, Ross's) have separate dates. Youth hunt date from the goose area list in the guidebook."
+  },
+  {
+    "id": "ut-goose-southern-2026",
+    "state": "UT",
+    "species": "goose",
+    "seasonName": "Dark and white-fronted geese, Southern goose area",
+    "zone": "Southern goose area",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-26",
+        "note": "youth only"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2027-01-23",
+        "note": null
+      }
+    ],
+    "bagLimit": "Dark geese: 5; white-fronted geese: 6",
+    "possessionLimit": "Dark geese: 15; white-fronted geese: 18",
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah 2026-27 Waterfowl, Upland Game and Turkey Guidebook",
+    "sourceUrl": "https://wildlife.utah.gov/guidebooks/waterfowl-upland-game-turkey-guidebook.pdf",
+    "sourceQuote": "Dark^ and white-fronted geese— | Oct. 10, 2026–Jan. 23, 2027 | Southern goose area",
+    "checkedDate": "2026-11-23",
+    "notes": "Dark geese are cackling, Canada or brant geese. Light geese (snow, blue, Ross's) have separate dates. Youth hunt date from the goose area list in the guidebook."
+  },
+  {
+    "id": "ut-goose-wasatch-front-2026",
+    "state": "UT",
+    "species": "goose",
+    "seasonName": "Dark and white-fronted geese, Wasatch Front goose area",
+    "zone": "Wasatch Front goose area",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-19",
+        "note": "youth only"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-10",
+        "note": "split 1"
+      },
+      {
+        "open": "2026-11-10",
+        "close": "2027-02-15",
+        "note": "split 2"
+      }
+    ],
+    "bagLimit": "Dark geese: 5; white-fronted geese: 6",
+    "possessionLimit": "Dark geese: 15; white-fronted geese: 18",
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah 2026-27 Waterfowl, Upland Game and Turkey Guidebook",
+    "sourceUrl": "https://wildlife.utah.gov/guidebooks/waterfowl-upland-game-turkey-guidebook.pdf",
+    "sourceQuote": "Dark^ and white-fronted geese— Oct. 3–10, 2026 and | Wasatch Front goose area Nov. 10, 2026–Feb. 15, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Dark geese are cackling, Canada or brant geese. Light geese (snow, blue, Ross's) have separate dates. Youth hunt date from the goose area list in the guidebook."
+  },
+  {
+    "id": "ut-dove-statewide-2026",
+    "state": "UT",
+    "species": "dove",
+    "seasonName": "Mourning dove and white-winged dove",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-10-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": "45",
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah 2026-27 Waterfowl, Upland Game and Turkey Guidebook",
+    "sourceUrl": "https://wildlife.utah.gov/guidebooks/waterfowl-upland-game-turkey-guidebook.pdf",
+    "sourceQuote": "Mourning dove and white-winged dove Sept. 1–Oct. 30, 2026 | • Daily bag limit: 15 | • Possession limit: 45",
+    "checkedDate": "2026-11-23",
+    "notes": "Limits singly or in combination."
+  },
+  {
+    "id": "ut-chukar-statewide-2026",
+    "state": "UT",
+    "species": "chukar",
+    "seasonName": "Chukar partridge",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-21",
+        "note": "youth only"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2027-02-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 birds",
+    "possessionLimit": "15 birds",
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah 2026-27 Waterfowl, Upland Game and Turkey Guidebook",
+    "sourceUrl": "https://wildlife.utah.gov/guidebooks/waterfowl-upland-game-turkey-guidebook.pdf",
+    "sourceQuote": "Chukar partridge | • Season dates: Sept. 26, 2026–Feb. 15, 2027 | • Youth hunt: Sept. 19–21, 2026. For details, see page 15.",
+    "checkedDate": "2026-11-23",
+    "notes": "Gray (Hungarian) partridge has the same dates and limits."
+  },
+  {
+    "id": "ut-pheasant-statewide-2026",
+    "state": "UT",
+    "species": "pheasant",
+    "seasonName": "Ring-necked pheasant",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-31",
+        "close": "2026-11-05",
+        "note": "youth only"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-12-06",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 male birds",
+    "possessionLimit": "6 male birds",
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah 2026-27 Waterfowl, Upland Game and Turkey Guidebook",
+    "sourceUrl": "https://wildlife.utah.gov/guidebooks/waterfowl-upland-game-turkey-guidebook.pdf",
+    "sourceQuote": "Ring-necked pheasant | • Season dates: Nov. 7–Dec. 6, 2026 | • Youth hunt: Oct. 31–Nov. 5, 2026. For details, see page 15.",
+    "checkedDate": "2026-11-23",
+    "notes": "Only males may be harvested. Some WMAs close for sponsored youth hunts."
+  },
+  {
+    "id": "ut-quail-statewide-2026",
+    "state": "UT",
+    "species": "quail",
+    "seasonName": "California and Gambel's quail",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-31",
+        "close": "2026-11-02",
+        "note": "youth only"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 birds",
+    "possessionLimit": "15 birds",
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah 2026-27 Waterfowl, Upland Game and Turkey Guidebook",
+    "sourceUrl": "https://wildlife.utah.gov/guidebooks/waterfowl-upland-game-turkey-guidebook.pdf",
+    "sourceQuote": "California and Gambel’s quail | • Season dates: Nov. 7–Dec. 31, 2026 | • Youth hunt: Oct. 31–Nov. 2, 2026.",
+    "checkedDate": "2026-11-23",
+    "notes": "Scaled quail closed statewide."
+  },
+  {
+    "id": "ut-turkey-spring-general-2027",
+    "state": "UT",
+    "species": "turkey",
+    "seasonName": "Turkey, spring general-season hunts",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-04-30",
+        "close": "2027-05-02",
+        "note": "youth only"
+      },
+      {
+        "open": "2027-05-03",
+        "close": "2027-05-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 bird (youth hunt table)",
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah 2026-27 Waterfowl, Upland Game and Turkey Guidebook",
+    "sourceUrl": "https://wildlife.utah.gov/guidebooks/waterfowl-upland-game-turkey-guidebook.pdf",
+    "sourceQuote": "Turkey, spring general-season hunts May 3–31, 2027 X | April 30–May 2, 2027 1 bird",
+    "checkedDate": "2026-11-23",
+    "notes": "Permit required; spring general-season permits available beginning March 11, 2027. Fall turkey and spring limited-entry hunts are by draw and not recorded."
+  },
+  {
+    "id": "ut-deer-general-buck-2026",
+    "state": "UT",
+    "species": "deer",
+    "seasonName": "General-season buck deer hunts",
+    "zone": "General-season units",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-11",
+        "note": "archery"
+      },
+      {
+        "open": "2026-09-23",
+        "close": "2026-10-01",
+        "note": "muzzleloader"
+      },
+      {
+        "open": "2026-10-07",
+        "close": "2026-10-11",
+        "note": "early any legal weapon, listed units only"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-10-25",
+        "note": "any legal weapon (rifle)"
+      }
+    ],
+    "bagLimit": "One buck deer",
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah 2026 Big Game Field Regulations Guidebook",
+    "sourceUrl": "https://wildlife.utah.gov/guidebooks/field_regs.pdf",
+    "sourceQuote": "Archery Aug. 15–Sept. 11 | Muzzleloader Sept. 23–Oct. 1 | Early any legal weapon (rifle) Oct. 7–11 | Any legal weapon (rifle) Oct. 17–25 | The general-season any legal weapon (rifle) buck deer hunt runs from Oct. 17–25, 2026.",
+    "checkedDate": "2026-11-23",
+    "notes": "Utah calls these general-season hunts, but permits come mainly through the big game drawing; remaining permits went on sale over the counter July 7. Early rifle units: Box Elder, Chalk Creek, East Canyon, Fillmore, Fishlake, Kamas, Morgan-South Rich, Nine Mile, North Slope, Panguitch Lake, Pine Valley, Zion."
+  },
+  {
+    "id": "ut-elk-any-bull-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "General-season bull elk, any bull units",
+    "zone": "Any bull units",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-16",
+        "note": "archery"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-09",
+        "note": "early any legal weapon (rifle)"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-16",
+        "note": "late any legal weapon (rifle)"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah 2026 Big Game Field Regulations Guidebook",
+    "sourceUrl": "https://wildlife.utah.gov/guidebooks/field_regs.pdf",
+    "sourceQuote": "Archery* Aug. 15–Sept. 16 | Any bull units Early any legal weapon (rifle) Oct. 3–9 | Late any legal weapon (rifle) Oct. 10–16 | Muzzleloader Oct. 28–Nov. 5",
+    "checkedDate": "2026-11-23",
+    "notes": "Over-the-counter permits (general-season any bull permits went on sale July 9). No general-season archery elk hunt on the Paunsaugunt unit."
+  },
+  {
+    "id": "ut-elk-spike-2026",
+    "state": "UT",
+    "species": "elk",
+    "seasonName": "General-season bull elk, spike units",
+    "zone": "Spike units",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-04",
+        "note": "archery"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-15",
+        "note": "any legal weapon (rifle)"
+      },
+      {
+        "open": "2026-10-28",
+        "close": "2026-11-05",
+        "note": "muzzleloader"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Utah DWR",
+    "sourceTitle": "Utah 2026 Big Game Field Regulations Guidebook",
+    "sourceUrl": "https://wildlife.utah.gov/guidebooks/field_regs.pdf",
+    "sourceQuote": "Utah’s general-season archery spike elk hunt runs from Aug. 15–Sept. 4, 2026. | Any legal weapon (rifle) Oct. 3–15 | Muzzleloader Oct. 28–Nov. 5",
+    "checkedDate": "2026-11-23",
+    "notes": "Over-the-counter permits (general-season spike bull permits went on sale July 16)."
+  }
+]

@@ -1,0 +1,1236 @@
+[
+  {
+    "id": "ca-duck-northeastern-2026",
+    "state": "CA",
+    "species": "duck",
+    "seasonName": "Ducks (including Mergansers), Northeastern California Zone",
+    "zone": "Northeastern California Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-20",
+        "note": "youth only"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2027-01-13",
+        "note": "regular season"
+      },
+      {
+        "open": "2027-01-16",
+        "close": "2027-01-17",
+        "note": "veterans and active military only"
+      }
+    ],
+    "bagLimit": "7 (may include 7 mallards but not more than 2 females, 3 pintail, 2 canvasback, 2 redheads, 2 scaup)",
+    "possessionLimit": "Triple the daily bag limit",
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Waterfowl, Upland Game, and Public Use of Department Lands Regulations (updated 7/1/2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137&inline",
+    "sourceQuote": "(1) Northeastern California Zone | Ducks From the first Saturday in October 10/3/2026- | extending for 103 days. 1/13/2027 | Daily bag limit: 7",
+    "checkedDate": "2026-11-23",
+    "notes": "Scaup open 10/3/2026 to 11/29/2026 and 12/17/2026 to 1/13/2027. Youth days: 9/19/2026 to 9/20/2026. Veterans days: 1/16/2027 to 1/17/2027 (Section 502(e) and (f))."
+  },
+  {
+    "id": "ca-duck-ssjv-2026",
+    "state": "CA",
+    "species": "duck",
+    "seasonName": "Ducks (including Mergansers), Southern San Joaquin Valley Zone",
+    "zone": "Southern San Joaquin Valley Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2027-01-31",
+        "note": "regular season"
+      },
+      {
+        "open": "2027-02-06",
+        "close": "2027-02-07",
+        "note": "veterans and active military only"
+      },
+      {
+        "open": "2027-02-13",
+        "close": "2027-02-14",
+        "note": "youth only"
+      }
+    ],
+    "bagLimit": "7 (may include 7 mallards but not more than 2 females, 3 pintail, 2 canvasback, 2 redheads, 2 scaup)",
+    "possessionLimit": "Triple the daily bag limit",
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Waterfowl, Upland Game, and Public Use of Department Lands Regulations (updated 7/1/2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137&inline",
+    "sourceQuote": "(2) Southern San Joaquin Valley Zone | Ducks From the fourth Saturday in October 10/24/2026- Daily bag limit: 7",
+    "checkedDate": "2026-11-23",
+    "notes": "Scaup open 11/7/2026 to 1/31/2027. Youth and veterans days from Section 502(e) and (f)."
+  },
+  {
+    "id": "ca-duck-socal-2026",
+    "state": "CA",
+    "species": "duck",
+    "seasonName": "Ducks (including Mergansers), Southern California Zone",
+    "zone": "Southern California Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2027-01-31",
+        "note": "regular season"
+      },
+      {
+        "open": "2027-02-06",
+        "close": "2027-02-07",
+        "note": "veterans and active military only"
+      },
+      {
+        "open": "2027-02-13",
+        "close": "2027-02-14",
+        "note": "youth only"
+      }
+    ],
+    "bagLimit": "7 (may include 7 mallards but not more than 2 females, 3 pintail, 2 canvasback, 2 redheads, 2 scaup)",
+    "possessionLimit": "Triple the daily bag limit",
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Waterfowl, Upland Game, and Public Use of Department Lands Regulations (updated 7/1/2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137&inline",
+    "sourceQuote": "(3) Southern California Zone | Ducks From the fourth Saturday in October ex- 10/24/2026- Daily bag limit: 7",
+    "checkedDate": "2026-11-23",
+    "notes": "Scaup open 11/7/2026 to 1/31/2027. Youth and veterans days from Section 502(e) and (f)."
+  },
+  {
+    "id": "ca-duck-colorado-river-2026",
+    "state": "CA",
+    "species": "duck",
+    "seasonName": "Ducks (including Mergansers), Colorado River Zone",
+    "zone": "Colorado River Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-23",
+        "close": "2027-01-31",
+        "note": "regular season"
+      },
+      {
+        "open": "2027-02-06",
+        "close": "2027-02-07",
+        "note": "youth only"
+      }
+    ],
+    "bagLimit": "7 (may include 7 mallards but not more than 2 females, 3 pintail, 2 canvasback, 2 redheads, 2 scaup)",
+    "possessionLimit": "Triple the daily bag limit",
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Waterfowl, Upland Game, and Public Use of Department Lands Regulations (updated 7/1/2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137&inline",
+    "sourceQuote": "(4) Colorado River Zone | Ducks From October 23 extending for 101 days. 10/23/2026- Daily bag limit: 7",
+    "checkedDate": "2026-11-23",
+    "notes": "Scaup open 11/7/2026 to 1/31/2027. Mallard limit wording here includes Mexican ducks. No veterans days listed for this zone in Section 502(f)."
+  },
+  {
+    "id": "ca-duck-balance-of-state-2026",
+    "state": "CA",
+    "species": "duck",
+    "seasonName": "Ducks (including Mergansers), Balance of State Zone",
+    "zone": "Balance of State Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2027-01-31",
+        "note": "regular season"
+      },
+      {
+        "open": "2027-02-06",
+        "close": "2027-02-07",
+        "note": "veterans and active military only"
+      },
+      {
+        "open": "2027-02-13",
+        "close": "2027-02-14",
+        "note": "youth only"
+      }
+    ],
+    "bagLimit": "7 (may include 7 mallards but not more than 2 females, 3 pintail, 2 canvasback, 2 redheads, 2 scaup)",
+    "possessionLimit": "Triple the daily bag limit",
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Waterfowl, Upland Game, and Public Use of Department Lands Regulations (updated 7/1/2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137&inline",
+    "sourceQuote": "(5) Balance of State Zone | Ducks From the fourth Saturday in October 10/24/2026- Daily bag limit: 7",
+    "checkedDate": "2026-11-23",
+    "notes": "Scaup open 11/7/2026 to 1/31/2027. Youth and veterans days from Section 502(e) and (f)."
+  },
+  {
+    "id": "ca-goose-northeastern-2026",
+    "state": "CA",
+    "species": "goose",
+    "seasonName": "Geese, Northeastern California Zone",
+    "zone": "Northeastern California Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-20",
+        "note": "youth only"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2027-01-10",
+        "note": "regular season, Canada geese"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-11-29",
+        "note": "white-fronted and white geese, split 1"
+      },
+      {
+        "open": "2027-01-01",
+        "close": "2027-01-13",
+        "note": "white-fronted and white geese, split 2"
+      },
+      {
+        "open": "2027-02-05",
+        "close": "2027-03-10",
+        "note": "late season, white-fronted and white geese, limited areas"
+      }
+    ],
+    "bagLimit": "30 (may include 20 white geese and 10 dark geese, but not more than 6 white-fronted geese or 3 Large Canada geese)",
+    "possessionLimit": "Triple the daily bag limit",
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Waterfowl, Upland Game, and Public Use of Department Lands Regulations (updated 7/1/2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137&inline",
+    "sourceQuote": "Geese Regular Season: 10/3/2026- Daily bag limit: 30 | Canada Geese: from the first Saturday in 1/10/2027 | White-fronted and white geese from the 10/3/2026- | extending for a period of 13 days. | 1/13/2027 | White-fronted and white geese from | February 5 extending for 34 days.",
+    "checkedDate": "2026-11-23",
+    "notes": "Goose hunting is not permitted on this zone's veterans days. Late Season is limited to Type C wildlife areas, navigable waters and private lands with permission. Klamath Basin Special Management Area has its own goose dates (Section 502(d)(6))."
+  },
+  {
+    "id": "ca-goose-ssjv-2026",
+    "state": "CA",
+    "species": "goose",
+    "seasonName": "Geese, Southern San Joaquin Valley Zone",
+    "zone": "Southern San Joaquin Valley Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2027-01-31",
+        "note": "regular season"
+      },
+      {
+        "open": "2027-02-06",
+        "close": "2027-02-07",
+        "note": "veterans and active military only"
+      },
+      {
+        "open": "2027-02-13",
+        "close": "2027-02-14",
+        "note": "youth only"
+      }
+    ],
+    "bagLimit": "30 (may include 20 white geese and 10 dark geese, but not more than 6 white-fronted geese)",
+    "possessionLimit": "Triple the daily bag limit",
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Waterfowl, Upland Game, and Public Use of Department Lands Regulations (updated 7/1/2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137&inline",
+    "sourceQuote": "Geese From the fourth Saturday in October 10/24/2026- Daily bag limit: 30",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "ca-goose-socal-2026",
+    "state": "CA",
+    "species": "goose",
+    "seasonName": "Geese, Southern California Zone",
+    "zone": "Southern California Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-24",
+        "close": "2027-01-31",
+        "note": "regular season"
+      },
+      {
+        "open": "2027-02-06",
+        "close": "2027-02-07",
+        "note": "veterans and active military only"
+      },
+      {
+        "open": "2027-02-13",
+        "close": "2027-02-14",
+        "note": "youth only"
+      }
+    ],
+    "bagLimit": "23 (may include 20 white geese and 3 dark geese)",
+    "possessionLimit": "Triple the daily bag limit",
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Waterfowl, Upland Game, and Public Use of Department Lands Regulations (updated 7/1/2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137&inline",
+    "sourceQuote": "Geese From the fourth Saturday in October ex- 10/24/2026- Daily bag limit: 23",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "ca-goose-colorado-river-2026",
+    "state": "CA",
+    "species": "goose",
+    "seasonName": "Geese, Colorado River Zone",
+    "zone": "Colorado River Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-23",
+        "close": "2027-01-31",
+        "note": "regular season"
+      },
+      {
+        "open": "2027-02-06",
+        "close": "2027-02-07",
+        "note": "youth only"
+      }
+    ],
+    "bagLimit": "25 (may include 20 white geese and 5 dark geese)",
+    "possessionLimit": "Triple the daily bag limit",
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Waterfowl, Upland Game, and Public Use of Department Lands Regulations (updated 7/1/2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137&inline",
+    "sourceQuote": "Geese From October 23 extending for 101 days. 10/23/2026- Daily bag limit: 25",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "ca-goose-balance-of-state-2026",
+    "state": "CA",
+    "species": "goose",
+    "seasonName": "Geese, Balance of State Zone",
+    "zone": "Balance of State Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-05",
+        "note": "early season, Large Canada geese only"
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2027-01-31",
+        "note": "regular season, dark and white geese"
+      },
+      {
+        "open": "2027-02-13",
+        "close": "2027-02-14",
+        "note": "youth only"
+      },
+      {
+        "open": "2027-02-20",
+        "close": "2027-02-21",
+        "note": "late season, Canada geese"
+      },
+      {
+        "open": "2027-02-20",
+        "close": "2027-02-24",
+        "note": "late season, white-fronted and white geese"
+      }
+    ],
+    "bagLimit": "30 (may include 20 white geese and 10 dark geese, but not more than 6 white-fronted geese; 3 white-fronted in the Sacramento Valley Special Management Area)",
+    "possessionLimit": "Triple the daily bag limit",
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Waterfowl, Upland Game, and Public Use of Department Lands Regulations (updated 7/1/2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137&inline",
+    "sourceQuote": "Geese Early Season Daily bag limit: 30 | Saturday closest to October 1 for a period 10/3/2026- | of 3 days except in the North Coast Special 10/5/2026 | Canada geese from the third Saturday in 2/20/2027- | February extending for 2 days. 2/21/2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Regular season 10/24/2026 to 1/31/2027 (white-fronted geese close after December 21 in the Sacramento Valley Special Management Area). Goose hunting not permitted on this zone's veterans days. North Coast, Klamath Basin and other Special Management Areas have their own rules (Section 502(d)(6))."
+  },
+  {
+    "id": "ca-dove-statewide-2026",
+    "state": "CA",
+    "species": "dove",
+    "seasonName": "Mourning Dove and White-winged Dove",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-15",
+        "note": "split 1"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-12-28",
+        "note": "split 2"
+      }
+    ],
+    "bagLimit": "15 doves per day in aggregate of which no more than 10 may be white-winged doves",
+    "possessionLimit": "Triple the daily bag",
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Waterfowl, Upland Game, and Public Use of Department Lands Regulations (updated 7/1/2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137&inline",
+    "sourceQuote": "Mourning Dove and White- Sep 1-15 15 doves per day in ag- | Nov 14-Dec 28 Triple the daily bag",
+    "checkedDate": "2026-11-23",
+    "notes": "Upland summary table prints month and day only; years assigned from the 2026-2027 booklet. Spotted and ringed turtle doves share these dates with no limit; Eurasian collared dove is open all year."
+  },
+  {
+    "id": "ca-pheasant-statewide-2026",
+    "state": "CA",
+    "species": "pheasant",
+    "seasonName": "Pheasant",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2026-11-01",
+        "note": "archery only"
+      },
+      {
+        "open": "2026-11-14",
+        "close": "2026-12-27",
+        "note": "general season"
+      },
+      {
+        "open": "2026-12-28",
+        "close": "2027-01-24",
+        "note": "archery only"
+      }
+    ],
+    "bagLimit": "2 males per day for first two days of the season; 3 males per day after the first two days of the season",
+    "possessionLimit": "Triple the daily bag",
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Waterfowl, Upland Game, and Public Use of Department Lands Regulations (updated 7/1/2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137&inline",
+    "sourceQuote": "Pheasant Nov 14-Dec 27 2 males per day for first two | Pheasant: Archery only Oct 10-Nov 1 2 pheasants per day for first | Dec 28-Jan 24",
+    "checkedDate": "2026-11-23",
+    "notes": "Upland summary table prints month and day only; years assigned from the 2026-2027 booklet. Archery-only daily bag may include 1 female."
+  },
+  {
+    "id": "ca-quail-q1-2026",
+    "state": "CA",
+    "species": "quail",
+    "seasonName": "Quail: Zone Q1",
+    "zone": "Zone Q1",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-10-16",
+        "note": "mountain quail only"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2027-01-31",
+        "note": "all quail"
+      }
+    ],
+    "bagLimit": "10",
+    "possessionLimit": "Triple the daily bag",
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Waterfowl, Upland Game, and Public Use of Department Lands Regulations (updated 7/1/2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137&inline",
+    "sourceQuote": "Quail: Zone Q1 Sep 12-Oct 16 | (Mountain Quail Only) | Quail: Zone Q1 Oct 17-Jan 31 | (All Quail)",
+    "checkedDate": "2026-11-23",
+    "notes": "Upland summary table prints month and day only; years assigned from the 2026-2027 booklet. Archery-only quail Aug 15 to Sep 4 statewide; junior early hunt Oct 3-4 in Mojave National Preserve."
+  },
+  {
+    "id": "ca-quail-q2-2026",
+    "state": "CA",
+    "species": "quail",
+    "seasonName": "Quail: Zone Q2",
+    "zone": "Zone Q2",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2027-01-31",
+        "note": "all quail"
+      }
+    ],
+    "bagLimit": "10",
+    "possessionLimit": "Triple the daily bag",
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Waterfowl, Upland Game, and Public Use of Department Lands Regulations (updated 7/1/2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137&inline",
+    "sourceQuote": "Quail: Zone Q2 Sep 26-Jan 31 | (All Quail)",
+    "checkedDate": "2026-11-23",
+    "notes": "Upland summary table prints month and day only; years assigned from the 2026-2027 booklet. Archery-only quail Aug 15 to Sep 4 statewide; junior early hunt Oct 3-4 in Mojave National Preserve."
+  },
+  {
+    "id": "ca-quail-q3-2026",
+    "state": "CA",
+    "species": "quail",
+    "seasonName": "Quail: Zone Q3",
+    "zone": "Zone Q3",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2027-01-31",
+        "note": "all quail"
+      }
+    ],
+    "bagLimit": "10",
+    "possessionLimit": "Triple the daily bag",
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Waterfowl, Upland Game, and Public Use of Department Lands Regulations (updated 7/1/2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137&inline",
+    "sourceQuote": "Quail: Zone Q3 Oct 17-Jan 31 | (All Quail)",
+    "checkedDate": "2026-11-23",
+    "notes": "Upland summary table prints month and day only; years assigned from the 2026-2027 booklet. Archery-only quail Aug 15 to Sep 4 statewide; junior early hunt Oct 3-4 in Mojave National Preserve."
+  },
+  {
+    "id": "ca-chukar-statewide-2026",
+    "state": "CA",
+    "species": "chukar",
+    "seasonName": "Chukar",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-17",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "6",
+    "possessionLimit": "Triple the daily bag",
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Waterfowl, Upland Game, and Public Use of Department Lands Regulations (updated 7/1/2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137&inline",
+    "sourceQuote": "Chukar Oct 17-Jan 31 | Chukar: Archery only Aug 15-Sep 4 6 Triple the daily bag",
+    "checkedDate": "2026-11-23",
+    "notes": "Upland summary table prints month and day only; years assigned from the 2026-2027 booklet. Archery-only chukar Aug 15 to Sep 4, 2026."
+  },
+  {
+    "id": "ca-turkey-fall-2026",
+    "state": "CA",
+    "species": "turkey",
+    "seasonName": "Wild Turkey (Fall)",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-14",
+        "close": "2026-12-13",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 either sex",
+    "possessionLimit": "2 per season",
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Waterfowl, Upland Game, and Public Use of Department Lands Regulations (updated 7/1/2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137&inline",
+    "sourceQuote": "Wild Turkey (Fall) Nov 14 -Dec 13 1 either sex 2 per season",
+    "checkedDate": "2026-11-23",
+    "notes": "Upland summary table prints month and day only; years assigned from the 2026-2027 booklet."
+  },
+  {
+    "id": "ca-turkey-spring-2027",
+    "state": "CA",
+    "species": "turkey",
+    "seasonName": "Wild Turkey (Spring)",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-03-20",
+        "close": "2027-03-21",
+        "note": "additional junior hunt"
+      },
+      {
+        "open": "2027-03-27",
+        "close": "2027-05-02",
+        "note": "general season"
+      },
+      {
+        "open": "2027-05-03",
+        "close": "2027-05-16",
+        "note": "archery only; also additional junior hunt"
+      }
+    ],
+    "bagLimit": "1 bearded",
+    "possessionLimit": "3 per season, combined",
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Waterfowl, Upland Game, and Public Use of Department Lands Regulations (updated 7/1/2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137&inline",
+    "sourceQuote": "Wild Turkey (Spring) Mar 27-May 2 | Wild Turkey (Spring): May 3-May 16 | Archery only 1 bearded 3 per season, combined | Wild Turkey (Spring): Mar 20-21 | Additional Junior | May 3-16",
+    "checkedDate": "2026-11-23",
+    "notes": "Upland summary table prints month and day only; years assigned from the 2026-2027 booklet. These spring dates are in the 2026-2027 booklet, so they are the spring 2027 season."
+  },
+  {
+    "id": "ca-deer-a-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "A Zone General Season, Buck",
+    "zone": "A Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-07-11",
+        "close": "2026-08-02",
+        "note": "archery only"
+      },
+      {
+        "open": "2026-08-08",
+        "close": "2026-09-20",
+        "note": "general season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "2026 DEER HUNTS | GENERAL ZONES | A A Zone - Archery and General - Buck 65,000 Jul 11 - Aug 2 Aug 8 - Sep 20",
+    "checkedDate": "2026-11-23",
+    "notes": "2026 tag quota 65,000. Tags valid in Zone A-South Unit 110 and Zone A-North Unit 160. Table lists month and day under 2026 headers. Tags are quota-limited; X Zones excluded as draw-only."
+  },
+  {
+    "id": "ca-deer-b1-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "B1 Zone General Season, Buck",
+    "zone": "B1 Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-06",
+        "note": "archery only"
+      },
+      {
+        "open": "2026-09-19",
+        "close": "2026-10-25",
+        "note": "general season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "2026 DEER HUNTS | GENERAL ZONES | B1 Zone - Archery and General - Buck Aug 15 - Sep 6 Sep 19 - Oct 25",
+    "checkedDate": "2026-11-23",
+    "notes": "B Zones share a 2026 tag quota of 35,000. Table lists month and day under 2026 headers. Tags are quota-limited; X Zones excluded as draw-only."
+  },
+  {
+    "id": "ca-deer-b2-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "B2 Zone General Season, Buck",
+    "zone": "B2 Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-06",
+        "note": "archery only"
+      },
+      {
+        "open": "2026-09-19",
+        "close": "2026-10-25",
+        "note": "general season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "2026 DEER HUNTS | GENERAL ZONES | B2 Zone - Archery and General - Buck Aug 15 - Sep 6 Sep 19 - Oct 25",
+    "checkedDate": "2026-11-23",
+    "notes": "B Zones share a 2026 tag quota of 35,000. Table lists month and day under 2026 headers. Tags are quota-limited; X Zones excluded as draw-only."
+  },
+  {
+    "id": "ca-deer-b3-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "B3 Zone General Season, Buck",
+    "zone": "B3 Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-06",
+        "note": "archery only"
+      },
+      {
+        "open": "2026-09-19",
+        "close": "2026-10-25",
+        "note": "general season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "2026 DEER HUNTS | GENERAL ZONES | B3 Zone - Archery and General - Buck Aug 15 - Sep 6 Sep 19 - Oct 25",
+    "checkedDate": "2026-11-23",
+    "notes": "B Zones share a 2026 tag quota of 35,000. Table lists month and day under 2026 headers. Tags are quota-limited; X Zones excluded as draw-only."
+  },
+  {
+    "id": "ca-deer-b4-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "B4 Zone General Season, Buck",
+    "zone": "B4 Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-07-25",
+        "close": "2026-08-16",
+        "note": "archery only"
+      },
+      {
+        "open": "2026-08-22",
+        "close": "2026-09-27",
+        "note": "general season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "2026 DEER HUNTS | GENERAL ZONES | B4 Zone - Archery and General - Buck Jul 25 - Aug 16 Aug 22- Sep 27",
+    "checkedDate": "2026-11-23",
+    "notes": "B Zones share a 2026 tag quota of 35,000. Table lists month and day under 2026 headers. Tags are quota-limited; X Zones excluded as draw-only."
+  },
+  {
+    "id": "ca-deer-b5-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "B5 Zone General Season, Buck",
+    "zone": "B5 Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-06",
+        "note": "archery only"
+      },
+      {
+        "open": "2026-09-19",
+        "close": "2026-10-25",
+        "note": "general season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "2026 DEER HUNTS | GENERAL ZONES | B5 Zone - Archery and General - Buck Aug 15 - Sep 6 Sep 19 - Oct 25",
+    "checkedDate": "2026-11-23",
+    "notes": "B Zones share a 2026 tag quota of 35,000. Table lists month and day under 2026 headers. Tags are quota-limited; X Zones excluded as draw-only."
+  },
+  {
+    "id": "ca-deer-b6-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "B6 Zone General Season, Buck",
+    "zone": "B6 Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-06",
+        "note": "archery only"
+      },
+      {
+        "open": "2026-09-19",
+        "close": "2026-10-18",
+        "note": "general season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "2026 DEER HUNTS | GENERAL ZONES | B6 Zone - Archery and General - Buck Aug 15 - Sep 6 Sep 19 - Oct 18",
+    "checkedDate": "2026-11-23",
+    "notes": "B Zones share a 2026 tag quota of 35,000. Table lists month and day under 2026 headers. Tags are quota-limited; X Zones excluded as draw-only."
+  },
+  {
+    "id": "ca-deer-c1-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "C1 Zone General Season, Buck",
+    "zone": "C1 Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-10-18",
+        "note": "general season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "2026 DEER HUNTS | GENERAL ZONES | C1 Zone General Seasons - Buck Sep 19 - Oct 18",
+    "checkedDate": "2026-11-23",
+    "notes": "C Zones share a 2026 tag quota of 8,150. Archery in the C Zones is hunt A-1, not recorded here. Table lists month and day under 2026 headers. Tags are quota-limited; X Zones excluded as draw-only."
+  },
+  {
+    "id": "ca-deer-c2-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "C2 Zone General Season, Buck",
+    "zone": "C2 Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-10-25",
+        "note": "general season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "2026 DEER HUNTS | GENERAL ZONES | C2 Zone General Seasons - Buck For Archery Deer Sep 19- Oct 25",
+    "checkedDate": "2026-11-23",
+    "notes": "C Zones share a 2026 tag quota of 8,150. Archery in the C Zones is hunt A-1, not recorded here. Table lists month and day under 2026 headers. Tags are quota-limited; X Zones excluded as draw-only."
+  },
+  {
+    "id": "ca-deer-c3-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "C3 Zone General Season, Buck",
+    "zone": "C3 Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-10-25",
+        "note": "general season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "2026 DEER HUNTS | GENERAL ZONES | C3 Zone General Seasons - Buck Zones See Hunt A1 Sep 19 - Oct 25",
+    "checkedDate": "2026-11-23",
+    "notes": "C Zones share a 2026 tag quota of 8,150. Archery in the C Zones is hunt A-1, not recorded here. Table lists month and day under 2026 headers. Tags are quota-limited; X Zones excluded as draw-only."
+  },
+  {
+    "id": "ca-deer-c4-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "C4 Zone General Season, Buck",
+    "zone": "C4 Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-10-04",
+        "note": "general season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "2026 DEER HUNTS | GENERAL ZONES | C4 Zone General Seasons - Buck Sep 19 - Oct 4",
+    "checkedDate": "2026-11-23",
+    "notes": "C Zones share a 2026 tag quota of 8,150. Archery in the C Zones is hunt A-1, not recorded here. Table lists month and day under 2026 headers. Tags are quota-limited; X Zones excluded as draw-only."
+  },
+  {
+    "id": "ca-deer-d3-5-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "D3-5 Zone General Season, Buck",
+    "zone": "D3-5 Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-06",
+        "note": "archery only"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-11-01",
+        "note": "general season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "2026 DEER HUNTS | GENERAL ZONES | D3-5 D3-5 Zone - Archery and General - Buck 33,000 Aug 15 - Sep 6 Sep 26 - Nov 1",
+    "checkedDate": "2026-11-23",
+    "notes": "2026 tag quota 33,000. Table lists month and day under 2026 headers. Tags are quota-limited; X Zones excluded as draw-only."
+  },
+  {
+    "id": "ca-deer-d6-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "D6 Zone General Season, Buck",
+    "zone": "D6 Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-06",
+        "note": "archery only"
+      },
+      {
+        "open": "2026-09-19",
+        "close": "2026-11-01",
+        "note": "general season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "2026 DEER HUNTS | GENERAL ZONES | D6 Zone D6 Archery and General Seasons - Buck 10,000 Aug 15 - Sep 6 Sep 19 - Nov 1",
+    "checkedDate": "2026-11-23",
+    "notes": "2026 tag quota 10,000. Table lists month and day under 2026 headers. Tags are quota-limited; X Zones excluded as draw-only."
+  },
+  {
+    "id": "ca-deer-d7-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "D7 Zone General Season, Buck",
+    "zone": "D7 Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-06",
+        "note": "archery only"
+      },
+      {
+        "open": "2026-09-19",
+        "close": "2026-11-01",
+        "note": "general season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "2026 DEER HUNTS | GENERAL ZONES | D7* D7 Zone - Archery and General - Buck 9,000 Aug 15 - Sep 6 Sep 19 - Nov 1",
+    "checkedDate": "2026-11-23",
+    "notes": "2026 tag quota 9,000. Starred hunt: part of the CWD Management Zone, CWD sample required. Table lists month and day under 2026 headers. Tags are quota-limited; X Zones excluded as draw-only."
+  },
+  {
+    "id": "ca-deer-d8-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "D8 Zone General Season, Buck",
+    "zone": "D8 Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-06",
+        "note": "archery only"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-10-25",
+        "note": "general season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "2026 DEER HUNTS | GENERAL ZONES | D8 D8 Zone - Archery and General - Buck 8,000 Aug 15 - Sep 6 Sep 26 - Oct 25",
+    "checkedDate": "2026-11-23",
+    "notes": "2026 tag quota 8,000. Table lists month and day under 2026 headers. Tags are quota-limited; X Zones excluded as draw-only."
+  },
+  {
+    "id": "ca-deer-d9-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "D9 Zone General Season, Buck",
+    "zone": "D9 Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-06",
+        "note": "archery only"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-10-25",
+        "note": "general season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "2026 DEER HUNTS | GENERAL ZONES | D9 Zone D9 Archery and General Seasons - Buck 2,000 Aug 15 - Sep 6 Sep 26 - Oct 25",
+    "checkedDate": "2026-11-23",
+    "notes": "2026 tag quota 2,000. Table lists month and day under 2026 headers. Tags are quota-limited; X Zones excluded as draw-only."
+  },
+  {
+    "id": "ca-deer-d10-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "D10 Zone General Season, Buck",
+    "zone": "D10 Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-08-15",
+        "close": "2026-09-06",
+        "note": "archery only"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-10-25",
+        "note": "general season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "2026 DEER HUNTS | GENERAL ZONES | D10 D10 Zone - Archery and General - Buck 700 Aug 15 - Sep 6 Sep 26 - Oct 25",
+    "checkedDate": "2026-11-23",
+    "notes": "2026 tag quota 700. Table lists month and day under 2026 headers. Tags are quota-limited; X Zones excluded as draw-only."
+  },
+  {
+    "id": "ca-deer-d11-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "D11 Zone General Season, Buck",
+    "zone": "D11 Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-27",
+        "note": "archery only"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-11-08",
+        "note": "general season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "2026 DEER HUNTS | GENERAL ZONES | D11 D11 Zone - Archery and General - Buck 5,500 Sep 5 - Sep 27 Oct 10 - Nov 8",
+    "checkedDate": "2026-11-23",
+    "notes": "2026 tag quota 5,500. Table lists month and day under 2026 headers. Tags are quota-limited; X Zones excluded as draw-only."
+  },
+  {
+    "id": "ca-deer-d12-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "D12 Zone General Season, Buck",
+    "zone": "D12 Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-10-25",
+        "note": "archery only"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-29",
+        "note": "general season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "2026 DEER HUNTS | GENERAL ZONES | D12 Zone D12 Archery and General Seasons - Buck 950 Oct 3 - Oct 25 Nov 7 - Nov 29",
+    "checkedDate": "2026-11-23",
+    "notes": "2026 tag quota 950. Table lists month and day under 2026 headers. Tags are quota-limited; X Zones excluded as draw-only."
+  },
+  {
+    "id": "ca-deer-d13-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "D13 Zone General Season, Buck",
+    "zone": "D13 Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-27",
+        "note": "archery only"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-11-08",
+        "note": "general season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "2026 DEER HUNTS | GENERAL ZONES | D13 D13 Zone - Archery and General - Buck 4,000 Sep 5 - Sep 27 Oct 10 - Nov 8",
+    "checkedDate": "2026-11-23",
+    "notes": "2026 tag quota 4,000. Table lists month and day under 2026 headers. Tags are quota-limited; X Zones excluded as draw-only."
+  },
+  {
+    "id": "ca-deer-d14-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "D14 Zone General Season, Buck",
+    "zone": "D14 Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-27",
+        "note": "archery only"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-11-08",
+        "note": "general season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "2026 DEER HUNTS | GENERAL ZONES | D14 Zone D14 Archery and General Seasons - Buck 3,000 Sep 5 - Sep 27 Oct 10 - Nov 8",
+    "checkedDate": "2026-11-23",
+    "notes": "2026 tag quota 3,000. Table lists month and day under 2026 headers. Tags are quota-limited; X Zones excluded as draw-only."
+  },
+  {
+    "id": "ca-deer-d15-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "D15 Zone General Season, Buck",
+    "zone": "D15 Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-27",
+        "note": "archery only"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-11-08",
+        "note": "general season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "2026 DEER HUNTS | GENERAL ZONES | D15 D15 Zone - Archery and General Seasons - Buck 1,500 Sep 5- Sep 27 Oct 10 - Nov 8",
+    "checkedDate": "2026-11-23",
+    "notes": "2026 tag quota 1,500. Table lists month and day under 2026 headers. Tags are quota-limited; X Zones excluded as draw-only."
+  },
+  {
+    "id": "ca-deer-d16-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "D16 Zone General Season, Buck",
+    "zone": "D16 Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-27",
+        "note": "archery only"
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2026-11-22",
+        "note": "general season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "2026 DEER HUNTS | GENERAL ZONES | D16 D16 Zone - Archery and General Seasons - Buck 3,000 Sep 5 - Sep 27 Oct 24 - Nov 22",
+    "checkedDate": "2026-11-23",
+    "notes": "2026 tag quota 3,000. Table lists month and day under 2026 headers. Tags are quota-limited; X Zones excluded as draw-only."
+  },
+  {
+    "id": "ca-deer-d17-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "D17 Zone General Season, Buck",
+    "zone": "D17 Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-27",
+        "note": "archery only"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-11-01",
+        "note": "general season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "2026 DEER HUNTS | GENERAL ZONES | D17 Zone D17 Archery and General Seasons - Buck 500 Sep 5 - Sep 27 Oct 10 - Nov 1",
+    "checkedDate": "2026-11-23",
+    "notes": "2026 tag quota 500. Table lists month and day under 2026 headers. Tags are quota-limited; X Zones excluded as draw-only."
+  },
+  {
+    "id": "ca-deer-d19-2026",
+    "state": "CA",
+    "species": "deer",
+    "seasonName": "D19 Zone General Season, Buck",
+    "zone": "D19 Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-27",
+        "note": "archery only"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-11-01",
+        "note": "general season"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "CDFW",
+    "sourceTitle": "2026-2027 California Mammal Hunting Regulations (updated October 27, 2026)",
+    "sourceUrl": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568&inline",
+    "sourceQuote": "2026 DEER HUNTS | GENERAL ZONES | D19 D19 Zone - Archery and General Seasons - Buck 1,500 Sep 5 - Sep 27 Oct 3 - Nov 1",
+    "checkedDate": "2026-11-23",
+    "notes": "2026 tag quota 1,500. Table lists month and day under 2026 headers. Tags are quota-limited; X Zones excluded as draw-only."
+  }
+]

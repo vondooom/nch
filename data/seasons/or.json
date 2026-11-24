@@ -1,0 +1,618 @@
+[
+  {
+    "id": "or-duck-zone1-2026",
+    "state": "OR",
+    "species": "duck",
+    "seasonName": "Duck (including Merganser), Zone 1",
+    "zone": "Zone 1",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-27",
+        "note": "youth only, statewide"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-11-01",
+        "note": "split 1"
+      },
+      {
+        "open": "2026-11-05",
+        "close": "2027-01-31",
+        "note": "split 2"
+      },
+      {
+        "open": "2027-02-06",
+        "close": "2027-02-06",
+        "note": "veterans and active military only, statewide"
+      }
+    ],
+    "bagLimit": "7 (not more than 3 pintails, 2 hen mallards, 2 redheads, 2 canvasbacks, 2 scaup during open season, 1 harlequin duck)",
+    "possessionLimit": "Triple the daily bag limit",
+    "agency": "ODFW",
+    "sourceTitle": "2026-27 Oregon Game Bird Hunting Regulations",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/OR/26ORGB_LR_2026-07-02-194155_lhbz.pdf",
+    "sourceQuote": "Zone 1 Oct. 17 - Nov. 1 & Nov. 5 - Jan. 31, 2027 | Zone 1 Scaup Nov. 7 - Jan. 31, 2027 | Youth Waterfowl Statewide Sept. 26 - 27 | Military Personnel Statewide Feb. 6, 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Scaup open Nov. 7, 2026 to Jan. 31, 2027 in Zone 1. Sea ducks need a permit."
+  },
+  {
+    "id": "or-duck-zone2-2026",
+    "state": "OR",
+    "species": "duck",
+    "seasonName": "Duck (including Merganser), Zone 2",
+    "zone": "Zone 2",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-09-27",
+        "note": "youth only, statewide"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-11-29",
+        "note": "split 1"
+      },
+      {
+        "open": "2026-12-03",
+        "close": "2027-01-24",
+        "note": "split 2"
+      },
+      {
+        "open": "2027-02-06",
+        "close": "2027-02-06",
+        "note": "veterans and active military only, statewide"
+      }
+    ],
+    "bagLimit": "7 (not more than 3 pintails, 2 hen mallards, 2 redheads, 2 canvasbacks, 2 scaup during open season, 1 harlequin duck)",
+    "possessionLimit": "Triple the daily bag limit",
+    "agency": "ODFW",
+    "sourceTitle": "2026-27 Oregon Game Bird Hunting Regulations",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/OR/26ORGB_LR_2026-07-02-194155_lhbz.pdf",
+    "sourceQuote": "Merganser) Zone 2 Oct. 10 - Nov. 29 & Dec. 3 - Jan. 24, 2027 | Zone 2 Scaup Oct. 10 - Nov. 29 & Dec. 3 - Jan. 6, 2027 | Youth Waterfowl Statewide Sept. 26 - 27",
+    "checkedDate": "2026-11-23",
+    "notes": "Scaup close Jan. 6, 2027 in Zone 2."
+  },
+  {
+    "id": "or-goose-northwest-permit-2026",
+    "state": "OR",
+    "species": "goose",
+    "seasonName": "Canada Goose, Northwest Permit Zone",
+    "zone": "Northwest Permit Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-09-20",
+        "note": "September Canada goose season, no Northwest Goose Permit needed"
+      },
+      {
+        "open": "2026-10-24",
+        "close": "2026-11-01",
+        "note": "regular season, split 1"
+      },
+      {
+        "open": "2026-11-21",
+        "close": "2027-01-08",
+        "note": "regular season, split 2"
+      },
+      {
+        "open": "2027-01-30",
+        "close": "2027-02-14",
+        "note": "regular season, split 3"
+      }
+    ],
+    "bagLimit": "2 (regular season); 5 (September season)",
+    "possessionLimit": "6 (regular season); 15 (September season)",
+    "agency": "ODFW",
+    "sourceTitle": "2026-27 Oregon Game Bird Hunting Regulations",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/OR/26ORGB_LR_2026-07-02-194155_lhbz.pdf",
+    "sourceQuote": "Northwest Permit Zone Sept. 12 - Sept. 20 | Northwest Permit Zoneb Oct. 24 - Nov. 1 & Nov. 21 - Jan. 8, 2027 & Jan. 30 - Feb. 14, 2027 2b 6b",
+    "checkedDate": "2026-11-23",
+    "notes": "Northwest Goose Permit required in regular season; dusky Canada goose season closed. White-fronted and white goose dates differ (Oct. 24 - Nov. 1 & Nov. 11 - Feb. 14, 2027). Records cover Canada geese; statewide youth waterfowl days (Sept. 26-27) and veterans day (Feb. 6, 2027) also apply."
+  },
+  {
+    "id": "or-goose-southwest-2026",
+    "state": "OR",
+    "species": "goose",
+    "seasonName": "Canada Goose, Southwest Zone",
+    "zone": "Southwest Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-09-16",
+        "note": "September Canada goose season"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-11-01",
+        "note": "regular season, split 1"
+      },
+      {
+        "open": "2026-11-10",
+        "close": "2027-01-31",
+        "note": "regular season, split 2"
+      }
+    ],
+    "bagLimit": "4 (regular season); 5 (September season)",
+    "possessionLimit": "12 (regular season); 15 (September season)",
+    "agency": "ODFW",
+    "sourceTitle": "2026-27 Oregon Game Bird Hunting Regulations",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/OR/26ORGB_LR_2026-07-02-194155_lhbz.pdf",
+    "sourceQuote": "Southwest Zone Sept. 12 - Sept. 16 | Southwest Zone Oct. 17 - Nov. 1 & Nov. 10 - Jan. 31, 2027 4 12",
+    "checkedDate": "2026-11-23",
+    "notes": "White-fronted and white goose dates match the regular Canada goose dates in this zone. Records cover Canada geese; statewide youth waterfowl days (Sept. 26-27) and veterans day (Feb. 6, 2027) also apply."
+  },
+  {
+    "id": "or-goose-south-coast-2026",
+    "state": "OR",
+    "species": "goose",
+    "seasonName": "Canada Goose, South Coast Zone",
+    "zone": "South Coast Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-12-06",
+        "note": "regular season, split 1"
+      },
+      {
+        "open": "2026-12-19",
+        "close": "2027-01-07",
+        "note": "regular season, split 2"
+      },
+      {
+        "open": "2027-02-20",
+        "close": "2027-03-10",
+        "note": "regular season, split 3"
+      }
+    ],
+    "bagLimit": "6",
+    "possessionLimit": "18",
+    "agency": "ODFW",
+    "sourceTitle": "2026-27 Oregon Game Bird Hunting Regulations",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/OR/26ORGB_LR_2026-07-02-194155_lhbz.pdf",
+    "sourceQuote": "South Coast Zone Oct. 3 - Dec. 6 & Dec. 19 - Jan. 7, 2027 & Feb. 20 - Mar. 10, 2027 6 18",
+    "checkedDate": "2026-11-23",
+    "notes": "No September Canada goose season in this zone. Records cover Canada geese; statewide youth waterfowl days (Sept. 26-27) and veterans day (Feb. 6, 2027) also apply."
+  },
+  {
+    "id": "or-goose-high-desert-blue-mtn-2026",
+    "state": "OR",
+    "species": "goose",
+    "seasonName": "Canada Goose, High Desert and Blue Mtn Zone",
+    "zone": "High Desert and Blue Mtn Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-09-16",
+        "note": "September Canada goose season"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-11-29",
+        "note": "regular season, split 1"
+      },
+      {
+        "open": "2026-12-15",
+        "close": "2027-01-31",
+        "note": "regular season, split 2"
+      }
+    ],
+    "bagLimit": "4 (regular season); 5 (September season)",
+    "possessionLimit": "12 (regular season); 15 (September season)",
+    "agency": "ODFW",
+    "sourceTitle": "2026-27 Oregon Game Bird Hunting Regulations",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/OR/26ORGB_LR_2026-07-02-194155_lhbz.pdf",
+    "sourceQuote": "Oct. 10 - Nov. 29 & Dec. 15 - Jan. 31, 2027 4 12 | Blue Mtn Zone",
+    "checkedDate": "2026-11-23",
+    "notes": "White-fronted and white goose dates differ (Oct. 10 - Nov. 29 & Jan. 16 - Mar. 10, 2027) with closures on some areas Feb. 1 to Mar. 10. Records cover Canada geese; statewide youth waterfowl days (Sept. 26-27) and veterans day (Feb. 6, 2027) also apply."
+  },
+  {
+    "id": "or-goose-mid-columbia-2026",
+    "state": "OR",
+    "species": "goose",
+    "seasonName": "Canada Goose, Mid-Columbia Zone",
+    "zone": "Mid-Columbia Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-09-16",
+        "note": "September Canada goose season"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-11-01",
+        "note": "regular season, split 1"
+      },
+      {
+        "open": "2026-11-10",
+        "close": "2027-01-31",
+        "note": "regular season, split 2"
+      }
+    ],
+    "bagLimit": "4 (regular season); 5 (September season)",
+    "possessionLimit": "12 (regular season); 15 (September season)",
+    "agency": "ODFW",
+    "sourceTitle": "2026-27 Oregon Game Bird Hunting Regulations",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/OR/26ORGB_LR_2026-07-02-194155_lhbz.pdf",
+    "sourceQuote": "Mid-Columbia Zone Sept. 12 - Sept. 16 | Mid-Columbia Zone Oct. 17 - Nov. 1 & Nov. 10 - Jan. 31, 2027 4 12",
+    "checkedDate": "2026-11-23",
+    "notes": "White-fronted and white goose dates differ (Oct. 17 - Nov. 1 & Nov. 10 - Jan. 14 2027 & Feb. 6 - Feb. 28, 2027). Records cover Canada geese; statewide youth waterfowl days (Sept. 26-27) and veterans day (Feb. 6, 2027) also apply."
+  },
+  {
+    "id": "or-dove-zone1-2026",
+    "state": "OR",
+    "species": "dove",
+    "seasonName": "Mourning Dove, Zone 1",
+    "zone": "Zone 1",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-30",
+        "note": "split 1"
+      },
+      {
+        "open": "2026-11-15",
+        "close": "2026-12-14",
+        "note": "split 2"
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": "45",
+    "agency": "ODFW",
+    "sourceTitle": "2026-27 Oregon Game Bird Hunting Regulations",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/OR/26ORGB_LR_2026-07-02-194155_lhbz.pdf",
+    "sourceQuote": "Zone 1 Sept. 1 - Sept. 30 & Nov. 15 - Dec. 14 | Mourning Dove 15 45",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "or-dove-zone2-2026",
+    "state": "OR",
+    "species": "dove",
+    "seasonName": "Mourning Dove, Zone 2",
+    "zone": "Zone 2",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-10-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": "45",
+    "agency": "ODFW",
+    "sourceTitle": "2026-27 Oregon Game Bird Hunting Regulations",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/OR/26ORGB_LR_2026-07-02-194155_lhbz.pdf",
+    "sourceQuote": "Mourning Dove 15 45 | Zone 2 Sept. 1 - Oct. 30",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "or-pheasant-statewide-2026",
+    "state": "OR",
+    "species": "pheasant",
+    "seasonName": "Rooster Pheasant",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "2",
+    "possessionLimit": "8",
+    "agency": "ODFW",
+    "sourceTitle": "2026-27 Oregon Game Bird Hunting Regulations",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/OR/26ORGB_LR_2026-07-02-194155_lhbz.pdf",
+    "sourceQuote": "2026-27 UPLAND GAME BIRD SEASONS | Rooster Pheasant Statewide (Additional Special Hunt below) Oct. 10 - Dec. 31 2 8",
+    "checkedDate": "2026-11-23",
+    "notes": "Year not printed on Dec. 31 close; table is the 2026-27 season. Western Oregon fee pheasant hunts run separately on four wildlife areas."
+  },
+  {
+    "id": "or-quail-western-2026",
+    "state": "OR",
+    "species": "quail",
+    "seasonName": "Quail (California and Mountain combined), Western Oregon",
+    "zone": "Western Oregon",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "10",
+    "possessionLimit": "30",
+    "agency": "ODFW",
+    "sourceTitle": "2026-27 Oregon Game Bird Hunting Regulations",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/OR/26ORGB_LR_2026-07-02-194155_lhbz.pdf",
+    "sourceQuote": "Western Oregon Sept. 1 - Jan. 31, 2027 10 30",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "or-quail-eastern-2026",
+    "state": "OR",
+    "species": "quail",
+    "seasonName": "Quail (California and Mountain combined), Eastern Oregon",
+    "zone": "Eastern Oregon",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "10 (may not include more than 2 Mtn Quail)",
+    "possessionLimit": "30 (may not include more than 6 Mtn Quail)",
+    "agency": "ODFW",
+    "sourceTitle": "2026-27 Oregon Game Bird Hunting Regulations",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/OR/26ORGB_LR_2026-07-02-194155_lhbz.pdf",
+    "sourceQuote": "Eastern Oregon Oct. 10 - Jan. 31, 2027 include more",
+    "checkedDate": "2026-11-23",
+    "notes": null
+  },
+  {
+    "id": "or-chukar-statewide-2026",
+    "state": "OR",
+    "species": "chukar",
+    "seasonName": "Partridge (Chukar and Hungarian [Gray] combined)",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "8",
+    "possessionLimit": "24",
+    "agency": "ODFW",
+    "sourceTitle": "2026-27 Oregon Game Bird Hunting Regulations",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/OR/26ORGB_LR_2026-07-02-194155_lhbz.pdf",
+    "sourceQuote": "Partridge (Chukar | and Hungarian [Gray] Statewide Oct. 10 - Jan. 31, 2027 8b 24b",
+    "checkedDate": "2026-11-23",
+    "notes": "Lower Klamath Hills Regulated Hunt Area: 2 daily, 4 possession."
+  },
+  {
+    "id": "or-turkey-fall-wmus14-30-2026",
+    "state": "OR",
+    "species": "turkey",
+    "seasonName": "Fall Wild Turkey, WMUs 14-30",
+    "zone": "WMUs 14-30",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2027-01-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "Two wild turkeys of either sex",
+    "possessionLimit": null,
+    "agency": "ODFW",
+    "sourceTitle": "2026-27 Oregon Game Bird Hunting Regulations",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/OR/26ORGB_LR_2026-07-02-194155_lhbz.pdf",
+    "sourceQuote": "2026-27 FALL WILD TURKEY SEASONS | Sept. 1 - Jan. 31, 2027 Fall 2 WMUs 14-30 | of either sex",
+    "checkedDate": "2026-11-23",
+    "notes": "Season bag limit 2."
+  },
+  {
+    "id": "or-turkey-fall-eastern-a-2026",
+    "state": "OR",
+    "species": "turkey",
+    "seasonName": "Fall Wild Turkey, eastern WMUs (Oct. 10 opener)",
+    "zone": "WMUs 36, 37 (west of FR 12 and south of the northern Ochoco NF boundary), 38, 40, 43-44, 45 (north of Wheeler Co line), 48 (north of Grant Co line), 49, 51-64, 65 (east of the western Malheur NF boundary), 66, 67, 69, 71, and 72",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2026-11-30",
+        "note": null
+      },
+      {
+        "open": "2026-12-01",
+        "close": "2027-01-31",
+        "note": "private lands by permission only"
+      }
+    ],
+    "bagLimit": "One wild turkey of either sex",
+    "possessionLimit": null,
+    "agency": "ODFW",
+    "sourceTitle": "2026-27 Oregon Game Bird Hunting Regulations",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/OR/26ORGB_LR_2026-07-02-194155_lhbz.pdf",
+    "sourceQuote": "Oct. 10 - Nov. 30 and | Dec. 1 - Jan. 31, 2027a | One wild turkey | From Dec. 1 - Jan. 31, 2027 hunting is allowed only on private lands by permission.",
+    "checkedDate": "2026-11-23",
+    "notes": "Season bag limit 1. Pairing of these dates with this WMU list is read from table layout; spot-check."
+  },
+  {
+    "id": "or-turkey-fall-eastern-b-2026",
+    "state": "OR",
+    "species": "turkey",
+    "seasonName": "Fall Wild Turkey, eastern WMUs (Sept. 1 opener)",
+    "zone": "WMUs 37 (east of FR 12 and north of the northern Ochoco NF boundary), 45 (south of Wheeler Co line), 46, 47, 48 (south of Grant Co line), 50, and 65 (west of the western Malheur NF boundary)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-11-30",
+        "note": null
+      },
+      {
+        "open": "2026-12-01",
+        "close": "2027-01-31",
+        "note": "private lands by permission only"
+      }
+    ],
+    "bagLimit": "One wild turkey of either sex",
+    "possessionLimit": null,
+    "agency": "ODFW",
+    "sourceTitle": "2026-27 Oregon Game Bird Hunting Regulations",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/OR/26ORGB_LR_2026-07-02-194155_lhbz.pdf",
+    "sourceQuote": "Sept. 1 - Nov. 30 and | Dec. 1 - Jan. 31, 2027a | From Dec. 1 - Jan. 31, 2027 hunting is allowed only on private lands by permission.",
+    "checkedDate": "2026-11-23",
+    "notes": "Season bag limit 1. Pairing of these dates with this WMU list is read from table layout; spot-check."
+  },
+  {
+    "id": "or-turkey-spring-2027",
+    "state": "OR",
+    "species": "turkey",
+    "seasonName": "2027 Spring Wild Turkey Season",
+    "zone": null,
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-04-10",
+        "close": "2027-04-11",
+        "note": "youth only"
+      },
+      {
+        "open": "2027-04-15",
+        "close": "2027-05-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "One male wild turkey or a wild turkey with a visible beard",
+    "possessionLimit": null,
+    "agency": "ODFW",
+    "sourceTitle": "2026-27 Oregon Game Bird Hunting Regulations",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/OR/26ORGB_LR_2026-07-02-194155_lhbz.pdf",
+    "sourceQuote": "2027 SPRING WILD TURKEY SEASON | Spring Apr. 15 - May 31, 2027 One male wild turkey or a wild turkey with | Youth Spring Apr. 10 - 11a and Apr. 15 - May 31, 2027 a visible beard",
+    "checkedDate": "2026-11-23",
+    "notes": "Statewide. Season bag limit 3 (no more than three 2027 spring tags)."
+  },
+  {
+    "id": "or-deer-western-general-2026",
+    "state": "OR",
+    "species": "deer",
+    "seasonName": "Western Oregon General Buck Deer (Any Legal Weapon)",
+    "zone": "Units 10 - 30.",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-11-06",
+        "note": "general season"
+      },
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-08",
+        "note": "youth 12-17 only, extension"
+      }
+    ],
+    "bagLimit": "One buck with visible antler",
+    "possessionLimit": null,
+    "agency": "ODFW",
+    "sourceTitle": "2026 Oregon Big Game Hunting Regulations",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/OR/26ORHD_LR3.pdf",
+    "sourceQuote": "General Any Legal Weapon One buck with | (General Oct. 3 - Nov. 6 Units 10 - 30. | Western Oregon General Buck Deer season Nov. 7-8, 2026.",
+    "checkedDate": "2026-11-23",
+    "notes": "Eastern Oregon deer is controlled hunts only (no general season). General archery not recorded."
+  },
+  {
+    "id": "or-elk-west-cascade-2026",
+    "state": "OR",
+    "species": "elk",
+    "seasonName": "General West Cascade",
+    "zone": "Units 16, 19, 21, 22, 29, and 30.",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-13",
+        "note": "any legal weapon"
+      }
+    ],
+    "bagLimit": "One bull elk",
+    "possessionLimit": null,
+    "agency": "ODFW",
+    "sourceTitle": "2026 Oregon Big Game Hunting Regulations",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/OR/26ORHD_LR3.pdf",
+    "sourceQuote": "ANY LEGAL WEAPON SEASONS | Nov. 7 - Nov. 13 One bull elk Units 16, 19, 21, 22, 29, and 30.",
+    "checkedDate": "2026-11-23",
+    "notes": "General archery elk season Aug. 29 - Sept. 27 not recorded. Other elk hunts are controlled (draw)."
+  },
+  {
+    "id": "or-elk-coast-1-2026",
+    "state": "OR",
+    "species": "elk",
+    "seasonName": "General Western Oregon Coast 1st Season",
+    "zone": "Units 11, 12, 14, 15, 17, 18, 20, 23, and 28.",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-14",
+        "close": "2026-11-17",
+        "note": "any legal weapon"
+      }
+    ],
+    "bagLimit": "One bull elk",
+    "possessionLimit": null,
+    "agency": "ODFW",
+    "sourceTitle": "2026 Oregon Big Game Hunting Regulations",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/OR/26ORHD_LR3.pdf",
+    "sourceQuote": "ANY LEGAL WEAPON SEASONS | Nov. 14 - Nov. 17 Oregon Coast 1st One bull elk Units 11, 12, 14, 15, 17, 18, 20, 23, and 28.",
+    "checkedDate": "2026-11-23",
+    "notes": "General archery elk season Aug. 29 - Sept. 27 not recorded. Other elk hunts are controlled (draw)."
+  },
+  {
+    "id": "or-elk-coast-2-2026",
+    "state": "OR",
+    "species": "elk",
+    "seasonName": "General Western Oregon Coast 2nd Season",
+    "zone": "Units 11, 15, 17, 18, 23, and 28 (bull); Units 12, 14, and 20 (spike)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-27",
+        "note": "any legal weapon"
+      }
+    ],
+    "bagLimit": "One bull elk in Units 11, 15, 17, 18, 23, and 28; one spike elk in Units 12, 14, and 20",
+    "possessionLimit": null,
+    "agency": "ODFW",
+    "sourceTitle": "2026 Oregon Big Game Hunting Regulations",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/OR/26ORHD_LR3.pdf",
+    "sourceQuote": "ANY LEGAL WEAPON SEASONS | General Western One bull elk Units 11, 15, 17, 18, 23, and 28. | Nov. 21 - Nov. 27 Oregon Coast 2nd | Season One spike elk Units 12, 14, and 20.",
+    "checkedDate": "2026-11-23",
+    "notes": "General archery elk season Aug. 29 - Sept. 27 not recorded. Other elk hunts are controlled (draw)."
+  },
+  {
+    "id": "or-elk-rocky-mtn-2-2026",
+    "state": "OR",
+    "species": "elk",
+    "seasonName": "General Eastern Oregon Rocky Mountain 2nd Season",
+    "zone": "Units 49, 50, 52, 53, 61, 62, 63, unit 48 north and west of N Fork John Day Rvr and Unit 51 north of Hwy 245 and Burnt Rvr Canyon Rd between Unity and Durkee.",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-15",
+        "note": "any legal weapon"
+      }
+    ],
+    "bagLimit": "One spike elk",
+    "possessionLimit": null,
+    "agency": "ODFW",
+    "sourceTitle": "2026 Oregon Big Game Hunting Regulations",
+    "sourceUrl": "https://www.eregulations.com/assets/docs/resources/OR/26ORHD_LR3.pdf",
+    "sourceQuote": "ANY LEGAL WEAPON SEASONS | Nov. 7 - Nov. 15 One spike elk John Day Rvr and Unit 51 north of Hwy 245 and Burnt Rvr",
+    "checkedDate": "2026-11-23",
+    "notes": "General archery elk season Aug. 29 - Sept. 27 not recorded. Other elk hunts are controlled (draw)."
+  }
+]
