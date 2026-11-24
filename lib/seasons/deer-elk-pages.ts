@@ -5,6 +5,7 @@ export const deerElkPages = {
     lede: "Deer and elk seasons from the Idaho Department of Fish and Game, one unit or group of units at a time.",
     searchLabel: "Unit number",
     searchPlaceholder: "For example, 2 or 4A",
+    emptyLabel: "No unit matches that number.",
     groupLabel: "unit groups",
   },
   wyoming: {
@@ -12,6 +13,7 @@ export const deerElkPages = {
     lede: "Deer and elk seasons from the Wyoming Game and Fish Department, one hunt area or group of areas at a time.",
     searchLabel: "Hunt area number",
     searchPlaceholder: "For example, 2",
+    emptyLabel: "No hunt area matches that number.",
     groupLabel: "hunt area groups",
   },
   colorado: {
@@ -22,7 +24,19 @@ export const deerElkPages = {
     drawLabel: "CPW big game",
     searchLabel: "Unit number",
     searchPlaceholder: "For example, 3",
+    emptyLabel: "No unit matches that number.",
     groupLabel: "unit groups",
+  },
+  montana: {
+    title: "Montana deer and elk by hunting district",
+    lede: "These are Montana's general deer and elk license seasons and over-the-counter B licenses by hunting district.",
+    drawLine: "Most nonresidents must draw their general license. Drawn B licenses and permits are not listed here.",
+    drawHref: "https://fwp.mt.gov/hunt/regulations",
+    drawLabel: "FWP deer and elk regulations",
+    searchLabel: "Hunting district",
+    searchPlaceholder: "For example, 100",
+    emptyLabel: "No hunting district matches that number.",
+    groupLabel: "district groups",
   },
 } as const;
 

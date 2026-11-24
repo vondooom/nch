@@ -28,6 +28,7 @@ export default function sitemap() {
     "/hunt/idaho/deer-elk",
     "/hunt/wyoming/deer-elk",
     "/hunt/colorado/deer-elk",
+    "/hunt/montana/deer-elk",
     ...states.map((item) => `/hunt/${item.slug}`),
     ...regions.map((region) => `/regions/${region.slug}`),
     ...states.filter((item) => zones.some((zone) => zone.state === item.slug)).map((item) => `/hunt/${item.slug}/zones`),

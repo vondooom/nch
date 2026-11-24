@@ -14,6 +14,20 @@ export const unlistedBigGame: Record<string, { species: string; line: string; li
       listLabel: "Open the unit list",
     },
   ],
+  montana: [
+    {
+      species: "Deer",
+      line: "General license seasons and over-the-counter B licenses are listed by hunting district.",
+      listHref: "/hunt/montana/deer-elk",
+      listLabel: "Open the district list",
+    },
+    {
+      species: "Elk",
+      line: "General license seasons and over-the-counter B licenses are listed by hunting district.",
+      listHref: "/hunt/montana/deer-elk",
+      listLabel: "Open the district list",
+    },
+  ],
   colorado: [
     {
       species: "Deer",
