@@ -11,6 +11,7 @@ const speciesLabels: Record<string, string> = {
   partridge: "Gray partridge",
   sharptail: "Sharp-tailed grouse",
   "prairie-chicken": "Prairie chicken",
+  woodcock: "Woodcock",
 };
 
 export type SpeciesNote = { species: string; content: ReactNode };

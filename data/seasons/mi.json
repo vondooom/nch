@@ -1,0 +1,731 @@
+[
+  {
+    "id": "mi-teal-early-2026",
+    "state": "MI",
+    "species": "duck",
+    "seasonName": "Early teal",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-09",
+        "note": "blue-winged and green-winged teal only; hunting begins at sunrise"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Michigan DNR",
+    "sourceTitle": "Michigan DNR, 2026 Michigan Waterfowl Hunting Regulations Summary",
+    "sourceUrl": "https://www.michigan.gov/dnr/-/media/Project/Websites/dnr/Documents/LED/digests/2026-Waterfowl-Hunting-Regs-Summary.pdf",
+    "sourceQuote": "Statewide Early teal1 Sept. 1–9 | Open for blue-winged teal and green-winged teal only. Hunting hours begin at sunrise.",
+    "checkedDate": "2026-11-23",
+    "notes": "The summary prints no separate teal bag limit in the extracted text; null. The 2026 regulations summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mi-duck-north-2026",
+    "state": "MI",
+    "species": "duck",
+    "seasonName": "Coot, duck and merganser, North Zone",
+    "zone": "North Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-20",
+        "note": "youth waterfowl weekend and veterans/active-duty days (statewide)"
+      },
+      {
+        "open": "2026-09-26",
+        "close": "2026-11-22",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-11-28",
+        "close": "2026-11-29",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 mallards (2 hens), 3 wood ducks, 2 redheads, 2 canvasbacks, 2 black ducks, 3 northern pintail; scaup 1 or 2 by date); mergansers 5 (2 hooded); coot 15 (possession 45)",
+    "possessionLimit": "18 (ducks)",
+    "agency": "Michigan DNR",
+    "sourceTitle": "Michigan DNR, 2026 Michigan Waterfowl Hunting Regulations Summary",
+    "sourceUrl": "https://www.michigan.gov/dnr/-/media/Project/Websites/dnr/Documents/LED/digests/2026-Waterfowl-Hunting-Regs-Summary.pdf",
+    "sourceQuote": "North Zone Coot, duck and Sept. 26 – Nov. 22 and Nov. 28–29 | The daily bag limit for ducks is six ducks of any species. There may be no more than four mallards (no more than two of which may be hens), three wood ducks, two redheads, two canvasbacks, two black ducks, three northern pintail, and one or two scaup (depending on season date). | For ducks, the possession limit is 18. | The daily bag limit for mergansers is five mergansers, only two of which can be hooded mergansers. | Coot 15 45 | Statewide Youth Waterfowl Sept. 19–20",
+    "checkedDate": "2026-11-23",
+    "notes": "The 2026 regulations summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mi-duck-middle-2026",
+    "state": "MI",
+    "species": "duck",
+    "seasonName": "Coot, duck and merganser, Middle Zone",
+    "zone": "Middle Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-20",
+        "note": "youth waterfowl weekend and veterans/active-duty days (statewide)"
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-11-29",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-12-12",
+        "close": "2026-12-13",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 mallards (2 hens), 3 wood ducks, 2 redheads, 2 canvasbacks, 2 black ducks, 3 northern pintail; scaup 1 or 2 by date); mergansers 5 (2 hooded); coot 15 (possession 45)",
+    "possessionLimit": "18 (ducks)",
+    "agency": "Michigan DNR",
+    "sourceTitle": "Michigan DNR, 2026 Michigan Waterfowl Hunting Regulations Summary",
+    "sourceUrl": "https://www.michigan.gov/dnr/-/media/Project/Websites/dnr/Documents/LED/digests/2026-Waterfowl-Hunting-Regs-Summary.pdf",
+    "sourceQuote": "Middle Zone Coot, duck and Oct. 3 – Nov. 29 and Dec. 12–13 | The daily bag limit for ducks is six ducks of any species. There may be no more than four mallards (no more than two of which may be hens), three wood ducks, two redheads, two canvasbacks, two black ducks, three northern pintail, and one or two scaup (depending on season date). | For ducks, the possession limit is 18. | The daily bag limit for mergansers is five mergansers, only two of which can be hooded mergansers. | Coot 15 45 | Statewide Youth Waterfowl Sept. 19–20",
+    "checkedDate": "2026-11-23",
+    "notes": "The 2026 regulations summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mi-duck-south-2026",
+    "state": "MI",
+    "species": "duck",
+    "seasonName": "Coot, duck and merganser, South Zone",
+    "zone": "South Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-09-20",
+        "note": "youth waterfowl weekend and veterans/active-duty days (statewide)"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-12-13",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2026-12-27",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 mallards (2 hens), 3 wood ducks, 2 redheads, 2 canvasbacks, 2 black ducks, 3 northern pintail; scaup 1 or 2 by date); mergansers 5 (2 hooded); coot 15 (possession 45)",
+    "possessionLimit": "18 (ducks)",
+    "agency": "Michigan DNR",
+    "sourceTitle": "Michigan DNR, 2026 Michigan Waterfowl Hunting Regulations Summary",
+    "sourceUrl": "https://www.michigan.gov/dnr/-/media/Project/Websites/dnr/Documents/LED/digests/2026-Waterfowl-Hunting-Regs-Summary.pdf",
+    "sourceQuote": "South Zone Coot, duck and Oct. 17 – Dec. 13 and Dec. 26–27 | The daily bag limit for ducks is six ducks of any species. There may be no more than four mallards (no more than two of which may be hens), three wood ducks, two redheads, two canvasbacks, two black ducks, three northern pintail, and one or two scaup (depending on season date). | For ducks, the possession limit is 18. | The daily bag limit for mergansers is five mergansers, only two of which can be hooded mergansers. | Coot 15 45 | Statewide Youth Waterfowl Sept. 19–20",
+    "checkedDate": "2026-11-23",
+    "notes": "The 2026 regulations summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mi-goose-dark-north-2026",
+    "state": "MI",
+    "species": "goose",
+    "seasonName": "Dark goose, North Zone",
+    "zone": "North Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-12-16",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 dark geese (Canada, white-fronted, brant; no more than 1 brant)",
+    "possessionLimit": "15",
+    "agency": "Michigan DNR",
+    "sourceTitle": "Michigan DNR, 2026 Michigan Waterfowl Hunting Regulations Summary",
+    "sourceUrl": "https://www.michigan.gov/dnr/-/media/Project/Websites/dnr/Documents/LED/digests/2026-Waterfowl-Hunting-Regs-Summary.pdf",
+    "sourceQuote": "North Zone Dark goose4 Sept. 1 – Dec. 16 | For the entire goose season, the dark goose aggregate daily bag limit for Canada geese, white-fronted geese and brant is five in any combination, only one of which can be a brant. | For dark geese, the possession limit is 15.",
+    "checkedDate": "2026-11-23",
+    "notes": "Dark goose includes brant, Canada goose and white-fronted goose. The 2026 regulations summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mi-goose-light-north-2026",
+    "state": "MI",
+    "species": "goose",
+    "seasonName": "Light goose, North Zone",
+    "zone": "North Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-12-16",
+        "note": null
+      }
+    ],
+    "bagLimit": "20 light geese (snow, blue-phase snow, Ross's)",
+    "possessionLimit": "60",
+    "agency": "Michigan DNR",
+    "sourceTitle": "Michigan DNR, 2026 Michigan Waterfowl Hunting Regulations Summary",
+    "sourceUrl": "https://www.michigan.gov/dnr/-/media/Project/Websites/dnr/Documents/LED/digests/2026-Waterfowl-Hunting-Regs-Summary.pdf",
+    "sourceQuote": "Sept. 1 – Dec. 16 | For the entire goose season, the light goose aggregate daily bag limit for snow geese, blue-phase snow geese and Ross’s geese is 20 in any combination. | For light geese, the possession limit is 60.",
+    "checkedDate": "2026-11-23",
+    "notes": "Light goose dates are printed on their own line for this zone. The 2026 regulations summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mi-goose-dark-middle-2026",
+    "state": "MI",
+    "species": "goose",
+    "seasonName": "Dark goose, Middle Zone",
+    "zone": "Middle Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-30",
+        "note": null
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-12-18",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 dark geese (Canada, white-fronted, brant; no more than 1 brant)",
+    "possessionLimit": "15",
+    "agency": "Michigan DNR",
+    "sourceTitle": "Michigan DNR, 2026 Michigan Waterfowl Hunting Regulations Summary",
+    "sourceUrl": "https://www.michigan.gov/dnr/-/media/Project/Websites/dnr/Documents/LED/digests/2026-Waterfowl-Hunting-Regs-Summary.pdf",
+    "sourceQuote": "Middle Zone Dark goose4 Sept. 1–30 and Oct. 3 – Dec. 18 | For the entire goose season, the dark goose aggregate daily bag limit for Canada geese, white-fronted geese and brant is five in any combination, only one of which can be a brant. | For dark geese, the possession limit is 15.",
+    "checkedDate": "2026-11-23",
+    "notes": "Dark goose includes brant, Canada goose and white-fronted goose. The 2026 regulations summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mi-goose-light-middle-2026",
+    "state": "MI",
+    "species": "goose",
+    "seasonName": "Light goose, Middle Zone",
+    "zone": "Middle Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-30",
+        "note": null
+      },
+      {
+        "open": "2026-10-03",
+        "close": "2026-12-18",
+        "note": null
+      }
+    ],
+    "bagLimit": "20 light geese (snow, blue-phase snow, Ross's)",
+    "possessionLimit": "60",
+    "agency": "Michigan DNR",
+    "sourceTitle": "Michigan DNR, 2026 Michigan Waterfowl Hunting Regulations Summary",
+    "sourceUrl": "https://www.michigan.gov/dnr/-/media/Project/Websites/dnr/Documents/LED/digests/2026-Waterfowl-Hunting-Regs-Summary.pdf",
+    "sourceQuote": "Sept. 1–30 and Oct. 3 – Dec. 18 | For the entire goose season, the light goose aggregate daily bag limit for snow geese, blue-phase snow geese and Ross’s geese is 20 in any combination. | For light geese, the possession limit is 60.",
+    "checkedDate": "2026-11-23",
+    "notes": "Light goose dates are printed on their own line for this zone. The 2026 regulations summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mi-goose-dark-south-2026",
+    "state": "MI",
+    "species": "goose",
+    "seasonName": "Dark goose, South Zone",
+    "zone": "South Zone (excluding Allegan County GMU and Muskegon County Wastewater System GMU)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-30",
+        "note": null
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-12-13",
+        "note": null
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2027-01-03",
+        "note": null
+      },
+      {
+        "open": "2027-02-06",
+        "close": "2027-02-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 dark geese (Canada, white-fronted, brant; no more than 1 brant)",
+    "possessionLimit": "15",
+    "agency": "Michigan DNR",
+    "sourceTitle": "Michigan DNR, 2026 Michigan Waterfowl Hunting Regulations Summary",
+    "sourceUrl": "https://www.michigan.gov/dnr/-/media/Project/Websites/dnr/Documents/LED/digests/2026-Waterfowl-Hunting-Regs-Summary.pdf",
+    "sourceQuote": "South Zone6 Dark goose4 Sept. 1–30, Oct. 17 – Dec. 13, Dec. 26 – Jan. 3 and Feb. 6–15 | For the entire goose season, the dark goose aggregate daily bag limit for Canada geese, white-fronted geese and brant is five in any combination, only one of which can be a brant. | For dark geese, the possession limit is 15.",
+    "checkedDate": "2026-11-23",
+    "notes": "Dark goose includes brant, Canada goose and white-fronted goose. The 2026 regulations summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mi-goose-light-south-2026",
+    "state": "MI",
+    "species": "goose",
+    "seasonName": "Light goose, South Zone",
+    "zone": "South Zone (excluding Allegan County GMU and Muskegon County Wastewater System GMU)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-09-30",
+        "note": null
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-12-13",
+        "note": null
+      },
+      {
+        "open": "2026-12-26",
+        "close": "2027-01-03",
+        "note": null
+      },
+      {
+        "open": "2027-02-06",
+        "close": "2027-02-15",
+        "note": null
+      }
+    ],
+    "bagLimit": "20 light geese (snow, blue-phase snow, Ross's)",
+    "possessionLimit": "60",
+    "agency": "Michigan DNR",
+    "sourceTitle": "Michigan DNR, 2026 Michigan Waterfowl Hunting Regulations Summary",
+    "sourceUrl": "https://www.michigan.gov/dnr/-/media/Project/Websites/dnr/Documents/LED/digests/2026-Waterfowl-Hunting-Regs-Summary.pdf",
+    "sourceQuote": "South Zone6 Light goose5 Sept. 1–30, Oct. 17 – Dec. 13, Dec. 26 – Jan. 3 and Feb. 6–15 | For the entire goose season, the light goose aggregate daily bag limit for snow geese, blue-phase snow geese and Ross’s geese is 20 in any combination. | For light geese, the possession limit is 60.",
+    "checkedDate": "2026-11-23",
+    "notes": "Light goose dates are printed on their own line for this zone. The 2026 regulations summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mi-quail-2026",
+    "state": "MI",
+    "species": "quail",
+    "seasonName": "Bobwhite quail",
+    "zone": "Select counties (27 southern Lower Peninsula counties listed in the summary)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-20",
+        "close": "2026-11-14",
+        "note": null
+      }
+    ],
+    "bagLimit": "5",
+    "possessionLimit": "10",
+    "agency": "Michigan DNR",
+    "sourceTitle": "Michigan DNR, 2026 Michigan Small Game Hunting Regulations Summary",
+    "sourceUrl": "https://www.michigan.gov/dnr/-/media/Project/Websites/dnr/Documents/LED/digests/small_game_regs_summary.pdf",
+    "sourceQuote": "Bobwhite quail hunting Select counties1 Oct. 20 – Nov. 14 | Bobwhite quail 5 10 | Bobwhite quail can be hunted in Branch, Calhoun, Clinton, Eaton, Genesee, Gratiot, Hillsdale,",
+    "checkedDate": "2026-11-23",
+    "notes": "All other counties are closed to quail. The 2026 regulations summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mi-pheasant-zone1-2026",
+    "state": "MI",
+    "species": "pheasant",
+    "seasonName": "Ring-necked pheasant, Zone 1",
+    "zone": "Zone 1 (Menominee County and portions of Delta, Dickinson, Iron and Marquette counties)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 (male only)",
+    "possessionLimit": "4",
+    "agency": "Michigan DNR",
+    "sourceTitle": "Michigan DNR, 2026 Michigan Small Game Hunting Regulations Summary",
+    "sourceUrl": "https://www.michigan.gov/dnr/-/media/Project/Websites/dnr/Documents/LED/digests/small_game_regs_summary.pdf",
+    "sourceQuote": "Ring-necked pheasant Zone 12 Oct. 10–31 | Ring-necked pheasant (male only) 2 4",
+    "checkedDate": "2026-11-23",
+    "notes": "A pheasant license is required on public lands (see summary). The 2026 regulations summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mi-pheasant-zone2-2026",
+    "state": "MI",
+    "species": "pheasant",
+    "seasonName": "Ring-necked pheasant, Zone 2",
+    "zone": "Zone 2",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-20",
+        "close": "2026-11-14",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 (male only)",
+    "possessionLimit": "4",
+    "agency": "Michigan DNR",
+    "sourceTitle": "Michigan DNR, 2026 Michigan Small Game Hunting Regulations Summary",
+    "sourceUrl": "https://www.michigan.gov/dnr/-/media/Project/Websites/dnr/Documents/LED/digests/small_game_regs_summary.pdf",
+    "sourceQuote": "Ring-necked pheasant Zone 2 Oct. 20 – Nov. 14 | Ring-necked pheasant (male only) 2 4",
+    "checkedDate": "2026-11-23",
+    "notes": "A pheasant license is required on public lands (see summary). The 2026 regulations summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mi-pheasant-zone3-2026",
+    "state": "MI",
+    "species": "pheasant",
+    "seasonName": "Ring-necked pheasant, Zone 3",
+    "zone": "Zone 3",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-20",
+        "close": "2026-11-14",
+        "note": null
+      },
+      {
+        "open": "2026-12-01",
+        "close": "2027-01-01",
+        "note": "December pheasant management unit (all of Zone 3)"
+      }
+    ],
+    "bagLimit": "2 (male only)",
+    "possessionLimit": "4",
+    "agency": "Michigan DNR",
+    "sourceTitle": "Michigan DNR, 2026 Michigan Small Game Hunting Regulations Summary",
+    "sourceUrl": "https://www.michigan.gov/dnr/-/media/Project/Websites/dnr/Documents/LED/digests/small_game_regs_summary.pdf",
+    "sourceQuote": "Ring-necked pheasant Zone 3 Oct. 20 – Nov. 14 | Dec. 1 – Jan. 1 Go to the Pheasant license section | December pheasant management unit includes all of Zone 3. | Ring-necked pheasant (male only) 2 4",
+    "checkedDate": "2026-11-23",
+    "notes": "A pheasant license is required on public lands (see summary). The 2026 regulations summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mi-grouse-ruffed-2026",
+    "state": "MI",
+    "species": "grouse",
+    "seasonName": "Ruffed grouse",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-15",
+        "close": "2026-11-14",
+        "note": null
+      },
+      {
+        "open": "2026-12-01",
+        "close": "2027-01-01",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 (Zones 1 and 2); 3 (Zone 3)",
+    "possessionLimit": "10 (Zones 1 and 2); 6 (Zone 3)",
+    "agency": "Michigan DNR",
+    "sourceTitle": "Michigan DNR, 2026 Michigan Small Game Hunting Regulations Summary",
+    "sourceUrl": "https://www.michigan.gov/dnr/-/media/Project/Websites/dnr/Documents/LED/digests/small_game_regs_summary.pdf",
+    "sourceQuote": "Ruffed grouse hunting Statewide Sept. 15 – Nov. 14 | and Dec. 1 – Jan. 1 | Ruffed grouse (Zone 1 and Zone 2) 5 10 | Ruffed grouse (Zone 3) 3 6",
+    "checkedDate": "2026-11-23",
+    "notes": "The 2026 regulations summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mi-sharptail-2026",
+    "state": "MI",
+    "species": "sharptail",
+    "seasonName": "Sharp-tailed grouse",
+    "zone": "Zone 1",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2026-10-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "2 (season limit 6)",
+    "possessionLimit": "4",
+    "agency": "Michigan DNR",
+    "sourceTitle": "Michigan DNR, 2026 Michigan Small Game Hunting Regulations Summary",
+    "sourceUrl": "https://www.michigan.gov/dnr/-/media/Project/Websites/dnr/Documents/LED/digests/small_game_regs_summary.pdf",
+    "sourceQuote": "Sharp-tailed grouse Zone 1 Oct. 10–31 | Sharp-tailed grouse 2 4* | *Sharp-tailed grouse have a season limit of six birds.",
+    "checkedDate": "2026-11-23",
+    "notes": "Sharp-tailed grouse stamp required. The 2026 regulations summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mi-woodcock-2026",
+    "state": "MI",
+    "species": "woodcock",
+    "seasonName": "Woodcock",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-15",
+        "close": "2026-10-29",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "Michigan DNR",
+    "sourceTitle": "Michigan DNR, 2026 Michigan Small Game Hunting Regulations Summary",
+    "sourceUrl": "https://www.michigan.gov/dnr/-/media/Project/Websites/dnr/Documents/LED/digests/small_game_regs_summary.pdf",
+    "sourceQuote": "Woodcock hunting Statewide Sept. 15 – Oct. 29 | Woodcock 3 9",
+    "checkedDate": "2026-11-23",
+    "notes": "Woodcock stamp and HIP required. The 2026 regulations summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mi-deer-archery-2026",
+    "state": "MI",
+    "species": "deer",
+    "seasonName": "Deer, Archery",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-01",
+        "close": "2026-11-14",
+        "note": "early segment"
+      },
+      {
+        "open": "2026-12-01",
+        "close": "2027-01-01",
+        "note": "late segment"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Michigan DNR",
+    "sourceTitle": "Michigan DNR, 2026 Michigan Deer Hunting Regulations Summary",
+    "sourceUrl": "https://www.michigan.gov/dnr/-/media/Project/Websites/dnr/Documents/LED/digests/2026_deer_regs_summary.pdf",
+    "sourceQuote": "Archery (early Statewide Oct. 1 – Nov. 14 | Archery (late Statewide Dec. 1 – Jan. 1",
+    "checkedDate": "2026-11-23",
+    "notes": "Deer bag limits depend on license type and DMU (not recorded). The 2026 regulations summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mi-deer-regular-firearm-2026",
+    "state": "MI",
+    "species": "deer",
+    "seasonName": "Deer, Regular firearm",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-15",
+        "close": "2026-11-30",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Michigan DNR",
+    "sourceTitle": "Michigan DNR, 2026 Michigan Deer Hunting Regulations Summary",
+    "sourceUrl": "https://www.michigan.gov/dnr/-/media/Project/Websites/dnr/Documents/LED/digests/2026_deer_regs_summary.pdf",
+    "sourceQuote": "Regular Statewide Nov. 15–30",
+    "checkedDate": "2026-11-23",
+    "notes": "Deer bag limits depend on license type and DMU (not recorded). The 2026 regulations summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mi-deer-liberty-2026",
+    "state": "MI",
+    "species": "deer",
+    "seasonName": "Deer, Liberty Hunt (youth and qualified hunters with disabilities)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-09-13",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Michigan DNR",
+    "sourceTitle": "Michigan DNR, 2026 Michigan Deer Hunting Regulations Summary",
+    "sourceUrl": "https://www.michigan.gov/dnr/-/media/Project/Websites/dnr/Documents/LED/digests/2026_deer_regs_summary.pdf",
+    "sourceQuote": "Liberty Hunt Statewide Sept. 12–13 | Qualified youth and hunters with disabilities",
+    "checkedDate": "2026-11-23",
+    "notes": "Deer bag limits depend on license type and DMU (not recorded). The 2026 regulations summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mi-deer-december-firearm-lp-2026",
+    "state": "MI",
+    "species": "deer",
+    "seasonName": "Deer, December firearm",
+    "zone": "Lower Peninsula DMUs",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-04",
+        "close": "2026-12-06",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Michigan DNR",
+    "sourceTitle": "Michigan DNR, 2026 Michigan Deer Hunting Regulations Summary",
+    "sourceUrl": "https://www.michigan.gov/dnr/-/media/Project/Websites/dnr/Documents/LED/digests/2026_deer_regs_summary.pdf",
+    "sourceQuote": "December Lower Peninsula Dec. 4–6",
+    "checkedDate": "2026-11-23",
+    "notes": "Deer bag limits depend on license type and DMU (not recorded). The 2026 regulations summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mi-deer-muzzleloader-up-2026",
+    "state": "MI",
+    "species": "deer",
+    "seasonName": "Deer, Muzzleloader",
+    "zone": "Upper Peninsula DMUs",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-04",
+        "close": "2026-12-06",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Michigan DNR",
+    "sourceTitle": "Michigan DNR, 2026 Michigan Deer Hunting Regulations Summary",
+    "sourceUrl": "https://www.michigan.gov/dnr/-/media/Project/Websites/dnr/Documents/LED/digests/2026_deer_regs_summary.pdf",
+    "sourceQuote": "Muzzleloader Upper Peninsula Dec. 4–6",
+    "checkedDate": "2026-11-23",
+    "notes": "Deer bag limits depend on license type and DMU (not recorded). The 2026 regulations summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mi-deer-early-antlerless-lp-2026",
+    "state": "MI",
+    "species": "deer",
+    "seasonName": "Deer, Early antlerless firearm",
+    "zone": "Lower Peninsula DMUs (excluding 145 and 245)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-12",
+        "close": "2026-09-13",
+        "note": "antlerless only"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Michigan DNR",
+    "sourceTitle": "Michigan DNR, 2026 Michigan Deer Hunting Regulations Summary",
+    "sourceUrl": "https://www.michigan.gov/dnr/-/media/Project/Websites/dnr/Documents/LED/digests/2026_deer_regs_summary.pdf",
+    "sourceQuote": "Early Lower Peninsula Sept. 12–13 | DMUs (excluding",
+    "checkedDate": "2026-11-23",
+    "notes": "Deer bag limits depend on license type and DMU (not recorded). The 2026 regulations summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mi-deer-late-antlerless-lp-2026",
+    "state": "MI",
+    "species": "deer",
+    "seasonName": "Deer, Late antlerless firearm",
+    "zone": "Lower Peninsula DMUs (excluding 145 and 245)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-12-07",
+        "close": "2027-01-01",
+        "note": "antlerless only"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Michigan DNR",
+    "sourceTitle": "Michigan DNR, 2026 Michigan Deer Hunting Regulations Summary",
+    "sourceUrl": "https://www.michigan.gov/dnr/-/media/Project/Websites/dnr/Documents/LED/digests/2026_deer_regs_summary.pdf",
+    "sourceQuote": "Late antlerless Lower Peninsula Dec. 7 – Jan. 1, | firearm | 2027",
+    "checkedDate": "2026-11-23",
+    "notes": "Deer bag limits depend on license type and DMU (not recorded). The 2026 regulations summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mi-turkey-fall-tmu-i-2026",
+    "state": "MI",
+    "species": "turkey",
+    "seasonName": "Fall turkey, TMU I (Hunt 0401)",
+    "zone": "Turkey Management Unit I",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-15",
+        "close": "2026-11-14",
+        "note": null
+      }
+    ],
+    "bagLimit": "One turkey (any sex) per fall turkey license",
+    "possessionLimit": null,
+    "agency": "Michigan DNR",
+    "sourceTitle": "Michigan DNR, 2026 Michigan Fall Turkey Hunting Regulations Summary",
+    "sourceUrl": "https://www.michigan.gov/dnr/-/media/Project/Websites/dnr/Documents/LED/digests/2026_fall_turkey_regs_summary.pdf",
+    "sourceQuote": "I Sept. 15 – Nov. 14 Unlimited 0401 | You can harvest one turkey (any sex) per fall turkey license.",
+    "checkedDate": "2026-11-23",
+    "notes": "License quota unlimited. The 2026 regulations summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mi-turkey-fall-tmu-m-2026",
+    "state": "MI",
+    "species": "turkey",
+    "seasonName": "Fall turkey, TMU M (Hunt 0402)",
+    "zone": "Turkey Management Unit M (Upper Peninsula)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-15",
+        "close": "2026-11-14",
+        "note": null
+      }
+    ],
+    "bagLimit": "One turkey (any sex) per fall turkey license",
+    "possessionLimit": null,
+    "agency": "Michigan DNR",
+    "sourceTitle": "Michigan DNR, 2026 Michigan Fall Turkey Hunting Regulations Summary",
+    "sourceUrl": "https://www.michigan.gov/dnr/-/media/Project/Websites/dnr/Documents/LED/digests/2026_fall_turkey_regs_summary.pdf",
+    "sourceQuote": "M Sept. 15 – Nov. 14 2,200 0402 | In TMU M, | license availability is subject to a license quota and sold on a first-come, first- | You can harvest one turkey (any sex) per fall turkey license.",
+    "checkedDate": "2026-11-23",
+    "notes": "Quota of 2,200 licenses sold first-come, first-served (not a drawing). The 2026 regulations summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mi-turkey-spring-0234-2027",
+    "state": "MI",
+    "species": "turkey",
+    "seasonName": "Spring turkey, Hunt 0234 (statewide guaranteed license)",
+    "zone": "Statewide (public and private lands in TMU M and NN; private lands only in TMU ZZ)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-05-01",
+        "close": "2027-05-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "One bearded turkey per spring license",
+    "possessionLimit": null,
+    "agency": "Michigan DNR",
+    "sourceTitle": "Michigan DNR, 2027 Michigan Spring Turkey Hunting Regulations Summary",
+    "sourceUrl": "https://www.michigan.gov/dnr/-/media/Project/Websites/dnr/Documents/LED/digests/2027_MI_spring_turkey_regs.pdf",
+    "sourceQuote": "Statewide May 1 – May 31 Unlimited 0234 | Hunt 0234 is a statewide, guaranteed spring turkey license that does not | You can harvest one bearded turkey per spring turkey license.",
+    "checkedDate": "2026-11-23",
+    "notes": "Unlimited quota, no drawing. The 2026 regulations summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mi-turkey-spring-0301-2027",
+    "state": "MI",
+    "species": "turkey",
+    "seasonName": "Spring turkey, Hunt 0301 (TMU ZZ private land)",
+    "zone": "TMU ZZ (southern Lower Peninsula), private land only",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-04-17",
+        "close": "2027-05-31",
+        "note": null
+      }
+    ],
+    "bagLimit": "One bearded turkey per spring license",
+    "possessionLimit": null,
+    "agency": "Michigan DNR",
+    "sourceTitle": "Michigan DNR, 2027 Michigan Spring Turkey Hunting Regulations Summary",
+    "sourceUrl": "https://www.michigan.gov/dnr/-/media/Project/Websites/dnr/Documents/LED/digests/2027_MI_spring_turkey_regs.pdf",
+    "sourceQuote": "ZZ* April 17 – May 31 Unlimited 0301 | *Private land only | Hunt 0301 is a guaranteed spring turkey license, valid only for private lands | You can harvest one bearded turkey per spring turkey license.",
+    "checkedDate": "2026-11-23",
+    "notes": "Unlimited quota, no drawing. The 2026 regulations summary prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  }
+]

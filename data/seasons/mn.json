@@ -1,0 +1,563 @@
+[
+  {
+    "id": "mn-teal-early-2026",
+    "state": "MN",
+    "species": "duck",
+    "seasonName": "Early Teal",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-09",
+        "note": "teal only; shooting begins at sunrise"
+      }
+    ],
+    "bagLimit": "6 combined (blue-winged, green-winged, cinnamon)",
+    "possessionLimit": "Three times the daily limit",
+    "agency": "Minnesota DNR",
+    "sourceTitle": "Minnesota DNR, Waterfowl hunting page (2026 seasons)",
+    "sourceUrl": "https://www.dnr.state.mn.us/hunting/waterfowl/index.html",
+    "sourceQuote": "2026 seasons Early Teal Zone Dates Statewide Sept. 5-9 | Blue-winged, green-winged, cinnamon 6 combined | The possession limit for all migratory birds is three times the daily limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Teal restrictions apply within the Mille Lacs, Leech Lake and White Earth reservations. The 2026 seasons list on this page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mn-duck-north-2026",
+    "state": "MN",
+    "species": "duck",
+    "seasonName": "Ducks, coots, mergansers, North Zone",
+    "zone": "North Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-11-24",
+        "note": null
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 mallards (2 hens), 3 wood ducks, 2 redheads, 2 canvasbacks, 2 black ducks, 3 pintails; scaup 1 or 2 by date); mergansers 5 (no more than 2 hooded); coots and moorhens 15",
+    "possessionLimit": "Three times the daily limit",
+    "agency": "Minnesota DNR",
+    "sourceTitle": "Minnesota DNR, Waterfowl hunting page (2026 seasons)",
+    "sourceUrl": "https://www.dnr.state.mn.us/hunting/waterfowl/index.html",
+    "sourceQuote": "Ducks, coots, mergansers Zone Dates North Sept. 26-Nov. 24 | The combined daily limit for all duck species listed – not including goose – is 6. | Mallard 4 (2 hens) Wood duck 3 Redhead 2 Canvasback 2 Black duck 2 Pintail 3 All others 6 | Mergansers 5 (no more than 2 of which may be hooded mergansers) | Coots & moorhen (gallinule) Species Limit Coots & moorhen (gallinule) 15 | The possession limit for all migratory birds is three times the daily limit. | Scaup (bluebill) Zone Dates Limit | North Sep.26-Oct. 10 1 Oct. 11-Nov. 24 2",
+    "checkedDate": "2026-11-23",
+    "notes": "A statewide Youth Waterfowl Hunt is listed Sept. 12-13, 2026 on the DNR waterfowl season dates page (not recorded as a period here). Scaup limit is 1 then 2 by date in each zone. The 2026 seasons list on this page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mn-duck-central-2026",
+    "state": "MN",
+    "species": "duck",
+    "seasonName": "Ducks, coots, mergansers, Central Zone",
+    "zone": "Central Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-10-04",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-11-29",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 mallards (2 hens), 3 wood ducks, 2 redheads, 2 canvasbacks, 2 black ducks, 3 pintails; scaup 1 or 2 by date); mergansers 5 (no more than 2 hooded); coots and moorhens 15",
+    "possessionLimit": "Three times the daily limit",
+    "agency": "Minnesota DNR",
+    "sourceTitle": "Minnesota DNR, Waterfowl hunting page (2026 seasons)",
+    "sourceUrl": "https://www.dnr.state.mn.us/hunting/waterfowl/index.html",
+    "sourceQuote": "Central Sept. 26-Oct. 4; Oct 10-Nov 29 | The combined daily limit for all duck species listed – not including goose – is 6. | Mallard 4 (2 hens) Wood duck 3 Redhead 2 Canvasback 2 Black duck 2 Pintail 3 All others 6 | Mergansers 5 (no more than 2 of which may be hooded mergansers) | Coots & moorhen (gallinule) Species Limit Coots & moorhen (gallinule) 15 | The possession limit for all migratory birds is three times the daily limit. | Scaup (bluebill) Zone Dates Limit | Central Sep.26-Oct. 15 1 Oct. 16-Nov. 30 2",
+    "checkedDate": "2026-11-23",
+    "notes": "A statewide Youth Waterfowl Hunt is listed Sept. 12-13, 2026 on the DNR waterfowl season dates page (not recorded as a period here). Scaup limit is 1 then 2 by date in each zone. The printed 2026 regulations book showed Central Zone coot/merganser dates as Oct. 11-Nov. 30; DNR's Aug. 5, 2026 update corrected Central Zone duck dates, and this record uses the web page. The 2026 seasons list on this page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mn-duck-south-2026",
+    "state": "MN",
+    "species": "duck",
+    "seasonName": "Ducks, coots, mergansers, South Zone",
+    "zone": "South Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-10-04",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2026-12-06",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "6 ducks (no more than 4 mallards (2 hens), 3 wood ducks, 2 redheads, 2 canvasbacks, 2 black ducks, 3 pintails; scaup 1 or 2 by date); mergansers 5 (no more than 2 hooded); coots and moorhens 15",
+    "possessionLimit": "Three times the daily limit",
+    "agency": "Minnesota DNR",
+    "sourceTitle": "Minnesota DNR, Waterfowl hunting page (2026 seasons)",
+    "sourceUrl": "https://www.dnr.state.mn.us/hunting/waterfowl/index.html",
+    "sourceQuote": "South Sept. 26-Oct. 4; Oct. 17- Dec. 6 | The combined daily limit for all duck species listed – not including goose – is 6. | Mallard 4 (2 hens) Wood duck 3 Redhead 2 Canvasback 2 Black duck 2 Pintail 3 All others 6 | Mergansers 5 (no more than 2 of which may be hooded mergansers) | Coots & moorhen (gallinule) Species Limit Coots & moorhen (gallinule) 15 | The possession limit for all migratory birds is three times the daily limit. | Scaup (bluebill) Zone Dates Limit | South Sep.26-Oct. 22 1 Oct. 23-Dec. 6 2",
+    "checkedDate": "2026-11-23",
+    "notes": "A statewide Youth Waterfowl Hunt is listed Sept. 12-13, 2026 on the DNR waterfowl season dates page (not recorded as a period here). Scaup limit is 1 then 2 by date in each zone. The 2026 seasons list on this page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mn-goose-early-2026",
+    "state": "MN",
+    "species": "goose",
+    "seasonName": "Early goose season",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-05",
+        "close": "2026-09-20",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 combined Canada, white-fronted and brant; 20 snow, blue snow and Ross's",
+    "possessionLimit": "Three times the daily limit",
+    "agency": "Minnesota DNR",
+    "sourceTitle": "Minnesota DNR, Waterfowl hunting page (2026 seasons)",
+    "sourceUrl": "https://www.dnr.state.mn.us/hunting/waterfowl/index.html",
+    "sourceQuote": "Early goose (statewide) Sept. 5-20 | Canada, white-fronted, brant Sept. 5-20 5 combined Snow, blue snow, Ross's Sept. 5-20 20 | The possession limit for all migratory birds is three times the daily limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "The printed 2026 regulations book lists Sept. 6-21 for light geese in the early season; this record uses the web page. The 2026 seasons list on this page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mn-goose-north-2026",
+    "state": "MN",
+    "species": "goose",
+    "seasonName": "Regular goose season, North Zone",
+    "zone": "North Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-12-25",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 combined Canada, white-fronted and brant; 20 snow, blue snow and Ross's",
+    "possessionLimit": "Three times the daily limit",
+    "agency": "Minnesota DNR",
+    "sourceTitle": "Minnesota DNR, Waterfowl hunting page (2026 seasons)",
+    "sourceUrl": "https://www.dnr.state.mn.us/hunting/waterfowl/index.html",
+    "sourceQuote": "North zone Species Dates Limit Canada, white-fronted, brant Sept. 26-Dec. 25 5 combined Snow, blue snow, Ross's 20 | The possession limit for all migratory birds is three times the daily limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Spring light goose conservation order Feb. 18-Apr. 30, 2027 is listed on the DNR waterfowl season dates page (not recorded). The 2026 seasons list on this page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mn-goose-central-2026",
+    "state": "MN",
+    "species": "goose",
+    "seasonName": "Regular goose season, Central Zone",
+    "zone": "Central Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-10-04",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-10-10",
+        "close": "2026-12-30",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "5 combined Canada, white-fronted and brant; 20 snow, blue snow and Ross's",
+    "possessionLimit": "Three times the daily limit",
+    "agency": "Minnesota DNR",
+    "sourceTitle": "Minnesota DNR, Waterfowl hunting page (2026 seasons)",
+    "sourceUrl": "https://www.dnr.state.mn.us/hunting/waterfowl/index.html",
+    "sourceQuote": "Central zone Species Dates Limit Canada, White-fronted, Brant Sept. 26-Oct. 4; Oct. 10-Dec. 30 5 combined Snow, Blue snow, Ross's 20 | The possession limit for all migratory birds is three times the daily limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Spring light goose conservation order Feb. 18-Apr. 30, 2027 is listed on the DNR waterfowl season dates page (not recorded). The 2026 seasons list on this page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mn-goose-south-2026",
+    "state": "MN",
+    "species": "goose",
+    "seasonName": "Regular goose season, South Zone",
+    "zone": "South Zone",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-26",
+        "close": "2026-10-04",
+        "note": "first segment"
+      },
+      {
+        "open": "2026-10-17",
+        "close": "2027-01-06",
+        "note": "second segment"
+      }
+    ],
+    "bagLimit": "5 combined Canada, white-fronted and brant; 20 snow, blue snow and Ross's",
+    "possessionLimit": "Three times the daily limit",
+    "agency": "Minnesota DNR",
+    "sourceTitle": "Minnesota DNR, Waterfowl hunting page (2026 seasons)",
+    "sourceUrl": "https://www.dnr.state.mn.us/hunting/waterfowl/index.html",
+    "sourceQuote": "South zone Species Dates Limit Canada, White-fronted, Brant Sept. 26-Oct. 4; Oct. 17-Jan. 6, 2027 5 combined Snow, Blue snow, Ross's 20 | The possession limit for all migratory birds is three times the daily limit.",
+    "checkedDate": "2026-11-23",
+    "notes": "Spring light goose conservation order Feb. 18-Apr. 30, 2027 is listed on the DNR waterfowl season dates page (not recorded). The 2026 seasons list on this page prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mn-grouse-ruffed-2026",
+    "state": "MN",
+    "species": "grouse",
+    "seasonName": "Ruffed and spruce grouse",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2027-01-03",
+        "note": null
+      }
+    ],
+    "bagLimit": "5 combined (no more than 2 spruce grouse)",
+    "possessionLimit": "10 combined (no more than 4 spruce grouse)",
+    "agency": "Minnesota DNR",
+    "sourceTitle": "Minnesota DNR, 2026 Minnesota Hunting and Trapping Regulations",
+    "sourceUrl": "https://www.dnr.state.mn.us/hunting_regs.pdf",
+    "sourceQuote": "Ruffed and spruce Sept. 19-Jan. 3 5 combined; 10 combined;",
+    "checkedDate": "2026-11-23",
+    "notes": "Daily limit continues 'no more than 2 can be spruce grouse'; possession 'no more than 4 can be spruce grouse' (table cells). Zone 'Statewide' is from the DNR upland birds season dates page (the regulations table prints no area). The 2026 regulations small game table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mn-sharptail-northwest-2026",
+    "state": "MN",
+    "species": "sharptail",
+    "seasonName": "Sharp-tailed grouse",
+    "zone": "Northwest zone (east central closed)",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-11-30",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "6",
+    "agency": "Minnesota DNR",
+    "sourceTitle": "Minnesota DNR, 2026 Minnesota Hunting and Trapping Regulations",
+    "sourceUrl": "https://www.dnr.state.mn.us/hunting_regs.pdf",
+    "sourceQuote": "Sharp-tailed grouse Sept. 19-Nov. 30 3 6 | (Northwest zone | only, east central | closed)",
+    "checkedDate": "2026-11-23",
+    "notes": "DNR's Aug. 5, 2026 update lists a correction to the Northwestern Zone sharp-tailed grouse dates on page 58; the page 57 table and the web season page both show Sept. 19-Nov. 30. The 2026 regulations small game table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mn-partridge-2026",
+    "state": "MN",
+    "species": "partridge",
+    "seasonName": "Hungarian partridge",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2027-01-03",
+        "note": null
+      }
+    ],
+    "bagLimit": "5",
+    "possessionLimit": "10",
+    "agency": "Minnesota DNR",
+    "sourceTitle": "Minnesota DNR, 2026 Minnesota Hunting and Trapping Regulations",
+    "sourceUrl": "https://www.dnr.state.mn.us/hunting_regs.pdf",
+    "sourceQuote": "Hungarian Sept. 19-Jan. 3 5 10",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone 'Statewide' is from the DNR upland birds season dates page (the regulations table prints no area). The 2026 regulations small game table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mn-pheasant-2026",
+    "state": "MN",
+    "species": "pheasant",
+    "seasonName": "Pheasant",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-10",
+        "close": "2027-01-03",
+        "note": "shooting hours 9 a.m. to sunset"
+      }
+    ],
+    "bagLimit": "2 roosters (3 roosters Dec. 1-Jan. 3)",
+    "possessionLimit": "6 roosters (9 roosters Dec. 1-Jan. 3)",
+    "agency": "Minnesota DNR",
+    "sourceTitle": "Minnesota DNR, 2026 Minnesota Hunting and Trapping Regulations",
+    "sourceUrl": "https://www.dnr.state.mn.us/hunting_regs.pdf",
+    "sourceQuote": "Pheasant Oct. 10-Jan. 3 2 roosters 6 roosters 9 a.m. to sunset | (3 roosters (9 roosters | Dec. 1-Jan. 3) Dec. 1-Jan. 3)",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone 'Statewide' is from the DNR upland birds season dates page (the regulations table prints no area). The 2026 regulations small game table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mn-dove-2026",
+    "state": "MN",
+    "species": "dove",
+    "seasonName": "Mourning doves",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-01",
+        "close": "2026-11-29",
+        "note": null
+      }
+    ],
+    "bagLimit": "15",
+    "possessionLimit": "45",
+    "agency": "Minnesota DNR",
+    "sourceTitle": "Minnesota DNR, 2026 Minnesota Hunting and Trapping Regulations",
+    "sourceUrl": "https://www.dnr.state.mn.us/hunting_regs.pdf",
+    "sourceQuote": "Mourning doves Sept. 1-Nov. 29 15 45",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone 'Statewide' is from the DNR upland birds season dates page (the regulations table prints no area). The 2026 regulations small game table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mn-woodcock-2026",
+    "state": "MN",
+    "species": "woodcock",
+    "seasonName": "Woodcock",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-11-02",
+        "note": null
+      }
+    ],
+    "bagLimit": "3",
+    "possessionLimit": "9",
+    "agency": "Minnesota DNR",
+    "sourceTitle": "Minnesota DNR, 2026 Minnesota Hunting and Trapping Regulations",
+    "sourceUrl": "https://www.dnr.state.mn.us/hunting_regs.pdf",
+    "sourceQuote": "Woodcock Sept. 19-Nov. 2 3 9",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone 'Statewide' is from the DNR upland birds season dates page (the regulations table prints no area). The 2026 regulations small game table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mn-turkey-fall-2026",
+    "state": "MN",
+    "species": "turkey",
+    "seasonName": "Fall wild turkey",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-03",
+        "close": "2026-11-01",
+        "note": null
+      }
+    ],
+    "bagLimit": "1 either sex (season limit)",
+    "possessionLimit": "1 (season limit)",
+    "agency": "Minnesota DNR",
+    "sourceTitle": "Minnesota DNR, 2026 Minnesota Hunting and Trapping Regulations",
+    "sourceUrl": "https://www.dnr.state.mn.us/hunting_regs.pdf",
+    "sourceQuote": "Fall wild turkey Oct. 3-Nov. 1 1 either sex 1 (season limit) | Fall season—bag limit is 1 wild turkey of either sex.",
+    "checkedDate": "2026-11-23",
+    "notes": "Zone 'Statewide' is from the DNR upland birds season dates page (the regulations table prints no area). The 2026 regulations small game table prints month and day only (or the year only on some dates); years assigned for the 2026-27 season (Jul-Dec = 2026, Jan-Jun = 2027)."
+  },
+  {
+    "id": "mn-turkey-spring-2027",
+    "state": "MN",
+    "species": "turkey",
+    "seasonName": "Spring wild turkey (2027)",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2027-04-14",
+        "close": "2027-05-31",
+        "note": "youth"
+      },
+      {
+        "open": "2027-04-14",
+        "close": "2027-05-31",
+        "note": "archery"
+      },
+      {
+        "open": "2027-04-14",
+        "close": "2027-04-20",
+        "note": "Season A"
+      },
+      {
+        "open": "2027-04-21",
+        "close": "2027-04-27",
+        "note": "Season B"
+      },
+      {
+        "open": "2027-04-28",
+        "close": "2027-05-04",
+        "note": "Season C"
+      },
+      {
+        "open": "2027-05-05",
+        "close": "2027-05-11",
+        "note": "Season D"
+      },
+      {
+        "open": "2027-05-12",
+        "close": "2027-05-18",
+        "note": "Season E"
+      },
+      {
+        "open": "2027-05-19",
+        "close": "2027-05-31",
+        "note": "Season F"
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Minnesota DNR",
+    "sourceTitle": "Minnesota DNR, Upland birds season dates page",
+    "sourceUrl": "https://www.dnr.state.mn.us/hunting/upland-birds/seasons.html",
+    "sourceQuote": "04/14/27 - 05/31/27 Spring wild turkey - Archery Statewide 04/14/27 - 04/20/27 Spring wild turkey - Season A Statewide 04/14/27 - 05/31/27 Spring wild turkey - Youth Statewide 04/21/27 - 04/27/27 Spring wild turkey - Season B Statewide 04/28/27 - 05/4/27 Spring wild turkey - Season C Statewide 05/5/27 - 05/11/27 Spring wild turkey - Season D Statewide 05/12/27 - 05/18/27 Spring wild turkey - Season E Statewide 05/19/27 - 05/31/27 Spring wild turkey - Season F Statewide",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag limit is not on this page; the 2026 regulations (effective through June 30, 2027) say the spring bag limit is 1 wild turkey with a visible beard. A spring WMA lottery (deadline Feb. 12, 2027) applies to some WMAs. Years as printed in the source."
+  },
+  {
+    "id": "mn-deer-archery-2026",
+    "state": "MN",
+    "species": "deer",
+    "seasonName": "Deer - Archery",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-09-19",
+        "close": "2026-12-31",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Minnesota DNR",
+    "sourceTitle": "Minnesota DNR, Hunting season dates page",
+    "sourceUrl": "https://www.dnr.state.mn.us/hunting/seasons.html",
+    "sourceQuote": "09/19/26 - 12/31/26 Deer - Archery Statewide",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag limits are set by deer permit area (DPA) and are not recorded; the 2026 regulations say the statewide bag limit for legal bucks is 1 unless otherwise specified. Years as printed in the source."
+  },
+  {
+    "id": "mn-deer-youth-2026",
+    "state": "MN",
+    "species": "deer",
+    "seasonName": "Deer - Youth",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-10-15",
+        "close": "2026-10-18",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Minnesota DNR",
+    "sourceTitle": "Minnesota DNR, Hunting season dates page",
+    "sourceUrl": "https://www.dnr.state.mn.us/hunting/seasons.html",
+    "sourceQuote": "10/15/26 - 10/18/26 Deer - Youth Statewide",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag limits are set by deer permit area (DPA) and are not recorded; the 2026 regulations say the statewide bag limit for legal bucks is 1 unless otherwise specified. Years as printed in the source."
+  },
+  {
+    "id": "mn-deer-firearm-a-200-300-2026",
+    "state": "MN",
+    "species": "deer",
+    "seasonName": "Deer - Firearm (Season A)",
+    "zone": "200 & 300 Series permit areas",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-15",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Minnesota DNR",
+    "sourceTitle": "Minnesota DNR, Hunting season dates page",
+    "sourceUrl": "https://www.dnr.state.mn.us/hunting/seasons.html",
+    "sourceQuote": "11/7/26 - 11/15/26 Deer - Firearm (Season A) 200 & 300 Series permit areas",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag limits are set by deer permit area (DPA) and are not recorded; the 2026 regulations say the statewide bag limit for legal bucks is 1 unless otherwise specified. Years as printed in the source."
+  },
+  {
+    "id": "mn-deer-firearm-a-100-2026",
+    "state": "MN",
+    "species": "deer",
+    "seasonName": "Deer - Firearm (Season A)",
+    "zone": "100 Series permit areas",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-07",
+        "close": "2026-11-22",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Minnesota DNR",
+    "sourceTitle": "Minnesota DNR, Hunting season dates page",
+    "sourceUrl": "https://www.dnr.state.mn.us/hunting/seasons.html",
+    "sourceQuote": "11/7/26 - 11/22/26 Deer - Firearm (Season A) 100 Series permit areas",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag limits are set by deer permit area (DPA) and are not recorded; the 2026 regulations say the statewide bag limit for legal bucks is 1 unless otherwise specified. Years as printed in the source."
+  },
+  {
+    "id": "mn-deer-firearm-b-300-2026",
+    "state": "MN",
+    "species": "deer",
+    "seasonName": "Deer - Firearm (Season B)",
+    "zone": "300 Series permit areas",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-21",
+        "close": "2026-11-29",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Minnesota DNR",
+    "sourceTitle": "Minnesota DNR, Hunting season dates page",
+    "sourceUrl": "https://www.dnr.state.mn.us/hunting/seasons.html",
+    "sourceQuote": "11/21/26 - 11/29/26 Deer - Firearm (Season B) 300 Series permit areas",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag limits are set by deer permit area (DPA) and are not recorded; the 2026 regulations say the statewide bag limit for legal bucks is 1 unless otherwise specified. Years as printed in the source."
+  },
+  {
+    "id": "mn-deer-muzzleloader-2026",
+    "state": "MN",
+    "species": "deer",
+    "seasonName": "Deer - Muzzleloader",
+    "zone": "Statewide",
+    "seasonYear": "2026-27",
+    "periods": [
+      {
+        "open": "2026-11-28",
+        "close": "2026-12-13",
+        "note": null
+      }
+    ],
+    "bagLimit": null,
+    "possessionLimit": null,
+    "agency": "Minnesota DNR",
+    "sourceTitle": "Minnesota DNR, Hunting season dates page",
+    "sourceUrl": "https://www.dnr.state.mn.us/hunting/seasons.html",
+    "sourceQuote": "11/28/26 - 12/13/26 Deer - Muzzleloader Statewide",
+    "checkedDate": "2026-11-23",
+    "notes": "Bag limits are set by deer permit area (DPA) and are not recorded; the 2026 regulations say the statewide bag limit for legal bucks is 1 unless otherwise specified. Years as printed in the source."
+  }
+]
