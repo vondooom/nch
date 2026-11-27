@@ -1,12 +1,34 @@
 "use client";
 
+import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import { LngLatBounds, Map, NavigationControl, Popup, setWorkerUrl, type MapLayerMouseEvent } from "maplibre-gl";
+import { LngLatBounds, Map, NavigationControl, Popup, setWorkerUrl, type LngLatBoundsLike, type MapLayerMouseEvent } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { postalToSlug } from "@/lib/maps/postal";
 
 /** OpenFreeMap public style. Commercial use is allowed. https://openfreemap.org/tos/ */
 export const OPENFREEMAP_STYLE = "https://tiles.openfreemap.org/styles/liberty";
+
+// Keep the national map useful at phone width without fitting Alaska's
+// antimeridian-spanning outline together with the contiguous states.
+const US_VIEWS = {
+  contiguous: { label: "Lower 48", frame: [[-125, 24], [-66.5, 49.5]], limits: [[-152, 3], [-42, 70]] },
+  alaska: { label: "Alaska", frame: [[-188.5, 51], [-129.5, 72]], limits: [[-225, 32], [-96, 83]] },
+  hawaii: { label: "Hawaii", frame: [[-160.5, 18.8], [-154.7, 22.5]], limits: [[-166, 13], [-149, 28]] },
+} satisfies Record<string, { label: string; frame: LngLatBoundsLike; limits: LngLatBoundsLike }>;
+type UsView = keyof typeof US_VIEWS;
+
+function frameUsView(map: Map, region: UsView) {
+  const { frame, limits } = US_VIEWS[region];
+  map.setMinZoom(0);
+  map.setMaxBounds(null);
+  const camera = map.cameraForBounds(frame, { padding: 16 });
+  if (!camera || camera.zoom === undefined) return;
+  map.setMinZoom(camera.zoom);
+  map.setMaxBounds(limits);
+  map.jumpTo(camera);
+}
 
 type FeatureCollection = {
   type: "FeatureCollection";
@@ -23,8 +45,11 @@ function extendBounds(coords: unknown, bounds: LngLatBounds) {
 }
 
 export function HuntMap({ variant }: { variant: "national" | "california" }) {
+  const router = useRouter();
   const node = useRef<HTMLDivElement>(null);
   const mapRef = useRef<Map | null>(null);
+  const regionRef = useRef<UsView>("contiguous");
+  const [region, setRegion] = useState<UsView>("contiguous");
   const [deerOn, setDeerOn] = useState(true);
   const [waterfowlOn, setWaterfowlOn] = useState(true);
   const [status, setStatus] = useState("Loading the map.");
@@ -37,9 +62,15 @@ export function HuntMap({ variant }: { variant: "national" | "california" }) {
       style: OPENFREEMAP_STYLE,
       center: variant === "california" ? [-119.5, 37.2] : [-98, 39],
       zoom: variant === "california" ? 5 : 3,
+      ...(variant === "national" ? { dragRotate: false, pitchWithRotate: false, maxPitch: 0 } : {}),
     });
     map.addControl(new NavigationControl({ showCompass: false }), "top-right");
     mapRef.current = map;
+    if (variant === "national") {
+      map.touchZoomRotate.disableRotation();
+      frameUsView(map, regionRef.current);
+      map.on("resize", () => frameUsView(map, regionRef.current));
+    }
 
     map.on("load", async () => {
       try {
@@ -58,14 +89,11 @@ export function HuntMap({ variant }: { variant: "national" | "california" }) {
           source: "states",
           paint: { "line-color": "#C75B12", "line-width": 1.5 },
         });
-        const bounds = new LngLatBounds();
-        for (const feature of states.features) extendBounds(feature.geometry.coordinates, bounds);
-        if (!bounds.isEmpty()) map.fitBounds(bounds, { padding: 24, duration: 0 });
         setStatus(`${states.features.length} state outlines loaded.`);
         map.on("click", "states", (event) => {
           const code = event.features?.[0]?.properties?.STUSPS;
           const slug = typeof code === "string" ? postalToSlug[code] : undefined;
-          if (slug) window.location.assign(`/hunt/${slug}`);
+          if (slug) router.push(`/hunt/${slug}`);
         });
         map.on("mouseenter", "states", () => {
           map.getCanvas().style.cursor = "pointer";
@@ -130,7 +158,7 @@ export function HuntMap({ variant }: { variant: "national" | "california" }) {
       map.remove();
       mapRef.current = null;
     };
-  }, [variant]);
+  }, [router, variant]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -165,9 +193,33 @@ export function HuntMap({ variant }: { variant: "national" | "california" }) {
           </label>
         </div>
       ) : (
-        <p className="mb-3 font-serif text-[15px] text-[#5C543F]">Click a state to open its hub.</p>
+        <div className="mb-3 flex flex-wrap items-center gap-x-4 gap-y-2">
+          <div className="flex flex-wrap gap-1.5" role="group" aria-label="U.S. map views">
+            {(Object.keys(US_VIEWS) as UsView[]).map((view) => (
+              <button
+                key={view}
+                type="button"
+                aria-pressed={region === view}
+                className="min-h-11 rounded-sm border border-[#5C543F] px-3 font-serif text-sm text-[#3B3526] aria-pressed:bg-[#2F4A2C] aria-pressed:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C75B12]"
+                onClick={() => {
+                  regionRef.current = view;
+                  setRegion(view);
+                  if (mapRef.current) frameUsView(mapRef.current, view);
+                }}
+              >
+                {US_VIEWS[view].label}
+              </button>
+            ))}
+          </div>
+          <p className="font-serif text-[15px] text-[#5C543F]">
+            Select a state to open its hub, or <Link href="/hunt" className="underline">browse the state list</Link>.
+          </p>
+        </div>
       )}
-      <div ref={node} className="h-[480px] w-full border-2 border-[#211D14]" />
+      <div
+        ref={node}
+        className={`w-full border-2 border-[#211D14] ${variant === "national" ? "h-[320px] sm:h-[480px]" : "h-[480px]"}`}
+      />
       <p className="mt-2 font-serif text-[14px] text-[#5C543F]" data-map-status={status}>
         {status}
       </p>
